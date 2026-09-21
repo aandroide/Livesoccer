@@ -6,6 +6,7 @@ LiveSoccerTV scraper per MandraKodi (bypass Cloudflare con Playwright).
 Legge le pagine competizione di livesoccertv.com e genera:
   output/<slug>.json      formato MandraKodi (SetViewMode + items)
   output/all_events.json  dati strutturati per il matching con canali.json
+  output/eventi.json      versione minima: competizione, titolo, data, ora (solo partite da giocare o in corso)
 
 Struttura reale della pagina (verificata su HTML salvato):
   tr.drow                       intestazione del giorno
@@ -400,8 +401,18 @@ def main():
         with open(path, "w", encoding="utf-8") as f:
             json.dump({"events": merged}, f, ensure_ascii=False, indent=2)
 
+        recent = now - timedelta(hours=3)
+        minimal = [
+            {"competizione": e["competition"], "titolo": e["title"], "data": e["date"], "ora": e["time"]}
+            for e in merged
+            if e["status"] != "finished" and datetime.fromisoformat(e["kickoff"]) >= recent
+        ]
+        with open(os.path.join(OUT_DIR, "eventi.json"), "w", encoding="utf-8") as f:
+            json.dump({"eventi": minimal}, f, ensure_ascii=False, indent=2)
+
     sys.exit(1 if failures == len(comps) else 0)
 
 
 if __name__ == "__main__":
     main()
+
