@@ -101,6 +101,11 @@ def log(msg):
     print(msg, flush=True)
 
 
+def warn(msg):
+    """Riga di avviso: in GitHub Actions compare come annotazione gialla nel riepilogo del run."""
+    print(f"::warning::{msg}", flush=True)
+
+
 def normalize(raw_rows, comp, now):
     events = []
     tz = ZoneInfo(TARGET_TZ)
@@ -187,13 +192,71 @@ def build_kodi_json(comp, events):
     return {"SetViewMode": "51", "items": items}
 
 
+CHALLENGE_TITLES = ("just a moment", "un momento", "un attimo", "attention required", "checking your browser")
+CHALLENGE_TEXT = ("verifica di sicurezza", "security verification", "verify you are human",
+                  "verifica di essere umano", "just a moment", "un momento", "un attimo")
+
+
+def is_challenge(page):
+    """True se la pagina e' la verifica Cloudflare (titolo o testo, anche in italiano)."""
+    try:
+        t = (page.title() or "").lower()
+        if any(k in t for k in CHALLENGE_TITLES):
+            return True
+        if page.query_selector('iframe[src*="challenges.cloudflare.com"]'):
+            return True
+        body = (page.inner_text("body", timeout=2000) or "").lower()
+        return len(body) < 600 and any(k in body for k in CHALLENGE_TEXT)
+    except Exception:
+        return True
+
+
 def cloudflare_wait(page, seconds=60):
     for _ in range(seconds):
-        t = (page.title() or "").lower()
-        if not any(k in t for k in ("just a moment", "un attimo", "attention required", "checking your browser")):
+        if not is_challenge(page):
             return True
         page.wait_for_timeout(1000)
     return False
+
+
+def try_click_turnstile(page):
+    """Tentativo a basso costo: clic sul riquadro della verifica, se presente."""
+    try:
+        frame = page.query_selector('iframe[src*="challenges.cloudflare.com"]')
+        box = frame.bounding_box() if frame else None
+        if box:
+            page.mouse.click(box["x"] + 28, box["y"] + box["height"] / 2)
+            log("Clic sul riquadro di verifica")
+    except Exception:
+        pass
+
+
+def wait_for_rows(page, seconds=90):
+    """Attende che compaiano le righe partita: e' il vero segnale che Cloudflare ha lasciato passare."""
+    for i in range(seconds):
+        try:
+            if page.query_selector("tr.matchrow"):
+                return True
+        except Exception:
+            pass
+        if i and i % 10 == 0:
+            try_click_turnstile(page)
+        page.wait_for_timeout(1000)
+    return False
+
+
+def dump_debug(page, comp, tag):
+    os.makedirs(DEBUG_DIR, exist_ok=True)
+    base = os.path.join(DEBUG_DIR, f"{comp['slug']}_{tag}")
+    try:
+        page.screenshot(path=base + ".png")
+    except Exception:
+        pass
+    try:
+        with open(base + ".html", "w", encoding="utf-8") as f:
+            f.write(page.content())
+    except Exception:
+        pass
 
 
 def launch_browser(pw):
@@ -220,27 +283,40 @@ def new_context(browser):
     return ctx
 
 
+def warmup(ctx):
+    """Visita la home una volta per ottenere il cookie Cloudflare, poi lo riusa per tutte le pagine."""
+    page = ctx.new_page()
+    try:
+        page.goto(BASE + "/it/", wait_until="domcontentloaded", timeout=60000)
+        ok = cloudflare_wait(page)
+        page.wait_for_timeout(2000)
+        log("Warm up home: " + ("ok" if ok else "challenge non superato"))
+    except Exception as e:
+        log(f"Warm up fallito: {str(e).splitlines()[0]}")
+    finally:
+        page.close()
+
+
 def scrape_competition(ctx, comp, debug):
     page = ctx.new_page()
-    url = BASE + comp["path"]
-    log(f"Carico {url}")
-    page.goto(url, wait_until="domcontentloaded", timeout=60000)
-    if not cloudflare_wait(page):
-        os.makedirs(DEBUG_DIR, exist_ok=True)
-        page.screenshot(path=os.path.join(DEBUG_DIR, f"{comp['slug']}_blocked.png"))
-        raise RuntimeError("Cloudflare non superato")
     try:
-        page.wait_for_selector("tr.matchrow", timeout=20000)
-    except Exception:
-        log("Nessuna riga tr.matchrow trovata (calendario vuoto o struttura cambiata)")
-    if debug:
-        os.makedirs(DEBUG_DIR, exist_ok=True)
-        with open(os.path.join(DEBUG_DIR, f"{comp['slug']}.html"), "w", encoding="utf-8") as f:
-            f.write(page.content())
-    rows = page.evaluate(EXTRACT_JS)
-    page.close()
-    log(f"Righe partita estratte: {len(rows)}")
-    return rows
+        url = BASE + comp["path"]
+        log(f"Carico {url}")
+        page.goto(url, wait_until="domcontentloaded", timeout=60000)
+        if not wait_for_rows(page):
+            blocked = is_challenge(page)
+            dump_debug(page, comp, "blocked" if blocked else "norows")
+            raise RuntimeError("Cloudflare non superato (verifica di sicurezza)" if blocked
+                               else "Nessuna riga partita trovata (pagina non caricata o struttura cambiata)")
+        if debug:
+            os.makedirs(DEBUG_DIR, exist_ok=True)
+            with open(os.path.join(DEBUG_DIR, f"{comp['slug']}.html"), "w", encoding="utf-8") as f:
+                f.write(page.content())
+        rows = page.evaluate(EXTRACT_JS)
+        log(f"Righe partita estratte: {len(rows)}")
+        return rows
+    finally:
+        page.close()
 
 
 def get_rows(ctx, comp, args):
@@ -272,20 +348,26 @@ def main():
     with sync_playwright() as pw:
         browser = launch_browser(pw)
         ctx = new_context(browser)
+        if not args.html:
+            warmup(ctx)
         for n, comp in enumerate(comps):
             if n and not args.html:
-                time.sleep(random.uniform(3, 6))
-            rows = None
-            for attempt in (1, 2):
+                time.sleep(random.uniform(5, 10))
+            rows, last_err = None, ""
+            for attempt in (1, 2, 3):
                 try:
                     rows = get_rows(ctx, comp, args)
                     break
                 except Exception as e:
-                    log(f"ERRORE {comp['name']} (tentativo {attempt}): {e}")
-                    if attempt == 1:
+                    last_err = str(e).splitlines()[0] if str(e) else repr(e)
+                    log(f"ERRORE {comp['name']} (tentativo {attempt}): {last_err}")
+                    if attempt < 3:
                         ctx.close()
+                        time.sleep(random.uniform(8, 15))
                         ctx = new_context(browser)
+                        warmup(ctx)
             if rows is None:
+                warn(f"{comp['name']} non aggiornata: {last_err}")
                 failures += 1
                 continue
             if args.debug:
@@ -293,7 +375,7 @@ def main():
                     log(f"  RAW: {r['dv']} | {r['timer']} | {r['title']} | {r['score']} | {[c['name'] for c in r['channels']]}")
             events = normalize(rows, comp, now)
             if not events:
-                log(f"{comp['name']}: nessun evento, non sovrascrivo il JSON esistente")
+                warn(f"{comp['name']}: nessun evento utile, JSON esistente lasciato com'e'")
                 failures += 1
                 continue
             with open(os.path.join(OUT_DIR, f"{comp['slug']}.json"), "w", encoding="utf-8") as f:
@@ -303,8 +385,21 @@ def main():
         browser.close()
 
     if all_events:
-        with open(os.path.join(OUT_DIR, "all_events.json"), "w", encoding="utf-8") as f:
-            json.dump({"events": all_events}, f, ensure_ascii=False, indent=2)
+        done = {e["competition"] for e in all_events}
+        path = os.path.join(OUT_DIR, "all_events.json")
+        old = []
+        try:
+            with open(path, encoding="utf-8") as f:
+                old = json.load(f).get("events", [])
+        except Exception:
+            pass
+        limit = now - timedelta(hours=12)
+        keep = [e for e in old
+                if e.get("competition") not in done and datetime.fromisoformat(e["kickoff"]) >= limit]
+        merged = sorted(keep + all_events, key=lambda e: e["kickoff"])
+        with open(path, "w", encoding="utf-8") as f:
+            json.dump({"events": merged}, f, ensure_ascii=False, indent=2)
+
     sys.exit(1 if failures == len(comps) else 0)
 
 
