@@ -403,7 +403,13 @@ def main():
 
         recent = now - timedelta(hours=3)
         minimal = [
-            {"competizione": e["competition"], "titolo": e["title"], "data": e["date"], "ora": e["time"]}
+            {
+                "competizione": e["competition"],
+                "titolo": e["title"],
+                "data": e["date"],
+                "ora": e["time"],
+                "canali": [c["name"] for c in e["channels"]],
+            }
             for e in merged
             if e["status"] != "finished" and datetime.fromisoformat(e["kickoff"]) >= recent
         ]
@@ -415,4 +421,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
