@@ -188,6 +188,7 @@ def build_kodi_json(comp, events):
             "title": f"[COLOR {color}]{ev['time']}[/COLOR] {ev['title']}{tag}",
             "link": "ignoreme",
             "thumbnail": THUMB,
+            "canali": [c["name"] for c in ev["channels"]],
             "info": f"{ev['competition']}\nCanali: {names}\n{ev['match_url']}",
         })
     return {"SetViewMode": "51", "items": items}
