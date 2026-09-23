@@ -207,18 +207,33 @@ def row_is_relevant(r, now):
     return not (finished and now - kick > timedelta(hours=12))
 
 
+def wait_challenge_with_click(page, seconds=30):
+    """Come cloudflare_wait, ma prova anche a cliccare il riquadro di verifica (Turnstile)
+    ogni pochi secondi, esattamente come gia' fa wait_for_rows per la pagina campionato: a
+    volte la verifica non passa da sola col solo attendere, serve il clic. Senza il clic
+    ogni pagina resta bloccata per l'intera attesa e fallisce, come successo a tutte le
+    partite di Serie A in un run (vedi log del 23/09/2026, sempre 32s esatti a fallire)."""
+    for i in range(seconds):
+        if not is_challenge(page):
+            return True
+        if i and i % 5 == 0:
+            try_click_turnstile(page)
+        page.wait_for_timeout(1000)
+    return not is_challenge(page)
+
+
 def fetch_match_channels_it(ctx, url, timeout=45000):
     """Apre la pagina di una singola partita e restituisce {"italia": [...], "mondo": [...]}
     letti dalla tabella "Copertura internazionale" (vedi MATCH_CHANNELS_JS), o None se non
     trova nulla/qualcosa va storto (in quel caso il chiamante tiene i canali gia' letti
     dalla pagina campionato). Ad aprire tante pagine di fila ogni tanto compare la verifica
-    di sicurezza di Cloudflare: senza aspettare che passi, si leggerebbe la pagina di verifica
-    invece della partita vera, che non ha questa tabella, e il risultato sembrerebbe un
-    errore quando non lo e'."""
+    di sicurezza di Cloudflare: senza aspettare che passi (e provare a cliccarla, vedi
+    wait_challenge_with_click), si leggerebbe la pagina di verifica invece della partita
+    vera, che non ha questa tabella, e il risultato sembrerebbe un errore quando non lo e'."""
     page = ctx.new_page()
     try:
         page.goto(url, wait_until="domcontentloaded", timeout=timeout)
-        if is_challenge(page) and not cloudflare_wait(page, seconds=30):
+        if is_challenge(page) and not wait_challenge_with_click(page, seconds=30):
             log(f"  canali IT: verifica di sicurezza non superata per {url}")
             return None
         return page.evaluate(MATCH_CHANNELS_JS)
