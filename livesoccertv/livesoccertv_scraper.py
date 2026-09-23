@@ -23,6 +23,10 @@ Uso locale (Windows/Linux):
 Variabili ambiente:
   HEADLESS=0        browser visibile (sotto xvfb in Actions e' piu' affidabile)
   BROWSER_CHANNEL   chrome (default, usa Google Chrome vero) oppure chromium
+  PROXY_SERVER      indirizzo di un proxy con IP italiano, es. "http://utente:password@host:porta".
+                     Senza questa variabile, livesoccertv.com mostra i canali del paese da cui
+                     arriva la richiesta: da un runner GitHub (Stati Uniti) le partite con diritti
+                     venduti anche all'estero (soprattutto Serie A) escono con i canali sbagliati.
   OUT_DIR           cartella output (default output)
 
 Opzioni:
@@ -34,6 +38,7 @@ import argparse
 import json
 import os
 import random
+import re
 import sys
 import time
 from datetime import datetime, timedelta
@@ -45,9 +50,13 @@ BASE = "https://www.livesoccertv.com"
 
 # Aggiungere qui altri campionati: slug, nome mostrato, path della pagina
 COMPETITIONS = [
-    {"slug": "serie-a", "name": "Serie A", "path": "/it/competitions/italy/serie-a/"},
-    {"slug": "serie-b", "name": "Serie B", "path": "/it/competitions/italy/serie-b/"},
-    {"slug": "serie-c", "name": "Serie C", "path": "/it/competitions/italy/lega-pro-1/"},
+    # channels_from_match_page: apre anche la pagina della singola partita e legge il blocco
+    # dati strutturati (ld+json), che elenca i canali di tutti i paesi gia' etichettati per
+    # nazione: da li' si prende solo "Italy", cosi' il risultato non dipende da dove gira lo
+    # scraper (vedi normalize/fetch_match_channels_it per il motivo per cui serve).
+    {"slug": "serie-a", "name": "Serie A", "path": "/it/competitions/italy/serie-a/", "channels_from_match_page": True},
+    {"slug": "serie-b", "name": "Serie B", "path": "/it/competitions/italy/serie-b/", "channels_from_match_page": True},
+    {"slug": "serie-c", "name": "Serie C", "path": "/it/competitions/italy/lega-pro-1/", "channels_from_match_page": True},
 ]
 
 TARGET_TZ = "Europe/Rome"
@@ -55,6 +64,20 @@ OUT_DIR = os.environ.get("OUT_DIR", "output")
 DEBUG_DIR = os.environ.get("DEBUG_DIR", "debug")
 HEADLESS = os.environ.get("HEADLESS", "1") != "0"
 BROWSER_CHANNEL = os.environ.get("BROWSER_CHANNEL", "chrome")
+# Indirizzo di un proxy con IP italiano, es. "http://utente:password@host:porta". Facoltativo:
+# di norma resta vuoto e non si tocca. Serve solo se un giorno si decide di avere anche i canali
+# italiani per la Serie A (vedi nota sotto); finche' resta vuoto lo scraper si collega con l'IP
+# normale del runner e va bene cosi'.
+PROXY_SERVER = os.environ.get("PROXY_SERVER", "")
+
+# Nota su Serie A: livesoccertv.com mostra canali diversi secondo il paese di chi si collega.
+# Da un runner GitHub (Stati Uniti) la Serie A, che ha diritti venduti anche all'estero, esce con
+# i canali del Nord/Centro America (Paramount+, Disney+, fuboTV, ecc.) invece di DAZN/Sky Italia.
+# Scelta presa il 23/09/2026: va bene cosi'. In Italia la Serie A si sa gia' che e' su DAZN e Sky,
+# quindi il dato estero e' un'informazione in piu' invece che un problema da correggere. Serie B
+# e C non hanno questo comportamento (i loro diritti sono solo italiani) e restano corrette da
+# qualunque IP. Se in futuro si volesse comunque il dato italiano anche per la Serie A, la strada
+# e' impostare PROXY_SERVER con un proxy vero con IP italiano, non un filtro sui nomi dei canali.
 
 THUMB = "https://i.imgur.com/7wR0JXI.png"
 
@@ -97,6 +120,34 @@ EXTRACT_JS = r"""
 }
 """
 
+# Legge tutti i blocchi <script type="application/ld+json"> della pagina di una singola
+# partita e restituisce i nomi dei canali il cui areaServed e' l'Italia. Questi dati sono
+# pensati per i motori di ricerca (SEO), quindi elencano tutti i paesi insieme, gia'
+# etichettati per nome: a differenza della lista canali mostrata a video, non dovrebbero
+# cambiare secondo il paese di chi visita la pagina.
+MATCH_CHANNELS_JS = r"""
+() => {
+  const scripts = Array.from(document.querySelectorAll('script[type="application/ld+json"]'));
+  for (const s of scripts) {
+    try {
+      const data = JSON.parse(s.textContent);
+      const graph = Array.isArray(data['@graph']) ? data['@graph'] : [data];
+      const italia = [];
+      for (const item of graph) {
+        if (item['@type'] !== 'BroadcastEvent') continue;
+        const pub = item.publishedOn || {};
+        const area = pub.areaServed && pub.areaServed.name;
+        if (area === 'Italy' || area === 'Italia') {
+          if (pub.name) italia.push(pub.name);
+        }
+      }
+      if (italia.length) return italia;
+    } catch (e) { /* prova il prossimo blocco */ }
+  }
+  return null;
+}
+"""
+
 
 def log(msg):
     print(msg, flush=True)
@@ -105,6 +156,41 @@ def log(msg):
 def warn(msg):
     """Riga di avviso: in GitHub Actions compare come annotazione gialla nel riepilogo del run."""
     print(f"::warning::{msg}", flush=True)
+
+
+def row_kickoff(r):
+    """L'orario di calcio d'inizio di una riga grezza, o None se manca/e' malformato."""
+    try:
+        return datetime.fromtimestamp(int(r["dv"]) / 1000, tz=ZoneInfo(TARGET_TZ))
+    except (ValueError, KeyError, TypeError):
+        return None
+
+
+def row_is_relevant(r, now):
+    """Vale quanto il controllo dentro normalize(): scarta solo le partite finite da piu'
+    di 12 ore. Usata anche prima di aprire la pagina di dettaglio di una partita, per non
+    sprecare una richiesta in piu' su una partita che verrebbe comunque tolta dopo."""
+    kick = row_kickoff(r)
+    if kick is None:
+        return False
+    timer = (r.get("timer") or "").strip()
+    finished = timer.upper() in FINISHED_TIMERS
+    return not (finished and now - kick > timedelta(hours=12))
+
+
+def fetch_match_channels_it(ctx, url, timeout=45000):
+    """Apre la pagina di una singola partita e restituisce i nomi dei canali italiani letti
+    dal blocco ld+json (vedi MATCH_CHANNELS_JS), o None se non li trova/qualcosa va storto
+    (in quel caso il chiamante tiene i canali gia' letti dalla pagina campionato)."""
+    page = ctx.new_page()
+    try:
+        page.goto(url, wait_until="domcontentloaded", timeout=timeout)
+        return page.evaluate(MATCH_CHANNELS_JS)
+    except Exception as e:
+        log(f"  canali IT non letti per {url}: {str(e).splitlines()[0] if str(e) else repr(e)}")
+        return None
+    finally:
+        page.close()
 
 
 def normalize(raw_rows, comp, now):
@@ -261,16 +347,32 @@ def dump_debug(page, comp, tag):
         pass
 
 
+def build_proxy_kwarg():
+    """Trasforma PROXY_SERVER in {"server": ..., "username": ..., "password": ...} per
+    Playwright, staccando eventuali credenziali scritte nell'indirizzo
+    (http://utente:password@host:porta), che Playwright vuole separate."""
+    if not PROXY_SERVER:
+        return {}
+    m = re.match(r"^(https?://)([^:@/]+):([^@/]+)@(.+)$", PROXY_SERVER)
+    if m:
+        scheme, user, pwd, rest = m.groups()
+        return {"proxy": {"server": scheme + rest, "username": user, "password": pwd}}
+    return {"proxy": {"server": PROXY_SERVER}}
+
+
 def launch_browser(pw):
     args = ["--disable-blink-features=AutomationControlled", "--no-sandbox"]
+    proxy_kwarg = build_proxy_kwarg()
+    if proxy_kwarg:
+        log(f"Proxy: {proxy_kwarg['proxy']['server']}")
     if BROWSER_CHANNEL != "chromium":
         try:
-            browser = pw.chromium.launch(channel=BROWSER_CHANNEL, headless=HEADLESS, args=args)
+            browser = pw.chromium.launch(channel=BROWSER_CHANNEL, headless=HEADLESS, args=args, **proxy_kwarg)
             log(f"Browser: {BROWSER_CHANNEL}")
             return browser
         except Exception as e:
             log(f"Canale {BROWSER_CHANNEL} non disponibile ({str(e).splitlines()[0]}), uso Chromium")
-    return pw.chromium.launch(headless=HEADLESS, args=args)
+    return pw.chromium.launch(headless=HEADLESS, args=args, **proxy_kwarg)
 
 
 def new_context(browser):
@@ -375,6 +477,21 @@ def main():
             if args.debug:
                 for r in rows[:5]:
                     log(f"  RAW: {r['dv']} | {r['timer']} | {r['title']} | {r['score']} | {[c['name'] for c in r['channels']]}")
+
+            if comp.get("channels_from_match_page") and not args.html:
+                da_controllare = [r for r in rows if r.get("url") and row_is_relevant(r, now)]
+                log(f"Canali IT dalla pagina partita: {len(da_controllare)} partite da controllare")
+                for i, r in enumerate(da_controllare):
+                    it_channels = fetch_match_channels_it(ctx, r["url"])
+                    if it_channels:
+                        r["channels"] = [{"name": n, "url": "", "stream": False} for n in it_channels]
+                        if args.debug:
+                            log(f"  {r['title']}: {it_channels}")
+                    else:
+                        log(f"  {r['title']}: canali IT non trovati, tengo quelli della pagina campionato")
+                    if i < len(da_controllare) - 1:
+                        time.sleep(random.uniform(1, 2))
+
             events = normalize(rows, comp, now)
             if not events:
                 warn(f"{comp['name']}: nessun evento utile, JSON esistente lasciato com'e'")
