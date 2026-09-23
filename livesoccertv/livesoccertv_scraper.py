@@ -131,37 +131,50 @@ EXTRACT_JS = r"""
 # il paese di chi visita la pagina, a differenza della lista canali mostrata a video.
 MATCH_CHANNELS_JS = r"""
 () => {
+  // risultato.italia: solo i canali italiani (quelli mostrati di default nella wiki).
+  // risultato.mondo: un elenco {paese, canali} per ogni paese della tabella, Italia inclusa,
+  // per il pulsante "Altri paesi" che mostra dove si vede la partita nel resto del mondo.
+  const risultato = { italia: null, mondo: [] };
+
   const rows = Array.from(document.querySelectorAll('table.ichannels tr'));
   for (const tr of rows) {
-    if (!tr.querySelector('td span.flag.italy')) continue;
+    const flagEl = tr.querySelector('td span.flag');
     const cells = tr.querySelectorAll('td');
-    if (cells.length < 2) continue;
-    const names = Array.from(cells[1].querySelectorAll('a'))
+    if (!flagEl || cells.length < 2) continue;
+    const paese = (flagEl.textContent || '').trim();
+    const canali = Array.from(cells[1].querySelectorAll('a'))
       .map(a => (a.textContent || '').trim())
       .filter(Boolean);
-    if (names.length) return names;
+    if (!paese || !canali.length) continue;
+    if (flagEl.classList.contains('italy') && !risultato.italia) risultato.italia = canali;
+    risultato.mondo.push({ paese, canali });
   }
 
-  const scripts = Array.from(document.querySelectorAll('script[type="application/ld+json"]'));
-  for (const s of scripts) {
-    try {
-      const data = JSON.parse(s.textContent);
-      const graph = Array.isArray(data['@graph']) ? data['@graph'] : [data];
-      const italia = [];
-      for (const item of graph) {
-        if (item['@type'] !== 'BroadcastEvent') continue;
-        const pub = item.publishedOn || {};
-        const area = pub.areaServed && pub.areaServed.name;
-        if (area === 'Italy' || area === 'Italia') {
-          if (pub.name) italia.push(pub.name);
+  if (!risultato.italia) {
+    // ripiego: blocco dati strutturati ld+json, non presente su tutte le pagine partita
+    const scripts = Array.from(document.querySelectorAll('script[type="application/ld+json"]'));
+    for (const s of scripts) {
+      try {
+        const data = JSON.parse(s.textContent);
+        const graph = Array.isArray(data['@graph']) ? data['@graph'] : [data];
+        const italia = [];
+        for (const item of graph) {
+          if (item['@type'] !== 'BroadcastEvent') continue;
+          const pub = item.publishedOn || {};
+          const area = pub.areaServed && pub.areaServed.name;
+          if (area === 'Italy' || area === 'Italia') {
+            if (pub.name) italia.push(pub.name);
+          }
         }
-      }
-      if (italia.length) return italia;
-    } catch (e) { /* prova il prossimo blocco */ }
+        if (italia.length) { risultato.italia = italia; break; }
+      } catch (e) { /* prova il prossimo blocco */ }
+    }
   }
-  return null;
+
+  return (risultato.italia || risultato.mondo.length) ? risultato : null;
 }
 """
+
 
 
 
@@ -195,12 +208,13 @@ def row_is_relevant(r, now):
 
 
 def fetch_match_channels_it(ctx, url, timeout=45000):
-    """Apre la pagina di una singola partita e restituisce i nomi dei canali italiani letti
-    dal blocco ld+json (vedi MATCH_CHANNELS_JS), o None se non li trova/qualcosa va storto
-    (in quel caso il chiamante tiene i canali gia' letti dalla pagina campionato). Ad aprire
-    tante pagine di fila ogni tanto compare la verifica di sicurezza di Cloudflare: senza
-    aspettare che passi, si leggerebbe il blocco dati dalla pagina di verifica invece che
-    dalla partita vera, che non ce l'ha, e il risultato sembrerebbe un errore quando non lo e'."""
+    """Apre la pagina di una singola partita e restituisce {"italia": [...], "mondo": [...]}
+    letti dalla tabella "Copertura internazionale" (vedi MATCH_CHANNELS_JS), o None se non
+    trova nulla/qualcosa va storto (in quel caso il chiamante tiene i canali gia' letti
+    dalla pagina campionato). Ad aprire tante pagine di fila ogni tanto compare la verifica
+    di sicurezza di Cloudflare: senza aspettare che passi, si leggerebbe la pagina di verifica
+    invece della partita vera, che non ha questa tabella, e il risultato sembrerebbe un
+    errore quando non lo e'."""
     page = ctx.new_page()
     try:
         page.goto(url, wait_until="domcontentloaded", timeout=timeout)
@@ -262,6 +276,7 @@ def normalize(raw_rows, comp, now):
             "score": score,
             "match_url": r["url"],
             "channels": channels,
+            "canali_mondo": r.get("canali_mondo", []),
         })
     events.sort(key=lambda e: e["kickoff"])
     return events
@@ -504,13 +519,15 @@ def main():
                 da_controllare = [r for r in rows if r.get("url") and row_is_relevant(r, now)]
                 log(f"Canali IT dalla pagina partita: {len(da_controllare)} partite da controllare")
                 for i, r in enumerate(da_controllare):
-                    it_channels = fetch_match_channels_it(ctx, r["url"])
-                    if it_channels:
-                        r["channels"] = [{"name": n, "url": "", "stream": False} for n in it_channels]
+                    dati = fetch_match_channels_it(ctx, r["url"])
+                    if dati and dati.get("italia"):
+                        r["channels"] = [{"name": n, "url": "", "stream": False} for n in dati["italia"]]
                         if args.debug:
-                            log(f"  {r['title']}: {it_channels}")
+                            log(f"  {r['title']}: {dati['italia']}")
                     else:
                         log(f"  {r['title']}: canali IT non trovati, tengo quelli della pagina campionato")
+                    if dati and dati.get("mondo"):
+                        r["canali_mondo"] = dati["mondo"]
                     if i < len(da_controllare) - 1:
                         time.sleep(random.uniform(1, 2))
 
@@ -549,6 +566,7 @@ def main():
                 "data": e["date"],
                 "ora": e["time"],
                 "canali": [c["name"] for c in e["channels"]],
+                "canali_mondo": e.get("canali_mondo", []),
             }
             for e in merged
             if e["status"] != "finished" and datetime.fromisoformat(e["kickoff"]) >= recent
