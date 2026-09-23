@@ -120,13 +120,28 @@ EXTRACT_JS = r"""
 }
 """
 
-# Legge tutti i blocchi <script type="application/ld+json"> della pagina di una singola
-# partita e restituisce i nomi dei canali il cui areaServed e' l'Italia. Questi dati sono
-# pensati per i motori di ricerca (SEO), quindi elencano tutti i paesi insieme, gia'
-# etichettati per nome: a differenza della lista canali mostrata a video, non dovrebbero
-# cambiare secondo il paese di chi visita la pagina.
+# Legge i canali italiani dalla pagina di una singola partita, con due metodi in ordine:
+#  1. la tabella "Copertura internazionale" (classe "ichannels"), che elenca ogni paese con
+#     i suoi canali: presente su ogni pagina partita vista finora (verificato sia su partite
+#     che hanno anche il blocco dati sotto, sia su partite che non ce l'hanno).
+#  2. il blocco dati strutturati <script type="application/ld+json"> (SEO), usato come
+#     ripiego perche' non compare su tutte le pagine partita (es. Internazionale-Parma non
+#     ce l'ha affatto, pur avendo la tabella).
+# Entrambi elencano i paesi gia' etichettati per nome, quindi in teoria non cambiano secondo
+# il paese di chi visita la pagina, a differenza della lista canali mostrata a video.
 MATCH_CHANNELS_JS = r"""
 () => {
+  const rows = Array.from(document.querySelectorAll('table.ichannels tr'));
+  for (const tr of rows) {
+    if (!tr.querySelector('td span.flag.italy')) continue;
+    const cells = tr.querySelectorAll('td');
+    if (cells.length < 2) continue;
+    const names = Array.from(cells[1].querySelectorAll('a'))
+      .map(a => (a.textContent || '').trim())
+      .filter(Boolean);
+    if (names.length) return names;
+  }
+
   const scripts = Array.from(document.querySelectorAll('script[type="application/ld+json"]'));
   for (const s of scripts) {
     try {
@@ -147,6 +162,7 @@ MATCH_CHANNELS_JS = r"""
   return null;
 }
 """
+
 
 
 def log(msg):
