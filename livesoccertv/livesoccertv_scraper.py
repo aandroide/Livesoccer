@@ -181,10 +181,16 @@ def row_is_relevant(r, now):
 def fetch_match_channels_it(ctx, url, timeout=45000):
     """Apre la pagina di una singola partita e restituisce i nomi dei canali italiani letti
     dal blocco ld+json (vedi MATCH_CHANNELS_JS), o None se non li trova/qualcosa va storto
-    (in quel caso il chiamante tiene i canali gia' letti dalla pagina campionato)."""
+    (in quel caso il chiamante tiene i canali gia' letti dalla pagina campionato). Ad aprire
+    tante pagine di fila ogni tanto compare la verifica di sicurezza di Cloudflare: senza
+    aspettare che passi, si leggerebbe il blocco dati dalla pagina di verifica invece che
+    dalla partita vera, che non ce l'ha, e il risultato sembrerebbe un errore quando non lo e'."""
     page = ctx.new_page()
     try:
         page.goto(url, wait_until="domcontentloaded", timeout=timeout)
+        if is_challenge(page) and not cloudflare_wait(page, seconds=30):
+            log(f"  canali IT: verifica di sicurezza non superata per {url}")
+            return None
         return page.evaluate(MATCH_CHANNELS_JS)
     except Exception as e:
         log(f"  canali IT non letti per {url}: {str(e).splitlines()[0] if str(e) else repr(e)}")
