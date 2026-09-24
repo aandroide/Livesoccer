@@ -295,32 +295,638 @@
       "match_url": "https://www.livesoccertv.com/it/match/fiorentina-vs-genoa/1x14i#5653932",
       "channels": [
         {
-          "name": "Paramount+",
-          "url": "https://www.livesoccertv.com/it/channels/paramountplus/",
-          "stream": true
-        },
-        {
-          "name": "Disney+ Premium Caribbean",
-          "url": "https://www.livesoccertv.com/it/channels/espn-play-caribbean/",
+          "name": "DAZN Italia",
+          "url": "",
           "stream": false
         },
         {
-          "name": "fuboTV Canada",
-          "url": "https://www.livesoccertv.com/it/channels/fubo-tv-canada/",
-          "stream": false
-        },
-        {
-          "name": "Disney+ Premium Mexico",
-          "url": "https://www.livesoccertv.com/it/channels/starplus-norte/",
-          "stream": false
-        },
-        {
-          "name": "Disney+ Premium Norte",
-          "url": "https://www.livesoccertv.com/it/channels/starplus-latam/",
+          "name": "DAZN1",
+          "url": "",
           "stream": false
         }
       ],
-      "canali_mondo": []
+      "canali_mondo": [
+        {
+          "paese": "Afghanistan",
+          "canali": [
+            "ZEE5"
+          ]
+        },
+        {
+          "paese": "Albania",
+          "canali": [
+            "Tring"
+          ]
+        },
+        {
+          "paese": "Algeria",
+          "canali": [
+            "STARZPLAY",
+            "Shasha",
+            "Thmanyah"
+          ]
+        },
+        {
+          "paese": "Andorra",
+          "canali": [
+            "DAZN Spain"
+          ]
+        },
+        {
+          "paese": "Anguilla",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "Antigua e Barbuda",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "Argentina",
+          "canali": [
+            "Disney+ Premium Argentina"
+          ]
+        },
+        {
+          "paese": "Aruba",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "Bahrain",
+          "canali": [
+            "STARZPLAY",
+            "Shasha",
+            "Thmanyah"
+          ]
+        },
+        {
+          "paese": "Bangladesh",
+          "canali": [
+            "ZEE5",
+            "Begin"
+          ]
+        },
+        {
+          "paese": "Barbados",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "Belize",
+          "canali": [
+            "Nexgen"
+          ]
+        },
+        {
+          "paese": "Bhutan",
+          "canali": [
+            "ZEE5"
+          ]
+        },
+        {
+          "paese": "Bolivia",
+          "canali": [
+            "Disney+ Premium Chile"
+          ]
+        },
+        {
+          "paese": "Brasile",
+          "canali": [
+            "Disney+ Premium Brazil"
+          ]
+        },
+        {
+          "paese": "Isole Vergini britanniche",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "Canada",
+          "canali": [
+            "fuboTV Canada"
+          ]
+        },
+        {
+          "paese": "Isole Cayman",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "Ciad",
+          "canali": [
+            "STARZPLAY",
+            "Shasha",
+            "Thmanyah"
+          ]
+        },
+        {
+          "paese": "Cile",
+          "canali": [
+            "Disney+ Premium Chile"
+          ]
+        },
+        {
+          "paese": "Colombia",
+          "canali": [
+            "Disney+ Premium Sur"
+          ]
+        },
+        {
+          "paese": "Costa Rica",
+          "canali": [
+            "Disney+ Premium Norte"
+          ]
+        },
+        {
+          "paese": "Cuba",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "Danimarca",
+          "canali": [
+            "TV2 Play Denmark"
+          ]
+        },
+        {
+          "paese": "Gibuti",
+          "canali": [
+            "STARZPLAY",
+            "Shasha",
+            "Thmanyah"
+          ]
+        },
+        {
+          "paese": "Dominica",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "Repubblica Dominicana",
+          "canali": [
+            "Disney+ Premium Caribbean",
+            "Disney+ Premium Norte"
+          ]
+        },
+        {
+          "paese": "Ecuador",
+          "canali": [
+            "Disney+ Premium Sur"
+          ]
+        },
+        {
+          "paese": "Egitto",
+          "canali": [
+            "STARZPLAY",
+            "Shasha",
+            "Thmanyah"
+          ]
+        },
+        {
+          "paese": "El Salvador",
+          "canali": [
+            "Disney+ Premium Norte"
+          ]
+        },
+        {
+          "paese": "Isole Faroe",
+          "canali": [
+            "TV2 Play Denmark"
+          ]
+        },
+        {
+          "paese": "Finlandia",
+          "canali": [
+            "MTV Katsomo"
+          ]
+        },
+        {
+          "paese": "Gran Bretagna",
+          "canali": [
+            "DAZN UK"
+          ]
+        },
+        {
+          "paese": "Grenada",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "Guadalupa",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "Guatemala",
+          "canali": [
+            "Disney+ Premium Norte"
+          ]
+        },
+        {
+          "paese": "Haiti",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "Honduras",
+          "canali": [
+            "Disney+ Premium Norte"
+          ]
+        },
+        {
+          "paese": "Hong Kong",
+          "canali": [
+            "M Plus Live"
+          ]
+        },
+        {
+          "paese": "India",
+          "canali": [
+            "ZEE5"
+          ]
+        },
+        {
+          "paese": "Indonesia",
+          "canali": [
+            "Vidio"
+          ]
+        },
+        {
+          "paese": "Iran",
+          "canali": [
+            "Thmanyah"
+          ]
+        },
+        {
+          "paese": "Iraq",
+          "canali": [
+            "STARZPLAY",
+            "Shasha",
+            "Almanasa",
+            "Thmanyah"
+          ]
+        },
+        {
+          "paese": "Irlanda",
+          "canali": [
+            "DAZN UK"
+          ]
+        },
+        {
+          "paese": "Italia",
+          "canali": [
+            "DAZN Italia",
+            "DAZN1"
+          ]
+        },
+        {
+          "paese": "Giamaica",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "Giappone",
+          "canali": [
+            "DAZN Japan"
+          ]
+        },
+        {
+          "paese": "Giordania",
+          "canali": [
+            "STARZPLAY",
+            "Shasha",
+            "Thmanyah"
+          ]
+        },
+        {
+          "paese": "Kuwait",
+          "canali": [
+            "STARZPLAY",
+            "Shasha",
+            "Thmanyah"
+          ]
+        },
+        {
+          "paese": "Libano",
+          "canali": [
+            "STARZPLAY",
+            "Shasha"
+          ]
+        },
+        {
+          "paese": "Libia",
+          "canali": [
+            "STARZPLAY",
+            "Shasha",
+            "Thmanyah"
+          ]
+        },
+        {
+          "paese": "Macao",
+          "canali": [
+            "M Plus Live"
+          ]
+        },
+        {
+          "paese": "Maldive",
+          "canali": [
+            "ZEE5"
+          ]
+        },
+        {
+          "paese": "Martinica",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "Mauritania",
+          "canali": [
+            "STARZPLAY",
+            "Shasha"
+          ]
+        },
+        {
+          "paese": "Mauritius",
+          "canali": [
+            "Thmanyah"
+          ]
+        },
+        {
+          "paese": "Messico",
+          "canali": [
+            "Disney+ Premium Mexico"
+          ]
+        },
+        {
+          "paese": "Montserrat",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "Marocco",
+          "canali": [
+            "STARZPLAY",
+            "Shasha",
+            "Thmanyah"
+          ]
+        },
+        {
+          "paese": "Nepal",
+          "canali": [
+            "ZEE5"
+          ]
+        },
+        {
+          "paese": "Nicaragua",
+          "canali": [
+            "Disney+ Premium Norte"
+          ]
+        },
+        {
+          "paese": "Norvegia",
+          "canali": [
+            "VG+"
+          ]
+        },
+        {
+          "paese": "Oman",
+          "canali": [
+            "STARZPLAY",
+            "Shasha",
+            "Thmanyah"
+          ]
+        },
+        {
+          "paese": "Pakistan",
+          "canali": [
+            "Begin"
+          ]
+        },
+        {
+          "paese": "Palestina",
+          "canali": [
+            "STARZPLAY",
+            "Shasha",
+            "Thmanyah"
+          ]
+        },
+        {
+          "paese": "Panama",
+          "canali": [
+            "Disney+ Premium Norte"
+          ]
+        },
+        {
+          "paese": "Paraguay",
+          "canali": [
+            "Disney+ Premium Argentina"
+          ]
+        },
+        {
+          "paese": "Perù",
+          "canali": [
+            "Disney+ Premium Chile"
+          ]
+        },
+        {
+          "paese": "Porto Rico",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "Qatar",
+          "canali": [
+            "STARZPLAY",
+            "Shasha",
+            "Thmanyah"
+          ]
+        },
+        {
+          "paese": "Saint Barthelemy",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "Saint Kitts e Nevis",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "Santa Lucia",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "Saint Martin",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "San Marino",
+          "canali": [
+            "DAZN Italia",
+            "DAZN1"
+          ]
+        },
+        {
+          "paese": "Arabia Saudita",
+          "canali": [
+            "STARZPLAY",
+            "Shasha",
+            "STC TV",
+            "Thmanyah"
+          ]
+        },
+        {
+          "paese": "Somalia",
+          "canali": [
+            "STARZPLAY",
+            "Shasha"
+          ]
+        },
+        {
+          "paese": "Sud Sudan",
+          "canali": [
+            "STARZPLAY",
+            "Shasha"
+          ]
+        },
+        {
+          "paese": "Spagna",
+          "canali": [
+            "DAZN Spain"
+          ]
+        },
+        {
+          "paese": "Sri Lanka",
+          "canali": [
+            "ZEE5",
+            "Begin"
+          ]
+        },
+        {
+          "paese": "St. Vincent / Grenadines",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "Sudan",
+          "canali": [
+            "STARZPLAY",
+            "Shasha",
+            "Thmanyah"
+          ]
+        },
+        {
+          "paese": "Suriname",
+          "canali": [
+            "SCCN"
+          ]
+        },
+        {
+          "paese": "Svezia",
+          "canali": [
+            "TV4 Play"
+          ]
+        },
+        {
+          "paese": "Siria",
+          "canali": [
+            "STARZPLAY",
+            "Shasha",
+            "Thmanyah"
+          ]
+        },
+        {
+          "paese": "Trinidad e Tobago",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "Tunisia",
+          "canali": [
+            "STARZPLAY",
+            "Shasha",
+            "Diwan Sport",
+            "Thmanyah"
+          ]
+        },
+        {
+          "paese": "Turchia",
+          "canali": [
+            "S Sport+"
+          ]
+        },
+        {
+          "paese": "U.S. Virgin Islands",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "Emirati Arabi Uniti",
+          "canali": [
+            "STARZPLAY",
+            "Shasha",
+            "Thmanyah"
+          ]
+        },
+        {
+          "paese": "Uruguay",
+          "canali": [
+            "Disney+ Premium Argentina"
+          ]
+        },
+        {
+          "paese": "USA",
+          "canali": [
+            "Paramount+"
+          ]
+        },
+        {
+          "paese": "Venezuela",
+          "canali": [
+            "Disney+ Premium Sur"
+          ]
+        },
+        {
+          "paese": "Vietnam",
+          "canali": [
+            "MyTV Vietnam"
+          ]
+        },
+        {
+          "paese": "Yemen",
+          "canali": [
+            "STARZPLAY",
+            "Shasha",
+            "Thmanyah"
+          ]
+        }
+      ]
     },
     {
       "id": "5742518",
@@ -500,32 +1106,640 @@
       "match_url": "https://www.livesoccertv.com/it/match/internazionale-vs-parma/1xgtg#5653933",
       "channels": [
         {
-          "name": "Paramount+",
-          "url": "https://www.livesoccertv.com/it/channels/paramountplus/",
-          "stream": true
-        },
-        {
-          "name": "TLN",
-          "url": "https://www.livesoccertv.com/it/channels/tln/",
+          "name": "DAZN Italia",
+          "url": "",
           "stream": false
         },
         {
-          "name": "Disney+ Premium Caribbean",
-          "url": "https://www.livesoccertv.com/it/channels/espn-play-caribbean/",
-          "stream": false
-        },
-        {
-          "name": "fuboTV Canada",
-          "url": "https://www.livesoccertv.com/it/channels/fubo-tv-canada/",
-          "stream": false
-        },
-        {
-          "name": "Disney+ Premium Mexico",
-          "url": "https://www.livesoccertv.com/it/channels/starplus-norte/",
+          "name": "DAZN1",
+          "url": "",
           "stream": false
         }
       ],
-      "canali_mondo": []
+      "canali_mondo": [
+        {
+          "paese": "Afghanistan",
+          "canali": [
+            "ZEE5"
+          ]
+        },
+        {
+          "paese": "Albania",
+          "canali": [
+            "Tring"
+          ]
+        },
+        {
+          "paese": "Algeria",
+          "canali": [
+            "STARZPLAY",
+            "Shasha",
+            "Thmanyah"
+          ]
+        },
+        {
+          "paese": "Andorra",
+          "canali": [
+            "DAZN Spain"
+          ]
+        },
+        {
+          "paese": "Anguilla",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "Antigua e Barbuda",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "Argentina",
+          "canali": [
+            "Disney+ Premium Argentina"
+          ]
+        },
+        {
+          "paese": "Aruba",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "Bahrain",
+          "canali": [
+            "STARZPLAY",
+            "Shasha",
+            "Thmanyah"
+          ]
+        },
+        {
+          "paese": "Bangladesh",
+          "canali": [
+            "ZEE5",
+            "Begin"
+          ]
+        },
+        {
+          "paese": "Barbados",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "Belize",
+          "canali": [
+            "Nexgen"
+          ]
+        },
+        {
+          "paese": "Bhutan",
+          "canali": [
+            "ZEE5"
+          ]
+        },
+        {
+          "paese": "Bolivia",
+          "canali": [
+            "Disney+ Premium Chile"
+          ]
+        },
+        {
+          "paese": "Brasile",
+          "canali": [
+            "Disney+ Premium Brazil"
+          ]
+        },
+        {
+          "paese": "Isole Vergini britanniche",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "Canada",
+          "canali": [
+            "TLN",
+            "fuboTV Canada",
+            "VIVA"
+          ]
+        },
+        {
+          "paese": "Isole Cayman",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "Ciad",
+          "canali": [
+            "STARZPLAY",
+            "Shasha",
+            "Thmanyah"
+          ]
+        },
+        {
+          "paese": "Cile",
+          "canali": [
+            "Disney+ Premium Chile"
+          ]
+        },
+        {
+          "paese": "Colombia",
+          "canali": [
+            "Disney+ Premium Sur"
+          ]
+        },
+        {
+          "paese": "Costa Rica",
+          "canali": [
+            "Disney+ Premium Norte"
+          ]
+        },
+        {
+          "paese": "Cuba",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "Danimarca",
+          "canali": [
+            "TV2 Play Denmark"
+          ]
+        },
+        {
+          "paese": "Gibuti",
+          "canali": [
+            "STARZPLAY",
+            "Shasha",
+            "Thmanyah"
+          ]
+        },
+        {
+          "paese": "Dominica",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "Repubblica Dominicana",
+          "canali": [
+            "Disney+ Premium Caribbean",
+            "Disney+ Premium Norte"
+          ]
+        },
+        {
+          "paese": "Ecuador",
+          "canali": [
+            "Disney+ Premium Sur"
+          ]
+        },
+        {
+          "paese": "Egitto",
+          "canali": [
+            "STARZPLAY",
+            "Shasha",
+            "Thmanyah"
+          ]
+        },
+        {
+          "paese": "El Salvador",
+          "canali": [
+            "Disney+ Premium Norte"
+          ]
+        },
+        {
+          "paese": "Isole Faroe",
+          "canali": [
+            "TV2 Play Denmark"
+          ]
+        },
+        {
+          "paese": "Finlandia",
+          "canali": [
+            "MTV Katsomo"
+          ]
+        },
+        {
+          "paese": "Gran Bretagna",
+          "canali": [
+            "DAZN UK"
+          ]
+        },
+        {
+          "paese": "Grenada",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "Guadalupa",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "Guatemala",
+          "canali": [
+            "Disney+ Premium Norte"
+          ]
+        },
+        {
+          "paese": "Haiti",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "Honduras",
+          "canali": [
+            "Disney+ Premium Norte"
+          ]
+        },
+        {
+          "paese": "Hong Kong",
+          "canali": [
+            "M Plus Live"
+          ]
+        },
+        {
+          "paese": "India",
+          "canali": [
+            "ZEE5"
+          ]
+        },
+        {
+          "paese": "Indonesia",
+          "canali": [
+            "Vidio"
+          ]
+        },
+        {
+          "paese": "Iran",
+          "canali": [
+            "Thmanyah"
+          ]
+        },
+        {
+          "paese": "Iraq",
+          "canali": [
+            "STARZPLAY",
+            "Shasha",
+            "Almanasa",
+            "Thmanyah"
+          ]
+        },
+        {
+          "paese": "Irlanda",
+          "canali": [
+            "DAZN UK"
+          ]
+        },
+        {
+          "paese": "Italia",
+          "canali": [
+            "DAZN Italia",
+            "DAZN1"
+          ]
+        },
+        {
+          "paese": "Giamaica",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "Giappone",
+          "canali": [
+            "DAZN Japan"
+          ]
+        },
+        {
+          "paese": "Giordania",
+          "canali": [
+            "STARZPLAY",
+            "Shasha",
+            "Thmanyah"
+          ]
+        },
+        {
+          "paese": "Kuwait",
+          "canali": [
+            "STARZPLAY",
+            "Shasha",
+            "Thmanyah"
+          ]
+        },
+        {
+          "paese": "Libano",
+          "canali": [
+            "STARZPLAY",
+            "Shasha"
+          ]
+        },
+        {
+          "paese": "Libia",
+          "canali": [
+            "STARZPLAY",
+            "Shasha",
+            "Thmanyah"
+          ]
+        },
+        {
+          "paese": "Macao",
+          "canali": [
+            "M Plus Live"
+          ]
+        },
+        {
+          "paese": "Maldive",
+          "canali": [
+            "ZEE5"
+          ]
+        },
+        {
+          "paese": "Martinica",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "Mauritania",
+          "canali": [
+            "STARZPLAY",
+            "Shasha"
+          ]
+        },
+        {
+          "paese": "Mauritius",
+          "canali": [
+            "Thmanyah"
+          ]
+        },
+        {
+          "paese": "Messico",
+          "canali": [
+            "Disney+ Premium Mexico"
+          ]
+        },
+        {
+          "paese": "Montserrat",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "Marocco",
+          "canali": [
+            "STARZPLAY",
+            "Shasha",
+            "Thmanyah"
+          ]
+        },
+        {
+          "paese": "Nepal",
+          "canali": [
+            "ZEE5"
+          ]
+        },
+        {
+          "paese": "Nicaragua",
+          "canali": [
+            "Disney+ Premium Norte"
+          ]
+        },
+        {
+          "paese": "Norvegia",
+          "canali": [
+            "VG+"
+          ]
+        },
+        {
+          "paese": "Oman",
+          "canali": [
+            "STARZPLAY",
+            "Shasha",
+            "Thmanyah"
+          ]
+        },
+        {
+          "paese": "Pakistan",
+          "canali": [
+            "Begin"
+          ]
+        },
+        {
+          "paese": "Palestina",
+          "canali": [
+            "STARZPLAY",
+            "Shasha",
+            "Thmanyah"
+          ]
+        },
+        {
+          "paese": "Panama",
+          "canali": [
+            "Disney+ Premium Norte"
+          ]
+        },
+        {
+          "paese": "Paraguay",
+          "canali": [
+            "Disney+ Premium Argentina"
+          ]
+        },
+        {
+          "paese": "Perù",
+          "canali": [
+            "Disney+ Premium Chile"
+          ]
+        },
+        {
+          "paese": "Porto Rico",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "Qatar",
+          "canali": [
+            "STARZPLAY",
+            "Shasha",
+            "Thmanyah"
+          ]
+        },
+        {
+          "paese": "Saint Barthelemy",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "Saint Kitts e Nevis",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "Santa Lucia",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "Saint Martin",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "San Marino",
+          "canali": [
+            "DAZN Italia",
+            "DAZN1"
+          ]
+        },
+        {
+          "paese": "Arabia Saudita",
+          "canali": [
+            "STARZPLAY",
+            "Shasha",
+            "STC TV",
+            "Thmanyah"
+          ]
+        },
+        {
+          "paese": "Somalia",
+          "canali": [
+            "STARZPLAY",
+            "Shasha"
+          ]
+        },
+        {
+          "paese": "Sud Sudan",
+          "canali": [
+            "STARZPLAY",
+            "Shasha"
+          ]
+        },
+        {
+          "paese": "Spagna",
+          "canali": [
+            "DAZN Spain"
+          ]
+        },
+        {
+          "paese": "Sri Lanka",
+          "canali": [
+            "ZEE5",
+            "Begin"
+          ]
+        },
+        {
+          "paese": "St. Vincent / Grenadines",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "Sudan",
+          "canali": [
+            "STARZPLAY",
+            "Shasha",
+            "Thmanyah"
+          ]
+        },
+        {
+          "paese": "Suriname",
+          "canali": [
+            "SCCN"
+          ]
+        },
+        {
+          "paese": "Svezia",
+          "canali": [
+            "TV4 Play"
+          ]
+        },
+        {
+          "paese": "Siria",
+          "canali": [
+            "STARZPLAY",
+            "Shasha",
+            "Thmanyah"
+          ]
+        },
+        {
+          "paese": "Trinidad e Tobago",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "Tunisia",
+          "canali": [
+            "STARZPLAY",
+            "Shasha",
+            "Diwan Sport",
+            "Thmanyah"
+          ]
+        },
+        {
+          "paese": "Turchia",
+          "canali": [
+            "S Sport+"
+          ]
+        },
+        {
+          "paese": "U.S. Virgin Islands",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "Emirati Arabi Uniti",
+          "canali": [
+            "STARZPLAY",
+            "Shasha",
+            "Thmanyah"
+          ]
+        },
+        {
+          "paese": "Uruguay",
+          "canali": [
+            "Disney+ Premium Argentina"
+          ]
+        },
+        {
+          "paese": "USA",
+          "canali": [
+            "Paramount+"
+          ]
+        },
+        {
+          "paese": "Venezuela",
+          "canali": [
+            "Disney+ Premium Sur"
+          ]
+        },
+        {
+          "paese": "Vietnam",
+          "canali": [
+            "MyTV Vietnam"
+          ]
+        },
+        {
+          "paese": "Yemen",
+          "canali": [
+            "STARZPLAY",
+            "Shasha",
+            "Thmanyah"
+          ]
+        }
+      ]
     },
     {
       "id": "5653936",
@@ -541,32 +1755,661 @@
       "match_url": "https://www.livesoccertv.com/it/match/napoli-vs-frosinone/363za#5653936",
       "channels": [
         {
-          "name": "Paramount+",
-          "url": "https://www.livesoccertv.com/it/channels/paramountplus/",
-          "stream": true
-        },
-        {
-          "name": "TLN",
-          "url": "https://www.livesoccertv.com/it/channels/tln/",
+          "name": "DAZN Italia",
+          "url": "",
           "stream": false
         },
         {
-          "name": "Disney+ Premium Caribbean",
-          "url": "https://www.livesoccertv.com/it/channels/espn-play-caribbean/",
+          "name": "Sky Sport 251",
+          "url": "",
           "stream": false
         },
         {
-          "name": "fuboTV Canada",
-          "url": "https://www.livesoccertv.com/it/channels/fubo-tv-canada/",
+          "name": "SKY Go Italia",
+          "url": "",
           "stream": false
         },
         {
-          "name": "Disney+ Premium Mexico",
-          "url": "https://www.livesoccertv.com/it/channels/starplus-norte/",
+          "name": "Sky Sport Calcio",
+          "url": "",
+          "stream": false
+        },
+        {
+          "name": "NOW TV",
+          "url": "",
           "stream": false
         }
       ],
-      "canali_mondo": []
+      "canali_mondo": [
+        {
+          "paese": "Afghanistan",
+          "canali": [
+            "ZEE5"
+          ]
+        },
+        {
+          "paese": "Albania",
+          "canali": [
+            "Tring"
+          ]
+        },
+        {
+          "paese": "Algeria",
+          "canali": [
+            "STARZPLAY",
+            "Shasha",
+            "Thmanyah"
+          ]
+        },
+        {
+          "paese": "Andorra",
+          "canali": [
+            "DAZN Spain"
+          ]
+        },
+        {
+          "paese": "Anguilla",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "Antigua e Barbuda",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "Argentina",
+          "canali": [
+            "Disney+ Premium Argentina"
+          ]
+        },
+        {
+          "paese": "Aruba",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "Bahrain",
+          "canali": [
+            "STARZPLAY",
+            "Shasha",
+            "Thmanyah"
+          ]
+        },
+        {
+          "paese": "Bangladesh",
+          "canali": [
+            "ZEE5",
+            "Begin"
+          ]
+        },
+        {
+          "paese": "Barbados",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "Belize",
+          "canali": [
+            "Nexgen"
+          ]
+        },
+        {
+          "paese": "Bhutan",
+          "canali": [
+            "ZEE5"
+          ]
+        },
+        {
+          "paese": "Bolivia",
+          "canali": [
+            "Disney+ Premium Chile"
+          ]
+        },
+        {
+          "paese": "Brasile",
+          "canali": [
+            "Disney+ Premium Brazil"
+          ]
+        },
+        {
+          "paese": "Isole Vergini britanniche",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "Canada",
+          "canali": [
+            "TLN",
+            "fuboTV Canada",
+            "VIVA"
+          ]
+        },
+        {
+          "paese": "Isole Cayman",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "Ciad",
+          "canali": [
+            "STARZPLAY",
+            "Shasha",
+            "Thmanyah"
+          ]
+        },
+        {
+          "paese": "Cile",
+          "canali": [
+            "Disney+ Premium Chile"
+          ]
+        },
+        {
+          "paese": "Colombia",
+          "canali": [
+            "Disney+ Premium Sur"
+          ]
+        },
+        {
+          "paese": "Costa Rica",
+          "canali": [
+            "Disney+ Premium Norte"
+          ]
+        },
+        {
+          "paese": "Cuba",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "Danimarca",
+          "canali": [
+            "TV2 Play Denmark"
+          ]
+        },
+        {
+          "paese": "Gibuti",
+          "canali": [
+            "STARZPLAY",
+            "Shasha",
+            "Thmanyah"
+          ]
+        },
+        {
+          "paese": "Dominica",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "Repubblica Dominicana",
+          "canali": [
+            "Disney+ Premium Caribbean",
+            "Disney+ Premium Norte"
+          ]
+        },
+        {
+          "paese": "Ecuador",
+          "canali": [
+            "Disney+ Premium Sur"
+          ]
+        },
+        {
+          "paese": "Egitto",
+          "canali": [
+            "STARZPLAY",
+            "Shasha",
+            "Thmanyah"
+          ]
+        },
+        {
+          "paese": "El Salvador",
+          "canali": [
+            "Disney+ Premium Norte"
+          ]
+        },
+        {
+          "paese": "Isole Faroe",
+          "canali": [
+            "TV2 Play Denmark"
+          ]
+        },
+        {
+          "paese": "Finlandia",
+          "canali": [
+            "MTV Katsomo"
+          ]
+        },
+        {
+          "paese": "Gran Bretagna",
+          "canali": [
+            "DAZN UK"
+          ]
+        },
+        {
+          "paese": "Grenada",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "Guadalupa",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "Guatemala",
+          "canali": [
+            "Disney+ Premium Norte"
+          ]
+        },
+        {
+          "paese": "Haiti",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "Honduras",
+          "canali": [
+            "Disney+ Premium Norte"
+          ]
+        },
+        {
+          "paese": "Hong Kong",
+          "canali": [
+            "M Plus Live"
+          ]
+        },
+        {
+          "paese": "India",
+          "canali": [
+            "ZEE5"
+          ]
+        },
+        {
+          "paese": "Indonesia",
+          "canali": [
+            "Vidio"
+          ]
+        },
+        {
+          "paese": "Iran",
+          "canali": [
+            "Thmanyah"
+          ]
+        },
+        {
+          "paese": "Iraq",
+          "canali": [
+            "STARZPLAY",
+            "Shasha",
+            "Almanasa",
+            "Thmanyah"
+          ]
+        },
+        {
+          "paese": "Irlanda",
+          "canali": [
+            "DAZN UK"
+          ]
+        },
+        {
+          "paese": "Italia",
+          "canali": [
+            "DAZN Italia",
+            "Sky Sport 251",
+            "SKY Go Italia",
+            "Sky Sport Calcio",
+            "NOW TV"
+          ]
+        },
+        {
+          "paese": "Giamaica",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "Giappone",
+          "canali": [
+            "DAZN Japan"
+          ]
+        },
+        {
+          "paese": "Giordania",
+          "canali": [
+            "STARZPLAY",
+            "Shasha",
+            "Thmanyah"
+          ]
+        },
+        {
+          "paese": "Kuwait",
+          "canali": [
+            "STARZPLAY",
+            "Shasha",
+            "Thmanyah"
+          ]
+        },
+        {
+          "paese": "Libano",
+          "canali": [
+            "STARZPLAY",
+            "Shasha"
+          ]
+        },
+        {
+          "paese": "Libia",
+          "canali": [
+            "STARZPLAY",
+            "Shasha",
+            "Thmanyah"
+          ]
+        },
+        {
+          "paese": "Macao",
+          "canali": [
+            "M Plus Live"
+          ]
+        },
+        {
+          "paese": "Maldive",
+          "canali": [
+            "ZEE5"
+          ]
+        },
+        {
+          "paese": "Martinica",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "Mauritania",
+          "canali": [
+            "STARZPLAY",
+            "Shasha"
+          ]
+        },
+        {
+          "paese": "Mauritius",
+          "canali": [
+            "Thmanyah"
+          ]
+        },
+        {
+          "paese": "Messico",
+          "canali": [
+            "Disney+ Premium Mexico"
+          ]
+        },
+        {
+          "paese": "Montserrat",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "Marocco",
+          "canali": [
+            "STARZPLAY",
+            "Shasha",
+            "Thmanyah"
+          ]
+        },
+        {
+          "paese": "Nepal",
+          "canali": [
+            "ZEE5"
+          ]
+        },
+        {
+          "paese": "Nicaragua",
+          "canali": [
+            "Disney+ Premium Norte"
+          ]
+        },
+        {
+          "paese": "Norvegia",
+          "canali": [
+            "VG+"
+          ]
+        },
+        {
+          "paese": "Oman",
+          "canali": [
+            "STARZPLAY",
+            "Shasha",
+            "Thmanyah"
+          ]
+        },
+        {
+          "paese": "Pakistan",
+          "canali": [
+            "Begin"
+          ]
+        },
+        {
+          "paese": "Palestina",
+          "canali": [
+            "STARZPLAY",
+            "Shasha",
+            "Thmanyah"
+          ]
+        },
+        {
+          "paese": "Panama",
+          "canali": [
+            "Disney+ Premium Norte"
+          ]
+        },
+        {
+          "paese": "Paraguay",
+          "canali": [
+            "Disney+ Premium Argentina"
+          ]
+        },
+        {
+          "paese": "Perù",
+          "canali": [
+            "Disney+ Premium Chile"
+          ]
+        },
+        {
+          "paese": "Porto Rico",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "Qatar",
+          "canali": [
+            "STARZPLAY",
+            "Shasha",
+            "Thmanyah"
+          ]
+        },
+        {
+          "paese": "Saint Barthelemy",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "Saint Kitts e Nevis",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "Santa Lucia",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "Saint Martin",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "San Marino",
+          "canali": [
+            "DAZN Italia",
+            "Sky Sport 251",
+            "SKY Go Italia",
+            "Sky Sport Calcio",
+            "NOW TV"
+          ]
+        },
+        {
+          "paese": "Arabia Saudita",
+          "canali": [
+            "STARZPLAY",
+            "Shasha",
+            "STC TV",
+            "Thmanyah"
+          ]
+        },
+        {
+          "paese": "Somalia",
+          "canali": [
+            "STARZPLAY",
+            "Shasha"
+          ]
+        },
+        {
+          "paese": "Sud Sudan",
+          "canali": [
+            "STARZPLAY",
+            "Shasha"
+          ]
+        },
+        {
+          "paese": "Spagna",
+          "canali": [
+            "DAZN Spain"
+          ]
+        },
+        {
+          "paese": "Sri Lanka",
+          "canali": [
+            "ZEE5",
+            "Begin"
+          ]
+        },
+        {
+          "paese": "St. Vincent / Grenadines",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "Sudan",
+          "canali": [
+            "STARZPLAY",
+            "Shasha",
+            "Thmanyah"
+          ]
+        },
+        {
+          "paese": "Suriname",
+          "canali": [
+            "SCCN"
+          ]
+        },
+        {
+          "paese": "Svezia",
+          "canali": [
+            "TV4 Play"
+          ]
+        },
+        {
+          "paese": "Siria",
+          "canali": [
+            "STARZPLAY",
+            "Shasha",
+            "Thmanyah"
+          ]
+        },
+        {
+          "paese": "Trinidad e Tobago",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "Tunisia",
+          "canali": [
+            "STARZPLAY",
+            "Shasha",
+            "Diwan Sport",
+            "Thmanyah"
+          ]
+        },
+        {
+          "paese": "Turchia",
+          "canali": [
+            "S Sport+"
+          ]
+        },
+        {
+          "paese": "U.S. Virgin Islands",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "Emirati Arabi Uniti",
+          "canali": [
+            "STARZPLAY",
+            "Shasha",
+            "Thmanyah"
+          ]
+        },
+        {
+          "paese": "Uruguay",
+          "canali": [
+            "Disney+ Premium Argentina"
+          ]
+        },
+        {
+          "paese": "USA",
+          "canali": [
+            "Paramount+"
+          ]
+        },
+        {
+          "paese": "Venezuela",
+          "canali": [
+            "Disney+ Premium Sur"
+          ]
+        },
+        {
+          "paese": "Vietnam",
+          "canali": [
+            "MyTV Vietnam"
+          ]
+        },
+        {
+          "paese": "Yemen",
+          "canali": [
+            "STARZPLAY",
+            "Shasha",
+            "Thmanyah"
+          ]
+        }
+      ]
     },
     {
       "id": "5653931",
@@ -582,32 +2425,642 @@
       "match_url": "https://www.livesoccertv.com/it/match/roma-vs-como/6hn5g#5653931",
       "channels": [
         {
-          "name": "Paramount+",
-          "url": "https://www.livesoccertv.com/it/channels/paramountplus/",
-          "stream": true
-        },
-        {
-          "name": "Disney+ Premium Caribbean",
-          "url": "https://www.livesoccertv.com/it/channels/espn-play-caribbean/",
+          "name": "DAZN Italia",
+          "url": "",
           "stream": false
         },
         {
-          "name": "fuboTV Canada",
-          "url": "https://www.livesoccertv.com/it/channels/fubo-tv-canada/",
-          "stream": false
-        },
-        {
-          "name": "Disney+ Premium Mexico",
-          "url": "https://www.livesoccertv.com/it/channels/starplus-norte/",
-          "stream": false
-        },
-        {
-          "name": "Disney+ Premium Norte",
-          "url": "https://www.livesoccertv.com/it/channels/starplus-latam/",
+          "name": "DAZN1",
+          "url": "",
           "stream": false
         }
       ],
-      "canali_mondo": []
+      "canali_mondo": [
+        {
+          "paese": "Afghanistan",
+          "canali": [
+            "ZEE5"
+          ]
+        },
+        {
+          "paese": "Albania",
+          "canali": [
+            "Tring"
+          ]
+        },
+        {
+          "paese": "Algeria",
+          "canali": [
+            "STARZPLAY",
+            "Shasha",
+            "Thmanyah"
+          ]
+        },
+        {
+          "paese": "Andorra",
+          "canali": [
+            "DAZN Spain"
+          ]
+        },
+        {
+          "paese": "Anguilla",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "Antigua e Barbuda",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "Argentina",
+          "canali": [
+            "Disney+ Premium Argentina"
+          ]
+        },
+        {
+          "paese": "Aruba",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "Bahrain",
+          "canali": [
+            "STARZPLAY",
+            "Shasha",
+            "Thmanyah"
+          ]
+        },
+        {
+          "paese": "Bangladesh",
+          "canali": [
+            "ZEE5",
+            "Begin"
+          ]
+        },
+        {
+          "paese": "Barbados",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "Belize",
+          "canali": [
+            "Nexgen"
+          ]
+        },
+        {
+          "paese": "Bhutan",
+          "canali": [
+            "ZEE5"
+          ]
+        },
+        {
+          "paese": "Bolivia",
+          "canali": [
+            "Disney+ Premium Chile"
+          ]
+        },
+        {
+          "paese": "Brasile",
+          "canali": [
+            "Disney+ Premium Brazil"
+          ]
+        },
+        {
+          "paese": "Isole Vergini britanniche",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "Canada",
+          "canali": [
+            "fuboTV Canada"
+          ]
+        },
+        {
+          "paese": "Isole Cayman",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "Ciad",
+          "canali": [
+            "STARZPLAY",
+            "Shasha",
+            "Thmanyah"
+          ]
+        },
+        {
+          "paese": "Cile",
+          "canali": [
+            "Disney+ Premium Chile"
+          ]
+        },
+        {
+          "paese": "Colombia",
+          "canali": [
+            "Disney+ Premium Sur"
+          ]
+        },
+        {
+          "paese": "Costa Rica",
+          "canali": [
+            "Disney+ Premium Norte"
+          ]
+        },
+        {
+          "paese": "Cuba",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "Danimarca",
+          "canali": [
+            "TV2 Play Denmark"
+          ]
+        },
+        {
+          "paese": "Gibuti",
+          "canali": [
+            "STARZPLAY",
+            "Shasha",
+            "Thmanyah"
+          ]
+        },
+        {
+          "paese": "Dominica",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "Repubblica Dominicana",
+          "canali": [
+            "Disney+ Premium Caribbean",
+            "Disney+ Premium Norte"
+          ]
+        },
+        {
+          "paese": "Ecuador",
+          "canali": [
+            "Disney+ Premium Sur"
+          ]
+        },
+        {
+          "paese": "Egitto",
+          "canali": [
+            "STARZPLAY",
+            "Shasha",
+            "Thmanyah"
+          ]
+        },
+        {
+          "paese": "El Salvador",
+          "canali": [
+            "Disney+ Premium Norte"
+          ]
+        },
+        {
+          "paese": "Isole Faroe",
+          "canali": [
+            "TV2 Play Denmark"
+          ]
+        },
+        {
+          "paese": "Finlandia",
+          "canali": [
+            "MTV Katsomo"
+          ]
+        },
+        {
+          "paese": "Gran Bretagna",
+          "canali": [
+            "DAZN UK",
+            "TNT Sports 1",
+            "HBO Max"
+          ]
+        },
+        {
+          "paese": "Grenada",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "Guadalupa",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "Guatemala",
+          "canali": [
+            "Disney+ Premium Norte"
+          ]
+        },
+        {
+          "paese": "Haiti",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "Honduras",
+          "canali": [
+            "Disney+ Premium Norte"
+          ]
+        },
+        {
+          "paese": "Hong Kong",
+          "canali": [
+            "M Plus Live"
+          ]
+        },
+        {
+          "paese": "India",
+          "canali": [
+            "ZEE5"
+          ]
+        },
+        {
+          "paese": "Indonesia",
+          "canali": [
+            "Vidio"
+          ]
+        },
+        {
+          "paese": "Iran",
+          "canali": [
+            "Thmanyah"
+          ]
+        },
+        {
+          "paese": "Iraq",
+          "canali": [
+            "STARZPLAY",
+            "Shasha",
+            "Almanasa",
+            "Thmanyah"
+          ]
+        },
+        {
+          "paese": "Irlanda",
+          "canali": [
+            "DAZN UK",
+            "TNT Sports 1",
+            "HBO Max"
+          ]
+        },
+        {
+          "paese": "Italia",
+          "canali": [
+            "DAZN Italia",
+            "DAZN1"
+          ]
+        },
+        {
+          "paese": "Giamaica",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "Giappone",
+          "canali": [
+            "DAZN Japan"
+          ]
+        },
+        {
+          "paese": "Giordania",
+          "canali": [
+            "STARZPLAY",
+            "Shasha",
+            "Thmanyah"
+          ]
+        },
+        {
+          "paese": "Kuwait",
+          "canali": [
+            "STARZPLAY",
+            "Shasha",
+            "Thmanyah"
+          ]
+        },
+        {
+          "paese": "Libano",
+          "canali": [
+            "STARZPLAY",
+            "Shasha"
+          ]
+        },
+        {
+          "paese": "Libia",
+          "canali": [
+            "STARZPLAY",
+            "Shasha",
+            "Thmanyah"
+          ]
+        },
+        {
+          "paese": "Macao",
+          "canali": [
+            "M Plus Live"
+          ]
+        },
+        {
+          "paese": "Maldive",
+          "canali": [
+            "ZEE5"
+          ]
+        },
+        {
+          "paese": "Martinica",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "Mauritania",
+          "canali": [
+            "STARZPLAY",
+            "Shasha"
+          ]
+        },
+        {
+          "paese": "Mauritius",
+          "canali": [
+            "Thmanyah"
+          ]
+        },
+        {
+          "paese": "Messico",
+          "canali": [
+            "Disney+ Premium Mexico"
+          ]
+        },
+        {
+          "paese": "Montserrat",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "Marocco",
+          "canali": [
+            "STARZPLAY",
+            "Shasha",
+            "Thmanyah"
+          ]
+        },
+        {
+          "paese": "Nepal",
+          "canali": [
+            "ZEE5"
+          ]
+        },
+        {
+          "paese": "Nicaragua",
+          "canali": [
+            "Disney+ Premium Norte"
+          ]
+        },
+        {
+          "paese": "Norvegia",
+          "canali": [
+            "VG+"
+          ]
+        },
+        {
+          "paese": "Oman",
+          "canali": [
+            "STARZPLAY",
+            "Shasha",
+            "Thmanyah"
+          ]
+        },
+        {
+          "paese": "Pakistan",
+          "canali": [
+            "Begin"
+          ]
+        },
+        {
+          "paese": "Palestina",
+          "canali": [
+            "STARZPLAY",
+            "Shasha",
+            "Thmanyah"
+          ]
+        },
+        {
+          "paese": "Panama",
+          "canali": [
+            "Disney+ Premium Norte"
+          ]
+        },
+        {
+          "paese": "Paraguay",
+          "canali": [
+            "Disney+ Premium Argentina"
+          ]
+        },
+        {
+          "paese": "Perù",
+          "canali": [
+            "Disney+ Premium Chile"
+          ]
+        },
+        {
+          "paese": "Porto Rico",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "Qatar",
+          "canali": [
+            "STARZPLAY",
+            "Shasha",
+            "Thmanyah"
+          ]
+        },
+        {
+          "paese": "Saint Barthelemy",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "Saint Kitts e Nevis",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "Santa Lucia",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "Saint Martin",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "San Marino",
+          "canali": [
+            "DAZN Italia",
+            "DAZN1"
+          ]
+        },
+        {
+          "paese": "Arabia Saudita",
+          "canali": [
+            "STARZPLAY",
+            "Shasha",
+            "STC TV",
+            "Thmanyah"
+          ]
+        },
+        {
+          "paese": "Somalia",
+          "canali": [
+            "STARZPLAY",
+            "Shasha"
+          ]
+        },
+        {
+          "paese": "Sud Sudan",
+          "canali": [
+            "STARZPLAY",
+            "Shasha"
+          ]
+        },
+        {
+          "paese": "Spagna",
+          "canali": [
+            "DAZN Spain"
+          ]
+        },
+        {
+          "paese": "Sri Lanka",
+          "canali": [
+            "ZEE5",
+            "Begin"
+          ]
+        },
+        {
+          "paese": "St. Vincent / Grenadines",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "Sudan",
+          "canali": [
+            "STARZPLAY",
+            "Shasha",
+            "Thmanyah"
+          ]
+        },
+        {
+          "paese": "Suriname",
+          "canali": [
+            "SCCN"
+          ]
+        },
+        {
+          "paese": "Svezia",
+          "canali": [
+            "TV4 Play"
+          ]
+        },
+        {
+          "paese": "Siria",
+          "canali": [
+            "STARZPLAY",
+            "Shasha",
+            "Thmanyah"
+          ]
+        },
+        {
+          "paese": "Trinidad e Tobago",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "Tunisia",
+          "canali": [
+            "STARZPLAY",
+            "Shasha",
+            "Diwan Sport",
+            "Thmanyah"
+          ]
+        },
+        {
+          "paese": "Turchia",
+          "canali": [
+            "S Sport+"
+          ]
+        },
+        {
+          "paese": "U.S. Virgin Islands",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "Emirati Arabi Uniti",
+          "canali": [
+            "STARZPLAY",
+            "Shasha",
+            "Thmanyah"
+          ]
+        },
+        {
+          "paese": "Uruguay",
+          "canali": [
+            "Disney+ Premium Argentina"
+          ]
+        },
+        {
+          "paese": "USA",
+          "canali": [
+            "Paramount+"
+          ]
+        },
+        {
+          "paese": "Venezuela",
+          "canali": [
+            "Disney+ Premium Sur"
+          ]
+        },
+        {
+          "paese": "Vietnam",
+          "canali": [
+            "MyTV Vietnam"
+          ]
+        },
+        {
+          "paese": "Yemen",
+          "canali": [
+            "STARZPLAY",
+            "Shasha",
+            "Thmanyah"
+          ]
+        }
+      ]
     },
     {
       "id": "5653934",
@@ -623,32 +3076,631 @@
       "match_url": "https://www.livesoccertv.com/it/match/lazio-vs-monza/6jci8#5653934",
       "channels": [
         {
-          "name": "Paramount+",
-          "url": "https://www.livesoccertv.com/it/channels/paramountplus/",
-          "stream": true
-        },
-        {
-          "name": "Disney+ Premium Caribbean",
-          "url": "https://www.livesoccertv.com/it/channels/espn-play-caribbean/",
-          "stream": false
-        },
-        {
-          "name": "fuboTV Canada",
-          "url": "https://www.livesoccertv.com/it/channels/fubo-tv-canada/",
-          "stream": false
-        },
-        {
-          "name": "Disney+ Premium Mexico",
-          "url": "https://www.livesoccertv.com/it/channels/starplus-norte/",
-          "stream": false
-        },
-        {
-          "name": "Disney+ Premium Norte",
-          "url": "https://www.livesoccertv.com/it/channels/starplus-latam/",
+          "name": "DAZN Italia",
+          "url": "",
           "stream": false
         }
       ],
-      "canali_mondo": []
+      "canali_mondo": [
+        {
+          "paese": "Afghanistan",
+          "canali": [
+            "ZEE5"
+          ]
+        },
+        {
+          "paese": "Albania",
+          "canali": [
+            "Tring"
+          ]
+        },
+        {
+          "paese": "Algeria",
+          "canali": [
+            "STARZPLAY",
+            "Shasha",
+            "Thmanyah"
+          ]
+        },
+        {
+          "paese": "Andorra",
+          "canali": [
+            "DAZN Spain"
+          ]
+        },
+        {
+          "paese": "Anguilla",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "Antigua e Barbuda",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "Argentina",
+          "canali": [
+            "Disney+ Premium Argentina"
+          ]
+        },
+        {
+          "paese": "Aruba",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "Bahrain",
+          "canali": [
+            "STARZPLAY",
+            "Shasha",
+            "Thmanyah"
+          ]
+        },
+        {
+          "paese": "Bangladesh",
+          "canali": [
+            "ZEE5",
+            "Begin"
+          ]
+        },
+        {
+          "paese": "Barbados",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "Belize",
+          "canali": [
+            "Nexgen"
+          ]
+        },
+        {
+          "paese": "Bhutan",
+          "canali": [
+            "ZEE5"
+          ]
+        },
+        {
+          "paese": "Bolivia",
+          "canali": [
+            "Disney+ Premium Chile"
+          ]
+        },
+        {
+          "paese": "Brasile",
+          "canali": [
+            "Disney+ Premium Brazil"
+          ]
+        },
+        {
+          "paese": "Isole Vergini britanniche",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "Canada",
+          "canali": [
+            "fuboTV Canada"
+          ]
+        },
+        {
+          "paese": "Isole Cayman",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "Ciad",
+          "canali": [
+            "STARZPLAY",
+            "Shasha",
+            "Thmanyah"
+          ]
+        },
+        {
+          "paese": "Cile",
+          "canali": [
+            "Disney+ Premium Chile"
+          ]
+        },
+        {
+          "paese": "Colombia",
+          "canali": [
+            "Disney+ Premium Sur"
+          ]
+        },
+        {
+          "paese": "Costa Rica",
+          "canali": [
+            "Disney+ Premium Norte"
+          ]
+        },
+        {
+          "paese": "Cuba",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "Danimarca",
+          "canali": [
+            "TV2 Play Denmark"
+          ]
+        },
+        {
+          "paese": "Gibuti",
+          "canali": [
+            "STARZPLAY",
+            "Shasha",
+            "Thmanyah"
+          ]
+        },
+        {
+          "paese": "Dominica",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "Repubblica Dominicana",
+          "canali": [
+            "Disney+ Premium Caribbean",
+            "Disney+ Premium Norte"
+          ]
+        },
+        {
+          "paese": "Ecuador",
+          "canali": [
+            "Disney+ Premium Sur"
+          ]
+        },
+        {
+          "paese": "Egitto",
+          "canali": [
+            "STARZPLAY",
+            "Shasha",
+            "Thmanyah"
+          ]
+        },
+        {
+          "paese": "El Salvador",
+          "canali": [
+            "Disney+ Premium Norte"
+          ]
+        },
+        {
+          "paese": "Isole Faroe",
+          "canali": [
+            "TV2 Play Denmark"
+          ]
+        },
+        {
+          "paese": "Finlandia",
+          "canali": [
+            "MTV Katsomo"
+          ]
+        },
+        {
+          "paese": "Gran Bretagna",
+          "canali": [
+            "DAZN UK"
+          ]
+        },
+        {
+          "paese": "Grenada",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "Guadalupa",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "Guatemala",
+          "canali": [
+            "Disney+ Premium Norte"
+          ]
+        },
+        {
+          "paese": "Haiti",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "Honduras",
+          "canali": [
+            "Disney+ Premium Norte"
+          ]
+        },
+        {
+          "paese": "Hong Kong",
+          "canali": [
+            "M Plus Live"
+          ]
+        },
+        {
+          "paese": "India",
+          "canali": [
+            "ZEE5"
+          ]
+        },
+        {
+          "paese": "Indonesia",
+          "canali": [
+            "Vidio"
+          ]
+        },
+        {
+          "paese": "Iran",
+          "canali": [
+            "Thmanyah"
+          ]
+        },
+        {
+          "paese": "Iraq",
+          "canali": [
+            "STARZPLAY",
+            "Shasha",
+            "Almanasa",
+            "Thmanyah"
+          ]
+        },
+        {
+          "paese": "Irlanda",
+          "canali": [
+            "DAZN UK"
+          ]
+        },
+        {
+          "paese": "Italia",
+          "canali": [
+            "DAZN Italia"
+          ]
+        },
+        {
+          "paese": "Giamaica",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "Giappone",
+          "canali": [
+            "DAZN Japan"
+          ]
+        },
+        {
+          "paese": "Giordania",
+          "canali": [
+            "STARZPLAY",
+            "Shasha",
+            "Thmanyah"
+          ]
+        },
+        {
+          "paese": "Kuwait",
+          "canali": [
+            "STARZPLAY",
+            "Shasha",
+            "Thmanyah"
+          ]
+        },
+        {
+          "paese": "Libano",
+          "canali": [
+            "STARZPLAY",
+            "Shasha"
+          ]
+        },
+        {
+          "paese": "Libia",
+          "canali": [
+            "STARZPLAY",
+            "Shasha",
+            "Thmanyah"
+          ]
+        },
+        {
+          "paese": "Macao",
+          "canali": [
+            "M Plus Live"
+          ]
+        },
+        {
+          "paese": "Maldive",
+          "canali": [
+            "ZEE5"
+          ]
+        },
+        {
+          "paese": "Martinica",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "Mauritania",
+          "canali": [
+            "STARZPLAY",
+            "Shasha"
+          ]
+        },
+        {
+          "paese": "Mauritius",
+          "canali": [
+            "Thmanyah"
+          ]
+        },
+        {
+          "paese": "Messico",
+          "canali": [
+            "Disney+ Premium Mexico"
+          ]
+        },
+        {
+          "paese": "Montserrat",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "Marocco",
+          "canali": [
+            "STARZPLAY",
+            "Shasha",
+            "Thmanyah"
+          ]
+        },
+        {
+          "paese": "Nepal",
+          "canali": [
+            "ZEE5"
+          ]
+        },
+        {
+          "paese": "Nicaragua",
+          "canali": [
+            "Disney+ Premium Norte"
+          ]
+        },
+        {
+          "paese": "Norvegia",
+          "canali": [
+            "VG+"
+          ]
+        },
+        {
+          "paese": "Oman",
+          "canali": [
+            "STARZPLAY",
+            "Shasha",
+            "Thmanyah"
+          ]
+        },
+        {
+          "paese": "Pakistan",
+          "canali": [
+            "Begin"
+          ]
+        },
+        {
+          "paese": "Palestina",
+          "canali": [
+            "STARZPLAY",
+            "Shasha",
+            "Thmanyah"
+          ]
+        },
+        {
+          "paese": "Panama",
+          "canali": [
+            "Disney+ Premium Norte"
+          ]
+        },
+        {
+          "paese": "Paraguay",
+          "canali": [
+            "Disney+ Premium Argentina"
+          ]
+        },
+        {
+          "paese": "Perù",
+          "canali": [
+            "Disney+ Premium Chile"
+          ]
+        },
+        {
+          "paese": "Porto Rico",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "Qatar",
+          "canali": [
+            "STARZPLAY",
+            "Shasha",
+            "Thmanyah"
+          ]
+        },
+        {
+          "paese": "Saint Barthelemy",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "Saint Kitts e Nevis",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "Santa Lucia",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "Saint Martin",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "San Marino",
+          "canali": [
+            "DAZN Italia"
+          ]
+        },
+        {
+          "paese": "Arabia Saudita",
+          "canali": [
+            "STARZPLAY",
+            "Shasha",
+            "STC TV",
+            "Thmanyah"
+          ]
+        },
+        {
+          "paese": "Somalia",
+          "canali": [
+            "STARZPLAY",
+            "Shasha"
+          ]
+        },
+        {
+          "paese": "Sud Sudan",
+          "canali": [
+            "STARZPLAY",
+            "Shasha"
+          ]
+        },
+        {
+          "paese": "Spagna",
+          "canali": [
+            "DAZN Spain"
+          ]
+        },
+        {
+          "paese": "Sri Lanka",
+          "canali": [
+            "ZEE5",
+            "Begin"
+          ]
+        },
+        {
+          "paese": "St. Vincent / Grenadines",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "Sudan",
+          "canali": [
+            "STARZPLAY",
+            "Shasha",
+            "Thmanyah"
+          ]
+        },
+        {
+          "paese": "Suriname",
+          "canali": [
+            "SCCN"
+          ]
+        },
+        {
+          "paese": "Svezia",
+          "canali": [
+            "TV4 Play"
+          ]
+        },
+        {
+          "paese": "Siria",
+          "canali": [
+            "STARZPLAY",
+            "Shasha",
+            "Thmanyah"
+          ]
+        },
+        {
+          "paese": "Trinidad e Tobago",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "Tunisia",
+          "canali": [
+            "STARZPLAY",
+            "Shasha",
+            "Diwan Sport",
+            "Thmanyah"
+          ]
+        },
+        {
+          "paese": "Turchia",
+          "canali": [
+            "S Sport+"
+          ]
+        },
+        {
+          "paese": "U.S. Virgin Islands",
+          "canali": [
+            "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "Emirati Arabi Uniti",
+          "canali": [
+            "STARZPLAY",
+            "Shasha",
+            "Thmanyah"
+          ]
+        },
+        {
+          "paese": "Uruguay",
+          "canali": [
+            "Disney+ Premium Argentina"
+          ]
+        },
+        {
+          "paese": "USA",
+          "canali": [
+            "Paramount+"
+          ]
+        },
+        {
+          "paese": "Venezuela",
+          "canali": [
+            "Disney+ Premium Sur"
+          ]
+        },
+        {
+          "paese": "Vietnam",
+          "canali": [
+            "MyTV Vietnam"
+          ]
+        },
+        {
+          "paese": "Yemen",
+          "canali": [
+            "STARZPLAY",
+            "Shasha",
+            "Thmanyah"
+          ]
+        }
+      ]
     }
   ]
 }
