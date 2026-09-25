@@ -503,11 +503,76 @@ def scrape_competition(ctx, comp, debug):
             os.makedirs(DEBUG_DIR, exist_ok=True)
             with open(os.path.join(DEBUG_DIR, f"{comp['slug']}.html"), "w", encoding="utf-8") as f:
                 f.write(page.content())
-        rows = page.evaluate(EXTRACT_JS)
+        rows = collect_all_pages(page)
         log(f"Righe partita estratte: {len(rows)}")
         return rows
     finally:
         page.close()
+
+
+# La pagina competizione mostra una decina di partite alla volta, con i pulsanti
+# "Prec." e "Avanti" che caricano il resto via AJAX: senza scorrere si perdono le
+# partite gia' giocate oggi e quelle dei giorni successivi.
+PAGES_BACK = int(os.environ.get("PAGES_BACK", "1"))
+PAGES_AHEAD = int(os.environ.get("PAGES_AHEAD", "4"))
+LIST_DAYS = int(os.environ.get("LIST_DAYS", "10"))
+
+FIRST_ROW_JS = "() => { const r = document.querySelector('tr.matchrow'); return r ? r.id : ''; }"
+
+
+def turn_page(page, direction):
+    """Clicca Prec./Avanti e aspetta che la tabella cambi. False se non c'e' altra pagina."""
+    sel = "div.pagination-left" if direction == "previous" else "div.pagination-right"
+    btn = page.query_selector(sel)
+    if not btn:
+        return False
+    before = page.evaluate(FIRST_ROW_JS)
+    try:
+        btn.click(timeout=10000)
+        page.wait_for_function(
+            "(b) => { const r = document.querySelector('tr.matchrow'); return r && r.id !== b; }",
+            arg=before, timeout=15000)
+        page.wait_for_timeout(700)
+        return True
+    except Exception as e:
+        log(f"  Pagina {direction} non caricata: {str(e).splitlines()[0] if str(e) else e}")
+        return False
+
+
+def collect_all_pages(page):
+    seen, rows = set(), []
+
+    def add(batch):
+        nuove = 0
+        for r in batch:
+            key = r.get("id") or r.get("url")
+            if key and key not in seen:
+                seen.add(key)
+                rows.append(r)
+                nuove += 1
+        return nuove
+
+    add(page.evaluate(EXTRACT_JS))
+    # indietro: partite di oggi gia' iniziate prima di quelle mostrate
+    back = 0
+    for _ in range(PAGES_BACK):
+        if not turn_page(page, "previous"):
+            break
+        back += 1
+        log(f"  Pagina precedente: {add(page.evaluate(EXTRACT_JS))} partite nuove")
+    # avanti: si riparte dalla pagina precedente, quindi servono back giri in piu'
+    limite = (datetime.now(ZoneInfo(TARGET_TZ)) + timedelta(days=LIST_DAYS)).timestamp() * 1000
+    for i in range(back + PAGES_AHEAD):
+        if not turn_page(page, "next"):
+            break
+        batch = page.evaluate(EXTRACT_JS)
+        n = add(batch)
+        if i >= back:
+            log(f"  Pagina successiva: {n} partite nuove")
+        ultimi = [int(r["dv"]) for r in batch if (r.get("dv") or "").isdigit()]
+        if ultimi and max(ultimi) > limite:
+            break
+    return rows
 
 
 def get_rows(ctx, comp, args):
