@@ -1,0 +1,43 @@
+name: Calendario sport
+
+on:
+  schedule:
+    - cron: "20 */3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: calendario-sport
+  cancel-in-progress: false
+
+jobs:
+  aggiorna:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Genera calendario
+        env:
+          # Facoltativa: Settings, Secrets and variables, Actions, Variables
+          EPG_URLS: ${{ vars.EPG_URLS }}
+        run: python calendario_sport.py
+
+      - name: Commit se ci sono modifiche
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898898+github-actions[bot]@users.noreply.github.com"
+          git add output/calendario_sport.json
+          if git diff --cached --quiet; then
+            echo "Nessuna modifica"
+          else
+            git commit -m "Aggiorna calendario sport"
+            git pull --rebase
+            git push
+          fi
