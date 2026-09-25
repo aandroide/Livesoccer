@@ -116,7 +116,7 @@ EXTRACT_JS = r"""
         name: txt(c) || t.replace(/\s*\(.*\)\s*$/, ''),
         url: c.href,
         stream: /live stream/i.test(t),
-        home: c.classList.contains('homech')
+        slug: ((c.getAttribute('href') || '').match(/\/channels\/([^/]+)/) || [])[1] || ''
       };
     });
     out.push({
@@ -231,6 +231,58 @@ def drop_replays(rows):
     return kept
 
 
+# Elenco dei canali italiani preso dal menu "Canali > Italia" della pagina /it/ (e' lo
+# stesso da qualunque paese si visiti il sito). Serve per tenere dalla lista della
+# competizione solo i canali italiani: visti dall'estero gli altri sono quelli del paese
+# del runner (Paramount+, Fox, fuboTV...). Il segno "homech" del sito NON e' affidabile:
+# a seconda di come il sito riconosce il visitatore marca come "di casa" anche Paramount+.
+ITALIAN_CHANNEL_SLUGS = set()
+
+ITALIAN_MENU_JS = r"""
+() => {
+  const out = [];
+  document.querySelectorAll('li.channels .dropdown h5').forEach(h => {
+    if (!h.querySelector('.flag.italy')) return;
+    let ul = h.nextElementSibling;
+    while (ul && ul.tagName !== 'UL') ul = ul.nextElementSibling;
+    if (!ul) return;
+    ul.querySelectorAll('a[href*="/channels/"]').forEach(a => {
+      const m = (a.getAttribute('href') || '').match(/\/channels\/([^/]+)/);
+      if (m) out.push(m[1]);
+    });
+  });
+  return out;
+}
+"""
+
+ITALIAN_NAME_RX = re.compile(
+    r"(\brai\b|raiplay|sky sport(?!s)|sky go|now tv|dazn italia|^dazn ?1$|mediaset|infinity|"
+    r"italia 1|canale 5|rete 4|\btv8\b|\bcielo\b|\bla7\b|sportitalia|\bnove\b|lab channel)", re.I)
+FOREIGN_NAME_RX = re.compile(
+    r"(germany|deutschland|spain|espa|switzerland|austria|uk\b|canada|usa|mexico|caribbean|"
+    r"brazil|argentina|france|portugal|japan|arabia)", re.I)
+
+
+def learn_italian_channels(page):
+    try:
+        found = page.evaluate(ITALIAN_MENU_JS) or []
+        ITALIAN_CHANNEL_SLUGS.update(found)
+    except Exception:
+        pass
+
+
+def is_italian_channel(c):
+    slug = (c.get("slug") or "").lower()
+    name = (c.get("name") or "").strip()
+    if FOREIGN_NAME_RX.search(name) or FOREIGN_NAME_RX.search(slug):
+        return False
+    if slug and slug in ITALIAN_CHANNEL_SLUGS:
+        return True
+    if "italy" in slug or "italia" in slug or "italia" in name.lower():
+        return True
+    return bool(ITALIAN_NAME_RX.search(name))
+
+
 def row_is_relevant(r, now):
     """Vale quanto il controllo dentro normalize(): scarta solo le partite finite da piu'
     di 12 ore. Usata anche prima di aprire la pagina di dettaglio di una partita, per non
@@ -272,7 +324,18 @@ def fetch_match_channels_it(ctx, url, timeout=45000):
         if is_challenge(page) and not wait_challenge_with_click(page, seconds=30):
             log(f"  canali IT: verifica di sicurezza non superata per {url}")
             return None
-        return page.evaluate(MATCH_CHANNELS_JS)
+        try:
+            page.wait_for_selector("table.ichannels", timeout=10000)
+        except Exception:
+            pass
+        dati = page.evaluate(MATCH_CHANNELS_JS)
+        if not (dati and dati.get("italia")):
+            # a volte la tabella non e' ancora completa: si riprova dopo qualche secondo
+            page.wait_for_timeout(3000)
+            dati2 = page.evaluate(MATCH_CHANNELS_JS)
+            if dati2 and (dati2.get("italia") or len(dati2.get("mondo", [])) > len((dati or {}).get("mondo", []))):
+                dati = dati2
+        return dati
     except Exception as e:
         log(f"  canali IT non letti per {url}: {str(e).splitlines()[0] if str(e) else repr(e)}")
         return None
@@ -504,6 +567,7 @@ def scrape_competition(ctx, comp, debug):
             os.makedirs(DEBUG_DIR, exist_ok=True)
             with open(os.path.join(DEBUG_DIR, f"{comp['slug']}.html"), "w", encoding="utf-8") as f:
                 f.write(page.content())
+        learn_italian_channels(page)
         rows = collect_all_pages(page)
         log(f"Righe partita estratte: {len(rows)}")
         return rows
@@ -528,16 +592,24 @@ def turn_page(page, direction):
     if not btn:
         return False
     before = page.evaluate(FIRST_ROW_JS)
-    try:
-        btn.click(timeout=10000)
-        page.wait_for_function(
-            "(b) => { const r = document.querySelector('tr.matchrow'); return r && r.id !== b; }",
-            arg=before, timeout=15000)
-        page.wait_for_timeout(700)
-        return True
-    except Exception as e:
-        log(f"  Pagina {direction} non caricata: {str(e).splitlines()[0] if str(e) else e}")
-        return False
+    last_err = ""
+    for tentativo in (1, 2):
+        try:
+            btn = page.query_selector(sel)
+            if not btn:
+                return False
+            btn.scroll_into_view_if_needed(timeout=5000)
+            btn.click(timeout=10000)
+            page.wait_for_function(
+                "(b) => { const r = document.querySelector('tr.matchrow'); return r && r.id !== b; }",
+                arg=before, timeout=25000)
+            page.wait_for_timeout(700)
+            return True
+        except Exception as e:
+            last_err = str(e).splitlines()[0] if str(e) else repr(e)
+            page.wait_for_timeout(2000)
+    log(f"  Pagina {direction} non caricata: {last_err}")
+    return False
 
 
 def collect_all_pages(page):
@@ -583,6 +655,7 @@ def get_rows(ctx, comp, args):
         page = ctx.new_page()
         with open(args.html, encoding="utf-8") as f:
             page.set_content(f.read())
+        learn_italian_channels(page)
         rows = page.evaluate(EXTRACT_JS)
         page.close()
         return rows
@@ -636,13 +709,9 @@ def main():
             rows = drop_replays(rows)
 
             for r in rows:
-                # dalla lista si tengono solo i canali segnati come italiani (homech):
-                # visti dall'estero gli altri sono quelli del paese del runner. Se la pagina
-                # della partita viene letta, questi vengono comunque sostituiti.
-                if any(c.get("home") for c in r.get("channels", [])):
-                    r["channels"] = [c for c in r["channels"] if c.get("home")]
-                elif comp.get("channels_from_match_page"):
-                    r["channels"] = []
+                # dalla lista si tengono solo i canali italiani (vedi is_italian_channel):
+                # se la pagina della partita viene letta, vengono comunque sostituiti
+                r["channels"] = [c for c in r.get("channels", []) if is_italian_channel(c)]
 
             if comp.get("channels_from_match_page") and not args.html:
                 orizzonte = now + timedelta(days=MATCH_PAGE_DAYS)
