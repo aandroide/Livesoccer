@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-09-25T19:01:30+02:00",
+  "aggiornato": "2026-09-25T19:33:06+02:00",
   "fonti": {
     "motori": "Fuori Traiettoria, Dizzle0987/motorsport-calendar, palinsesto TV8",
     "calcio_italiano": "https://raw.githubusercontent.com/aandroide/Livesoccer/master/livesoccertv/output/eventi.json",
@@ -8125,33 +8125,6 @@
           ]
         },
         {
-          "nome": "Serie A Futsal",
-          "totale": 1,
-          "eventi": [
-            {
-              "titolo": "Serie A Futsal: Sporting Sala Consilina-Vinumitaly Petrarca",
-              "categoria": "Calcio",
-              "sottocartella": "Serie A Futsal",
-              "sport": "Calcio a 5 maschile",
-              "competizione": "Serie A Futsal",
-              "evento": "Sporting Sala Consilina-Vinumitaly Petrarca",
-              "inizio": "2026-09-25T20:30:00+02:00",
-              "data": "25/09/2026",
-              "ora": "20:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport Mix",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-09-25T20:30",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            }
-          ]
-        },
-        {
           "nome": "UEFA Nations League",
           "totale": 11,
           "eventi": [
@@ -8381,6 +8354,33 @@
                   "numero": "201",
                   "tipo": "diretta",
                   "orario": "2026-10-01T20:45",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            }
+          ]
+        },
+        {
+          "nome": "Serie A Futsal",
+          "totale": 1,
+          "eventi": [
+            {
+              "titolo": "Serie A Futsal: Sporting Sala Consilina-Vinumitaly Petrarca",
+              "categoria": "Calcio",
+              "sottocartella": "Serie A Futsal",
+              "sport": "Calcio a 5 maschile",
+              "competizione": "Serie A Futsal",
+              "evento": "Sporting Sala Consilina-Vinumitaly Petrarca",
+              "inizio": "2026-09-25T20:30:00+02:00",
+              "data": "25/09/2026",
+              "ora": "20:30",
+              "canali": [
+                {
+                  "nome": "Sky Sport Mix",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-09-25T20:30",
                   "fonte": "virgilio"
                 }
               ],
