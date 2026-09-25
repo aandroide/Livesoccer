@@ -209,6 +209,27 @@ def row_kickoff(r):
         return None
 
 
+def drop_replays(rows):
+    """Visto da un IP estero (runner GitHub negli Stati Uniti) il sito aggiunge le repliche
+    dei canali di quel paese come righe separate: stessa pagina partita, ma un id diverso
+    dopo il # e l'orario della replica (es. Italia-Belgio del 25 riproposta il 26 alle 13:30).
+    Per ogni partita teniamo solo la riga con l'orario piu' vicino alla partita vera, cioe'
+    la prima."""
+    best = {}
+    for r in rows:
+        key = (r.get("url") or "").split("#", 1)[0] or r.get("id") or id(r)
+        try:
+            dv = int(r.get("dv") or 0)
+        except ValueError:
+            dv = 0
+        if key not in best or (dv and dv < int(best[key].get("dv") or 0)):
+            best[key] = r
+    kept = list(best.values())
+    if len(kept) < len(rows):
+        log(f"Repliche scartate: {len(rows) - len(kept)}")
+    return kept
+
+
 def row_is_relevant(r, now):
     """Vale quanto il controllo dentro normalize(): scarta solo le partite finite da piu'
     di 12 ore. Usata anche prima di aprire la pagina di dettaglio di una partita, per non
@@ -543,6 +564,8 @@ def main():
             if args.debug:
                 for r in rows[:5]:
                     log(f"  RAW: {r['dv']} | {r['timer']} | {r['title']} | {r['score']} | {[c['name'] for c in r['channels']]}")
+
+            rows = drop_replays(rows)
 
             if comp.get("channels_from_match_page") and not args.html:
                 orizzonte = now + timedelta(days=MATCH_PAGE_DAYS)
