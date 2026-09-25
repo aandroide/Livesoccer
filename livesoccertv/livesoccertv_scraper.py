@@ -115,7 +115,8 @@ EXTRACT_JS = r"""
       return {
         name: txt(c) || t.replace(/\s*\(.*\)\s*$/, ''),
         url: c.href,
-        stream: /live stream/i.test(t)
+        stream: /live stream/i.test(t),
+        home: c.classList.contains('homech')
       };
     });
     out.push({
@@ -515,7 +516,7 @@ def scrape_competition(ctx, comp, debug):
 # partite gia' giocate oggi e quelle dei giorni successivi.
 PAGES_BACK = int(os.environ.get("PAGES_BACK", "1"))
 PAGES_AHEAD = int(os.environ.get("PAGES_AHEAD", "4"))
-LIST_DAYS = int(os.environ.get("LIST_DAYS", "10"))
+LIST_DAYS = int(os.environ.get("LIST_DAYS", "21"))
 
 FIRST_ROW_JS = "() => { const r = document.querySelector('tr.matchrow'); return r ? r.id : ''; }"
 
@@ -569,8 +570,10 @@ def collect_all_pages(page):
         n = add(batch)
         if i >= back:
             log(f"  Pagina successiva: {n} partite nuove")
+        # le prime "back" pagine riportano solo alla pagina di partenza: il controllo
+        # della data vale dalla prima pagina davvero nuova in poi
         ultimi = [int(r["dv"]) for r in batch if (r.get("dv") or "").isdigit()]
-        if ultimi and max(ultimi) > limite:
+        if i >= back and ultimi and min(ultimi) > limite:
             break
     return rows
 
@@ -631,6 +634,15 @@ def main():
                     log(f"  RAW: {r['dv']} | {r['timer']} | {r['title']} | {r['score']} | {[c['name'] for c in r['channels']]}")
 
             rows = drop_replays(rows)
+
+            for r in rows:
+                # dalla lista si tengono solo i canali segnati come italiani (homech):
+                # visti dall'estero gli altri sono quelli del paese del runner. Se la pagina
+                # della partita viene letta, questi vengono comunque sostituiti.
+                if any(c.get("home") for c in r.get("channels", [])):
+                    r["channels"] = [c for c in r["channels"] if c.get("home")]
+                elif comp.get("channels_from_match_page"):
+                    r["channels"] = []
 
             if comp.get("channels_from_match_page") and not args.html:
                 orizzonte = now + timedelta(days=MATCH_PAGE_DAYS)
