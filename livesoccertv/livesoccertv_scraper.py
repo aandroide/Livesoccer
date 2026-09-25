@@ -57,7 +57,21 @@ COMPETITIONS = [
     {"slug": "serie-a", "name": "Serie A", "path": "/it/competitions/italy/serie-a/", "channels_from_match_page": True},
     {"slug": "serie-b", "name": "Serie B", "path": "/it/competitions/italy/serie-b/", "channels_from_match_page": True},
     {"slug": "serie-c", "name": "Serie C", "path": "/it/competitions/italy/lega-pro-1/", "channels_from_match_page": True},
+    # Coppe europee e nazionale: diritti venduti in tutto il mondo, quindi i canali
+    # italiani vanno sempre letti dalla pagina della singola partita.
+    # I nomi coincidono con quelli di Virgilio Sport, cosi' il calendario unico
+    # riconosce e unisce le stesse partite.
+    {"slug": "champions-league", "name": "UEFA Champions League", "path": "/it/competitions/international/uefa-champions-league/", "channels_from_match_page": True},
+    {"slug": "europa-league", "name": "UEFA Europa League", "path": "/it/competitions/international/uefa-europa-league/", "channels_from_match_page": True},
+    {"slug": "conference-league", "name": "UEFA Conference League", "path": "/it/competitions/international/uefa-europa-conference-league/", "channels_from_match_page": True},
+    {"slug": "nations-league", "name": "UEFA Nations League", "path": "/it/competitions/international/uefa-nations-league/", "channels_from_match_page": True},
 ]
+
+# La pagina della singola partita si apre solo per le partite dei prossimi giorni:
+# le coppe e la Nations League elencano molte partite, e aprirle tutte allungherebbe
+# troppo il giro dell'action. Le partite piu' lontane restano con i canali della
+# pagina campionato e vengono completate nei giri successivi, quando si avvicinano.
+MATCH_PAGE_DAYS = int(os.environ.get("MATCH_PAGE_DAYS", "7"))
 
 TARGET_TZ = "Europe/Rome"
 OUT_DIR = os.environ.get("OUT_DIR", "output")
@@ -531,7 +545,9 @@ def main():
                     log(f"  RAW: {r['dv']} | {r['timer']} | {r['title']} | {r['score']} | {[c['name'] for c in r['channels']]}")
 
             if comp.get("channels_from_match_page") and not args.html:
-                da_controllare = [r for r in rows if r.get("url") and row_is_relevant(r, now)]
+                orizzonte = now + timedelta(days=MATCH_PAGE_DAYS)
+                da_controllare = [r for r in rows if r.get("url") and row_is_relevant(r, now)
+                                  and (row_kickoff(r) or now) <= orizzonte]
                 log(f"Canali IT dalla pagina partita: {len(da_controllare)} partite da controllare")
                 for i, r in enumerate(da_controllare):
                     dati = fetch_match_channels_it(ctx, r["url"])
