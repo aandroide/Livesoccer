@@ -56,7 +56,11 @@ CONFIG = json.loads(r"""
     "competizioni": [
       "Serie A",
       "Serie B",
-      "Serie C"
+      "Serie C",
+      "UEFA Champions League",
+      "UEFA Europa League",
+      "UEFA Conference League",
+      "UEFA Nations League"
     ]
   },
   "virgilio": {
@@ -1216,6 +1220,13 @@ def virgilio_norm(text):
     return unicodedata.normalize("NFKD", text or "").encode("ascii", "ignore").decode().lower()
 
 
+def teams_overlap(a, b):
+    """Vero se le due squadre condividono una parola, anche abbreviata:
+    'Inter' e 'Internazionale', 'Atletico' e 'Atletico Madrid'."""
+    return any(x == y or (min(len(x), len(y)) >= 4 and (x.startswith(y) or y.startswith(x)))
+               for x in a for y in b)
+
+
 def split_teams(title):
     parts = re.split(r"\s+vs\.?\s+|\s+-\s+|-", title, maxsplit=1)
     return (parts[0], parts[1]) if len(parts) == 2 else (title, "")
@@ -1292,7 +1303,7 @@ def merge_football(soccer, others, competitions):
             if s["inizio"][:10] != ev["inizio"][:10]:
                 continue
             sh, sa = split_teams(s["evento"])
-            if th & team_tokens(sh) and ta & team_tokens(sa):
+            if teams_overlap(th, team_tokens(sh)) and teams_overlap(ta, team_tokens(sa)):
                 match = s
                 break
         if match is None:
