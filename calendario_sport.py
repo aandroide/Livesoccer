@@ -344,6 +344,7 @@ MOTOR_CONFIG = json.loads(r"""
         "moto2",
         "moto3"
       ],
+      "tv8_richiedi_keyword": true,
       "canali": [],
       "tv8": true
     },
@@ -618,7 +619,12 @@ def load_dizzle(cfg, tz, numbers):
         if broadcaster:
             tipo = e.get("broadcast_type_it") or "diretta"
             match = re.search(r"(\d{1,2}):(\d{2})", e.get("broadcast_time_it") or "")
-            when = start.replace(hour=int(match.group(1)), minute=int(match.group(2))) if match else start
+            # l'orario di messa in onda serve solo per la differita: per la diretta
+            # vale l'orario della sessione (quello di Dizzle a volte e' vecchio, es. cambio ora)
+            if tipo == "differita" and match:
+                when = start.replace(hour=int(match.group(1)), minute=int(match.group(2)))
+            else:
+                when = start
             for name in [n.strip() for n in broadcaster.split("/") if n.strip()]:
                 base.append({"nome": name, "numero": numbers.get(name, ""),
                              "tipo": "streaming" if name.upper() == "NOW" else tipo,
@@ -688,13 +694,27 @@ def tv8_matches(ev, sess, cal, other_keywords, tz, cache, max_delay_h):
                 continue
             if sess == "qualifiche" and "sprint" in title:
                 continue
+            if sess == "gara" and "sprint" in title:
+                continue
             if not any(has_word(title, w) for w in words):
+                continue
+            # Superbike: "Race 2" deve trovare "Gara 2", "SP Race" solo "Superpole Race"
+            label = norm(ev.get("sessione_label", ""))
+            is_sp = "superpole race" in label or re.search(r"\bsp race\b", label) is not None
+            if is_sp != ("superpole" in title and ("race" in title or "gara" in title)) and sess == "gara":
+                continue
+            num = re.search(r"\b(?:race|gara)\s*(\d)\b", label)
+            if num and not re.search(r"\b(?:race|gara)\s*%s\b" % num.group(1), title):
                 continue
             if ev["terms"] and not any(has_word(prog["testo"], t) for t in ev["terms"]):
                 continue
             # evita di attribuire alla F1 un programma MotoGP dello stesso GP
             mentions_own = any(has_word(prog["testo"], k) for k in own)
             if not mentions_own and any(has_word(prog["testo"], k) for k in other_keywords):
+                continue
+            # per le classi minori (Moto2/Moto3) il programma deve nominarle, altrimenti
+            # si rischia di prendere la gara della MotoGP dello stesso weekend
+            if cal.get("tv8_richiedi_keyword") and not mentions_own:
                 continue
             delta = (prog["start"] - start).total_seconds() / 60
             if -90 <= delta <= 10 and prog["stop"] >= start:
@@ -1102,6 +1122,40 @@ def motor_events(cfg, tz, now):
     return out
 
 
+def merge_virgilio(events):
+    """Unisce le righe di Virgilio che sono lo stesso evento:
+    - stessa gara passata da un canale all'altro (ciclismo: Eurosport, poi Rai Sport,
+      poi Rai 2) diventa un evento solo, con l'orario di ogni canale;
+    - una riga generica ("Laver Cup") alla stessa ora di una specifica
+      ("Laver Cup: 1a Giornata") viene assorbita da quella specifica."""
+    merged = []
+    for ev in sorted(events, key=lambda e: e["inizio"]):
+        start = dt.datetime.fromisoformat(ev["inizio"])
+        target = None
+        for m in reversed(merged):
+            if m["categoria"] != ev["categoria"] or m["competizione"] != ev["competizione"]:
+                continue
+            m_start = dt.datetime.fromisoformat(m["inizio"])
+            if m_start.date() != start.date():
+                continue
+            same_event = m["evento"] == ev["evento"] and (start - m_start) <= dt.timedelta(hours=6)
+            generic = ev["evento"] == ev["competizione"] or m["evento"] == m["competizione"]
+            if same_event or (generic and m_start == start):
+                target = m
+                break
+        if target is None:
+            merged.append(ev)
+            continue
+        if target["evento"] == target["competizione"] and ev["evento"] != ev["competizione"]:
+            for k in ("titolo", "evento"):
+                target[k] = ev[k]
+        names = {norm(c["nome"]) for c in target["canali"]}
+        for c in ev["canali"]:
+            if norm(c["nome"]) not in names:
+                target["canali"].append(c)
+    return merged
+
+
 def virgilio_events(cfg, categories, sub_by, tz, numbers):
     if not cfg.get("attivo", True):
         return []
@@ -1146,7 +1200,7 @@ def virgilio_events(cfg, categories, sub_by, tz, numbers):
                        for c in e["canali"]],
             "fonte": "Virgilio Sport",
         })
-    return out
+    return merge_virgilio(out)
 
 
 STREAMING_NAMES = ("sky go", "now tv", "now", "dazn", "prime video", "amazon", "infinity", "raiplay")
