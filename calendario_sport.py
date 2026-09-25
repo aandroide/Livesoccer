@@ -56,7 +56,9 @@ CONFIG = json.loads(r"""
     "competizioni": [
       "Serie A",
       "Serie B",
-      "Serie C",
+      "Serie C"
+    ],
+    "coppe_e_nazionali": [
       "UEFA Champions League",
       "UEFA Europa League",
       "UEFA Conference League",
@@ -1248,7 +1250,7 @@ def livesoccer_events(cfg, tz, numbers):
         log("LiveSoccer non disponibile: %s" % exc)
         return []
     items = data.get("eventi", []) if isinstance(data, dict) else data
-    wanted = cfg.get("competizioni", [])
+    wanted = cfg.get("competizioni", []) + cfg.get("coppe_e_nazionali", [])
     out = []
     for e in items:
         comp = e.get("competizione", "")
@@ -1281,6 +1283,65 @@ def livesoccer_events(cfg, tz, numbers):
         })
     log("LiveSoccer: %d partite" % len(out))
     return out
+
+
+def has_italian_channels(ev):
+    """LiveSoccer gira da un runner negli Stati Uniti: i canali sono italiani solo se la
+    pagina della partita e' stata letta (canali_mondo contiene l'Italia)."""
+    return any(norm(p.get("paese", "")) in ("italia", "italy") for p in ev.get("canali_mondo", []))
+
+
+def enrich_from_soccer(extra, others, competitions):
+    """Coppe europee e nazionali.
+    - Se la partita c'e' anche su Virgilio resta quella di Virgilio (orario sicuro) e
+      LiveSoccer aggiunge i canali italiani mancanti.
+    - Se c'e' solo su LiveSoccer (es. Svezia-Romania, solo su Sky Sport Calcio e Sky Go)
+      viene aggiunta, ma solo se ha i canali italiani letti dalla pagina della partita.
+    - Una riga di LiveSoccer con le stesse squadre di una partita di Virgilio ma a un'altra
+      ora e' una replica estera e viene scartata.
+    Restituisce (eventi di Virgilio aggiornati, partite da aggiungere)."""
+    comps = {norm(c) for c in competitions}
+    usable = [s for s in extra if has_italian_channels(s)]
+    targets = [ev for ev in others
+               if ev["categoria"] == "Calcio" and norm(folder_name(ev["competizione"])) in comps]
+    used = set()
+
+    def same_teams(a, b):
+        ah, aa = split_teams(a)
+        bh, ba = split_teams(b)
+        direct = teams_overlap(team_tokens(ah), team_tokens(bh)) and teams_overlap(team_tokens(aa), team_tokens(ba))
+        swapped = teams_overlap(team_tokens(ah), team_tokens(ba)) and teams_overlap(team_tokens(aa), team_tokens(bh))
+        return direct or swapped
+
+    for ev in targets:
+        start = dt.datetime.fromisoformat(ev["inizio"])
+        for i, s in enumerate(usable):
+            if i in used or not same_teams(ev["evento"], s["evento"]):
+                continue
+            if abs(dt.datetime.fromisoformat(s["inizio"]) - start) > dt.timedelta(minutes=30):
+                continue
+            names = {norm(c["nome"]) for c in ev["canali"]}
+            for c in s["canali"]:
+                if norm(c["nome"]) not in names:
+                    ev["canali"].append(dict(c))
+                    names.add(norm(c["nome"]))
+            ev["canali_mondo"] = s.get("canali_mondo", [])
+            used.add(i)
+            break
+
+    added = []
+    for i, s in enumerate(usable):
+        if i in used:
+            continue
+        start = dt.datetime.fromisoformat(s["inizio"])
+        replay = any(same_teams(ev["evento"], s["evento"])
+                     and abs(dt.datetime.fromisoformat(ev["inizio"]) - start) <= dt.timedelta(days=5)
+                     for ev in targets)
+        if replay:
+            continue
+        s["_ordine_sottocartella"] = 50
+        added.append(s)
+    return others, added
 
 
 def merge_football(soccer, others, competitions):
@@ -1334,8 +1395,12 @@ def build():
     soccer = livesoccer_events(ls_cfg, tz, numbers)
     others = virgilio_events(cfg.get("virgilio", {}), categories,
                              cfg.get("sottocartelle_per", {}), tz, numbers)
-    others = merge_football(soccer, others, ls_cfg.get("competizioni", []))
-    events = motor_events(cfg.get("motorsport", {}), tz, now) + soccer + others
+    main_comps = ls_cfg.get("competizioni", [])
+    soccer_main = [s for s in soccer if s["competizione"] in main_comps]
+    soccer_extra = [s for s in soccer if s["competizione"] not in main_comps]
+    others = merge_football(soccer_main, others, main_comps)
+    others, soccer_added = enrich_from_soccer(soccer_extra, others, ls_cfg.get("coppe_e_nazionali", []))
+    events = motor_events(cfg.get("motorsport", {}), tz, now) + soccer_main + soccer_added + others
     events = [e for e in events if dt.datetime.fromisoformat(e["inizio"]) >= since]
     events.sort(key=lambda e: (e["inizio"], e["categoria"], e["titolo"]))
 
