@@ -54,9 +54,9 @@ COMPETITIONS = [
     # dati strutturati (ld+json), che elenca i canali di tutti i paesi gia' etichettati per
     # nazione: da li' si prende solo "Italy", cosi' il risultato non dipende da dove gira lo
     # scraper (vedi normalize/fetch_match_channels_it per il motivo per cui serve).
-    {"slug": "serie-a", "name": "Serie A", "path": "/it/competitions/italy/serie-a/", "channels_from_match_page": True},
-    {"slug": "serie-b", "name": "Serie B", "path": "/it/competitions/italy/serie-b/", "channels_from_match_page": True},
-    {"slug": "serie-c", "name": "Serie C", "path": "/it/competitions/italy/lega-pro-1/", "channels_from_match_page": True},
+    {"slug": "serie-a", "name": "Serie A", "path": "/it/competitions/italy/serie-a/", "channels_from_match_page": True, "match_page_days": 21},
+    {"slug": "serie-b", "name": "Serie B", "path": "/it/competitions/italy/serie-b/", "channels_from_match_page": True, "match_page_days": 21},
+    {"slug": "serie-c", "name": "Serie C", "path": "/it/competitions/italy/lega-pro-1/", "channels_from_match_page": True, "match_page_days": 21},
     # Coppe europee e nazionale: diritti venduti in tutto il mondo, quindi i canali
     # italiani vanno sempre letti dalla pagina della singola partita.
     # I nomi coincidono con quelli di Virgilio Sport, cosi' il calendario unico
@@ -714,7 +714,11 @@ def main():
                 r["channels"] = [c for c in r.get("channels", []) if is_italian_channel(c)]
 
             if comp.get("channels_from_match_page") and not args.html:
-                orizzonte = now + timedelta(days=MATCH_PAGE_DAYS)
+                # Serie A, B e C: pagina partita aperta per tutte le partite in lista (21 giorni),
+                # come nella versione originale dello scraper: e' da li' che arrivano i canali
+                # italiani e "Altri paesi". Coppe e nazionali: solo 7 giorni, perche' elencano
+                # molte piu' partite e aprirle tutte allungherebbe troppo il giro.
+                orizzonte = now + timedelta(days=comp.get("match_page_days", MATCH_PAGE_DAYS))
                 da_controllare = [r for r in rows if r.get("url") and row_is_relevant(r, now)
                                   and (row_kickoff(r) or now) <= orizzonte]
                 log(f"Canali IT dalla pagina partita: {len(da_controllare)} partite da controllare")
