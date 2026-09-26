@@ -55,8 +55,8 @@ COMPETITIONS = [
     # nazione: da li' si prende solo "Italy", cosi' il risultato non dipende da dove gira lo
     # scraper (vedi normalize/fetch_match_channels_it per il motivo per cui serve).
     {"slug": "serie-a", "name": "Serie A", "path": "/it/competitions/italy/serie-a/", "channels_from_match_page": True},
-    {"slug": "serie-b", "name": "Serie B", "path": "/it/competitions/italy/serie-b/", "channels_from_match_page": True},
-    {"slug": "serie-c", "name": "Serie C", "path": "/it/competitions/italy/lega-pro-1/", "channels_from_match_page": True},
+    {"slug": "serie-b", "name": "Serie B", "path": "/it/competitions/italy/serie-b/", "channels_from_match_page": True, "altri_paesi": False},
+    {"slug": "serie-c", "name": "Serie C", "path": "/it/competitions/italy/lega-pro-1/", "channels_from_match_page": True, "altri_paesi": False},
     # Coppe europee e nazionale: diritti venduti in tutto il mondo, quindi i canali
     # italiani vanno sempre letti dalla pagina della singola partita.
     # I nomi coincidono con quelli di Virgilio Sport, cosi' il calendario unico
@@ -325,12 +325,14 @@ def fetch_match_channels_it(ctx, url, timeout=45000):
             log(f"  canali IT: verifica di sicurezza non superata per {url}")
             return None
         try:
-            page.wait_for_selector("table.ichannels", timeout=10000)
+            page.wait_for_selector("table.ichannels", timeout=5000)
         except Exception:
             pass
         dati = page.evaluate(MATCH_CHANNELS_JS)
-        if not (dati and dati.get("italia")):
-            # a volte la tabella non e' ancora completa: si riprova dopo qualche secondo
+        # si riprova solo se la tabella sembra vuota o appena iniziata: se elenca gia' molti
+        # paesi e l'Italia non c'e', la partita in Italia non va in onda e aspettare e' inutile
+        # (succede spesso con le coppe e la Nations League, e costava 3 secondi a partita)
+        if not (dati and dati.get("italia")) and len((dati or {}).get("mondo", [])) < 3:
             page.wait_for_timeout(3000)
             dati2 = page.evaluate(MATCH_CHANNELS_JS)
             if dati2 and (dati2.get("italia") or len(dati2.get("mondo", [])) > len((dati or {}).get("mondo", []))):
@@ -580,7 +582,7 @@ def scrape_competition(ctx, comp, debug):
 # partite gia' giocate oggi e quelle dei giorni successivi.
 PAGES_BACK = int(os.environ.get("PAGES_BACK", "1"))
 PAGES_AHEAD = int(os.environ.get("PAGES_AHEAD", "4"))
-LIST_DAYS = int(os.environ.get("LIST_DAYS", "21"))
+LIST_DAYS = int(os.environ.get("LIST_DAYS", "7"))
 
 FIRST_ROW_JS = "() => { const r = document.querySelector('tr.matchrow'); return r ? r.id : ''; }"
 
@@ -602,7 +604,7 @@ def turn_page(page, direction):
             btn.click(timeout=10000)
             page.wait_for_function(
                 "(b) => { const r = document.querySelector('tr.matchrow'); return r && r.id !== b; }",
-                arg=before, timeout=25000)
+                arg=before, timeout=15000)
             page.wait_for_timeout(700)
             return True
         except Exception as e:
@@ -714,13 +716,19 @@ def main():
                 r["channels"] = [c for c in r.get("channels", []) if is_italian_channel(c)]
 
             if comp.get("channels_from_match_page") and not args.html:
-                # Serie A, B e C: pagina partita aperta per tutte le partite in lista (21 giorni),
-                # come nella versione originale dello scraper: e' da li' che arrivano i canali
-                # italiani e "Altri paesi". Coppe e nazionali: solo 7 giorni, perche' elencano
-                # molte piu' partite e aprirle tutte allungherebbe troppo il giro.
+                # pagina partita solo per le partite dei prossimi MATCH_PAGE_DAYS giorni (7):
+                # e' da li' che arrivano i canali italiani e "Altri paesi"
                 orizzonte = now + timedelta(days=comp.get("match_page_days", MATCH_PAGE_DAYS))
                 da_controllare = [r for r in rows if r.get("url") and row_is_relevant(r, now)
                                   and (row_kickoff(r) or now) <= orizzonte]
+                if not comp.get("altri_paesi", True):
+                    # Serie B e C: diritti solo italiani, "Altri paesi" sarebbe solo Italia e
+                    # San Marino. Se la lista ha gia' i canali italiani la pagina partita non
+                    # aggiunge nulla: si apre solo per le partite rimaste senza canali.
+                    saltate = [r for r in da_controllare if r.get("channels")]
+                    da_controllare = [r for r in da_controllare if not r.get("channels")]
+                    if saltate:
+                        log(f"Canali IT gia' presenti nella lista: {len(saltate)} partite senza pagina partita")
                 log(f"Canali IT dalla pagina partita: {len(da_controllare)} partite da controllare")
                 for i, r in enumerate(da_controllare):
                     dati = fetch_match_channels_it(ctx, r["url"])
