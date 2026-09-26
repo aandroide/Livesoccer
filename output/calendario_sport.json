@@ -1,568 +1,16 @@
 {
-  "aggiornato": "2026-09-26T13:33:07+02:00",
+  "aggiornato": "2026-09-26T18:29:49+02:00",
   "fonti": {
     "motori": "Fuori Traiettoria, Dizzle0987/motorsport-calendar, palinsesto TV8",
     "calcio_italiano": "https://raw.githubusercontent.com/aandroide/Livesoccer/master/livesoccertv/output/eventi.json",
     "altri_sport": "https://sport.virgilio.it/guida-tv/"
   },
-  "totale": 303,
+  "totale": 294,
   "cartelle": [
     {
       "nome": "Oggi",
-      "totale": 35,
+      "totale": 20,
       "eventi": [
-        {
-          "titolo": "[Motori] World Superbike: Italian Round - Superpole",
-          "categoria": "Motori",
-          "sottocartella": "World Superbike",
-          "sport": "Motori",
-          "competizione": "World Superbike",
-          "evento": "Italian Round - Superpole",
-          "sessione": "qualifiche",
-          "circuito": "Cremona Circuit, Strada Giuseppina 2, San Martino del Lago, 26040 San Martino del Lago CR, Italia",
-          "inizio": "2026-09-26T11:15:00+02:00",
-          "data": "26/09/2026",
-          "ora": "11:15",
-          "canali": [],
-          "fonte": "Fuori Traiettoria"
-        },
-        {
-          "titolo": "[Tennis] WTA 500 Singapore: 2a Semifinale",
-          "categoria": "Tennis",
-          "sottocartella": "WTA 500 Singapore",
-          "sport": "Tennis",
-          "competizione": "WTA 500 Singapore",
-          "evento": "2a Semifinale",
-          "inizio": "2026-09-26T12:00:00+02:00",
-          "data": "26/09/2026",
-          "ora": "12:00",
-          "canali": [
-            {
-              "nome": "Sky Sport Tennis",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-09-26T12:00",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Altri sport] CRO Race: 5a tappa",
-          "categoria": "Altri sport",
-          "sottocartella": "Ciclismo",
-          "sport": "Ciclismo",
-          "competizione": "CRO Race",
-          "evento": "5a tappa",
-          "inizio": "2026-09-26T13:00:00+02:00",
-          "data": "26/09/2026",
-          "ora": "13:00",
-          "canali": [
-            {
-              "nome": "Eurosport",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-09-26T13:00",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Motori] Formula 1: Azerbaijan Grand Prix - Gara",
-          "categoria": "Motori",
-          "sottocartella": "Formula 1",
-          "sport": "Motori",
-          "competizione": "Formula 1",
-          "evento": "Azerbaijan Grand Prix - Gara",
-          "sessione": "gara",
-          "circuito": "Baku City Circuit, Baku, Azerbaijan",
-          "inizio": "2026-09-26T13:00:00+02:00",
-          "data": "26/09/2026",
-          "ora": "13:00",
-          "canali": [
-            {
-              "nome": "Sky Sport F1",
-              "numero": "207",
-              "tipo": "diretta",
-              "orario": "2026-09-26T13:00",
-              "fonte": "dizzle+config"
-            },
-            {
-              "nome": "NOW",
-              "numero": "",
-              "tipo": "streaming",
-              "orario": "2026-09-26T13:00",
-              "fonte": "dizzle+config"
-            },
-            {
-              "nome": "Sky Sport 1",
-              "numero": "201",
-              "tipo": "diretta",
-              "orario": "2026-09-26T13:00",
-              "fonte": "config"
-            },
-            {
-              "nome": "Sky Sport 4K",
-              "numero": "213",
-              "tipo": "diretta",
-              "orario": "2026-09-26T13:00",
-              "fonte": "config"
-            },
-            {
-              "nome": "TV8",
-              "numero": "8",
-              "tipo": "differita",
-              "orario": "2026-09-26T15:45",
-              "fonte": "config+tv8"
-            }
-          ],
-          "fonte": "Dizzle0987/motorsport-calendar"
-        },
-        {
-          "titolo": "[Tennis] Laver Cup: 2a Giornata Sess. Diurna",
-          "categoria": "Tennis",
-          "sottocartella": "Laver Cup",
-          "sport": "Tennis",
-          "competizione": "Laver Cup",
-          "evento": "2a Giornata Sess. Diurna",
-          "inizio": "2026-09-26T14:00:00+02:00",
-          "data": "26/09/2026",
-          "ora": "14:00",
-          "canali": [
-            {
-              "nome": "Eurosport 2",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-09-26T14:00",
-              "fonte": "virgilio"
-            },
-            {
-              "nome": "Sky Sport Tennis",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-09-26T14:00",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Altri sport] WXV Global Series: Italia-Sudafrica",
-          "categoria": "Altri sport",
-          "sottocartella": "Rugby femminile",
-          "sport": "Rugby femminile",
-          "competizione": "WXV Global Series",
-          "evento": "Italia-Sudafrica",
-          "inizio": "2026-09-26T14:30:00+02:00",
-          "data": "26/09/2026",
-          "ora": "14:30",
-          "canali": [
-            {
-              "nome": "Sky Sport Mix",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-09-26T14:30",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Calcio] Serie C: Crotone vs Salernitana",
-          "categoria": "Calcio",
-          "sottocartella": "Serie C",
-          "sport": "Calcio",
-          "competizione": "Serie C",
-          "evento": "Crotone vs Salernitana",
-          "inizio": "2026-09-26T14:30:00+02:00",
-          "data": "26/09/2026",
-          "ora": "14:30",
-          "canali": [
-            {
-              "nome": "Sky Sport 251",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-09-26T14:30",
-              "fonte": "livesoccer"
-            },
-            {
-              "nome": "SKY Go Italia",
-              "numero": "",
-              "tipo": "streaming",
-              "orario": "2026-09-26T14:30",
-              "fonte": "livesoccer"
-            },
-            {
-              "nome": "NOW TV",
-              "numero": "",
-              "tipo": "streaming",
-              "orario": "2026-09-26T14:30",
-              "fonte": "livesoccer"
-            }
-          ],
-          "canali_mondo": [
-            {
-              "paese": "Italia",
-              "canali": [
-                "Sky Sport 251",
-                "SKY Go Italia",
-                "NOW TV"
-              ]
-            },
-            {
-              "paese": "San Marino",
-              "canali": [
-                "Sky Sport 251",
-                "SKY Go Italia",
-                "NOW TV"
-              ]
-            }
-          ],
-          "fonte": "LiveSoccerTV"
-        },
-        {
-          "titolo": "[Calcio] Serie C: Giana Erminio vs Pro Vercelli",
-          "categoria": "Calcio",
-          "sottocartella": "Serie C",
-          "sport": "Calcio",
-          "competizione": "Serie C",
-          "evento": "Giana Erminio vs Pro Vercelli",
-          "inizio": "2026-09-26T14:30:00+02:00",
-          "data": "26/09/2026",
-          "ora": "14:30",
-          "canali": [
-            {
-              "nome": "Sky Sport 255",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-09-26T14:30",
-              "fonte": "livesoccer"
-            },
-            {
-              "nome": "SKY Go Italia",
-              "numero": "",
-              "tipo": "streaming",
-              "orario": "2026-09-26T14:30",
-              "fonte": "livesoccer"
-            },
-            {
-              "nome": "NOW TV",
-              "numero": "",
-              "tipo": "streaming",
-              "orario": "2026-09-26T14:30",
-              "fonte": "livesoccer"
-            }
-          ],
-          "canali_mondo": [
-            {
-              "paese": "Italia",
-              "canali": [
-                "Sky Sport 255",
-                "SKY Go Italia",
-                "NOW TV"
-              ]
-            },
-            {
-              "paese": "San Marino",
-              "canali": [
-                "Sky Sport 255",
-                "SKY Go Italia",
-                "NOW TV"
-              ]
-            }
-          ],
-          "fonte": "LiveSoccerTV"
-        },
-        {
-          "titolo": "[Calcio] Serie C: Lumezzane vs Folgore Caratese",
-          "categoria": "Calcio",
-          "sottocartella": "Serie C",
-          "sport": "Calcio",
-          "competizione": "Serie C",
-          "evento": "Lumezzane vs Folgore Caratese",
-          "inizio": "2026-09-26T14:30:00+02:00",
-          "data": "26/09/2026",
-          "ora": "14:30",
-          "canali": [
-            {
-              "nome": "Sky Sport 256",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-09-26T14:30",
-              "fonte": "livesoccer"
-            },
-            {
-              "nome": "SKY Go Italia",
-              "numero": "",
-              "tipo": "streaming",
-              "orario": "2026-09-26T14:30",
-              "fonte": "livesoccer"
-            },
-            {
-              "nome": "NOW TV",
-              "numero": "",
-              "tipo": "streaming",
-              "orario": "2026-09-26T14:30",
-              "fonte": "livesoccer"
-            }
-          ],
-          "canali_mondo": [
-            {
-              "paese": "Italia",
-              "canali": [
-                "Sky Sport 256",
-                "SKY Go Italia",
-                "NOW TV"
-              ]
-            },
-            {
-              "paese": "San Marino",
-              "canali": [
-                "Sky Sport 256",
-                "SKY Go Italia",
-                "NOW TV"
-              ]
-            }
-          ],
-          "fonte": "LiveSoccerTV"
-        },
-        {
-          "titolo": "[Calcio] Serie C: Pergolettese vs Trento",
-          "categoria": "Calcio",
-          "sottocartella": "Serie C",
-          "sport": "Calcio",
-          "competizione": "Serie C",
-          "evento": "Pergolettese vs Trento",
-          "inizio": "2026-09-26T14:30:00+02:00",
-          "data": "26/09/2026",
-          "ora": "14:30",
-          "canali": [
-            {
-              "nome": "Sky Sport 252",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-09-26T14:30",
-              "fonte": "livesoccer"
-            },
-            {
-              "nome": "SKY Go Italia",
-              "numero": "",
-              "tipo": "streaming",
-              "orario": "2026-09-26T14:30",
-              "fonte": "livesoccer"
-            },
-            {
-              "nome": "NOW TV",
-              "numero": "",
-              "tipo": "streaming",
-              "orario": "2026-09-26T14:30",
-              "fonte": "livesoccer"
-            }
-          ],
-          "canali_mondo": [
-            {
-              "paese": "Italia",
-              "canali": [
-                "Sky Sport 252",
-                "SKY Go Italia",
-                "NOW TV"
-              ]
-            },
-            {
-              "paese": "San Marino",
-              "canali": [
-                "Sky Sport 252",
-                "SKY Go Italia",
-                "NOW TV"
-              ]
-            }
-          ],
-          "fonte": "LiveSoccerTV"
-        },
-        {
-          "titolo": "[Calcio] Serie C: Pineto vs Grosseto",
-          "categoria": "Calcio",
-          "sottocartella": "Serie C",
-          "sport": "Calcio",
-          "competizione": "Serie C",
-          "evento": "Pineto vs Grosseto",
-          "inizio": "2026-09-26T14:30:00+02:00",
-          "data": "26/09/2026",
-          "ora": "14:30",
-          "canali": [
-            {
-              "nome": "Sky Sport 253",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-09-26T14:30",
-              "fonte": "livesoccer"
-            },
-            {
-              "nome": "SKY Go Italia",
-              "numero": "",
-              "tipo": "streaming",
-              "orario": "2026-09-26T14:30",
-              "fonte": "livesoccer"
-            },
-            {
-              "nome": "NOW TV",
-              "numero": "",
-              "tipo": "streaming",
-              "orario": "2026-09-26T14:30",
-              "fonte": "livesoccer"
-            }
-          ],
-          "canali_mondo": [
-            {
-              "paese": "Italia",
-              "canali": [
-                "Sky Sport 253",
-                "SKY Go Italia",
-                "NOW TV"
-              ]
-            },
-            {
-              "paese": "San Marino",
-              "canali": [
-                "Sky Sport 253",
-                "SKY Go Italia",
-                "NOW TV"
-              ]
-            }
-          ],
-          "fonte": "LiveSoccerTV"
-        },
-        {
-          "titolo": "[Calcio] Serie C: Sassari Torres vs Vado",
-          "categoria": "Calcio",
-          "sottocartella": "Serie C",
-          "sport": "Calcio",
-          "competizione": "Serie C",
-          "evento": "Sassari Torres vs Vado",
-          "inizio": "2026-09-26T14:30:00+02:00",
-          "data": "26/09/2026",
-          "ora": "14:30",
-          "canali": [
-            {
-              "nome": "Sky Sport 254",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-09-26T14:30",
-              "fonte": "livesoccer"
-            },
-            {
-              "nome": "SKY Go Italia",
-              "numero": "",
-              "tipo": "streaming",
-              "orario": "2026-09-26T14:30",
-              "fonte": "livesoccer"
-            },
-            {
-              "nome": "NOW TV",
-              "numero": "",
-              "tipo": "streaming",
-              "orario": "2026-09-26T14:30",
-              "fonte": "livesoccer"
-            }
-          ],
-          "canali_mondo": [
-            {
-              "paese": "Italia",
-              "canali": [
-                "Sky Sport 254",
-                "SKY Go Italia",
-                "NOW TV"
-              ]
-            },
-            {
-              "paese": "San Marino",
-              "canali": [
-                "Sky Sport 254",
-                "SKY Go Italia",
-                "NOW TV"
-              ]
-            }
-          ],
-          "fonte": "LiveSoccerTV"
-        },
-        {
-          "titolo": "[Altri sport] Mondiali su strada Montreal: Prova in linea Élite Donne",
-          "categoria": "Altri sport",
-          "sottocartella": "Ciclismo",
-          "sport": "Ciclismo",
-          "competizione": "Mondiali su strada Montreal 2026",
-          "evento": "Prova in linea Élite Donne",
-          "inizio": "2026-09-26T15:00:00+02:00",
-          "data": "26/09/2026",
-          "ora": "15:00",
-          "canali": [
-            {
-              "nome": "Eurosport",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-09-26T15:00",
-              "fonte": "virgilio"
-            },
-            {
-              "nome": "Rai Sport",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-09-26T16:00",
-              "fonte": "virgilio"
-            },
-            {
-              "nome": "Rai 2",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-09-26T18:00",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Calcio] Qualificazioni Coppa d’Africa: Sudafrica-Guinea",
-          "categoria": "Calcio",
-          "sottocartella": "Qualificazioni Coppa d’Africa",
-          "sport": "Calcio",
-          "competizione": "Qualificazioni Coppa d’Africa",
-          "evento": "Sudafrica-Guinea",
-          "inizio": "2026-09-26T15:00:00+02:00",
-          "data": "26/09/2026",
-          "ora": "15:00",
-          "canali": [
-            {
-              "nome": "Sportitalia",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-09-26T15:00",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Calcio] UEFA Nations League: Slovenia-Scozia",
-          "categoria": "Calcio",
-          "sottocartella": "UEFA Nations League",
-          "sport": "Calcio",
-          "competizione": "UEFA Nations League",
-          "evento": "Slovenia-Scozia",
-          "inizio": "2026-09-26T15:00:00+02:00",
-          "data": "26/09/2026",
-          "ora": "15:00",
-          "canali": [
-            {
-              "nome": "Sky Sport Calcio",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-09-26T15:00",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
         {
           "titolo": "[Motori] World Superbike: Italian Round - Race 1",
           "categoria": "Motori",
@@ -2262,24 +1710,7 @@
               "fonte": "virgilio"
             }
           ],
-          "canali_mondo": [
-            {
-              "paese": "Italia",
-              "canali": [
-                "Sky Sport 251",
-                "SKY Go Italia",
-                "NOW TV"
-              ]
-            },
-            {
-              "paese": "San Marino",
-              "canali": [
-                "Sky Sport 251",
-                "SKY Go Italia",
-                "NOW TV"
-              ]
-            }
-          ],
+          "canali_mondo": [],
           "fonte": "LiveSoccerTV"
         },
         {
@@ -5022,63 +4453,12 @@
     },
     {
       "nome": "Motori",
-      "totale": 135,
+      "totale": 133,
       "sottocartelle": [
         {
           "nome": "Formula 1",
-          "totale": 31,
+          "totale": 30,
           "eventi": [
-            {
-              "titolo": "Formula 1: Azerbaijan Grand Prix - Gara",
-              "categoria": "Motori",
-              "sottocartella": "Formula 1",
-              "sport": "Motori",
-              "competizione": "Formula 1",
-              "evento": "Azerbaijan Grand Prix - Gara",
-              "sessione": "gara",
-              "circuito": "Baku City Circuit, Baku, Azerbaijan",
-              "inizio": "2026-09-26T13:00:00+02:00",
-              "data": "26/09/2026",
-              "ora": "13:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport F1",
-                  "numero": "207",
-                  "tipo": "diretta",
-                  "orario": "2026-09-26T13:00",
-                  "fonte": "dizzle+config"
-                },
-                {
-                  "nome": "NOW",
-                  "numero": "",
-                  "tipo": "streaming",
-                  "orario": "2026-09-26T13:00",
-                  "fonte": "dizzle+config"
-                },
-                {
-                  "nome": "Sky Sport 1",
-                  "numero": "201",
-                  "tipo": "diretta",
-                  "orario": "2026-09-26T13:00",
-                  "fonte": "config"
-                },
-                {
-                  "nome": "Sky Sport 4K",
-                  "numero": "213",
-                  "tipo": "diretta",
-                  "orario": "2026-09-26T13:00",
-                  "fonte": "config"
-                },
-                {
-                  "nome": "TV8",
-                  "numero": "8",
-                  "tipo": "differita",
-                  "orario": "2026-09-26T15:45",
-                  "fonte": "config+tv8"
-                }
-              ],
-              "fonte": "Dizzle0987/motorsport-calendar"
-            },
             {
               "titolo": "Formula 1: Bahrain Grand Prix in Malaysia - FP1",
               "categoria": "Motori",
@@ -8550,23 +7930,8 @@
         },
         {
           "nome": "World Superbike",
-          "totale": 12,
+          "totale": 11,
           "eventi": [
-            {
-              "titolo": "World Superbike: Italian Round - Superpole",
-              "categoria": "Motori",
-              "sottocartella": "World Superbike",
-              "sport": "Motori",
-              "competizione": "World Superbike",
-              "evento": "Italian Round - Superpole",
-              "sessione": "qualifiche",
-              "circuito": "Cremona Circuit, Strada Giuseppina 2, San Martino del Lago, 26040 San Martino del Lago CR, Italia",
-              "inizio": "2026-09-26T11:15:00+02:00",
-              "data": "26/09/2026",
-              "ora": "11:15",
-              "canali": [],
-              "fonte": "Fuori Traiettoria"
-            },
             {
               "titolo": "World Superbike: Italian Round - Race 1",
               "categoria": "Motori",
@@ -8978,7 +8343,7 @@
     },
     {
       "nome": "Calcio",
-      "totale": 124,
+      "totale": 122,
       "sottocartelle": [
         {
           "nome": "Serie A",
@@ -10072,324 +9437,6 @@
           "totale": 46,
           "eventi": [
             {
-              "titolo": "Serie C: Crotone vs Salernitana",
-              "categoria": "Calcio",
-              "sottocartella": "Serie C",
-              "sport": "Calcio",
-              "competizione": "Serie C",
-              "evento": "Crotone vs Salernitana",
-              "inizio": "2026-09-26T14:30:00+02:00",
-              "data": "26/09/2026",
-              "ora": "14:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport 251",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-09-26T14:30",
-                  "fonte": "livesoccer"
-                },
-                {
-                  "nome": "SKY Go Italia",
-                  "numero": "",
-                  "tipo": "streaming",
-                  "orario": "2026-09-26T14:30",
-                  "fonte": "livesoccer"
-                },
-                {
-                  "nome": "NOW TV",
-                  "numero": "",
-                  "tipo": "streaming",
-                  "orario": "2026-09-26T14:30",
-                  "fonte": "livesoccer"
-                }
-              ],
-              "canali_mondo": [
-                {
-                  "paese": "Italia",
-                  "canali": [
-                    "Sky Sport 251",
-                    "SKY Go Italia",
-                    "NOW TV"
-                  ]
-                },
-                {
-                  "paese": "San Marino",
-                  "canali": [
-                    "Sky Sport 251",
-                    "SKY Go Italia",
-                    "NOW TV"
-                  ]
-                }
-              ],
-              "fonte": "LiveSoccerTV"
-            },
-            {
-              "titolo": "Serie C: Giana Erminio vs Pro Vercelli",
-              "categoria": "Calcio",
-              "sottocartella": "Serie C",
-              "sport": "Calcio",
-              "competizione": "Serie C",
-              "evento": "Giana Erminio vs Pro Vercelli",
-              "inizio": "2026-09-26T14:30:00+02:00",
-              "data": "26/09/2026",
-              "ora": "14:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport 255",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-09-26T14:30",
-                  "fonte": "livesoccer"
-                },
-                {
-                  "nome": "SKY Go Italia",
-                  "numero": "",
-                  "tipo": "streaming",
-                  "orario": "2026-09-26T14:30",
-                  "fonte": "livesoccer"
-                },
-                {
-                  "nome": "NOW TV",
-                  "numero": "",
-                  "tipo": "streaming",
-                  "orario": "2026-09-26T14:30",
-                  "fonte": "livesoccer"
-                }
-              ],
-              "canali_mondo": [
-                {
-                  "paese": "Italia",
-                  "canali": [
-                    "Sky Sport 255",
-                    "SKY Go Italia",
-                    "NOW TV"
-                  ]
-                },
-                {
-                  "paese": "San Marino",
-                  "canali": [
-                    "Sky Sport 255",
-                    "SKY Go Italia",
-                    "NOW TV"
-                  ]
-                }
-              ],
-              "fonte": "LiveSoccerTV"
-            },
-            {
-              "titolo": "Serie C: Lumezzane vs Folgore Caratese",
-              "categoria": "Calcio",
-              "sottocartella": "Serie C",
-              "sport": "Calcio",
-              "competizione": "Serie C",
-              "evento": "Lumezzane vs Folgore Caratese",
-              "inizio": "2026-09-26T14:30:00+02:00",
-              "data": "26/09/2026",
-              "ora": "14:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport 256",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-09-26T14:30",
-                  "fonte": "livesoccer"
-                },
-                {
-                  "nome": "SKY Go Italia",
-                  "numero": "",
-                  "tipo": "streaming",
-                  "orario": "2026-09-26T14:30",
-                  "fonte": "livesoccer"
-                },
-                {
-                  "nome": "NOW TV",
-                  "numero": "",
-                  "tipo": "streaming",
-                  "orario": "2026-09-26T14:30",
-                  "fonte": "livesoccer"
-                }
-              ],
-              "canali_mondo": [
-                {
-                  "paese": "Italia",
-                  "canali": [
-                    "Sky Sport 256",
-                    "SKY Go Italia",
-                    "NOW TV"
-                  ]
-                },
-                {
-                  "paese": "San Marino",
-                  "canali": [
-                    "Sky Sport 256",
-                    "SKY Go Italia",
-                    "NOW TV"
-                  ]
-                }
-              ],
-              "fonte": "LiveSoccerTV"
-            },
-            {
-              "titolo": "Serie C: Pergolettese vs Trento",
-              "categoria": "Calcio",
-              "sottocartella": "Serie C",
-              "sport": "Calcio",
-              "competizione": "Serie C",
-              "evento": "Pergolettese vs Trento",
-              "inizio": "2026-09-26T14:30:00+02:00",
-              "data": "26/09/2026",
-              "ora": "14:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport 252",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-09-26T14:30",
-                  "fonte": "livesoccer"
-                },
-                {
-                  "nome": "SKY Go Italia",
-                  "numero": "",
-                  "tipo": "streaming",
-                  "orario": "2026-09-26T14:30",
-                  "fonte": "livesoccer"
-                },
-                {
-                  "nome": "NOW TV",
-                  "numero": "",
-                  "tipo": "streaming",
-                  "orario": "2026-09-26T14:30",
-                  "fonte": "livesoccer"
-                }
-              ],
-              "canali_mondo": [
-                {
-                  "paese": "Italia",
-                  "canali": [
-                    "Sky Sport 252",
-                    "SKY Go Italia",
-                    "NOW TV"
-                  ]
-                },
-                {
-                  "paese": "San Marino",
-                  "canali": [
-                    "Sky Sport 252",
-                    "SKY Go Italia",
-                    "NOW TV"
-                  ]
-                }
-              ],
-              "fonte": "LiveSoccerTV"
-            },
-            {
-              "titolo": "Serie C: Pineto vs Grosseto",
-              "categoria": "Calcio",
-              "sottocartella": "Serie C",
-              "sport": "Calcio",
-              "competizione": "Serie C",
-              "evento": "Pineto vs Grosseto",
-              "inizio": "2026-09-26T14:30:00+02:00",
-              "data": "26/09/2026",
-              "ora": "14:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport 253",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-09-26T14:30",
-                  "fonte": "livesoccer"
-                },
-                {
-                  "nome": "SKY Go Italia",
-                  "numero": "",
-                  "tipo": "streaming",
-                  "orario": "2026-09-26T14:30",
-                  "fonte": "livesoccer"
-                },
-                {
-                  "nome": "NOW TV",
-                  "numero": "",
-                  "tipo": "streaming",
-                  "orario": "2026-09-26T14:30",
-                  "fonte": "livesoccer"
-                }
-              ],
-              "canali_mondo": [
-                {
-                  "paese": "Italia",
-                  "canali": [
-                    "Sky Sport 253",
-                    "SKY Go Italia",
-                    "NOW TV"
-                  ]
-                },
-                {
-                  "paese": "San Marino",
-                  "canali": [
-                    "Sky Sport 253",
-                    "SKY Go Italia",
-                    "NOW TV"
-                  ]
-                }
-              ],
-              "fonte": "LiveSoccerTV"
-            },
-            {
-              "titolo": "Serie C: Sassari Torres vs Vado",
-              "categoria": "Calcio",
-              "sottocartella": "Serie C",
-              "sport": "Calcio",
-              "competizione": "Serie C",
-              "evento": "Sassari Torres vs Vado",
-              "inizio": "2026-09-26T14:30:00+02:00",
-              "data": "26/09/2026",
-              "ora": "14:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport 254",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-09-26T14:30",
-                  "fonte": "livesoccer"
-                },
-                {
-                  "nome": "SKY Go Italia",
-                  "numero": "",
-                  "tipo": "streaming",
-                  "orario": "2026-09-26T14:30",
-                  "fonte": "livesoccer"
-                },
-                {
-                  "nome": "NOW TV",
-                  "numero": "",
-                  "tipo": "streaming",
-                  "orario": "2026-09-26T14:30",
-                  "fonte": "livesoccer"
-                }
-              ],
-              "canali_mondo": [
-                {
-                  "paese": "Italia",
-                  "canali": [
-                    "Sky Sport 254",
-                    "SKY Go Italia",
-                    "NOW TV"
-                  ]
-                },
-                {
-                  "paese": "San Marino",
-                  "canali": [
-                    "Sky Sport 254",
-                    "SKY Go Italia",
-                    "NOW TV"
-                  ]
-                }
-              ],
-              "fonte": "LiveSoccerTV"
-            },
-            {
               "titolo": "Serie C: Bari 1908 vs Cosenza",
               "categoria": "Calcio",
               "sottocartella": "Serie C",
@@ -10807,24 +9854,7 @@
                   "fonte": "virgilio"
                 }
               ],
-              "canali_mondo": [
-                {
-                  "paese": "Italia",
-                  "canali": [
-                    "Sky Sport 251",
-                    "SKY Go Italia",
-                    "NOW TV"
-                  ]
-                },
-                {
-                  "paese": "San Marino",
-                  "canali": [
-                    "Sky Sport 251",
-                    "SKY Go Italia",
-                    "NOW TV"
-                  ]
-                }
-              ],
+              "canali_mondo": [],
               "fonte": "LiveSoccerTV"
             },
             {
@@ -10858,34 +9888,9 @@
                   "tipo": "streaming",
                   "orario": "2026-09-27T12:30",
                   "fonte": "livesoccer"
-                },
-                {
-                  "nome": "Antenna Sud",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-09-27T12:30",
-                  "fonte": "livesoccer"
                 }
               ],
-              "canali_mondo": [
-                {
-                  "paese": "Italia",
-                  "canali": [
-                    "Sky Sport 252",
-                    "SKY Go Italia",
-                    "NOW TV",
-                    "Antenna Sud"
-                  ]
-                },
-                {
-                  "paese": "San Marino",
-                  "canali": [
-                    "Sky Sport 252",
-                    "SKY Go Italia",
-                    "NOW TV"
-                  ]
-                }
-              ],
+              "canali_mondo": [],
               "fonte": "LiveSoccerTV"
             },
             {
@@ -10964,24 +9969,7 @@
                   "fonte": "livesoccer"
                 }
               ],
-              "canali_mondo": [
-                {
-                  "paese": "Italia",
-                  "canali": [
-                    "Sky Sport 255",
-                    "SKY Go Italia",
-                    "NOW TV"
-                  ]
-                },
-                {
-                  "paese": "San Marino",
-                  "canali": [
-                    "Sky Sport 255",
-                    "SKY Go Italia",
-                    "NOW TV"
-                  ]
-                }
-              ],
+              "canali_mondo": [],
               "fonte": "LiveSoccerTV"
             },
             {
@@ -11017,24 +10005,7 @@
                   "fonte": "livesoccer"
                 }
               ],
-              "canali_mondo": [
-                {
-                  "paese": "Italia",
-                  "canali": [
-                    "Sky Sport 253",
-                    "SKY Go Italia",
-                    "NOW TV"
-                  ]
-                },
-                {
-                  "paese": "San Marino",
-                  "canali": [
-                    "Sky Sport 253",
-                    "SKY Go Italia",
-                    "NOW TV"
-                  ]
-                }
-              ],
+              "canali_mondo": [],
               "fonte": "LiveSoccerTV"
             },
             {
@@ -11070,24 +10041,7 @@
                   "fonte": "livesoccer"
                 }
               ],
-              "canali_mondo": [
-                {
-                  "paese": "Italia",
-                  "canali": [
-                    "Sky Sport 254",
-                    "SKY Go Italia",
-                    "NOW TV"
-                  ]
-                },
-                {
-                  "paese": "San Marino",
-                  "canali": [
-                    "Sky Sport 254",
-                    "SKY Go Italia",
-                    "NOW TV"
-                  ]
-                }
-              ],
+              "canali_mondo": [],
               "fonte": "LiveSoccerTV"
             },
             {
@@ -11123,24 +10077,7 @@
                   "fonte": "livesoccer"
                 }
               ],
-              "canali_mondo": [
-                {
-                  "paese": "Italia",
-                  "canali": [
-                    "Sky Sport 254",
-                    "SKY Go Italia",
-                    "NOW TV"
-                  ]
-                },
-                {
-                  "paese": "San Marino",
-                  "canali": [
-                    "Sky Sport 254",
-                    "SKY Go Italia",
-                    "NOW TV"
-                  ]
-                }
-              ],
+              "canali_mondo": [],
               "fonte": "LiveSoccerTV"
             },
             {
@@ -11183,24 +10120,7 @@
                   "fonte": "virgilio"
                 }
               ],
-              "canali_mondo": [
-                {
-                  "paese": "Italia",
-                  "canali": [
-                    "Sky Sport 251",
-                    "SKY Go Italia",
-                    "NOW TV"
-                  ]
-                },
-                {
-                  "paese": "San Marino",
-                  "canali": [
-                    "Sky Sport 251",
-                    "SKY Go Italia",
-                    "NOW TV"
-                  ]
-                }
-              ],
+              "canali_mondo": [],
               "fonte": "LiveSoccerTV"
             },
             {
@@ -11236,24 +10156,7 @@
                   "fonte": "livesoccer"
                 }
               ],
-              "canali_mondo": [
-                {
-                  "paese": "Italia",
-                  "canali": [
-                    "Sky Sport 255",
-                    "SKY Go Italia",
-                    "NOW TV"
-                  ]
-                },
-                {
-                  "paese": "San Marino",
-                  "canali": [
-                    "Sky Sport 255",
-                    "SKY Go Italia",
-                    "NOW TV"
-                  ]
-                }
-              ],
+              "canali_mondo": [],
               "fonte": "LiveSoccerTV"
             },
             {
@@ -11289,24 +10192,7 @@
                   "fonte": "livesoccer"
                 }
               ],
-              "canali_mondo": [
-                {
-                  "paese": "Italia",
-                  "canali": [
-                    "Sky Sport 253",
-                    "SKY Go Italia",
-                    "NOW TV"
-                  ]
-                },
-                {
-                  "paese": "San Marino",
-                  "canali": [
-                    "Sky Sport 253",
-                    "SKY Go Italia",
-                    "NOW TV"
-                  ]
-                }
-              ],
+              "canali_mondo": [],
               "fonte": "LiveSoccerTV"
             },
             {
@@ -11342,24 +10228,7 @@
                   "fonte": "livesoccer"
                 }
               ],
-              "canali_mondo": [
-                {
-                  "paese": "Italia",
-                  "canali": [
-                    "Sky Sport 252",
-                    "SKY Go Italia",
-                    "NOW TV"
-                  ]
-                },
-                {
-                  "paese": "San Marino",
-                  "canali": [
-                    "Sky Sport 252",
-                    "SKY Go Italia",
-                    "NOW TV"
-                  ]
-                }
-              ],
+              "canali_mondo": [],
               "fonte": "LiveSoccerTV"
             },
             {
@@ -11416,24 +10285,7 @@
                   "fonte": "livesoccer"
                 }
               ],
-              "canali_mondo": [
-                {
-                  "paese": "Italia",
-                  "canali": [
-                    "Sky Sport 251",
-                    "SKY Go Italia",
-                    "NOW TV"
-                  ]
-                },
-                {
-                  "paese": "San Marino",
-                  "canali": [
-                    "Sky Sport 251",
-                    "SKY Go Italia",
-                    "NOW TV"
-                  ]
-                }
-              ],
+              "canali_mondo": [],
               "fonte": "LiveSoccerTV"
             },
             {
@@ -11469,24 +10321,7 @@
                   "fonte": "livesoccer"
                 }
               ],
-              "canali_mondo": [
-                {
-                  "paese": "Italia",
-                  "canali": [
-                    "Sky Sport 251",
-                    "SKY Go Italia",
-                    "NOW TV"
-                  ]
-                },
-                {
-                  "paese": "San Marino",
-                  "canali": [
-                    "Sky Sport 251",
-                    "SKY Go Italia",
-                    "NOW TV"
-                  ]
-                }
-              ],
+              "canali_mondo": [],
               "fonte": "LiveSoccerTV"
             },
             {
@@ -11543,35 +10378,7 @@
                   "fonte": "virgilio"
                 }
               ],
-              "canali_mondo": [
-                {
-                  "paese": "Italia",
-                  "canali": [
-                    "Sky Sport 251",
-                    "RAI Sport 1",
-                    "SKY Go Italia",
-                    "RaiPlay",
-                    "NOW TV"
-                  ]
-                },
-                {
-                  "paese": "San Marino",
-                  "canali": [
-                    "Sky Sport 251",
-                    "RAI Sport 1",
-                    "SKY Go Italia",
-                    "RaiPlay",
-                    "NOW TV"
-                  ]
-                },
-                {
-                  "paese": "Svizzera",
-                  "canali": [
-                    "RAI Sport 1",
-                    "Sunrise TV"
-                  ]
-                }
-              ],
+              "canali_mondo": [],
               "fonte": "LiveSoccerTV"
             },
             {
@@ -11607,24 +10414,7 @@
                   "fonte": "livesoccer"
                 }
               ],
-              "canali_mondo": [
-                {
-                  "paese": "Italia",
-                  "canali": [
-                    "Sky Sport 251",
-                    "SKY Go Italia",
-                    "NOW TV"
-                  ]
-                },
-                {
-                  "paese": "San Marino",
-                  "canali": [
-                    "Sky Sport 251",
-                    "SKY Go Italia",
-                    "NOW TV"
-                  ]
-                }
-              ],
+              "canali_mondo": [],
               "fonte": "LiveSoccerTV"
             },
             {
@@ -12119,187 +10909,187 @@
               ],
               "canali_mondo": [],
               "fonte": "LiveSoccerTV"
-            }
-          ]
-        },
-        {
-          "nome": "Qualificazioni Coppa d’Africa",
-          "totale": 7,
-          "eventi": [
-            {
-              "titolo": "Qualificazioni Coppa d’Africa: Sudafrica-Guinea",
-              "categoria": "Calcio",
-              "sottocartella": "Qualificazioni Coppa d’Africa",
-              "sport": "Calcio",
-              "competizione": "Qualificazioni Coppa d’Africa",
-              "evento": "Sudafrica-Guinea",
-              "inizio": "2026-09-26T15:00:00+02:00",
-              "data": "26/09/2026",
-              "ora": "15:00",
-              "canali": [
-                {
-                  "nome": "Sportitalia",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-09-26T15:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
             },
             {
-              "titolo": "Qualificazioni Coppa d’Africa: Zimbabwe-Congo",
+              "titolo": "Serie C: Nuova Monterosi vs Pineto",
               "categoria": "Calcio",
-              "sottocartella": "Qualificazioni Coppa d’Africa",
+              "sottocartella": "Serie C",
               "sport": "Calcio",
-              "competizione": "Qualificazioni Coppa d’Africa",
-              "evento": "Zimbabwe-Congo",
-              "inizio": "2026-09-28T18:00:00+02:00",
-              "data": "28/09/2026",
-              "ora": "18:00",
+              "competizione": "Serie C",
+              "evento": "Nuova Monterosi vs Pineto",
+              "inizio": "2026-10-04T14:30:00+02:00",
+              "data": "04/10/2026",
+              "ora": "14:30",
               "canali": [
                 {
-                  "nome": "Sportitalia",
+                  "nome": "SKY Go Italia",
                   "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-09-28T18:00",
-                  "fonte": "virgilio"
+                  "tipo": "streaming",
+                  "orario": "2026-10-04T14:30",
+                  "fonte": "livesoccer"
+                },
+                {
+                  "nome": "NOW TV",
+                  "numero": "",
+                  "tipo": "streaming",
+                  "orario": "2026-10-04T14:30",
+                  "fonte": "livesoccer"
                 }
               ],
-              "fonte": "Virgilio Sport"
+              "canali_mondo": [],
+              "fonte": "LiveSoccerTV"
             },
             {
-              "titolo": "Qualificazioni Coppa d’Africa: Botswana-Tunisia",
+              "titolo": "Serie C: Pianese vs Ravenna",
               "categoria": "Calcio",
-              "sottocartella": "Qualificazioni Coppa d’Africa",
+              "sottocartella": "Serie C",
               "sport": "Calcio",
-              "competizione": "Qualificazioni Coppa d’Africa",
-              "evento": "Botswana-Tunisia",
-              "inizio": "2026-09-28T21:00:00+02:00",
-              "data": "28/09/2026",
-              "ora": "21:00",
+              "competizione": "Serie C",
+              "evento": "Pianese vs Ravenna",
+              "inizio": "2026-10-04T14:30:00+02:00",
+              "data": "04/10/2026",
+              "ora": "14:30",
               "canali": [
                 {
-                  "nome": "Sportitalia",
+                  "nome": "SKY Go Italia",
                   "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-09-28T21:00",
-                  "fonte": "virgilio"
+                  "tipo": "streaming",
+                  "orario": "2026-10-04T14:30",
+                  "fonte": "livesoccer"
+                },
+                {
+                  "nome": "NOW TV",
+                  "numero": "",
+                  "tipo": "streaming",
+                  "orario": "2026-10-04T14:30",
+                  "fonte": "livesoccer"
                 }
               ],
-              "fonte": "Virgilio Sport"
+              "canali_mondo": [],
+              "fonte": "LiveSoccerTV"
             },
             {
-              "titolo": "Qualificazioni Coppa d’Africa: Etiopia-Senegal",
+              "titolo": "Serie C: Dolomiti Bellunesi vs Novara",
               "categoria": "Calcio",
-              "sottocartella": "Qualificazioni Coppa d’Africa",
+              "sottocartella": "Serie C",
               "sport": "Calcio",
-              "competizione": "Qualificazioni Coppa d’Africa",
-              "evento": "Etiopia-Senegal",
-              "inizio": "2026-09-29T15:00:00+02:00",
-              "data": "29/09/2026",
-              "ora": "15:00",
+              "competizione": "Serie C",
+              "evento": "Dolomiti Bellunesi vs Novara",
+              "inizio": "2026-10-04T17:30:00+02:00",
+              "data": "04/10/2026",
+              "ora": "17:30",
               "canali": [
                 {
-                  "nome": "Sportitalia",
+                  "nome": "SKY Go Italia",
                   "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-09-29T15:00",
-                  "fonte": "virgilio"
+                  "tipo": "streaming",
+                  "orario": "2026-10-04T17:30",
+                  "fonte": "livesoccer"
+                },
+                {
+                  "nome": "NOW TV",
+                  "numero": "",
+                  "tipo": "streaming",
+                  "orario": "2026-10-04T17:30",
+                  "fonte": "livesoccer"
                 }
               ],
-              "fonte": "Virgilio Sport"
+              "canali_mondo": [],
+              "fonte": "LiveSoccerTV"
             },
             {
-              "titolo": "Qualificazioni Coppa d’Africa: Ghana-Gambia",
+              "titolo": "Serie C: Juventus II vs Lumezzane",
               "categoria": "Calcio",
-              "sottocartella": "Qualificazioni Coppa d’Africa",
+              "sottocartella": "Serie C",
               "sport": "Calcio",
-              "competizione": "Qualificazioni Coppa d’Africa",
-              "evento": "Ghana-Gambia",
-              "inizio": "2026-09-29T18:00:00+02:00",
-              "data": "29/09/2026",
-              "ora": "18:00",
+              "competizione": "Serie C",
+              "evento": "Juventus II vs Lumezzane",
+              "inizio": "2026-10-04T17:30:00+02:00",
+              "data": "04/10/2026",
+              "ora": "17:30",
               "canali": [
                 {
-                  "nome": "Sportitalia",
+                  "nome": "SKY Go Italia",
                   "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-09-29T18:00",
-                  "fonte": "virgilio"
+                  "tipo": "streaming",
+                  "orario": "2026-10-04T17:30",
+                  "fonte": "livesoccer"
+                },
+                {
+                  "nome": "NOW TV",
+                  "numero": "",
+                  "tipo": "streaming",
+                  "orario": "2026-10-04T17:30",
+                  "fonte": "livesoccer"
                 }
               ],
-              "fonte": "Virgilio Sport"
+              "canali_mondo": [],
+              "fonte": "LiveSoccerTV"
             },
             {
-              "titolo": "Qualificazioni Coppa d’Africa: Congo-Camerun",
+              "titolo": "Serie C: Monopoli vs Savoia",
               "categoria": "Calcio",
-              "sottocartella": "Qualificazioni Coppa d’Africa",
+              "sottocartella": "Serie C",
               "sport": "Calcio",
-              "competizione": "Qualificazioni Coppa d’Africa",
-              "evento": "Congo-Camerun",
-              "inizio": "2026-09-29T21:00:00+02:00",
-              "data": "29/09/2026",
-              "ora": "21:00",
+              "competizione": "Serie C",
+              "evento": "Monopoli vs Savoia",
+              "inizio": "2026-10-04T17:30:00+02:00",
+              "data": "04/10/2026",
+              "ora": "17:30",
               "canali": [
                 {
-                  "nome": "Sportitalia",
+                  "nome": "SKY Go Italia",
                   "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-09-29T21:00",
-                  "fonte": "virgilio"
+                  "tipo": "streaming",
+                  "orario": "2026-10-04T17:30",
+                  "fonte": "livesoccer"
+                },
+                {
+                  "nome": "NOW TV",
+                  "numero": "",
+                  "tipo": "streaming",
+                  "orario": "2026-10-04T17:30",
+                  "fonte": "livesoccer"
                 }
               ],
-              "fonte": "Virgilio Sport"
+              "canali_mondo": [],
+              "fonte": "LiveSoccerTV"
             },
             {
-              "titolo": "Qualificazioni Coppa d’Africa: Eritrea-Sudafrica",
+              "titolo": "Serie C: Reggiana vs Spezia",
               "categoria": "Calcio",
-              "sottocartella": "Qualificazioni Coppa d’Africa",
+              "sottocartella": "Serie C",
               "sport": "Calcio",
-              "competizione": "Qualificazioni Coppa d’Africa",
-              "evento": "Eritrea-Sudafrica",
-              "inizio": "2026-09-30T18:00:00+02:00",
-              "data": "30/09/2026",
-              "ora": "18:00",
+              "competizione": "Serie C",
+              "evento": "Reggiana vs Spezia",
+              "inizio": "2026-10-04T17:30:00+02:00",
+              "data": "04/10/2026",
+              "ora": "17:30",
               "canali": [
                 {
-                  "nome": "Sportitalia",
+                  "nome": "SKY Go Italia",
                   "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-09-30T18:00",
-                  "fonte": "virgilio"
+                  "tipo": "streaming",
+                  "orario": "2026-10-04T17:30",
+                  "fonte": "livesoccer"
+                },
+                {
+                  "nome": "NOW TV",
+                  "numero": "",
+                  "tipo": "streaming",
+                  "orario": "2026-10-04T17:30",
+                  "fonte": "livesoccer"
                 }
               ],
-              "fonte": "Virgilio Sport"
+              "canali_mondo": [],
+              "fonte": "LiveSoccerTV"
             }
           ]
         },
         {
           "nome": "UEFA Nations League",
-          "totale": 16,
+          "totale": 15,
           "eventi": [
-            {
-              "titolo": "UEFA Nations League: Slovenia-Scozia",
-              "categoria": "Calcio",
-              "sottocartella": "UEFA Nations League",
-              "sport": "Calcio",
-              "competizione": "UEFA Nations League",
-              "evento": "Slovenia-Scozia",
-              "inizio": "2026-09-26T15:00:00+02:00",
-              "data": "26/09/2026",
-              "ora": "15:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Calcio",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-09-26T15:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
             {
               "titolo": "UEFA Nations League: Bulgaria-Lussemburgo",
               "categoria": "Calcio",
@@ -21247,6 +20037,138 @@
           ]
         },
         {
+          "nome": "Qualificazioni Coppa d’Africa",
+          "totale": 6,
+          "eventi": [
+            {
+              "titolo": "Qualificazioni Coppa d’Africa: Zimbabwe-Congo",
+              "categoria": "Calcio",
+              "sottocartella": "Qualificazioni Coppa d’Africa",
+              "sport": "Calcio",
+              "competizione": "Qualificazioni Coppa d’Africa",
+              "evento": "Zimbabwe-Congo",
+              "inizio": "2026-09-28T18:00:00+02:00",
+              "data": "28/09/2026",
+              "ora": "18:00",
+              "canali": [
+                {
+                  "nome": "Sportitalia",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-09-28T18:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "Qualificazioni Coppa d’Africa: Botswana-Tunisia",
+              "categoria": "Calcio",
+              "sottocartella": "Qualificazioni Coppa d’Africa",
+              "sport": "Calcio",
+              "competizione": "Qualificazioni Coppa d’Africa",
+              "evento": "Botswana-Tunisia",
+              "inizio": "2026-09-28T21:00:00+02:00",
+              "data": "28/09/2026",
+              "ora": "21:00",
+              "canali": [
+                {
+                  "nome": "Sportitalia",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-09-28T21:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "Qualificazioni Coppa d’Africa: Etiopia-Senegal",
+              "categoria": "Calcio",
+              "sottocartella": "Qualificazioni Coppa d’Africa",
+              "sport": "Calcio",
+              "competizione": "Qualificazioni Coppa d’Africa",
+              "evento": "Etiopia-Senegal",
+              "inizio": "2026-09-29T15:00:00+02:00",
+              "data": "29/09/2026",
+              "ora": "15:00",
+              "canali": [
+                {
+                  "nome": "Sportitalia",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-09-29T15:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "Qualificazioni Coppa d’Africa: Ghana-Gambia",
+              "categoria": "Calcio",
+              "sottocartella": "Qualificazioni Coppa d’Africa",
+              "sport": "Calcio",
+              "competizione": "Qualificazioni Coppa d’Africa",
+              "evento": "Ghana-Gambia",
+              "inizio": "2026-09-29T18:00:00+02:00",
+              "data": "29/09/2026",
+              "ora": "18:00",
+              "canali": [
+                {
+                  "nome": "Sportitalia",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-09-29T18:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "Qualificazioni Coppa d’Africa: Congo-Camerun",
+              "categoria": "Calcio",
+              "sottocartella": "Qualificazioni Coppa d’Africa",
+              "sport": "Calcio",
+              "competizione": "Qualificazioni Coppa d’Africa",
+              "evento": "Congo-Camerun",
+              "inizio": "2026-09-29T21:00:00+02:00",
+              "data": "29/09/2026",
+              "ora": "21:00",
+              "canali": [
+                {
+                  "nome": "Sportitalia",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-09-29T21:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "Qualificazioni Coppa d’Africa: Eritrea-Sudafrica",
+              "categoria": "Calcio",
+              "sottocartella": "Qualificazioni Coppa d’Africa",
+              "sport": "Calcio",
+              "competizione": "Qualificazioni Coppa d’Africa",
+              "evento": "Eritrea-Sudafrica",
+              "inizio": "2026-09-30T18:00:00+02:00",
+              "data": "30/09/2026",
+              "ora": "18:00",
+              "canali": [
+                {
+                  "nome": "Sportitalia",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-09-30T18:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            }
+          ]
+        },
+        {
           "nome": "Qualificazioni Europei U21",
           "totale": 1,
           "eventi": [
@@ -21277,88 +20199,12 @@
     },
     {
       "nome": "Tennis",
-      "totale": 20,
+      "totale": 18,
       "sottocartelle": [
         {
-          "nome": "WTA 500 Singapore",
-          "totale": 2,
-          "eventi": [
-            {
-              "titolo": "WTA 500 Singapore: 2a Semifinale",
-              "categoria": "Tennis",
-              "sottocartella": "WTA 500 Singapore",
-              "sport": "Tennis",
-              "competizione": "WTA 500 Singapore",
-              "evento": "2a Semifinale",
-              "inizio": "2026-09-26T12:00:00+02:00",
-              "data": "26/09/2026",
-              "ora": "12:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Tennis",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-09-26T12:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "WTA 500 Singapore: Finale",
-              "categoria": "Tennis",
-              "sottocartella": "WTA 500 Singapore",
-              "sport": "Tennis",
-              "competizione": "WTA 500 Singapore",
-              "evento": "Finale",
-              "inizio": "2026-09-27T11:00:00+02:00",
-              "data": "27/09/2026",
-              "ora": "11:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Tennis",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-09-27T11:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            }
-          ]
-        },
-        {
           "nome": "Laver Cup",
-          "totale": 5,
+          "totale": 4,
           "eventi": [
-            {
-              "titolo": "Laver Cup: 2a Giornata Sess. Diurna",
-              "categoria": "Tennis",
-              "sottocartella": "Laver Cup",
-              "sport": "Tennis",
-              "competizione": "Laver Cup",
-              "evento": "2a Giornata Sess. Diurna",
-              "inizio": "2026-09-26T14:00:00+02:00",
-              "data": "26/09/2026",
-              "ora": "14:00",
-              "canali": [
-                {
-                  "nome": "Eurosport 2",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-09-26T14:00",
-                  "fonte": "virgilio"
-                },
-                {
-                  "nome": "Sky Sport Tennis",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-09-26T14:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
             {
               "titolo": "Laver Cup",
               "categoria": "Tennis",
@@ -21667,6 +20513,33 @@
                   "numero": "",
                   "tipo": "diretta",
                   "orario": "2026-09-27T08:30",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            }
+          ]
+        },
+        {
+          "nome": "WTA 500 Singapore",
+          "totale": 1,
+          "eventi": [
+            {
+              "titolo": "WTA 500 Singapore: Finale",
+              "categoria": "Tennis",
+              "sottocartella": "WTA 500 Singapore",
+              "sport": "Tennis",
+              "competizione": "WTA 500 Singapore",
+              "evento": "Finale",
+              "inizio": "2026-09-27T11:00:00+02:00",
+              "data": "27/09/2026",
+              "ora": "11:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport Tennis",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-09-27T11:00",
                   "fonte": "virgilio"
                 }
               ],
@@ -22229,153 +21102,8 @@
     },
     {
       "nome": "Altri sport",
-      "totale": 8,
+      "totale": 5,
       "sottocartelle": [
-        {
-          "nome": "Ciclismo",
-          "totale": 4,
-          "eventi": [
-            {
-              "titolo": "CRO Race: 5a tappa",
-              "categoria": "Altri sport",
-              "sottocartella": "Ciclismo",
-              "sport": "Ciclismo",
-              "competizione": "CRO Race",
-              "evento": "5a tappa",
-              "inizio": "2026-09-26T13:00:00+02:00",
-              "data": "26/09/2026",
-              "ora": "13:00",
-              "canali": [
-                {
-                  "nome": "Eurosport",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-09-26T13:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "Mondiali su strada Montreal: Prova in linea Élite Donne",
-              "categoria": "Altri sport",
-              "sottocartella": "Ciclismo",
-              "sport": "Ciclismo",
-              "competizione": "Mondiali su strada Montreal 2026",
-              "evento": "Prova in linea Élite Donne",
-              "inizio": "2026-09-26T15:00:00+02:00",
-              "data": "26/09/2026",
-              "ora": "15:00",
-              "canali": [
-                {
-                  "nome": "Eurosport",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-09-26T15:00",
-                  "fonte": "virgilio"
-                },
-                {
-                  "nome": "Rai Sport",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-09-26T16:00",
-                  "fonte": "virgilio"
-                },
-                {
-                  "nome": "Rai 2",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-09-26T18:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "CRO Race: 6a tappa",
-              "categoria": "Altri sport",
-              "sottocartella": "Ciclismo",
-              "sport": "Ciclismo",
-              "competizione": "CRO Race",
-              "evento": "6a tappa",
-              "inizio": "2026-09-27T13:00:00+02:00",
-              "data": "27/09/2026",
-              "ora": "13:00",
-              "canali": [
-                {
-                  "nome": "Eurosport",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-09-27T13:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "Mondiali su strada Montreal: Prova in linea Élite Uomini",
-              "categoria": "Altri sport",
-              "sottocartella": "Ciclismo",
-              "sport": "Ciclismo",
-              "competizione": "Mondiali su strada Montreal 2026",
-              "evento": "Prova in linea Élite Uomini",
-              "inizio": "2026-09-27T15:00:00+02:00",
-              "data": "27/09/2026",
-              "ora": "15:00",
-              "canali": [
-                {
-                  "nome": "Eurosport",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-09-27T15:00",
-                  "fonte": "virgilio"
-                },
-                {
-                  "nome": "Rai Sport",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-09-27T15:00",
-                  "fonte": "virgilio"
-                },
-                {
-                  "nome": "Rai 2",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-09-27T19:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            }
-          ]
-        },
-        {
-          "nome": "Rugby femminile",
-          "totale": 1,
-          "eventi": [
-            {
-              "titolo": "WXV Global Series: Italia-Sudafrica",
-              "categoria": "Altri sport",
-              "sottocartella": "Rugby femminile",
-              "sport": "Rugby femminile",
-              "competizione": "WXV Global Series",
-              "evento": "Italia-Sudafrica",
-              "inizio": "2026-09-26T14:30:00+02:00",
-              "data": "26/09/2026",
-              "ora": "14:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport Mix",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-09-26T14:30",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            }
-          ]
-        },
         {
           "nome": "Rugby",
           "totale": 3,
@@ -22445,6 +21173,68 @@
                   "numero": "",
                   "tipo": "diretta",
                   "orario": "2026-10-02T20:45",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            }
+          ]
+        },
+        {
+          "nome": "Ciclismo",
+          "totale": 2,
+          "eventi": [
+            {
+              "titolo": "CRO Race: 6a tappa",
+              "categoria": "Altri sport",
+              "sottocartella": "Ciclismo",
+              "sport": "Ciclismo",
+              "competizione": "CRO Race",
+              "evento": "6a tappa",
+              "inizio": "2026-09-27T13:00:00+02:00",
+              "data": "27/09/2026",
+              "ora": "13:00",
+              "canali": [
+                {
+                  "nome": "Eurosport",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-09-27T13:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "Mondiali su strada Montreal: Prova in linea Élite Uomini",
+              "categoria": "Altri sport",
+              "sottocartella": "Ciclismo",
+              "sport": "Ciclismo",
+              "competizione": "Mondiali su strada Montreal 2026",
+              "evento": "Prova in linea Élite Uomini",
+              "inizio": "2026-09-27T15:00:00+02:00",
+              "data": "27/09/2026",
+              "ora": "15:00",
+              "canali": [
+                {
+                  "nome": "Eurosport",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-09-27T15:00",
+                  "fonte": "virgilio"
+                },
+                {
+                  "nome": "Rai Sport",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-09-27T15:00",
+                  "fonte": "virgilio"
+                },
+                {
+                  "nome": "Rai 2",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-09-27T19:00",
                   "fonte": "virgilio"
                 }
               ],
