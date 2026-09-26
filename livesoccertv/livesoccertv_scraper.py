@@ -358,7 +358,7 @@ def load_channel_page(ctx, chan, save_debug):
         # non ha righe partita, ma non per questo e' bloccato
         for i in range(90):
             try:
-                if page.query_selector("main .page-h1, #_live") and not is_challenge(page):
+                if page.query_selector("main .page-h1, #_live"):
                     page.wait_for_timeout(500)
                     return page
             except Exception:
@@ -592,7 +592,11 @@ def is_challenge(page):
         t = (page.title() or "").lower()
         if any(k in t for k in CHALLENGE_TITLES):
             return True
-        if page.query_selector('iframe[src*="challenges.cloudflare.com"]'):
+        # il riquadro di Cloudflare conta solo se la pagina non ha ancora contenuto vero:
+        # il sito carica in sottofondo uno script Cloudflare che crea un riquadro nascosto
+        # anche sulle pagine normali, e scambiarlo per la verifica bloccava le pagine canale
+        if page.query_selector('iframe[src*="challenges.cloudflare.com"]') and \
+                not page.query_selector("main .page-h1, tr.matchrow, table.ichannels, #_live"):
             return True
         body = (page.inner_text("body", timeout=2000) or "").lower()
         return len(body) < 600 and any(k in body for k in CHALLENGE_TEXT)
