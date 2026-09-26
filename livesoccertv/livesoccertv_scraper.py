@@ -72,6 +72,9 @@ COMPETITIONS = [
 # troppo il giro dell'action. Le partite piu' lontane restano con i canali della
 # pagina campionato e vengono completate nei giri successivi, quando si avvicinano.
 MATCH_PAGE_DAYS = int(os.environ.get("MATCH_PAGE_DAYS", "7"))
+# Le pagine delle singole partite servono ormai solo per "Altri paesi" (i canali italiani
+# arrivano dai palinsesti dei canali). ALTRI_PAESI=0 le salta del tutto: giro molto piu' corto.
+ALTRI_PAESI = os.environ.get("ALTRI_PAESI", "1") != "0"
 
 TARGET_TZ = "Europe/Rome"
 OUT_DIR = os.environ.get("OUT_DIR", "output")
@@ -281,6 +284,99 @@ def is_italian_channel(c):
     if "italy" in slug or "italia" in slug or "italia" in name.lower():
         return True
     return bool(ITALIAN_NAME_RX.search(name))
+
+
+# ---------------------------------------------------------------------------
+# Palinsesti dei canali italiani
+# Ogni canale ha una pagina (/it/channels/<slug>/) con il palinsesto delle dirette nella
+# tabella "Live". Le righe hanno lo stesso id partita delle pagine competizione, quindi si
+# costruisce una mappa id partita -> canali italiani valida per tutte le competizioni, senza
+# dipendere dal paese da cui gira lo scraper e senza aprire le pagine delle singole partite.
+# ---------------------------------------------------------------------------
+CHANNEL_DAYS = int(os.environ.get("CHANNEL_DAYS", "7"))
+CHANNEL_MAX_PAGES = int(os.environ.get("CHANNEL_MAX_PAGES", "30"))
+# canali dell'elenco italiano che non trasmettono le competizioni seguite: si saltano
+CHANNEL_SKIP = set(os.environ.get(
+    "CHANNEL_SKIP", "apple-tv-app,ligue1plus,como-tv,antenna-sud,vivo-azzurro-tv").split(","))
+
+CHANNEL_LIST_JS = r"""
+() => Array.from(document.querySelectorAll('#chs-all-list a.chs-link')).map(a => ({
+  slug: ((a.getAttribute('href') || '').match(/\/channels\/([^/]+)/) || [])[1] || '',
+  name: ((a.querySelector('span') || a).textContent || '').trim()
+})).filter(c => c.slug && c.name)
+"""
+
+CHANNEL_ROWS_JS = r"""
+() => Array.from(document.querySelectorAll('#_live tr.matchrow')).map(tr => {
+  const ts = tr.querySelector('.ts[dv]');
+  return { id: tr.id || '', dv: ts ? (ts.getAttribute('dv') || '') : '' };
+}).filter(r => r.id)
+"""
+
+
+def load_page(ctx, url, ready_selector, timeout=60000):
+    """Apre una pagina superando la verifica Cloudflare; restituisce la pagina o None."""
+    page = ctx.new_page()
+    try:
+        page.goto(url, wait_until="domcontentloaded", timeout=timeout)
+        if is_challenge(page) and not wait_challenge_with_click(page, seconds=30):
+            page.close()
+            return None
+        try:
+            page.wait_for_selector(ready_selector, timeout=15000)
+        except Exception:
+            pass
+        return page
+    except Exception as e:
+        log(f"  {url} non aperta: {str(e).splitlines()[0] if str(e) else repr(e)}")
+        page.close()
+        return None
+
+
+def italian_channel_list(ctx):
+    page = load_page(ctx, BASE + "/it/channels/", "#chs-all-list")
+    if not page:
+        return []
+    try:
+        chans = page.evaluate(CHANNEL_LIST_JS) or []
+    finally:
+        page.close()
+    for c in chans:
+        ITALIAN_CHANNEL_SLUGS.add(c["slug"])
+    return [c for c in chans if c["slug"] not in CHANNEL_SKIP]
+
+
+def build_channel_map(ctx, now):
+    """{id partita: [nomi canali italiani]} dai palinsesti "Live" dei canali italiani."""
+    mappa = {}
+    chans = italian_channel_list(ctx)
+    log(f"Palinsesti canali italiani: {len(chans)} canali")
+    limite = (now + timedelta(days=CHANNEL_DAYS)).timestamp() * 1000
+    for c in chans:
+        page = load_page(ctx, f"{BASE}/it/channels/{c['slug']}/", "#_live")
+        if not page:
+            log(f"  {c['name']}: pagina non letta")
+            continue
+        n_righe = 0
+        try:
+            for giro in range(CHANNEL_MAX_PAGES):
+                righe = page.evaluate(CHANNEL_ROWS_JS) or []
+                for r in righe:
+                    nomi = mappa.setdefault(r["id"], [])
+                    if c["name"] not in nomi:
+                        nomi.append(c["name"])
+                n_righe += len(righe)
+                ore = [int(r["dv"]) for r in righe if (r.get("dv") or "").isdigit()]
+                if not ore or max(ore) > limite:
+                    break
+                if not turn_page(page, "next", scope="#_live"):
+                    break
+        finally:
+            page.close()
+        log(f"  {c['name']}: {n_righe} dirette")
+        time.sleep(random.uniform(1, 2))
+    log(f"Partite con canali italiani dai palinsesti: {len(mappa)}")
+    return mappa
 
 
 def row_is_relevant(r, now):
@@ -584,16 +680,18 @@ PAGES_BACK = int(os.environ.get("PAGES_BACK", "1"))
 PAGES_AHEAD = int(os.environ.get("PAGES_AHEAD", "4"))
 LIST_DAYS = int(os.environ.get("LIST_DAYS", "7"))
 
-FIRST_ROW_JS = "() => { const r = document.querySelector('tr.matchrow'); return r ? r.id : ''; }"
 
 
-def turn_page(page, direction):
-    """Clicca Prec./Avanti e aspetta che la tabella cambi. False se non c'e' altra pagina."""
-    sel = "div.pagination-left" if direction == "previous" else "div.pagination-right"
+def turn_page(page, direction, scope=""):
+    """Clicca Prec./Avanti e aspetta che la tabella cambi. False se non c'e' altra pagina.
+    scope: selettore del contenitore (es. "#_live" nelle pagine canale, che hanno anche le
+    tabelle Replica e On-demand con il loro "Avanti")."""
+    sel = (scope + " " if scope else "") + ("div.pagination-left" if direction == "previous" else "div.pagination-right")
+    first_row = (scope + " " if scope else "") + "tr.matchrow"
     btn = page.query_selector(sel)
     if not btn:
         return False
-    before = page.evaluate(FIRST_ROW_JS)
+    before = page.evaluate("(q) => { const r = document.querySelector(q); return r ? r.id : ''; }", first_row)
     last_err = ""
     for tentativo in (1, 2):
         try:
@@ -603,8 +701,8 @@ def turn_page(page, direction):
             btn.scroll_into_view_if_needed(timeout=5000)
             btn.click(timeout=10000)
             page.wait_for_function(
-                "(b) => { const r = document.querySelector('tr.matchrow'); return r && r.id !== b; }",
-                arg=before, timeout=15000)
+                "(a) => { const r = document.querySelector(a[0]); return r && r.id !== a[1]; }",
+                arg=[first_row, before], timeout=15000)
             page.wait_for_timeout(700)
             return True
         except Exception as e:
@@ -682,8 +780,13 @@ def main():
     with sync_playwright() as pw:
         browser = launch_browser(pw)
         ctx = new_context(browser)
+        channel_map = {}
         if not args.html:
             warmup(ctx)
+            try:
+                channel_map = build_channel_map(ctx, now)
+            except Exception as e:
+                warn(f"Palinsesti canali non letti: {str(e).splitlines()[0] if str(e) else repr(e)}")
         for n, comp in enumerate(comps):
             if n and not args.html:
                 time.sleep(random.uniform(5, 10))
@@ -711,17 +814,22 @@ def main():
             rows = drop_replays(rows)
 
             for r in rows:
-                # dalla lista si tengono solo i canali italiani (vedi is_italian_channel):
-                # se la pagina della partita viene letta, vengono comunque sostituiti
-                r["channels"] = [c for c in r.get("channels", []) if is_italian_channel(c)]
+                palinsesto = channel_map.get(r.get("id") or "")
+                if palinsesto:
+                    # canali italiani dai palinsesti dei canali: la fonte piu' affidabile
+                    r["channels"] = [{"name": n, "url": "", "stream": False} for n in palinsesto]
+                else:
+                    # ripiego: dalla lista si tengono solo i canali italiani
+                    r["channels"] = [c for c in r.get("channels", []) if is_italian_channel(c)]
 
-            if comp.get("channels_from_match_page") and not args.html:
+            if comp.get("channels_from_match_page") and ALTRI_PAESI and not args.html:
                 # pagina partita solo per le partite dei prossimi MATCH_PAGE_DAYS giorni (7):
                 # e' da li' che arrivano i canali italiani e "Altri paesi"
                 orizzonte = now + timedelta(days=comp.get("match_page_days", MATCH_PAGE_DAYS))
                 da_controllare = [r for r in rows if r.get("url") and row_is_relevant(r, now)
                                   and (row_kickoff(r) or now) <= orizzonte]
                 if not comp.get("altri_paesi", True):
+                    # Serie B e C: "Altri paesi" sarebbe solo Italia e San Marino
                     # Serie B e C: diritti solo italiani, "Altri paesi" sarebbe solo Italia e
                     # San Marino. Se la lista ha gia' i canali italiani la pagina partita non
                     # aggiunge nulla: si apre solo per le partite rimaste senza canali.
