@@ -251,7 +251,7 @@ ITALIAN_MENU_JS = r"""
     if (!ul) return;
     ul.querySelectorAll('a[href*="/channels/"]').forEach(a => {
       const m = (a.getAttribute('href') || '').match(/\/channels\/([^/]+)/);
-      if (m) out.push(m[1]);
+      if (m) out.push({ slug: m[1], name: (a.getAttribute('title') || a.textContent || '').trim() });
     });
   });
   return out;
@@ -269,9 +269,10 @@ FOREIGN_NAME_RX = re.compile(
 def learn_italian_channels(page):
     try:
         found = page.evaluate(ITALIAN_MENU_JS) or []
-        ITALIAN_CHANNEL_SLUGS.update(found)
+        ITALIAN_CHANNEL_SLUGS.update(c["slug"] for c in found)
+        return found
     except Exception:
-        pass
+        return []
 
 
 def is_italian_channel(c):
@@ -299,12 +300,24 @@ CHANNEL_MAX_PAGES = int(os.environ.get("CHANNEL_MAX_PAGES", "30"))
 CHANNEL_SKIP = set(os.environ.get(
     "CHANNEL_SKIP", "apple-tv-app,ligue1plus,como-tv,antenna-sud,vivo-azzurro-tv").split(","))
 
-CHANNEL_LIST_JS = r"""
-() => Array.from(document.querySelectorAll('#chs-all-list a.chs-link')).map(a => ({
-  slug: ((a.getAttribute('href') || '').match(/\/channels\/([^/]+)/) || [])[1] || '',
-  name: ((a.querySelector('span') || a).textContent || '').trim()
-})).filter(c => c.slug && c.name)
-"""
+# Elenco dei canali italiani (menu "Canali > Italia" del sito, settembre 2026). Serve da base:
+# la pagina /it/channels/ NON va bene, perche' vista dall'estero elenca i canali del paese del
+# runner (ESPN, Fox, CBS...). Il menu in cima alle pagine /it/ invece resta italiano, e se il
+# sito aggiunge un canale nuovo lo scraper lo prende da li'.
+ITALIAN_CHANNELS_DEFAULT = [
+    ("dazn-italy", "DAZN Italia"), ("dazn-1-italy", "DAZN1"),
+    ("amazon-prime-video-italy", "Amazon Prime Video"), ("disneyplus-premiumeurope", "Disney+ Premium"),
+    ("mediaset-italia-live", "Infinity+"), ("italia-1", "Italia 1"), ("lab-channel", "LAB Channel"),
+    ("now-tv-italy", "NOW TV"), ("rai-uno", "RAI 1"), ("rai-sport-uno", "RAI Sport 1"),
+    ("rai-live-italy", "RaiPlay"), ("sky-go-italia", "SKY Go Italia"),
+    ("sky-calcio-1", "Sky Sport 251"), ("sky-calcio-2", "Sky Sport 252"), ("sky-calcio-3", "Sky Sport 253"),
+    ("sky-calcio-4", "Sky Sport 254"), ("sky-calcio-5", "Sky Sport 255"), ("sky-calcio-6", "Sky Sport 256"),
+    ("sky-sport-arena-italy", "Sky Sport Arena"), ("sky-sport-serie-a", "Sky Sport Calcio"),
+    ("sky-sport-uno", "Sky Sport Uno"), ("smtv-san-marino", "SMtv San Marino"),
+    ("sportitalia", "SportItalia"), ("mtv8-italy", "TV8"),
+]
+# dopo tanti fallimenti di fila Cloudflare sta bloccando: inutile insistere
+CHANNEL_MAX_FAILS = int(os.environ.get("CHANNEL_MAX_FAILS", "4"))
 
 CHANNEL_ROWS_JS = r"""
 () => Array.from(document.querySelectorAll('#_live tr.matchrow')).map(tr => {
@@ -334,16 +347,17 @@ def load_page(ctx, url, ready_selector, timeout=60000):
 
 
 def italian_channel_list(ctx):
-    page = load_page(ctx, BASE + "/it/channels/", "#chs-all-list")
-    if not page:
-        return []
-    try:
-        chans = page.evaluate(CHANNEL_LIST_JS) or []
-    finally:
-        page.close()
-    for c in chans:
-        ITALIAN_CHANNEL_SLUGS.add(c["slug"])
-    return [c for c in chans if c["slug"] not in CHANNEL_SKIP]
+    """Canali italiani: elenco fisso piu' eventuali nuovi dal menu "Canali > Italia"."""
+    chans = {slug: name for slug, name in ITALIAN_CHANNELS_DEFAULT}
+    page = load_page(ctx, BASE + "/it/", "li.channels")
+    if page:
+        try:
+            for c in learn_italian_channels(page):
+                chans.setdefault(c["slug"], c["name"])
+        finally:
+            page.close()
+    ITALIAN_CHANNEL_SLUGS.update(chans)
+    return [{"slug": k, "name": v} for k, v in chans.items() if k not in CHANNEL_SKIP]
 
 
 def build_channel_map(ctx, now):
@@ -352,11 +366,18 @@ def build_channel_map(ctx, now):
     chans = italian_channel_list(ctx)
     log(f"Palinsesti canali italiani: {len(chans)} canali")
     limite = (now + timedelta(days=CHANNEL_DAYS)).timestamp() * 1000
+    falliti = 0
     for c in chans:
         page = load_page(ctx, f"{BASE}/it/channels/{c['slug']}/", "#_live")
         if not page:
             log(f"  {c['name']}: pagina non letta")
+            falliti += 1
+            if falliti >= CHANNEL_MAX_FAILS:
+                warn(f"Palinsesti canali: {falliti} pagine di fila bloccate, interrotti (si usano i canali della lista)")
+                break
+            time.sleep(random.uniform(5, 8))
             continue
+        falliti = 0
         n_righe = 0
         try:
             for giro in range(CHANNEL_MAX_PAGES):
@@ -374,7 +395,7 @@ def build_channel_map(ctx, now):
         finally:
             page.close()
         log(f"  {c['name']}: {n_righe} dirette")
-        time.sleep(random.uniform(1, 2))
+        time.sleep(random.uniform(2, 4))
     log(f"Partite con canali italiani dai palinsesti: {len(mappa)}")
     return mappa
 
