@@ -1,151 +1,16 @@
 {
-  "aggiornato": "2026-09-26T07:08:15+02:00",
+  "aggiornato": "2026-09-26T13:33:07+02:00",
   "fonti": {
     "motori": "Fuori Traiettoria, Dizzle0987/motorsport-calendar, palinsesto TV8",
     "calcio_italiano": "https://raw.githubusercontent.com/aandroide/Livesoccer/master/livesoccertv/output/eventi.json",
     "altri_sport": "https://sport.virgilio.it/guida-tv/"
   },
-  "totale": 289,
+  "totale": 303,
   "cartelle": [
     {
       "nome": "Oggi",
-      "totale": 41,
+      "totale": 35,
       "eventi": [
-        {
-          "titolo": "[Motori] WEC: 6 Hours of Fuji - Quali",
-          "categoria": "Motori",
-          "sottocartella": "WEC",
-          "sport": "Motori",
-          "competizione": "WEC",
-          "evento": "6 Hours of Fuji - Quali",
-          "sessione": "qualifiche",
-          "circuito": "Circuito del Fuji, 694 Nakahinata, Oyama, Sunto District, Shizuoka 410-1307, Giappone",
-          "inizio": "2026-09-26T07:00:00+02:00",
-          "data": "26/09/2026",
-          "ora": "07:00",
-          "canali": [],
-          "fonte": "Fuori Traiettoria"
-        },
-        {
-          "titolo": "[Tennis] ATP & WTA",
-          "categoria": "Tennis",
-          "sottocartella": "ATP & WTA",
-          "sport": "Tennis",
-          "competizione": "ATP & WTA",
-          "evento": "ATP & WTA",
-          "inizio": "2026-09-26T07:00:00+02:00",
-          "data": "26/09/2026",
-          "ora": "07:00",
-          "canali": [
-            {
-              "nome": "Sky Sport 1",
-              "numero": "201",
-              "tipo": "diretta",
-              "orario": "2026-09-26T07:00",
-              "fonte": "virgilio"
-            },
-            {
-              "nome": "Sky Sport Arena",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-09-26T07:00",
-              "fonte": "virgilio"
-            },
-            {
-              "nome": "Sky Sport Tennis",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-09-26T10:30",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Tennis] WTA 250 Korea Open: 1a Semifinale",
-          "categoria": "Tennis",
-          "sottocartella": "WTA 250 Korea Open",
-          "sport": "Tennis",
-          "competizione": "WTA 250 Korea Open",
-          "evento": "1a Semifinale",
-          "inizio": "2026-09-26T07:00:00+02:00",
-          "data": "26/09/2026",
-          "ora": "07:00",
-          "canali": [
-            {
-              "nome": "Sky Sport Max",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-09-26T07:00",
-              "fonte": "virgilio"
-            },
-            {
-              "nome": "Sky Sport Tennis",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-09-26T07:00",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Tennis] WTA 500 Singapore: 1a Semifinale",
-          "categoria": "Tennis",
-          "sottocartella": "WTA 500 Singapore",
-          "sport": "Tennis",
-          "competizione": "WTA 500 Singapore",
-          "evento": "1a Semifinale",
-          "inizio": "2026-09-26T08:30:00+02:00",
-          "data": "26/09/2026",
-          "ora": "08:30",
-          "canali": [
-            {
-              "nome": "Sky Sport Tennis",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-09-26T08:30",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Tennis] WTA 250 Korea Open: 2a Semifinale",
-          "categoria": "Tennis",
-          "sottocartella": "WTA 250 Korea Open",
-          "sport": "Tennis",
-          "competizione": "WTA 250 Korea Open",
-          "evento": "2a Semifinale",
-          "inizio": "2026-09-26T09:00:00+02:00",
-          "data": "26/09/2026",
-          "ora": "09:00",
-          "canali": [
-            {
-              "nome": "Sky Sport Max",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-09-26T09:00",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Motori] Formula 2 e Formula 3: F2 - Azerbaijan GP - Feature Race",
-          "categoria": "Motori",
-          "sottocartella": "Formula 2 e Formula 3",
-          "sport": "Motori",
-          "competizione": "Formula 2 e Formula 3",
-          "evento": "F2 - Azerbaijan GP - Feature Race",
-          "sessione": "gara",
-          "circuito": "Circuito di Baku, Zarifa Aliyeva, Bakı, Azerbaigian",
-          "inizio": "2026-09-26T09:35:00+02:00",
-          "data": "26/09/2026",
-          "ora": "09:35",
-          "canali": [],
-          "fonte": "Fuori Traiettoria"
-        },
         {
           "titolo": "[Motori] World Superbike: Italian Round - Superpole",
           "categoria": "Motori",
@@ -2397,7 +2262,24 @@
               "fonte": "virgilio"
             }
           ],
-          "canali_mondo": [],
+          "canali_mondo": [
+            {
+              "paese": "Italia",
+              "canali": [
+                "Sky Sport 251",
+                "SKY Go Italia",
+                "NOW TV"
+              ]
+            },
+            {
+              "paese": "San Marino",
+              "canali": [
+                "Sky Sport 251",
+                "SKY Go Italia",
+                "NOW TV"
+              ]
+            }
+          ],
           "fonte": "LiveSoccerTV"
         },
         {
@@ -5140,7 +5022,7 @@
     },
     {
       "nome": "Motori",
-      "totale": 137,
+      "totale": 135,
       "sottocartelle": [
         {
           "nome": "Formula 1",
@@ -6611,45 +6493,9 @@
           ]
         },
         {
-          "nome": "Formula 2 e Formula 3",
-          "totale": 1,
-          "eventi": [
-            {
-              "titolo": "Formula 2 e Formula 3: F2 - Azerbaijan GP - Feature Race",
-              "categoria": "Motori",
-              "sottocartella": "Formula 2 e Formula 3",
-              "sport": "Motori",
-              "competizione": "Formula 2 e Formula 3",
-              "evento": "F2 - Azerbaijan GP - Feature Race",
-              "sessione": "gara",
-              "circuito": "Circuito di Baku, Zarifa Aliyeva, Bakı, Azerbaigian",
-              "inizio": "2026-09-26T09:35:00+02:00",
-              "data": "26/09/2026",
-              "ora": "09:35",
-              "canali": [],
-              "fonte": "Fuori Traiettoria"
-            }
-          ]
-        },
-        {
           "nome": "WEC",
-          "totale": 4,
+          "totale": 3,
           "eventi": [
-            {
-              "titolo": "WEC: 6 Hours of Fuji - Quali",
-              "categoria": "Motori",
-              "sottocartella": "WEC",
-              "sport": "Motori",
-              "competizione": "WEC",
-              "evento": "6 Hours of Fuji - Quali",
-              "sessione": "qualifiche",
-              "circuito": "Circuito del Fuji, 694 Nakahinata, Oyama, Sunto District, Shizuoka 410-1307, Giappone",
-              "inizio": "2026-09-26T07:00:00+02:00",
-              "data": "26/09/2026",
-              "ora": "07:00",
-              "canali": [],
-              "fonte": "Fuori Traiettoria"
-            },
             {
               "titolo": "WEC: 6 Hours of Fuji",
               "categoria": "Motori",
@@ -9132,11 +8978,11 @@
     },
     {
       "nome": "Calcio",
-      "totale": 104,
+      "totale": 124,
       "sottocartelle": [
         {
           "nome": "Serie A",
-          "totale": 5,
+          "totale": 25,
           "eventi": [
             {
               "titolo": "Serie A: Genoa vs Fiorentina",
@@ -9204,6 +9050,286 @@
               "inizio": "2026-10-11T15:00:00+02:00",
               "data": "11/10/2026",
               "ora": "15:00",
+              "canali": [],
+              "canali_mondo": [],
+              "fonte": "LiveSoccerTV"
+            },
+            {
+              "titolo": "Serie A: Lecce vs Bologna",
+              "categoria": "Calcio",
+              "sottocartella": "Serie A",
+              "sport": "Calcio",
+              "competizione": "Serie A",
+              "evento": "Lecce vs Bologna",
+              "inizio": "2026-10-11T15:00:00+02:00",
+              "data": "11/10/2026",
+              "ora": "15:00",
+              "canali": [],
+              "canali_mondo": [],
+              "fonte": "LiveSoccerTV"
+            },
+            {
+              "titolo": "Serie A: Sassuolo vs Milan",
+              "categoria": "Calcio",
+              "sottocartella": "Serie A",
+              "sport": "Calcio",
+              "competizione": "Serie A",
+              "evento": "Sassuolo vs Milan",
+              "inizio": "2026-10-11T18:00:00+02:00",
+              "data": "11/10/2026",
+              "ora": "18:00",
+              "canali": [],
+              "canali_mondo": [],
+              "fonte": "LiveSoccerTV"
+            },
+            {
+              "titolo": "Serie A: Cagliari vs Juventus",
+              "categoria": "Calcio",
+              "sottocartella": "Serie A",
+              "sport": "Calcio",
+              "competizione": "Serie A",
+              "evento": "Cagliari vs Juventus",
+              "inizio": "2026-10-11T20:45:00+02:00",
+              "data": "11/10/2026",
+              "ora": "20:45",
+              "canali": [],
+              "canali_mondo": [],
+              "fonte": "LiveSoccerTV"
+            },
+            {
+              "titolo": "Serie A: Atalanta vs Venezia",
+              "categoria": "Calcio",
+              "sottocartella": "Serie A",
+              "sport": "Calcio",
+              "competizione": "Serie A",
+              "evento": "Atalanta vs Venezia",
+              "inizio": "2026-10-12T18:30:00+02:00",
+              "data": "12/10/2026",
+              "ora": "18:30",
+              "canali": [],
+              "canali_mondo": [],
+              "fonte": "LiveSoccerTV"
+            },
+            {
+              "titolo": "Serie A: Torino vs Udinese",
+              "categoria": "Calcio",
+              "sottocartella": "Serie A",
+              "sport": "Calcio",
+              "competizione": "Serie A",
+              "evento": "Torino vs Udinese",
+              "inizio": "2026-10-12T20:45:00+02:00",
+              "data": "12/10/2026",
+              "ora": "20:45",
+              "canali": [],
+              "canali_mondo": [],
+              "fonte": "LiveSoccerTV"
+            },
+            {
+              "titolo": "Serie A: Frosinone vs Sassuolo",
+              "categoria": "Calcio",
+              "sottocartella": "Serie A",
+              "sport": "Calcio",
+              "competizione": "Serie A",
+              "evento": "Frosinone vs Sassuolo",
+              "inizio": "2026-10-16T20:45:00+02:00",
+              "data": "16/10/2026",
+              "ora": "20:45",
+              "canali": [],
+              "canali_mondo": [],
+              "fonte": "LiveSoccerTV"
+            },
+            {
+              "titolo": "Serie A: Venezia vs Napoli",
+              "categoria": "Calcio",
+              "sottocartella": "Serie A",
+              "sport": "Calcio",
+              "competizione": "Serie A",
+              "evento": "Venezia vs Napoli",
+              "inizio": "2026-10-17T15:00:00+02:00",
+              "data": "17/10/2026",
+              "ora": "15:00",
+              "canali": [],
+              "canali_mondo": [],
+              "fonte": "LiveSoccerTV"
+            },
+            {
+              "titolo": "Serie A: Bologna vs Internazionale",
+              "categoria": "Calcio",
+              "sottocartella": "Serie A",
+              "sport": "Calcio",
+              "competizione": "Serie A",
+              "evento": "Bologna vs Internazionale",
+              "inizio": "2026-10-17T18:00:00+02:00",
+              "data": "17/10/2026",
+              "ora": "18:00",
+              "canali": [],
+              "canali_mondo": [],
+              "fonte": "LiveSoccerTV"
+            },
+            {
+              "titolo": "Serie A: Roma vs Genoa",
+              "categoria": "Calcio",
+              "sottocartella": "Serie A",
+              "sport": "Calcio",
+              "competizione": "Serie A",
+              "evento": "Roma vs Genoa",
+              "inizio": "2026-10-17T20:45:00+02:00",
+              "data": "17/10/2026",
+              "ora": "20:45",
+              "canali": [],
+              "canali_mondo": [],
+              "fonte": "LiveSoccerTV"
+            },
+            {
+              "titolo": "Serie A: Udinese vs Lecce",
+              "categoria": "Calcio",
+              "sottocartella": "Serie A",
+              "sport": "Calcio",
+              "competizione": "Serie A",
+              "evento": "Udinese vs Lecce",
+              "inizio": "2026-10-18T12:30:00+02:00",
+              "data": "18/10/2026",
+              "ora": "12:30",
+              "canali": [],
+              "canali_mondo": [],
+              "fonte": "LiveSoccerTV"
+            },
+            {
+              "titolo": "Serie A: Fiorentina vs Como",
+              "categoria": "Calcio",
+              "sottocartella": "Serie A",
+              "sport": "Calcio",
+              "competizione": "Serie A",
+              "evento": "Fiorentina vs Como",
+              "inizio": "2026-10-18T15:00:00+02:00",
+              "data": "18/10/2026",
+              "ora": "15:00",
+              "canali": [],
+              "canali_mondo": [],
+              "fonte": "LiveSoccerTV"
+            },
+            {
+              "titolo": "Serie A: Milan vs Atalanta",
+              "categoria": "Calcio",
+              "sottocartella": "Serie A",
+              "sport": "Calcio",
+              "competizione": "Serie A",
+              "evento": "Milan vs Atalanta",
+              "inizio": "2026-10-18T18:00:00+02:00",
+              "data": "18/10/2026",
+              "ora": "18:00",
+              "canali": [],
+              "canali_mondo": [],
+              "fonte": "LiveSoccerTV"
+            },
+            {
+              "titolo": "Serie A: Juventus vs Lazio",
+              "categoria": "Calcio",
+              "sottocartella": "Serie A",
+              "sport": "Calcio",
+              "competizione": "Serie A",
+              "evento": "Juventus vs Lazio",
+              "inizio": "2026-10-18T20:45:00+02:00",
+              "data": "18/10/2026",
+              "ora": "20:45",
+              "canali": [],
+              "canali_mondo": [],
+              "fonte": "LiveSoccerTV"
+            },
+            {
+              "titolo": "Serie A: Monza vs Cagliari",
+              "categoria": "Calcio",
+              "sottocartella": "Serie A",
+              "sport": "Calcio",
+              "competizione": "Serie A",
+              "evento": "Monza vs Cagliari",
+              "inizio": "2026-10-19T18:30:00+02:00",
+              "data": "19/10/2026",
+              "ora": "18:30",
+              "canali": [],
+              "canali_mondo": [],
+              "fonte": "LiveSoccerTV"
+            },
+            {
+              "titolo": "Serie A: Parma vs Torino",
+              "categoria": "Calcio",
+              "sottocartella": "Serie A",
+              "sport": "Calcio",
+              "competizione": "Serie A",
+              "evento": "Parma vs Torino",
+              "inizio": "2026-10-19T20:45:00+02:00",
+              "data": "19/10/2026",
+              "ora": "20:45",
+              "canali": [],
+              "canali_mondo": [],
+              "fonte": "LiveSoccerTV"
+            },
+            {
+              "titolo": "Serie A: Torino vs Monza",
+              "categoria": "Calcio",
+              "sottocartella": "Serie A",
+              "sport": "Calcio",
+              "competizione": "Serie A",
+              "evento": "Torino vs Monza",
+              "inizio": "2026-10-23T20:45:00+02:00",
+              "data": "23/10/2026",
+              "ora": "20:45",
+              "canali": [],
+              "canali_mondo": [],
+              "fonte": "LiveSoccerTV"
+            },
+            {
+              "titolo": "Serie A: Cagliari vs Bologna",
+              "categoria": "Calcio",
+              "sottocartella": "Serie A",
+              "sport": "Calcio",
+              "competizione": "Serie A",
+              "evento": "Cagliari vs Bologna",
+              "inizio": "2026-10-24T15:00:00+02:00",
+              "data": "24/10/2026",
+              "ora": "15:00",
+              "canali": [],
+              "canali_mondo": [],
+              "fonte": "LiveSoccerTV"
+            },
+            {
+              "titolo": "Serie A: Como vs Sassuolo",
+              "categoria": "Calcio",
+              "sottocartella": "Serie A",
+              "sport": "Calcio",
+              "competizione": "Serie A",
+              "evento": "Como vs Sassuolo",
+              "inizio": "2026-10-24T15:00:00+02:00",
+              "data": "24/10/2026",
+              "ora": "15:00",
+              "canali": [],
+              "canali_mondo": [],
+              "fonte": "LiveSoccerTV"
+            },
+            {
+              "titolo": "Serie A: Napoli vs Roma",
+              "categoria": "Calcio",
+              "sottocartella": "Serie A",
+              "sport": "Calcio",
+              "competizione": "Serie A",
+              "evento": "Napoli vs Roma",
+              "inizio": "2026-10-24T18:00:00+02:00",
+              "data": "24/10/2026",
+              "ora": "18:00",
+              "canali": [],
+              "canali_mondo": [],
+              "fonte": "LiveSoccerTV"
+            },
+            {
+              "titolo": "Serie A: Lazio vs Parma",
+              "categoria": "Calcio",
+              "sottocartella": "Serie A",
+              "sport": "Calcio",
+              "competizione": "Serie A",
+              "evento": "Lazio vs Parma",
+              "inizio": "2026-10-24T20:45:00+02:00",
+              "data": "24/10/2026",
+              "ora": "20:45",
               "canali": [],
               "canali_mondo": [],
               "fonte": "LiveSoccerTV"
@@ -10681,7 +10807,24 @@
                   "fonte": "virgilio"
                 }
               ],
-              "canali_mondo": [],
+              "canali_mondo": [
+                {
+                  "paese": "Italia",
+                  "canali": [
+                    "Sky Sport 251",
+                    "SKY Go Italia",
+                    "NOW TV"
+                  ]
+                },
+                {
+                  "paese": "San Marino",
+                  "canali": [
+                    "Sky Sport 251",
+                    "SKY Go Italia",
+                    "NOW TV"
+                  ]
+                }
+              ],
               "fonte": "LiveSoccerTV"
             },
             {
@@ -10785,24 +10928,7 @@
                   "fonte": "virgilio"
                 }
               ],
-              "canali_mondo": [
-                {
-                  "paese": "Italia",
-                  "canali": [
-                    "Sky Sport 251",
-                    "SKY Go Italia",
-                    "NOW TV"
-                  ]
-                },
-                {
-                  "paese": "San Marino",
-                  "canali": [
-                    "Sky Sport 251",
-                    "SKY Go Italia",
-                    "NOW TV"
-                  ]
-                }
-              ],
+              "canali_mondo": [],
               "fonte": "LiveSoccerTV"
             },
             {
@@ -21151,47 +21277,192 @@
     },
     {
       "nome": "Tennis",
-      "totale": 24,
+      "totale": 20,
       "sottocartelle": [
         {
-          "nome": "ATP & WTA",
-          "totale": 7,
+          "nome": "WTA 500 Singapore",
+          "totale": 2,
           "eventi": [
             {
-              "titolo": "ATP & WTA",
+              "titolo": "WTA 500 Singapore: 2a Semifinale",
               "categoria": "Tennis",
-              "sottocartella": "ATP & WTA",
+              "sottocartella": "WTA 500 Singapore",
               "sport": "Tennis",
-              "competizione": "ATP & WTA",
-              "evento": "ATP & WTA",
-              "inizio": "2026-09-26T07:00:00+02:00",
+              "competizione": "WTA 500 Singapore",
+              "evento": "2a Semifinale",
+              "inizio": "2026-09-26T12:00:00+02:00",
               "data": "26/09/2026",
-              "ora": "07:00",
+              "ora": "12:00",
               "canali": [
                 {
-                  "nome": "Sky Sport 1",
-                  "numero": "201",
-                  "tipo": "diretta",
-                  "orario": "2026-09-26T07:00",
-                  "fonte": "virgilio"
-                },
-                {
-                  "nome": "Sky Sport Arena",
+                  "nome": "Sky Sport Tennis",
                   "numero": "",
                   "tipo": "diretta",
-                  "orario": "2026-09-26T07:00",
+                  "orario": "2026-09-26T12:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "WTA 500 Singapore: Finale",
+              "categoria": "Tennis",
+              "sottocartella": "WTA 500 Singapore",
+              "sport": "Tennis",
+              "competizione": "WTA 500 Singapore",
+              "evento": "Finale",
+              "inizio": "2026-09-27T11:00:00+02:00",
+              "data": "27/09/2026",
+              "ora": "11:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport Tennis",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-09-27T11:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            }
+          ]
+        },
+        {
+          "nome": "Laver Cup",
+          "totale": 5,
+          "eventi": [
+            {
+              "titolo": "Laver Cup: 2a Giornata Sess. Diurna",
+              "categoria": "Tennis",
+              "sottocartella": "Laver Cup",
+              "sport": "Tennis",
+              "competizione": "Laver Cup",
+              "evento": "2a Giornata Sess. Diurna",
+              "inizio": "2026-09-26T14:00:00+02:00",
+              "data": "26/09/2026",
+              "ora": "14:00",
+              "canali": [
+                {
+                  "nome": "Eurosport 2",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-09-26T14:00",
                   "fonte": "virgilio"
                 },
                 {
                   "nome": "Sky Sport Tennis",
                   "numero": "",
                   "tipo": "diretta",
-                  "orario": "2026-09-26T10:30",
+                  "orario": "2026-09-26T14:00",
                   "fonte": "virgilio"
                 }
               ],
               "fonte": "Virgilio Sport"
             },
+            {
+              "titolo": "Laver Cup",
+              "categoria": "Tennis",
+              "sottocartella": "Laver Cup",
+              "sport": "Tennis",
+              "competizione": "Laver Cup",
+              "evento": "Laver Cup",
+              "inizio": "2026-09-26T16:00:00+02:00",
+              "data": "26/09/2026",
+              "ora": "16:00",
+              "canali": [
+                {
+                  "nome": "Eurosport 2",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-09-26T16:00",
+                  "fonte": "virgilio"
+                },
+                {
+                  "nome": "Eurosport",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-09-26T20:15",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "Laver Cup: 2a Giornata Sess. Serale",
+              "categoria": "Tennis",
+              "sottocartella": "Laver Cup",
+              "sport": "Tennis",
+              "competizione": "Laver Cup",
+              "evento": "2a Giornata Sess. Serale",
+              "inizio": "2026-09-26T20:00:00+02:00",
+              "data": "26/09/2026",
+              "ora": "20:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport Tennis",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-09-26T20:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "Laver Cup: 3a Giornata",
+              "categoria": "Tennis",
+              "sottocartella": "Laver Cup",
+              "sport": "Tennis",
+              "competizione": "Laver Cup",
+              "evento": "3a Giornata",
+              "inizio": "2026-09-27T13:00:00+02:00",
+              "data": "27/09/2026",
+              "ora": "13:00",
+              "canali": [
+                {
+                  "nome": "Eurosport 2",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-09-27T13:00",
+                  "fonte": "virgilio"
+                },
+                {
+                  "nome": "Sky Sport Tennis",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-09-27T13:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "Laver Cup",
+              "categoria": "Tennis",
+              "sottocartella": "Laver Cup",
+              "sport": "Tennis",
+              "competizione": "Laver Cup",
+              "evento": "Laver Cup",
+              "inizio": "2026-09-27T15:00:00+02:00",
+              "data": "27/09/2026",
+              "ora": "15:00",
+              "canali": [
+                {
+                  "nome": "Eurosport 2",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-09-27T15:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            }
+          ]
+        },
+        {
+          "nome": "ATP & WTA",
+          "totale": 6,
+          "eventi": [
             {
               "titolo": "ATP & WTA",
               "categoria": "Tennis",
@@ -21378,57 +21649,8 @@
         },
         {
           "nome": "WTA 250 Korea Open",
-          "totale": 3,
+          "totale": 1,
           "eventi": [
-            {
-              "titolo": "WTA 250 Korea Open: 1a Semifinale",
-              "categoria": "Tennis",
-              "sottocartella": "WTA 250 Korea Open",
-              "sport": "Tennis",
-              "competizione": "WTA 250 Korea Open",
-              "evento": "1a Semifinale",
-              "inizio": "2026-09-26T07:00:00+02:00",
-              "data": "26/09/2026",
-              "ora": "07:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Max",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-09-26T07:00",
-                  "fonte": "virgilio"
-                },
-                {
-                  "nome": "Sky Sport Tennis",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-09-26T07:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "WTA 250 Korea Open: 2a Semifinale",
-              "categoria": "Tennis",
-              "sottocartella": "WTA 250 Korea Open",
-              "sport": "Tennis",
-              "competizione": "WTA 250 Korea Open",
-              "evento": "2a Semifinale",
-              "inizio": "2026-09-26T09:00:00+02:00",
-              "data": "26/09/2026",
-              "ora": "09:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Max",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-09-26T09:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
             {
               "titolo": "WTA 250 Korea Open: Finale",
               "categoria": "Tennis",
@@ -21445,207 +21667,6 @@
                   "numero": "",
                   "tipo": "diretta",
                   "orario": "2026-09-27T08:30",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            }
-          ]
-        },
-        {
-          "nome": "WTA 500 Singapore",
-          "totale": 3,
-          "eventi": [
-            {
-              "titolo": "WTA 500 Singapore: 1a Semifinale",
-              "categoria": "Tennis",
-              "sottocartella": "WTA 500 Singapore",
-              "sport": "Tennis",
-              "competizione": "WTA 500 Singapore",
-              "evento": "1a Semifinale",
-              "inizio": "2026-09-26T08:30:00+02:00",
-              "data": "26/09/2026",
-              "ora": "08:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport Tennis",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-09-26T08:30",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "WTA 500 Singapore: 2a Semifinale",
-              "categoria": "Tennis",
-              "sottocartella": "WTA 500 Singapore",
-              "sport": "Tennis",
-              "competizione": "WTA 500 Singapore",
-              "evento": "2a Semifinale",
-              "inizio": "2026-09-26T12:00:00+02:00",
-              "data": "26/09/2026",
-              "ora": "12:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Tennis",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-09-26T12:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "WTA 500 Singapore: Finale",
-              "categoria": "Tennis",
-              "sottocartella": "WTA 500 Singapore",
-              "sport": "Tennis",
-              "competizione": "WTA 500 Singapore",
-              "evento": "Finale",
-              "inizio": "2026-09-27T11:00:00+02:00",
-              "data": "27/09/2026",
-              "ora": "11:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Tennis",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-09-27T11:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            }
-          ]
-        },
-        {
-          "nome": "Laver Cup",
-          "totale": 5,
-          "eventi": [
-            {
-              "titolo": "Laver Cup: 2a Giornata Sess. Diurna",
-              "categoria": "Tennis",
-              "sottocartella": "Laver Cup",
-              "sport": "Tennis",
-              "competizione": "Laver Cup",
-              "evento": "2a Giornata Sess. Diurna",
-              "inizio": "2026-09-26T14:00:00+02:00",
-              "data": "26/09/2026",
-              "ora": "14:00",
-              "canali": [
-                {
-                  "nome": "Eurosport 2",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-09-26T14:00",
-                  "fonte": "virgilio"
-                },
-                {
-                  "nome": "Sky Sport Tennis",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-09-26T14:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "Laver Cup",
-              "categoria": "Tennis",
-              "sottocartella": "Laver Cup",
-              "sport": "Tennis",
-              "competizione": "Laver Cup",
-              "evento": "Laver Cup",
-              "inizio": "2026-09-26T16:00:00+02:00",
-              "data": "26/09/2026",
-              "ora": "16:00",
-              "canali": [
-                {
-                  "nome": "Eurosport 2",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-09-26T16:00",
-                  "fonte": "virgilio"
-                },
-                {
-                  "nome": "Eurosport",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-09-26T20:15",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "Laver Cup: 2a Giornata Sess. Serale",
-              "categoria": "Tennis",
-              "sottocartella": "Laver Cup",
-              "sport": "Tennis",
-              "competizione": "Laver Cup",
-              "evento": "2a Giornata Sess. Serale",
-              "inizio": "2026-09-26T20:00:00+02:00",
-              "data": "26/09/2026",
-              "ora": "20:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Tennis",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-09-26T20:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "Laver Cup: 3a Giornata",
-              "categoria": "Tennis",
-              "sottocartella": "Laver Cup",
-              "sport": "Tennis",
-              "competizione": "Laver Cup",
-              "evento": "3a Giornata",
-              "inizio": "2026-09-27T13:00:00+02:00",
-              "data": "27/09/2026",
-              "ora": "13:00",
-              "canali": [
-                {
-                  "nome": "Eurosport 2",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-09-27T13:00",
-                  "fonte": "virgilio"
-                },
-                {
-                  "nome": "Sky Sport Tennis",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-09-27T13:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "Laver Cup",
-              "categoria": "Tennis",
-              "sottocartella": "Laver Cup",
-              "sport": "Tennis",
-              "competizione": "Laver Cup",
-              "evento": "Laver Cup",
-              "inizio": "2026-09-27T15:00:00+02:00",
-              "data": "27/09/2026",
-              "ora": "15:00",
-              "canali": [
-                {
-                  "nome": "Eurosport 2",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-09-27T15:00",
                   "fonte": "virgilio"
                 }
               ],
