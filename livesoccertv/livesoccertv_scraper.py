@@ -54,9 +54,9 @@ COMPETITIONS = [
     # dati strutturati (ld+json), che elenca i canali di tutti i paesi gia' etichettati per
     # nazione: da li' si prende solo "Italy", cosi' il risultato non dipende da dove gira lo
     # scraper (vedi normalize/fetch_match_channels_it per il motivo per cui serve).
-    {"slug": "serie-a", "name": "Serie A", "path": "/it/competitions/italy/serie-a/", "channels_from_match_page": True, "match_page_days": 21},
-    {"slug": "serie-b", "name": "Serie B", "path": "/it/competitions/italy/serie-b/", "channels_from_match_page": True, "match_page_days": 21},
-    {"slug": "serie-c", "name": "Serie C", "path": "/it/competitions/italy/lega-pro-1/", "channels_from_match_page": True, "match_page_days": 21},
+    {"slug": "serie-a", "name": "Serie A", "path": "/it/competitions/italy/serie-a/", "channels_from_match_page": True},
+    {"slug": "serie-b", "name": "Serie B", "path": "/it/competitions/italy/serie-b/", "channels_from_match_page": True},
+    {"slug": "serie-c", "name": "Serie C", "path": "/it/competitions/italy/lega-pro-1/", "channels_from_match_page": True},
     # Coppe europee e nazionale: diritti venduti in tutto il mondo, quindi i canali
     # italiani vanno sempre letti dalla pagina della singola partita.
     # I nomi coincidono con quelli di Virgilio Sport, cosi' il calendario unico
