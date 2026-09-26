@@ -3,6 +3,11 @@ name: Calendario sport
 on:
   schedule:
     - cron: "20 */3 * * *"
+  # riparte da solo appena LiveSoccer ha aggiornato eventi.json, cosi' la wiki
+  # mostra subito i canali nuovi senza aspettare il prossimo giro delle 3 ore
+  workflow_run:
+    workflows: ["LiveSoccerTV eventi"]
+    types: [completed]
   workflow_dispatch:
 
 permissions:
@@ -38,6 +43,10 @@ jobs:
             echo "Nessuna modifica"
           else
             git commit -m "Aggiorna calendario sport"
-            git pull --rebase
-            git push
+            # l'action di LiveSoccer scrive nello stesso repo: se ha appena fatto push,
+            # si riallinea e riprova invece di fallire
+            for i in 1 2 3; do
+              git pull --rebase && git push && break
+              sleep 10
+            done
           fi
