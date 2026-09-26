@@ -317,7 +317,7 @@ ITALIAN_CHANNELS_DEFAULT = [
     ("sportitalia", "SportItalia"), ("mtv8-italy", "TV8"),
 ]
 # dopo tanti fallimenti di fila Cloudflare sta bloccando: inutile insistere
-CHANNEL_MAX_FAILS = int(os.environ.get("CHANNEL_MAX_FAILS", "4"))
+CHANNEL_MAX_FAILS = int(os.environ.get("CHANNEL_MAX_FAILS", "3"))
 
 CHANNEL_ROWS_JS = r"""
 () => Array.from(document.querySelectorAll('#_live tr.matchrow')).map(tr => {
@@ -346,6 +346,35 @@ def load_page(ctx, url, ready_selector, timeout=60000):
         return None
 
 
+def load_channel_page(ctx, chan, save_debug):
+    """Apre la pagina di un canale come le pagine competizione: aspetta fino a 90 secondi
+    che compaiano le righe partita, cliccando il riquadro di Cloudflare se serve (con i soli
+    30 secondi della verifica breve le pagine canale restavano bloccate). Se non passa, la
+    prima volta salva schermata e HTML in debug/ per capire cosa mostra il sito."""
+    page = ctx.new_page()
+    try:
+        page.goto(f"{BASE}/it/channels/{chan['slug']}/", wait_until="domcontentloaded", timeout=60000)
+        # pronta quando c'e' l'intestazione del canale: un canale senza dirette in programma
+        # non ha righe partita, ma non per questo e' bloccato
+        for i in range(90):
+            try:
+                if page.query_selector("main .page-h1, #_live") and not is_challenge(page):
+                    page.wait_for_timeout(500)
+                    return page
+            except Exception:
+                pass
+            if i and i % 10 == 0:
+                try_click_turnstile(page)
+            page.wait_for_timeout(1000)
+        if save_debug:
+            dump_debug(page, {"slug": "canale-" + chan["slug"]},
+                       "blocked" if is_challenge(page) else "norows")
+    except Exception as e:
+        log(f"  {chan['name']}: {str(e).splitlines()[0] if str(e) else repr(e)}")
+    page.close()
+    return None
+
+
 def italian_channel_list(ctx):
     """Canali italiani: elenco fisso piu' eventuali nuovi dal menu "Canali > Italia"."""
     chans = {slug: name for slug, name in ITALIAN_CHANNELS_DEFAULT}
@@ -367,9 +396,11 @@ def build_channel_map(ctx, now):
     log(f"Palinsesti canali italiani: {len(chans)} canali")
     limite = (now + timedelta(days=CHANNEL_DAYS)).timestamp() * 1000
     falliti = 0
+    salvato = False
     for c in chans:
-        page = load_page(ctx, f"{BASE}/it/channels/{c['slug']}/", "#_live")
+        page = load_channel_page(ctx, c, not salvato)
         if not page:
+            salvato = True
             log(f"  {c['name']}: pagina non letta")
             falliti += 1
             if falliti >= CHANNEL_MAX_FAILS:
