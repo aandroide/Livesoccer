@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-09-27T11:32:15+02:00",
+  "aggiornato": "2026-09-27T12:02:01+02:00",
   "fonti": {
     "motori": "Fuori Traiettoria, Dizzle0987/motorsport-calendar, palinsesto TV8",
     "calcio_italiano": "https://raw.githubusercontent.com/aandroide/Livesoccer/master/livesoccertv/output/eventi.json",
@@ -4149,8 +4149,8 @@
                   "nome": "TV8",
                   "numero": "8",
                   "tipo": "differita",
-                  "orario": "",
-                  "fonte": "config"
+                  "orario": "2026-10-11T09:45",
+                  "fonte": "config+tv8"
                 }
               ],
               "fonte": "Dizzle0987/motorsport-calendar"
@@ -4224,7 +4224,7 @@
                   "numero": "8",
                   "tipo": "diretta",
                   "orario": "2026-10-11T14:00",
-                  "fonte": "dizzle"
+                  "fonte": "dizzle+tv8"
                 },
                 {
                   "nome": "Sky Sport F1",
@@ -5707,7 +5707,7 @@
                   "numero": "8",
                   "tipo": "diretta",
                   "orario": "2026-10-10T04:50",
-                  "fonte": "dizzle+tv8"
+                  "fonte": "dizzle"
                 },
                 {
                   "nome": "Sky Sport MotoGP",
@@ -5743,8 +5743,8 @@
                   "nome": "TV8",
                   "numero": "8",
                   "tipo": "diretta",
-                  "orario": "2026-10-10T04:50",
-                  "fonte": "dizzle+tv8"
+                  "orario": "2026-10-10T05:15",
+                  "fonte": "dizzle"
                 },
                 {
                   "nome": "Sky Sport MotoGP",
@@ -5781,7 +5781,7 @@
                   "numero": "8",
                   "tipo": "diretta",
                   "orario": "2026-10-10T09:00",
-                  "fonte": "dizzle+tv8"
+                  "fonte": "dizzle"
                 },
                 {
                   "nome": "Sky Sport MotoGP",
@@ -5861,8 +5861,8 @@
                   "nome": "TV8",
                   "numero": "8",
                   "tipo": "differita",
-                  "orario": "",
-                  "fonte": "config"
+                  "orario": "2026-10-11T11:00",
+                  "fonte": "config+tv8"
                 }
               ],
               "fonte": "Dizzle0987/motorsport-calendar"
@@ -7315,16 +7315,7 @@
               "inizio": "2026-10-10T16:30:00+02:00",
               "data": "10/10/2026",
               "ora": "16:30",
-              "canali": [
-                {
-                  "nome": "TV8",
-                  "numero": "8",
-                  "tipo": "diretta",
-                  "orario": "2026-10-10T16:30",
-                  "programma": "Portogallo: Gara 1",
-                  "fonte": "tv8"
-                }
-              ],
+              "canali": [],
               "fonte": "Fuori Traiettoria"
             },
             {
@@ -7339,7 +7330,16 @@
               "inizio": "2026-10-11T12:10:00+02:00",
               "data": "11/10/2026",
               "ora": "12:10",
-              "canali": [],
+              "canali": [
+                {
+                  "nome": "TV8",
+                  "numero": "8",
+                  "tipo": "differita",
+                  "orario": "2026-10-11T19:30",
+                  "programma": "Portogallo: Superpole Race",
+                  "fonte": "tv8"
+                }
+              ],
               "fonte": "Fuori Traiettoria"
             },
             {
@@ -7354,7 +7354,16 @@
               "inizio": "2026-10-11T16:30:00+02:00",
               "data": "11/10/2026",
               "ora": "16:30",
-              "canali": [],
+              "canali": [
+                {
+                  "nome": "TV8",
+                  "numero": "8",
+                  "tipo": "differita",
+                  "orario": "2026-10-11T19:50",
+                  "programma": "Portogallo: Gara 2",
+                  "fonte": "tv8"
+                }
+              ],
               "fonte": "Fuori Traiettoria"
             },
             {
