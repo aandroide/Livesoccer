@@ -86,10 +86,15 @@ def event_item(ev, now):
     che si vuole vedere subito, vanno dentro il titolo stesso, su una seconda
     riga con [CR] (l'interruzione di riga che le etichette Kodi capiscono).
     Il resto (data, fonte, altri paesi) resta nel campo "info"."""
+    # Le "card" colorate con bordo e i bottoncini arrotondati della pagina web
+    # sono HTML/CSS: una lista Kodi ha solo etichette di testo, quindi non si
+    # possono disegnare davvero. Il testo tra [parentesi quadre] per ogni
+    # canale e' il modo piu' vicino, a solo testo, di dare l'idea di un
+    # "bottoncino" separato invece di un elenco unico.
     stato = stato_evento(ev.get("inizio", ""), now)
     ora = ev.get("ora", "")
     if stato == "live":
-        riga1 = "[COLOR red][B]%s[/B][/COLOR]  %s   [COLOR red][B](LIVE)[/B][/COLOR]" % (ora, ev["titolo"])
+        riga1 = "[COLOR red][B]%s[/B][/COLOR]  %s   [COLOR red][B][LIVE][/B][/COLOR]" % (ora, ev["titolo"])
     elif stato == "finished":
         riga1 = "[COLOR grey][B]%s[/B][/COLOR]  [COLOR grey]%s[/COLOR]" % (ora, ev["titolo"])
     else:
@@ -97,16 +102,17 @@ def event_item(ev, now):
 
     canali = ev.get("canali") or []
     if canali:
-        nomi = ", ".join(c["nome"] for c in canali)
-        riga2 = "     [COLOR khaki][B]Canali:[/B] %s[/COLOR]" % nomi
+        chip = " ".join("[%s]" % c["nome"] for c in canali)
+        riga2 = "     [COLOR khaki][B]Canali:[/B] %s[/COLOR]" % chip
     else:
         riga2 = "     [COLOR grey][B]Canali:[/B] nessuno indicato[/COLOR]"
     titolo = riga1 + "[CR]" + riga2
 
-    righe_info = []
     mondo = ev.get("canali_mondo") or []
     if mondo:
-        righe_info.append("Altri paesi: %d" % len(mondo))
+        titolo += "[CR]     [COLOR khaki][Altri paesi: %d][/COLOR]" % len(mondo)
+
+    righe_info = []
     if ev.get("data"):
         righe_info.append(ev["data"])
     if ev.get("fonte"):
