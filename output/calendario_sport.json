@@ -1,61 +1,16 @@
 {
-  "aggiornato": "2026-09-27T13:34:54+02:00",
+  "aggiornato": "2026-09-27T14:11:37+02:00",
   "fonti": {
     "motori": "Fuori Traiettoria, Dizzle0987/motorsport-calendar, palinsesto TV8",
     "calcio_italiano": "https://raw.githubusercontent.com/aandroide/Livesoccer/master/livesoccertv/output/eventi.json",
     "altri_sport": "https://sport.virgilio.it/guida-tv/"
   },
-  "totale": 267,
+  "totale": 256,
   "cartelle": [
     {
       "nome": "Oggi",
-      "totale": 30,
+      "totale": 28,
       "eventi": [
-        {
-          "titolo": "[Tennis] WTA 500 Singapore: Finale",
-          "categoria": "Tennis",
-          "sottocartella": "WTA 500 Singapore",
-          "sport": "Tennis",
-          "competizione": "WTA 500 Singapore",
-          "evento": "Finale",
-          "inizio": "2026-09-27T11:00:00+02:00",
-          "data": "27/09/2026",
-          "ora": "11:00",
-          "canali": [
-            {
-              "nome": "Sky Sport Tennis",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-09-27T11:00",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Motori] World Superbike: Italian Round - SP Race",
-          "categoria": "Motori",
-          "sottocartella": "World Superbike",
-          "sport": "Motori",
-          "competizione": "World Superbike",
-          "evento": "Italian Round - SP Race",
-          "sessione": "gara",
-          "circuito": "Cremona Circuit, Strada Giuseppina 2, San Martino del Lago, 26040 San Martino del Lago CR, Italia",
-          "inizio": "2026-09-27T11:10:00+02:00",
-          "data": "27/09/2026",
-          "ora": "11:10",
-          "canali": [
-            {
-              "nome": "TV8",
-              "numero": "8",
-              "tipo": "differita",
-              "orario": "2026-09-27T14:35",
-              "programma": "Italia: Superpole Race",
-              "fonte": "tv8"
-            }
-          ],
-          "fonte": "Fuori Traiettoria"
-        },
         {
           "titolo": "[Calcio] Serie C: Barletta vs Potenza Calcio",
           "categoria": "Calcio",
@@ -3776,7 +3731,7 @@
     },
     {
       "nome": "Motori",
-      "totale": 131,
+      "totale": 130,
       "sottocartelle": [
         {
           "nome": "Formula 1",
@@ -7238,32 +7193,8 @@
         },
         {
           "nome": "World Superbike",
-          "totale": 10,
+          "totale": 9,
           "eventi": [
-            {
-              "titolo": "World Superbike: Italian Round - SP Race",
-              "categoria": "Motori",
-              "sottocartella": "World Superbike",
-              "sport": "Motori",
-              "competizione": "World Superbike",
-              "evento": "Italian Round - SP Race",
-              "sessione": "gara",
-              "circuito": "Cremona Circuit, Strada Giuseppina 2, San Martino del Lago, 26040 San Martino del Lago CR, Italia",
-              "inizio": "2026-09-27T11:10:00+02:00",
-              "data": "27/09/2026",
-              "ora": "11:10",
-              "canali": [
-                {
-                  "nome": "TV8",
-                  "numero": "8",
-                  "tipo": "differita",
-                  "orario": "2026-09-27T14:35",
-                  "programma": "Italia: Superpole Race",
-                  "fonte": "tv8"
-                }
-              ],
-              "fonte": "Fuori Traiettoria"
-            },
             {
               "titolo": "World Superbike: Italian Round - Race 2",
               "categoria": "Motori",
@@ -7627,11 +7558,11 @@
     },
     {
       "nome": "Calcio",
-      "totale": 101,
+      "totale": 92,
       "sottocartelle": [
         {
           "nome": "Serie A",
-          "totale": 15,
+          "totale": 5,
           "eventi": [
             {
               "titolo": "Serie A: Genoa vs Fiorentina",
@@ -7643,15 +7574,7 @@
               "inizio": "2026-10-10T15:00:00+02:00",
               "data": "10/10/2026",
               "ora": "15:00",
-              "canali": [
-                {
-                  "nome": "Paramount+",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-10T15:00",
-                  "fonte": "livesoccer"
-                }
-              ],
+              "canali": [],
               "canali_mondo": [],
               "fonte": "LiveSoccerTV"
             },
@@ -7665,15 +7588,7 @@
               "inizio": "2026-10-10T18:00:00+02:00",
               "data": "10/10/2026",
               "ora": "18:00",
-              "canali": [
-                {
-                  "nome": "Paramount+",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-10T18:00",
-                  "fonte": "livesoccer"
-                }
-              ],
+              "canali": [],
               "canali_mondo": [],
               "fonte": "LiveSoccerTV"
             },
@@ -7687,15 +7602,7 @@
               "inizio": "2026-10-10T20:45:00+02:00",
               "data": "10/10/2026",
               "ora": "20:45",
-              "canali": [
-                {
-                  "nome": "Paramount+",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-10T20:45",
-                  "fonte": "livesoccer"
-                }
-              ],
+              "canali": [],
               "canali_mondo": [],
               "fonte": "LiveSoccerTV"
             },
@@ -7709,22 +7616,7 @@
               "inizio": "2026-10-11T12:30:00+02:00",
               "data": "11/10/2026",
               "ora": "12:30",
-              "canali": [
-                {
-                  "nome": "CBS Sports Network",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-11T12:30",
-                  "fonte": "livesoccer"
-                },
-                {
-                  "nome": "Paramount+",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-11T12:30",
-                  "fonte": "livesoccer"
-                }
-              ],
+              "canali": [],
               "canali_mondo": [],
               "fonte": "LiveSoccerTV"
             },
@@ -7738,242 +7630,7 @@
               "inizio": "2026-10-11T15:00:00+02:00",
               "data": "11/10/2026",
               "ora": "15:00",
-              "canali": [
-                {
-                  "nome": "Paramount+",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-11T15:00",
-                  "fonte": "livesoccer"
-                }
-              ],
-              "canali_mondo": [],
-              "fonte": "LiveSoccerTV"
-            },
-            {
-              "titolo": "Serie A: Lecce vs Bologna",
-              "categoria": "Calcio",
-              "sottocartella": "Serie A",
-              "sport": "Calcio",
-              "competizione": "Serie A",
-              "evento": "Lecce vs Bologna",
-              "inizio": "2026-10-11T15:00:00+02:00",
-              "data": "11/10/2026",
-              "ora": "15:00",
-              "canali": [
-                {
-                  "nome": "CBS Sports Network",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-11T15:00",
-                  "fonte": "livesoccer"
-                },
-                {
-                  "nome": "Paramount+",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-11T15:00",
-                  "fonte": "livesoccer"
-                }
-              ],
-              "canali_mondo": [],
-              "fonte": "LiveSoccerTV"
-            },
-            {
-              "titolo": "Serie A: Sassuolo vs Milan",
-              "categoria": "Calcio",
-              "sottocartella": "Serie A",
-              "sport": "Calcio",
-              "competizione": "Serie A",
-              "evento": "Sassuolo vs Milan",
-              "inizio": "2026-10-11T18:00:00+02:00",
-              "data": "11/10/2026",
-              "ora": "18:00",
-              "canali": [
-                {
-                  "nome": "Paramount+",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-11T18:00",
-                  "fonte": "livesoccer"
-                }
-              ],
-              "canali_mondo": [],
-              "fonte": "LiveSoccerTV"
-            },
-            {
-              "titolo": "Serie A: Cagliari vs Juventus",
-              "categoria": "Calcio",
-              "sottocartella": "Serie A",
-              "sport": "Calcio",
-              "competizione": "Serie A",
-              "evento": "Cagliari vs Juventus",
-              "inizio": "2026-10-11T20:45:00+02:00",
-              "data": "11/10/2026",
-              "ora": "20:45",
-              "canali": [
-                {
-                  "nome": "Paramount+",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-11T20:45",
-                  "fonte": "livesoccer"
-                }
-              ],
-              "canali_mondo": [],
-              "fonte": "LiveSoccerTV"
-            },
-            {
-              "titolo": "Serie A: Atalanta vs Venezia",
-              "categoria": "Calcio",
-              "sottocartella": "Serie A",
-              "sport": "Calcio",
-              "competizione": "Serie A",
-              "evento": "Atalanta vs Venezia",
-              "inizio": "2026-10-12T18:30:00+02:00",
-              "data": "12/10/2026",
-              "ora": "18:30",
-              "canali": [
-                {
-                  "nome": "Paramount+",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-12T18:30",
-                  "fonte": "livesoccer"
-                }
-              ],
-              "canali_mondo": [],
-              "fonte": "LiveSoccerTV"
-            },
-            {
-              "titolo": "Serie A: Torino vs Udinese",
-              "categoria": "Calcio",
-              "sottocartella": "Serie A",
-              "sport": "Calcio",
-              "competizione": "Serie A",
-              "evento": "Torino vs Udinese",
-              "inizio": "2026-10-12T20:45:00+02:00",
-              "data": "12/10/2026",
-              "ora": "20:45",
-              "canali": [
-                {
-                  "nome": "Paramount+",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-12T20:45",
-                  "fonte": "livesoccer"
-                }
-              ],
-              "canali_mondo": [],
-              "fonte": "LiveSoccerTV"
-            },
-            {
-              "titolo": "Serie A: Frosinone vs Sassuolo",
-              "categoria": "Calcio",
-              "sottocartella": "Serie A",
-              "sport": "Calcio",
-              "competizione": "Serie A",
-              "evento": "Frosinone vs Sassuolo",
-              "inizio": "2026-10-16T20:45:00+02:00",
-              "data": "16/10/2026",
-              "ora": "20:45",
-              "canali": [
-                {
-                  "nome": "Paramount+",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-16T20:45",
-                  "fonte": "livesoccer"
-                }
-              ],
-              "canali_mondo": [],
-              "fonte": "LiveSoccerTV"
-            },
-            {
-              "titolo": "Serie A: Venezia vs Napoli",
-              "categoria": "Calcio",
-              "sottocartella": "Serie A",
-              "sport": "Calcio",
-              "competizione": "Serie A",
-              "evento": "Venezia vs Napoli",
-              "inizio": "2026-10-17T15:00:00+02:00",
-              "data": "17/10/2026",
-              "ora": "15:00",
-              "canali": [
-                {
-                  "nome": "Paramount+",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-17T15:00",
-                  "fonte": "livesoccer"
-                }
-              ],
-              "canali_mondo": [],
-              "fonte": "LiveSoccerTV"
-            },
-            {
-              "titolo": "Serie A: Bologna vs Internazionale",
-              "categoria": "Calcio",
-              "sottocartella": "Serie A",
-              "sport": "Calcio",
-              "competizione": "Serie A",
-              "evento": "Bologna vs Internazionale",
-              "inizio": "2026-10-17T18:00:00+02:00",
-              "data": "17/10/2026",
-              "ora": "18:00",
-              "canali": [
-                {
-                  "nome": "Paramount+",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-17T18:00",
-                  "fonte": "livesoccer"
-                }
-              ],
-              "canali_mondo": [],
-              "fonte": "LiveSoccerTV"
-            },
-            {
-              "titolo": "Serie A: Roma vs Genoa",
-              "categoria": "Calcio",
-              "sottocartella": "Serie A",
-              "sport": "Calcio",
-              "competizione": "Serie A",
-              "evento": "Roma vs Genoa",
-              "inizio": "2026-10-17T20:45:00+02:00",
-              "data": "17/10/2026",
-              "ora": "20:45",
-              "canali": [
-                {
-                  "nome": "Paramount+",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-17T20:45",
-                  "fonte": "livesoccer"
-                }
-              ],
-              "canali_mondo": [],
-              "fonte": "LiveSoccerTV"
-            },
-            {
-              "titolo": "Serie A: Udinese vs Lecce",
-              "categoria": "Calcio",
-              "sottocartella": "Serie A",
-              "sport": "Calcio",
-              "competizione": "Serie A",
-              "evento": "Udinese vs Lecce",
-              "inizio": "2026-10-18T12:30:00+02:00",
-              "data": "18/10/2026",
-              "ora": "12:30",
-              "canali": [
-                {
-                  "nome": "Paramount+",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-18T12:30",
-                  "fonte": "livesoccer"
-                }
-              ],
+              "canali": [],
               "canali_mondo": [],
               "fonte": "LiveSoccerTV"
             }
@@ -8422,7 +8079,7 @@
         },
         {
           "nome": "Serie C",
-          "totale": 46,
+          "totale": 48,
           "eventi": [
             {
               "titolo": "Serie C: Barletta vs Potenza Calcio",
@@ -9896,6 +9553,64 @@
               ],
               "canali_mondo": [],
               "fonte": "LiveSoccerTV"
+            },
+            {
+              "titolo": "Serie C: Crotone vs Audace Cerignola",
+              "categoria": "Calcio",
+              "sottocartella": "Serie C",
+              "sport": "Calcio",
+              "competizione": "Serie C",
+              "evento": "Crotone vs Audace Cerignola",
+              "inizio": "2026-10-10T14:30:00+02:00",
+              "data": "10/10/2026",
+              "ora": "14:30",
+              "canali": [
+                {
+                  "nome": "SKY Go Italia",
+                  "numero": "",
+                  "tipo": "streaming",
+                  "orario": "2026-10-10T14:30",
+                  "fonte": "livesoccer"
+                },
+                {
+                  "nome": "NOW TV",
+                  "numero": "",
+                  "tipo": "streaming",
+                  "orario": "2026-10-10T14:30",
+                  "fonte": "livesoccer"
+                }
+              ],
+              "canali_mondo": [],
+              "fonte": "LiveSoccerTV"
+            },
+            {
+              "titolo": "Serie C: Pergolettese vs Athletic Carpi",
+              "categoria": "Calcio",
+              "sottocartella": "Serie C",
+              "sport": "Calcio",
+              "competizione": "Serie C",
+              "evento": "Pergolettese vs Athletic Carpi",
+              "inizio": "2026-10-10T14:30:00+02:00",
+              "data": "10/10/2026",
+              "ora": "14:30",
+              "canali": [
+                {
+                  "nome": "SKY Go Italia",
+                  "numero": "",
+                  "tipo": "streaming",
+                  "orario": "2026-10-10T14:30",
+                  "fonte": "livesoccer"
+                },
+                {
+                  "nome": "NOW TV",
+                  "numero": "",
+                  "tipo": "streaming",
+                  "orario": "2026-10-10T14:30",
+                  "fonte": "livesoccer"
+                }
+              ],
+              "canali_mondo": [],
+              "fonte": "LiveSoccerTV"
             }
           ]
         },
@@ -9955,7 +9670,7 @@
         },
         {
           "nome": "UEFA Nations League",
-          "totale": 15,
+          "totale": 14,
           "eventi": [
             {
               "titolo": "UEFA Nations League: Lituania-Azerbaigian",
@@ -13958,998 +13673,6 @@
               ]
             },
             {
-              "titolo": "UEFA Nations League: San Marino vs Albania",
-              "categoria": "Calcio",
-              "sottocartella": "UEFA Nations League",
-              "sport": "Calcio",
-              "competizione": "UEFA Nations League",
-              "evento": "San Marino vs Albania",
-              "inizio": "2026-09-29T20:45:00+02:00",
-              "data": "29/09/2026",
-              "ora": "20:45",
-              "canali": [
-                {
-                  "nome": "SMtv San Marino",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-09-29T20:45",
-                  "fonte": "livesoccer"
-                }
-              ],
-              "canali_mondo": [
-                {
-                  "paese": "Albania",
-                  "canali": [
-                    "TV Klan",
-                    "Klani IM"
-                  ]
-                },
-                {
-                  "paese": "Algeria",
-                  "canali": [
-                    "beIN SPORTS CONNECT"
-                  ]
-                },
-                {
-                  "paese": "Andorra",
-                  "canali": [
-                    "DAZN Spain"
-                  ]
-                },
-                {
-                  "paese": "Angola",
-                  "canali": [
-                    "DStv Now",
-                    "SuperSport OTT 8"
-                  ]
-                },
-                {
-                  "paese": "Anguilla",
-                  "canali": [
-                    "Bluu"
-                  ]
-                },
-                {
-                  "paese": "Antigua e Barbuda",
-                  "canali": [
-                    "Bluu"
-                  ]
-                },
-                {
-                  "paese": "Argentina",
-                  "canali": [
-                    "Disney+ Premium Argentina"
-                  ]
-                },
-                {
-                  "paese": "Armenia",
-                  "canali": [
-                    "FAST TV"
-                  ]
-                },
-                {
-                  "paese": "Aruba",
-                  "canali": [
-                    "Bluu"
-                  ]
-                },
-                {
-                  "paese": "Australia",
-                  "canali": [
-                    "beIN Sports Connect"
-                  ]
-                },
-                {
-                  "paese": "Austria",
-                  "canali": [
-                    "DAZN Austria"
-                  ]
-                },
-                {
-                  "paese": "Bahamas",
-                  "canali": [
-                    "Bluu"
-                  ]
-                },
-                {
-                  "paese": "Bahrain",
-                  "canali": [
-                    "beIN SPORTS CONNECT"
-                  ]
-                },
-                {
-                  "paese": "Bangladesh",
-                  "canali": [
-                    "Sony LIV",
-                    "tapmad"
-                  ]
-                },
-                {
-                  "paese": "Barbados",
-                  "canali": [
-                    "Bluu"
-                  ]
-                },
-                {
-                  "paese": "Bielorussia",
-                  "canali": [
-                    "Okko Спорт"
-                  ]
-                },
-                {
-                  "paese": "Benin",
-                  "canali": [
-                    "SuperSport OTT 8"
-                  ]
-                },
-                {
-                  "paese": "Bermuda",
-                  "canali": [
-                    "Bluu"
-                  ]
-                },
-                {
-                  "paese": "Bhutan",
-                  "canali": [
-                    "Sony LIV"
-                  ]
-                },
-                {
-                  "paese": "Bolivia",
-                  "canali": [
-                    "Disney+ Premium Chile"
-                  ]
-                },
-                {
-                  "paese": "Botswana",
-                  "canali": [
-                    "DStv Now",
-                    "SuperSport OTT 8"
-                  ]
-                },
-                {
-                  "paese": "Brasile",
-                  "canali": [
-                    "Disney+ Premium Brazil"
-                  ]
-                },
-                {
-                  "paese": "Isole Vergini britanniche",
-                  "canali": [
-                    "Bluu"
-                  ]
-                },
-                {
-                  "paese": "Burkina Faso",
-                  "canali": [
-                    "DStv Now",
-                    "SuperSport OTT 8"
-                  ]
-                },
-                {
-                  "paese": "Burundi",
-                  "canali": [
-                    "DStv Now",
-                    "SuperSport OTT 8"
-                  ]
-                },
-                {
-                  "paese": "Cambogia",
-                  "canali": [
-                    "MONOMAX"
-                  ]
-                },
-                {
-                  "paese": "Camerun",
-                  "canali": [
-                    "DStv Now",
-                    "SuperSport OTT 8"
-                  ]
-                },
-                {
-                  "paese": "Canada",
-                  "canali": [
-                    "DAZN Canada",
-                    "fuboTV Canada"
-                  ]
-                },
-                {
-                  "paese": "Capo Verde",
-                  "canali": [
-                    "DStv Now",
-                    "SuperSport OTT 8"
-                  ]
-                },
-                {
-                  "paese": "Isole Cayman",
-                  "canali": [
-                    "Bluu"
-                  ]
-                },
-                {
-                  "paese": "Repubblica Centrafricana",
-                  "canali": [
-                    "SuperSport OTT 8"
-                  ]
-                },
-                {
-                  "paese": "Ciad",
-                  "canali": [
-                    "beIN SPORTS CONNECT",
-                    "DStv Now",
-                    "SuperSport OTT 8"
-                  ]
-                },
-                {
-                  "paese": "Cile",
-                  "canali": [
-                    "Disney+ Premium Chile"
-                  ]
-                },
-                {
-                  "paese": "Cina",
-                  "canali": [
-                    "iQiyi"
-                  ]
-                },
-                {
-                  "paese": "Colombia",
-                  "canali": [
-                    "Disney+ Premium Sur"
-                  ]
-                },
-                {
-                  "paese": "Comore",
-                  "canali": [
-                    "SuperSport OTT 8"
-                  ]
-                },
-                {
-                  "paese": "Repubblica Democratica del Congo",
-                  "canali": [
-                    "DStv Now",
-                    "SuperSport OTT 8",
-                    "SuperSport OTT 8"
-                  ]
-                },
-                {
-                  "paese": "Costa Rica",
-                  "canali": [
-                    "Disney+ Premium Norte"
-                  ]
-                },
-                {
-                  "paese": "Costa d'Avorio",
-                  "canali": [
-                    "DStv Now",
-                    "SuperSport OTT 8"
-                  ]
-                },
-                {
-                  "paese": "Danimarca",
-                  "canali": [
-                    "TV2 Play Denmark"
-                  ]
-                },
-                {
-                  "paese": "Gibuti",
-                  "canali": [
-                    "beIN SPORTS CONNECT",
-                    "DStv Now",
-                    "SuperSport OTT 8"
-                  ]
-                },
-                {
-                  "paese": "Dominica",
-                  "canali": [
-                    "Bluu"
-                  ]
-                },
-                {
-                  "paese": "Repubblica Dominicana",
-                  "canali": [
-                    "Disney+ Premium Norte"
-                  ]
-                },
-                {
-                  "paese": "Ecuador",
-                  "canali": [
-                    "Disney+ Premium Sur"
-                  ]
-                },
-                {
-                  "paese": "Egitto",
-                  "canali": [
-                    "beIN SPORTS CONNECT"
-                  ]
-                },
-                {
-                  "paese": "El Salvador",
-                  "canali": [
-                    "Disney+ Premium Norte"
-                  ]
-                },
-                {
-                  "paese": "Guinea Equatoriale",
-                  "canali": [
-                    "DStv Now",
-                    "SuperSport OTT 8"
-                  ]
-                },
-                {
-                  "paese": "Eritrea",
-                  "canali": [
-                    "DStv Now",
-                    "SuperSport OTT 8"
-                  ]
-                },
-                {
-                  "paese": "Estonia",
-                  "canali": [
-                    "Go3 Extra Sports Estonia"
-                  ]
-                },
-                {
-                  "paese": "Etiopia",
-                  "canali": [
-                    "DStv Now",
-                    "SuperSport OTT 8"
-                  ]
-                },
-                {
-                  "paese": "Isole Faroe",
-                  "canali": [
-                    "TV2 Play Denmark"
-                  ]
-                },
-                {
-                  "paese": "Finlandia",
-                  "canali": [
-                    "MTV Katsomo"
-                  ]
-                },
-                {
-                  "paese": "Gabon",
-                  "canali": [
-                    "DStv Now",
-                    "SuperSport OTT 8"
-                  ]
-                },
-                {
-                  "paese": "Gambia",
-                  "canali": [
-                    "DStv Now",
-                    "SuperSport OTT 8"
-                  ]
-                },
-                {
-                  "paese": "Germania",
-                  "canali": [
-                    "DAZN Deutschland"
-                  ]
-                },
-                {
-                  "paese": "Ghana",
-                  "canali": [
-                    "DStv Now",
-                    "SuperSport OTT 8"
-                  ]
-                },
-                {
-                  "paese": "Grenada",
-                  "canali": [
-                    "Bluu"
-                  ]
-                },
-                {
-                  "paese": "Guatemala",
-                  "canali": [
-                    "Disney+ Premium Norte"
-                  ]
-                },
-                {
-                  "paese": "Guinea",
-                  "canali": [
-                    "DStv Now",
-                    "SuperSport OTT 8"
-                  ]
-                },
-                {
-                  "paese": "Guinea-Bissau",
-                  "canali": [
-                    "DStv Now",
-                    "SuperSport OTT 8"
-                  ]
-                },
-                {
-                  "paese": "Honduras",
-                  "canali": [
-                    "Disney+ Premium Norte"
-                  ]
-                },
-                {
-                  "paese": "Islanda",
-                  "canali": [
-                    "Viaplay Iceland"
-                  ]
-                },
-                {
-                  "paese": "India",
-                  "canali": [
-                    "Sony LIV",
-                    "JioTV"
-                  ]
-                },
-                {
-                  "paese": "Indonesia",
-                  "canali": [
-                    "Vision+"
-                  ]
-                },
-                {
-                  "paese": "Internazionale",
-                  "canali": [
-                    "UEFA.tv"
-                  ]
-                },
-                {
-                  "paese": "Iran",
-                  "canali": [
-                    "beIN SPORTS CONNECT"
-                  ]
-                },
-                {
-                  "paese": "Iraq",
-                  "canali": [
-                    "beIN SPORTS CONNECT"
-                  ]
-                },
-                {
-                  "paese": "Italia",
-                  "canali": [
-                    "SMtv San Marino"
-                  ]
-                },
-                {
-                  "paese": "Giamaica",
-                  "canali": [
-                    "Bluu"
-                  ]
-                },
-                {
-                  "paese": "Giappone",
-                  "canali": [
-                    "DAZN Japan"
-                  ]
-                },
-                {
-                  "paese": "Giordania",
-                  "canali": [
-                    "beIN SPORTS CONNECT"
-                  ]
-                },
-                {
-                  "paese": "Kenya",
-                  "canali": [
-                    "DStv Now",
-                    "SuperSport OTT 8"
-                  ]
-                },
-                {
-                  "paese": "Corea del Sud",
-                  "canali": [
-                    "SPOTV NOW"
-                  ]
-                },
-                {
-                  "paese": "Kuwait",
-                  "canali": [
-                    "beIN SPORTS CONNECT"
-                  ]
-                },
-                {
-                  "paese": "Laos",
-                  "canali": [
-                    "MONOMAX"
-                  ]
-                },
-                {
-                  "paese": "Lettonia",
-                  "canali": [
-                    "Go3 Extra Sports Latvia"
-                  ]
-                },
-                {
-                  "paese": "Libano",
-                  "canali": [
-                    "beIN SPORTS CONNECT"
-                  ]
-                },
-                {
-                  "paese": "Lesotho",
-                  "canali": [
-                    "DStv Now",
-                    "SuperSport OTT 8"
-                  ]
-                },
-                {
-                  "paese": "Liberia",
-                  "canali": [
-                    "DStv Now",
-                    "SuperSport OTT 8"
-                  ]
-                },
-                {
-                  "paese": "Libia",
-                  "canali": [
-                    "beIN SPORTS CONNECT"
-                  ]
-                },
-                {
-                  "paese": "Liechtenstein",
-                  "canali": [
-                    "DAZN Deutschland"
-                  ]
-                },
-                {
-                  "paese": "Lituania",
-                  "canali": [
-                    "Go3 Extra Sports Lithuania"
-                  ]
-                },
-                {
-                  "paese": "Macao",
-                  "canali": [
-                    "iQiyi"
-                  ]
-                },
-                {
-                  "paese": "Madagascar",
-                  "canali": [
-                    "DStv Now",
-                    "SuperSport OTT 8"
-                  ]
-                },
-                {
-                  "paese": "Malawi",
-                  "canali": [
-                    "DStv Now",
-                    "SuperSport OTT 8"
-                  ]
-                },
-                {
-                  "paese": "Maldive",
-                  "canali": [
-                    "Sony LIV"
-                  ]
-                },
-                {
-                  "paese": "Mali",
-                  "canali": [
-                    "DStv Now",
-                    "SuperSport OTT 8"
-                  ]
-                },
-                {
-                  "paese": "Mauritania",
-                  "canali": [
-                    "beIN SPORTS CONNECT",
-                    "DStv Now",
-                    "SuperSport OTT 8"
-                  ]
-                },
-                {
-                  "paese": "Mauritius",
-                  "canali": [
-                    "DStv Now",
-                    "SuperSport OTT 8"
-                  ]
-                },
-                {
-                  "paese": "Mayotte",
-                  "canali": [
-                    "SuperSport OTT 8"
-                  ]
-                },
-                {
-                  "paese": "Messico",
-                  "canali": [
-                    "Sky Sports Mexico",
-                    "Sky+",
-                    "izzi"
-                  ]
-                },
-                {
-                  "paese": "Moldavia",
-                  "canali": [
-                    "Okko Спорт"
-                  ]
-                },
-                {
-                  "paese": "Montserrat",
-                  "canali": [
-                    "Bluu"
-                  ]
-                },
-                {
-                  "paese": "Marocco",
-                  "canali": [
-                    "beIN SPORTS CONNECT"
-                  ]
-                },
-                {
-                  "paese": "Mozambico",
-                  "canali": [
-                    "DStv Now",
-                    "SuperSport OTT 8"
-                  ]
-                },
-                {
-                  "paese": "Namibia",
-                  "canali": [
-                    "DStv Now",
-                    "SuperSport OTT 8"
-                  ]
-                },
-                {
-                  "paese": "Nepal",
-                  "canali": [
-                    "Sony LIV"
-                  ]
-                },
-                {
-                  "paese": "Nuova Zelanda",
-                  "canali": [
-                    "beIN Sports Connect New Zealand"
-                  ]
-                },
-                {
-                  "paese": "Nicaragua",
-                  "canali": [
-                    "Disney+ Premium Norte"
-                  ]
-                },
-                {
-                  "paese": "Niger",
-                  "canali": [
-                    "DStv Now",
-                    "SuperSport OTT 8"
-                  ]
-                },
-                {
-                  "paese": "Nigeria",
-                  "canali": [
-                    "DStv Now",
-                    "SuperSport OTT 8"
-                  ]
-                },
-                {
-                  "paese": "Norvegia",
-                  "canali": [
-                    "Viaplay Norway",
-                    "TV 2 Play"
-                  ]
-                },
-                {
-                  "paese": "Oman",
-                  "canali": [
-                    "beIN SPORTS CONNECT"
-                  ]
-                },
-                {
-                  "paese": "Pakistan",
-                  "canali": [
-                    "Sony LIV",
-                    "tapmad"
-                  ]
-                },
-                {
-                  "paese": "Palestina",
-                  "canali": [
-                    "beIN SPORTS CONNECT"
-                  ]
-                },
-                {
-                  "paese": "Panama",
-                  "canali": [
-                    "Disney+ Premium Norte"
-                  ]
-                },
-                {
-                  "paese": "Papua Nuova Guinea",
-                  "canali": [
-                    "Vision+"
-                  ]
-                },
-                {
-                  "paese": "Paraguay",
-                  "canali": [
-                    "Disney+ Premium Argentina"
-                  ]
-                },
-                {
-                  "paese": "Perù",
-                  "canali": [
-                    "Disney+ Premium Chile"
-                  ]
-                },
-                {
-                  "paese": "Portogallo",
-                  "canali": [
-                    "Match Player"
-                  ]
-                },
-                {
-                  "paese": "Porto Rico",
-                  "canali": [
-                    "ViX"
-                  ]
-                },
-                {
-                  "paese": "Qatar",
-                  "canali": [
-                    "beIN SPORTS CONNECT"
-                  ]
-                },
-                {
-                  "paese": "Reunion",
-                  "canali": [
-                    "SuperSport OTT 8"
-                  ]
-                },
-                {
-                  "paese": "Russia",
-                  "canali": [
-                    "Okko Спорт"
-                  ]
-                },
-                {
-                  "paese": "Ruanda",
-                  "canali": [
-                    "SuperSport OTT 8"
-                  ]
-                },
-                {
-                  "paese": "Saint Helena",
-                  "canali": [
-                    "SuperSport OTT 8"
-                  ]
-                },
-                {
-                  "paese": "Saint Kitts e Nevis",
-                  "canali": [
-                    "Bluu"
-                  ]
-                },
-                {
-                  "paese": "Santa Lucia",
-                  "canali": [
-                    "Bluu"
-                  ]
-                },
-                {
-                  "paese": "San Marino",
-                  "canali": [
-                    "SMtv San Marino"
-                  ]
-                },
-                {
-                  "paese": "Arabia Saudita",
-                  "canali": [
-                    "beIN SPORTS CONNECT"
-                  ]
-                },
-                {
-                  "paese": "Senegal",
-                  "canali": [
-                    "DStv Now",
-                    "SuperSport OTT 8"
-                  ]
-                },
-                {
-                  "paese": "Seychelles",
-                  "canali": [
-                    "Bluu",
-                    "DStv Now",
-                    "SuperSport OTT 8"
-                  ]
-                },
-                {
-                  "paese": "Sierra Leone",
-                  "canali": [
-                    "DStv Now",
-                    "SuperSport OTT 8"
-                  ]
-                },
-                {
-                  "paese": "Somalia",
-                  "canali": [
-                    "beIN SPORTS CONNECT",
-                    "SuperSport OTT 8"
-                  ]
-                },
-                {
-                  "paese": "Sudafrica",
-                  "canali": [
-                    "SuperSport OTT 8"
-                  ]
-                },
-                {
-                  "paese": "Sud Sudan",
-                  "canali": [
-                    "beIN SPORTS CONNECT",
-                    "DStv Now"
-                  ]
-                },
-                {
-                  "paese": "Spagna",
-                  "canali": [
-                    "DAZN Spain"
-                  ]
-                },
-                {
-                  "paese": "Sri Lanka",
-                  "canali": [
-                    "Sony LIV"
-                  ]
-                },
-                {
-                  "paese": "St. Vincent / Grenadines",
-                  "canali": [
-                    "Bluu"
-                  ]
-                },
-                {
-                  "paese": "Sudan",
-                  "canali": [
-                    "beIN SPORTS CONNECT",
-                    "DStv Now",
-                    "SuperSport OTT 8"
-                  ]
-                },
-                {
-                  "paese": "Suriname",
-                  "canali": [
-                    "Bluu"
-                  ]
-                },
-                {
-                  "paese": "Swaziland",
-                  "canali": [
-                    "DStv Now",
-                    "SuperSport OTT 8"
-                  ]
-                },
-                {
-                  "paese": "Svezia",
-                  "canali": [
-                    "Viaplay Sweden"
-                  ]
-                },
-                {
-                  "paese": "Svizzera",
-                  "canali": [
-                    "DAZN Switzerland"
-                  ]
-                },
-                {
-                  "paese": "Siria",
-                  "canali": [
-                    "beIN SPORTS CONNECT"
-                  ]
-                },
-                {
-                  "paese": "São Tomé and Príncipe",
-                  "canali": [
-                    "SuperSport OTT 8"
-                  ]
-                },
-                {
-                  "paese": "Tanzania",
-                  "canali": [
-                    "DStv Now",
-                    "SuperSport OTT 8"
-                  ]
-                },
-                {
-                  "paese": "Thailandia",
-                  "canali": [
-                    "MONOMAX"
-                  ]
-                },
-                {
-                  "paese": "Timor-leste",
-                  "canali": [
-                    "Vision+"
-                  ]
-                },
-                {
-                  "paese": "Togo",
-                  "canali": [
-                    "DStv Now",
-                    "SuperSport OTT 8"
-                  ]
-                },
-                {
-                  "paese": "Trinidad e Tobago",
-                  "canali": [
-                    "Bluu"
-                  ]
-                },
-                {
-                  "paese": "Tunisia",
-                  "canali": [
-                    "beIN SPORTS CONNECT"
-                  ]
-                },
-                {
-                  "paese": "Turks e Caicos",
-                  "canali": [
-                    "Bluu"
-                  ]
-                },
-                {
-                  "paese": "Uganda",
-                  "canali": [
-                    "DStv Now",
-                    "SuperSport OTT 8"
-                  ]
-                },
-                {
-                  "paese": "Emirati Arabi Uniti",
-                  "canali": [
-                    "beIN SPORTS CONNECT"
-                  ]
-                },
-                {
-                  "paese": "Uruguay",
-                  "canali": [
-                    "Disney+ Premium Argentina"
-                  ]
-                },
-                {
-                  "paese": "USA",
-                  "canali": [
-                    "fuboTV",
-                    "ViX",
-                    "Fubo Sports Network 3"
-                  ]
-                },
-                {
-                  "paese": "Venezuela",
-                  "canali": [
-                    "Disney+ Premium Sur"
-                  ]
-                },
-                {
-                  "paese": "Vietnam",
-                  "canali": [
-                    "TV 360"
-                  ]
-                },
-                {
-                  "paese": "Yemen",
-                  "canali": [
-                    "beIN SPORTS CONNECT"
-                  ]
-                },
-                {
-                  "paese": "Zambia",
-                  "canali": [
-                    "SuperSport OTT 8"
-                  ]
-                },
-                {
-                  "paese": "Zimbabwe",
-                  "canali": [
-                    "DStv Now",
-                    "SuperSport OTT 8"
-                  ]
-                }
-              ],
-              "fonte": "LiveSoccerTV"
-            },
-            {
               "titolo": "UEFA Nations League: Spagna-Croazia",
               "categoria": "Calcio",
               "sottocartella": "UEFA Nations League",
@@ -16465,35 +15188,8 @@
     },
     {
       "nome": "Tennis",
-      "totale": 15,
+      "totale": 14,
       "sottocartelle": [
-        {
-          "nome": "WTA 500 Singapore",
-          "totale": 1,
-          "eventi": [
-            {
-              "titolo": "WTA 500 Singapore: Finale",
-              "categoria": "Tennis",
-              "sottocartella": "WTA 500 Singapore",
-              "sport": "Tennis",
-              "competizione": "WTA 500 Singapore",
-              "evento": "Finale",
-              "inizio": "2026-09-27T11:00:00+02:00",
-              "data": "27/09/2026",
-              "ora": "11:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Tennis",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-09-27T11:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            }
-          ]
-        },
         {
           "nome": "Laver Cup",
           "totale": 2,
