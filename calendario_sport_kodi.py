@@ -39,7 +39,11 @@ from zoneinfo import ZoneInfo
 
 BASE_URL = "https://raw.githubusercontent.com/aandroide/Livesoccer/master/output/kodi/"
 TARGET_TZ = "Europe/Rome"
-THUMB = "https://i.imgur.com/7wR0JXI.png"
+# Icona di un calendario a spirale, colorata: e' un'immagine vera (un file
+# Twemoji preso da GitHub), non un carattere emoji nel testo, quindi la skin
+# la disegna sempre, a differenza dei quadratini vuoti visti negli screenshot.
+# Licenza Twemoji: CC-BY 4.0.
+THUMB = "https://raw.githubusercontent.com/jdecked/twemoji/v15.0.3/assets/72x72/1f5d3.png"
 FANART = "https://www.stadiotardini.it/wp-content/uploads/2016/12/mandrakata.jpg"
 
 # Niente emoji: il font di molte skin Kodi non li disegna e restano quadratini
