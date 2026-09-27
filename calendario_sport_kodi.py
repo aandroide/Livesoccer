@@ -71,36 +71,44 @@ def stato_evento(inizio_iso, now):
 
 
 def event_item(ev, now):
+    """Il titolo (label) e' l'unica cosa che tutte le skin mostrano nell'elenco
+    centrale; il campo "info" invece lo mostrano solo alcune, spesso in un
+    pannello separato (vedi screenshot). Percio' i canali, che sono la cosa
+    che si vuole vedere subito, vanno dentro il titolo stesso, su una seconda
+    riga con [CR] (l'interruzione di riga che le etichette Kodi capiscono).
+    Il resto (data, fonte, altri paesi) resta nel campo "info"."""
     stato = stato_evento(ev.get("inizio", ""), now)
     ora = ev.get("ora", "")
     if stato == "live":
-        titolo = "[COLOR red]%s[/COLOR] %s [COLOR red]LIVE[/COLOR]" % (ora, ev["titolo"])
+        riga1 = "[COLOR red]%s[/COLOR] %s [COLOR red]LIVE[/COLOR]" % (ora, ev["titolo"])
     elif stato == "finished":
-        titolo = "[COLOR gray]%s[/COLOR] %s" % (ora, ev["titolo"])
+        riga1 = "[COLOR gray]%s[/COLOR] %s" % (ora, ev["titolo"])
     else:
-        titolo = "[COLOR yellow]%s[/COLOR] %s" % (ora, ev["titolo"])
+        riga1 = "[COLOR yellow]%s[/COLOR] %s" % (ora, ev["titolo"])
 
     canali = ev.get("canali") or []
-    righe = []
     if canali:
         nomi = ", ".join(c["nome"] for c in canali)
-        righe.append("Canali: " + nomi)
+        riga2 = "[COLOR khaki]%s[/COLOR]" % nomi
     else:
-        righe.append("Nessun canale indicato")
+        riga2 = "[COLOR gray]Nessun canale indicato[/COLOR]"
+    titolo = riga1 + "[CR]" + riga2
+
+    righe_info = []
     mondo = ev.get("canali_mondo") or []
     if mondo:
-        righe.append("\U0001F30D Altri paesi: %d" % len(mondo))
+        righe_info.append("\U0001F30D Altri paesi: %d" % len(mondo))
     if ev.get("data"):
-        righe.append(ev["data"])
+        righe_info.append(ev["data"])
     if ev.get("fonte"):
-        righe.append("Fonte: " + ev["fonte"])
+        righe_info.append("Fonte: " + ev["fonte"])
 
     return {
         "title": titolo,
         "link": "ignoreme",
         "thumbnail": THUMB,
         "fanart": FANART,
-        "info": "\n".join(righe),
+        "info": "\n".join(righe_info),
     }
 
 
