@@ -42,11 +42,10 @@ TARGET_TZ = "Europe/Rome"
 THUMB = "https://i.imgur.com/7wR0JXI.png"
 FANART = "https://www.stadiotardini.it/wp-content/uploads/2016/12/mandrakata.jpg"
 
-ICONS = {
-    "Oggi": "\U0001F4C5", "Motori": "\U0001F3CE\uFE0F", "Calcio": "\u26BD",
-    "Tennis": "\U0001F3BE", "Basket": "\U0001F3C0", "Volley": "\U0001F3D0",
-    "Altri sport": "\U0001F3C5",
-}
+# Niente emoji: il font di molte skin Kodi non li disegna e restano quadratini
+# vuoti (visto negli screenshot). Il resto dell'addon distingue le sezioni solo
+# con [COLOR]/[B], quindi le cartelle del calendario usano lo stesso linguaggio,
+# per integrarsi invece di spiccare come un difetto grafico.
 
 
 def slugify(text):
@@ -68,6 +67,12 @@ def stato_evento(inizio_iso, now):
     if now <= inizio + timedelta(hours=2):
         return "live"
     return "finished"
+
+
+def category_title(nome, totale, primo_livello):
+    nome_mostrato = nome.upper() if primo_livello else nome
+    peso = "[B]%s[/B]" % nome_mostrato if primo_livello else nome_mostrato
+    return "[COLOR cyan]%s[/COLOR] [COLOR grey](%d)[/COLOR]" % (peso, totale)
 
 
 def event_item(ev, now):
@@ -97,7 +102,7 @@ def event_item(ev, now):
     righe_info = []
     mondo = ev.get("canali_mondo") or []
     if mondo:
-        righe_info.append("\U0001F30D Altri paesi: %d" % len(mondo))
+        righe_info.append("Altri paesi: %d" % len(mondo))
     if ev.get("data"):
         righe_info.append(ev["data"])
     if ev.get("fonte"):
@@ -161,8 +166,7 @@ def build(data, out_dir, now):
     for cart in data["cartelle"]:
         nome = cart["nome"]
         cart_slug = slugify(nome)
-        icona = ICONS.get(nome, "\U0001F3C6")
-        etichetta = "%s %s (%d)" % (icona, nome, cart.get("totale", 0))
+        etichetta = category_title(nome, cart.get("totale", 0), primo_livello=True)
 
         if "sottocartelle" in cart:
             sub_items = []
@@ -170,7 +174,7 @@ def build(data, out_dir, now):
                 sub_slug = "%s-%s" % (cart_slug, slugify(sub["nome"]))
                 sub_filename = sub_slug + ".json"
                 write_json(out_dir, sub_filename, eventi_to_items(sub.get("eventi", []), now))
-                sub_label = "%s (%d)" % (sub["nome"], sub.get("totale", 0))
+                sub_label = category_title(sub["nome"], sub.get("totale", 0), primo_livello=False)
                 sub_items.append(folder_item(sub_label, sub_filename))
             write_json(out_dir, cart_slug + ".json", sub_items)
         else:
