@@ -836,13 +836,10 @@ def main():
     with sync_playwright() as pw:
         browser = launch_browser(pw)
         ctx = new_context(browser)
-        channel_map = {}
         if not args.html:
             warmup(ctx)
-            try:
-                channel_map = build_channel_map(ctx, now)
-            except Exception as e:
-                warn(f"Palinsesti canali non letti: {str(e).splitlines()[0] if str(e) else repr(e)}")
+        # 1) liste partite di tutte le competizioni
+        raccolte = []
         for n, comp in enumerate(comps):
             if n and not args.html:
                 time.sleep(random.uniform(5, 10))
@@ -866,7 +863,28 @@ def main():
             if args.debug:
                 for r in rows[:5]:
                     log(f"  RAW: {r['dv']} | {r['timer']} | {r['title']} | {r['score']} | {[c['name'] for c in r['channels']]}")
+            raccolte.append((comp, rows))
 
+        # 2) palinsesti dei canali italiani, a sessione ormai "fidata": nei primi minuti
+        #    Cloudflare e' piu' severo (anche la prima competizione a volte va ripetuta),
+        #    e aprire subito le pagine canale le faceva bloccare tutte
+        channel_map = {}
+        if not args.html and raccolte:
+            for tentativo in (1, 2):
+                try:
+                    channel_map = build_channel_map(ctx, now)
+                except Exception as e:
+                    warn(f"Palinsesti canali non letti: {str(e).splitlines()[0] if str(e) else repr(e)}")
+                if channel_map or tentativo == 2:
+                    break
+                log("Palinsesti non letti: nuova sessione e secondo tentativo")
+                ctx.close()
+                time.sleep(random.uniform(8, 15))
+                ctx = new_context(browser)
+                warmup(ctx)
+
+        # 3) canali italiani, pagine partita per "Altri paesi" e file di uscita
+        for comp, rows in raccolte:
             rows = drop_replays(rows)
 
             for r in rows:
@@ -885,7 +903,6 @@ def main():
                 da_controllare = [r for r in rows if r.get("url") and row_is_relevant(r, now)
                                   and (row_kickoff(r) or now) <= orizzonte]
                 if not comp.get("altri_paesi", True):
-                    # Serie B e C: "Altri paesi" sarebbe solo Italia e San Marino
                     # Serie B e C: diritti solo italiani, "Altri paesi" sarebbe solo Italia e
                     # San Marino. Se la lista ha gia' i canali italiani la pagina partita non
                     # aggiunge nulla: si apre solo per le partite rimaste senza canali.
