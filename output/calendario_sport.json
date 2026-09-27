@@ -1,51 +1,16 @@
 {
-  "aggiornato": "2026-09-27T18:40:32+02:00",
+  "aggiornato": "2026-09-27T19:03:17+02:00",
   "fonti": {
     "motori": "Fuori Traiettoria, Dizzle0987/motorsport-calendar, palinsesto TV8",
     "calcio_italiano": "https://raw.githubusercontent.com/aandroide/Livesoccer/master/livesoccertv/output/eventi.json",
     "altri_sport": "https://sport.virgilio.it/guida-tv/"
   },
-  "totale": 199,
+  "totale": 198,
   "cartelle": [
     {
       "nome": "Oggi",
-      "totale": 12,
+      "totale": 11,
       "eventi": [
-        {
-          "titolo": "[Basket] Serie A: Olimpia Milano-Trieste",
-          "categoria": "Basket",
-          "sottocartella": "Serie A",
-          "sport": "Basket",
-          "competizione": "Serie A",
-          "evento": "Olimpia Milano-Trieste",
-          "inizio": "2026-09-27T16:00:00+02:00",
-          "data": "27/09/2026",
-          "ora": "16:00",
-          "canali": [
-            {
-              "nome": "Sky Sport Basket",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-09-27T16:00",
-              "fonte": "virgilio"
-            },
-            {
-              "nome": "Cielo",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-09-27T16:00",
-              "fonte": "virgilio"
-            },
-            {
-              "nome": "Sky Sport 1",
-              "numero": "201",
-              "tipo": "diretta",
-              "orario": "2026-09-27T16:00",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
         {
           "titolo": "[Calcio] FA Women’s Super League: Chelsea-Arsenal",
           "categoria": "Calcio",
@@ -9086,47 +9051,12 @@
     },
     {
       "nome": "Basket",
-      "totale": 12,
+      "totale": 11,
       "sottocartelle": [
         {
           "nome": "Serie A",
-          "totale": 2,
+          "totale": 1,
           "eventi": [
-            {
-              "titolo": "Serie A: Olimpia Milano-Trieste",
-              "categoria": "Basket",
-              "sottocartella": "Serie A",
-              "sport": "Basket",
-              "competizione": "Serie A",
-              "evento": "Olimpia Milano-Trieste",
-              "inizio": "2026-09-27T16:00:00+02:00",
-              "data": "27/09/2026",
-              "ora": "16:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Basket",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-09-27T16:00",
-                  "fonte": "virgilio"
-                },
-                {
-                  "nome": "Cielo",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-09-27T16:00",
-                  "fonte": "virgilio"
-                },
-                {
-                  "nome": "Sky Sport 1",
-                  "numero": "201",
-                  "tipo": "diretta",
-                  "orario": "2026-09-27T16:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
             {
               "titolo": "Serie A: Maxima Roma-Napoli Basketball",
               "categoria": "Basket",
