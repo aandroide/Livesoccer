@@ -89,18 +89,18 @@ def event_item(ev, now):
     stato = stato_evento(ev.get("inizio", ""), now)
     ora = ev.get("ora", "")
     if stato == "live":
-        riga1 = "[COLOR red]%s[/COLOR] %s [COLOR red]LIVE[/COLOR]" % (ora, ev["titolo"])
+        riga1 = "[COLOR red][B]%s[/B][/COLOR]  %s   [COLOR red][B](LIVE)[/B][/COLOR]" % (ora, ev["titolo"])
     elif stato == "finished":
-        riga1 = "[COLOR gray]%s[/COLOR] %s" % (ora, ev["titolo"])
+        riga1 = "[COLOR grey][B]%s[/B][/COLOR]  [COLOR grey]%s[/COLOR]" % (ora, ev["titolo"])
     else:
-        riga1 = "[COLOR yellow]%s[/COLOR] %s" % (ora, ev["titolo"])
+        riga1 = "[COLOR yellow][B]%s[/B][/COLOR]  %s" % (ora, ev["titolo"])
 
     canali = ev.get("canali") or []
     if canali:
         nomi = ", ".join(c["nome"] for c in canali)
-        riga2 = "[COLOR khaki]%s[/COLOR]" % nomi
+        riga2 = "     [COLOR khaki][B]Canali:[/B] %s[/COLOR]" % nomi
     else:
-        riga2 = "[COLOR gray]Nessun canale indicato[/COLOR]"
+        riga2 = "     [COLOR grey][B]Canali:[/B] nessuno indicato[/COLOR]"
     titolo = riga1 + "[CR]" + riga2
 
     righe_info = []
@@ -137,7 +137,7 @@ def day_header(data_str):
         return None
     giorni = ["Lunedi", "Martedi", "Mercoledi", "Giovedi", "Venerdi", "Sabato", "Domenica"]
     return {
-        "title": "[COLOR cyan]{} {}/{}[/COLOR]".format(giorni[d.weekday()], d.day, d.month),
+        "title": "[COLOR cyan][B]{} {}/{}[/B][/COLOR]".format(giorni[d.weekday()], d.day, d.month),
         "link": "ignoreme",
         "thumbnail": THUMB,
         "fanart": FANART,
