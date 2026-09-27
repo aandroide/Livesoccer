@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-09-27T12:02:01+02:00",
+  "aggiornato": "2026-09-27T13:34:54+02:00",
   "fonti": {
     "motori": "Fuori Traiettoria, Dizzle0987/motorsport-calendar, palinsesto TV8",
     "calcio_italiano": "https://raw.githubusercontent.com/aandroide/Livesoccer/master/livesoccertv/output/eventi.json",
@@ -5707,7 +5707,7 @@
                   "numero": "8",
                   "tipo": "diretta",
                   "orario": "2026-10-10T04:50",
-                  "fonte": "dizzle"
+                  "fonte": "dizzle+tv8"
                 },
                 {
                   "nome": "Sky Sport MotoGP",
@@ -5743,8 +5743,8 @@
                   "nome": "TV8",
                   "numero": "8",
                   "tipo": "diretta",
-                  "orario": "2026-10-10T05:15",
-                  "fonte": "dizzle"
+                  "orario": "2026-10-10T04:50",
+                  "fonte": "dizzle+tv8"
                 },
                 {
                   "nome": "Sky Sport MotoGP",
@@ -5781,7 +5781,7 @@
                   "numero": "8",
                   "tipo": "diretta",
                   "orario": "2026-10-10T09:00",
-                  "fonte": "dizzle"
+                  "fonte": "dizzle+tv8"
                 },
                 {
                   "nome": "Sky Sport MotoGP",
@@ -7315,7 +7315,16 @@
               "inizio": "2026-10-10T16:30:00+02:00",
               "data": "10/10/2026",
               "ora": "16:30",
-              "canali": [],
+              "canali": [
+                {
+                  "nome": "TV8",
+                  "numero": "8",
+                  "tipo": "diretta",
+                  "orario": "2026-10-10T16:30",
+                  "programma": "Portogallo: Gara 1",
+                  "fonte": "tv8"
+                }
+              ],
               "fonte": "Fuori Traiettoria"
             },
             {
