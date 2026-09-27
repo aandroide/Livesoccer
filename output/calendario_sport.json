@@ -1,524 +1,27 @@
 {
-  "aggiornato": "2026-09-27T19:20:57+02:00",
+  "aggiornato": "2026-09-27T22:27:54+02:00",
   "fonti": {
     "motori": "Fuori Traiettoria, Dizzle0987/motorsport-calendar, palinsesto TV8",
     "calcio_italiano": "https://raw.githubusercontent.com/aandroide/Livesoccer/master/livesoccertv/output/eventi.json",
     "altri_sport": "https://sport.virgilio.it/guida-tv/"
   },
-  "totale": 202,
+  "totale": 195,
   "cartelle": [
     {
       "nome": "Oggi",
-      "totale": 14,
+      "totale": 3,
       "eventi": [
         {
-          "titolo": "[Calcio] FA Women’s Super League: Chelsea-Arsenal",
-          "categoria": "Calcio",
-          "sottocartella": "FA Women’s Super League",
-          "sport": "Calcio",
-          "competizione": "FA Women’s Super League",
-          "evento": "Chelsea-Arsenal",
-          "inizio": "2026-09-27T17:30:00+02:00",
-          "data": "27/09/2026",
-          "ora": "17:30",
-          "canali": [
-            {
-              "nome": "Sky Sport Mix",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-09-27T17:30",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Calcio] Serie C: Athletic Carpi vs Union ArzignanoChiampo",
+          "titolo": "[Calcio] Serie C: Pescara-Spezia",
           "categoria": "Calcio",
           "sottocartella": "Serie C",
           "sport": "Calcio",
           "competizione": "Serie C",
-          "evento": "Athletic Carpi vs Union ArzignanoChiampo",
-          "inizio": "2026-09-27T17:30:00+02:00",
-          "data": "27/09/2026",
-          "ora": "17:30",
-          "canali": [
-            {
-              "nome": "Sky Sport 254",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-09-27T17:30",
-              "fonte": "livesoccer"
-            },
-            {
-              "nome": "SKY Go Italia",
-              "numero": "",
-              "tipo": "streaming",
-              "orario": "2026-09-27T17:30",
-              "fonte": "livesoccer"
-            },
-            {
-              "nome": "NOW TV",
-              "numero": "",
-              "tipo": "streaming",
-              "orario": "2026-09-27T17:30",
-              "fonte": "livesoccer"
-            }
-          ],
-          "canali_mondo": [
-            {
-              "paese": "Italia",
-              "canali": [
-                "Sky Sport 254",
-                "SKY Go Italia",
-                "NOW TV"
-              ]
-            },
-            {
-              "paese": "San Marino",
-              "canali": [
-                "Sky Sport 254",
-                "SKY Go Italia",
-                "NOW TV"
-              ]
-            }
-          ],
-          "fonte": "LiveSoccerTV"
-        },
-        {
-          "titolo": "[Calcio] Serie C: Perugia vs Reggiana",
-          "categoria": "Calcio",
-          "sottocartella": "Serie C",
-          "sport": "Calcio",
-          "competizione": "Serie C",
-          "evento": "Perugia vs Reggiana",
-          "inizio": "2026-09-27T17:30:00+02:00",
-          "data": "27/09/2026",
-          "ora": "17:30",
-          "canali": [
-            {
-              "nome": "Sky Sport 251",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-09-27T17:30",
-              "fonte": "livesoccer"
-            },
-            {
-              "nome": "SKY Go Italia",
-              "numero": "",
-              "tipo": "streaming",
-              "orario": "2026-09-27T17:30",
-              "fonte": "livesoccer"
-            },
-            {
-              "nome": "NOW TV",
-              "numero": "",
-              "tipo": "streaming",
-              "orario": "2026-09-27T17:30",
-              "fonte": "livesoccer"
-            },
-            {
-              "nome": "Sky Sport Arena",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-09-27T17:30",
-              "fonte": "virgilio"
-            }
-          ],
-          "canali_mondo": [
-            {
-              "paese": "Italia",
-              "canali": [
-                "Sky Sport 251",
-                "SKY Go Italia",
-                "NOW TV"
-              ]
-            },
-            {
-              "paese": "San Marino",
-              "canali": [
-                "Sky Sport 251",
-                "SKY Go Italia",
-                "NOW TV"
-              ]
-            }
-          ],
-          "fonte": "LiveSoccerTV"
-        },
-        {
-          "titolo": "[Calcio] Serie C: Renate vs Treviso",
-          "categoria": "Calcio",
-          "sottocartella": "Serie C",
-          "sport": "Calcio",
-          "competizione": "Serie C",
-          "evento": "Renate vs Treviso",
-          "inizio": "2026-09-27T17:30:00+02:00",
-          "data": "27/09/2026",
-          "ora": "17:30",
-          "canali": [
-            {
-              "nome": "Sky Sport 255",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-09-27T17:30",
-              "fonte": "livesoccer"
-            },
-            {
-              "nome": "SKY Go Italia",
-              "numero": "",
-              "tipo": "streaming",
-              "orario": "2026-09-27T17:30",
-              "fonte": "livesoccer"
-            },
-            {
-              "nome": "NOW TV",
-              "numero": "",
-              "tipo": "streaming",
-              "orario": "2026-09-27T17:30",
-              "fonte": "livesoccer"
-            }
-          ],
-          "canali_mondo": [
-            {
-              "paese": "Italia",
-              "canali": [
-                "Sky Sport 255",
-                "SKY Go Italia",
-                "NOW TV"
-              ]
-            },
-            {
-              "paese": "San Marino",
-              "canali": [
-                "Sky Sport 255",
-                "SKY Go Italia",
-                "NOW TV"
-              ]
-            }
-          ],
-          "fonte": "LiveSoccerTV"
-        },
-        {
-          "titolo": "[Calcio] Serie C: Scafatese vs Team Altamura",
-          "categoria": "Calcio",
-          "sottocartella": "Serie C",
-          "sport": "Calcio",
-          "competizione": "Serie C",
-          "evento": "Scafatese vs Team Altamura",
-          "inizio": "2026-09-27T17:30:00+02:00",
-          "data": "27/09/2026",
-          "ora": "17:30",
-          "canali": [
-            {
-              "nome": "Sky Sport 253",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-09-27T17:30",
-              "fonte": "livesoccer"
-            },
-            {
-              "nome": "SKY Go Italia",
-              "numero": "",
-              "tipo": "streaming",
-              "orario": "2026-09-27T17:30",
-              "fonte": "livesoccer"
-            },
-            {
-              "nome": "NOW TV",
-              "numero": "",
-              "tipo": "streaming",
-              "orario": "2026-09-27T17:30",
-              "fonte": "livesoccer"
-            }
-          ],
-          "canali_mondo": [
-            {
-              "paese": "Italia",
-              "canali": [
-                "Sky Sport 253",
-                "SKY Go Italia",
-                "NOW TV"
-              ]
-            },
-            {
-              "paese": "San Marino",
-              "canali": [
-                "Sky Sport 253",
-                "SKY Go Italia",
-                "NOW TV"
-              ]
-            }
-          ],
-          "fonte": "LiveSoccerTV"
-        },
-        {
-          "titolo": "[Calcio] Serie C: Vis Pesaro vs Nuova Monterosi",
-          "categoria": "Calcio",
-          "sottocartella": "Serie C",
-          "sport": "Calcio",
-          "competizione": "Serie C",
-          "evento": "Vis Pesaro vs Nuova Monterosi",
-          "inizio": "2026-09-27T17:30:00+02:00",
-          "data": "27/09/2026",
-          "ora": "17:30",
-          "canali": [
-            {
-              "nome": "Sky Sport 252",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-09-27T17:30",
-              "fonte": "livesoccer"
-            },
-            {
-              "nome": "SKY Go Italia",
-              "numero": "",
-              "tipo": "streaming",
-              "orario": "2026-09-27T17:30",
-              "fonte": "livesoccer"
-            },
-            {
-              "nome": "NOW TV",
-              "numero": "",
-              "tipo": "streaming",
-              "orario": "2026-09-27T17:30",
-              "fonte": "livesoccer"
-            }
-          ],
-          "canali_mondo": [
-            {
-              "paese": "Italia",
-              "canali": [
-                "Sky Sport 252",
-                "SKY Go Italia",
-                "NOW TV"
-              ]
-            },
-            {
-              "paese": "San Marino",
-              "canali": [
-                "Sky Sport 252",
-                "SKY Go Italia",
-                "NOW TV"
-              ]
-            }
-          ],
-          "fonte": "LiveSoccerTV"
-        },
-        {
-          "titolo": "[Calcio] Serie C: Vis Pesaro-Guidonia Montecelio",
-          "categoria": "Calcio",
-          "sottocartella": "Serie C",
-          "sport": "Calcio",
-          "competizione": "Serie C",
-          "evento": "Vis Pesaro-Guidonia Montecelio",
-          "inizio": "2026-09-27T17:30:00+02:00",
-          "data": "27/09/2026",
-          "ora": "17:30",
-          "canali": [
-            {
-              "nome": "Sky Sport Max",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-09-27T17:30",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Basket] Serie A: Maxima Roma-Napoli Basketball",
-          "categoria": "Basket",
-          "sottocartella": "Serie A",
-          "sport": "Basket",
-          "competizione": "Serie A",
-          "evento": "Maxima Roma-Napoli Basketball",
-          "inizio": "2026-09-27T18:15:00+02:00",
-          "data": "27/09/2026",
-          "ora": "18:15",
-          "canali": [
-            {
-              "nome": "Sky Sport Basket",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-09-27T18:15",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Volley] Courmayeur Cup: Finale",
-          "categoria": "Volley",
-          "sottocartella": "Courmayeur Cup femminile",
-          "sport": "Pallavolo femminile",
-          "competizione": "Courmayeur Cup",
-          "evento": "Finale",
-          "inizio": "2026-09-27T19:00:00+02:00",
-          "data": "27/09/2026",
-          "ora": "19:00",
-          "canali": [
-            {
-              "nome": "Rai Sport",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-09-27T19:00",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Calcio] Serie C: AlbinoLeffe vs Alcione",
-          "categoria": "Calcio",
-          "sottocartella": "Serie C",
-          "sport": "Calcio",
-          "competizione": "Serie C",
-          "evento": "AlbinoLeffe vs Alcione",
+          "evento": "Pescara-Spezia",
           "inizio": "2026-09-27T20:30:00+02:00",
           "data": "27/09/2026",
           "ora": "20:30",
           "canali": [
-            {
-              "nome": "Sky Sport 251",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-09-27T20:30",
-              "fonte": "livesoccer"
-            },
-            {
-              "nome": "SKY Go Italia",
-              "numero": "",
-              "tipo": "streaming",
-              "orario": "2026-09-27T20:30",
-              "fonte": "livesoccer"
-            },
-            {
-              "nome": "NOW TV",
-              "numero": "",
-              "tipo": "streaming",
-              "orario": "2026-09-27T20:30",
-              "fonte": "livesoccer"
-            }
-          ],
-          "canali_mondo": [
-            {
-              "paese": "Italia",
-              "canali": [
-                "Sky Sport 251",
-                "SKY Go Italia",
-                "NOW TV"
-              ]
-            },
-            {
-              "paese": "San Marino",
-              "canali": [
-                "Sky Sport 251",
-                "SKY Go Italia",
-                "NOW TV"
-              ]
-            }
-          ],
-          "fonte": "LiveSoccerTV"
-        },
-        {
-          "titolo": "[Calcio] Serie C: Foggia vs Sorrento",
-          "categoria": "Calcio",
-          "sottocartella": "Serie C",
-          "sport": "Calcio",
-          "competizione": "Serie C",
-          "evento": "Foggia vs Sorrento",
-          "inizio": "2026-09-27T20:30:00+02:00",
-          "data": "27/09/2026",
-          "ora": "20:30",
-          "canali": [
-            {
-              "nome": "Sky Sport 251",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-09-27T20:30",
-              "fonte": "livesoccer"
-            },
-            {
-              "nome": "SKY Go Italia",
-              "numero": "",
-              "tipo": "streaming",
-              "orario": "2026-09-27T20:30",
-              "fonte": "livesoccer"
-            },
-            {
-              "nome": "NOW TV",
-              "numero": "",
-              "tipo": "streaming",
-              "orario": "2026-09-27T20:30",
-              "fonte": "livesoccer"
-            }
-          ],
-          "canali_mondo": [
-            {
-              "paese": "Italia",
-              "canali": [
-                "Sky Sport 251",
-                "SKY Go Italia",
-                "NOW TV"
-              ]
-            },
-            {
-              "paese": "San Marino",
-              "canali": [
-                "Sky Sport 251",
-                "SKY Go Italia",
-                "NOW TV"
-              ]
-            }
-          ],
-          "fonte": "LiveSoccerTV"
-        },
-        {
-          "titolo": "[Calcio] Serie C: Pescara vs Spezia",
-          "categoria": "Calcio",
-          "sottocartella": "Serie C",
-          "sport": "Calcio",
-          "competizione": "Serie C",
-          "evento": "Pescara vs Spezia",
-          "inizio": "2026-09-27T20:30:00+02:00",
-          "data": "27/09/2026",
-          "ora": "20:30",
-          "canali": [
-            {
-              "nome": "Sky Sport 251",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-09-27T20:30",
-              "fonte": "livesoccer"
-            },
-            {
-              "nome": "RAI Sport 1",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-09-27T20:30",
-              "fonte": "livesoccer"
-            },
-            {
-              "nome": "SKY Go Italia",
-              "numero": "",
-              "tipo": "streaming",
-              "orario": "2026-09-27T20:30",
-              "fonte": "livesoccer"
-            },
-            {
-              "nome": "RaiPlay",
-              "numero": "",
-              "tipo": "streaming",
-              "orario": "2026-09-27T20:30",
-              "fonte": "livesoccer"
-            },
-            {
-              "nome": "NOW TV",
-              "numero": "",
-              "tipo": "streaming",
-              "orario": "2026-09-27T20:30",
-              "fonte": "livesoccer"
-            },
             {
               "nome": "Sky Sport Max",
               "numero": "",
@@ -527,8 +30,7 @@
               "fonte": "virgilio"
             }
           ],
-          "canali_mondo": [],
-          "fonte": "LiveSoccerTV"
+          "fonte": "Virgilio Sport"
         },
         {
           "titolo": "[Calcio] Serie C: Virtus Casarano vs Monopoli",
@@ -644,6 +146,7 @@
               "canali": [
                 "L'Équipe Live Foot",
                 "L'Équipe Live Foot",
+                "Arezo Tv",
                 "Solh Sports 1",
                 "Meraj Sport"
               ]
@@ -667,6 +170,7 @@
               "paese": "Andorra",
               "canali": [
                 "DAZN Spain",
+                "TVE La 1",
                 "TDP",
                 "L'Équipe Live Foot"
               ]
@@ -778,6 +282,12 @@
               "paese": "Belgio",
               "canali": [
                 "DAZN Belgium"
+              ]
+            },
+            {
+              "paese": "Belize",
+              "canali": [
+                "Nexgen"
               ]
             },
             {
@@ -1290,6 +800,7 @@
             {
               "paese": "Iran",
               "canali": [
+                "IRIB Varzesh",
                 "beIN Sports HD 1",
                 "beIN Sports English",
                 "beIN SPORTS CONNECT",
@@ -1905,6 +1416,7 @@
               "paese": "Spagna",
               "canali": [
                 "DAZN Spain",
+                "TVE La 1",
                 "TDP",
                 "RTVE Play",
                 "Movistar+",
@@ -1943,6 +1455,7 @@
               "canali": [
                 "Bluu",
                 "SCCN",
+                "TV2 Suriname",
                 "Rush Sports 3"
               ]
             },
@@ -5944,7 +5457,7 @@
     },
     {
       "nome": "Calcio",
-      "totale": 44,
+      "totale": 39,
       "sottocartelle": [
         {
           "nome": "Serie A",
@@ -9604,463 +9117,28 @@
         },
         {
           "nome": "Serie C",
-          "totale": 13,
+          "totale": 9,
           "eventi": [
             {
-              "titolo": "Serie C: Athletic Carpi vs Union ArzignanoChiampo",
+              "titolo": "Serie C: Pescara-Spezia",
               "categoria": "Calcio",
               "sottocartella": "Serie C",
               "sport": "Calcio",
               "competizione": "Serie C",
-              "evento": "Athletic Carpi vs Union ArzignanoChiampo",
-              "inizio": "2026-09-27T17:30:00+02:00",
+              "evento": "Pescara-Spezia",
+              "inizio": "2026-09-27T20:30:00+02:00",
               "data": "27/09/2026",
-              "ora": "17:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport 254",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-09-27T17:30",
-                  "fonte": "livesoccer"
-                },
-                {
-                  "nome": "SKY Go Italia",
-                  "numero": "",
-                  "tipo": "streaming",
-                  "orario": "2026-09-27T17:30",
-                  "fonte": "livesoccer"
-                },
-                {
-                  "nome": "NOW TV",
-                  "numero": "",
-                  "tipo": "streaming",
-                  "orario": "2026-09-27T17:30",
-                  "fonte": "livesoccer"
-                }
-              ],
-              "canali_mondo": [
-                {
-                  "paese": "Italia",
-                  "canali": [
-                    "Sky Sport 254",
-                    "SKY Go Italia",
-                    "NOW TV"
-                  ]
-                },
-                {
-                  "paese": "San Marino",
-                  "canali": [
-                    "Sky Sport 254",
-                    "SKY Go Italia",
-                    "NOW TV"
-                  ]
-                }
-              ],
-              "fonte": "LiveSoccerTV"
-            },
-            {
-              "titolo": "Serie C: Perugia vs Reggiana",
-              "categoria": "Calcio",
-              "sottocartella": "Serie C",
-              "sport": "Calcio",
-              "competizione": "Serie C",
-              "evento": "Perugia vs Reggiana",
-              "inizio": "2026-09-27T17:30:00+02:00",
-              "data": "27/09/2026",
-              "ora": "17:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport 251",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-09-27T17:30",
-                  "fonte": "livesoccer"
-                },
-                {
-                  "nome": "SKY Go Italia",
-                  "numero": "",
-                  "tipo": "streaming",
-                  "orario": "2026-09-27T17:30",
-                  "fonte": "livesoccer"
-                },
-                {
-                  "nome": "NOW TV",
-                  "numero": "",
-                  "tipo": "streaming",
-                  "orario": "2026-09-27T17:30",
-                  "fonte": "livesoccer"
-                },
-                {
-                  "nome": "Sky Sport Arena",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-09-27T17:30",
-                  "fonte": "virgilio"
-                }
-              ],
-              "canali_mondo": [
-                {
-                  "paese": "Italia",
-                  "canali": [
-                    "Sky Sport 251",
-                    "SKY Go Italia",
-                    "NOW TV"
-                  ]
-                },
-                {
-                  "paese": "San Marino",
-                  "canali": [
-                    "Sky Sport 251",
-                    "SKY Go Italia",
-                    "NOW TV"
-                  ]
-                }
-              ],
-              "fonte": "LiveSoccerTV"
-            },
-            {
-              "titolo": "Serie C: Renate vs Treviso",
-              "categoria": "Calcio",
-              "sottocartella": "Serie C",
-              "sport": "Calcio",
-              "competizione": "Serie C",
-              "evento": "Renate vs Treviso",
-              "inizio": "2026-09-27T17:30:00+02:00",
-              "data": "27/09/2026",
-              "ora": "17:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport 255",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-09-27T17:30",
-                  "fonte": "livesoccer"
-                },
-                {
-                  "nome": "SKY Go Italia",
-                  "numero": "",
-                  "tipo": "streaming",
-                  "orario": "2026-09-27T17:30",
-                  "fonte": "livesoccer"
-                },
-                {
-                  "nome": "NOW TV",
-                  "numero": "",
-                  "tipo": "streaming",
-                  "orario": "2026-09-27T17:30",
-                  "fonte": "livesoccer"
-                }
-              ],
-              "canali_mondo": [
-                {
-                  "paese": "Italia",
-                  "canali": [
-                    "Sky Sport 255",
-                    "SKY Go Italia",
-                    "NOW TV"
-                  ]
-                },
-                {
-                  "paese": "San Marino",
-                  "canali": [
-                    "Sky Sport 255",
-                    "SKY Go Italia",
-                    "NOW TV"
-                  ]
-                }
-              ],
-              "fonte": "LiveSoccerTV"
-            },
-            {
-              "titolo": "Serie C: Scafatese vs Team Altamura",
-              "categoria": "Calcio",
-              "sottocartella": "Serie C",
-              "sport": "Calcio",
-              "competizione": "Serie C",
-              "evento": "Scafatese vs Team Altamura",
-              "inizio": "2026-09-27T17:30:00+02:00",
-              "data": "27/09/2026",
-              "ora": "17:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport 253",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-09-27T17:30",
-                  "fonte": "livesoccer"
-                },
-                {
-                  "nome": "SKY Go Italia",
-                  "numero": "",
-                  "tipo": "streaming",
-                  "orario": "2026-09-27T17:30",
-                  "fonte": "livesoccer"
-                },
-                {
-                  "nome": "NOW TV",
-                  "numero": "",
-                  "tipo": "streaming",
-                  "orario": "2026-09-27T17:30",
-                  "fonte": "livesoccer"
-                }
-              ],
-              "canali_mondo": [
-                {
-                  "paese": "Italia",
-                  "canali": [
-                    "Sky Sport 253",
-                    "SKY Go Italia",
-                    "NOW TV"
-                  ]
-                },
-                {
-                  "paese": "San Marino",
-                  "canali": [
-                    "Sky Sport 253",
-                    "SKY Go Italia",
-                    "NOW TV"
-                  ]
-                }
-              ],
-              "fonte": "LiveSoccerTV"
-            },
-            {
-              "titolo": "Serie C: Vis Pesaro vs Nuova Monterosi",
-              "categoria": "Calcio",
-              "sottocartella": "Serie C",
-              "sport": "Calcio",
-              "competizione": "Serie C",
-              "evento": "Vis Pesaro vs Nuova Monterosi",
-              "inizio": "2026-09-27T17:30:00+02:00",
-              "data": "27/09/2026",
-              "ora": "17:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport 252",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-09-27T17:30",
-                  "fonte": "livesoccer"
-                },
-                {
-                  "nome": "SKY Go Italia",
-                  "numero": "",
-                  "tipo": "streaming",
-                  "orario": "2026-09-27T17:30",
-                  "fonte": "livesoccer"
-                },
-                {
-                  "nome": "NOW TV",
-                  "numero": "",
-                  "tipo": "streaming",
-                  "orario": "2026-09-27T17:30",
-                  "fonte": "livesoccer"
-                }
-              ],
-              "canali_mondo": [
-                {
-                  "paese": "Italia",
-                  "canali": [
-                    "Sky Sport 252",
-                    "SKY Go Italia",
-                    "NOW TV"
-                  ]
-                },
-                {
-                  "paese": "San Marino",
-                  "canali": [
-                    "Sky Sport 252",
-                    "SKY Go Italia",
-                    "NOW TV"
-                  ]
-                }
-              ],
-              "fonte": "LiveSoccerTV"
-            },
-            {
-              "titolo": "Serie C: Vis Pesaro-Guidonia Montecelio",
-              "categoria": "Calcio",
-              "sottocartella": "Serie C",
-              "sport": "Calcio",
-              "competizione": "Serie C",
-              "evento": "Vis Pesaro-Guidonia Montecelio",
-              "inizio": "2026-09-27T17:30:00+02:00",
-              "data": "27/09/2026",
-              "ora": "17:30",
+              "ora": "20:30",
               "canali": [
                 {
                   "nome": "Sky Sport Max",
                   "numero": "",
                   "tipo": "diretta",
-                  "orario": "2026-09-27T17:30",
+                  "orario": "2026-09-27T20:30",
                   "fonte": "virgilio"
                 }
               ],
               "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "Serie C: AlbinoLeffe vs Alcione",
-              "categoria": "Calcio",
-              "sottocartella": "Serie C",
-              "sport": "Calcio",
-              "competizione": "Serie C",
-              "evento": "AlbinoLeffe vs Alcione",
-              "inizio": "2026-09-27T20:30:00+02:00",
-              "data": "27/09/2026",
-              "ora": "20:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport 251",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-09-27T20:30",
-                  "fonte": "livesoccer"
-                },
-                {
-                  "nome": "SKY Go Italia",
-                  "numero": "",
-                  "tipo": "streaming",
-                  "orario": "2026-09-27T20:30",
-                  "fonte": "livesoccer"
-                },
-                {
-                  "nome": "NOW TV",
-                  "numero": "",
-                  "tipo": "streaming",
-                  "orario": "2026-09-27T20:30",
-                  "fonte": "livesoccer"
-                }
-              ],
-              "canali_mondo": [
-                {
-                  "paese": "Italia",
-                  "canali": [
-                    "Sky Sport 251",
-                    "SKY Go Italia",
-                    "NOW TV"
-                  ]
-                },
-                {
-                  "paese": "San Marino",
-                  "canali": [
-                    "Sky Sport 251",
-                    "SKY Go Italia",
-                    "NOW TV"
-                  ]
-                }
-              ],
-              "fonte": "LiveSoccerTV"
-            },
-            {
-              "titolo": "Serie C: Foggia vs Sorrento",
-              "categoria": "Calcio",
-              "sottocartella": "Serie C",
-              "sport": "Calcio",
-              "competizione": "Serie C",
-              "evento": "Foggia vs Sorrento",
-              "inizio": "2026-09-27T20:30:00+02:00",
-              "data": "27/09/2026",
-              "ora": "20:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport 251",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-09-27T20:30",
-                  "fonte": "livesoccer"
-                },
-                {
-                  "nome": "SKY Go Italia",
-                  "numero": "",
-                  "tipo": "streaming",
-                  "orario": "2026-09-27T20:30",
-                  "fonte": "livesoccer"
-                },
-                {
-                  "nome": "NOW TV",
-                  "numero": "",
-                  "tipo": "streaming",
-                  "orario": "2026-09-27T20:30",
-                  "fonte": "livesoccer"
-                }
-              ],
-              "canali_mondo": [
-                {
-                  "paese": "Italia",
-                  "canali": [
-                    "Sky Sport 251",
-                    "SKY Go Italia",
-                    "NOW TV"
-                  ]
-                },
-                {
-                  "paese": "San Marino",
-                  "canali": [
-                    "Sky Sport 251",
-                    "SKY Go Italia",
-                    "NOW TV"
-                  ]
-                }
-              ],
-              "fonte": "LiveSoccerTV"
-            },
-            {
-              "titolo": "Serie C: Pescara vs Spezia",
-              "categoria": "Calcio",
-              "sottocartella": "Serie C",
-              "sport": "Calcio",
-              "competizione": "Serie C",
-              "evento": "Pescara vs Spezia",
-              "inizio": "2026-09-27T20:30:00+02:00",
-              "data": "27/09/2026",
-              "ora": "20:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport 251",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-09-27T20:30",
-                  "fonte": "livesoccer"
-                },
-                {
-                  "nome": "RAI Sport 1",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-09-27T20:30",
-                  "fonte": "livesoccer"
-                },
-                {
-                  "nome": "SKY Go Italia",
-                  "numero": "",
-                  "tipo": "streaming",
-                  "orario": "2026-09-27T20:30",
-                  "fonte": "livesoccer"
-                },
-                {
-                  "nome": "RaiPlay",
-                  "numero": "",
-                  "tipo": "streaming",
-                  "orario": "2026-09-27T20:30",
-                  "fonte": "livesoccer"
-                },
-                {
-                  "nome": "NOW TV",
-                  "numero": "",
-                  "tipo": "streaming",
-                  "orario": "2026-09-27T20:30",
-                  "fonte": "livesoccer"
-                },
-                {
-                  "nome": "Sky Sport Max",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-09-27T20:30",
-                  "fonte": "virgilio"
-                }
-              ],
-              "canali_mondo": [],
-              "fonte": "LiveSoccerTV"
             },
             {
               "titolo": "Serie C: Virtus Casarano vs Monopoli",
@@ -10122,6 +9200,167 @@
               "sport": "Calcio",
               "competizione": "Serie C",
               "evento": "Cavese vs Casertana",
+              "inizio": "2026-10-03T14:30:00+02:00",
+              "data": "03/10/2026",
+              "ora": "14:30",
+              "canali": [
+                {
+                  "nome": "SKY Go Italia",
+                  "numero": "",
+                  "tipo": "streaming",
+                  "orario": "2026-10-03T14:30",
+                  "fonte": "livesoccer"
+                },
+                {
+                  "nome": "NOW TV",
+                  "numero": "",
+                  "tipo": "streaming",
+                  "orario": "2026-10-03T14:30",
+                  "fonte": "livesoccer"
+                }
+              ],
+              "canali_mondo": [],
+              "fonte": "LiveSoccerTV"
+            },
+            {
+              "titolo": "Serie C: Cittadella vs AlbinoLeffe",
+              "categoria": "Calcio",
+              "sottocartella": "Serie C",
+              "sport": "Calcio",
+              "competizione": "Serie C",
+              "evento": "Cittadella vs AlbinoLeffe",
+              "inizio": "2026-10-03T14:30:00+02:00",
+              "data": "03/10/2026",
+              "ora": "14:30",
+              "canali": [
+                {
+                  "nome": "SKY Go Italia",
+                  "numero": "",
+                  "tipo": "streaming",
+                  "orario": "2026-10-03T14:30",
+                  "fonte": "livesoccer"
+                },
+                {
+                  "nome": "NOW TV",
+                  "numero": "",
+                  "tipo": "streaming",
+                  "orario": "2026-10-03T14:30",
+                  "fonte": "livesoccer"
+                }
+              ],
+              "canali_mondo": [
+                {
+                  "paese": "Italia",
+                  "canali": [
+                    "SKY Go Italia",
+                    "NOW TV"
+                  ]
+                },
+                {
+                  "paese": "San Marino",
+                  "canali": [
+                    "SKY Go Italia",
+                    "NOW TV"
+                  ]
+                }
+              ],
+              "fonte": "LiveSoccerTV"
+            },
+            {
+              "titolo": "Serie C: Gubbio vs Perugia",
+              "categoria": "Calcio",
+              "sottocartella": "Serie C",
+              "sport": "Calcio",
+              "competizione": "Serie C",
+              "evento": "Gubbio vs Perugia",
+              "inizio": "2026-10-03T14:30:00+02:00",
+              "data": "03/10/2026",
+              "ora": "14:30",
+              "canali": [
+                {
+                  "nome": "SKY Go Italia",
+                  "numero": "",
+                  "tipo": "streaming",
+                  "orario": "2026-10-03T14:30",
+                  "fonte": "livesoccer"
+                },
+                {
+                  "nome": "NOW TV",
+                  "numero": "",
+                  "tipo": "streaming",
+                  "orario": "2026-10-03T14:30",
+                  "fonte": "livesoccer"
+                }
+              ],
+              "canali_mondo": [
+                {
+                  "paese": "Italia",
+                  "canali": [
+                    "SKY Go Italia",
+                    "NOW TV"
+                  ]
+                },
+                {
+                  "paese": "San Marino",
+                  "canali": [
+                    "SKY Go Italia",
+                    "NOW TV"
+                  ]
+                }
+              ],
+              "fonte": "LiveSoccerTV"
+            },
+            {
+              "titolo": "Serie C: Sorrento vs Virtus Casarano",
+              "categoria": "Calcio",
+              "sottocartella": "Serie C",
+              "sport": "Calcio",
+              "competizione": "Serie C",
+              "evento": "Sorrento vs Virtus Casarano",
+              "inizio": "2026-10-03T14:30:00+02:00",
+              "data": "03/10/2026",
+              "ora": "14:30",
+              "canali": [
+                {
+                  "nome": "SKY Go Italia",
+                  "numero": "",
+                  "tipo": "streaming",
+                  "orario": "2026-10-03T14:30",
+                  "fonte": "livesoccer"
+                },
+                {
+                  "nome": "NOW TV",
+                  "numero": "",
+                  "tipo": "streaming",
+                  "orario": "2026-10-03T14:30",
+                  "fonte": "livesoccer"
+                }
+              ],
+              "canali_mondo": [
+                {
+                  "paese": "Italia",
+                  "canali": [
+                    "SKY Go Italia",
+                    "NOW TV"
+                  ]
+                },
+                {
+                  "paese": "San Marino",
+                  "canali": [
+                    "SKY Go Italia",
+                    "NOW TV"
+                  ]
+                }
+              ],
+              "fonte": "LiveSoccerTV"
+            },
+            {
+              "titolo": "Serie C: Vado vs Forlì",
+              "categoria": "Calcio",
+              "sottocartella": "Serie C",
+              "sport": "Calcio",
+              "competizione": "Serie C",
+              "evento": "Vado vs Forlì",
               "inizio": "2026-10-03T14:30:00+02:00",
               "data": "03/10/2026",
               "ora": "14:30",
@@ -10204,33 +9443,6 @@
           ]
         },
         {
-          "nome": "FA Women’s Super League",
-          "totale": 1,
-          "eventi": [
-            {
-              "titolo": "FA Women’s Super League: Chelsea-Arsenal",
-              "categoria": "Calcio",
-              "sottocartella": "FA Women’s Super League",
-              "sport": "Calcio",
-              "competizione": "FA Women’s Super League",
-              "evento": "Chelsea-Arsenal",
-              "inizio": "2026-09-27T17:30:00+02:00",
-              "data": "27/09/2026",
-              "ora": "17:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport Mix",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-09-27T17:30",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            }
-          ]
-        },
-        {
           "nome": "UEFA Nations League",
           "totale": 13,
           "eventi": [
@@ -10295,6 +9507,7 @@
                   "canali": [
                     "L'Équipe Live Foot",
                     "L'Équipe Live Foot",
+                    "Arezo Tv",
                     "Solh Sports 1",
                     "Meraj Sport"
                   ]
@@ -10318,6 +9531,7 @@
                   "paese": "Andorra",
                   "canali": [
                     "DAZN Spain",
+                    "TVE La 1",
                     "TDP",
                     "L'Équipe Live Foot"
                   ]
@@ -10429,6 +9643,12 @@
                   "paese": "Belgio",
                   "canali": [
                     "DAZN Belgium"
+                  ]
+                },
+                {
+                  "paese": "Belize",
+                  "canali": [
+                    "Nexgen"
                   ]
                 },
                 {
@@ -10941,6 +10161,7 @@
                 {
                   "paese": "Iran",
                   "canali": [
+                    "IRIB Varzesh",
                     "beIN Sports HD 1",
                     "beIN Sports English",
                     "beIN SPORTS CONNECT",
@@ -11556,6 +10777,7 @@
                   "paese": "Spagna",
                   "canali": [
                     "DAZN Spain",
+                    "TVE La 1",
                     "TDP",
                     "RTVE Play",
                     "Movistar+",
@@ -11594,6 +10816,7 @@
                   "canali": [
                     "Bluu",
                     "SCCN",
+                    "TV2 Suriname",
                     "Rush Sports 3"
                   ]
                 },
@@ -12537,35 +11760,8 @@
     },
     {
       "nome": "Basket",
-      "totale": 11,
+      "totale": 10,
       "sottocartelle": [
-        {
-          "nome": "Serie A",
-          "totale": 1,
-          "eventi": [
-            {
-              "titolo": "Serie A: Maxima Roma-Napoli Basketball",
-              "categoria": "Basket",
-              "sottocartella": "Serie A",
-              "sport": "Basket",
-              "competizione": "Serie A",
-              "evento": "Maxima Roma-Napoli Basketball",
-              "inizio": "2026-09-27T18:15:00+02:00",
-              "data": "27/09/2026",
-              "ora": "18:15",
-              "canali": [
-                {
-                  "nome": "Sky Sport Basket",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-09-27T18:15",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            }
-          ]
-        },
         {
           "nome": "Eurocup",
           "totale": 6,
@@ -12788,39 +11984,6 @@
                   "numero": "201",
                   "tipo": "diretta",
                   "orario": "2026-10-02T20:30",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "nome": "Volley",
-      "totale": 1,
-      "sottocartelle": [
-        {
-          "nome": "Courmayeur Cup femminile",
-          "totale": 1,
-          "eventi": [
-            {
-              "titolo": "Courmayeur Cup: Finale",
-              "categoria": "Volley",
-              "sottocartella": "Courmayeur Cup femminile",
-              "sport": "Pallavolo femminile",
-              "competizione": "Courmayeur Cup",
-              "evento": "Finale",
-              "inizio": "2026-09-27T19:00:00+02:00",
-              "data": "27/09/2026",
-              "ora": "19:00",
-              "canali": [
-                {
-                  "nome": "Rai Sport",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-09-27T19:00",
                   "fonte": "virgilio"
                 }
               ],
