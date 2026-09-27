@@ -15,6 +15,17 @@ Fonti: calendari Google di Fuori Traiettoria, Dizzle0987/motorsport-calendar,
 palinsesto TV8, Virgilio Sport guida TV, eventi.json di aandroide/Livesoccer,
 EPG XMLTV facoltativi (variabile EPG_URLS).
 
+OA Sport (CONFIG["oasport"]): per eventi "una tantum" (es. America's Cup) OA Sport non ha una
+guida TV strutturata come Virgilio, ma pubblica un articolo "calendario" con un blocco fisso,
+sempre nello stesso formato (giorno in grassetto, poi righe "14.00 Testo - Diretta tv su X e Y"):
+questo blocco si legge in automatico (vedi parse_oasport_calendario), un articolo alla volta,
+aggiungendo l'URL qui sotto. Ogni fonte OA Sport copre un solo evento/periodo: quando l'evento
+finisce si toglie la voce, o si aggiorna l'anno/URL per l'edizione successiva.
+
+Eventi fissi (CONFIG["eventi_fissi"]): ripiego per eventi le cui fonti non hanno nemmeno questo
+blocco strutturato (es. i normali articoli "Sport in TV oggi" di OA Sport, scritti in prosa
+libera): si aggiungono qui a mano, con data/ora e canali gia' letti dall'articolo.
+
 Solo libreria standard Python 3.9+. Tutte le impostazioni sono qui sotto,
 nelle sezioni CONFIG e MOTOR_CONFIG (sintassi JSON).
 
@@ -83,6 +94,16 @@ CONFIG = json.loads(r"""
     "attivo": true,
     "giorni_avanti": 60
   },
+  "oasport": [
+    {
+      "attivo": true,
+      "url": "https://www.oasport.it/2026/09/calendario-americas-cup-regate-preliminari-napoli-2026-programma-orari-tv-streaming/",
+      "sport": "Vela",
+      "competizione": "America's Cup",
+      "anno": 2026
+    }
+  ],
+  "eventi_fissi": [],
   "categorie": [
     {
       "nome": "Motori",
@@ -1209,6 +1230,142 @@ def virgilio_events(cfg, categories, sub_by, tz, numbers):
     return merge_virgilio(out)
 
 
+# =====================================================================
+# OA SPORT: articolo "calendario" di un evento una tantum (es. America's Cup)
+# Struttura sempre uguale, verificata sull'articolo dell'America's Cup di Napoli 2026:
+#   <p><strong>Venerdì 25 settembre</strong></p>
+#   <p>14.00 Tre regate di flotta - Diretta tv su Rai 2 e Sky Sport Max</p>
+# Il _Collector gia' usato per Virgilio spezza l'HTML in blocchi di testo puliti, uno per
+# tag, che e' esattamente cio' che serve qui: niente parser nuovo, si riusa quello.
+# =====================================================================
+OASPORT_GIORNI = "Luned[iì]|Marted[iì]|Mercoled[iì]|Gioved[iì]|Venerd[iì]|Sabato|Domenica"
+OASPORT_DATA_RE = re.compile(r"^(?:%s)\s+(\d{1,2})\s+(%s)$" % (OASPORT_GIORNI, "|".join(MONTHS)), re.I)
+OASPORT_ORARIO_RE = re.compile(
+    r"^(\d{1,2})[.:](\d{2})\s+(.*?)\s*[\u2013\u2014-]\s*Diretta tv su\s+([^.]*)\.?\s*$", re.I)
+
+
+def split_channels_oasport(text):
+    parts = re.split(r"\s*,\s*|\s+e\s+", text.strip())
+    return [p.strip(" .") for p in parts if p.strip()]
+
+
+def parse_oasport_calendario(html, marker="calendario"):
+    """Legge il blocco calendario di un articolo OA Sport: restituisce una lista di
+    (giorno, mese, ora, minuto, descrizione, [canali]). marker e' la parola che apre il
+    blocco (di norma il titolo "CALENDARIO ..."); si smette alla prima riga che non e' ne'
+    un'intestazione di giorno ne' una riga orario, cioe' quando il blocco finisce."""
+    collector = _Collector()
+    collector.feed(html)
+    collector.close()
+    items = [val for kind, val in collector.items if kind == "text"]
+    # il titolo del blocco e' un'intestazione (h2/h3), quindi in maiuscolo: senza questo
+    # controllo "calendario" combacerebbe anche con una frase qualunque dell'articolo,
+    # tipo "di seguito il calendario completo", molto prima del blocco vero.
+    start = next((i for i, t in enumerate(items) if t.isupper() and marker.lower() in t.lower()), None)
+    if start is None:
+        return []
+    out = []
+    giorno = mese = None
+    for t in items[start + 1:]:
+        m = OASPORT_DATA_RE.match(t)
+        if m:
+            giorno, mese = int(m.group(1)), MONTHS[m.group(2).lower()]
+            continue
+        m = OASPORT_ORARIO_RE.match(t)
+        if m and giorno is not None:
+            ora, minuto, desc, canali = m.groups()
+            out.append((giorno, mese, int(ora), int(minuto), desc.strip(),
+                        split_channels_oasport(canali)))
+            continue
+        break
+    return out
+
+
+def oasport_events(cfg_list, categories, sub_by, tz, numbers):
+    out = []
+    for src in cfg_list:
+        if not src.get("attivo", True):
+            continue
+        url = src.get("url", "")
+        try:
+            html = fetch(url).decode("utf-8", "replace")
+        except Exception as exc:
+            log("OA Sport non disponibile (%s): %s" % (url, exc))
+            continue
+        year = src.get("anno") or dt.datetime.now(tz).year
+        rows = parse_oasport_calendario(html, src.get("marcatore", "calendario"))
+        if not rows:
+            log("OA Sport: nessun orario letto in %s" % url)
+            continue
+        sport = src.get("sport", "")
+        competizione = src.get("competizione", "")
+        cat = pick_category(sport, categories)
+        mode = sub_by.get(cat, "competizione")
+        sub = folder_name(sport) if mode == "sport" else folder_name(competizione or sport)
+        for giorno, mese, ora, minuto, desc, canali in rows:
+            try:
+                start = dt.datetime(year, mese, giorno, ora, minuto, tzinfo=tz)
+            except ValueError as exc:
+                log("OA Sport, data non valida (%s): %s" % (url, exc))
+                continue
+            title = "%s: %s" % (folder_name(competizione), desc) if competizione else desc
+            out.append({
+                "titolo": title,
+                "categoria": cat,
+                "sottocartella": sub,
+                "_ordine_sottocartella": 99,
+                "sport": sport,
+                "competizione": competizione,
+                "evento": desc,
+                "inizio": start.isoformat(),
+                "data": start.strftime("%d/%m/%Y"),
+                "ora": start.strftime("%H:%M"),
+                "canali": [{"nome": c, "numero": numbers.get(c, ""), "tipo": "diretta",
+                            "orario": start.strftime("%Y-%m-%dT%H:%M"), "fonte": "oasport"}
+                           for c in canali],
+                "fonte": "OA Sport",
+            })
+    log("OA Sport: %d eventi" % len(out))
+    return out
+
+
+def fixed_events(cfg_list, categories, sub_by, tz, numbers):
+    """Eventi inseriti a mano in CONFIG["eventi_fissi"] (vedi commento in testa al file).
+    Stessa forma degli eventi Virgilio, cosi' finiscono nella categoria/sottocartella giuste
+    (es. sport "Vela" senza una voce propria in "categorie" cade in "Altri sport" > "Vela",
+    tramite pick_category)."""
+    out = []
+    for e in cfg_list:
+        try:
+            start = dt.datetime.fromisoformat(e["inizio"]).replace(tzinfo=tz)
+        except (KeyError, ValueError) as exc:
+            log("Evento fisso scartato (%s): %s" % (e.get("evento", "?"), exc))
+            continue
+        cat = pick_category(e.get("sport", ""), categories)
+        mode = sub_by.get(cat, "competizione")
+        sub = folder_name(e.get("sport", "")) if mode == "sport" else folder_name(e.get("competizione") or e.get("sport", ""))
+        title = e.get("evento", "")
+        if e.get("competizione") and e["competizione"] != title:
+            title = "%s: %s" % (folder_name(e["competizione"]), title)
+        out.append({
+            "titolo": title,
+            "categoria": cat,
+            "sottocartella": sub,
+            "_ordine_sottocartella": 99,
+            "sport": e.get("sport", ""),
+            "competizione": e.get("competizione", ""),
+            "evento": e.get("evento", ""),
+            "inizio": start.isoformat(),
+            "data": start.strftime("%d/%m/%Y"),
+            "ora": start.strftime("%H:%M"),
+            "canali": [{"nome": c, "numero": numbers.get(c, ""), "tipo": "diretta",
+                        "orario": start.strftime("%Y-%m-%dT%H:%M"), "fonte": "manuale"}
+                       for c in e.get("canali", [])],
+            "fonte": "Eventi fissi (inseriti a mano)",
+        })
+    return out
+
+
 STREAMING_NAMES = ("sky go", "now tv", "now", "dazn", "prime video", "amazon", "infinity", "raiplay")
 
 
@@ -1400,7 +1557,10 @@ def build():
     soccer_extra = [s for s in soccer if s["competizione"] not in main_comps]
     others = merge_football(soccer_main, others, main_comps)
     others, soccer_added = enrich_from_soccer(soccer_extra, others, ls_cfg.get("coppe_e_nazionali", []))
-    events = motor_events(cfg.get("motorsport", {}), tz, now) + soccer_main + soccer_added + others
+    sub_by = cfg.get("sottocartelle_per", {})
+    fissi = fixed_events(cfg.get("eventi_fissi", []), categories, sub_by, tz, numbers)
+    oasport = oasport_events(cfg.get("oasport", []), categories, sub_by, tz, numbers)
+    events = motor_events(cfg.get("motorsport", {}), tz, now) + soccer_main + soccer_added + others + fissi + oasport
     events = [e for e in events if dt.datetime.fromisoformat(e["inizio"]) >= since]
     events.sort(key=lambda e: (e["inizio"], e["categoria"], e["titolo"]))
 
