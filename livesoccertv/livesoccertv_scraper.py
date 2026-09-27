@@ -684,9 +684,18 @@ def main():
         ctx = new_context(browser)
         if not args.html:
             warmup(ctx)
-        for n, comp in enumerate(comps):
+        # Le competizioni bloccate da Cloudflare dopo 3 tentativi vengono rimesse in coda e
+        # riprovate una volta alla fine: nei primi minuti la verifica e' piu' severa (spesso
+        # tocca proprio alla Serie A, che e' la prima), mentre a sessione avviata passa.
+        coda = [(c, False) for c in comps]
+        n = 0
+        while coda:
+            comp, ripresa = coda.pop(0)
             if n and not args.html:
                 time.sleep(random.uniform(5, 10))
+            n += 1
+            if ripresa:
+                log(f"Nuovo tentativo per {comp['name']} a sessione avviata")
             rows, last_err = None, ""
             for attempt in (1, 2, 3):
                 try:
@@ -701,6 +710,10 @@ def main():
                         ctx = new_context(browser)
                         warmup(ctx)
             if rows is None:
+                if not ripresa and not args.html:
+                    log(f"{comp['name']}: bloccata, la riprovo alla fine")
+                    coda.append((comp, True))
+                    continue
                 warn(f"{comp['name']} non aggiornata: {last_err}")
                 failures += 1
                 continue
