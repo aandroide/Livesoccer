@@ -1,0 +1,42 @@
+name: Calendario sport per Kodi
+
+on:
+  # parte da solo appena "Calendario sport" ha finito il suo giro
+  workflow_run:
+    workflows: ["Calendario sport"]
+    types:
+      - completed
+  # per poterlo lanciare a mano da GitHub (scheda Actions > Run workflow)
+  workflow_dispatch:
+
+jobs:
+  genera:
+    # se e' partito dopo "Calendario sport", solo quando quel giro e' andato a buon fine
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Genera i JSON per l'addon
+        run: python3 calendario_sport_kodi.py --input output/calendario_sport.json --out output/kodi
+
+      - name: Commit se ci sono modifiche
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898898+github-actions[bot]@users.noreply.github.com"
+          git add output/kodi/
+          if git diff --cached --quiet; then
+            echo "Nessuna modifica"
+          else
+            git commit -m "Aggiorna calendario Kodi"
+            for i in 1 2 3; do
+              git pull --rebase && git push && break
+              sleep 10
+            done
+          fi
