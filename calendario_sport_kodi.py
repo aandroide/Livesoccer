@@ -157,7 +157,14 @@ CANALI_DIRETTA = {
     'History': ('sky', 'historychannel'),
 }
 
+# Canali con link diretto (pagina web o stream), hanno la precedenza sulla guida TV
+CANALI_LINK = {
+    'Sportitalia': 'https://sportitalialive.it/sihd/',
+}
+
 ALIAS_CANALI = {
+    "Sportitalia HD": "Sportitalia",
+    "Sport Italia": "Sportitalia",
     "Sky Sport 1": "Sky Sport UNO",
     "Sky Sport 1 FHD": "Sky Sport UNO",
     "DAZN Italia": "DAZN 1",
@@ -184,6 +191,7 @@ def _norm(nome):
 
 _EPG_NORM = {_norm(k): v for k, v in CANALI_EPG.items()}
 _DIRETTA_NORM = {_norm(k): v for k, v in CANALI_DIRETTA.items()}
+_LINK_NORM = {_norm(k): v for k, v in CANALI_LINK.items()}
 _ALIAS_NORM = {_norm(k): _norm(v) for k, v in ALIAS_CANALI.items()}
 
 
@@ -302,8 +310,14 @@ def event_items(ev, now):
     # Cerca il primo canale con diretta
     canale_diretta = None
     resolve_dir = None
+    link_dir = None
     for c in canali:
         nome = c.get("nome", "")
+        l = _LINK_NORM.get(_canonical(nome))
+        if l:
+            link_dir = l
+            canale_diretta = nome
+            break
         r = resolve_diretta(nome)
         if r:
             resolve_dir = r
@@ -322,6 +336,14 @@ def event_items(ev, now):
         + INDENT + etichetta
     )
 
+    if link_dir:
+        return [{
+            "title": titolo,
+            "thumbnail": THUMB,
+            "fanart": FANART,
+            "info": _info_evento(ev, "Apri " + (canale_diretta or "il canale")),
+            "link": link_dir,
+        }]
     if resolve_dir:
         return [{
             "title": titolo,
@@ -330,14 +352,13 @@ def event_items(ev, now):
             "info": _info_evento(ev, "Apri " + (canale_diretta or "il canale")),
             "myresolve": resolve_dir,
         }]
-    else:
-        return [{
-            "title": riga_titolo + "[CR]" + INDENT + riga_canali,
-            "thumbnail": THUMB,
-            "fanart": FANART,
-            "info": _info_evento(ev, "Nessuna diretta associata"),
-            "link": "ignoreme",
-        }]
+    return [{
+        "title": riga_titolo + "[CR]" + INDENT + riga_canali,
+        "thumbnail": THUMB,
+        "fanart": FANART,
+        "info": _info_evento(ev, "Nessuna diretta associata"),
+        "link": "ignoreme",
+    }]
 
 
 # ============================================================
