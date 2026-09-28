@@ -161,6 +161,8 @@ CANALI_DIRETTA = {
 CANALI_LINK = {
     # Stream diretto (CDN streamup.eu), richiede header Referer per funzionare
     'Sportitalia': 'https://origin-001.streamup.eu/sportitalia/sihd_abr2/sportitalia/sihd_1080p/chunks.m3u8|Referer=https://sportitalialive.it/sihd/&User-Agent=Mozilla/5.0',
+    # Relinker ufficiale RAI (gratuito, in chiaro): alternativa a daddyCode se non funziona
+    'Rai 2': 'https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=308718',
 }
 
 ALIAS_CANALI = {
@@ -298,61 +300,100 @@ def _info_evento(ev, etichetta_tipo=None):
     return "\n".join(righe)
 
 
-def event_items(ev, now):
+def canali_disponibili(canali):
     """
-    Una sola voce per evento, allineata:
-      riga 1: orario + titolo
-      riga 2: Canali: ...
-      riga 3: >> Guarda in diretta
-    Il click apre la diretta (daddyCode/sky) o, se assente, la guida TV.
+    Restituisce TUTTI i canali dell'evento apribili in qualche modo, in ordine:
+    prima quelli con link diretto o diretta vera (nell'ordine dei canali
+    dell'evento), poi quelli apribili solo tramite guida EPG.
+    Ogni elemento: (nome_canale, azione, is_epg) dove azione e' un dict
+    {"link": ...} oppure {"myresolve": ...}.
     """
-    riga_titolo, riga_canali, canali, stato = _riga_evento(ev, now)
-
-    # Cerca il primo canale con diretta
-    canale_diretta = None
-    resolve_dir = None
-    link_dir = None
+    diretti = []
+    solo_epg = []
     for c in canali:
         nome = c.get("nome", "")
-        l = _LINK_NORM.get(_canonical(nome))
-        if l:
-            link_dir = l
-            canale_diretta = nome
-            break
-        r = resolve_diretta(nome)
-        if r:
-            resolve_dir = r
-            canale_diretta = nome
-            break
+        can = _canonical(nome)
 
-    # Etichetta della riga di azione, coerente con il tipo di resolve
-    if resolve_dir and resolve_dir.startswith("epg@@"):
-        etichetta = "[COLOR cyan][B]>> Guida TV[/B][/COLOR]"
-    else:
-        etichetta = "[COLOR lime][B]>> Guarda in diretta[/B][/COLOR]"
+        link = _LINK_NORM.get(can)
+        if link:
+            diretti.append((nome, {"link": link}, False))
+            continue
 
-    titolo = (
-        riga_titolo + "[CR]"
-        + INDENT + riga_canali + "[CR]"
-        + INDENT + etichetta
-    )
+        entry = _DIRETTA_NORM.get(can)
+        if entry:
+            command, value = entry
+            diretti.append((nome, {"myresolve": "{}@@{}".format(command, value)}, False))
+            continue
 
-    if link_dir:
+        slug = _EPG_NORM.get(can)
+        if slug:
+            solo_epg.append((nome, {"myresolve": "epg@@" + slug}, True))
+
+    return diretti + solo_epg
+
+
+def event_items(ev, now, out_dir=None, filename_base=None):
+    """
+    Una voce per evento, allineata:
+      riga 1: orario + titolo
+      riga 2: Canali: ...
+      riga 3: >> azione
+
+    Se un solo canale e' apribile, il click lo apre direttamente.
+    Se piu' canali sono apribili, la voce diventa una cartella con
+    l'elenco di tutti i canali disponibili, cosi' si sceglie quale aprire.
+    """
+    riga_titolo, riga_canali, canali, stato = _riga_evento(ev, now)
+    disponibili = canali_disponibili(canali)
+
+    if len(disponibili) >= 2 and out_dir and filename_base:
+        n = len(disponibili)
+        etichetta = "[COLOR cyan][B]>> Scegli canale (%d)[/B][/COLOR]" % n
+        titolo = (
+            riga_titolo + "[CR]"
+            + INDENT + riga_canali + "[CR]"
+            + INDENT + etichetta
+        )
+
+        scelte = []
+        for nome, azione, is_epg in disponibili:
+            tag = "[COLOR cyan][B]Guida TV[/B][/COLOR]" if is_epg else "[COLOR lime][B]Diretta[/B][/COLOR]"
+            voce = {
+                "title": "%s  %s" % (tag, nome),
+                "thumbnail": THUMB,
+                "fanart": FANART,
+                "info": _info_evento(ev, "Apri " + nome),
+            }
+            voce.update(azione)
+            scelte.append(voce)
+
+        filename = filename_base + ".json"
+        write_json(out_dir, filename, scelte)
         return [{
+            "title": titolo,
+            "externallink": BASE_URL + filename,
+            "thumbnail": THUMB,
+            "fanart": FANART,
+        }]
+
+    if disponibili:
+        nome, azione, is_epg = disponibili[0]
+        etichetta = "[COLOR cyan][B]>> Guida TV[/B][/COLOR]" if is_epg \
+            else "[COLOR lime][B]>> Guarda in diretta[/B][/COLOR]"
+        titolo = (
+            riga_titolo + "[CR]"
+            + INDENT + riga_canali + "[CR]"
+            + INDENT + etichetta
+        )
+        voce = {
             "title": titolo,
             "thumbnail": THUMB,
             "fanart": FANART,
-            "info": _info_evento(ev, "Apri " + (canale_diretta or "il canale")),
-            "link": link_dir,
-        }]
-    if resolve_dir:
-        return [{
-            "title": titolo,
-            "thumbnail": THUMB,
-            "fanart": FANART,
-            "info": _info_evento(ev, "Apri " + (canale_diretta or "il canale")),
-            "myresolve": resolve_dir,
-        }]
+            "info": _info_evento(ev, "Apri " + nome),
+        }
+        voce.update(azione)
+        return [voce]
+
     return [{
         "title": riga_titolo + "[CR]" + INDENT + riga_canali,
         "thumbnail": THUMB,
@@ -401,13 +442,14 @@ def day_header(data_str):
     }
 
 
-def eventi_to_items(eventi, now):
+def eventi_to_items(eventi, now, out_dir=None, file_prefix=None):
     """
     Header giorno quando cambia la data.
     Spaziatore tra eventi (non ci sono più sotto-voci).
     """
     items = []
     giorno = None
+    idx = 0
 
     for ev in sorted(eventi, key=lambda e: e.get("inizio", "")):
         if ev.get("data") != giorno:
@@ -419,7 +461,11 @@ def eventi_to_items(eventi, now):
         if items and items[-1].get("_ev"):
             items.append(spacer_item())
 
-        voci = event_items(ev, now)
+        filename_base = None
+        if file_prefix:
+            filename_base = "%s-ev%d" % (file_prefix, idx)
+        voci = event_items(ev, now, out_dir=out_dir, filename_base=filename_base)
+        idx += 1
         for v in voci:
             v["_ev"] = True
             items.append(v)
@@ -453,14 +499,16 @@ def build(data, out_dir, now):
                 sub_slug = "%s-%s" % (cart_slug, slugify(sub["nome"]))
                 sub_filename = sub_slug + ".json"
                 write_json(out_dir, sub_filename,
-                           eventi_to_items(sub.get("eventi", []), now))
+                           eventi_to_items(sub.get("eventi", []), now,
+                                           out_dir=out_dir, file_prefix=sub_slug))
                 sub_label = category_title(sub["nome"], sub.get("totale", 0),
                                            primo_livello=False)
                 sub_items.append(folder_item(sub_label, sub_filename))
             write_json(out_dir, cart_slug + ".json", sub_items)
         else:
             write_json(out_dir, cart_slug + ".json",
-                       eventi_to_items(cart.get("eventi", []), now))
+                       eventi_to_items(cart.get("eventi", []), now,
+                                       out_dir=out_dir, file_prefix=cart_slug))
 
         root_items.append(folder_item(etichetta, cart_slug + ".json"))
 
