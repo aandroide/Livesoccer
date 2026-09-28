@@ -515,6 +515,25 @@ def get_rows(ctx, comp, args):
     return scrape_competition(ctx, comp, args.debug)
 
 
+def canali_non_risolti(rows, risolte, prev_by_url):
+    """Per le partite di cui NON si e' letta la pagina di dettaglio (bloccata da
+    Cloudflare, oppure non controllata) i canali dell'elenco campionato non vanno mai
+    tenuti: LiveSoccerTV li mostra in base al paese di chi visita, quindi dal server
+    GitHub (Stati Uniti) sono Paramount+, fuboTV, DAZN Canada e simili.
+    Si riusano invece i canali dell'esecuzione precedente, ma solo se quella volta la
+    pagina era stata letta davvero (tabella mondiale presente): cosi' un dato sbagliato
+    gia' salvato non viene trascinato avanti. Altrimenti lista vuota."""
+    for r in rows:
+        if id(r) in risolte:
+            continue
+        prev = prev_by_url.get(r.get("url"))
+        if prev and prev.get("canali_mondo"):
+            r["channels"] = [dict(c) for c in (prev.get("channels") or []) if isinstance(c, dict)]
+            r["canali_mondo"] = prev["canali_mondo"]
+        else:
+            r["channels"] = []
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--debug", action="store_true", help="salva l'HTML in debug/ e stampa i dati grezzi")
@@ -529,6 +548,14 @@ def main():
     os.makedirs(OUT_DIR, exist_ok=True)
     now = datetime.now(ZoneInfo(TARGET_TZ))
     all_events, failures = [], 0
+    prev_by_url = {}
+    try:
+        with open(os.path.join(OUT_DIR, "all_events.json"), encoding="utf-8") as f:
+            for e in json.load(f).get("events", []):
+                if e.get("match_url"):
+                    prev_by_url[e["match_url"]] = e
+    except Exception:
+        pass
 
     with sync_playwright() as pw:
         browser = launch_browser(pw)
@@ -576,22 +603,26 @@ def main():
             if comp.get("channels_from_match_page") and not args.html:
                 da_controllare = [r for r in rows if r.get("url") and row_is_relevant(r, now)]
                 log(f"Canali IT dalla pagina partita: {len(da_controllare)} partite da controllare")
+                risolte = set()
                 for i, r in enumerate(da_controllare):
                     dati = fetch_match_channels_it(ctx, r["url"])
                     if dati and dati.get("italia"):
+                        risolte.add(id(r))
                         r["channels"] = [{"name": n, "url": "", "stream": False} for n in dati["italia"]]
                         if args.debug:
                             log(f"  {r['title']}: {dati['italia']}")
                     elif comp.get("solo_italia") and dati and dati.get("mondo"):
                         # la tabella c'e' ma l'Italia no: in Italia la partita non va in onda
+                        risolte.add(id(r))
                         r["channels"] = []
                         log(f"  {r['title']}: non trasmessa in Italia")
                     else:
-                        log(f"  {r['title']}: canali IT non trovati, tengo quelli della pagina campionato")
+                        log(f"  {r['title']}: canali IT non trovati, uso quelli del giro precedente (se validi)")
                     if dati and dati.get("mondo"):
                         r["canali_mondo"] = dati["mondo"]
                     if i < len(da_controllare) - 1:
                         time.sleep(random.uniform(1, 2))
+                canali_non_risolti(rows, risolte, prev_by_url)
 
             events = normalize(rows, comp, now)
             if not events:
