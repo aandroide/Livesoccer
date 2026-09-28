@@ -3,9 +3,9 @@
 """
 Converte output/calendario_sport.json in un albero di JSON in formato MandraKodi.
 
-Layout B (senza emoji - solo BBCode [COLOR]/[B]):
-  - Voce principale  : titolo evento + riga Canali + riga "Guida TV"
-  - Voce secondaria  : "Guarda in diretta" + orario + titolo evento
+Layout pulito, una sola voce per evento:
+  - Titolo evento + riga "Canali" + riga ">> Guarda in diretta"
+  - Il click apre la diretta (daddyCode/sky) o, se assente, la guida TV.
 
 Struttura generata:
   root.json                        -> una voce per cartella di primo livello
@@ -24,8 +24,7 @@ from zoneinfo import ZoneInfo
 BASE_URL = "https://raw.githubusercontent.com/aandroide/Livesoccer/master/output/kodi/"
 TARGET_TZ = "Europe/Rome"
 
-# Niente emoji: la skin Kodi non le disegna bene e compaiono quadratini vuoti.
-# Le thumbnail restano vuote (stringa vuota) così la skin mostra solo il fanart.
+# Niente emoji, niente thumbnail: la skin disegna solo il fanart di sfondo.
 THUMB = ""
 FANART = "https://www.stadiotardini.it/wp-content/uploads/2016/12/mandrakata.jpg"
 
@@ -200,6 +199,7 @@ def slug_guida(nome_canale):
 
 
 def resolve_diretta(nome_canale):
+    """Restituisce il myresolve per la diretta, o None."""
     if not nome_canale:
         return None
     c = _canonical(nome_canale)
@@ -241,36 +241,38 @@ def category_title(nome, totale, primo_livello):
 
 
 # ============================================================
-# COSTRUZIONE TITOLI (LAYOUT B - solo BBCode, niente emoji)
+# COSTRUZIONE TITOLI (Layout pulito, una voce per evento)
 # ============================================================
-INDENT = "        "  # 8 spazi per indentare le sotto-voci
+# Allineamento: il titolo dell'evento è su una riga, poi due righe indentate
+# con lo stesso numero di spazi per un look uniforme.
+INDENT = "        "  # 8 spazi
 
 
-def _titolo_evento_base(ev, now):
-    """Restituisce (riga1, riga2, canali, stato, colore)."""
+def _riga_evento(ev, now):
+    """Restituisce (riga_titolo, riga_canali, canali, stato)."""
     stato = stato_evento(ev.get("inizio", ""), now)
     ora = ev.get("ora", "")
     titolo_ev = ev["titolo"]
     gap = "     "
 
     if stato == "live":
-        riga1 = "[COLOR red][B]%s[/B][/COLOR]%s[B]%s[/B]   [COLOR red][B][LIVE][/B][/COLOR]" % (ora, gap, titolo_ev)
+        riga_titolo = "[COLOR red][B]%s[/B][/COLOR]%s[B]%s[/B]   [COLOR red][B][LIVE][/B][/COLOR]" % (ora, gap, titolo_ev)
         colore = "khaki"
     elif stato == "finished":
-        riga1 = "[COLOR grey][B]%s[/B][/COLOR]%s%s[/COLOR]" % (ora, gap, titolo_ev)
+        riga_titolo = "[COLOR grey][B]%s[/B][/COLOR]%s%s[/COLOR]" % (ora, gap, titolo_ev)
         colore = "grey"
     else:
-        riga1 = "[COLOR yellow][B]%s[/B][/COLOR]%s[B]%s[/B]" % (ora, gap, titolo_ev)
+        riga_titolo = "[COLOR yellow][B]%s[/B][/COLOR]%s[B]%s[/B]" % (ora, gap, titolo_ev)
         colore = "khaki"
 
     canali = ev.get("canali") or []
     if canali:
         nomi = ", ".join(c["nome"] for c in canali)
-        riga2 = "[COLOR %s][B]Canali:[/B] %s[/COLOR]" % (colore, nomi)
+        riga_canali = "[COLOR %s][B]Canali:[/B] %s[/COLOR]" % (colore, nomi)
     else:
-        riga2 = "[COLOR grey][B]Canali:[/B] nessuno indicato[/COLOR]"
+        riga_canali = "[COLOR grey][B]Canali:[/B] nessuno indicato[/COLOR]"
 
-    return riga1, riga2, canali, stato, colore
+    return riga_titolo, riga_canali, canali, stato
 
 
 def _info_evento(ev, etichetta_tipo=None):
@@ -289,75 +291,53 @@ def _info_evento(ev, etichetta_tipo=None):
 
 def event_items(ev, now):
     """
-    Layout B, niente emoji. Due voci per evento:
-      1) titolo evento + Canali + [ Guida TV ]
-      2) [ Guarda in diretta ] + titolo evento
+    Una sola voce per evento, allineata:
+      riga 1: orario + titolo
+      riga 2: Canali: ...
+      riga 3: >> Guarda in diretta
+    Il click apre la diretta (daddyCode/sky) o, se assente, la guida TV.
     """
-    riga1, riga2, canali, stato, colore = _titolo_evento_base(ev, now)
+    riga_titolo, riga_canali, canali, stato = _riga_evento(ev, now)
 
-    canale_epg = None
-    slug_epg = None
+    # Cerca il primo canale con diretta
     canale_diretta = None
     resolve_dir = None
-
     for c in canali:
         nome = c.get("nome", "")
-        if not slug_epg:
-            s = slug_guida(nome)
-            if s:
-                slug_epg = s
-                canale_epg = nome
-        if not resolve_dir:
-            r = resolve_diretta(nome)
-            if r:
-                resolve_dir = r
-                canale_diretta = nome
-        if slug_epg and resolve_dir:
+        r = resolve_diretta(nome)
+        if r:
+            resolve_dir = r
+            canale_diretta = nome
             break
 
-    items = []
+    # Etichetta della riga di azione, coerente con il tipo di resolve
+    if resolve_dir and resolve_dir.startswith("epg@@"):
+        etichetta = "[COLOR cyan][B]>> Guida TV[/B][/COLOR]"
+    else:
+        etichetta = "[COLOR lime][B]>> Guarda in diretta[/B][/COLOR]"
 
-    # ---------- VOCE 1: guida TV ----------
-    if slug_epg:
-        titolo = (
-            riga1 + "[CR]"
-            + INDENT + riga2 + "[CR]"
-            + INDENT + "[COLOR cyan][B]>> Guida TV[/B][/COLOR]"
-        )
-        items.append({
-            "title": titolo,
-            "thumbnail": THUMB,
-            "fanart": FANART,
-            "info": _info_evento(ev, "Apri la guida programmi di " + canale_epg),
-            "myresolve": "epg@@" + slug_epg,
-        })
+    titolo = (
+        riga_titolo + "[CR]"
+        + INDENT + riga_canali + "[CR]"
+        + INDENT + etichetta
+    )
 
-    # ---------- VOCE 2: diretta ----------
     if resolve_dir:
-        titolo_dir = (
-            INDENT + "[COLOR lime][B]>> Guarda in diretta[/B][/COLOR]"
-            + "[CR]" + INDENT + INDENT + riga1
-        )
-        items.append({
-            "title": titolo_dir,
+        return [{
+            "title": titolo,
             "thumbnail": THUMB,
             "fanart": FANART,
-            "info": _info_evento(ev, "Apri la diretta di " + (canale_diretta or "")),
+            "info": _info_evento(ev, "Apri " + (canale_diretta or "il canale")),
             "myresolve": resolve_dir,
-        })
-
-    # ---------- FALLBACK ----------
-    if not items:
-        titolo = riga1 + "[CR]" + INDENT + riga2
-        items.append({
-            "title": titolo,
+        }]
+    else:
+        return [{
+            "title": riga_titolo + "[CR]" + INDENT + riga_canali,
             "thumbnail": THUMB,
             "fanart": FANART,
             "info": _info_evento(ev, "Nessuna diretta associata"),
             "link": "ignoreme",
-        })
-
-    return items
+        }]
 
 
 # ============================================================
@@ -402,7 +382,7 @@ def day_header(data_str):
 def eventi_to_items(eventi, now):
     """
     Header giorno quando cambia la data.
-    Spaziatore tra eventi diversi (non tra voci dello stesso evento).
+    Spaziatore tra eventi (non ci sono più sotto-voci).
     """
     items = []
     giorno = None
