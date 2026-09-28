@@ -79,6 +79,160 @@ def category_title(nome, totale, primo_livello):
     return "[COLOR cyan]%s[/COLOR] [COLOR grey](%d)[/COLOR]" % (peso, totale)
 
 
+# Guida programmi per canale. Tabella ricavata dalla lista "ITALY EPG" dell'addon
+# (voci "epg@@slug"): toccando una voce l'addon legge la guida di quel canale e
+# mostra orari e titoli. Sono informazioni sui palinsesti, nessun flusso video.
+CANALI_EPG = {
+    'Rai 1': 'rai-1',
+    'Rai 2': 'rai-2',
+    'Rai 3': 'rai-3',
+    'Rete 4': 'rete4',
+    'Canale 5': 'canale-5',
+    'Italia 1': 'italia-uno',
+    'La 7': 'la7',
+    'TV 8': 'tv8',
+    'Nove': 'nove',
+    'Canale 20': 'canale-20',
+    'Rai 4': 'rai-4',
+    'Iris': 'iris',
+    'Rai 5': 'rai-5',
+    'Rai Movie': 'rai-movie',
+    'Rai Premium': 'rai-premium',
+    'Cielo': 'cielo',
+    'Twenty Seven': 'mediaset-27',
+    'TV 2000': 'tv2000',
+    'La 7 Cinema': 'la7-cinema',
+    'La 5': 'la-5',
+    'Real Time': 'real-time',
+    'QVC': 'qvc',
+    'Food Network': 'foodnetwork',
+    'Cine 34': 'cine-34',
+    'Focus': 'focus',
+    'Discovery': 'discovery',
+    'Giallo': 'giallo',
+    'Top Crime': 'topcrime',
+    'Boing': 'boing',
+    'K2': 'k2',
+    'Rai Gulp': 'rai-gulp',
+    'Rai YoYo': 'rai-yoyo',
+    'Frisbee': 'frisbee',
+    'Boing Plus': 'boing-plus',
+    'Cartoonito': 'cartoonito',
+    'Super!': 'super!',
+    'Rai News 24': 'rai-news-24',
+    'Italia Due': 'mediaset-italia-due',
+    'Sky TG 24': 'sky-tg24',
+    'TG COM 24': 'tgcom24',
+    'DMax': 'dmax',
+    'Rai Storia': 'rai-storia',
+    'Mediaset Extra': 'mediaset-extra',
+    'H&G TV': 'home-and-garden-tv',
+    'Rai Scuola': 'rai-scuola',
+    'Rai Sport': 'rai-sport',
+    'Motor Trend': 'motor-trend',
+    'Sportitalia': 'sportitalia',
+    'Super Tennis': 'supertennis',
+    'Alma TV': 'alma-tv',
+    'Radio Italia TV': 'radioitaliatv',
+    'RSI LA 1': 'rsi-la1',
+    'RSI LA 2': 'rsi-la2',
+    'Sky Uno': 'sky-uno-hd',
+    'Sky Atlantic': 'sky-atlantic-hd',
+    'Sky Serie': 'sky-serie-hd',
+    'Sky Investigation': 'sky-investigation-hd',
+    'Sky Crime': 'sky-crime',
+    'Sky Adventure': 'sky-adventure',
+    'Sky Arte': 'sky-arte-hd',
+    'Sky Classica': 'sky-classica',
+    'Comedy Central': 'comedy-central',
+    'MTV': 'mtv',
+    'Sky Sport 24': 'sky-sport-24',
+    'Sky Sport Uno': 'sky-sport-uno',
+    'Sky Sport Calcio': 'sky-sport-calcio',
+    'Sky Sport Tennis': 'sky-sport-tennis',
+    'Sky Sport Arena': 'sky-sport-arena',
+    'Sky Sport Max': 'sky-sport-max',
+    'Sky Sport Golf': 'sky-sport-golf',
+    'Sky Sport F1': 'sky-sport-f1-hd',
+    'Sky Sport Moto GP': 'sky-sport-motogp',
+    'Sky Sport Basket': 'sky-sport-nba',
+    'Sky Sport Legend': 'sky-sport-legend',
+    'Sky Sport Mix': 'sky-sport-mix',
+    'Sky Sport 4K': 'sky-sport-4k',
+    'DAZN 1': 'zona-dazn',
+    'DAZN 2': 'zona-dazn-2',
+    'DAZN 3': 'zona-dazn-3',
+    'DAZN 4': 'zona-dazn-4',
+    'DAZN 5': 'zona-dazn-5',
+    'EQU TV': 'equ-tv',
+    'Horse TV': 'horse-tv-hd',
+    'Bike': 'bike',
+    'ACI Sport': 'aci-sport-tv',
+    'Milan TV': 'milan-tv',
+    'Inter TV': 'inter-tv-hd',
+    'Caccia e Pesca': 'caccia-e-pesca',
+    'Pesca e Caccia': 'pesca-e-caccia',
+    'Sky Sport 251': 'sky-sport-hd-1',
+    'Sky Sport 252': 'sky-sport-hd-2',
+    'Sky Sport 253': 'sky-sport-hd-3',
+    'Sky Sport 254': 'sky-sport-hd-4',
+    'Sky Sport 255': 'sky-sport-hd-5',
+    'Sky Sport 256': 'sky-sport-hd-6',
+    'Sky Sport 257': 'sky-sport-hd-7',
+    'Sky Sport 258': 'sky-sport-hd-8',
+    'Sky Sport 259': 'sky-sport-hd-9',
+    'Sky Sport 260': 'sky-sport-hd-10',
+    'Sky Sport 261': 'sky-sport-hd-11',
+    'Sky Sport 262': 'sky-sport-hd-12',
+    'Sky Cinema Uno': 'sky-cinema-uno-hd',
+    'Sky Cinema Due': 'sky-cinema-due-hd',
+    'Sky Cinema Collection': 'sky-cinema-collection-hd',
+    'Sky Cinema Family': 'sky-cinema-family-hd',
+    'Sky Cinema Action': 'sky-cinema-action-hd',
+    'Sky Cinema Suspence': 'sky-cinema-suspense-hd',
+    'Sky Cinema Romance': 'sky-cinema-romance-hd',
+    'Sky Cinema Drama': 'sky-cinema-drama-hd',
+    'Sky Cinema Comedy': 'sky-cinema-comedy-hd',
+    'Gambero Rosso': 'gambero-rosso-hd',
+    'Sky Documentaries': 'sky-documentaries-hd',
+    'Sky Nature': 'sky-nature-hd',
+    'Discovery Channel': 'discovery-channel-hd',
+    'History Channel': 'history-channel',
+    'History Roma': 'history-roma',
+    'Dea Kids': 'deakids',
+    'Nick Jr.': 'nick-junior',
+    'Nickelodeon': 'nickelodeon',
+    'Cartoon Network': 'cartoon-network',
+    'Boomerang': 'boomerang',
+    'Dea Junior': 'dea-junior',
+}
+
+# Nomi usati dalle fonti del calendario che nella lista si chiamano diversamente.
+ALIAS_CANALI = {
+    "Sky Sport 1": "Sky Sport Uno",
+    "DAZN Italia": "DAZN 1",
+    "DAZN1": "DAZN 1",
+    "TV8": "TV 8",
+    "20": "Canale 20",
+}
+
+
+def _norm(nome):
+    return re.sub(r"[^a-z0-9]", "", nome.lower())
+
+
+_EPG_NORM = {_norm(k): v for k, v in CANALI_EPG.items()}
+_ALIAS_NORM = {_norm(k): _norm(v) for k, v in ALIAS_CANALI.items()}
+
+
+def slug_guida(nome_canale):
+    """Restituisce lo slug della guida per un canale, o None se non e' in tabella
+    (servizi in streaming come NOW o Paramount+ e canali esteri restano fuori)."""
+    n = _norm(nome_canale)
+    n = _ALIAS_NORM.get(n, n)
+    return _EPG_NORM.get(n)
+
+
 # La skin mostra al massimo DUE righe per voce: una terza viene tagliata (visto
 # nello screenshot), quindi orario e titolo stanno insieme sulla prima riga e
 # i canali sulla seconda. Per dare respiro si usa una voce spaziatrice tra un
@@ -111,7 +265,17 @@ def event_item(ev, now):
         riga2 = "%s[COLOR grey][B]Canali:[/B] nessuno indicato[/COLOR]" % rientro
     titolo = riga1 + "[CR]" + riga2
 
+    # Il primo canale dell'evento che ha una guida rende la voce cliccabile.
+    guida = None
+    for c in canali:
+        sl = slug_guida(c["nome"])
+        if sl:
+            guida = (c["nome"], sl)
+            break
+
     righe_info = []
+    if guida:
+        righe_info.append("Tocca per la guida programmi di " + guida[0])
     mondo = ev.get("canali_mondo") or []
     if mondo:
         righe_info.append("Altri paesi: %d" % len(mondo))
@@ -120,13 +284,17 @@ def event_item(ev, now):
     if ev.get("fonte"):
         righe_info.append("Fonte: " + ev["fonte"])
 
-    return {
+    item = {
         "title": titolo,
-        "link": "ignoreme",
         "thumbnail": THUMB,
         "fanart": FANART,
         "info": "\n".join(righe_info),
     }
+    if guida:
+        item["myresolve"] = "epg@@" + guida[1]
+    else:
+        item["link"] = "ignoreme"
+    return item
 
 
 def spacer_item():
