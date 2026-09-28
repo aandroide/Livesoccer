@@ -79,40 +79,59 @@ def category_title(nome, totale, primo_livello):
     return "[COLOR cyan]%s[/COLOR] [COLOR grey](%d)[/COLOR]" % (peso, totale)
 
 
+def wrap_canali(nomi, larghezza=48):
+    """Spezza l'elenco dei canali in piu' righe, per non allungare una riga
+    all'infinito. Le righe successive alla prima sono rientrate come l'etichetta."""
+    righe, corrente = [], ""
+    for nome in nomi:
+        candidato = nome if not corrente else corrente + ", " + nome
+        if corrente and len(candidato) > larghezza:
+            righe.append(corrente + ",")
+            corrente = nome
+        else:
+            corrente = candidato
+    if corrente:
+        righe.append(corrente)
+    return righe
+
+
 def event_item(ev, now):
-    """Il titolo (label) e' l'unica cosa che tutte le skin mostrano nell'elenco
-    centrale; il campo "info" invece lo mostrano solo alcune, spesso in un
-    pannello separato (vedi screenshot). Percio' i canali, che sono la cosa
-    che si vuole vedere subito, vanno dentro il titolo stesso, su una seconda
-    riga con [CR] (l'interruzione di riga che le etichette Kodi capiscono).
-    Il resto (data, fonte, altri paesi) resta nel campo "info"."""
-    # Le "card" colorate con bordo e i bottoncini arrotondati della pagina web
-    # sono HTML/CSS: una lista Kodi ha solo etichette di testo, quindi non si
-    # possono disegnare davvero. Il testo tra [parentesi quadre] per ogni
-    # canale e' il modo piu' vicino, a solo testo, di dare l'idea di un
-    # "bottoncino" separato invece di un elenco unico.
+    """Layout scelto (bozza C): orario su una riga a se', poi il titolo, poi i
+    canali, e una riga vuota finale per staccare un evento dal successivo.
+    Il resto (data, fonte, altri paesi) sta nel pannello info a sinistra."""
     stato = stato_evento(ev.get("inizio", ""), now)
     ora = ev.get("ora", "")
+    titolo_ev = ev["titolo"]
+
     if stato == "live":
-        riga1 = "[COLOR red][B]%s[/B][/COLOR]  %s   [COLOR red][B][LIVE][/B][/COLOR]" % (ora, ev["titolo"])
+        riga_ora = "[COLOR red][B]%s   [LIVE][/B][/COLOR]" % ora
+        riga_tit = "[B]%s[/B]" % titolo_ev
+        colore_canali = "khaki"
     elif stato == "finished":
-        riga1 = "[COLOR grey][B]%s[/B][/COLOR]  [COLOR grey]%s[/COLOR]" % (ora, ev["titolo"])
+        riga_ora = "[COLOR grey][B]%s[/B][/COLOR]" % ora
+        riga_tit = "[COLOR grey]%s[/COLOR]" % titolo_ev
+        colore_canali = "grey"
     else:
-        riga1 = "[COLOR yellow][B]%s[/B][/COLOR]  %s" % (ora, ev["titolo"])
+        riga_ora = "[COLOR yellow][B]%s[/B][/COLOR]" % ora
+        riga_tit = "[B]%s[/B]" % titolo_ev
+        colore_canali = "khaki"
 
     canali = ev.get("canali") or []
     if canali:
-        chip = " ".join("[%s]" % c["nome"] for c in canali)
-        riga2 = "     [COLOR khaki][B]Canali:[/B] %s[/COLOR]" % chip
+        righe_canali = wrap_canali([c["nome"] for c in canali])
+        testo = righe_canali[0]
+        for extra in righe_canali[1:]:
+            testo += "[CR]          " + extra
+        riga_can = "[COLOR %s][B]Canali:[/B] %s[/COLOR]" % (colore_canali, testo)
     else:
-        riga2 = "     [COLOR grey][B]Canali:[/B] nessuno indicato[/COLOR]"
-    titolo = riga1 + "[CR]" + riga2
+        riga_can = "[COLOR grey][B]Canali:[/B] nessuno indicato[/COLOR]"
 
-    mondo = ev.get("canali_mondo") or []
-    if mondo:
-        titolo += "[CR]     [COLOR khaki][Altri paesi: %d][/COLOR]" % len(mondo)
+    titolo = riga_ora + "[CR]" + riga_tit + "[CR]" + riga_can + "[CR] "
 
     righe_info = []
+    mondo = ev.get("canali_mondo") or []
+    if mondo:
+        righe_info.append("Altri paesi: %d" % len(mondo))
     if ev.get("data"):
         righe_info.append(ev["data"])
     if ev.get("fonte"):
