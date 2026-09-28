@@ -5,7 +5,7 @@ Converte output/calendario_sport.json in un albero di JSON in formato MandraKodi
 
 Layout pulito, una sola voce per evento:
   - Titolo evento + riga "Canali" + riga ">> Guarda in diretta"
-  - Il click apre la diretta (m3u8 diretto, daddyCode, sky) o, se assente, la guida TV.
+  - Il click apre la diretta (daddyCode/sky) o, se assente, la guida TV.
 
 Struttura generata:
   root.json                        -> una voce per cartella di primo livello
@@ -50,7 +50,7 @@ CANALI_EPG = {
     'Rai Storia': 'rai-storia', 'Mediaset Extra': 'mediaset-extra',
     'H&G TV': 'home-and-garden-tv', 'Rai Scuola': 'rai-scuola',
     'Rai Sport': 'rai-sport', 'Motor Trend': 'motor-trend',
-    'Super Tennis': 'supertennis',
+    'Sportitalia': 'sportitalia', 'Super Tennis': 'supertennis',
     'Alma TV': 'alma-tv', 'Radio Italia TV': 'radioitaliatv',
     'RSI LA 1': 'rsi-la1', 'RSI LA 2': 'rsi-la2',
     'Sky Uno': 'sky-uno-hd', 'Sky Atlantic': 'sky-atlantic-hd',
@@ -157,16 +157,14 @@ CANALI_DIRETTA = {
     'History': ('sky', 'historychannel'),
 }
 
-# Canali con URL stream diretto (m3u8): hanno la precedenza su daddyCode/sky/epg.
-CANALI_STREAM = {
-    'Sportitalia': 'https://distribution.sportitalive.it/sportitalia/sihd_abr2/playlist.m3u8',
+# Canali con link diretto (pagina web o stream), hanno la precedenza sulla guida TV
+CANALI_LINK = {
+    # Stream diretto (CDN streamup.eu), richiede header Referer per funzionare
+    'Sportitalia': 'https://origin-001.streamup.eu/sportitalia/sihd_abr2/sportitalia/sihd_1080p/chunks.m3u8|Referer=https://sportitalialive.it/sihd/&User-Agent=Mozilla/5.0',
 }
 
 ALIAS_CANALI = {
     "Sportitalia HD": "Sportitalia",
-    "Sportitalia SI-HD": "Sportitalia",
-    "Sportitalia SI HD": "Sportitalia",
-    "Sportitalia Solocalcio": "Sportitalia",
     "Sport Italia": "Sportitalia",
     "Sky Sport 1": "Sky Sport UNO",
     "Sky Sport 1 FHD": "Sky Sport UNO",
@@ -194,7 +192,7 @@ def _norm(nome):
 
 _EPG_NORM = {_norm(k): v for k, v in CANALI_EPG.items()}
 _DIRETTA_NORM = {_norm(k): v for k, v in CANALI_DIRETTA.items()}
-_STREAM_NORM = {_norm(k): v for k, v in CANALI_STREAM.items()}
+_LINK_NORM = {_norm(k): v for k, v in CANALI_LINK.items()}
 _ALIAS_NORM = {_norm(k): _norm(v) for k, v in ALIAS_CANALI.items()}
 
 
@@ -210,25 +208,14 @@ def slug_guida(nome_canale):
 
 
 def resolve_diretta(nome_canale):
-    """Restituisce il myresolve (o URL m3u8) per la diretta, o None.
-    Priorità: stream diretto (m3u8) > daddyCode/sky > epg.
-    """
+    """Restituisce il myresolve per la diretta, o None."""
     if not nome_canale:
         return None
     c = _canonical(nome_canale)
-
-    # 1) Stream diretto (m3u8)
-    stream_url = _STREAM_NORM.get(c)
-    if stream_url:
-        return stream_url
-
-    # 2) daddyCode / sky
     entry = _DIRETTA_NORM.get(c)
     if entry:
         command, value = entry
         return "{}@@{}".format(command, value)
-
-    # 3) Fallback EPG
     slug = _EPG_NORM.get(c)
     if slug:
         return "epg@@" + slug
@@ -265,6 +252,8 @@ def category_title(nome, totale, primo_livello):
 # ============================================================
 # COSTRUZIONE TITOLI (Layout pulito, una voce per evento)
 # ============================================================
+# Allineamento: il titolo dell'evento è su una riga, poi due righe indentate
+# con lo stesso numero di spazi per un look uniforme.
 INDENT = "        "  # 8 spazi
 
 
@@ -314,29 +303,33 @@ def event_items(ev, now):
     Una sola voce per evento, allineata:
       riga 1: orario + titolo
       riga 2: Canali: ...
-      riga 3: >> Guarda in diretta / >> Guida TV
-    Il click apre la diretta (m3u8, daddyCode, sky) o, se assente, la guida TV.
+      riga 3: >> Guarda in diretta
+    Il click apre la diretta (daddyCode/sky) o, se assente, la guida TV.
     """
     riga_titolo, riga_canali, canali, stato = _riga_evento(ev, now)
 
-    # Cerca il primo canale con diretta (m3u8, daddyCode, sky o epg)
+    # Cerca il primo canale con diretta
     canale_diretta = None
     resolve_dir = None
+    link_dir = None
     for c in canali:
         nome = c.get("nome", "")
+        l = _LINK_NORM.get(_canonical(nome))
+        if l:
+            link_dir = l
+            canale_diretta = nome
+            break
         r = resolve_diretta(nome)
         if r:
             resolve_dir = r
             canale_diretta = nome
             break
 
-    # Etichetta della riga di azione
+    # Etichetta della riga di azione, coerente con il tipo di resolve
     if resolve_dir and resolve_dir.startswith("epg@@"):
         etichetta = "[COLOR cyan][B]>> Guida TV[/B][/COLOR]"
-    elif resolve_dir:
-        etichetta = "[COLOR lime][B]>> Guarda in diretta[/B][/COLOR]"
     else:
-        etichetta = "[COLOR grey][B]>> Non disponibile[/B][/COLOR]"
+        etichetta = "[COLOR lime][B]>> Guarda in diretta[/B][/COLOR]"
 
     titolo = (
         riga_titolo + "[CR]"
@@ -344,16 +337,15 @@ def event_items(ev, now):
         + INDENT + etichetta
     )
 
+    if link_dir:
+        return [{
+            "title": titolo,
+            "thumbnail": THUMB,
+            "fanart": FANART,
+            "info": _info_evento(ev, "Apri " + (canale_diretta or "il canale")),
+            "link": link_dir,
+        }]
     if resolve_dir:
-        # Se è un URL m3u8 diretto, lo passiamo come "link"
-        if resolve_dir.startswith("http"):
-            return [{
-                "title": titolo,
-                "thumbnail": THUMB,
-                "fanart": FANART,
-                "info": _info_evento(ev, "Apri " + (canale_diretta or "il canale")),
-                "link": resolve_dir,
-            }]
         return [{
             "title": titolo,
             "thumbnail": THUMB,
