@@ -3,13 +3,12 @@
 """
 Converte output/calendario_sport.json in un albero di JSON in formato MandraKodi.
 
-Ogni evento genera:
-  - Una voce principale con l'EPG (guida TV) del primo canale disponibile
-  - Una voce con la diretta (sky@@, daddyCode@@, ecc.) del primo canale disponibile
-  - Se nessun canale ha resolve, una voce non cliccabile (link: ignoreme)
+Layout B (senza emoji - solo BBCode [COLOR]/[B]):
+  - Voce principale  : titolo evento + riga Canali + riga "Guida TV"
+  - Voce secondaria  : "Guarda in diretta" + orario + titolo evento
 
-Struttura generata (2 livelli, come calendario_sport.json):
-  root.json                        -> una voce per ogni cartella di primo livello
+Struttura generata:
+  root.json                        -> una voce per cartella di primo livello
   <slug-cartella>.json             -> sottocartelle oppure eventi
   <slug-cartella>-<slug-sub>.json  -> eventi della sottocartella
 """
@@ -24,149 +23,77 @@ from zoneinfo import ZoneInfo
 
 BASE_URL = "https://raw.githubusercontent.com/aandroide/Livesoccer/master/output/kodi/"
 TARGET_TZ = "Europe/Rome"
-THUMB = "https://raw.githubusercontent.com/jdecked/twemoji/v15.0.3/assets/72x72/1f5d3.png"
-THUMB_GUIDA = "https://raw.githubusercontent.com/jdecked/twemoji/v15.0.3/assets/72x72/1f4fa.png"
-THUMB_PLAY = "https://raw.githubusercontent.com/jdecked/twemoji/v15.0.3/assets/72x72/25b6.png"
+
+# Niente emoji: la skin Kodi non le disegna bene e compaiono quadratini vuoti.
+# Le thumbnail restano vuote (stringa vuota) così la skin mostra solo il fanart.
+THUMB = ""
 FANART = "https://www.stadiotardini.it/wp-content/uploads/2016/12/mandrakata.jpg"
 
 
 # ============================================================
-# TABELLA CANALI - EPG (guida TV)
-# Toccando la voce, l'addon legge la guida programmi del canale.
+# TABELLE CANALI
 # ============================================================
 CANALI_EPG = {
-    'Rai 1': 'rai-1',
-    'Rai 2': 'rai-2',
-    'Rai 3': 'rai-3',
-    'Rete 4': 'rete4',
-    'Canale 5': 'canale-5',
-    'Italia 1': 'italia-uno',
-    'La 7': 'la7',
-    'TV 8': 'tv8',
-    'Nove': 'nove',
-    'Canale 20': 'canale-20',
-    'Rai 4': 'rai-4',
-    'Iris': 'iris',
-    'Rai 5': 'rai-5',
-    'Rai Movie': 'rai-movie',
-    'Rai Premium': 'rai-premium',
-    'Cielo': 'cielo',
-    'Twenty Seven': 'mediaset-27',
-    'TV 2000': 'tv2000',
-    'La 7 Cinema': 'la7-cinema',
-    'La 5': 'la-5',
-    'Real Time': 'real-time',
-    'QVC': 'qvc',
-    'Food Network': 'foodnetwork',
-    'Cine 34': 'cine-34',
-    'Focus': 'focus',
-    'Discovery': 'discovery',
-    'Giallo': 'giallo',
-    'Top Crime': 'topcrime',
-    'Boing': 'boing',
-    'K2': 'k2',
-    'Rai Gulp': 'rai-gulp',
-    'Rai YoYo': 'rai-yoyo',
-    'Frisbee': 'frisbee',
-    'Boing Plus': 'boing-plus',
-    'Cartoonito': 'cartoonito',
-    'Super!': 'super!',
-    'Rai News 24': 'rai-news-24',
-    'Italia Due': 'mediaset-italia-due',
-    'Sky TG 24': 'sky-tg24',
-    'TG COM 24': 'tgcom24',
-    'DMax': 'dmax',
-    'Rai Storia': 'rai-storia',
-    'Mediaset Extra': 'mediaset-extra',
-    'H&G TV': 'home-and-garden-tv',
-    'Rai Scuola': 'rai-scuola',
-    'Rai Sport': 'rai-sport',
-    'Motor Trend': 'motor-trend',
-    'Sportitalia': 'sportitalia',
-    'Super Tennis': 'supertennis',
-    'Alma TV': 'alma-tv',
-    'Radio Italia TV': 'radioitaliatv',
-    'RSI LA 1': 'rsi-la1',
-    'RSI LA 2': 'rsi-la2',
-    'Sky Uno': 'sky-uno-hd',
-    'Sky Atlantic': 'sky-atlantic-hd',
-    'Sky Serie': 'sky-serie-hd',
-    'Sky Investigation': 'sky-investigation-hd',
-    'Sky Crime': 'sky-crime',
-    'Sky Adventure': 'sky-adventure',
-    'Sky Arte': 'sky-arte-hd',
-    'Sky Classica': 'sky-classica',
-    'Comedy Central': 'comedy-central',
-    'MTV': 'mtv',
-    'Sky Sport 24': 'sky-sport-24',
-    'Sky Sport Uno': 'sky-sport-uno',
-    'Sky Sport Calcio': 'sky-sport-calcio',
-    'Sky Sport Tennis': 'sky-sport-tennis',
-    'Sky Sport Arena': 'sky-sport-arena',
-    'Sky Sport Max': 'sky-sport-max',
-    'Sky Sport Golf': 'sky-sport-golf',
-    'Sky Sport F1': 'sky-sport-f1-hd',
-    'Sky Sport Moto GP': 'sky-sport-motogp',
-    'Sky Sport Basket': 'sky-sport-nba',
-    'Sky Sport Legend': 'sky-sport-legend',
-    'Sky Sport Mix': 'sky-sport-mix',
+    'Rai 1': 'rai-1', 'Rai 2': 'rai-2', 'Rai 3': 'rai-3',
+    'Rete 4': 'rete4', 'Canale 5': 'canale-5', 'Italia 1': 'italia-uno',
+    'La 7': 'la7', 'TV 8': 'tv8', 'Nove': 'nove', 'Canale 20': 'canale-20',
+    'Rai 4': 'rai-4', 'Iris': 'iris', 'Rai 5': 'rai-5',
+    'Rai Movie': 'rai-movie', 'Rai Premium': 'rai-premium', 'Cielo': 'cielo',
+    'Twenty Seven': 'mediaset-27', 'TV 2000': 'tv2000',
+    'La 7 Cinema': 'la7-cinema', 'La 5': 'la-5',
+    'Real Time': 'real-time', 'QVC': 'qvc', 'Food Network': 'foodnetwork',
+    'Cine 34': 'cine-34', 'Focus': 'focus', 'Discovery': 'discovery',
+    'Giallo': 'giallo', 'Top Crime': 'topcrime', 'Boing': 'boing', 'K2': 'k2',
+    'Rai Gulp': 'rai-gulp', 'Rai YoYo': 'rai-yoyo', 'Frisbee': 'frisbee',
+    'Boing Plus': 'boing-plus', 'Cartoonito': 'cartoonito', 'Super!': 'super!',
+    'Rai News 24': 'rai-news-24', 'Italia Due': 'mediaset-italia-due',
+    'Sky TG 24': 'sky-tg24', 'TG COM 24': 'tgcom24', 'DMax': 'dmax',
+    'Rai Storia': 'rai-storia', 'Mediaset Extra': 'mediaset-extra',
+    'H&G TV': 'home-and-garden-tv', 'Rai Scuola': 'rai-scuola',
+    'Rai Sport': 'rai-sport', 'Motor Trend': 'motor-trend',
+    'Sportitalia': 'sportitalia', 'Super Tennis': 'supertennis',
+    'Alma TV': 'alma-tv', 'Radio Italia TV': 'radioitaliatv',
+    'RSI LA 1': 'rsi-la1', 'RSI LA 2': 'rsi-la2',
+    'Sky Uno': 'sky-uno-hd', 'Sky Atlantic': 'sky-atlantic-hd',
+    'Sky Serie': 'sky-serie-hd', 'Sky Investigation': 'sky-investigation-hd',
+    'Sky Crime': 'sky-crime', 'Sky Adventure': 'sky-adventure',
+    'Sky Arte': 'sky-arte-hd', 'Sky Classica': 'sky-classica',
+    'Comedy Central': 'comedy-central', 'MTV': 'mtv',
+    'Sky Sport 24': 'sky-sport-24', 'Sky Sport Uno': 'sky-sport-uno',
+    'Sky Sport Calcio': 'sky-sport-calcio', 'Sky Sport Tennis': 'sky-sport-tennis',
+    'Sky Sport Arena': 'sky-sport-arena', 'Sky Sport Max': 'sky-sport-max',
+    'Sky Sport Golf': 'sky-sport-golf', 'Sky Sport F1': 'sky-sport-f1-hd',
+    'Sky Sport Moto GP': 'sky-sport-motogp', 'Sky Sport Basket': 'sky-sport-nba',
+    'Sky Sport Legend': 'sky-sport-legend', 'Sky Sport Mix': 'sky-sport-mix',
     'Sky Sport 4K': 'sky-sport-4k',
-    'DAZN 1': 'zona-dazn',
-    'DAZN 2': 'zona-dazn-2',
-    'DAZN 3': 'zona-dazn-3',
-    'DAZN 4': 'zona-dazn-4',
-    'DAZN 5': 'zona-dazn-5',
-    'EQU TV': 'equ-tv',
-    'Horse TV': 'horse-tv-hd',
-    'Bike': 'bike',
-    'ACI Sport': 'aci-sport-tv',
-    'Milan TV': 'milan-tv',
-    'Inter TV': 'inter-tv-hd',
-    'Caccia e Pesca': 'caccia-e-pesca',
-    'Pesca e Caccia': 'pesca-e-caccia',
-    'Sky Sport 251': 'sky-sport-hd-1',
-    'Sky Sport 252': 'sky-sport-hd-2',
-    'Sky Sport 253': 'sky-sport-hd-3',
-    'Sky Sport 254': 'sky-sport-hd-4',
-    'Sky Sport 255': 'sky-sport-hd-5',
-    'Sky Sport 256': 'sky-sport-hd-6',
-    'Sky Sport 257': 'sky-sport-hd-7',
-    'Sky Sport 258': 'sky-sport-hd-8',
-    'Sky Sport 259': 'sky-sport-hd-9',
-    'Sky Sport 260': 'sky-sport-hd-10',
-    'Sky Sport 261': 'sky-sport-hd-11',
-    'Sky Sport 262': 'sky-sport-hd-12',
-    'Sky Cinema Uno': 'sky-cinema-uno-hd',
-    'Sky Cinema Due': 'sky-cinema-due-hd',
+    'DAZN 1': 'zona-dazn', 'DAZN 2': 'zona-dazn-2', 'DAZN 3': 'zona-dazn-3',
+    'DAZN 4': 'zona-dazn-4', 'DAZN 5': 'zona-dazn-5',
+    'EQU TV': 'equ-tv', 'Horse TV': 'horse-tv-hd', 'Bike': 'bike',
+    'ACI Sport': 'aci-sport-tv', 'Milan TV': 'milan-tv', 'Inter TV': 'inter-tv-hd',
+    'Caccia e Pesca': 'caccia-e-pesca', 'Pesca e Caccia': 'pesca-e-caccia',
+    'Sky Sport 251': 'sky-sport-hd-1', 'Sky Sport 252': 'sky-sport-hd-2',
+    'Sky Sport 253': 'sky-sport-hd-3', 'Sky Sport 254': 'sky-sport-hd-4',
+    'Sky Sport 255': 'sky-sport-hd-5', 'Sky Sport 256': 'sky-sport-hd-6',
+    'Sky Sport 257': 'sky-sport-hd-7', 'Sky Sport 258': 'sky-sport-hd-8',
+    'Sky Sport 259': 'sky-sport-hd-9', 'Sky Sport 260': 'sky-sport-hd-10',
+    'Sky Sport 261': 'sky-sport-hd-11', 'Sky Sport 262': 'sky-sport-hd-12',
+    'Sky Cinema Uno': 'sky-cinema-uno-hd', 'Sky Cinema Due': 'sky-cinema-due-hd',
     'Sky Cinema Collection': 'sky-cinema-collection-hd',
-    'Sky Cinema Family': 'sky-cinema-family-hd',
-    'Sky Cinema Action': 'sky-cinema-action-hd',
+    'Sky Cinema Family': 'sky-cinema-family-hd', 'Sky Cinema Action': 'sky-cinema-action-hd',
     'Sky Cinema Suspence': 'sky-cinema-suspense-hd',
     'Sky Cinema Romance': 'sky-cinema-romance-hd',
-    'Sky Cinema Drama': 'sky-cinema-drama-hd',
-    'Sky Cinema Comedy': 'sky-cinema-comedy-hd',
+    'Sky Cinema Drama': 'sky-cinema-drama-hd', 'Sky Cinema Comedy': 'sky-cinema-comedy-hd',
     'Gambero Rosso': 'gambero-rosso-hd',
-    'Sky Documentaries': 'sky-documentaries-hd',
-    'Sky Nature': 'sky-nature-hd',
+    'Sky Documentaries': 'sky-documentaries-hd', 'Sky Nature': 'sky-nature-hd',
     'Discovery Channel': 'discovery-channel-hd',
-    'History Channel': 'history-channel',
-    'History Roma': 'history-roma',
-    'Dea Kids': 'deakids',
-    'Nick Jr.': 'nick-junior',
-    'Nickelodeon': 'nickelodeon',
-    'Cartoon Network': 'cartoon-network',
-    'Boomerang': 'boomerang',
+    'History Channel': 'history-channel', 'History Roma': 'history-roma',
+    'Dea Kids': 'deakids', 'Nick Jr.': 'nick-junior', 'Nickelodeon': 'nickelodeon',
+    'Cartoon Network': 'cartoon-network', 'Boomerang': 'boomerang',
     'Dea Junior': 'dea-junior',
 }
 
-
-# ============================================================
-# TABELLA CANALI - DIRETTE (sky / daddyCode)
-# Toccando la voce, l'addon apre il flusso del canale.
-# Priorità: prima daddyCode se presente, poi sky, poi epg.
-# ============================================================
 CANALI_DIRETTA = {
-    # === DADDYCODE (DaddyLive) ===
+    # DADDYCODE
     '20 Mediaset': ('daddyCode', '857'),
     'Canale 5': ('daddyCode', '853'),
     'EuroSport 1': ('daddyCode', '878'),
@@ -208,8 +135,7 @@ CANALI_DIRETTA = {
     'Sky Sports Golf': ('daddyCode', '574'),
     'Sky UNO': ('daddyCode', '881'),
     'DAZN 1': ('daddyCode', '877'),
-
-    # === SKY (Now TV) ===
+    # SKY
     'Sky Uno': ('sky', 'skyuno'),
     'Sky Uno FHD': ('sky', 'skyuno'),
     'Sky Uno Plus': ('sky', 'skyunoplus'),
@@ -232,10 +158,6 @@ CANALI_DIRETTA = {
     'History': ('sky', 'historychannel'),
 }
 
-
-# ============================================================
-# ALIAS
-# ============================================================
 ALIAS_CANALI = {
     "Sky Sport 1": "Sky Sport UNO",
     "Sky Sport 1 FHD": "Sky Sport UNO",
@@ -249,14 +171,16 @@ ALIAS_CANALI = {
     "RaiSport": "Rai Sport",
     "SkySport24": "Sky Sport 24",
     "Sky Sport 24 HD": "Sky Sport 24",
+    "SKY Go Italia": "Sky Sport Calcio",
+    "NOW TV": "Sky Sport Calcio",
 }
 
 
 # ============================================================
-# NORMALIZZAZIONE E MATCHING
+# NORMALIZZAZIONE
 # ============================================================
 def _norm(nome):
-    return re.sub(r"[^a-z0-9]", "", nome.lower())
+    return re.sub(r"[^a-z0-9]", "", (nome or "").lower())
 
 
 _EPG_NORM = {_norm(k): v for k, v in CANALI_EPG.items()}
@@ -265,22 +189,17 @@ _ALIAS_NORM = {_norm(k): _norm(v) for k, v in ALIAS_CANALI.items()}
 
 
 def _canonical(nome):
-    """Applica alias e normalizzazione, restituisce la chiave canonica."""
     n = _norm(nome)
     return _ALIAS_NORM.get(n, n)
 
 
 def slug_guida(nome_canale):
-    """Restituisce lo slug EPG per un canale, o None."""
     if not nome_canale:
         return None
     return _EPG_NORM.get(_canonical(nome_canale))
 
 
 def resolve_diretta(nome_canale):
-    """Restituisce il myresolve per la diretta, o None.
-    Priorità: daddyCode > sky > epg (come fallback).
-    """
     if not nome_canale:
         return None
     c = _canonical(nome_canale)
@@ -288,28 +207,10 @@ def resolve_diretta(nome_canale):
     if entry:
         command, value = entry
         return "{}@@{}".format(command, value)
-    # Fallback: usa EPG
     slug = _EPG_NORM.get(c)
     if slug:
         return "epg@@" + slug
     return None
-
-
-def resolve_primario(nome_canale):
-    """Restituisce il resolve per la voce principale (guida TV).
-    Preferisce l'EPG, poi la diretta.
-    """
-    if not nome_canale:
-        return None, None
-    c = _canonical(nome_canale)
-    slug = _EPG_NORM.get(c)
-    if slug:
-        return "epg@@" + slug, "guida"
-    entry = _DIRETTA_NORM.get(c)
-    if entry:
-        command, value = entry
-        return "{}@@{}".format(command, value), "diretta"
-    return None, None
 
 
 # ============================================================
@@ -340,13 +241,13 @@ def category_title(nome, totale, primo_livello):
 
 
 # ============================================================
-# GENERAZIONE ITEM
+# COSTRUZIONE TITOLI (LAYOUT B - solo BBCode, niente emoji)
 # ============================================================
-SPAZIATORE = True
+INDENT = "        "  # 8 spazi per indentare le sotto-voci
 
 
-def _riga_evento(ev, now):
-    """Costruisce la prima e seconda riga del titolo di un evento."""
+def _titolo_evento_base(ev, now):
+    """Restituisce (riga1, riga2, canali, stato, colore)."""
     stato = stato_evento(ev.get("inizio", ""), now)
     ora = ev.get("ora", "")
     titolo_ev = ev["titolo"]
@@ -356,25 +257,23 @@ def _riga_evento(ev, now):
         riga1 = "[COLOR red][B]%s[/B][/COLOR]%s[B]%s[/B]   [COLOR red][B][LIVE][/B][/COLOR]" % (ora, gap, titolo_ev)
         colore = "khaki"
     elif stato == "finished":
-        riga1 = "[COLOR grey][B]%s[/B]%s%s[/COLOR]" % (ora, gap, titolo_ev)
+        riga1 = "[COLOR grey][B]%s[/B][/COLOR]%s%s[/COLOR]" % (ora, gap, titolo_ev)
         colore = "grey"
     else:
         riga1 = "[COLOR yellow][B]%s[/B][/COLOR]%s[B]%s[/B]" % (ora, gap, titolo_ev)
         colore = "khaki"
 
     canali = ev.get("canali") or []
-    rientro = "           "
     if canali:
         nomi = ", ".join(c["nome"] for c in canali)
-        riga2 = "%s[COLOR %s][B]Canali:[/B] %s[/COLOR]" % (rientro, colore, nomi)
+        riga2 = "[COLOR %s][B]Canali:[/B] %s[/COLOR]" % (colore, nomi)
     else:
-        riga2 = "%s[COLOR grey][B]Canali:[/B] nessuno indicato[/COLOR]" % rientro
+        riga2 = "[COLOR grey][B]Canali:[/B] nessuno indicato[/COLOR]"
 
-    return riga1, riga2, canali
+    return riga1, riga2, canali, stato, colore
 
 
 def _info_evento(ev, etichetta_tipo=None):
-    """Costruisce il campo 'info' (descrizione)."""
     righe = []
     if etichetta_tipo:
         righe.append(etichetta_tipo)
@@ -390,17 +289,12 @@ def _info_evento(ev, etichetta_tipo=None):
 
 def event_items(ev, now):
     """
-    Genera una LISTA di item per un evento:
-      - 1 voce principale (guida TV, se disponibile)
-      - 1 voce diretta (sky/daddyCode, se diversa dalla principale)
-      - 1 voce non cliccabile (fallback, se nessuna delle precedenti)
+    Layout B, niente emoji. Due voci per evento:
+      1) titolo evento + Canali + [ Guida TV ]
+      2) [ Guarda in diretta ] + titolo evento
     """
-    riga1, riga2, canali = _riga_evento(ev, now)
-    titolo_base = riga1 + "[CR]" + riga2
+    riga1, riga2, canali, stato, colore = _titolo_evento_base(ev, now)
 
-    items = []
-
-    # Trova il primo canale con EPG e il primo con diretta
     canale_epg = None
     slug_epg = None
     canale_diretta = None
@@ -421,35 +315,42 @@ def event_items(ev, now):
         if slug_epg and resolve_dir:
             break
 
-    # 1) Voce principale = guida TV
+    items = []
+
+    # ---------- VOCE 1: guida TV ----------
     if slug_epg:
+        titolo = (
+            riga1 + "[CR]"
+            + INDENT + riga2 + "[CR]"
+            + INDENT + "[COLOR cyan][B]>> Guida TV[/B][/COLOR]"
+        )
         items.append({
-            "title": titolo_base,
-            "thumbnail": THUMB_GUIDA,
+            "title": titolo,
+            "thumbnail": THUMB,
             "fanart": FANART,
-            "info": _info_evento(ev, "Tocca per la guida programmi di " + canale_epg),
+            "info": _info_evento(ev, "Apri la guida programmi di " + canale_epg),
             "myresolve": "epg@@" + slug_epg,
         })
 
-    # 2) Voce diretta (se diversa dalla guida o se non c'è guida)
-    if resolve_dir and resolve_dir != ("epg@@" + (slug_epg or "")):
-        # Se c'è già la voce guida, il titolo della diretta è più corto
-        if slug_epg:
-            titolo_dir = "[COLOR lime][B]>>> GUARDA IN DIRETTA[/B][/COLOR]   " + riga1.replace("[CR]", " ")
-        else:
-            titolo_dir = titolo_base
+    # ---------- VOCE 2: diretta ----------
+    if resolve_dir:
+        titolo_dir = (
+            INDENT + "[COLOR lime][B]>> Guarda in diretta[/B][/COLOR]"
+            + "[CR]" + INDENT + INDENT + riga1
+        )
         items.append({
             "title": titolo_dir,
-            "thumbnail": THUMB_PLAY,
+            "thumbnail": THUMB,
             "fanart": FANART,
-            "info": _info_evento(ev, "Tocca per aprire " + (canale_diretta or "")),
+            "info": _info_evento(ev, "Apri la diretta di " + (canale_diretta or "")),
             "myresolve": resolve_dir,
         })
 
-    # 3) Fallback: nessun resolve, voce non cliccabile
+    # ---------- FALLBACK ----------
     if not items:
+        titolo = riga1 + "[CR]" + INDENT + riga2
         items.append({
-            "title": titolo_base,
+            "title": titolo,
             "thumbnail": THUMB,
             "fanart": FANART,
             "info": _info_evento(ev, "Nessuna diretta associata"),
@@ -459,8 +360,17 @@ def event_items(ev, now):
     return items
 
 
+# ============================================================
+# SPAZIATORE / CARTELLE / INTESTAZIONI
+# ============================================================
 def spacer_item():
-    return {"title": " ", "link": "ignoreme", "thumbnail": THUMB, "fanart": FANART, "info": ""}
+    return {
+        "title": " ",
+        "link": "ignoreme",
+        "thumbnail": THUMB,
+        "fanart": FANART,
+        "info": "",
+    }
 
 
 def folder_item(titolo, filename):
@@ -475,11 +385,13 @@ def folder_item(titolo, filename):
 def day_header(data_str):
     try:
         d = datetime.strptime(data_str, "%d/%m/%Y")
-    except (ValueError, TypeError):
+    except ValueError:
         return None
     giorni = ["Lunedi", "Martedi", "Mercoledi", "Giovedi", "Venerdi", "Sabato", "Domenica"]
     return {
-        "title": "[COLOR cyan][B]{} {}/{}[/B][/COLOR]".format(giorni[d.weekday()], d.day, d.month),
+        "title": "[COLOR cyan][B]--- {} {}/{} ---[/B][/COLOR]".format(
+            giorni[d.weekday()], d.day, d.month
+        ),
         "link": "ignoreme",
         "thumbnail": THUMB,
         "fanart": FANART,
@@ -488,8 +400,13 @@ def day_header(data_str):
 
 
 def eventi_to_items(eventi, now):
+    """
+    Header giorno quando cambia la data.
+    Spaziatore tra eventi diversi (non tra voci dello stesso evento).
+    """
     items = []
     giorno = None
+
     for ev in sorted(eventi, key=lambda e: e.get("inizio", "")):
         if ev.get("data") != giorno:
             giorno = ev.get("data")
@@ -497,11 +414,9 @@ def eventi_to_items(eventi, now):
             if h:
                 items.append(h)
 
-        # Spaziatore prima di ogni nuovo evento
-        if SPAZIATORE and items and items[-1].get("_ev"):
+        if items and items[-1].get("_ev"):
             items.append(spacer_item())
 
-        # Genera una o più voci per l'evento
         voci = event_items(ev, now)
         for v in voci:
             v["_ev"] = True
@@ -512,10 +427,14 @@ def eventi_to_items(eventi, now):
     return items
 
 
+# ============================================================
+# BUILD
+# ============================================================
 def write_json(out_dir, filename, items, view_mode="51"):
     path = os.path.join(out_dir, filename)
     with open(path, "w", encoding="utf-8") as f:
-        json.dump({"SetViewMode": view_mode, "items": items}, f, ensure_ascii=False, indent=2)
+        json.dump({"SetViewMode": view_mode, "items": items}, f,
+                  ensure_ascii=False, indent=2)
 
 
 def build(data, out_dir, now):
@@ -531,12 +450,15 @@ def build(data, out_dir, now):
             for sub in cart["sottocartelle"]:
                 sub_slug = "%s-%s" % (cart_slug, slugify(sub["nome"]))
                 sub_filename = sub_slug + ".json"
-                write_json(out_dir, sub_filename, eventi_to_items(sub.get("eventi", []), now))
-                sub_label = category_title(sub["nome"], sub.get("totale", 0), primo_livello=False)
+                write_json(out_dir, sub_filename,
+                           eventi_to_items(sub.get("eventi", []), now))
+                sub_label = category_title(sub["nome"], sub.get("totale", 0),
+                                           primo_livello=False)
                 sub_items.append(folder_item(sub_label, sub_filename))
             write_json(out_dir, cart_slug + ".json", sub_items)
         else:
-            write_json(out_dir, cart_slug + ".json", eventi_to_items(cart.get("eventi", []), now))
+            write_json(out_dir, cart_slug + ".json",
+                       eventi_to_items(cart.get("eventi", []), now))
 
         root_items.append(folder_item(etichetta, cart_slug + ".json"))
 
