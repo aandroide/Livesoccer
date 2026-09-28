@@ -268,7 +268,7 @@ def _riga_evento(ev, now):
         riga_titolo = "[COLOR red][B]%s[/B][/COLOR]%s[B]%s[/B]   [COLOR red][B][LIVE][/B][/COLOR]" % (ora, gap, titolo_ev)
         colore = "khaki"
     elif stato == "finished":
-        riga_titolo = "[COLOR grey][B]%s[/B][/COLOR]%s%s[/COLOR]" % (ora, gap, titolo_ev)
+        riga_titolo = "[COLOR grey][B]%s[/B][/COLOR]%s[COLOR grey]%s[/COLOR]" % (ora, gap, titolo_ev)
         colore = "grey"
     else:
         riga_titolo = "[COLOR yellow][B]%s[/B][/COLOR]%s[B]%s[/B]" % (ora, gap, titolo_ev)
