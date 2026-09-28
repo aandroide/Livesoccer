@@ -79,54 +79,37 @@ def category_title(nome, totale, primo_livello):
     return "[COLOR cyan]%s[/COLOR] [COLOR grey](%d)[/COLOR]" % (peso, totale)
 
 
-def wrap_canali(nomi, larghezza=48):
-    """Spezza l'elenco dei canali in piu' righe, per non allungare una riga
-    all'infinito. Le righe successive alla prima sono rientrate come l'etichetta."""
-    righe, corrente = [], ""
-    for nome in nomi:
-        candidato = nome if not corrente else corrente + ", " + nome
-        if corrente and len(candidato) > larghezza:
-            righe.append(corrente + ",")
-            corrente = nome
-        else:
-            corrente = candidato
-    if corrente:
-        righe.append(corrente)
-    return righe
+# La skin mostra al massimo DUE righe per voce: una terza viene tagliata (visto
+# nello screenshot), quindi orario e titolo stanno insieme sulla prima riga e
+# i canali sulla seconda. Per dare respiro si usa una voce spaziatrice tra un
+# evento e l'altro (SPAZIATORE), non una riga vuota dentro al testo.
+SPAZIATORE = True
 
 
 def event_item(ev, now):
-    """Layout scelto (bozza C): orario su una riga a se', poi il titolo, poi i
-    canali, e una riga vuota finale per staccare un evento dal successivo.
-    Il resto (data, fonte, altri paesi) sta nel pannello info a sinistra."""
     stato = stato_evento(ev.get("inizio", ""), now)
     ora = ev.get("ora", "")
     titolo_ev = ev["titolo"]
+    gap = "     "
 
     if stato == "live":
-        riga_ora = "[COLOR red][B]%s   [LIVE][/B][/COLOR]" % ora
-        riga_tit = "[B]%s[/B]" % titolo_ev
-        colore_canali = "khaki"
+        riga1 = "[COLOR red][B]%s[/B][/COLOR]%s[B]%s[/B]   [COLOR red][B][LIVE][/B][/COLOR]" % (ora, gap, titolo_ev)
+        colore = "khaki"
     elif stato == "finished":
-        riga_ora = "[COLOR grey][B]%s[/B][/COLOR]" % ora
-        riga_tit = "[COLOR grey]%s[/COLOR]" % titolo_ev
-        colore_canali = "grey"
+        riga1 = "[COLOR grey][B]%s[/B]%s%s[/COLOR]" % (ora, gap, titolo_ev)
+        colore = "grey"
     else:
-        riga_ora = "[COLOR yellow][B]%s[/B][/COLOR]" % ora
-        riga_tit = "[B]%s[/B]" % titolo_ev
-        colore_canali = "khaki"
+        riga1 = "[COLOR yellow][B]%s[/B][/COLOR]%s[B]%s[/B]" % (ora, gap, titolo_ev)
+        colore = "khaki"
 
     canali = ev.get("canali") or []
+    rientro = "           "
     if canali:
-        righe_canali = wrap_canali([c["nome"] for c in canali])
-        testo = righe_canali[0]
-        for extra in righe_canali[1:]:
-            testo += "[CR]          " + extra
-        riga_can = "[COLOR %s][B]Canali:[/B] %s[/COLOR]" % (colore_canali, testo)
+        nomi = ", ".join(c["nome"] for c in canali)
+        riga2 = "%s[COLOR %s][B]Canali:[/B] %s[/COLOR]" % (rientro, colore, nomi)
     else:
-        riga_can = "[COLOR grey][B]Canali:[/B] nessuno indicato[/COLOR]"
-
-    titolo = riga_ora + "[CR]" + riga_tit + "[CR]" + riga_can + "[CR] "
+        riga2 = "%s[COLOR grey][B]Canali:[/B] nessuno indicato[/COLOR]" % rientro
+    titolo = riga1 + "[CR]" + riga2
 
     righe_info = []
     mondo = ev.get("canali_mondo") or []
@@ -144,6 +127,10 @@ def event_item(ev, now):
         "fanart": FANART,
         "info": "\n".join(righe_info),
     }
+
+
+def spacer_item():
+    return {"title": " ", "link": "ignoreme", "thumbnail": THUMB, "fanart": FANART, "info": ""}
 
 
 def folder_item(titolo, filename):
@@ -179,7 +166,13 @@ def eventi_to_items(eventi, now):
             h = day_header(giorno) if giorno else None
             if h:
                 items.append(h)
-        items.append(event_item(ev, now))
+        if SPAZIATORE and items and items[-1].get("_ev"):
+            items.append(spacer_item())
+        it = event_item(ev, now)
+        it["_ev"] = True
+        items.append(it)
+    for it in items:
+        it.pop("_ev", None)
     return items
 
 
