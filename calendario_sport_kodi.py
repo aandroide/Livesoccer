@@ -1,34 +1,19 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Converte output/calendario_sport.json in un albero di JSON in formato MandraKodi
-(quello che start.py/launcher.py sanno gia' leggere: {"SetViewMode":..,"items":[...]}).
+Converte output/calendario_sport.json in un albero di JSON in formato MandraKodi.
 
-Non serve nessun codice nuovo nell'addon: il motore che c'e' gia' interpreta da solo
-un elemento con "externallink" come cartella che apre un altro JSON (jsonToItems ->
-getExtData), esattamente come per le liste normali (vedi start.py). Qui produciamo
-solo i file.
+Ogni evento genera:
+  - Una voce principale con l'EPG (guida TV) del primo canale disponibile
+  - Una voce con la diretta (sky@@, daddyCode@@, ecc.) del primo canale disponibile
+  - Se nessun canale ha resolve, una voce non cliccabile (link: ignoreme)
 
 Struttura generata (2 livelli, come calendario_sport.json):
-  root.json                  -> una voce per ogni cartella di primo livello (Oggi, Motori, Calcio...)
-  <slug-cartella>.json       -> se ha sottocartelle, una voce per ognuna; se no, gli eventi
-  <slug-cartella>-<slug-sub>.json -> gli eventi della sottocartella
-
-Ogni file viene scritto sotto OUT_DIR e riferito con BASE_URL + nomefile, cosi' come
-raw.githubusercontent.com viene gia' usato altrove nel progetto (es. eventi.json).
-
-IMPORTANTE - cose che ho deciso senza un precedente da copiare (il generatore delle
-cartelle live per paese non era disponibile): controllale e cambiale pure.
-  - BASE_URL: da adattare a dove verranno davvero pubblicati questi file.
-  - Stato LIVE/finita: calendario_sport.json non porta uno stato per evento (a
-    differenza del vecchio eventi.json), quindi lo calcolo qui al momento della
-    generazione confrontando "inizio" con l'ora corrente (finestra di 2 ore per
-    considerarlo "in corso"). E' una foto al momento del giro, non aggiornata al
-    secondo come la pagina web.
-  - "Altri paesi": sulla pagina web e' un chip che si apre. Qui, per non dover
-    scrivere un file a parte per ogni singola partita (sarebbero centinaia), lo
-    riduco a una riga con il conteggio dei paesi nell'informazione dell'evento.
+  root.json                        -> una voce per ogni cartella di primo livello
+  <slug-cartella>.json             -> sottocartelle oppure eventi
+  <slug-cartella>-<slug-sub>.json  -> eventi della sottocartella
 """
+
 import argparse
 import json
 import os
@@ -39,49 +24,16 @@ from zoneinfo import ZoneInfo
 
 BASE_URL = "https://raw.githubusercontent.com/aandroide/Livesoccer/master/output/kodi/"
 TARGET_TZ = "Europe/Rome"
-# Icona di un calendario a spirale, colorata: e' un'immagine vera (un file
-# Twemoji preso da GitHub), non un carattere emoji nel testo, quindi la skin
-# la disegna sempre, a differenza dei quadratini vuoti visti negli screenshot.
-# Licenza Twemoji: CC-BY 4.0.
 THUMB = "https://raw.githubusercontent.com/jdecked/twemoji/v15.0.3/assets/72x72/1f5d3.png"
+THUMB_GUIDA = "https://raw.githubusercontent.com/jdecked/twemoji/v15.0.3/assets/72x72/1f4fa.png"
+THUMB_PLAY = "https://raw.githubusercontent.com/jdecked/twemoji/v15.0.3/assets/72x72/25b6.png"
 FANART = "https://www.stadiotardini.it/wp-content/uploads/2016/12/mandrakata.jpg"
 
-# Niente emoji: il font di molte skin Kodi non li disegna e restano quadratini
-# vuoti (visto negli screenshot). Il resto dell'addon distingue le sezioni solo
-# con [COLOR]/[B], quindi le cartelle del calendario usano lo stesso linguaggio,
-# per integrarsi invece di spiccare come un difetto grafico.
 
-
-def slugify(text):
-    text = unicodedata.normalize("NFKD", text).encode("ascii", "ignore").decode("ascii")
-    text = re.sub(r"[^a-zA-Z0-9]+", "-", text).strip("-").lower()
-    return text or "x"
-
-
-def stato_evento(inizio_iso, now):
-    """calendario_sport.json non porta uno stato per evento: lo stimo qui
-    confrontando l'orario di inizio con 'now', con una finestra di 2 ore per
-    considerare l'evento ancora in corso. Vedi nota nel docstring del modulo."""
-    try:
-        inizio = datetime.fromisoformat(inizio_iso)
-    except (ValueError, TypeError):
-        return "upcoming"
-    if now < inizio:
-        return "upcoming"
-    if now <= inizio + timedelta(hours=2):
-        return "live"
-    return "finished"
-
-
-def category_title(nome, totale, primo_livello):
-    nome_mostrato = nome.upper() if primo_livello else nome
-    peso = "[B]%s[/B]" % nome_mostrato if primo_livello else nome_mostrato
-    return "[COLOR cyan]%s[/COLOR] [COLOR grey](%d)[/COLOR]" % (peso, totale)
-
-
-# Guida programmi per canale. Tabella ricavata dalla lista "ITALY EPG" dell'addon
-# (voci "epg@@slug"): toccando una voce l'addon legge la guida di quel canale e
-# mostra orari e titoli. Sono informazioni sui palinsesti, nessun flusso video.
+# ============================================================
+# TABELLA CANALI - EPG (guida TV)
+# Toccando la voce, l'addon legge la guida programmi del canale.
+# ============================================================
 CANALI_EPG = {
     'Rai 1': 'rai-1',
     'Rai 2': 'rai-2',
@@ -207,40 +159,194 @@ CANALI_EPG = {
     'Dea Junior': 'dea-junior',
 }
 
-# Nomi usati dalle fonti del calendario che nella lista si chiamano diversamente.
+
+# ============================================================
+# TABELLA CANALI - DIRETTE (sky / daddyCode)
+# Toccando la voce, l'addon apre il flusso del canale.
+# Priorità: prima daddyCode se presente, poi sky, poi epg.
+# ============================================================
+CANALI_DIRETTA = {
+    # === DADDYCODE (DaddyLive) ===
+    '20 Mediaset': ('daddyCode', '857'),
+    'Canale 5': ('daddyCode', '853'),
+    'EuroSport 1': ('daddyCode', '878'),
+    'EuroSport 2': ('daddyCode', '879'),
+    'Italia 1': ('daddyCode', '854'),
+    'La7d': ('daddyCode', '856'),
+    'La7d HD+': ('daddyCode', '856'),
+    'La7': ('daddyCode', '855'),
+    'Rai 1': ('daddyCode', '850'),
+    'Rai 2': ('daddyCode', '851'),
+    'Rai 3': ('daddyCode', '852'),
+    'Rai Premium': ('daddyCode', '858'),
+    'Rai Sport': ('daddyCode', '882'),
+    'Sky Calcio 1 (251)': ('daddyCode', '871'),
+    'Sky Calcio 2 (252)': ('daddyCode', '872'),
+    'Sky Calcio 3 (253)': ('daddyCode', '873'),
+    'Sky Calcio 4 (254)': ('daddyCode', '874'),
+    'Sky Calcio 5 (255)': ('daddyCode', '875'),
+    'Sky Calcio 6 (256)': ('daddyCode', '876'),
+    'Sky Cinema Action': ('daddyCode', '861'),
+    'Sky Cinema Collection': ('daddyCode', '859'),
+    'Sky Cinema Comedy': ('daddyCode', '862'),
+    'Sky Cinema Drama': ('daddyCode', '867'),
+    'Sky Cinema Due +24': ('daddyCode', '866'),
+    'Sky Cinema Family': ('daddyCode', '865'),
+    'Sky Cinema Romance': ('daddyCode', '864'),
+    'Sky Cinema Suspense': ('daddyCode', '868'),
+    'Sky Cinema Uno +24': ('daddyCode', '863'),
+    'Sky Cinema Uno': ('daddyCode', '860'),
+    'Sky Serie': ('daddyCode', '880'),
+    'Sky Sport 24': ('daddyCode', '869'),
+    'Sky Sport Arena': ('daddyCode', '462'),
+    'Sky Sport Calcio': ('daddyCode', '870'),
+    'Sky Sport F1': ('daddyCode', '577'),
+    'Sky Sport Football': ('daddyCode', '460'),
+    'Sky Sport MotoGP': ('daddyCode', '575'),
+    'Sky Sport Tennis': ('daddyCode', '576'),
+    'Sky Sport UNO': ('daddyCode', '461'),
+    'Sky Sports Golf': ('daddyCode', '574'),
+    'Sky UNO': ('daddyCode', '881'),
+    'DAZN 1': ('daddyCode', '877'),
+
+    # === SKY (Now TV) ===
+    'Sky Uno': ('sky', 'skyuno'),
+    'Sky Uno FHD': ('sky', 'skyuno'),
+    'Sky Uno Plus': ('sky', 'skyunoplus'),
+    'Sky Atlantic': ('sky', 'skyatlantic'),
+    'Sky Serie FHD': ('sky', 'skyserie'),
+    'Sky Collection': ('sky', 'skycollection'),
+    'Sky Investigation': ('sky', 'skyinvestigation'),
+    'Sky Adventure': ('sky', 'skyadventure'),
+    'Sky Crime': ('sky', 'skycrime'),
+    'Sky Documentaries': ('sky', 'skydocumentaries'),
+    'Sky Nature': ('sky', 'skynature'),
+    'Sky Arte': ('sky', 'skyarte'),
+    'Sky TG 24': ('sky', 'tg24'),
+    'Sky TG24': ('sky', 'tg24'),
+    'TG 24': ('sky', 'tg24'),
+    'TG 24 FHD': ('sky', 'tg24'),
+    'Comedy Central': ('sky', 'comedycentral'),
+    'MTV': ('sky', 'mtv'),
+    'History Channel': ('sky', 'historychannel'),
+    'History': ('sky', 'historychannel'),
+}
+
+
+# ============================================================
+# ALIAS
+# ============================================================
 ALIAS_CANALI = {
-    "Sky Sport 1": "Sky Sport Uno",
+    "Sky Sport 1": "Sky Sport UNO",
+    "Sky Sport 1 FHD": "Sky Sport UNO",
     "DAZN Italia": "DAZN 1",
     "DAZN1": "DAZN 1",
     "TV8": "TV 8",
     "20": "Canale 20",
+    "La7D": "La7d",
+    "TGCOM24": "TG COM 24",
+    "SkyTg24": "Sky TG 24",
+    "RaiSport": "Rai Sport",
+    "SkySport24": "Sky Sport 24",
+    "Sky Sport 24 HD": "Sky Sport 24",
 }
 
 
+# ============================================================
+# NORMALIZZAZIONE E MATCHING
+# ============================================================
 def _norm(nome):
     return re.sub(r"[^a-z0-9]", "", nome.lower())
 
 
 _EPG_NORM = {_norm(k): v for k, v in CANALI_EPG.items()}
+_DIRETTA_NORM = {_norm(k): v for k, v in CANALI_DIRETTA.items()}
 _ALIAS_NORM = {_norm(k): _norm(v) for k, v in ALIAS_CANALI.items()}
 
 
+def _canonical(nome):
+    """Applica alias e normalizzazione, restituisce la chiave canonica."""
+    n = _norm(nome)
+    return _ALIAS_NORM.get(n, n)
+
+
 def slug_guida(nome_canale):
-    """Restituisce lo slug della guida per un canale, o None se non e' in tabella
-    (servizi in streaming come NOW o Paramount+ e canali esteri restano fuori)."""
-    n = _norm(nome_canale)
-    n = _ALIAS_NORM.get(n, n)
-    return _EPG_NORM.get(n)
+    """Restituisce lo slug EPG per un canale, o None."""
+    if not nome_canale:
+        return None
+    return _EPG_NORM.get(_canonical(nome_canale))
 
 
-# La skin mostra al massimo DUE righe per voce: una terza viene tagliata (visto
-# nello screenshot), quindi orario e titolo stanno insieme sulla prima riga e
-# i canali sulla seconda. Per dare respiro si usa una voce spaziatrice tra un
-# evento e l'altro (SPAZIATORE), non una riga vuota dentro al testo.
+def resolve_diretta(nome_canale):
+    """Restituisce il myresolve per la diretta, o None.
+    Priorità: daddyCode > sky > epg (come fallback).
+    """
+    if not nome_canale:
+        return None
+    c = _canonical(nome_canale)
+    entry = _DIRETTA_NORM.get(c)
+    if entry:
+        command, value = entry
+        return "{}@@{}".format(command, value)
+    # Fallback: usa EPG
+    slug = _EPG_NORM.get(c)
+    if slug:
+        return "epg@@" + slug
+    return None
+
+
+def resolve_primario(nome_canale):
+    """Restituisce il resolve per la voce principale (guida TV).
+    Preferisce l'EPG, poi la diretta.
+    """
+    if not nome_canale:
+        return None, None
+    c = _canonical(nome_canale)
+    slug = _EPG_NORM.get(c)
+    if slug:
+        return "epg@@" + slug, "guida"
+    entry = _DIRETTA_NORM.get(c)
+    if entry:
+        command, value = entry
+        return "{}@@{}".format(command, value), "diretta"
+    return None, None
+
+
+# ============================================================
+# UTILS
+# ============================================================
+def slugify(text):
+    text = unicodedata.normalize("NFKD", text).encode("ascii", "ignore").decode("ascii")
+    text = re.sub(r"[^a-zA-Z0-9]+", "-", text).strip("-").lower()
+    return text or "x"
+
+
+def stato_evento(inizio_iso, now):
+    try:
+        inizio = datetime.fromisoformat(inizio_iso)
+    except (ValueError, TypeError):
+        return "upcoming"
+    if now < inizio:
+        return "upcoming"
+    if now <= inizio + timedelta(hours=2):
+        return "live"
+    return "finished"
+
+
+def category_title(nome, totale, primo_livello):
+    nome_mostrato = nome.upper() if primo_livello else nome
+    peso = "[B]%s[/B]" % nome_mostrato if primo_livello else nome_mostrato
+    return "[COLOR cyan]%s[/COLOR] [COLOR grey](%d)[/COLOR]" % (peso, totale)
+
+
+# ============================================================
+# GENERAZIONE ITEM
+# ============================================================
 SPAZIATORE = True
 
 
-def event_item(ev, now):
+def _riga_evento(ev, now):
+    """Costruisce la prima e seconda riga del titolo di un evento."""
     stato = stato_evento(ev.get("inizio", ""), now)
     ora = ev.get("ora", "")
     titolo_ev = ev["titolo"]
@@ -263,38 +369,94 @@ def event_item(ev, now):
         riga2 = "%s[COLOR %s][B]Canali:[/B] %s[/COLOR]" % (rientro, colore, nomi)
     else:
         riga2 = "%s[COLOR grey][B]Canali:[/B] nessuno indicato[/COLOR]" % rientro
-    titolo = riga1 + "[CR]" + riga2
 
-    # Il primo canale dell'evento che ha una guida rende la voce cliccabile.
-    guida = None
-    for c in canali:
-        sl = slug_guida(c["nome"])
-        if sl:
-            guida = (c["nome"], sl)
-            break
+    return riga1, riga2, canali
 
-    righe_info = []
-    if guida:
-        righe_info.append("Tocca per la guida programmi di " + guida[0])
+
+def _info_evento(ev, etichetta_tipo=None):
+    """Costruisce il campo 'info' (descrizione)."""
+    righe = []
+    if etichetta_tipo:
+        righe.append(etichetta_tipo)
     mondo = ev.get("canali_mondo") or []
     if mondo:
-        righe_info.append("Altri paesi: %d" % len(mondo))
+        righe.append("Altri paesi: %d" % len(mondo))
     if ev.get("data"):
-        righe_info.append(ev["data"])
+        righe.append(ev["data"])
     if ev.get("fonte"):
-        righe_info.append("Fonte: " + ev["fonte"])
+        righe.append("Fonte: " + ev["fonte"])
+    return "\n".join(righe)
 
-    item = {
-        "title": titolo,
-        "thumbnail": THUMB,
-        "fanart": FANART,
-        "info": "\n".join(righe_info),
-    }
-    if guida:
-        item["myresolve"] = "epg@@" + guida[1]
-    else:
-        item["link"] = "ignoreme"
-    return item
+
+def event_items(ev, now):
+    """
+    Genera una LISTA di item per un evento:
+      - 1 voce principale (guida TV, se disponibile)
+      - 1 voce diretta (sky/daddyCode, se diversa dalla principale)
+      - 1 voce non cliccabile (fallback, se nessuna delle precedenti)
+    """
+    riga1, riga2, canali = _riga_evento(ev, now)
+    titolo_base = riga1 + "[CR]" + riga2
+
+    items = []
+
+    # Trova il primo canale con EPG e il primo con diretta
+    canale_epg = None
+    slug_epg = None
+    canale_diretta = None
+    resolve_dir = None
+
+    for c in canali:
+        nome = c.get("nome", "")
+        if not slug_epg:
+            s = slug_guida(nome)
+            if s:
+                slug_epg = s
+                canale_epg = nome
+        if not resolve_dir:
+            r = resolve_diretta(nome)
+            if r:
+                resolve_dir = r
+                canale_diretta = nome
+        if slug_epg and resolve_dir:
+            break
+
+    # 1) Voce principale = guida TV
+    if slug_epg:
+        items.append({
+            "title": titolo_base,
+            "thumbnail": THUMB_GUIDA,
+            "fanart": FANART,
+            "info": _info_evento(ev, "Tocca per la guida programmi di " + canale_epg),
+            "myresolve": "epg@@" + slug_epg,
+        })
+
+    # 2) Voce diretta (se diversa dalla guida o se non c'è guida)
+    if resolve_dir and resolve_dir != ("epg@@" + (slug_epg or "")):
+        # Se c'è già la voce guida, il titolo della diretta è più corto
+        if slug_epg:
+            titolo_dir = "[COLOR lime][B]>>> GUARDA IN DIRETTA[/B][/COLOR]   " + riga1.replace("[CR]", " ")
+        else:
+            titolo_dir = titolo_base
+        items.append({
+            "title": titolo_dir,
+            "thumbnail": THUMB_PLAY,
+            "fanart": FANART,
+            "info": _info_evento(ev, "Tocca per aprire " + (canale_diretta or "")),
+            "myresolve": resolve_dir,
+        })
+
+    # 3) Fallback: nessun resolve, voce non cliccabile
+    if not items:
+        items.append({
+            "title": titolo_base,
+            "thumbnail": THUMB,
+            "fanart": FANART,
+            "info": _info_evento(ev, "Nessuna diretta associata"),
+            "link": "ignoreme",
+        })
+
+    return items
 
 
 def spacer_item():
@@ -313,7 +475,7 @@ def folder_item(titolo, filename):
 def day_header(data_str):
     try:
         d = datetime.strptime(data_str, "%d/%m/%Y")
-    except ValueError:
+    except (ValueError, TypeError):
         return None
     giorni = ["Lunedi", "Martedi", "Mercoledi", "Giovedi", "Venerdi", "Sabato", "Domenica"]
     return {
@@ -334,11 +496,17 @@ def eventi_to_items(eventi, now):
             h = day_header(giorno) if giorno else None
             if h:
                 items.append(h)
+
+        # Spaziatore prima di ogni nuovo evento
         if SPAZIATORE and items and items[-1].get("_ev"):
             items.append(spacer_item())
-        it = event_item(ev, now)
-        it["_ev"] = True
-        items.append(it)
+
+        # Genera una o più voci per l'evento
+        voci = event_items(ev, now)
+        for v in voci:
+            v["_ev"] = True
+            items.append(v)
+
     for it in items:
         it.pop("_ev", None)
     return items
