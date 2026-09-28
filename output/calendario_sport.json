@@ -1,79 +1,16 @@
 {
-  "aggiornato": "2026-09-28T12:39:25+02:00",
+  "aggiornato": "2026-09-28T16:09:02+02:00",
   "fonti": {
     "motori": "Fuori Traiettoria, Dizzle0987/motorsport-calendar, palinsesto TV8",
     "calcio_italiano": "https://raw.githubusercontent.com/aandroide/Livesoccer/master/livesoccertv/output/eventi.json",
     "altri_sport": "https://sport.virgilio.it/guida-tv/"
   },
-  "totale": 205,
+  "totale": 204,
   "cartelle": [
     {
       "nome": "Oggi",
-      "totale": 9,
+      "totale": 6,
       "eventi": [
-        {
-          "titolo": "[Tennis] ATP 250 Chengdu: 1a Semifinake",
-          "categoria": "Tennis",
-          "sottocartella": "ATP 250 Chengdu",
-          "sport": "Tennis",
-          "competizione": "ATP 250 Chengdu",
-          "evento": "1a Semifinake",
-          "inizio": "2026-09-28T11:00:00+02:00",
-          "data": "28/09/2026",
-          "ora": "11:00",
-          "canali": [
-            {
-              "nome": "Sky Sport 1",
-              "numero": "201",
-              "tipo": "diretta",
-              "orario": "2026-09-28T11:00",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Tennis] ATP 250 Hangzhou: 1a Semifinale",
-          "categoria": "Tennis",
-          "sottocartella": "ATP 250 Hangzhou",
-          "sport": "Tennis",
-          "competizione": "ATP 250 Hangzhou",
-          "evento": "1a Semifinale",
-          "inizio": "2026-09-28T11:30:00+02:00",
-          "data": "28/09/2026",
-          "ora": "11:30",
-          "canali": [
-            {
-              "nome": "Sky Sport Tennis",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-09-28T11:30",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Tennis] ATP 250 Chengdu: 2a Semifinale",
-          "categoria": "Tennis",
-          "sottocartella": "ATP 250 Chengdu",
-          "sport": "Tennis",
-          "competizione": "ATP 250 Chengdu",
-          "evento": "2a Semifinale",
-          "inizio": "2026-09-28T13:00:00+02:00",
-          "data": "28/09/2026",
-          "ora": "13:00",
-          "canali": [
-            {
-              "nome": "Sky Sport 1",
-              "numero": "201",
-              "tipo": "diretta",
-              "orario": "2026-09-28T13:00",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
         {
           "titolo": "[Tennis] ATP 250 Hangzhou: 2a Semifinale",
           "categoria": "Tennis",
@@ -204,11 +141,11 @@
     },
     {
       "nome": "Motori",
-      "totale": 130,
+      "totale": 132,
       "sottocartelle": [
         {
           "nome": "Formula 1",
-          "totale": 30,
+          "totale": 31,
           "eventi": [
             {
               "titolo": "Formula 1: Bahrain Grand Prix in Malaysia - FP1",
@@ -1620,6 +1557,50 @@
                 }
               ],
               "fonte": "Dizzle0987/motorsport-calendar"
+            },
+            {
+              "titolo": "Formula 1: Qatar Grand Prix - FP1",
+              "categoria": "Motori",
+              "sottocartella": "Formula 1",
+              "sport": "Motori",
+              "competizione": "Formula 1",
+              "evento": "Qatar Grand Prix - FP1",
+              "sessione": "prove",
+              "circuito": "Lusail International Circuit, Lusail, Qatar",
+              "inizio": "2026-11-27T14:30:00+01:00",
+              "data": "27/11/2026",
+              "ora": "14:30",
+              "canali": [
+                {
+                  "nome": "Sky Sport F1",
+                  "numero": "207",
+                  "tipo": "diretta",
+                  "orario": "2026-11-27T14:30",
+                  "fonte": "dizzle+config"
+                },
+                {
+                  "nome": "NOW",
+                  "numero": "",
+                  "tipo": "streaming",
+                  "orario": "2026-11-27T14:30",
+                  "fonte": "dizzle+config"
+                },
+                {
+                  "nome": "Sky Sport 1",
+                  "numero": "201",
+                  "tipo": "diretta",
+                  "orario": "2026-11-27T14:30",
+                  "fonte": "config"
+                },
+                {
+                  "nome": "Sky Sport 4K",
+                  "numero": "213",
+                  "tipo": "diretta",
+                  "orario": "2026-11-27T14:30",
+                  "fonte": "config"
+                }
+              ],
+              "fonte": "Dizzle0987/motorsport-calendar"
             }
           ]
         },
@@ -1757,7 +1738,7 @@
         },
         {
           "nome": "MotoGP",
-          "totale": 49,
+          "totale": 50,
           "eventi": [
             {
               "titolo": "MotoGP: Grand Prix of Japan - Prove libere",
@@ -3336,6 +3317,36 @@
                   "numero": "",
                   "tipo": "streaming",
                   "orario": "2026-11-27T10:45",
+                  "fonte": "dizzle+config"
+                }
+              ],
+              "fonte": "Dizzle0987/motorsport-calendar"
+            },
+            {
+              "titolo": "MotoGP: Valencian Community Grand Prix - Practice",
+              "categoria": "Motori",
+              "sottocartella": "MotoGP",
+              "sport": "Motori",
+              "competizione": "MotoGP",
+              "evento": "Valencian Community Grand Prix - Practice",
+              "sessione": "prove",
+              "circuito": "Circuit Ricardo Tormo, Cheste, Spain",
+              "inizio": "2026-11-27T15:00:00+01:00",
+              "data": "27/11/2026",
+              "ora": "15:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport MotoGP",
+                  "numero": "208",
+                  "tipo": "diretta",
+                  "orario": "2026-11-27T15:00",
+                  "fonte": "dizzle+config"
+                },
+                {
+                  "nome": "NOW",
+                  "numero": "",
+                  "tipo": "streaming",
+                  "orario": "2026-11-27T15:00",
                   "fonte": "dizzle+config"
                 }
               ],
@@ -8647,102 +8658,12 @@
     },
     {
       "nome": "Tennis",
-      "totale": 14,
+      "totale": 11,
       "sottocartelle": [
         {
-          "nome": "ATP 250 Chengdu",
-          "totale": 3,
-          "eventi": [
-            {
-              "titolo": "ATP 250 Chengdu: 1a Semifinake",
-              "categoria": "Tennis",
-              "sottocartella": "ATP 250 Chengdu",
-              "sport": "Tennis",
-              "competizione": "ATP 250 Chengdu",
-              "evento": "1a Semifinake",
-              "inizio": "2026-09-28T11:00:00+02:00",
-              "data": "28/09/2026",
-              "ora": "11:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport 1",
-                  "numero": "201",
-                  "tipo": "diretta",
-                  "orario": "2026-09-28T11:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "ATP 250 Chengdu: 2a Semifinale",
-              "categoria": "Tennis",
-              "sottocartella": "ATP 250 Chengdu",
-              "sport": "Tennis",
-              "competizione": "ATP 250 Chengdu",
-              "evento": "2a Semifinale",
-              "inizio": "2026-09-28T13:00:00+02:00",
-              "data": "28/09/2026",
-              "ora": "13:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport 1",
-                  "numero": "201",
-                  "tipo": "diretta",
-                  "orario": "2026-09-28T13:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "ATP 250 Chengdu: Finale",
-              "categoria": "Tennis",
-              "sottocartella": "ATP 250 Chengdu",
-              "sport": "Tennis",
-              "competizione": "ATP 250 Chengdu",
-              "evento": "Finale",
-              "inizio": "2026-09-29T13:00:00+02:00",
-              "data": "29/09/2026",
-              "ora": "13:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport 1",
-                  "numero": "201",
-                  "tipo": "diretta",
-                  "orario": "2026-09-29T13:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            }
-          ]
-        },
-        {
           "nome": "ATP 250 Hangzhou",
-          "totale": 3,
+          "totale": 2,
           "eventi": [
-            {
-              "titolo": "ATP 250 Hangzhou: 1a Semifinale",
-              "categoria": "Tennis",
-              "sottocartella": "ATP 250 Hangzhou",
-              "sport": "Tennis",
-              "competizione": "ATP 250 Hangzhou",
-              "evento": "1a Semifinale",
-              "inizio": "2026-09-28T11:30:00+02:00",
-              "data": "28/09/2026",
-              "ora": "11:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport Tennis",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-09-28T11:30",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
             {
               "titolo": "ATP 250 Hangzhou: 2a Semifinale",
               "categoria": "Tennis",
@@ -8982,6 +8903,33 @@
                   "numero": "",
                   "tipo": "diretta",
                   "orario": "2026-10-04T07:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            }
+          ]
+        },
+        {
+          "nome": "ATP 250 Chengdu",
+          "totale": 1,
+          "eventi": [
+            {
+              "titolo": "ATP 250 Chengdu: Finale",
+              "categoria": "Tennis",
+              "sottocartella": "ATP 250 Chengdu",
+              "sport": "Tennis",
+              "competizione": "ATP 250 Chengdu",
+              "evento": "Finale",
+              "inizio": "2026-09-29T13:00:00+02:00",
+              "data": "29/09/2026",
+              "ora": "13:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport 1",
+                  "numero": "201",
+                  "tipo": "diretta",
+                  "orario": "2026-09-29T13:00",
                   "fonte": "virgilio"
                 }
               ],
