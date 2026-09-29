@@ -1,79 +1,16 @@
 {
-  "aggiornato": "2026-09-29T12:11:06+02:00",
+  "aggiornato": "2026-09-29T18:42:15+02:00",
   "fonti": {
     "motori": "Fuori Traiettoria, Dizzle0987/motorsport-calendar, palinsesto TV8",
     "calcio_italiano": "https://raw.githubusercontent.com/aandroide/Livesoccer/master/livesoccertv/output/eventi.json",
     "altri_sport": "https://sport.virgilio.it/guida-tv/"
   },
-  "totale": 211,
+  "totale": 218,
   "cartelle": [
     {
       "nome": "Oggi",
-      "totale": 10,
+      "totale": 8,
       "eventi": [
-        {
-          "titolo": "[Tennis] ATP 250 Chengdu: Finale",
-          "categoria": "Tennis",
-          "sottocartella": "ATP 250 Chengdu",
-          "sport": "Tennis",
-          "competizione": "ATP 250 Chengdu",
-          "evento": "Finale",
-          "inizio": "2026-09-29T13:00:00+02:00",
-          "data": "29/09/2026",
-          "ora": "13:00",
-          "canali": [
-            {
-              "nome": "Sky Sport 1",
-              "numero": "201",
-              "tipo": "diretta",
-              "orario": "2026-09-29T13:00",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Tennis] ATP 250 Hangzhou: Finale",
-          "categoria": "Tennis",
-          "sottocartella": "ATP 250 Hangzhou",
-          "sport": "Tennis",
-          "competizione": "ATP 250 Hangzhou",
-          "evento": "Finale",
-          "inizio": "2026-09-29T13:30:00+02:00",
-          "data": "29/09/2026",
-          "ora": "13:30",
-          "canali": [
-            {
-              "nome": "Sky Sport Tennis",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-09-29T13:30",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Calcio] Qualificazioni Coppa d’Africa: Etiopia-Senegal",
-          "categoria": "Calcio",
-          "sottocartella": "Qualificazioni Coppa d’Africa",
-          "sport": "Calcio",
-          "competizione": "Qualificazioni Coppa d’Africa",
-          "evento": "Etiopia-Senegal",
-          "inizio": "2026-09-29T15:00:00+02:00",
-          "data": "29/09/2026",
-          "ora": "15:00",
-          "canali": [
-            {
-              "nome": "Sportitalia",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-09-29T15:00",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
         {
           "titolo": "[Basket] Eurocup: Neptunas Klaipeda-Aquila Trento",
           "categoria": "Basket",
@@ -879,7 +816,8 @@
               "paese": "Kosovo",
               "canali": [
                 "ART Sport 4",
-                "ArtMotion"
+                "ArtMotion",
+                "Arena 3 Premium"
               ]
             },
             {
@@ -953,6 +891,12 @@
               "paese": "Macao",
               "canali": [
                 "iQiyi"
+              ]
+            },
+            {
+              "paese": "Macedonia",
+              "canali": [
+                "Arena 3 Premium"
               ]
             },
             {
@@ -1040,6 +984,12 @@
               "paese": "Mongolia",
               "canali": [
                 "Premier Sports 1"
+              ]
+            },
+            {
+              "paese": "Montenegro",
+              "canali": [
+                "Arena 3 Premium"
               ]
             },
             {
@@ -1290,6 +1240,12 @@
                 "SuperSport MaXimo 2",
                 "DStv Now",
                 "SuperSport Premier League ROA"
+              ]
+            },
+            {
+              "paese": "Serbia",
+              "canali": [
+                "Arena 3 Premium"
               ]
             },
             {
@@ -1574,6 +1530,1067 @@
           "fonte": "LiveSoccerTV"
         },
         {
+          "titolo": "[Calcio] UEFA Nations League: San Marino vs Albania",
+          "categoria": "Calcio",
+          "sottocartella": "UEFA Nations League",
+          "sport": "Calcio",
+          "competizione": "UEFA Nations League",
+          "evento": "San Marino vs Albania",
+          "inizio": "2026-09-29T20:45:00+02:00",
+          "data": "29/09/2026",
+          "ora": "20:45",
+          "canali": [
+            {
+              "nome": "SMtv San Marino",
+              "numero": "",
+              "tipo": "diretta",
+              "orario": "2026-09-29T20:45",
+              "fonte": "livesoccer"
+            }
+          ],
+          "canali_mondo": [
+            {
+              "paese": "Albania",
+              "canali": [
+                "TV Klan",
+                "SuperSport 2 Digitalb",
+                "Klani IM"
+              ]
+            },
+            {
+              "paese": "Algeria",
+              "canali": [
+                "beIN Sports Arabia 9 HD",
+                "beIN SPORTS CONNECT"
+              ]
+            },
+            {
+              "paese": "Andorra",
+              "canali": [
+                "DAZN Spain"
+              ]
+            },
+            {
+              "paese": "Angola",
+              "canali": [
+                "DStv Now",
+                "SuperSport OTT 8"
+              ]
+            },
+            {
+              "paese": "Anguilla",
+              "canali": [
+                "Bluu"
+              ]
+            },
+            {
+              "paese": "Antigua e Barbuda",
+              "canali": [
+                "Bluu"
+              ]
+            },
+            {
+              "paese": "Argentina",
+              "canali": [
+                "Disney+ Premium Argentina"
+              ]
+            },
+            {
+              "paese": "Armenia",
+              "canali": [
+                "FAST TV"
+              ]
+            },
+            {
+              "paese": "Aruba",
+              "canali": [
+                "Bluu"
+              ]
+            },
+            {
+              "paese": "Australia",
+              "canali": [
+                "beIN Sports Connect"
+              ]
+            },
+            {
+              "paese": "Austria",
+              "canali": [
+                "DAZN Austria"
+              ]
+            },
+            {
+              "paese": "Bahamas",
+              "canali": [
+                "Bluu"
+              ]
+            },
+            {
+              "paese": "Bahrain",
+              "canali": [
+                "beIN Sports Arabia 9 HD",
+                "beIN SPORTS CONNECT"
+              ]
+            },
+            {
+              "paese": "Bangladesh",
+              "canali": [
+                "Sony LIV",
+                "tapmad"
+              ]
+            },
+            {
+              "paese": "Barbados",
+              "canali": [
+                "Bluu"
+              ]
+            },
+            {
+              "paese": "Bielorussia",
+              "canali": [
+                "Okko Спорт"
+              ]
+            },
+            {
+              "paese": "Belgio",
+              "canali": [
+                "DAZN Belgium"
+              ]
+            },
+            {
+              "paese": "Benin",
+              "canali": [
+                "SuperSport OTT 8"
+              ]
+            },
+            {
+              "paese": "Bermuda",
+              "canali": [
+                "Bluu"
+              ]
+            },
+            {
+              "paese": "Bhutan",
+              "canali": [
+                "Sony LIV"
+              ]
+            },
+            {
+              "paese": "Bolivia",
+              "canali": [
+                "Disney+ Premium Chile"
+              ]
+            },
+            {
+              "paese": "Botswana",
+              "canali": [
+                "DStv Now",
+                "SuperSport OTT 8"
+              ]
+            },
+            {
+              "paese": "Brasile",
+              "canali": [
+                "Disney+ Premium Brazil"
+              ]
+            },
+            {
+              "paese": "Isole Vergini britanniche",
+              "canali": [
+                "Bluu"
+              ]
+            },
+            {
+              "paese": "Burkina Faso",
+              "canali": [
+                "DStv Now",
+                "SuperSport OTT 8"
+              ]
+            },
+            {
+              "paese": "Burundi",
+              "canali": [
+                "DStv Now",
+                "SuperSport OTT 8"
+              ]
+            },
+            {
+              "paese": "Cambogia",
+              "canali": [
+                "MONOMAX"
+              ]
+            },
+            {
+              "paese": "Camerun",
+              "canali": [
+                "DStv Now",
+                "SuperSport OTT 8"
+              ]
+            },
+            {
+              "paese": "Canada",
+              "canali": [
+                "DAZN Canada",
+                "fuboTV Canada"
+              ]
+            },
+            {
+              "paese": "Capo Verde",
+              "canali": [
+                "DStv Now",
+                "SuperSport OTT 8"
+              ]
+            },
+            {
+              "paese": "Isole Cayman",
+              "canali": [
+                "Bluu"
+              ]
+            },
+            {
+              "paese": "Repubblica Centrafricana",
+              "canali": [
+                "SuperSport OTT 8"
+              ]
+            },
+            {
+              "paese": "Ciad",
+              "canali": [
+                "beIN Sports Arabia 9 HD",
+                "beIN SPORTS CONNECT",
+                "DStv Now",
+                "SuperSport OTT 8"
+              ]
+            },
+            {
+              "paese": "Cile",
+              "canali": [
+                "Disney+ Premium Chile"
+              ]
+            },
+            {
+              "paese": "Cina",
+              "canali": [
+                "iQiyi"
+              ]
+            },
+            {
+              "paese": "Colombia",
+              "canali": [
+                "Disney+ Premium Sur"
+              ]
+            },
+            {
+              "paese": "Comore",
+              "canali": [
+                "SuperSport OTT 8"
+              ]
+            },
+            {
+              "paese": "Repubblica Democratica del Congo",
+              "canali": [
+                "DStv Now",
+                "SuperSport OTT 8",
+                "SuperSport OTT 8"
+              ]
+            },
+            {
+              "paese": "Costa Rica",
+              "canali": [
+                "Disney+ Premium Norte"
+              ]
+            },
+            {
+              "paese": "Croazia",
+              "canali": [
+                "MAXtv To Go",
+                "Sportklub 12 Croatia"
+              ]
+            },
+            {
+              "paese": "Cipro",
+              "canali": [
+                "Novasports Extra 3"
+              ]
+            },
+            {
+              "paese": "Costa d'Avorio",
+              "canali": [
+                "DStv Now",
+                "SuperSport OTT 8"
+              ]
+            },
+            {
+              "paese": "Danimarca",
+              "canali": [
+                "TV2 Play Denmark"
+              ]
+            },
+            {
+              "paese": "Gibuti",
+              "canali": [
+                "beIN Sports Arabia 9 HD",
+                "beIN SPORTS CONNECT",
+                "DStv Now",
+                "SuperSport OTT 8"
+              ]
+            },
+            {
+              "paese": "Dominica",
+              "canali": [
+                "Bluu"
+              ]
+            },
+            {
+              "paese": "Repubblica Dominicana",
+              "canali": [
+                "Disney+ Premium Norte"
+              ]
+            },
+            {
+              "paese": "Ecuador",
+              "canali": [
+                "Disney+ Premium Sur"
+              ]
+            },
+            {
+              "paese": "Egitto",
+              "canali": [
+                "beIN Sports Arabia 9 HD",
+                "beIN SPORTS CONNECT"
+              ]
+            },
+            {
+              "paese": "El Salvador",
+              "canali": [
+                "Disney+ Premium Norte"
+              ]
+            },
+            {
+              "paese": "Guinea Equatoriale",
+              "canali": [
+                "DStv Now",
+                "SuperSport OTT 8"
+              ]
+            },
+            {
+              "paese": "Eritrea",
+              "canali": [
+                "DStv Now",
+                "SuperSport OTT 8"
+              ]
+            },
+            {
+              "paese": "Estonia",
+              "canali": [
+                "Go3 Extra Sports Estonia"
+              ]
+            },
+            {
+              "paese": "Etiopia",
+              "canali": [
+                "DStv Now",
+                "SuperSport OTT 8"
+              ]
+            },
+            {
+              "paese": "Isole Faroe",
+              "canali": [
+                "TV2 Play Denmark"
+              ]
+            },
+            {
+              "paese": "Finlandia",
+              "canali": [
+                "MTV Katsomo"
+              ]
+            },
+            {
+              "paese": "Gabon",
+              "canali": [
+                "DStv Now",
+                "SuperSport OTT 8"
+              ]
+            },
+            {
+              "paese": "Gambia",
+              "canali": [
+                "DStv Now",
+                "SuperSport OTT 8"
+              ]
+            },
+            {
+              "paese": "Germania",
+              "canali": [
+                "DAZN Deutschland"
+              ]
+            },
+            {
+              "paese": "Ghana",
+              "canali": [
+                "DStv Now",
+                "SuperSport OTT 8"
+              ]
+            },
+            {
+              "paese": "Grecia",
+              "canali": [
+                "Novasports Extra 3"
+              ]
+            },
+            {
+              "paese": "Grenada",
+              "canali": [
+                "Bluu"
+              ]
+            },
+            {
+              "paese": "Guatemala",
+              "canali": [
+                "Disney+ Premium Norte"
+              ]
+            },
+            {
+              "paese": "Guinea",
+              "canali": [
+                "DStv Now",
+                "SuperSport OTT 8"
+              ]
+            },
+            {
+              "paese": "Guinea-Bissau",
+              "canali": [
+                "DStv Now",
+                "SuperSport OTT 8"
+              ]
+            },
+            {
+              "paese": "Honduras",
+              "canali": [
+                "Disney+ Premium Norte"
+              ]
+            },
+            {
+              "paese": "Islanda",
+              "canali": [
+                "Viaplay Iceland"
+              ]
+            },
+            {
+              "paese": "India",
+              "canali": [
+                "Sony LIV",
+                "JioTV"
+              ]
+            },
+            {
+              "paese": "Indonesia",
+              "canali": [
+                "Vision+"
+              ]
+            },
+            {
+              "paese": "Internazionale",
+              "canali": [
+                "UEFA.tv"
+              ]
+            },
+            {
+              "paese": "Iran",
+              "canali": [
+                "beIN Sports Arabia 9 HD",
+                "beIN SPORTS CONNECT"
+              ]
+            },
+            {
+              "paese": "Iraq",
+              "canali": [
+                "beIN Sports Arabia 9 HD",
+                "beIN SPORTS CONNECT"
+              ]
+            },
+            {
+              "paese": "Italia",
+              "canali": [
+                "SMtv San Marino"
+              ]
+            },
+            {
+              "paese": "Giamaica",
+              "canali": [
+                "Bluu"
+              ]
+            },
+            {
+              "paese": "Giappone",
+              "canali": [
+                "DAZN Japan"
+              ]
+            },
+            {
+              "paese": "Giordania",
+              "canali": [
+                "beIN Sports Arabia 9 HD",
+                "beIN SPORTS CONNECT"
+              ]
+            },
+            {
+              "paese": "Kenya",
+              "canali": [
+                "DStv Now",
+                "SuperSport OTT 8"
+              ]
+            },
+            {
+              "paese": "Corea del Sud",
+              "canali": [
+                "SPOTV NOW"
+              ]
+            },
+            {
+              "paese": "Kosovo",
+              "canali": [
+                "ART Sport 1",
+                "ArtMotion"
+              ]
+            },
+            {
+              "paese": "Kuwait",
+              "canali": [
+                "beIN Sports Arabia 9 HD",
+                "beIN SPORTS CONNECT"
+              ]
+            },
+            {
+              "paese": "Laos",
+              "canali": [
+                "MONOMAX"
+              ]
+            },
+            {
+              "paese": "Lettonia",
+              "canali": [
+                "Go3 Extra Sports Latvia"
+              ]
+            },
+            {
+              "paese": "Libano",
+              "canali": [
+                "beIN Sports Arabia 9 HD",
+                "beIN SPORTS CONNECT"
+              ]
+            },
+            {
+              "paese": "Lesotho",
+              "canali": [
+                "DStv Now",
+                "SuperSport OTT 8"
+              ]
+            },
+            {
+              "paese": "Liberia",
+              "canali": [
+                "DStv Now",
+                "SuperSport OTT 8"
+              ]
+            },
+            {
+              "paese": "Libia",
+              "canali": [
+                "beIN Sports Arabia 9 HD",
+                "beIN SPORTS CONNECT"
+              ]
+            },
+            {
+              "paese": "Liechtenstein",
+              "canali": [
+                "DAZN Deutschland"
+              ]
+            },
+            {
+              "paese": "Lituania",
+              "canali": [
+                "Go3 Extra Sports Lithuania"
+              ]
+            },
+            {
+              "paese": "Macao",
+              "canali": [
+                "iQiyi"
+              ]
+            },
+            {
+              "paese": "Madagascar",
+              "canali": [
+                "DStv Now",
+                "SuperSport OTT 8"
+              ]
+            },
+            {
+              "paese": "Malawi",
+              "canali": [
+                "DStv Now",
+                "SuperSport OTT 8"
+              ]
+            },
+            {
+              "paese": "Maldive",
+              "canali": [
+                "Sony LIV"
+              ]
+            },
+            {
+              "paese": "Mali",
+              "canali": [
+                "DStv Now",
+                "SuperSport OTT 8"
+              ]
+            },
+            {
+              "paese": "Mauritania",
+              "canali": [
+                "beIN Sports Arabia 9 HD",
+                "beIN SPORTS CONNECT",
+                "DStv Now",
+                "SuperSport OTT 8"
+              ]
+            },
+            {
+              "paese": "Mauritius",
+              "canali": [
+                "DStv Now",
+                "SuperSport OTT 8"
+              ]
+            },
+            {
+              "paese": "Mayotte",
+              "canali": [
+                "SuperSport OTT 8"
+              ]
+            },
+            {
+              "paese": "Messico",
+              "canali": [
+                "Sky Sports Mexico",
+                "Sky+",
+                "izzi"
+              ]
+            },
+            {
+              "paese": "Moldavia",
+              "canali": [
+                "Okko Спорт"
+              ]
+            },
+            {
+              "paese": "Montserrat",
+              "canali": [
+                "Bluu"
+              ]
+            },
+            {
+              "paese": "Marocco",
+              "canali": [
+                "beIN Sports Arabia 9 HD",
+                "beIN SPORTS CONNECT"
+              ]
+            },
+            {
+              "paese": "Mozambico",
+              "canali": [
+                "DStv Now",
+                "SuperSport OTT 8"
+              ]
+            },
+            {
+              "paese": "Namibia",
+              "canali": [
+                "DStv Now",
+                "SuperSport OTT 8"
+              ]
+            },
+            {
+              "paese": "Nepal",
+              "canali": [
+                "Sony LIV"
+              ]
+            },
+            {
+              "paese": "Nuova Zelanda",
+              "canali": [
+                "beIN Sports Connect New Zealand"
+              ]
+            },
+            {
+              "paese": "Nicaragua",
+              "canali": [
+                "Disney+ Premium Norte"
+              ]
+            },
+            {
+              "paese": "Niger",
+              "canali": [
+                "DStv Now",
+                "SuperSport OTT 8"
+              ]
+            },
+            {
+              "paese": "Nigeria",
+              "canali": [
+                "DStv Now",
+                "SuperSport OTT 8"
+              ]
+            },
+            {
+              "paese": "Norvegia",
+              "canali": [
+                "Viaplay Norway",
+                "TV 2 Play"
+              ]
+            },
+            {
+              "paese": "Oman",
+              "canali": [
+                "beIN Sports Arabia 9 HD",
+                "beIN SPORTS CONNECT"
+              ]
+            },
+            {
+              "paese": "Pakistan",
+              "canali": [
+                "Sony LIV",
+                "tapmad"
+              ]
+            },
+            {
+              "paese": "Palestina",
+              "canali": [
+                "beIN Sports Arabia 9 HD",
+                "beIN SPORTS CONNECT"
+              ]
+            },
+            {
+              "paese": "Panama",
+              "canali": [
+                "Disney+ Premium Norte"
+              ]
+            },
+            {
+              "paese": "Papua Nuova Guinea",
+              "canali": [
+                "Vision+"
+              ]
+            },
+            {
+              "paese": "Paraguay",
+              "canali": [
+                "Disney+ Premium Argentina"
+              ]
+            },
+            {
+              "paese": "Perù",
+              "canali": [
+                "Disney+ Premium Chile"
+              ]
+            },
+            {
+              "paese": "Portogallo",
+              "canali": [
+                "Match Player"
+              ]
+            },
+            {
+              "paese": "Porto Rico",
+              "canali": [
+                "ViX"
+              ]
+            },
+            {
+              "paese": "Qatar",
+              "canali": [
+                "beIN Sports Arabia 9 HD",
+                "beIN SPORTS CONNECT"
+              ]
+            },
+            {
+              "paese": "Reunion",
+              "canali": [
+                "SuperSport OTT 8"
+              ]
+            },
+            {
+              "paese": "Romania",
+              "canali": [
+                "Prima Play"
+              ]
+            },
+            {
+              "paese": "Russia",
+              "canali": [
+                "Okko Спорт"
+              ]
+            },
+            {
+              "paese": "Ruanda",
+              "canali": [
+                "SuperSport OTT 8"
+              ]
+            },
+            {
+              "paese": "Saint Helena",
+              "canali": [
+                "SuperSport OTT 8"
+              ]
+            },
+            {
+              "paese": "Saint Kitts e Nevis",
+              "canali": [
+                "Bluu"
+              ]
+            },
+            {
+              "paese": "Santa Lucia",
+              "canali": [
+                "Bluu"
+              ]
+            },
+            {
+              "paese": "San Marino",
+              "canali": [
+                "SMtv San Marino"
+              ]
+            },
+            {
+              "paese": "Arabia Saudita",
+              "canali": [
+                "beIN Sports Arabia 9 HD",
+                "beIN SPORTS CONNECT"
+              ]
+            },
+            {
+              "paese": "Senegal",
+              "canali": [
+                "DStv Now",
+                "SuperSport OTT 8"
+              ]
+            },
+            {
+              "paese": "Seychelles",
+              "canali": [
+                "Bluu",
+                "DStv Now",
+                "SuperSport OTT 8"
+              ]
+            },
+            {
+              "paese": "Sierra Leone",
+              "canali": [
+                "DStv Now",
+                "SuperSport OTT 8"
+              ]
+            },
+            {
+              "paese": "Somalia",
+              "canali": [
+                "beIN Sports Arabia 9 HD",
+                "beIN SPORTS CONNECT",
+                "SuperSport OTT 8"
+              ]
+            },
+            {
+              "paese": "Sudafrica",
+              "canali": [
+                "SuperSport OTT 8"
+              ]
+            },
+            {
+              "paese": "Sud Sudan",
+              "canali": [
+                "beIN SPORTS CONNECT",
+                "DStv Now"
+              ]
+            },
+            {
+              "paese": "Spagna",
+              "canali": [
+                "DAZN Spain"
+              ]
+            },
+            {
+              "paese": "Sri Lanka",
+              "canali": [
+                "Sony LIV"
+              ]
+            },
+            {
+              "paese": "St. Vincent / Grenadines",
+              "canali": [
+                "Bluu"
+              ]
+            },
+            {
+              "paese": "Sudan",
+              "canali": [
+                "beIN Sports Arabia 9 HD",
+                "beIN SPORTS CONNECT",
+                "DStv Now",
+                "SuperSport OTT 8"
+              ]
+            },
+            {
+              "paese": "Suriname",
+              "canali": [
+                "Bluu"
+              ]
+            },
+            {
+              "paese": "Swaziland",
+              "canali": [
+                "DStv Now",
+                "SuperSport OTT 8"
+              ]
+            },
+            {
+              "paese": "Svezia",
+              "canali": [
+                "Viaplay Sweden"
+              ]
+            },
+            {
+              "paese": "Svizzera",
+              "canali": [
+                "DAZN Switzerland"
+              ]
+            },
+            {
+              "paese": "Siria",
+              "canali": [
+                "beIN Sports Arabia 9 HD",
+                "beIN SPORTS CONNECT"
+              ]
+            },
+            {
+              "paese": "São Tomé and Príncipe",
+              "canali": [
+                "SuperSport OTT 8"
+              ]
+            },
+            {
+              "paese": "Tanzania",
+              "canali": [
+                "DStv Now",
+                "SuperSport OTT 8"
+              ]
+            },
+            {
+              "paese": "Thailandia",
+              "canali": [
+                "MONOMAX"
+              ]
+            },
+            {
+              "paese": "Timor-leste",
+              "canali": [
+                "Vision+"
+              ]
+            },
+            {
+              "paese": "Togo",
+              "canali": [
+                "DStv Now",
+                "SuperSport OTT 8"
+              ]
+            },
+            {
+              "paese": "Trinidad e Tobago",
+              "canali": [
+                "Bluu"
+              ]
+            },
+            {
+              "paese": "Tunisia",
+              "canali": [
+                "beIN Sports Arabia 9 HD",
+                "beIN SPORTS CONNECT"
+              ]
+            },
+            {
+              "paese": "Turks e Caicos",
+              "canali": [
+                "Bluu"
+              ]
+            },
+            {
+              "paese": "Uganda",
+              "canali": [
+                "DStv Now",
+                "SuperSport OTT 8"
+              ]
+            },
+            {
+              "paese": "Ucraina",
+              "canali": [
+                "Megogo",
+                "MEGOGO Football 6"
+              ]
+            },
+            {
+              "paese": "Emirati Arabi Uniti",
+              "canali": [
+                "beIN Sports Arabia 9 HD",
+                "beIN SPORTS CONNECT"
+              ]
+            },
+            {
+              "paese": "Uruguay",
+              "canali": [
+                "Disney+ Premium Argentina"
+              ]
+            },
+            {
+              "paese": "USA",
+              "canali": [
+                "fuboTV",
+                "ViX",
+                "Fubo Sports Network 3"
+              ]
+            },
+            {
+              "paese": "Venezuela",
+              "canali": [
+                "Disney+ Premium Sur"
+              ]
+            },
+            {
+              "paese": "Vietnam",
+              "canali": [
+                "TV 360"
+              ]
+            },
+            {
+              "paese": "Yemen",
+              "canali": [
+                "beIN Sports Arabia 9 HD",
+                "beIN SPORTS CONNECT"
+              ]
+            },
+            {
+              "paese": "Zambia",
+              "canali": [
+                "SuperSport OTT 8"
+              ]
+            },
+            {
+              "paese": "Zimbabwe",
+              "canali": [
+                "DStv Now",
+                "SuperSport OTT 8"
+              ]
+            }
+          ],
+          "fonte": "LiveSoccerTV"
+        },
+        {
           "titolo": "[Calcio] UEFA Nations League: Spagna-Croazia",
           "categoria": "Calcio",
           "sottocartella": "UEFA Nations League",
@@ -1586,13 +2603,6 @@
           "canali": [
             {
               "nome": "Sky Sport Arena",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-09-29T20:45",
-              "fonte": "virgilio"
-            },
-            {
-              "nome": "Italia 1",
               "numero": "",
               "tipo": "diretta",
               "orario": "2026-09-29T20:45",
@@ -1626,11 +2636,11 @@
     },
     {
       "nome": "Motori",
-      "totale": 137,
+      "totale": 142,
       "sottocartelle": [
         {
           "nome": "Formula 1",
-          "totale": 32,
+          "totale": 33,
           "eventi": [
             {
               "titolo": "Formula 1: Bahrain Grand Prix in Malaysia - FP1",
@@ -3130,12 +4140,56 @@
                 }
               ],
               "fonte": "Dizzle0987/motorsport-calendar"
+            },
+            {
+              "titolo": "Formula 1: Qatar Grand Prix - FP3",
+              "categoria": "Motori",
+              "sottocartella": "Formula 1",
+              "sport": "Motori",
+              "competizione": "Formula 1",
+              "evento": "Qatar Grand Prix - FP3",
+              "sessione": "prove",
+              "circuito": "Lusail International Circuit, Lusail, Qatar",
+              "inizio": "2026-11-28T15:30:00+01:00",
+              "data": "28/11/2026",
+              "ora": "15:30",
+              "canali": [
+                {
+                  "nome": "Sky Sport F1",
+                  "numero": "207",
+                  "tipo": "diretta",
+                  "orario": "2026-11-28T15:30",
+                  "fonte": "dizzle+config"
+                },
+                {
+                  "nome": "NOW",
+                  "numero": "",
+                  "tipo": "streaming",
+                  "orario": "2026-11-28T15:30",
+                  "fonte": "dizzle+config"
+                },
+                {
+                  "nome": "Sky Sport 1",
+                  "numero": "201",
+                  "tipo": "diretta",
+                  "orario": "2026-11-28T15:30",
+                  "fonte": "config"
+                },
+                {
+                  "nome": "Sky Sport 4K",
+                  "numero": "213",
+                  "tipo": "diretta",
+                  "orario": "2026-11-28T15:30",
+                  "fonte": "config"
+                }
+              ],
+              "fonte": "Dizzle0987/motorsport-calendar"
             }
           ]
         },
         {
           "nome": "Formula 2 e Formula 3",
-          "totale": 1,
+          "totale": 2,
           "eventi": [
             {
               "titolo": "Formula 2 e Formula 3: F2 - Qatar GP - Quali",
@@ -3149,6 +4203,21 @@
               "inizio": "2026-11-27T17:10:00+01:00",
               "data": "27/11/2026",
               "ora": "17:10",
+              "canali": [],
+              "fonte": "Fuori Traiettoria"
+            },
+            {
+              "titolo": "Formula 2 e Formula 3: F2 - Qatar GP - Sprint Race",
+              "categoria": "Motori",
+              "sottocartella": "Formula 2 e Formula 3",
+              "sport": "Motori",
+              "competizione": "Formula 2 e Formula 3",
+              "evento": "F2 - Qatar GP - Sprint Race",
+              "sessione": "sprint",
+              "circuito": "Circuito di Losail, Al Wusail, North Relief Road، Doha, Qatar",
+              "inizio": "2026-11-28T17:20:00+01:00",
+              "data": "28/11/2026",
+              "ora": "17:20",
               "canali": [],
               "fonte": "Fuori Traiettoria"
             }
@@ -3288,7 +4357,7 @@
         },
         {
           "nome": "MotoGP",
-          "totale": 53,
+          "totale": 54,
           "eventi": [
             {
               "titolo": "MotoGP: Grand Prix of Japan - Prove libere",
@@ -4991,12 +6060,49 @@
                 }
               ],
               "fonte": "Dizzle0987/motorsport-calendar"
+            },
+            {
+              "titolo": "MotoGP: Valencian Community Grand Prix - Sprint",
+              "categoria": "Motori",
+              "sottocartella": "MotoGP",
+              "sport": "Motori",
+              "competizione": "MotoGP",
+              "evento": "Valencian Community Grand Prix - Sprint",
+              "sessione": "sprint",
+              "circuito": "Circuit Ricardo Tormo, Cheste, Spain",
+              "inizio": "2026-11-28T15:00:00+01:00",
+              "data": "28/11/2026",
+              "ora": "15:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport MotoGP",
+                  "numero": "208",
+                  "tipo": "diretta",
+                  "orario": "2026-11-28T15:00",
+                  "fonte": "dizzle+config"
+                },
+                {
+                  "nome": "NOW",
+                  "numero": "",
+                  "tipo": "streaming",
+                  "orario": "2026-11-28T15:00",
+                  "fonte": "dizzle+config"
+                },
+                {
+                  "nome": "TV8",
+                  "numero": "8",
+                  "tipo": "differita",
+                  "orario": "",
+                  "fonte": "config"
+                }
+              ],
+              "fonte": "Dizzle0987/motorsport-calendar"
             }
           ]
         },
         {
           "nome": "Moto2 e Moto3",
-          "totale": 23,
+          "totale": 25,
           "eventi": [
             {
               "titolo": "Moto2 e Moto3: M2 - Japanese GP - Quali",
@@ -5340,6 +6446,36 @@
               "inizio": "2026-11-22T13:15:00+01:00",
               "data": "22/11/2026",
               "ora": "13:15",
+              "canali": [],
+              "fonte": "Fuori Traiettoria"
+            },
+            {
+              "titolo": "Moto2 e Moto3: M3 - Valencian GP - Quali",
+              "categoria": "Motori",
+              "sottocartella": "Moto2 e Moto3",
+              "sport": "Motori",
+              "competizione": "Moto2 e Moto3",
+              "evento": "M3 - Valencian GP - Quali",
+              "sessione": "qualifiche",
+              "circuito": "Ricardo Tormo Circuit, Salida 334, Autovía del Este, 46380 Cheste, Valencia, Spagna",
+              "inizio": "2026-11-28T12:55:00+01:00",
+              "data": "28/11/2026",
+              "ora": "12:55",
+              "canali": [],
+              "fonte": "Fuori Traiettoria"
+            },
+            {
+              "titolo": "Moto2 e Moto3: M2 - Valencian GP - Quali",
+              "categoria": "Motori",
+              "sottocartella": "Moto2 e Moto3",
+              "sport": "Motori",
+              "competizione": "Moto2 e Moto3",
+              "evento": "M2 - Valencian GP - Quali",
+              "sessione": "qualifiche",
+              "circuito": "Ricardo Tormo Circuit, Salida 334, Autovía del Este, 46380 Cheste, Valencia, Spagna",
+              "inizio": "2026-11-28T13:50:00+01:00",
+              "data": "28/11/2026",
+              "ora": "13:50",
               "canali": [],
               "fonte": "Fuori Traiettoria"
             }
@@ -5715,7 +6851,7 @@
     },
     {
       "nome": "Calcio",
-      "totale": 41,
+      "totale": 45,
       "sottocartelle": [
         {
           "nome": "Serie A",
@@ -9797,7 +10933,7 @@
         },
         {
           "nome": "UEFA Nations League",
-          "totale": 15,
+          "totale": 16,
           "eventi": [
             {
               "titolo": "UEFA Nations League: Repubblica Ceca vs Inghilterra",
@@ -10520,7 +11656,8 @@
                   "paese": "Kosovo",
                   "canali": [
                     "ART Sport 4",
-                    "ArtMotion"
+                    "ArtMotion",
+                    "Arena 3 Premium"
                   ]
                 },
                 {
@@ -10594,6 +11731,12 @@
                   "paese": "Macao",
                   "canali": [
                     "iQiyi"
+                  ]
+                },
+                {
+                  "paese": "Macedonia",
+                  "canali": [
+                    "Arena 3 Premium"
                   ]
                 },
                 {
@@ -10681,6 +11824,12 @@
                   "paese": "Mongolia",
                   "canali": [
                     "Premier Sports 1"
+                  ]
+                },
+                {
+                  "paese": "Montenegro",
+                  "canali": [
+                    "Arena 3 Premium"
                   ]
                 },
                 {
@@ -10931,6 +12080,12 @@
                     "SuperSport MaXimo 2",
                     "DStv Now",
                     "SuperSport Premier League ROA"
+                  ]
+                },
+                {
+                  "paese": "Serbia",
+                  "canali": [
+                    "Arena 3 Premium"
                   ]
                 },
                 {
@@ -11215,6 +12370,1067 @@
               "fonte": "LiveSoccerTV"
             },
             {
+              "titolo": "UEFA Nations League: San Marino vs Albania",
+              "categoria": "Calcio",
+              "sottocartella": "UEFA Nations League",
+              "sport": "Calcio",
+              "competizione": "UEFA Nations League",
+              "evento": "San Marino vs Albania",
+              "inizio": "2026-09-29T20:45:00+02:00",
+              "data": "29/09/2026",
+              "ora": "20:45",
+              "canali": [
+                {
+                  "nome": "SMtv San Marino",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-09-29T20:45",
+                  "fonte": "livesoccer"
+                }
+              ],
+              "canali_mondo": [
+                {
+                  "paese": "Albania",
+                  "canali": [
+                    "TV Klan",
+                    "SuperSport 2 Digitalb",
+                    "Klani IM"
+                  ]
+                },
+                {
+                  "paese": "Algeria",
+                  "canali": [
+                    "beIN Sports Arabia 9 HD",
+                    "beIN SPORTS CONNECT"
+                  ]
+                },
+                {
+                  "paese": "Andorra",
+                  "canali": [
+                    "DAZN Spain"
+                  ]
+                },
+                {
+                  "paese": "Angola",
+                  "canali": [
+                    "DStv Now",
+                    "SuperSport OTT 8"
+                  ]
+                },
+                {
+                  "paese": "Anguilla",
+                  "canali": [
+                    "Bluu"
+                  ]
+                },
+                {
+                  "paese": "Antigua e Barbuda",
+                  "canali": [
+                    "Bluu"
+                  ]
+                },
+                {
+                  "paese": "Argentina",
+                  "canali": [
+                    "Disney+ Premium Argentina"
+                  ]
+                },
+                {
+                  "paese": "Armenia",
+                  "canali": [
+                    "FAST TV"
+                  ]
+                },
+                {
+                  "paese": "Aruba",
+                  "canali": [
+                    "Bluu"
+                  ]
+                },
+                {
+                  "paese": "Australia",
+                  "canali": [
+                    "beIN Sports Connect"
+                  ]
+                },
+                {
+                  "paese": "Austria",
+                  "canali": [
+                    "DAZN Austria"
+                  ]
+                },
+                {
+                  "paese": "Bahamas",
+                  "canali": [
+                    "Bluu"
+                  ]
+                },
+                {
+                  "paese": "Bahrain",
+                  "canali": [
+                    "beIN Sports Arabia 9 HD",
+                    "beIN SPORTS CONNECT"
+                  ]
+                },
+                {
+                  "paese": "Bangladesh",
+                  "canali": [
+                    "Sony LIV",
+                    "tapmad"
+                  ]
+                },
+                {
+                  "paese": "Barbados",
+                  "canali": [
+                    "Bluu"
+                  ]
+                },
+                {
+                  "paese": "Bielorussia",
+                  "canali": [
+                    "Okko Спорт"
+                  ]
+                },
+                {
+                  "paese": "Belgio",
+                  "canali": [
+                    "DAZN Belgium"
+                  ]
+                },
+                {
+                  "paese": "Benin",
+                  "canali": [
+                    "SuperSport OTT 8"
+                  ]
+                },
+                {
+                  "paese": "Bermuda",
+                  "canali": [
+                    "Bluu"
+                  ]
+                },
+                {
+                  "paese": "Bhutan",
+                  "canali": [
+                    "Sony LIV"
+                  ]
+                },
+                {
+                  "paese": "Bolivia",
+                  "canali": [
+                    "Disney+ Premium Chile"
+                  ]
+                },
+                {
+                  "paese": "Botswana",
+                  "canali": [
+                    "DStv Now",
+                    "SuperSport OTT 8"
+                  ]
+                },
+                {
+                  "paese": "Brasile",
+                  "canali": [
+                    "Disney+ Premium Brazil"
+                  ]
+                },
+                {
+                  "paese": "Isole Vergini britanniche",
+                  "canali": [
+                    "Bluu"
+                  ]
+                },
+                {
+                  "paese": "Burkina Faso",
+                  "canali": [
+                    "DStv Now",
+                    "SuperSport OTT 8"
+                  ]
+                },
+                {
+                  "paese": "Burundi",
+                  "canali": [
+                    "DStv Now",
+                    "SuperSport OTT 8"
+                  ]
+                },
+                {
+                  "paese": "Cambogia",
+                  "canali": [
+                    "MONOMAX"
+                  ]
+                },
+                {
+                  "paese": "Camerun",
+                  "canali": [
+                    "DStv Now",
+                    "SuperSport OTT 8"
+                  ]
+                },
+                {
+                  "paese": "Canada",
+                  "canali": [
+                    "DAZN Canada",
+                    "fuboTV Canada"
+                  ]
+                },
+                {
+                  "paese": "Capo Verde",
+                  "canali": [
+                    "DStv Now",
+                    "SuperSport OTT 8"
+                  ]
+                },
+                {
+                  "paese": "Isole Cayman",
+                  "canali": [
+                    "Bluu"
+                  ]
+                },
+                {
+                  "paese": "Repubblica Centrafricana",
+                  "canali": [
+                    "SuperSport OTT 8"
+                  ]
+                },
+                {
+                  "paese": "Ciad",
+                  "canali": [
+                    "beIN Sports Arabia 9 HD",
+                    "beIN SPORTS CONNECT",
+                    "DStv Now",
+                    "SuperSport OTT 8"
+                  ]
+                },
+                {
+                  "paese": "Cile",
+                  "canali": [
+                    "Disney+ Premium Chile"
+                  ]
+                },
+                {
+                  "paese": "Cina",
+                  "canali": [
+                    "iQiyi"
+                  ]
+                },
+                {
+                  "paese": "Colombia",
+                  "canali": [
+                    "Disney+ Premium Sur"
+                  ]
+                },
+                {
+                  "paese": "Comore",
+                  "canali": [
+                    "SuperSport OTT 8"
+                  ]
+                },
+                {
+                  "paese": "Repubblica Democratica del Congo",
+                  "canali": [
+                    "DStv Now",
+                    "SuperSport OTT 8",
+                    "SuperSport OTT 8"
+                  ]
+                },
+                {
+                  "paese": "Costa Rica",
+                  "canali": [
+                    "Disney+ Premium Norte"
+                  ]
+                },
+                {
+                  "paese": "Croazia",
+                  "canali": [
+                    "MAXtv To Go",
+                    "Sportklub 12 Croatia"
+                  ]
+                },
+                {
+                  "paese": "Cipro",
+                  "canali": [
+                    "Novasports Extra 3"
+                  ]
+                },
+                {
+                  "paese": "Costa d'Avorio",
+                  "canali": [
+                    "DStv Now",
+                    "SuperSport OTT 8"
+                  ]
+                },
+                {
+                  "paese": "Danimarca",
+                  "canali": [
+                    "TV2 Play Denmark"
+                  ]
+                },
+                {
+                  "paese": "Gibuti",
+                  "canali": [
+                    "beIN Sports Arabia 9 HD",
+                    "beIN SPORTS CONNECT",
+                    "DStv Now",
+                    "SuperSport OTT 8"
+                  ]
+                },
+                {
+                  "paese": "Dominica",
+                  "canali": [
+                    "Bluu"
+                  ]
+                },
+                {
+                  "paese": "Repubblica Dominicana",
+                  "canali": [
+                    "Disney+ Premium Norte"
+                  ]
+                },
+                {
+                  "paese": "Ecuador",
+                  "canali": [
+                    "Disney+ Premium Sur"
+                  ]
+                },
+                {
+                  "paese": "Egitto",
+                  "canali": [
+                    "beIN Sports Arabia 9 HD",
+                    "beIN SPORTS CONNECT"
+                  ]
+                },
+                {
+                  "paese": "El Salvador",
+                  "canali": [
+                    "Disney+ Premium Norte"
+                  ]
+                },
+                {
+                  "paese": "Guinea Equatoriale",
+                  "canali": [
+                    "DStv Now",
+                    "SuperSport OTT 8"
+                  ]
+                },
+                {
+                  "paese": "Eritrea",
+                  "canali": [
+                    "DStv Now",
+                    "SuperSport OTT 8"
+                  ]
+                },
+                {
+                  "paese": "Estonia",
+                  "canali": [
+                    "Go3 Extra Sports Estonia"
+                  ]
+                },
+                {
+                  "paese": "Etiopia",
+                  "canali": [
+                    "DStv Now",
+                    "SuperSport OTT 8"
+                  ]
+                },
+                {
+                  "paese": "Isole Faroe",
+                  "canali": [
+                    "TV2 Play Denmark"
+                  ]
+                },
+                {
+                  "paese": "Finlandia",
+                  "canali": [
+                    "MTV Katsomo"
+                  ]
+                },
+                {
+                  "paese": "Gabon",
+                  "canali": [
+                    "DStv Now",
+                    "SuperSport OTT 8"
+                  ]
+                },
+                {
+                  "paese": "Gambia",
+                  "canali": [
+                    "DStv Now",
+                    "SuperSport OTT 8"
+                  ]
+                },
+                {
+                  "paese": "Germania",
+                  "canali": [
+                    "DAZN Deutschland"
+                  ]
+                },
+                {
+                  "paese": "Ghana",
+                  "canali": [
+                    "DStv Now",
+                    "SuperSport OTT 8"
+                  ]
+                },
+                {
+                  "paese": "Grecia",
+                  "canali": [
+                    "Novasports Extra 3"
+                  ]
+                },
+                {
+                  "paese": "Grenada",
+                  "canali": [
+                    "Bluu"
+                  ]
+                },
+                {
+                  "paese": "Guatemala",
+                  "canali": [
+                    "Disney+ Premium Norte"
+                  ]
+                },
+                {
+                  "paese": "Guinea",
+                  "canali": [
+                    "DStv Now",
+                    "SuperSport OTT 8"
+                  ]
+                },
+                {
+                  "paese": "Guinea-Bissau",
+                  "canali": [
+                    "DStv Now",
+                    "SuperSport OTT 8"
+                  ]
+                },
+                {
+                  "paese": "Honduras",
+                  "canali": [
+                    "Disney+ Premium Norte"
+                  ]
+                },
+                {
+                  "paese": "Islanda",
+                  "canali": [
+                    "Viaplay Iceland"
+                  ]
+                },
+                {
+                  "paese": "India",
+                  "canali": [
+                    "Sony LIV",
+                    "JioTV"
+                  ]
+                },
+                {
+                  "paese": "Indonesia",
+                  "canali": [
+                    "Vision+"
+                  ]
+                },
+                {
+                  "paese": "Internazionale",
+                  "canali": [
+                    "UEFA.tv"
+                  ]
+                },
+                {
+                  "paese": "Iran",
+                  "canali": [
+                    "beIN Sports Arabia 9 HD",
+                    "beIN SPORTS CONNECT"
+                  ]
+                },
+                {
+                  "paese": "Iraq",
+                  "canali": [
+                    "beIN Sports Arabia 9 HD",
+                    "beIN SPORTS CONNECT"
+                  ]
+                },
+                {
+                  "paese": "Italia",
+                  "canali": [
+                    "SMtv San Marino"
+                  ]
+                },
+                {
+                  "paese": "Giamaica",
+                  "canali": [
+                    "Bluu"
+                  ]
+                },
+                {
+                  "paese": "Giappone",
+                  "canali": [
+                    "DAZN Japan"
+                  ]
+                },
+                {
+                  "paese": "Giordania",
+                  "canali": [
+                    "beIN Sports Arabia 9 HD",
+                    "beIN SPORTS CONNECT"
+                  ]
+                },
+                {
+                  "paese": "Kenya",
+                  "canali": [
+                    "DStv Now",
+                    "SuperSport OTT 8"
+                  ]
+                },
+                {
+                  "paese": "Corea del Sud",
+                  "canali": [
+                    "SPOTV NOW"
+                  ]
+                },
+                {
+                  "paese": "Kosovo",
+                  "canali": [
+                    "ART Sport 1",
+                    "ArtMotion"
+                  ]
+                },
+                {
+                  "paese": "Kuwait",
+                  "canali": [
+                    "beIN Sports Arabia 9 HD",
+                    "beIN SPORTS CONNECT"
+                  ]
+                },
+                {
+                  "paese": "Laos",
+                  "canali": [
+                    "MONOMAX"
+                  ]
+                },
+                {
+                  "paese": "Lettonia",
+                  "canali": [
+                    "Go3 Extra Sports Latvia"
+                  ]
+                },
+                {
+                  "paese": "Libano",
+                  "canali": [
+                    "beIN Sports Arabia 9 HD",
+                    "beIN SPORTS CONNECT"
+                  ]
+                },
+                {
+                  "paese": "Lesotho",
+                  "canali": [
+                    "DStv Now",
+                    "SuperSport OTT 8"
+                  ]
+                },
+                {
+                  "paese": "Liberia",
+                  "canali": [
+                    "DStv Now",
+                    "SuperSport OTT 8"
+                  ]
+                },
+                {
+                  "paese": "Libia",
+                  "canali": [
+                    "beIN Sports Arabia 9 HD",
+                    "beIN SPORTS CONNECT"
+                  ]
+                },
+                {
+                  "paese": "Liechtenstein",
+                  "canali": [
+                    "DAZN Deutschland"
+                  ]
+                },
+                {
+                  "paese": "Lituania",
+                  "canali": [
+                    "Go3 Extra Sports Lithuania"
+                  ]
+                },
+                {
+                  "paese": "Macao",
+                  "canali": [
+                    "iQiyi"
+                  ]
+                },
+                {
+                  "paese": "Madagascar",
+                  "canali": [
+                    "DStv Now",
+                    "SuperSport OTT 8"
+                  ]
+                },
+                {
+                  "paese": "Malawi",
+                  "canali": [
+                    "DStv Now",
+                    "SuperSport OTT 8"
+                  ]
+                },
+                {
+                  "paese": "Maldive",
+                  "canali": [
+                    "Sony LIV"
+                  ]
+                },
+                {
+                  "paese": "Mali",
+                  "canali": [
+                    "DStv Now",
+                    "SuperSport OTT 8"
+                  ]
+                },
+                {
+                  "paese": "Mauritania",
+                  "canali": [
+                    "beIN Sports Arabia 9 HD",
+                    "beIN SPORTS CONNECT",
+                    "DStv Now",
+                    "SuperSport OTT 8"
+                  ]
+                },
+                {
+                  "paese": "Mauritius",
+                  "canali": [
+                    "DStv Now",
+                    "SuperSport OTT 8"
+                  ]
+                },
+                {
+                  "paese": "Mayotte",
+                  "canali": [
+                    "SuperSport OTT 8"
+                  ]
+                },
+                {
+                  "paese": "Messico",
+                  "canali": [
+                    "Sky Sports Mexico",
+                    "Sky+",
+                    "izzi"
+                  ]
+                },
+                {
+                  "paese": "Moldavia",
+                  "canali": [
+                    "Okko Спорт"
+                  ]
+                },
+                {
+                  "paese": "Montserrat",
+                  "canali": [
+                    "Bluu"
+                  ]
+                },
+                {
+                  "paese": "Marocco",
+                  "canali": [
+                    "beIN Sports Arabia 9 HD",
+                    "beIN SPORTS CONNECT"
+                  ]
+                },
+                {
+                  "paese": "Mozambico",
+                  "canali": [
+                    "DStv Now",
+                    "SuperSport OTT 8"
+                  ]
+                },
+                {
+                  "paese": "Namibia",
+                  "canali": [
+                    "DStv Now",
+                    "SuperSport OTT 8"
+                  ]
+                },
+                {
+                  "paese": "Nepal",
+                  "canali": [
+                    "Sony LIV"
+                  ]
+                },
+                {
+                  "paese": "Nuova Zelanda",
+                  "canali": [
+                    "beIN Sports Connect New Zealand"
+                  ]
+                },
+                {
+                  "paese": "Nicaragua",
+                  "canali": [
+                    "Disney+ Premium Norte"
+                  ]
+                },
+                {
+                  "paese": "Niger",
+                  "canali": [
+                    "DStv Now",
+                    "SuperSport OTT 8"
+                  ]
+                },
+                {
+                  "paese": "Nigeria",
+                  "canali": [
+                    "DStv Now",
+                    "SuperSport OTT 8"
+                  ]
+                },
+                {
+                  "paese": "Norvegia",
+                  "canali": [
+                    "Viaplay Norway",
+                    "TV 2 Play"
+                  ]
+                },
+                {
+                  "paese": "Oman",
+                  "canali": [
+                    "beIN Sports Arabia 9 HD",
+                    "beIN SPORTS CONNECT"
+                  ]
+                },
+                {
+                  "paese": "Pakistan",
+                  "canali": [
+                    "Sony LIV",
+                    "tapmad"
+                  ]
+                },
+                {
+                  "paese": "Palestina",
+                  "canali": [
+                    "beIN Sports Arabia 9 HD",
+                    "beIN SPORTS CONNECT"
+                  ]
+                },
+                {
+                  "paese": "Panama",
+                  "canali": [
+                    "Disney+ Premium Norte"
+                  ]
+                },
+                {
+                  "paese": "Papua Nuova Guinea",
+                  "canali": [
+                    "Vision+"
+                  ]
+                },
+                {
+                  "paese": "Paraguay",
+                  "canali": [
+                    "Disney+ Premium Argentina"
+                  ]
+                },
+                {
+                  "paese": "Perù",
+                  "canali": [
+                    "Disney+ Premium Chile"
+                  ]
+                },
+                {
+                  "paese": "Portogallo",
+                  "canali": [
+                    "Match Player"
+                  ]
+                },
+                {
+                  "paese": "Porto Rico",
+                  "canali": [
+                    "ViX"
+                  ]
+                },
+                {
+                  "paese": "Qatar",
+                  "canali": [
+                    "beIN Sports Arabia 9 HD",
+                    "beIN SPORTS CONNECT"
+                  ]
+                },
+                {
+                  "paese": "Reunion",
+                  "canali": [
+                    "SuperSport OTT 8"
+                  ]
+                },
+                {
+                  "paese": "Romania",
+                  "canali": [
+                    "Prima Play"
+                  ]
+                },
+                {
+                  "paese": "Russia",
+                  "canali": [
+                    "Okko Спорт"
+                  ]
+                },
+                {
+                  "paese": "Ruanda",
+                  "canali": [
+                    "SuperSport OTT 8"
+                  ]
+                },
+                {
+                  "paese": "Saint Helena",
+                  "canali": [
+                    "SuperSport OTT 8"
+                  ]
+                },
+                {
+                  "paese": "Saint Kitts e Nevis",
+                  "canali": [
+                    "Bluu"
+                  ]
+                },
+                {
+                  "paese": "Santa Lucia",
+                  "canali": [
+                    "Bluu"
+                  ]
+                },
+                {
+                  "paese": "San Marino",
+                  "canali": [
+                    "SMtv San Marino"
+                  ]
+                },
+                {
+                  "paese": "Arabia Saudita",
+                  "canali": [
+                    "beIN Sports Arabia 9 HD",
+                    "beIN SPORTS CONNECT"
+                  ]
+                },
+                {
+                  "paese": "Senegal",
+                  "canali": [
+                    "DStv Now",
+                    "SuperSport OTT 8"
+                  ]
+                },
+                {
+                  "paese": "Seychelles",
+                  "canali": [
+                    "Bluu",
+                    "DStv Now",
+                    "SuperSport OTT 8"
+                  ]
+                },
+                {
+                  "paese": "Sierra Leone",
+                  "canali": [
+                    "DStv Now",
+                    "SuperSport OTT 8"
+                  ]
+                },
+                {
+                  "paese": "Somalia",
+                  "canali": [
+                    "beIN Sports Arabia 9 HD",
+                    "beIN SPORTS CONNECT",
+                    "SuperSport OTT 8"
+                  ]
+                },
+                {
+                  "paese": "Sudafrica",
+                  "canali": [
+                    "SuperSport OTT 8"
+                  ]
+                },
+                {
+                  "paese": "Sud Sudan",
+                  "canali": [
+                    "beIN SPORTS CONNECT",
+                    "DStv Now"
+                  ]
+                },
+                {
+                  "paese": "Spagna",
+                  "canali": [
+                    "DAZN Spain"
+                  ]
+                },
+                {
+                  "paese": "Sri Lanka",
+                  "canali": [
+                    "Sony LIV"
+                  ]
+                },
+                {
+                  "paese": "St. Vincent / Grenadines",
+                  "canali": [
+                    "Bluu"
+                  ]
+                },
+                {
+                  "paese": "Sudan",
+                  "canali": [
+                    "beIN Sports Arabia 9 HD",
+                    "beIN SPORTS CONNECT",
+                    "DStv Now",
+                    "SuperSport OTT 8"
+                  ]
+                },
+                {
+                  "paese": "Suriname",
+                  "canali": [
+                    "Bluu"
+                  ]
+                },
+                {
+                  "paese": "Swaziland",
+                  "canali": [
+                    "DStv Now",
+                    "SuperSport OTT 8"
+                  ]
+                },
+                {
+                  "paese": "Svezia",
+                  "canali": [
+                    "Viaplay Sweden"
+                  ]
+                },
+                {
+                  "paese": "Svizzera",
+                  "canali": [
+                    "DAZN Switzerland"
+                  ]
+                },
+                {
+                  "paese": "Siria",
+                  "canali": [
+                    "beIN Sports Arabia 9 HD",
+                    "beIN SPORTS CONNECT"
+                  ]
+                },
+                {
+                  "paese": "São Tomé and Príncipe",
+                  "canali": [
+                    "SuperSport OTT 8"
+                  ]
+                },
+                {
+                  "paese": "Tanzania",
+                  "canali": [
+                    "DStv Now",
+                    "SuperSport OTT 8"
+                  ]
+                },
+                {
+                  "paese": "Thailandia",
+                  "canali": [
+                    "MONOMAX"
+                  ]
+                },
+                {
+                  "paese": "Timor-leste",
+                  "canali": [
+                    "Vision+"
+                  ]
+                },
+                {
+                  "paese": "Togo",
+                  "canali": [
+                    "DStv Now",
+                    "SuperSport OTT 8"
+                  ]
+                },
+                {
+                  "paese": "Trinidad e Tobago",
+                  "canali": [
+                    "Bluu"
+                  ]
+                },
+                {
+                  "paese": "Tunisia",
+                  "canali": [
+                    "beIN Sports Arabia 9 HD",
+                    "beIN SPORTS CONNECT"
+                  ]
+                },
+                {
+                  "paese": "Turks e Caicos",
+                  "canali": [
+                    "Bluu"
+                  ]
+                },
+                {
+                  "paese": "Uganda",
+                  "canali": [
+                    "DStv Now",
+                    "SuperSport OTT 8"
+                  ]
+                },
+                {
+                  "paese": "Ucraina",
+                  "canali": [
+                    "Megogo",
+                    "MEGOGO Football 6"
+                  ]
+                },
+                {
+                  "paese": "Emirati Arabi Uniti",
+                  "canali": [
+                    "beIN Sports Arabia 9 HD",
+                    "beIN SPORTS CONNECT"
+                  ]
+                },
+                {
+                  "paese": "Uruguay",
+                  "canali": [
+                    "Disney+ Premium Argentina"
+                  ]
+                },
+                {
+                  "paese": "USA",
+                  "canali": [
+                    "fuboTV",
+                    "ViX",
+                    "Fubo Sports Network 3"
+                  ]
+                },
+                {
+                  "paese": "Venezuela",
+                  "canali": [
+                    "Disney+ Premium Sur"
+                  ]
+                },
+                {
+                  "paese": "Vietnam",
+                  "canali": [
+                    "TV 360"
+                  ]
+                },
+                {
+                  "paese": "Yemen",
+                  "canali": [
+                    "beIN Sports Arabia 9 HD",
+                    "beIN SPORTS CONNECT"
+                  ]
+                },
+                {
+                  "paese": "Zambia",
+                  "canali": [
+                    "SuperSport OTT 8"
+                  ]
+                },
+                {
+                  "paese": "Zimbabwe",
+                  "canali": [
+                    "DStv Now",
+                    "SuperSport OTT 8"
+                  ]
+                }
+              ],
+              "fonte": "LiveSoccerTV"
+            },
+            {
               "titolo": "UEFA Nations League: Spagna-Croazia",
               "categoria": "Calcio",
               "sottocartella": "UEFA Nations League",
@@ -11227,13 +13443,6 @@
               "canali": [
                 {
                   "nome": "Sky Sport Arena",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-09-29T20:45",
-                  "fonte": "virgilio"
-                },
-                {
-                  "nome": "Italia 1",
                   "numero": "",
                   "tipo": "diretta",
                   "orario": "2026-09-29T20:45",
@@ -11274,6 +13483,13 @@
               "data": "01/10/2026",
               "ora": "20:45",
               "canali": [
+                {
+                  "nome": "20",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-01T20:45",
+                  "fonte": "virgilio"
+                },
                 {
                   "nome": "Sky Sport 1",
                   "numero": "201",
@@ -11529,27 +13745,6 @@
           "totale": 4,
           "eventi": [
             {
-              "titolo": "Qualificazioni Coppa d’Africa: Etiopia-Senegal",
-              "categoria": "Calcio",
-              "sottocartella": "Qualificazioni Coppa d’Africa",
-              "sport": "Calcio",
-              "competizione": "Qualificazioni Coppa d’Africa",
-              "evento": "Etiopia-Senegal",
-              "inizio": "2026-09-29T15:00:00+02:00",
-              "data": "29/09/2026",
-              "ora": "15:00",
-              "canali": [
-                {
-                  "nome": "Sportitalia",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-09-29T15:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
               "titolo": "Qualificazioni Coppa d’Africa: Ghana-Gambia",
               "categoria": "Calcio",
               "sottocartella": "Qualificazioni Coppa d’Africa",
@@ -11611,6 +13806,27 @@
                 }
               ],
               "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "Qualificazioni Coppa d’Africa: Guinea-Kenya",
+              "categoria": "Calcio",
+              "sottocartella": "Qualificazioni Coppa d’Africa",
+              "sport": "Calcio",
+              "competizione": "Qualificazioni Coppa d’Africa",
+              "evento": "Guinea-Kenya",
+              "inizio": "2026-10-01T18:00:00+02:00",
+              "data": "01/10/2026",
+              "ora": "18:00",
+              "canali": [
+                {
+                  "nome": "Sportitalia",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-01T18:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
             }
           ]
         },
@@ -11661,67 +13877,88 @@
               "fonte": "Virgilio Sport"
             }
           ]
+        },
+        {
+          "nome": "Liga Profesional",
+          "totale": 2,
+          "eventi": [
+            {
+              "titolo": "Liga Profesional: Boca Juniors-Union",
+              "categoria": "Calcio",
+              "sottocartella": "Liga Profesional",
+              "sport": "Calcio",
+              "competizione": "Liga Profesional",
+              "evento": "Boca Juniors-Union",
+              "inizio": "2026-10-03T02:30:00+02:00",
+              "data": "03/10/2026",
+              "ora": "02:30",
+              "canali": [
+                {
+                  "nome": "Sportitalia",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-03T02:30",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "Liga Profesional: Newell’s-Lanus",
+              "categoria": "Calcio",
+              "sottocartella": "Liga Profesional",
+              "sport": "Calcio",
+              "competizione": "Liga Profesional",
+              "evento": "Newell’s-Lanus",
+              "inizio": "2026-10-03T23:00:00+02:00",
+              "data": "03/10/2026",
+              "ora": "23:00",
+              "canali": [
+                {
+                  "nome": "Sportitalia",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-03T23:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            }
+          ]
+        },
+        {
+          "nome": "Amichevole",
+          "totale": 1,
+          "eventi": [
+            {
+              "titolo": "Amichevole: Lazio-Juve Stabia",
+              "categoria": "Calcio",
+              "sottocartella": "Amichevole",
+              "sport": "Calcio",
+              "competizione": "Amichevole",
+              "evento": "Lazio-Juve Stabia",
+              "inizio": "2026-10-03T15:00:00+02:00",
+              "data": "03/10/2026",
+              "ora": "15:00",
+              "canali": [
+                {
+                  "nome": "Sportitalia",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-03T15:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            }
+          ]
         }
       ]
     },
     {
       "nome": "Tennis",
-      "totale": 14,
+      "totale": 12,
       "sottocartelle": [
-        {
-          "nome": "ATP 250 Chengdu",
-          "totale": 1,
-          "eventi": [
-            {
-              "titolo": "ATP 250 Chengdu: Finale",
-              "categoria": "Tennis",
-              "sottocartella": "ATP 250 Chengdu",
-              "sport": "Tennis",
-              "competizione": "ATP 250 Chengdu",
-              "evento": "Finale",
-              "inizio": "2026-09-29T13:00:00+02:00",
-              "data": "29/09/2026",
-              "ora": "13:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport 1",
-                  "numero": "201",
-                  "tipo": "diretta",
-                  "orario": "2026-09-29T13:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            }
-          ]
-        },
-        {
-          "nome": "ATP 250 Hangzhou",
-          "totale": 1,
-          "eventi": [
-            {
-              "titolo": "ATP 250 Hangzhou: Finale",
-              "categoria": "Tennis",
-              "sottocartella": "ATP 250 Hangzhou",
-              "sport": "Tennis",
-              "competizione": "ATP 250 Hangzhou",
-              "evento": "Finale",
-              "inizio": "2026-09-29T13:30:00+02:00",
-              "data": "29/09/2026",
-              "ora": "13:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport Tennis",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-09-29T13:30",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            }
-          ]
-        },
         {
           "nome": "ATP & WTA",
           "totale": 6,
