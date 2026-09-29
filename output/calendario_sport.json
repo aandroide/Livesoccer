@@ -1,95 +1,179 @@
 {
-  "aggiornato": "2026-09-29T23:05:11+02:00",
+  "aggiornato": "2026-09-30T00:22:47+02:00",
   "fonti": {
     "motori": "Fuori Traiettoria, Dizzle0987/motorsport-calendar, palinsesto TV8",
     "calcio_italiano": "https://raw.githubusercontent.com/aandroide/Livesoccer/master/livesoccertv/output/eventi.json",
     "altri_sport": "https://sport.virgilio.it/guida-tv/"
   },
-  "totale": 215,
+  "totale": 221,
   "cartelle": [
     {
       "nome": "Oggi",
-      "totale": 4,
+      "totale": 7,
       "eventi": [
         {
-          "titolo": "[Basket] Eurocup: Reyer Venezia-Skyliners Francoforte",
-          "categoria": "Basket",
-          "sottocartella": "Eurocup",
-          "sport": "Basket",
-          "competizione": "Eurocup",
-          "evento": "Reyer Venezia-Skyliners Francoforte",
-          "inizio": "2026-09-29T20:30:00+02:00",
-          "data": "29/09/2026",
-          "ora": "20:30",
+          "titolo": "[Tennis] ATP & WTA",
+          "categoria": "Tennis",
+          "sottocartella": "ATP & WTA",
+          "sport": "Tennis",
+          "competizione": "ATP & WTA",
+          "evento": "ATP & WTA",
+          "inizio": "2026-09-30T04:00:00+02:00",
+          "data": "30/09/2026",
+          "ora": "04:00",
           "canali": [
+            {
+              "nome": "Sky Sport Tennis",
+              "numero": "",
+              "tipo": "diretta",
+              "orario": "2026-09-30T04:00",
+              "fonte": "virgilio"
+            },
             {
               "nome": "Sky Sport Max",
               "numero": "",
               "tipo": "diretta",
-              "orario": "2026-09-29T20:30",
+              "orario": "2026-09-30T07:00",
+              "fonte": "virgilio"
+            },
+            {
+              "nome": "Sky Sport 1",
+              "numero": "201",
+              "tipo": "diretta",
+              "orario": "2026-09-30T07:00",
               "fonte": "virgilio"
             }
           ],
           "fonte": "Virgilio Sport"
         },
         {
-          "titolo": "[Basket] Eurolega: Olimpia Milano-Virtus Bologna",
+          "titolo": "[Basket] Eurocup: Bahcesehir-Roma Basketball",
           "categoria": "Basket",
-          "sottocartella": "Eurolega",
+          "sottocartella": "Eurocup",
           "sport": "Basket",
-          "competizione": "Eurolega",
-          "evento": "Olimpia Milano-Virtus Bologna",
-          "inizio": "2026-09-29T20:30:00+02:00",
-          "data": "29/09/2026",
-          "ora": "20:30",
+          "competizione": "Eurocup",
+          "evento": "Bahcesehir-Roma Basketball",
+          "inizio": "2026-09-30T18:00:00+02:00",
+          "data": "30/09/2026",
+          "ora": "18:00",
           "canali": [
             {
               "nome": "Sky Sport 1",
               "numero": "201",
               "tipo": "diretta",
-              "orario": "2026-09-29T20:30",
+              "orario": "2026-09-30T18:00",
               "fonte": "virgilio"
             }
           ],
           "fonte": "Virgilio Sport"
         },
         {
-          "titolo": "[Calcio] UEFA Nations League: Spagna-Croazia",
-          "categoria": "Calcio",
-          "sottocartella": "UEFA Nations League",
-          "sport": "Calcio",
-          "competizione": "UEFA Nations League",
-          "evento": "Spagna-Croazia",
-          "inizio": "2026-09-29T20:45:00+02:00",
-          "data": "29/09/2026",
-          "ora": "20:45",
+          "titolo": "[Basket] Eurocup: Rigas Zelli-Derthona Tortona",
+          "categoria": "Basket",
+          "sottocartella": "Eurocup",
+          "sport": "Basket",
+          "competizione": "Eurocup",
+          "evento": "Rigas Zelli-Derthona Tortona",
+          "inizio": "2026-09-30T18:00:00+02:00",
+          "data": "30/09/2026",
+          "ora": "18:00",
           "canali": [
             {
               "nome": "Sky Sport Arena",
               "numero": "",
               "tipo": "diretta",
-              "orario": "2026-09-29T20:45",
+              "orario": "2026-09-30T18:00",
               "fonte": "virgilio"
             }
           ],
           "fonte": "Virgilio Sport"
         },
         {
-          "titolo": "[Calcio] Qualificazioni Coppa d’Africa: Congo-Camerun",
+          "titolo": "[Calcio] Qualificazioni Coppa d’Africa: Eritrea-Sudafrica",
           "categoria": "Calcio",
           "sottocartella": "Qualificazioni Coppa d’Africa",
           "sport": "Calcio",
           "competizione": "Qualificazioni Coppa d’Africa",
-          "evento": "Congo-Camerun",
-          "inizio": "2026-09-29T21:00:00+02:00",
-          "data": "29/09/2026",
-          "ora": "21:00",
+          "evento": "Eritrea-Sudafrica",
+          "inizio": "2026-09-30T18:00:00+02:00",
+          "data": "30/09/2026",
+          "ora": "18:00",
           "canali": [
             {
               "nome": "Sportitalia",
               "numero": "",
               "tipo": "diretta",
-              "orario": "2026-09-29T21:00",
+              "orario": "2026-09-30T18:00",
+              "fonte": "virgilio"
+            }
+          ],
+          "fonte": "Virgilio Sport"
+        },
+        {
+          "titolo": "[Basket] Eurocup: Napoli-Bourg",
+          "categoria": "Basket",
+          "sottocartella": "Eurocup",
+          "sport": "Basket",
+          "competizione": "Eurocup",
+          "evento": "Napoli-Bourg",
+          "inizio": "2026-09-30T20:00:00+02:00",
+          "data": "30/09/2026",
+          "ora": "20:00",
+          "canali": [
+            {
+              "nome": "Sky Sport Max",
+              "numero": "",
+              "tipo": "diretta",
+              "orario": "2026-09-30T20:00",
+              "fonte": "virgilio"
+            },
+            {
+              "nome": "Sky Sport 1",
+              "numero": "201",
+              "tipo": "diretta",
+              "orario": "2026-09-30T20:00",
+              "fonte": "virgilio"
+            }
+          ],
+          "fonte": "Virgilio Sport"
+        },
+        {
+          "titolo": "[Basket] Eurolega: Panathinaikos Aktor-Lyon",
+          "categoria": "Basket",
+          "sottocartella": "Eurolega",
+          "sport": "Basket",
+          "competizione": "Eurolega",
+          "evento": "Panathinaikos Aktor-Lyon",
+          "inizio": "2026-09-30T20:05:00+02:00",
+          "data": "30/09/2026",
+          "ora": "20:05",
+          "canali": [
+            {
+              "nome": "Sky Sport Mix",
+              "numero": "",
+              "tipo": "diretta",
+              "orario": "2026-09-30T20:05",
+              "fonte": "virgilio"
+            }
+          ],
+          "fonte": "Virgilio Sport"
+        },
+        {
+          "titolo": "[Basket] Eurocup: Maxima Roma-Cluj Napoca",
+          "categoria": "Basket",
+          "sottocartella": "Eurocup",
+          "sport": "Basket",
+          "competizione": "Eurocup",
+          "evento": "Maxima Roma-Cluj Napoca",
+          "inizio": "2026-09-30T21:00:00+02:00",
+          "data": "30/09/2026",
+          "ora": "21:00",
+          "canali": [
+            {
+              "nome": "Sky Sport Arena",
+              "numero": "",
+              "tipo": "diretta",
+              "orario": "2026-09-30T21:00",
               "fonte": "virgilio"
             }
           ],
@@ -4365,7 +4449,7 @@
     },
     {
       "nome": "Calcio",
-      "totale": 42,
+      "totale": 41,
       "sottocartelle": [
         {
           "nome": "Serie A",
@@ -8446,30 +8530,57 @@
           ]
         },
         {
-          "nome": "UEFA Nations League",
-          "totale": 14,
+          "nome": "Qualificazioni Coppa d’Africa",
+          "totale": 2,
           "eventi": [
             {
-              "titolo": "UEFA Nations League: Spagna-Croazia",
+              "titolo": "Qualificazioni Coppa d’Africa: Eritrea-Sudafrica",
               "categoria": "Calcio",
-              "sottocartella": "UEFA Nations League",
+              "sottocartella": "Qualificazioni Coppa d’Africa",
               "sport": "Calcio",
-              "competizione": "UEFA Nations League",
-              "evento": "Spagna-Croazia",
-              "inizio": "2026-09-29T20:45:00+02:00",
-              "data": "29/09/2026",
-              "ora": "20:45",
+              "competizione": "Qualificazioni Coppa d’Africa",
+              "evento": "Eritrea-Sudafrica",
+              "inizio": "2026-09-30T18:00:00+02:00",
+              "data": "30/09/2026",
+              "ora": "18:00",
               "canali": [
                 {
-                  "nome": "Sky Sport Arena",
+                  "nome": "Sportitalia",
                   "numero": "",
                   "tipo": "diretta",
-                  "orario": "2026-09-29T20:45",
+                  "orario": "2026-09-30T18:00",
                   "fonte": "virgilio"
                 }
               ],
               "fonte": "Virgilio Sport"
             },
+            {
+              "titolo": "Qualificazioni Coppa d’Africa: Guinea-Kenya",
+              "categoria": "Calcio",
+              "sottocartella": "Qualificazioni Coppa d’Africa",
+              "sport": "Calcio",
+              "competizione": "Qualificazioni Coppa d’Africa",
+              "evento": "Guinea-Kenya",
+              "inizio": "2026-10-01T18:00:00+02:00",
+              "data": "01/10/2026",
+              "ora": "18:00",
+              "canali": [
+                {
+                  "nome": "Sportitalia",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-01T18:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            }
+          ]
+        },
+        {
+          "nome": "UEFA Nations League",
+          "totale": 14,
+          "eventi": [
             {
               "titolo": "UEFA Nations League: Azerbaigian-Liechtenstein",
               "categoria": "Calcio",
@@ -11392,71 +11503,23 @@
                 }
               ],
               "fonte": "Virgilio Sport"
-            }
-          ]
-        },
-        {
-          "nome": "Qualificazioni Coppa d’Africa",
-          "totale": 3,
-          "eventi": [
-            {
-              "titolo": "Qualificazioni Coppa d’Africa: Congo-Camerun",
-              "categoria": "Calcio",
-              "sottocartella": "Qualificazioni Coppa d’Africa",
-              "sport": "Calcio",
-              "competizione": "Qualificazioni Coppa d’Africa",
-              "evento": "Congo-Camerun",
-              "inizio": "2026-09-29T21:00:00+02:00",
-              "data": "29/09/2026",
-              "ora": "21:00",
-              "canali": [
-                {
-                  "nome": "Sportitalia",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-09-29T21:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
             },
             {
-              "titolo": "Qualificazioni Coppa d’Africa: Eritrea-Sudafrica",
+              "titolo": "UEFA Nations League: Inghilterra-Repubblica Ceca",
               "categoria": "Calcio",
-              "sottocartella": "Qualificazioni Coppa d’Africa",
+              "sottocartella": "UEFA Nations League",
               "sport": "Calcio",
-              "competizione": "Qualificazioni Coppa d’Africa",
-              "evento": "Eritrea-Sudafrica",
-              "inizio": "2026-09-30T18:00:00+02:00",
-              "data": "30/09/2026",
-              "ora": "18:00",
+              "competizione": "UEFA Nations League",
+              "evento": "Inghilterra-Repubblica Ceca",
+              "inizio": "2026-10-06T20:45:00+02:00",
+              "data": "06/10/2026",
+              "ora": "20:45",
               "canali": [
                 {
-                  "nome": "Sportitalia",
+                  "nome": "Sky Sport Arena",
                   "numero": "",
                   "tipo": "diretta",
-                  "orario": "2026-09-30T18:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "Qualificazioni Coppa d’Africa: Guinea-Kenya",
-              "categoria": "Calcio",
-              "sottocartella": "Qualificazioni Coppa d’Africa",
-              "sport": "Calcio",
-              "competizione": "Qualificazioni Coppa d’Africa",
-              "evento": "Guinea-Kenya",
-              "inizio": "2026-10-01T18:00:00+02:00",
-              "data": "01/10/2026",
-              "ora": "18:00",
-              "canali": [
-                {
-                  "nome": "Sportitalia",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-01T18:00",
+                  "orario": "2026-10-06T20:45",
                   "fonte": "virgilio"
                 }
               ],
@@ -11591,11 +11654,11 @@
     },
     {
       "nome": "Tennis",
-      "totale": 12,
+      "totale": 16,
       "sottocartelle": [
         {
           "nome": "ATP & WTA",
-          "totale": 6,
+          "totale": 7,
           "eventi": [
             {
               "titolo": "ATP & WTA",
@@ -11771,12 +11834,33 @@
                 }
               ],
               "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "ATP & WTA",
+              "categoria": "Tennis",
+              "sottocartella": "ATP & WTA",
+              "sport": "Tennis",
+              "competizione": "ATP & WTA",
+              "evento": "ATP & WTA",
+              "inizio": "2026-10-06T15:00:00+02:00",
+              "data": "06/10/2026",
+              "ora": "15:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport Tennis",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-06T15:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
             }
           ]
         },
         {
           "nome": "WTA 1000 Pechino",
-          "totale": 4,
+          "totale": 5,
           "eventi": [
             {
               "titolo": "WTA 1000 Pechino: 6a giornata",
@@ -11868,12 +11952,33 @@
                 }
               ],
               "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "WTA 1000 Pechino: 7a giornata",
+              "categoria": "Tennis",
+              "sottocartella": "WTA 1000 Pechino",
+              "sport": "Tennis",
+              "competizione": "WTA 1000 Pechino",
+              "evento": "7a giornata",
+              "inizio": "2026-10-06T06:00:00+02:00",
+              "data": "06/10/2026",
+              "ora": "06:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport Tennis",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-06T06:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
             }
           ]
         },
         {
           "nome": "ATP 500 Pechino",
-          "totale": 2,
+          "totale": 3,
           "eventi": [
             {
               "titolo": "ATP 500 Pechino: 1a Semifinale",
@@ -11916,6 +12021,54 @@
                 }
               ],
               "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "ATP 500 Pechino: Finale",
+              "categoria": "Tennis",
+              "sottocartella": "ATP 500 Pechino",
+              "sport": "Tennis",
+              "competizione": "ATP 500 Pechino",
+              "evento": "Finale",
+              "inizio": "2026-10-06T13:00:00+02:00",
+              "data": "06/10/2026",
+              "ora": "13:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport Tennis",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-06T13:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            }
+          ]
+        },
+        {
+          "nome": "ATP 500 Tokyo",
+          "totale": 1,
+          "eventi": [
+            {
+              "titolo": "ATP 500 Tokyo: Finale",
+              "categoria": "Tennis",
+              "sottocartella": "ATP 500 Tokyo",
+              "sport": "Tennis",
+              "competizione": "ATP 500 Tokyo",
+              "evento": "Finale",
+              "inizio": "2026-10-06T11:00:00+02:00",
+              "data": "06/10/2026",
+              "ora": "11:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport Tennis",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-06T11:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
             }
           ]
         }
@@ -11927,29 +12080,8 @@
       "sottocartelle": [
         {
           "nome": "Eurocup",
-          "totale": 5,
+          "totale": 6,
           "eventi": [
-            {
-              "titolo": "Eurocup: Reyer Venezia-Skyliners Francoforte",
-              "categoria": "Basket",
-              "sottocartella": "Eurocup",
-              "sport": "Basket",
-              "competizione": "Eurocup",
-              "evento": "Reyer Venezia-Skyliners Francoforte",
-              "inizio": "2026-09-29T20:30:00+02:00",
-              "data": "29/09/2026",
-              "ora": "20:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport Max",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-09-29T20:30",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
             {
               "titolo": "Eurocup: Bahcesehir-Roma Basketball",
               "categoria": "Basket",
@@ -12040,34 +12172,55 @@
                 }
               ],
               "fonte": "Virgilio Sport"
-            }
-          ]
-        },
-        {
-          "nome": "Eurolega",
-          "totale": 4,
-          "eventi": [
+            },
             {
-              "titolo": "Eurolega: Olimpia Milano-Virtus Bologna",
+              "titolo": "Eurocup: Buducnost-Napoli",
               "categoria": "Basket",
-              "sottocartella": "Eurolega",
+              "sottocartella": "Eurocup",
               "sport": "Basket",
-              "competizione": "Eurolega",
-              "evento": "Olimpia Milano-Virtus Bologna",
-              "inizio": "2026-09-29T20:30:00+02:00",
-              "data": "29/09/2026",
-              "ora": "20:30",
+              "competizione": "Eurocup",
+              "evento": "Buducnost-Napoli",
+              "inizio": "2026-10-06T19:00:00+02:00",
+              "data": "06/10/2026",
+              "ora": "19:00",
               "canali": [
                 {
-                  "nome": "Sky Sport 1",
-                  "numero": "201",
+                  "nome": "Sky Sport Max",
+                  "numero": "",
                   "tipo": "diretta",
-                  "orario": "2026-09-29T20:30",
+                  "orario": "2026-10-06T19:00",
                   "fonte": "virgilio"
                 }
               ],
               "fonte": "Virgilio Sport"
             },
+            {
+              "titolo": "Eurocup: Aquila Trento-Slask Wroclaw",
+              "categoria": "Basket",
+              "sottocartella": "Eurocup",
+              "sport": "Basket",
+              "competizione": "Eurocup",
+              "evento": "Aquila Trento-Slask Wroclaw",
+              "inizio": "2026-10-06T20:00:00+02:00",
+              "data": "06/10/2026",
+              "ora": "20:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport Mix",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-06T20:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            }
+          ]
+        },
+        {
+          "nome": "Eurolega",
+          "totale": 3,
+          "eventi": [
             {
               "titolo": "Eurolega: Panathinaikos Aktor-Lyon",
               "categoria": "Basket",
@@ -12185,7 +12338,7 @@
     },
     {
       "nome": "Altri sport",
-      "totale": 7,
+      "totale": 10,
       "sottocartelle": [
         {
           "nome": "Rugby",
@@ -12237,7 +12390,7 @@
         },
         {
           "nome": "Ciclismo",
-          "totale": 4,
+          "totale": 7,
           "eventi": [
             {
               "titolo": "Giro dell’Emilia: .",
@@ -12332,6 +12485,76 @@
                   "numero": "",
                   "tipo": "diretta",
                   "orario": "2026-10-05T15:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "Binche-Chimay-Binche: .",
+              "categoria": "Altri sport",
+              "sottocartella": "Ciclismo",
+              "sport": "Ciclismo",
+              "competizione": "Binche-Chimay-Binche",
+              "evento": ".",
+              "inizio": "2026-10-06T13:00:00+02:00",
+              "data": "06/10/2026",
+              "ora": "13:00",
+              "canali": [
+                {
+                  "nome": "Eurosport",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-06T13:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "Europei Ljubljana: Staffetta mista a squadre",
+              "categoria": "Altri sport",
+              "sottocartella": "Ciclismo",
+              "sport": "Ciclismo",
+              "competizione": "Europei Ljubljana 2026",
+              "evento": "Staffetta mista a squadre",
+              "inizio": "2026-10-06T14:50:00+02:00",
+              "data": "06/10/2026",
+              "ora": "14:50",
+              "canali": [
+                {
+                  "nome": "Eurosport",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-06T14:50",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "Tre Valli Varesine: .",
+              "categoria": "Altri sport",
+              "sottocartella": "Ciclismo",
+              "sport": "Ciclismo",
+              "competizione": "Tre Valli Varesine",
+              "evento": ".",
+              "inizio": "2026-10-06T15:25:00+02:00",
+              "data": "06/10/2026",
+              "ora": "15:25",
+              "canali": [
+                {
+                  "nome": "Eurosport 2",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-06T15:25",
+                  "fonte": "virgilio"
+                },
+                {
+                  "nome": "Rai 2",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-06T15:25",
                   "fonte": "virgilio"
                 }
               ],
