@@ -1,37 +1,16 @@
 {
-  "aggiornato": "2026-09-29T04:56:58+02:00",
+  "aggiornato": "2026-09-29T11:57:34+02:00",
   "fonti": {
     "motori": "Fuori Traiettoria, Dizzle0987/motorsport-calendar, palinsesto TV8",
     "calcio_italiano": "https://raw.githubusercontent.com/aandroide/Livesoccer/master/livesoccertv/output/eventi.json",
     "altri_sport": "https://sport.virgilio.it/guida-tv/"
   },
-  "totale": 208,
+  "totale": 210,
   "cartelle": [
     {
       "nome": "Oggi",
-      "totale": 10,
+      "totale": 9,
       "eventi": [
-        {
-          "titolo": "[Tennis] ATP & WTA",
-          "categoria": "Tennis",
-          "sottocartella": "ATP & WTA",
-          "sport": "Tennis",
-          "competizione": "ATP & WTA",
-          "evento": "ATP & WTA",
-          "inizio": "2026-09-29T04:00:00+02:00",
-          "data": "29/09/2026",
-          "ora": "04:00",
-          "canali": [
-            {
-              "nome": "Sky Sport Tennis",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-09-29T04:00",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
         {
           "titolo": "[Tennis] ATP 250 Chengdu: Finale",
           "categoria": "Tennis",
@@ -232,7 +211,7 @@
     },
     {
       "nome": "Motori",
-      "totale": 134,
+      "totale": 137,
       "sottocartelle": [
         {
           "nome": "Formula 1",
@@ -1894,7 +1873,7 @@
         },
         {
           "nome": "MotoGP",
-          "totale": 50,
+          "totale": 53,
           "eventi": [
             {
               "titolo": "MotoGP: Grand Prix of Japan - Prove libere",
@@ -3503,6 +3482,96 @@
                   "numero": "",
                   "tipo": "streaming",
                   "orario": "2026-11-27T15:00",
+                  "fonte": "dizzle+config"
+                }
+              ],
+              "fonte": "Dizzle0987/motorsport-calendar"
+            },
+            {
+              "titolo": "MotoGP: Valencian Community Grand Prix - FP2",
+              "categoria": "Motori",
+              "sottocartella": "MotoGP",
+              "sport": "Motori",
+              "competizione": "MotoGP",
+              "evento": "Valencian Community Grand Prix - FP2",
+              "sessione": "prove",
+              "circuito": "Circuit Ricardo Tormo, Cheste, Spain",
+              "inizio": "2026-11-28T10:10:00+01:00",
+              "data": "28/11/2026",
+              "ora": "10:10",
+              "canali": [
+                {
+                  "nome": "Sky Sport MotoGP",
+                  "numero": "208",
+                  "tipo": "diretta",
+                  "orario": "2026-11-28T10:10",
+                  "fonte": "dizzle+config"
+                },
+                {
+                  "nome": "NOW",
+                  "numero": "",
+                  "tipo": "streaming",
+                  "orario": "2026-11-28T10:10",
+                  "fonte": "dizzle+config"
+                }
+              ],
+              "fonte": "Dizzle0987/motorsport-calendar"
+            },
+            {
+              "titolo": "MotoGP: Valencian Community Grand Prix - Q1",
+              "categoria": "Motori",
+              "sottocartella": "MotoGP",
+              "sport": "Motori",
+              "competizione": "MotoGP",
+              "evento": "Valencian Community Grand Prix - Q1",
+              "sessione": "qualifiche",
+              "circuito": "Circuit Ricardo Tormo, Cheste, Spain",
+              "inizio": "2026-11-28T10:50:00+01:00",
+              "data": "28/11/2026",
+              "ora": "10:50",
+              "canali": [
+                {
+                  "nome": "Sky Sport MotoGP",
+                  "numero": "208",
+                  "tipo": "diretta",
+                  "orario": "2026-11-28T10:50",
+                  "fonte": "dizzle+config"
+                },
+                {
+                  "nome": "NOW",
+                  "numero": "",
+                  "tipo": "streaming",
+                  "orario": "2026-11-28T10:50",
+                  "fonte": "dizzle+config"
+                }
+              ],
+              "fonte": "Dizzle0987/motorsport-calendar"
+            },
+            {
+              "titolo": "MotoGP: Valencian Community Grand Prix - Q2",
+              "categoria": "Motori",
+              "sottocartella": "MotoGP",
+              "sport": "Motori",
+              "competizione": "MotoGP",
+              "evento": "Valencian Community Grand Prix - Q2",
+              "sessione": "qualifiche",
+              "circuito": "Circuit Ricardo Tormo, Cheste, Spain",
+              "inizio": "2026-11-28T11:15:00+01:00",
+              "data": "28/11/2026",
+              "ora": "11:15",
+              "canali": [
+                {
+                  "nome": "Sky Sport MotoGP",
+                  "numero": "208",
+                  "tipo": "diretta",
+                  "orario": "2026-11-28T11:15",
+                  "fonte": "dizzle+config"
+                },
+                {
+                  "nome": "NOW",
+                  "numero": "",
+                  "tipo": "streaming",
+                  "orario": "2026-11-28T11:15",
                   "fonte": "dizzle+config"
                 }
               ],
@@ -8763,33 +8832,66 @@
     },
     {
       "nome": "Tennis",
-      "totale": 15,
+      "totale": 14,
       "sottocartelle": [
         {
-          "nome": "ATP & WTA",
-          "totale": 7,
+          "nome": "ATP 250 Chengdu",
+          "totale": 1,
           "eventi": [
             {
-              "titolo": "ATP & WTA",
+              "titolo": "ATP 250 Chengdu: Finale",
               "categoria": "Tennis",
-              "sottocartella": "ATP & WTA",
+              "sottocartella": "ATP 250 Chengdu",
               "sport": "Tennis",
-              "competizione": "ATP & WTA",
-              "evento": "ATP & WTA",
-              "inizio": "2026-09-29T04:00:00+02:00",
+              "competizione": "ATP 250 Chengdu",
+              "evento": "Finale",
+              "inizio": "2026-09-29T13:00:00+02:00",
               "data": "29/09/2026",
-              "ora": "04:00",
+              "ora": "13:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport 1",
+                  "numero": "201",
+                  "tipo": "diretta",
+                  "orario": "2026-09-29T13:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            }
+          ]
+        },
+        {
+          "nome": "ATP 250 Hangzhou",
+          "totale": 1,
+          "eventi": [
+            {
+              "titolo": "ATP 250 Hangzhou: Finale",
+              "categoria": "Tennis",
+              "sottocartella": "ATP 250 Hangzhou",
+              "sport": "Tennis",
+              "competizione": "ATP 250 Hangzhou",
+              "evento": "Finale",
+              "inizio": "2026-09-29T13:30:00+02:00",
+              "data": "29/09/2026",
+              "ora": "13:30",
               "canali": [
                 {
                   "nome": "Sky Sport Tennis",
                   "numero": "",
                   "tipo": "diretta",
-                  "orario": "2026-09-29T04:00",
+                  "orario": "2026-09-29T13:30",
                   "fonte": "virgilio"
                 }
               ],
               "fonte": "Virgilio Sport"
-            },
+            }
+          ]
+        },
+        {
+          "nome": "ATP & WTA",
+          "totale": 6,
+          "eventi": [
             {
               "titolo": "ATP & WTA",
               "categoria": "Tennis",
@@ -8960,60 +9062,6 @@
                   "numero": "",
                   "tipo": "diretta",
                   "orario": "2026-10-04T07:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            }
-          ]
-        },
-        {
-          "nome": "ATP 250 Chengdu",
-          "totale": 1,
-          "eventi": [
-            {
-              "titolo": "ATP 250 Chengdu: Finale",
-              "categoria": "Tennis",
-              "sottocartella": "ATP 250 Chengdu",
-              "sport": "Tennis",
-              "competizione": "ATP 250 Chengdu",
-              "evento": "Finale",
-              "inizio": "2026-09-29T13:00:00+02:00",
-              "data": "29/09/2026",
-              "ora": "13:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport 1",
-                  "numero": "201",
-                  "tipo": "diretta",
-                  "orario": "2026-09-29T13:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            }
-          ]
-        },
-        {
-          "nome": "ATP 250 Hangzhou",
-          "totale": 1,
-          "eventi": [
-            {
-              "titolo": "ATP 250 Hangzhou: Finale",
-              "categoria": "Tennis",
-              "sottocartella": "ATP 250 Hangzhou",
-              "sport": "Tennis",
-              "competizione": "ATP 250 Hangzhou",
-              "evento": "Finale",
-              "inizio": "2026-09-29T13:30:00+02:00",
-              "data": "29/09/2026",
-              "ora": "13:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport Tennis",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-09-29T13:30",
                   "fonte": "virgilio"
                 }
               ],
