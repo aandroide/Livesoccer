@@ -1,79 +1,16 @@
 {
-  "aggiornato": "2026-09-30T16:21:23+02:00",
+  "aggiornato": "2026-09-30T21:51:03+02:00",
   "fonti": {
     "motori": "Fuori Traiettoria, Dizzle0987/motorsport-calendar, palinsesto TV8",
     "calcio_italiano": "https://raw.githubusercontent.com/aandroide/Livesoccer/master/livesoccertv/output/eventi.json",
     "altri_sport": "https://sport.virgilio.it/guida-tv/"
   },
-  "totale": 225,
+  "totale": 223,
   "cartelle": [
     {
       "nome": "Oggi",
-      "totale": 6,
+      "totale": 3,
       "eventi": [
-        {
-          "titolo": "[Basket] Eurocup: Bahcesehir-Roma Basketball",
-          "categoria": "Basket",
-          "sottocartella": "Eurocup",
-          "sport": "Basket",
-          "competizione": "Eurocup",
-          "evento": "Bahcesehir-Roma Basketball",
-          "inizio": "2026-09-30T18:00:00+02:00",
-          "data": "30/09/2026",
-          "ora": "18:00",
-          "canali": [
-            {
-              "nome": "Sky Sport 1",
-              "numero": "201",
-              "tipo": "diretta",
-              "orario": "2026-09-30T18:00",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Basket] Eurocup: Rigas Zelli-Derthona Tortona",
-          "categoria": "Basket",
-          "sottocartella": "Eurocup",
-          "sport": "Basket",
-          "competizione": "Eurocup",
-          "evento": "Rigas Zelli-Derthona Tortona",
-          "inizio": "2026-09-30T18:00:00+02:00",
-          "data": "30/09/2026",
-          "ora": "18:00",
-          "canali": [
-            {
-              "nome": "Sky Sport Arena",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-09-30T18:00",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Calcio] Qualificazioni Coppa d’Africa: Eritrea-Sudafrica",
-          "categoria": "Calcio",
-          "sottocartella": "Qualificazioni Coppa d’Africa",
-          "sport": "Calcio",
-          "competizione": "Qualificazioni Coppa d’Africa",
-          "evento": "Eritrea-Sudafrica",
-          "inizio": "2026-09-30T18:00:00+02:00",
-          "data": "30/09/2026",
-          "ora": "18:00",
-          "canali": [
-            {
-              "nome": "Sportitalia",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-09-30T18:00",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
         {
           "titolo": "[Basket] Eurocup: Napoli-Bourg",
           "categoria": "Basket",
@@ -148,11 +85,11 @@
     },
     {
       "nome": "Motori",
-      "totale": 148,
+      "totale": 149,
       "sottocartelle": [
         {
           "nome": "Formula 1",
-          "totale": 34,
+          "totale": 35,
           "eventi": [
             {
               "titolo": "Formula 1: Bahrain Grand Prix in Malaysia - FP1",
@@ -527,9 +464,10 @@
                 {
                   "nome": "TV8",
                   "numero": "8",
-                  "tipo": "differita",
-                  "orario": "2026-10-11T09:45",
-                  "fonte": "config+tv8"
+                  "tipo": "diretta",
+                  "orario": "2026-10-10T11:00",
+                  "fonte": "tv8",
+                  "programma": "GP Singapore: Sprint"
                 }
               ],
               "fonte": "Dizzle0987/motorsport-calendar"
@@ -578,9 +516,10 @@
                 {
                   "nome": "TV8",
                   "numero": "8",
-                  "tipo": "differita",
-                  "orario": "",
-                  "fonte": "config"
+                  "tipo": "diretta",
+                  "orario": "2026-10-10T15:00",
+                  "fonte": "tv8",
+                  "programma": "GP Singapore: Qualifiche"
                 }
               ],
               "fonte": "Dizzle0987/motorsport-calendar"
@@ -1743,6 +1682,57 @@
                   "numero": "213",
                   "tipo": "diretta",
                   "orario": "2026-11-28T19:00",
+                  "fonte": "config"
+                },
+                {
+                  "nome": "TV8",
+                  "numero": "8",
+                  "tipo": "differita",
+                  "orario": "",
+                  "fonte": "config"
+                }
+              ],
+              "fonte": "Dizzle0987/motorsport-calendar"
+            },
+            {
+              "titolo": "Formula 1: Qatar Grand Prix - Gara",
+              "categoria": "Motori",
+              "sottocartella": "Formula 1",
+              "sport": "Motori",
+              "competizione": "Formula 1",
+              "evento": "Qatar Grand Prix - Gara",
+              "sessione": "gara",
+              "circuito": "Lusail International Circuit, Lusail, Qatar",
+              "inizio": "2026-11-29T17:00:00+01:00",
+              "data": "29/11/2026",
+              "ora": "17:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport F1",
+                  "numero": "207",
+                  "tipo": "diretta",
+                  "orario": "2026-11-29T17:00",
+                  "fonte": "dizzle+config"
+                },
+                {
+                  "nome": "NOW",
+                  "numero": "",
+                  "tipo": "streaming",
+                  "orario": "2026-11-29T17:00",
+                  "fonte": "dizzle+config"
+                },
+                {
+                  "nome": "Sky Sport 1",
+                  "numero": "201",
+                  "tipo": "diretta",
+                  "orario": "2026-11-29T17:00",
+                  "fonte": "config"
+                },
+                {
+                  "nome": "Sky Sport 4K",
+                  "numero": "213",
+                  "tipo": "diretta",
+                  "orario": "2026-11-29T17:00",
                   "fonte": "config"
                 },
                 {
@@ -4311,7 +4301,7 @@
                   "numero": "8",
                   "tipo": "differita",
                   "orario": "2026-10-18T14:45",
-                  "programma": "Spagna: Gara Superpole",
+                  "programma": "Spagna: Superpole Race",
                   "fonte": "tv8"
                 }
               ],
@@ -4533,7 +4523,7 @@
     },
     {
       "nome": "Calcio",
-      "totale": 41,
+      "totale": 40,
       "sottocartelle": [
         {
           "nome": "Serie A",
@@ -8615,29 +8605,8 @@
         },
         {
           "nome": "Qualificazioni Coppa d’Africa",
-          "totale": 2,
+          "totale": 1,
           "eventi": [
-            {
-              "titolo": "Qualificazioni Coppa d’Africa: Eritrea-Sudafrica",
-              "categoria": "Calcio",
-              "sottocartella": "Qualificazioni Coppa d’Africa",
-              "sport": "Calcio",
-              "competizione": "Qualificazioni Coppa d’Africa",
-              "evento": "Eritrea-Sudafrica",
-              "inizio": "2026-09-30T18:00:00+02:00",
-              "data": "30/09/2026",
-              "ora": "18:00",
-              "canali": [
-                {
-                  "nome": "Sportitalia",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-09-30T18:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
             {
               "titolo": "Qualificazioni Coppa d’Africa: Guinea-Kenya",
               "categoria": "Calcio",
@@ -9978,13 +9947,6 @@
               "ora": "20:45",
               "canali": [
                 {
-                  "nome": "20",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-01T20:45",
-                  "fonte": "virgilio"
-                },
-                {
                   "nome": "Sky Sport 1",
                   "numero": "201",
                   "tipo": "diretta",
@@ -9995,6 +9957,13 @@
                   "nome": "SKY Go Italia",
                   "numero": "",
                   "tipo": "streaming",
+                  "orario": "2026-10-01T20:45",
+                  "fonte": "livesoccer"
+                },
+                {
+                  "nome": "20",
+                  "numero": "",
+                  "tipo": "diretta",
                   "orario": "2026-10-01T20:45",
                   "fonte": "livesoccer"
                 },
@@ -10595,8 +10564,10 @@
                 {
                   "paese": "Indonesia",
                   "canali": [
+                    "RCTI",
                     "K-Vision",
                     "MNC Soccer Channel",
+                    "RCTI+",
                     "Vision+"
                   ]
                 },
@@ -10990,6 +10961,12 @@
                   "canali": [
                     "ESPN Colombia",
                     "Disney+ Premium Chile"
+                  ]
+                },
+                {
+                  "paese": "Filippine",
+                  "canali": [
+                    "RCTI+"
                   ]
                 },
                 {
@@ -13480,54 +13457,12 @@
     },
     {
       "nome": "Basket",
-      "totale": 11,
+      "totale": 9,
       "sottocartelle": [
         {
           "nome": "Eurocup",
-          "totale": 6,
+          "totale": 4,
           "eventi": [
-            {
-              "titolo": "Eurocup: Bahcesehir-Roma Basketball",
-              "categoria": "Basket",
-              "sottocartella": "Eurocup",
-              "sport": "Basket",
-              "competizione": "Eurocup",
-              "evento": "Bahcesehir-Roma Basketball",
-              "inizio": "2026-09-30T18:00:00+02:00",
-              "data": "30/09/2026",
-              "ora": "18:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport 1",
-                  "numero": "201",
-                  "tipo": "diretta",
-                  "orario": "2026-09-30T18:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "Eurocup: Rigas Zelli-Derthona Tortona",
-              "categoria": "Basket",
-              "sottocartella": "Eurocup",
-              "sport": "Basket",
-              "competizione": "Eurocup",
-              "evento": "Rigas Zelli-Derthona Tortona",
-              "inizio": "2026-09-30T18:00:00+02:00",
-              "data": "30/09/2026",
-              "ora": "18:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Arena",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-09-30T18:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
             {
               "titolo": "Eurocup: Napoli-Bourg",
               "categoria": "Basket",
