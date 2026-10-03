@@ -1,51 +1,16 @@
 {
-  "aggiornato": "2026-10-03T13:48:19+02:00",
+  "aggiornato": "2026-10-03T16:00:08+02:00",
   "fonti": {
     "motori": "Fuori Traiettoria, Dizzle0987/motorsport-calendar, palinsesto TV8",
     "calcio_italiano": "https://raw.githubusercontent.com/aandroide/Livesoccer/master/livesoccertv/output/eventi.json",
     "altri_sport": "https://sport.virgilio.it/guida-tv/"
   },
-  "totale": 235,
+  "totale": 239,
   "cartelle": [
     {
       "nome": "Oggi",
-      "totale": 21,
+      "totale": 25,
       "eventi": [
-        {
-          "titolo": "[Altri sport] Giro dell’Emilia: .",
-          "categoria": "Altri sport",
-          "sottocartella": "Ciclismo femminile",
-          "sport": "Ciclismo femminile",
-          "competizione": "Giro dell’Emilia",
-          "evento": ".",
-          "inizio": "2026-10-03T12:30:00+02:00",
-          "data": "03/10/2026",
-          "ora": "12:30",
-          "canali": [
-            {
-              "nome": "Rai Sport",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-10-03T12:30",
-              "fonte": "virgilio"
-            },
-            {
-              "nome": "Eurosport",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-10-03T14:00",
-              "fonte": "virgilio"
-            },
-            {
-              "nome": "Rai 2",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-10-03T14:00",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
         {
           "titolo": "[Altri sport] Europei Ljubljana: Prova in linea Élite Donne",
           "categoria": "Altri sport",
@@ -527,6 +492,12 @@
               "paese": "Bielorussia",
               "canali": [
                 "Okko Спорт"
+              ]
+            },
+            {
+              "paese": "Belgio",
+              "canali": [
+                "DAZN Belgium"
               ]
             },
             {
@@ -1794,6 +1765,280 @@
           "fonte": "Virgilio Sport"
         },
         {
+          "titolo": "[Calcio] Serie C: Giugliano vs Barletta",
+          "categoria": "Calcio",
+          "sottocartella": "Serie C",
+          "sport": "Calcio",
+          "competizione": "Serie C",
+          "evento": "Giugliano vs Barletta",
+          "inizio": "2026-10-03T17:30:00+02:00",
+          "data": "03/10/2026",
+          "ora": "17:30",
+          "canali": [
+            {
+              "nome": "Sky Sport 253",
+              "numero": "",
+              "tipo": "diretta",
+              "orario": "2026-10-03T17:30",
+              "fonte": "livesoccer"
+            },
+            {
+              "nome": "SKY Go Italia",
+              "numero": "",
+              "tipo": "streaming",
+              "orario": "2026-10-03T17:30",
+              "fonte": "livesoccer"
+            },
+            {
+              "nome": "NOW TV",
+              "numero": "",
+              "tipo": "streaming",
+              "orario": "2026-10-03T17:30",
+              "fonte": "livesoccer"
+            }
+          ],
+          "canali_mondo": [
+            {
+              "paese": "Italia",
+              "canali": [
+                "Sky Sport 253",
+                "SKY Go Italia",
+                "NOW TV"
+              ]
+            },
+            {
+              "paese": "San Marino",
+              "canali": [
+                "Sky Sport 253",
+                "SKY Go Italia",
+                "NOW TV"
+              ]
+            }
+          ],
+          "fonte": "LiveSoccerTV"
+        },
+        {
+          "titolo": "[Calcio] Serie C: Grosseto vs Sambenedettese",
+          "categoria": "Calcio",
+          "sottocartella": "Serie C",
+          "sport": "Calcio",
+          "competizione": "Serie C",
+          "evento": "Grosseto vs Sambenedettese",
+          "inizio": "2026-10-03T17:30:00+02:00",
+          "data": "03/10/2026",
+          "ora": "17:30",
+          "canali": [
+            {
+              "nome": "Sky Sport 252",
+              "numero": "",
+              "tipo": "diretta",
+              "orario": "2026-10-03T17:30",
+              "fonte": "livesoccer"
+            },
+            {
+              "nome": "SKY Go Italia",
+              "numero": "",
+              "tipo": "streaming",
+              "orario": "2026-10-03T17:30",
+              "fonte": "livesoccer"
+            },
+            {
+              "nome": "NOW TV",
+              "numero": "",
+              "tipo": "streaming",
+              "orario": "2026-10-03T17:30",
+              "fonte": "livesoccer"
+            }
+          ],
+          "canali_mondo": [
+            {
+              "paese": "Italia",
+              "canali": [
+                "Sky Sport 252",
+                "SKY Go Italia",
+                "NOW TV"
+              ]
+            },
+            {
+              "paese": "San Marino",
+              "canali": [
+                "Sky Sport 252",
+                "SKY Go Italia",
+                "NOW TV"
+              ]
+            }
+          ],
+          "fonte": "LiveSoccerTV"
+        },
+        {
+          "titolo": "[Calcio] Serie C: Livorno vs Pescara",
+          "categoria": "Calcio",
+          "sottocartella": "Serie C",
+          "sport": "Calcio",
+          "competizione": "Serie C",
+          "evento": "Livorno vs Pescara",
+          "inizio": "2026-10-03T17:30:00+02:00",
+          "data": "03/10/2026",
+          "ora": "17:30",
+          "canali": [
+            {
+              "nome": "Sky Sport 251",
+              "numero": "",
+              "tipo": "diretta",
+              "orario": "2026-10-03T17:30",
+              "fonte": "livesoccer"
+            },
+            {
+              "nome": "SKY Go Italia",
+              "numero": "",
+              "tipo": "streaming",
+              "orario": "2026-10-03T17:30",
+              "fonte": "livesoccer"
+            },
+            {
+              "nome": "Sky Sport Max",
+              "numero": "",
+              "tipo": "diretta",
+              "orario": "2026-10-03T17:30",
+              "fonte": "livesoccer"
+            },
+            {
+              "nome": "NOW TV",
+              "numero": "",
+              "tipo": "streaming",
+              "orario": "2026-10-03T17:30",
+              "fonte": "livesoccer"
+            }
+          ],
+          "canali_mondo": [
+            {
+              "paese": "Italia",
+              "canali": [
+                "Sky Sport 251",
+                "SKY Go Italia",
+                "Sky Sport Max",
+                "NOW TV"
+              ]
+            },
+            {
+              "paese": "San Marino",
+              "canali": [
+                "Sky Sport 251",
+                "SKY Go Italia",
+                "Sky Sport Max",
+                "NOW TV"
+              ]
+            }
+          ],
+          "fonte": "LiveSoccerTV"
+        },
+        {
+          "titolo": "[Calcio] Serie C: Monopoli vs Savoia",
+          "categoria": "Calcio",
+          "sottocartella": "Serie C",
+          "sport": "Calcio",
+          "competizione": "Serie C",
+          "evento": "Monopoli vs Savoia",
+          "inizio": "2026-10-03T17:30:00+02:00",
+          "data": "03/10/2026",
+          "ora": "17:30",
+          "canali": [
+            {
+              "nome": "Sky Sport 255",
+              "numero": "",
+              "tipo": "diretta",
+              "orario": "2026-10-03T17:30",
+              "fonte": "livesoccer"
+            },
+            {
+              "nome": "SKY Go Italia",
+              "numero": "",
+              "tipo": "streaming",
+              "orario": "2026-10-03T17:30",
+              "fonte": "livesoccer"
+            },
+            {
+              "nome": "NOW TV",
+              "numero": "",
+              "tipo": "streaming",
+              "orario": "2026-10-03T17:30",
+              "fonte": "livesoccer"
+            }
+          ],
+          "canali_mondo": [
+            {
+              "paese": "Italia",
+              "canali": [
+                "Sky Sport 255",
+                "SKY Go Italia",
+                "NOW TV"
+              ]
+            },
+            {
+              "paese": "San Marino",
+              "canali": [
+                "Sky Sport 255",
+                "SKY Go Italia",
+                "NOW TV"
+              ]
+            }
+          ],
+          "fonte": "LiveSoccerTV"
+        },
+        {
+          "titolo": "[Calcio] Serie C: Union ArzignanoChiampo vs Pergolettese",
+          "categoria": "Calcio",
+          "sottocartella": "Serie C",
+          "sport": "Calcio",
+          "competizione": "Serie C",
+          "evento": "Union ArzignanoChiampo vs Pergolettese",
+          "inizio": "2026-10-03T17:30:00+02:00",
+          "data": "03/10/2026",
+          "ora": "17:30",
+          "canali": [
+            {
+              "nome": "Sky Sport 254",
+              "numero": "",
+              "tipo": "diretta",
+              "orario": "2026-10-03T17:30",
+              "fonte": "livesoccer"
+            },
+            {
+              "nome": "SKY Go Italia",
+              "numero": "",
+              "tipo": "streaming",
+              "orario": "2026-10-03T17:30",
+              "fonte": "livesoccer"
+            },
+            {
+              "nome": "NOW TV",
+              "numero": "",
+              "tipo": "streaming",
+              "orario": "2026-10-03T17:30",
+              "fonte": "livesoccer"
+            }
+          ],
+          "canali_mondo": [
+            {
+              "paese": "Italia",
+              "canali": [
+                "Sky Sport 254",
+                "SKY Go Italia",
+                "NOW TV"
+              ]
+            },
+            {
+              "paese": "San Marino",
+              "canali": [
+                "Sky Sport 254",
+                "SKY Go Italia",
+                "NOW TV"
+              ]
+            }
+          ],
+          "fonte": "LiveSoccerTV"
+        },
+        {
           "titolo": "[Calcio] Serie A: Roma-Lazio",
           "categoria": "Calcio",
           "sottocartella": "Serie A femminile",
@@ -3046,6 +3291,12 @@
               "paese": "Bielorussia",
               "canali": [
                 "Okko Спорт"
+              ]
+            },
+            {
+              "paese": "Belgio",
+              "canali": [
+                "DAZN Belgium"
               ]
             },
             {
@@ -8504,7 +8755,7 @@
     },
     {
       "nome": "Calcio",
-      "totale": 49,
+      "totale": 54,
       "sottocartelle": [
         {
           "nome": "Serie A",
@@ -12283,7 +12534,7 @@
         },
         {
           "nome": "Serie C",
-          "totale": 13,
+          "totale": 18,
           "eventi": [
             {
               "titolo": "Serie C: Cavese vs Casertana",
@@ -12552,6 +12803,280 @@
                   "paese": "San Marino",
                   "canali": [
                     "Sky Sport 255",
+                    "SKY Go Italia",
+                    "NOW TV"
+                  ]
+                }
+              ],
+              "fonte": "LiveSoccerTV"
+            },
+            {
+              "titolo": "Serie C: Giugliano vs Barletta",
+              "categoria": "Calcio",
+              "sottocartella": "Serie C",
+              "sport": "Calcio",
+              "competizione": "Serie C",
+              "evento": "Giugliano vs Barletta",
+              "inizio": "2026-10-03T17:30:00+02:00",
+              "data": "03/10/2026",
+              "ora": "17:30",
+              "canali": [
+                {
+                  "nome": "Sky Sport 253",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-03T17:30",
+                  "fonte": "livesoccer"
+                },
+                {
+                  "nome": "SKY Go Italia",
+                  "numero": "",
+                  "tipo": "streaming",
+                  "orario": "2026-10-03T17:30",
+                  "fonte": "livesoccer"
+                },
+                {
+                  "nome": "NOW TV",
+                  "numero": "",
+                  "tipo": "streaming",
+                  "orario": "2026-10-03T17:30",
+                  "fonte": "livesoccer"
+                }
+              ],
+              "canali_mondo": [
+                {
+                  "paese": "Italia",
+                  "canali": [
+                    "Sky Sport 253",
+                    "SKY Go Italia",
+                    "NOW TV"
+                  ]
+                },
+                {
+                  "paese": "San Marino",
+                  "canali": [
+                    "Sky Sport 253",
+                    "SKY Go Italia",
+                    "NOW TV"
+                  ]
+                }
+              ],
+              "fonte": "LiveSoccerTV"
+            },
+            {
+              "titolo": "Serie C: Grosseto vs Sambenedettese",
+              "categoria": "Calcio",
+              "sottocartella": "Serie C",
+              "sport": "Calcio",
+              "competizione": "Serie C",
+              "evento": "Grosseto vs Sambenedettese",
+              "inizio": "2026-10-03T17:30:00+02:00",
+              "data": "03/10/2026",
+              "ora": "17:30",
+              "canali": [
+                {
+                  "nome": "Sky Sport 252",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-03T17:30",
+                  "fonte": "livesoccer"
+                },
+                {
+                  "nome": "SKY Go Italia",
+                  "numero": "",
+                  "tipo": "streaming",
+                  "orario": "2026-10-03T17:30",
+                  "fonte": "livesoccer"
+                },
+                {
+                  "nome": "NOW TV",
+                  "numero": "",
+                  "tipo": "streaming",
+                  "orario": "2026-10-03T17:30",
+                  "fonte": "livesoccer"
+                }
+              ],
+              "canali_mondo": [
+                {
+                  "paese": "Italia",
+                  "canali": [
+                    "Sky Sport 252",
+                    "SKY Go Italia",
+                    "NOW TV"
+                  ]
+                },
+                {
+                  "paese": "San Marino",
+                  "canali": [
+                    "Sky Sport 252",
+                    "SKY Go Italia",
+                    "NOW TV"
+                  ]
+                }
+              ],
+              "fonte": "LiveSoccerTV"
+            },
+            {
+              "titolo": "Serie C: Livorno vs Pescara",
+              "categoria": "Calcio",
+              "sottocartella": "Serie C",
+              "sport": "Calcio",
+              "competizione": "Serie C",
+              "evento": "Livorno vs Pescara",
+              "inizio": "2026-10-03T17:30:00+02:00",
+              "data": "03/10/2026",
+              "ora": "17:30",
+              "canali": [
+                {
+                  "nome": "Sky Sport 251",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-03T17:30",
+                  "fonte": "livesoccer"
+                },
+                {
+                  "nome": "SKY Go Italia",
+                  "numero": "",
+                  "tipo": "streaming",
+                  "orario": "2026-10-03T17:30",
+                  "fonte": "livesoccer"
+                },
+                {
+                  "nome": "Sky Sport Max",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-03T17:30",
+                  "fonte": "livesoccer"
+                },
+                {
+                  "nome": "NOW TV",
+                  "numero": "",
+                  "tipo": "streaming",
+                  "orario": "2026-10-03T17:30",
+                  "fonte": "livesoccer"
+                }
+              ],
+              "canali_mondo": [
+                {
+                  "paese": "Italia",
+                  "canali": [
+                    "Sky Sport 251",
+                    "SKY Go Italia",
+                    "Sky Sport Max",
+                    "NOW TV"
+                  ]
+                },
+                {
+                  "paese": "San Marino",
+                  "canali": [
+                    "Sky Sport 251",
+                    "SKY Go Italia",
+                    "Sky Sport Max",
+                    "NOW TV"
+                  ]
+                }
+              ],
+              "fonte": "LiveSoccerTV"
+            },
+            {
+              "titolo": "Serie C: Monopoli vs Savoia",
+              "categoria": "Calcio",
+              "sottocartella": "Serie C",
+              "sport": "Calcio",
+              "competizione": "Serie C",
+              "evento": "Monopoli vs Savoia",
+              "inizio": "2026-10-03T17:30:00+02:00",
+              "data": "03/10/2026",
+              "ora": "17:30",
+              "canali": [
+                {
+                  "nome": "Sky Sport 255",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-03T17:30",
+                  "fonte": "livesoccer"
+                },
+                {
+                  "nome": "SKY Go Italia",
+                  "numero": "",
+                  "tipo": "streaming",
+                  "orario": "2026-10-03T17:30",
+                  "fonte": "livesoccer"
+                },
+                {
+                  "nome": "NOW TV",
+                  "numero": "",
+                  "tipo": "streaming",
+                  "orario": "2026-10-03T17:30",
+                  "fonte": "livesoccer"
+                }
+              ],
+              "canali_mondo": [
+                {
+                  "paese": "Italia",
+                  "canali": [
+                    "Sky Sport 255",
+                    "SKY Go Italia",
+                    "NOW TV"
+                  ]
+                },
+                {
+                  "paese": "San Marino",
+                  "canali": [
+                    "Sky Sport 255",
+                    "SKY Go Italia",
+                    "NOW TV"
+                  ]
+                }
+              ],
+              "fonte": "LiveSoccerTV"
+            },
+            {
+              "titolo": "Serie C: Union ArzignanoChiampo vs Pergolettese",
+              "categoria": "Calcio",
+              "sottocartella": "Serie C",
+              "sport": "Calcio",
+              "competizione": "Serie C",
+              "evento": "Union ArzignanoChiampo vs Pergolettese",
+              "inizio": "2026-10-03T17:30:00+02:00",
+              "data": "03/10/2026",
+              "ora": "17:30",
+              "canali": [
+                {
+                  "nome": "Sky Sport 254",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-03T17:30",
+                  "fonte": "livesoccer"
+                },
+                {
+                  "nome": "SKY Go Italia",
+                  "numero": "",
+                  "tipo": "streaming",
+                  "orario": "2026-10-03T17:30",
+                  "fonte": "livesoccer"
+                },
+                {
+                  "nome": "NOW TV",
+                  "numero": "",
+                  "tipo": "streaming",
+                  "orario": "2026-10-03T17:30",
+                  "fonte": "livesoccer"
+                }
+              ],
+              "canali_mondo": [
+                {
+                  "paese": "Italia",
+                  "canali": [
+                    "Sky Sport 254",
+                    "SKY Go Italia",
+                    "NOW TV"
+                  ]
+                },
+                {
+                  "paese": "San Marino",
+                  "canali": [
+                    "Sky Sport 254",
                     "SKY Go Italia",
                     "NOW TV"
                   ]
@@ -12890,6 +13415,12 @@
                   "paese": "Bielorussia",
                   "canali": [
                     "Okko Спорт"
+                  ]
+                },
+                {
+                  "paese": "Belgio",
+                  "canali": [
+                    "DAZN Belgium"
                   ]
                 },
                 {
@@ -15328,6 +15859,12 @@
                   ]
                 },
                 {
+                  "paese": "Belgio",
+                  "canali": [
+                    "DAZN Belgium"
+                  ]
+                },
+                {
                   "paese": "Belize",
                   "canali": [
                     "ESPN Norte"
@@ -16724,7 +17261,8 @@
                   "canali": [
                     "beIN Sports HD 1",
                     "beIN Sports English",
-                    "beIN SPORTS CONNECT"
+                    "beIN SPORTS CONNECT",
+                    "TOD"
                   ]
                 },
                 {
@@ -16805,7 +17343,8 @@
                   "canali": [
                     "beIN Sports HD 1",
                     "beIN Sports English",
-                    "beIN SPORTS CONNECT"
+                    "beIN SPORTS CONNECT",
+                    "TOD"
                   ]
                 },
                 {
@@ -16828,6 +17367,12 @@
                   "canali": [
                     "Okko Спорт",
                     "Sport TV Belarus"
+                  ]
+                },
+                {
+                  "paese": "Belgio",
+                  "canali": [
+                    "DAZN Belgium"
                   ]
                 },
                 {
@@ -16978,6 +17523,7 @@
                     "beIN SPORTS CONNECT",
                     "DStv Now",
                     "SuperSport Premier League ROA",
+                    "TOD",
                     "New World Sport1"
                   ]
                 },
@@ -17084,7 +17630,8 @@
                     "beIN Sports English",
                     "beIN SPORTS CONNECT",
                     "DStv Now",
-                    "SuperSport Premier League ROA"
+                    "SuperSport Premier League ROA",
+                    "TOD"
                   ]
                 },
                 {
@@ -17112,7 +17659,8 @@
                   "canali": [
                     "beIN Sports HD 1",
                     "beIN Sports English",
-                    "beIN SPORTS CONNECT"
+                    "beIN SPORTS CONNECT",
+                    "TOD"
                   ]
                 },
                 {
@@ -17340,7 +17888,8 @@
                   "canali": [
                     "beIN Sports HD 1",
                     "beIN Sports English",
-                    "beIN SPORTS CONNECT"
+                    "beIN SPORTS CONNECT",
+                    "TOD"
                   ]
                 },
                 {
@@ -17381,7 +17930,8 @@
                   "canali": [
                     "beIN Sports HD 1",
                     "beIN Sports English",
-                    "beIN SPORTS CONNECT"
+                    "beIN SPORTS CONNECT",
+                    "TOD"
                   ]
                 },
                 {
@@ -17412,7 +17962,8 @@
                   "canali": [
                     "beIN Sports HD 1",
                     "beIN Sports English",
-                    "beIN SPORTS CONNECT"
+                    "beIN SPORTS CONNECT",
+                    "TOD"
                   ]
                 },
                 {
@@ -17433,7 +17984,8 @@
                   "canali": [
                     "beIN Sports HD 1",
                     "beIN Sports English",
-                    "beIN SPORTS CONNECT"
+                    "beIN SPORTS CONNECT",
+                    "TOD"
                   ]
                 },
                 {
@@ -17459,7 +18011,8 @@
                   "canali": [
                     "beIN Sports HD 1",
                     "beIN Sports English",
-                    "beIN SPORTS CONNECT"
+                    "beIN SPORTS CONNECT",
+                    "TOD"
                   ]
                 },
                 {
@@ -17536,6 +18089,7 @@
                     "beIN SPORTS CONNECT",
                     "DStv Now",
                     "SuperSport Premier League ROA",
+                    "TOD",
                     "New World Sport1"
                   ]
                 },
@@ -17603,7 +18157,8 @@
                   "canali": [
                     "beIN Sports HD 1",
                     "beIN Sports English",
-                    "beIN SPORTS CONNECT"
+                    "beIN SPORTS CONNECT",
+                    "TOD"
                   ]
                 },
                 {
@@ -17688,7 +18243,8 @@
                   "canali": [
                     "beIN Sports HD 1",
                     "beIN Sports English",
-                    "beIN SPORTS CONNECT"
+                    "beIN SPORTS CONNECT",
+                    "TOD"
                   ]
                 },
                 {
@@ -17705,7 +18261,8 @@
                   "canali": [
                     "beIN Sports HD 1",
                     "beIN Sports English",
-                    "beIN SPORTS CONNECT"
+                    "beIN SPORTS CONNECT",
+                    "TOD"
                   ]
                 },
                 {
@@ -17774,7 +18331,8 @@
                   "canali": [
                     "beIN Sports HD 1",
                     "beIN Sports English",
-                    "beIN SPORTS CONNECT"
+                    "beIN SPORTS CONNECT",
+                    "TOD"
                   ]
                 },
                 {
@@ -17844,7 +18402,8 @@
                   "paese": "Arabia Saudita",
                   "canali": [
                     "beIN Sports HD 1",
-                    "beIN SPORTS CONNECT"
+                    "beIN SPORTS CONNECT",
+                    "TOD"
                   ]
                 },
                 {
@@ -17898,7 +18457,8 @@
                     "beIN Sports HD 1",
                     "beIN Sports English",
                     "beIN SPORTS CONNECT",
-                    "SuperSport Premier League ROA"
+                    "SuperSport Premier League ROA",
+                    "TOD"
                   ]
                 },
                 {
@@ -17916,7 +18476,8 @@
                     "beIN Sports HD 1",
                     "beIN Sports English",
                     "beIN SPORTS CONNECT",
-                    "DStv Now"
+                    "DStv Now",
+                    "TOD"
                   ]
                 },
                 {
@@ -17952,7 +18513,8 @@
                     "beIN Sports English",
                     "beIN SPORTS CONNECT",
                     "DStv Now",
-                    "SuperSport Premier League ROA"
+                    "SuperSport Premier League ROA",
+                    "TOD"
                   ]
                 },
                 {
@@ -17988,7 +18550,8 @@
                   "canali": [
                     "beIN Sports HD 1",
                     "beIN Sports English",
-                    "beIN SPORTS CONNECT"
+                    "beIN SPORTS CONNECT",
+                    "TOD"
                   ]
                 },
                 {
@@ -18049,7 +18612,8 @@
                   "canali": [
                     "beIN Sports HD 1",
                     "beIN Sports English",
-                    "beIN SPORTS CONNECT"
+                    "beIN SPORTS CONNECT",
+                    "TOD"
                   ]
                 },
                 {
@@ -18085,7 +18649,8 @@
                   "canali": [
                     "beIN Sports HD 1",
                     "beIN Sports English",
-                    "beIN SPORTS CONNECT"
+                    "beIN SPORTS CONNECT",
+                    "TOD"
                   ]
                 },
                 {
@@ -18108,7 +18673,8 @@
                   "paese": "Venezuela",
                   "canali": [
                     "ESPN Colombia",
-                    "Disney+ Premium Sur"
+                    "Disney+ Premium Sur",
+                    "inter"
                   ]
                 },
                 {
@@ -18122,7 +18688,8 @@
                   "canali": [
                     "beIN Sports HD 1",
                     "beIN Sports English",
-                    "beIN SPORTS CONNECT"
+                    "beIN SPORTS CONNECT",
+                    "TOD"
                   ]
                 },
                 {
@@ -19625,70 +20192,8 @@
     },
     {
       "nome": "Altri sport",
-      "totale": 13,
+      "totale": 12,
       "sottocartelle": [
-        {
-          "nome": "Ciclismo femminile",
-          "totale": 2,
-          "eventi": [
-            {
-              "titolo": "Giro dell’Emilia: .",
-              "categoria": "Altri sport",
-              "sottocartella": "Ciclismo femminile",
-              "sport": "Ciclismo femminile",
-              "competizione": "Giro dell’Emilia",
-              "evento": ".",
-              "inizio": "2026-10-03T12:30:00+02:00",
-              "data": "03/10/2026",
-              "ora": "12:30",
-              "canali": [
-                {
-                  "nome": "Rai Sport",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-03T12:30",
-                  "fonte": "virgilio"
-                },
-                {
-                  "nome": "Eurosport",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-03T14:00",
-                  "fonte": "virgilio"
-                },
-                {
-                  "nome": "Rai 2",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-03T14:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "Europei su strada Lubiana: . Prova in linea (Élite)",
-              "categoria": "Altri sport",
-              "sottocartella": "Ciclismo femminile",
-              "sport": "Ciclismo femminile",
-              "competizione": "Europei su strada Lubiana 2026",
-              "evento": ". Prova in linea (Élite)",
-              "inizio": "2026-10-03T15:30:00+02:00",
-              "data": "03/10/2026",
-              "ora": "15:30",
-              "canali": [
-                {
-                  "nome": "Rai 2",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-03T15:30",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            }
-          ]
-        },
         {
           "nome": "Ciclismo",
           "totale": 10,
@@ -19919,6 +20424,33 @@
                   "numero": "",
                   "tipo": "diretta",
                   "orario": "2026-10-08T14:50",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            }
+          ]
+        },
+        {
+          "nome": "Ciclismo femminile",
+          "totale": 1,
+          "eventi": [
+            {
+              "titolo": "Europei su strada Lubiana: . Prova in linea (Élite)",
+              "categoria": "Altri sport",
+              "sottocartella": "Ciclismo femminile",
+              "sport": "Ciclismo femminile",
+              "competizione": "Europei su strada Lubiana 2026",
+              "evento": ". Prova in linea (Élite)",
+              "inizio": "2026-10-03T15:30:00+02:00",
+              "data": "03/10/2026",
+              "ora": "15:30",
+              "canali": [
+                {
+                  "nome": "Rai 2",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-03T15:30",
                   "fonte": "virgilio"
                 }
               ],
