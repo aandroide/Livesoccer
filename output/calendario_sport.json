@@ -1,199 +1,16 @@
 {
-  "aggiornato": "2026-10-04T17:03:58+02:00",
+  "aggiornato": "2026-10-04T20:39:56+02:00",
   "fonti": {
     "motori": "Fuori Traiettoria, Dizzle0987/motorsport-calendar, palinsesto TV8",
     "calcio_italiano": "https://raw.githubusercontent.com/aandroide/Livesoccer/master/livesoccertv/output/eventi.json",
     "altri_sport": "https://sport.virgilio.it/guida-tv/"
   },
-  "totale": 226,
+  "totale": 219,
   "cartelle": [
     {
       "nome": "Oggi",
-      "totale": 19,
+      "totale": 12,
       "eventi": [
-        {
-          "titolo": "[Calcio] Serie C: Cosenza-Foggia",
-          "categoria": "Calcio",
-          "sottocartella": "Serie C",
-          "sport": "Calcio",
-          "competizione": "Serie C",
-          "evento": "Cosenza-Foggia",
-          "inizio": "2026-10-04T14:30:00+02:00",
-          "data": "04/10/2026",
-          "ora": "14:30",
-          "canali": [
-            {
-              "nome": "Sky Sport Calcio",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-10-04T14:30",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Basket] Serie A2: Vigevano-Rieti",
-          "categoria": "Basket",
-          "sottocartella": "Serie A2",
-          "sport": "Basket",
-          "competizione": "Serie A2",
-          "evento": "Vigevano-Rieti",
-          "inizio": "2026-10-04T16:00:00+02:00",
-          "data": "04/10/2026",
-          "ora": "16:00",
-          "canali": [
-            {
-              "nome": "Rai Sport",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-10-04T16:00",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Basket] Serie A: Roma Basketball-Derthona Tortona",
-          "categoria": "Basket",
-          "sottocartella": "Serie A",
-          "sport": "Basket",
-          "competizione": "Serie A",
-          "evento": "Roma Basketball-Derthona Tortona",
-          "inizio": "2026-10-04T16:00:00+02:00",
-          "data": "04/10/2026",
-          "ora": "16:00",
-          "canali": [
-            {
-              "nome": "Sky Sport 1",
-              "numero": "201",
-              "tipo": "diretta",
-              "orario": "2026-10-04T16:00",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Motori] GT World Challenge Europe: R9 Barcellona - Race 2",
-          "categoria": "Motori",
-          "sottocartella": "GT World Challenge Europe",
-          "sport": "Motori",
-          "competizione": "GT World Challenge Europe",
-          "evento": "R9 Barcellona - Race 2",
-          "sessione": "gara",
-          "circuito": "Circuito di Catalogna, Carretera Granollers, A Parets km 2, Carrer Mas Moreneta, s/n, 08160 Barcelona, Spagna",
-          "inizio": "2026-10-04T16:00:00+02:00",
-          "data": "04/10/2026",
-          "ora": "16:00",
-          "canali": [],
-          "fonte": "Fuori Traiettoria"
-        },
-        {
-          "titolo": "[Calcio] Serie C: Dolomiti Bellunesi vs Novara",
-          "categoria": "Calcio",
-          "sottocartella": "Serie C",
-          "sport": "Calcio",
-          "competizione": "Serie C",
-          "evento": "Dolomiti Bellunesi vs Novara",
-          "inizio": "2026-10-04T17:30:00+02:00",
-          "data": "04/10/2026",
-          "ora": "17:30",
-          "canali": [
-            {
-              "nome": "Sky Sport 252",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-10-04T17:30",
-              "fonte": "livesoccer"
-            },
-            {
-              "nome": "SKY Go Italia",
-              "numero": "",
-              "tipo": "streaming",
-              "orario": "2026-10-04T17:30",
-              "fonte": "livesoccer"
-            },
-            {
-              "nome": "Sky Sport Arena",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-10-04T17:30",
-              "fonte": "livesoccer"
-            },
-            {
-              "nome": "NOW TV",
-              "numero": "",
-              "tipo": "streaming",
-              "orario": "2026-10-04T17:30",
-              "fonte": "livesoccer"
-            }
-          ],
-          "canali_mondo": [
-            {
-              "paese": "Italia",
-              "canali": [
-                "Sky Sport 252",
-                "SKY Go Italia",
-                "Sky Sport Arena",
-                "NOW TV"
-              ]
-            },
-            {
-              "paese": "San Marino",
-              "canali": [
-                "Sky Sport 252",
-                "SKY Go Italia",
-                "Sky Sport Arena",
-                "NOW TV"
-              ]
-            }
-          ],
-          "fonte": "LiveSoccerTV"
-        },
-        {
-          "titolo": "[Calcio] Serie C: Monopoli-Savoia",
-          "categoria": "Calcio",
-          "sottocartella": "Serie C",
-          "sport": "Calcio",
-          "competizione": "Serie C",
-          "evento": "Monopoli-Savoia",
-          "inizio": "2026-10-04T17:30:00+02:00",
-          "data": "04/10/2026",
-          "ora": "17:30",
-          "canali": [
-            {
-              "nome": "Sky Sport Arena",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-10-04T17:30",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Calcio] Serie C: Reggiana vs Spezia",
-          "categoria": "Calcio",
-          "sottocartella": "Serie C",
-          "sport": "Calcio",
-          "competizione": "Serie C",
-          "evento": "Reggiana vs Spezia",
-          "inizio": "2026-10-04T17:30:00+02:00",
-          "data": "04/10/2026",
-          "ora": "17:30",
-          "canali": [
-            {
-              "nome": "Sky Sport Calcio",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-10-04T17:30",
-              "fonte": "virgilio"
-            }
-          ],
-          "canali_mondo": [],
-          "fonte": "LiveSoccerTV"
-        },
         {
           "titolo": "[Calcio] UEFA Nations League: Kosovo vs Austria",
           "categoria": "Calcio",
@@ -4408,7 +4225,7 @@
     },
     {
       "nome": "Motori",
-      "totale": 129,
+      "totale": 128,
       "sottocartelle": [
         {
           "nome": "Formula 1",
@@ -5923,23 +5740,8 @@
         },
         {
           "nome": "GT World Challenge Europe",
-          "totale": 3,
+          "totale": 2,
           "eventi": [
-            {
-              "titolo": "GT World Challenge Europe: R9 Barcellona - Race 2",
-              "categoria": "Motori",
-              "sottocartella": "GT World Challenge Europe",
-              "sport": "Motori",
-              "competizione": "GT World Challenge Europe",
-              "evento": "R9 Barcellona - Race 2",
-              "sessione": "gara",
-              "circuito": "Circuito di Catalogna, Carretera Granollers, A Parets km 2, Carrer Mas Moreneta, s/n, 08160 Barcelona, Spagna",
-              "inizio": "2026-10-04T16:00:00+02:00",
-              "data": "04/10/2026",
-              "ora": "16:00",
-              "canali": [],
-              "fonte": "Fuori Traiettoria"
-            },
             {
               "titolo": "GT World Challenge Europe: R10 Portimao - Quali",
               "categoria": "Motori",
@@ -8237,7 +8039,7 @@
     },
     {
       "nome": "Calcio",
-      "totale": 49,
+      "totale": 45,
       "sottocartelle": [
         {
           "nome": "Serie A",
@@ -12268,134 +12070,8 @@
         },
         {
           "nome": "Serie C",
-          "totale": 9,
+          "totale": 5,
           "eventi": [
-            {
-              "titolo": "Serie C: Cosenza-Foggia",
-              "categoria": "Calcio",
-              "sottocartella": "Serie C",
-              "sport": "Calcio",
-              "competizione": "Serie C",
-              "evento": "Cosenza-Foggia",
-              "inizio": "2026-10-04T14:30:00+02:00",
-              "data": "04/10/2026",
-              "ora": "14:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport Calcio",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-04T14:30",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "Serie C: Dolomiti Bellunesi vs Novara",
-              "categoria": "Calcio",
-              "sottocartella": "Serie C",
-              "sport": "Calcio",
-              "competizione": "Serie C",
-              "evento": "Dolomiti Bellunesi vs Novara",
-              "inizio": "2026-10-04T17:30:00+02:00",
-              "data": "04/10/2026",
-              "ora": "17:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport 252",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-04T17:30",
-                  "fonte": "livesoccer"
-                },
-                {
-                  "nome": "SKY Go Italia",
-                  "numero": "",
-                  "tipo": "streaming",
-                  "orario": "2026-10-04T17:30",
-                  "fonte": "livesoccer"
-                },
-                {
-                  "nome": "Sky Sport Arena",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-04T17:30",
-                  "fonte": "livesoccer"
-                },
-                {
-                  "nome": "NOW TV",
-                  "numero": "",
-                  "tipo": "streaming",
-                  "orario": "2026-10-04T17:30",
-                  "fonte": "livesoccer"
-                }
-              ],
-              "canali_mondo": [
-                {
-                  "paese": "Italia",
-                  "canali": [
-                    "Sky Sport 252",
-                    "SKY Go Italia",
-                    "Sky Sport Arena",
-                    "NOW TV"
-                  ]
-                },
-                {
-                  "paese": "San Marino",
-                  "canali": [
-                    "Sky Sport 252",
-                    "SKY Go Italia",
-                    "Sky Sport Arena",
-                    "NOW TV"
-                  ]
-                }
-              ],
-              "fonte": "LiveSoccerTV"
-            },
-            {
-              "titolo": "Serie C: Monopoli-Savoia",
-              "categoria": "Calcio",
-              "sottocartella": "Serie C",
-              "sport": "Calcio",
-              "competizione": "Serie C",
-              "evento": "Monopoli-Savoia",
-              "inizio": "2026-10-04T17:30:00+02:00",
-              "data": "04/10/2026",
-              "ora": "17:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport Arena",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-04T17:30",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "Serie C: Reggiana vs Spezia",
-              "categoria": "Calcio",
-              "sottocartella": "Serie C",
-              "sport": "Calcio",
-              "competizione": "Serie C",
-              "evento": "Reggiana vs Spezia",
-              "inizio": "2026-10-04T17:30:00+02:00",
-              "data": "04/10/2026",
-              "ora": "17:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport Calcio",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-04T17:30",
-                  "fonte": "virgilio"
-                }
-              ],
-              "canali_mondo": [],
-              "fonte": "LiveSoccerTV"
-            },
             {
               "titolo": "Serie C: Alcione vs Trento",
               "categoria": "Calcio",
@@ -17826,83 +17502,8 @@
     },
     {
       "nome": "Basket",
-      "totale": 11,
+      "totale": 9,
       "sottocartelle": [
-        {
-          "nome": "Serie A2",
-          "totale": 1,
-          "eventi": [
-            {
-              "titolo": "Serie A2: Vigevano-Rieti",
-              "categoria": "Basket",
-              "sottocartella": "Serie A2",
-              "sport": "Basket",
-              "competizione": "Serie A2",
-              "evento": "Vigevano-Rieti",
-              "inizio": "2026-10-04T16:00:00+02:00",
-              "data": "04/10/2026",
-              "ora": "16:00",
-              "canali": [
-                {
-                  "nome": "Rai Sport",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-04T16:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            }
-          ]
-        },
-        {
-          "nome": "Serie A",
-          "totale": 2,
-          "eventi": [
-            {
-              "titolo": "Serie A: Roma Basketball-Derthona Tortona",
-              "categoria": "Basket",
-              "sottocartella": "Serie A",
-              "sport": "Basket",
-              "competizione": "Serie A",
-              "evento": "Roma Basketball-Derthona Tortona",
-              "inizio": "2026-10-04T16:00:00+02:00",
-              "data": "04/10/2026",
-              "ora": "16:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport 1",
-                  "numero": "201",
-                  "tipo": "diretta",
-                  "orario": "2026-10-04T16:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "Serie A: Virtus Bologna-Maxima Roma",
-              "categoria": "Basket",
-              "sottocartella": "Serie A",
-              "sport": "Basket",
-              "competizione": "Serie A",
-              "evento": "Virtus Bologna-Maxima Roma",
-              "inizio": "2026-10-04T18:15:00+02:00",
-              "data": "04/10/2026",
-              "ora": "18:15",
-              "canali": [
-                {
-                  "nome": "Sky Sport 1",
-                  "numero": "201",
-                  "tipo": "diretta",
-                  "orario": "2026-10-04T18:15",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            }
-          ]
-        },
         {
           "nome": "Serie A1 femminile",
           "totale": 1,
@@ -17921,6 +17522,33 @@
                 {
                   "nome": "Rai Sport",
                   "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-04T18:15",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            }
+          ]
+        },
+        {
+          "nome": "Serie A",
+          "totale": 1,
+          "eventi": [
+            {
+              "titolo": "Serie A: Virtus Bologna-Maxima Roma",
+              "categoria": "Basket",
+              "sottocartella": "Serie A",
+              "sport": "Basket",
+              "competizione": "Serie A",
+              "evento": "Virtus Bologna-Maxima Roma",
+              "inizio": "2026-10-04T18:15:00+02:00",
+              "data": "04/10/2026",
+              "ora": "18:15",
+              "canali": [
+                {
+                  "nome": "Sky Sport 1",
+                  "numero": "201",
                   "tipo": "diretta",
                   "orario": "2026-10-04T18:15",
                   "fonte": "virgilio"
