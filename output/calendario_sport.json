@@ -1,107 +1,16 @@
 {
-  "aggiornato": "2026-10-05T09:45:38+02:00",
+  "aggiornato": "2026-10-05T16:55:08+02:00",
   "fonti": {
     "motori": "Fuori Traiettoria, Dizzle0987/motorsport-calendar, palinsesto TV8",
     "calcio_italiano": "https://raw.githubusercontent.com/aandroide/Livesoccer/master/livesoccertv/output/eventi.json",
     "altri_sport": "https://sport.virgilio.it/guida-tv/"
   },
-  "totale": 225,
+  "totale": 224,
   "cartelle": [
     {
       "nome": "Oggi",
-      "totale": 10,
+      "totale": 6,
       "eventi": [
-        {
-          "titolo": "[Tennis] ATP 500 Pechino: 1a Semifinale",
-          "categoria": "Tennis",
-          "sottocartella": "ATP 500 Pechino",
-          "sport": "Tennis",
-          "competizione": "ATP 500 Pechino",
-          "evento": "1a Semifinale",
-          "inizio": "2026-10-05T09:00:00+02:00",
-          "data": "05/10/2026",
-          "ora": "09:00",
-          "canali": [
-            {
-              "nome": "Sky Sport Tennis",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-10-05T09:00",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Tennis] ATP 500 Tokyo: 1a Semifinale",
-          "categoria": "Tennis",
-          "sottocartella": "ATP 500 Tokyo",
-          "sport": "Tennis",
-          "competizione": "ATP 500 Tokyo",
-          "evento": "1a Semifinale",
-          "inizio": "2026-10-05T09:00:00+02:00",
-          "data": "05/10/2026",
-          "ora": "09:00",
-          "canali": [
-            {
-              "nome": "Sky Sport 1",
-              "numero": "201",
-              "tipo": "diretta",
-              "orario": "2026-10-05T09:00",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Tennis] ATP 500 Tokyo: 2a Semifinale",
-          "categoria": "Tennis",
-          "sottocartella": "ATP 500 Tokyo",
-          "sport": "Tennis",
-          "competizione": "ATP 500 Tokyo",
-          "evento": "2a Semifinale",
-          "inizio": "2026-10-05T11:00:00+02:00",
-          "data": "05/10/2026",
-          "ora": "11:00",
-          "canali": [
-            {
-              "nome": "Sky Sport 1",
-              "numero": "201",
-              "tipo": "diretta",
-              "orario": "2026-10-05T11:00",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Tennis] ATP 500 Pechino: 2a Semifinale",
-          "categoria": "Tennis",
-          "sottocartella": "ATP 500 Pechino",
-          "sport": "Tennis",
-          "competizione": "ATP 500 Pechino",
-          "evento": "2a Semifinale",
-          "inizio": "2026-10-05T13:00:00+02:00",
-          "data": "05/10/2026",
-          "ora": "13:00",
-          "canali": [
-            {
-              "nome": "Sky Sport 1",
-              "numero": "201",
-              "tipo": "diretta",
-              "orario": "2026-10-05T13:00",
-              "fonte": "virgilio"
-            },
-            {
-              "nome": "Sky Sport Tennis",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-10-05T13:00",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
         {
           "titolo": "[Altri sport] Coppa Bernocchi: .",
           "categoria": "Altri sport",
@@ -4152,11 +4061,11 @@
     },
     {
       "nome": "Motori",
-      "totale": 128,
+      "totale": 131,
       "sottocartelle": [
         {
           "nome": "Formula 1",
-          "totale": 30,
+          "totale": 32,
           "eventi": [
             {
               "titolo": "Formula 1: Singapore Grand Prix - FP1",
@@ -5575,12 +5484,100 @@
                 }
               ],
               "fonte": "Dizzle0987/motorsport-calendar"
+            },
+            {
+              "titolo": "Formula 1: Abu Dhabi Grand Prix - FP1",
+              "categoria": "Motori",
+              "sottocartella": "Formula 1",
+              "sport": "Motori",
+              "competizione": "Formula 1",
+              "evento": "Abu Dhabi Grand Prix - FP1",
+              "sessione": "prove",
+              "circuito": "Yas Marina Circuit, Abu Dhabi, UAE",
+              "inizio": "2026-12-04T10:30:00+01:00",
+              "data": "04/12/2026",
+              "ora": "10:30",
+              "canali": [
+                {
+                  "nome": "Sky Sport F1",
+                  "numero": "207",
+                  "tipo": "diretta",
+                  "orario": "2026-12-04T10:30",
+                  "fonte": "dizzle+config"
+                },
+                {
+                  "nome": "NOW",
+                  "numero": "",
+                  "tipo": "streaming",
+                  "orario": "2026-12-04T10:30",
+                  "fonte": "dizzle+config"
+                },
+                {
+                  "nome": "Sky Sport 1",
+                  "numero": "201",
+                  "tipo": "diretta",
+                  "orario": "2026-12-04T10:30",
+                  "fonte": "config"
+                },
+                {
+                  "nome": "Sky Sport 4K",
+                  "numero": "213",
+                  "tipo": "diretta",
+                  "orario": "2026-12-04T10:30",
+                  "fonte": "config"
+                }
+              ],
+              "fonte": "Dizzle0987/motorsport-calendar"
+            },
+            {
+              "titolo": "Formula 1: Abu Dhabi Grand Prix - FP2",
+              "categoria": "Motori",
+              "sottocartella": "Formula 1",
+              "sport": "Motori",
+              "competizione": "Formula 1",
+              "evento": "Abu Dhabi Grand Prix - FP2",
+              "sessione": "prove",
+              "circuito": "Yas Marina Circuit, Abu Dhabi, UAE",
+              "inizio": "2026-12-04T14:00:00+01:00",
+              "data": "04/12/2026",
+              "ora": "14:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport F1",
+                  "numero": "207",
+                  "tipo": "diretta",
+                  "orario": "2026-12-04T14:00",
+                  "fonte": "dizzle+config"
+                },
+                {
+                  "nome": "NOW",
+                  "numero": "",
+                  "tipo": "streaming",
+                  "orario": "2026-12-04T14:00",
+                  "fonte": "dizzle+config"
+                },
+                {
+                  "nome": "Sky Sport 1",
+                  "numero": "201",
+                  "tipo": "diretta",
+                  "orario": "2026-12-04T14:00",
+                  "fonte": "config"
+                },
+                {
+                  "nome": "Sky Sport 4K",
+                  "numero": "213",
+                  "tipo": "diretta",
+                  "orario": "2026-12-04T14:00",
+                  "fonte": "config"
+                }
+              ],
+              "fonte": "Dizzle0987/motorsport-calendar"
             }
           ]
         },
         {
           "nome": "Formula 2 e Formula 3",
-          "totale": 3,
+          "totale": 4,
           "eventi": [
             {
               "titolo": "Formula 2 e Formula 3: F2 - Qatar GP - Quali",
@@ -5624,6 +5621,21 @@
               "inizio": "2026-11-29T13:20:00+01:00",
               "data": "29/11/2026",
               "ora": "13:20",
+              "canali": [],
+              "fonte": "Fuori Traiettoria"
+            },
+            {
+              "titolo": "Formula 2 e Formula 3: F2 - Abu Dhabi GP - Quali",
+              "categoria": "Motori",
+              "sottocartella": "Formula 2 e Formula 3",
+              "sport": "Motori",
+              "competizione": "Formula 2 e Formula 3",
+              "evento": "F2 - Abu Dhabi GP - Quali",
+              "sessione": "qualifiche",
+              "circuito": "Yas Marina Circuit - Yas Island - Abu Dhabi - Emirati Arabi Uniti",
+              "inizio": "2026-12-04T12:00:00+01:00",
+              "data": "04/12/2026",
+              "ora": "12:00",
               "canali": [],
               "fonte": "Fuori Traiettoria"
             }
@@ -6077,18 +6089,25 @@
               "ora": "01:50",
               "canali": [
                 {
+                  "nome": "TV8",
+                  "numero": "8",
+                  "tipo": "diretta",
+                  "orario": "2026-10-24T01:50",
+                  "fonte": "dizzle+tv8"
+                },
+                {
                   "nome": "Sky Sport MotoGP",
                   "numero": "208",
                   "tipo": "diretta",
                   "orario": "2026-10-24T01:50",
-                  "fonte": "dizzle+config"
+                  "fonte": "config"
                 },
                 {
                   "nome": "NOW",
                   "numero": "",
                   "tipo": "streaming",
                   "orario": "2026-10-24T01:50",
-                  "fonte": "dizzle+config"
+                  "fonte": "config"
                 }
               ],
               "fonte": "Dizzle0987/motorsport-calendar"
@@ -6107,18 +6126,25 @@
               "ora": "02:15",
               "canali": [
                 {
+                  "nome": "TV8",
+                  "numero": "8",
+                  "tipo": "diretta",
+                  "orario": "2026-10-24T01:50",
+                  "fonte": "dizzle+tv8"
+                },
+                {
                   "nome": "Sky Sport MotoGP",
                   "numero": "208",
                   "tipo": "diretta",
                   "orario": "2026-10-24T02:15",
-                  "fonte": "dizzle+config"
+                  "fonte": "config"
                 },
                 {
                   "nome": "NOW",
                   "numero": "",
                   "tipo": "streaming",
                   "orario": "2026-10-24T02:15",
-                  "fonte": "dizzle+config"
+                  "fonte": "config"
                 }
               ],
               "fonte": "Dizzle0987/motorsport-calendar"
@@ -6137,24 +6163,24 @@
               "ora": "06:00",
               "canali": [
                 {
+                  "nome": "TV8",
+                  "numero": "8",
+                  "tipo": "diretta",
+                  "orario": "2026-10-24T06:00",
+                  "fonte": "dizzle+tv8"
+                },
+                {
                   "nome": "Sky Sport MotoGP",
                   "numero": "208",
                   "tipo": "diretta",
                   "orario": "2026-10-24T06:00",
-                  "fonte": "dizzle+config"
+                  "fonte": "config"
                 },
                 {
                   "nome": "NOW",
                   "numero": "",
                   "tipo": "streaming",
                   "orario": "2026-10-24T06:00",
-                  "fonte": "dizzle+config"
-                },
-                {
-                  "nome": "TV8",
-                  "numero": "8",
-                  "tipo": "differita",
-                  "orario": "",
                   "fonte": "config"
                 }
               ],
@@ -6221,8 +6247,8 @@
                   "nome": "TV8",
                   "numero": "8",
                   "tipo": "differita",
-                  "orario": "",
-                  "fonte": "config"
+                  "orario": "2026-10-25T11:00",
+                  "fonte": "config+tv8"
                 }
               ],
               "fonte": "Dizzle0987/motorsport-calendar"
@@ -7321,7 +7347,16 @@
               "inizio": "2026-10-24T03:50:00+02:00",
               "data": "24/10/2026",
               "ora": "03:50",
-              "canali": [],
+              "canali": [
+                {
+                  "nome": "TV8",
+                  "numero": "8",
+                  "tipo": "differita",
+                  "orario": "2026-10-24T04:45",
+                  "programma": "GP Australia: Qualifiche",
+                  "fonte": "tv8"
+                }
+              ],
               "fonte": "Fuori Traiettoria"
             },
             {
@@ -7336,7 +7371,16 @@
               "inizio": "2026-10-24T04:45:00+02:00",
               "data": "24/10/2026",
               "ora": "04:45",
-              "canali": [],
+              "canali": [
+                {
+                  "nome": "TV8",
+                  "numero": "8",
+                  "tipo": "diretta",
+                  "orario": "2026-10-24T04:45",
+                  "programma": "GP Australia: Qualifiche",
+                  "fonte": "tv8"
+                }
+              ],
               "fonte": "Fuori Traiettoria"
             },
             {
@@ -7633,7 +7677,7 @@
                   "numero": "8",
                   "tipo": "diretta",
                   "orario": "2026-10-10T16:30",
-                  "programma": "Portogallo: Gara 1",
+                  "programma": "Estoril: Gara 1",
                   "fonte": "tv8"
                 }
               ],
@@ -7657,7 +7701,7 @@
                   "numero": "8",
                   "tipo": "differita",
                   "orario": "2026-10-11T19:30",
-                  "programma": "Portogallo: Superpole Race",
+                  "programma": "Estoril: Superpole Race",
                   "fonte": "tv8"
                 }
               ],
@@ -7681,7 +7725,7 @@
                   "numero": "8",
                   "tipo": "differita",
                   "orario": "2026-10-11T19:50",
-                  "programma": "Portogallo: Gara 2",
+                  "programma": "Estoril: Gara 2",
                   "fonte": "tv8"
                 }
               ],
@@ -17451,167 +17495,8 @@
     },
     {
       "nome": "Tennis",
-      "totale": 29,
+      "totale": 25,
       "sottocartelle": [
-        {
-          "nome": "ATP 500 Pechino",
-          "totale": 3,
-          "eventi": [
-            {
-              "titolo": "ATP 500 Pechino: 1a Semifinale",
-              "categoria": "Tennis",
-              "sottocartella": "ATP 500 Pechino",
-              "sport": "Tennis",
-              "competizione": "ATP 500 Pechino",
-              "evento": "1a Semifinale",
-              "inizio": "2026-10-05T09:00:00+02:00",
-              "data": "05/10/2026",
-              "ora": "09:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Tennis",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-05T09:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "ATP 500 Pechino: 2a Semifinale",
-              "categoria": "Tennis",
-              "sottocartella": "ATP 500 Pechino",
-              "sport": "Tennis",
-              "competizione": "ATP 500 Pechino",
-              "evento": "2a Semifinale",
-              "inizio": "2026-10-05T13:00:00+02:00",
-              "data": "05/10/2026",
-              "ora": "13:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport 1",
-                  "numero": "201",
-                  "tipo": "diretta",
-                  "orario": "2026-10-05T13:00",
-                  "fonte": "virgilio"
-                },
-                {
-                  "nome": "Sky Sport Tennis",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-05T13:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "ATP 500 Pechino: Finale",
-              "categoria": "Tennis",
-              "sottocartella": "ATP 500 Pechino",
-              "sport": "Tennis",
-              "competizione": "ATP 500 Pechino",
-              "evento": "Finale",
-              "inizio": "2026-10-06T13:00:00+02:00",
-              "data": "06/10/2026",
-              "ora": "13:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Tennis",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-06T13:00",
-                  "fonte": "virgilio"
-                },
-                {
-                  "nome": "Sky Sport 1",
-                  "numero": "201",
-                  "tipo": "diretta",
-                  "orario": "2026-10-06T13:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            }
-          ]
-        },
-        {
-          "nome": "ATP 500 Tokyo",
-          "totale": 3,
-          "eventi": [
-            {
-              "titolo": "ATP 500 Tokyo: 1a Semifinale",
-              "categoria": "Tennis",
-              "sottocartella": "ATP 500 Tokyo",
-              "sport": "Tennis",
-              "competizione": "ATP 500 Tokyo",
-              "evento": "1a Semifinale",
-              "inizio": "2026-10-05T09:00:00+02:00",
-              "data": "05/10/2026",
-              "ora": "09:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport 1",
-                  "numero": "201",
-                  "tipo": "diretta",
-                  "orario": "2026-10-05T09:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "ATP 500 Tokyo: 2a Semifinale",
-              "categoria": "Tennis",
-              "sottocartella": "ATP 500 Tokyo",
-              "sport": "Tennis",
-              "competizione": "ATP 500 Tokyo",
-              "evento": "2a Semifinale",
-              "inizio": "2026-10-05T11:00:00+02:00",
-              "data": "05/10/2026",
-              "ora": "11:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport 1",
-                  "numero": "201",
-                  "tipo": "diretta",
-                  "orario": "2026-10-05T11:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "ATP 500 Tokyo: Finale",
-              "categoria": "Tennis",
-              "sottocartella": "ATP 500 Tokyo",
-              "sport": "Tennis",
-              "competizione": "ATP 500 Tokyo",
-              "evento": "Finale",
-              "inizio": "2026-10-06T11:00:00+02:00",
-              "data": "06/10/2026",
-              "ora": "11:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Tennis",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-06T11:00",
-                  "fonte": "virgilio"
-                },
-                {
-                  "nome": "Sky Sport 1",
-                  "numero": "201",
-                  "tipo": "diretta",
-                  "orario": "2026-10-06T11:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            }
-          ]
-        },
         {
           "nome": "WTA 1000 Pechino",
           "totale": 11,
@@ -17870,6 +17755,74 @@
                   "numero": "",
                   "tipo": "diretta",
                   "orario": "2026-10-11T13:30",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            }
+          ]
+        },
+        {
+          "nome": "ATP 500 Tokyo",
+          "totale": 1,
+          "eventi": [
+            {
+              "titolo": "ATP 500 Tokyo: Finale",
+              "categoria": "Tennis",
+              "sottocartella": "ATP 500 Tokyo",
+              "sport": "Tennis",
+              "competizione": "ATP 500 Tokyo",
+              "evento": "Finale",
+              "inizio": "2026-10-06T11:00:00+02:00",
+              "data": "06/10/2026",
+              "ora": "11:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport Tennis",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-06T11:00",
+                  "fonte": "virgilio"
+                },
+                {
+                  "nome": "Sky Sport 1",
+                  "numero": "201",
+                  "tipo": "diretta",
+                  "orario": "2026-10-06T11:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            }
+          ]
+        },
+        {
+          "nome": "ATP 500 Pechino",
+          "totale": 1,
+          "eventi": [
+            {
+              "titolo": "ATP 500 Pechino: Finale",
+              "categoria": "Tennis",
+              "sottocartella": "ATP 500 Pechino",
+              "sport": "Tennis",
+              "competizione": "ATP 500 Pechino",
+              "evento": "Finale",
+              "inizio": "2026-10-06T13:00:00+02:00",
+              "data": "06/10/2026",
+              "ora": "13:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport Tennis",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-06T13:00",
+                  "fonte": "virgilio"
+                },
+                {
+                  "nome": "Sky Sport 1",
+                  "numero": "201",
+                  "tipo": "diretta",
+                  "orario": "2026-10-06T13:00",
                   "fonte": "virgilio"
                 }
               ],
