@@ -1,163 +1,16 @@
 {
-  "aggiornato": "2026-10-06T12:49:24+02:00",
+  "aggiornato": "2026-10-06T18:00:58+02:00",
   "fonti": {
     "motori": "Fuori Traiettoria, Dizzle0987/motorsport-calendar, palinsesto TV8",
     "calcio_italiano": "https://raw.githubusercontent.com/aandroide/Livesoccer/master/livesoccertv/output/eventi.json",
     "altri_sport": "https://sport.virgilio.it/guida-tv/"
   },
-  "totale": 225,
+  "totale": 221,
   "cartelle": [
     {
       "nome": "Oggi",
-      "totale": 14,
+      "totale": 8,
       "eventi": [
-        {
-          "titolo": "[Tennis] ATP 500 Tokyo: Finale",
-          "categoria": "Tennis",
-          "sottocartella": "ATP 500 Tokyo",
-          "sport": "Tennis",
-          "competizione": "ATP 500 Tokyo",
-          "evento": "Finale",
-          "inizio": "2026-10-06T11:00:00+02:00",
-          "data": "06/10/2026",
-          "ora": "11:00",
-          "canali": [
-            {
-              "nome": "Sky Sport 1",
-              "numero": "201",
-              "tipo": "diretta",
-              "orario": "2026-10-06T11:00",
-              "fonte": "virgilio"
-            },
-            {
-              "nome": "Sky Sport Tennis",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-10-06T11:00",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Altri sport] Binche-Chimay-Binche: .",
-          "categoria": "Altri sport",
-          "sottocartella": "Ciclismo",
-          "sport": "Ciclismo",
-          "competizione": "Binche-Chimay-Binche",
-          "evento": ".",
-          "inizio": "2026-10-06T13:00:00+02:00",
-          "data": "06/10/2026",
-          "ora": "13:00",
-          "canali": [
-            {
-              "nome": "Eurosport",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-10-06T13:00",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Tennis] ATP 500 Pechino: Finale",
-          "categoria": "Tennis",
-          "sottocartella": "ATP 500 Pechino",
-          "sport": "Tennis",
-          "competizione": "ATP 500 Pechino",
-          "evento": "Finale",
-          "inizio": "2026-10-06T13:00:00+02:00",
-          "data": "06/10/2026",
-          "ora": "13:00",
-          "canali": [
-            {
-              "nome": "Sky Sport 1",
-              "numero": "201",
-              "tipo": "diretta",
-              "orario": "2026-10-06T13:00",
-              "fonte": "virgilio"
-            },
-            {
-              "nome": "Sky Sport Tennis",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-10-06T13:00",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Altri sport] Europei Ljubljana: Staffetta mista a squadre",
-          "categoria": "Altri sport",
-          "sottocartella": "Ciclismo",
-          "sport": "Ciclismo",
-          "competizione": "Europei Ljubljana 2026",
-          "evento": "Staffetta mista a squadre",
-          "inizio": "2026-10-06T14:55:00+02:00",
-          "data": "06/10/2026",
-          "ora": "14:55",
-          "canali": [
-            {
-              "nome": "Eurosport",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-10-06T14:55",
-              "fonte": "virgilio"
-            },
-            {
-              "nome": "Rai Sport",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-10-06T14:55",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Tennis] ATP & WTA",
-          "categoria": "Tennis",
-          "sottocartella": "ATP & WTA",
-          "sport": "Tennis",
-          "competizione": "ATP & WTA",
-          "evento": "ATP & WTA",
-          "inizio": "2026-10-06T15:00:00+02:00",
-          "data": "06/10/2026",
-          "ora": "15:00",
-          "canali": [
-            {
-              "nome": "Sky Sport Tennis",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-10-06T15:00",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Tennis] WTA 1000 Pechino: 7a giornata",
-          "categoria": "Tennis",
-          "sottocartella": "WTA 1000 Pechino",
-          "sport": "Tennis",
-          "competizione": "WTA 1000 Pechino",
-          "evento": "7a giornata",
-          "inizio": "2026-10-06T15:00:00+02:00",
-          "data": "06/10/2026",
-          "ora": "15:00",
-          "canali": [
-            {
-              "nome": "Sky Sport 1",
-              "numero": "201",
-              "tipo": "diretta",
-              "orario": "2026-10-06T15:00",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
         {
           "titolo": "[Altri sport] Tre Valli Varesine: .",
           "categoria": "Altri sport",
@@ -5501,11 +5354,11 @@
     },
     {
       "nome": "Motori",
-      "totale": 132,
+      "totale": 134,
       "sottocartelle": [
         {
           "nome": "Formula 1",
-          "totale": 33,
+          "totale": 34,
           "eventi": [
             {
               "titolo": "Formula 1: Singapore Grand Prix - FP1",
@@ -7056,12 +6909,63 @@
                 }
               ],
               "fonte": "Dizzle0987/motorsport-calendar"
+            },
+            {
+              "titolo": "Formula 1: Abu Dhabi Grand Prix - Qualifiche",
+              "categoria": "Motori",
+              "sottocartella": "Formula 1",
+              "sport": "Motori",
+              "competizione": "Formula 1",
+              "evento": "Abu Dhabi Grand Prix - Qualifiche",
+              "sessione": "qualifiche",
+              "circuito": "Yas Marina Circuit, Abu Dhabi, UAE",
+              "inizio": "2026-12-05T15:00:00+01:00",
+              "data": "05/12/2026",
+              "ora": "15:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport F1",
+                  "numero": "207",
+                  "tipo": "diretta",
+                  "orario": "2026-12-05T15:00",
+                  "fonte": "dizzle+config"
+                },
+                {
+                  "nome": "NOW",
+                  "numero": "",
+                  "tipo": "streaming",
+                  "orario": "2026-12-05T15:00",
+                  "fonte": "dizzle+config"
+                },
+                {
+                  "nome": "Sky Sport 1",
+                  "numero": "201",
+                  "tipo": "diretta",
+                  "orario": "2026-12-05T15:00",
+                  "fonte": "config"
+                },
+                {
+                  "nome": "Sky Sport 4K",
+                  "numero": "213",
+                  "tipo": "diretta",
+                  "orario": "2026-12-05T15:00",
+                  "fonte": "config"
+                },
+                {
+                  "nome": "TV8",
+                  "numero": "8",
+                  "tipo": "differita",
+                  "orario": "",
+                  "fonte": "config"
+                }
+              ],
+              "fonte": "Dizzle0987/motorsport-calendar"
             }
           ]
         },
         {
           "nome": "Formula 2 e Formula 3",
-          "totale": 4,
+          "totale": 5,
           "eventi": [
             {
               "titolo": "Formula 2 e Formula 3: F2 - Qatar GP - Quali",
@@ -7120,6 +7024,21 @@
               "inizio": "2026-12-04T12:00:00+01:00",
               "data": "04/12/2026",
               "ora": "12:00",
+              "canali": [],
+              "fonte": "Fuori Traiettoria"
+            },
+            {
+              "titolo": "Formula 2 e Formula 3: F2 - Abu Dhabi GP - Sprint Race",
+              "categoria": "Motori",
+              "sottocartella": "Formula 2 e Formula 3",
+              "sport": "Motori",
+              "competizione": "Formula 2 e Formula 3",
+              "evento": "F2 - Abu Dhabi GP - Sprint Race",
+              "sessione": "sprint",
+              "circuito": "Yas Marina Circuit - Yas Island - Abu Dhabi - Emirati Arabi Uniti",
+              "inizio": "2026-12-05T13:15:00+01:00",
+              "data": "05/12/2026",
+              "ora": "13:15",
               "canali": [],
               "fonte": "Fuori Traiettoria"
             }
@@ -22487,312 +22406,8 @@
     },
     {
       "nome": "Tennis",
-      "totale": 23,
+      "totale": 19,
       "sottocartelle": [
-        {
-          "nome": "ATP 500 Tokyo",
-          "totale": 1,
-          "eventi": [
-            {
-              "titolo": "ATP 500 Tokyo: Finale",
-              "categoria": "Tennis",
-              "sottocartella": "ATP 500 Tokyo",
-              "sport": "Tennis",
-              "competizione": "ATP 500 Tokyo",
-              "evento": "Finale",
-              "inizio": "2026-10-06T11:00:00+02:00",
-              "data": "06/10/2026",
-              "ora": "11:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport 1",
-                  "numero": "201",
-                  "tipo": "diretta",
-                  "orario": "2026-10-06T11:00",
-                  "fonte": "virgilio"
-                },
-                {
-                  "nome": "Sky Sport Tennis",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-06T11:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            }
-          ]
-        },
-        {
-          "nome": "ATP 500 Pechino",
-          "totale": 1,
-          "eventi": [
-            {
-              "titolo": "ATP 500 Pechino: Finale",
-              "categoria": "Tennis",
-              "sottocartella": "ATP 500 Pechino",
-              "sport": "Tennis",
-              "competizione": "ATP 500 Pechino",
-              "evento": "Finale",
-              "inizio": "2026-10-06T13:00:00+02:00",
-              "data": "06/10/2026",
-              "ora": "13:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport 1",
-                  "numero": "201",
-                  "tipo": "diretta",
-                  "orario": "2026-10-06T13:00",
-                  "fonte": "virgilio"
-                },
-                {
-                  "nome": "Sky Sport Tennis",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-06T13:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            }
-          ]
-        },
-        {
-          "nome": "ATP & WTA",
-          "totale": 1,
-          "eventi": [
-            {
-              "titolo": "ATP & WTA",
-              "categoria": "Tennis",
-              "sottocartella": "ATP & WTA",
-              "sport": "Tennis",
-              "competizione": "ATP & WTA",
-              "evento": "ATP & WTA",
-              "inizio": "2026-10-06T15:00:00+02:00",
-              "data": "06/10/2026",
-              "ora": "15:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Tennis",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-06T15:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            }
-          ]
-        },
-        {
-          "nome": "WTA 1000 Pechino",
-          "totale": 9,
-          "eventi": [
-            {
-              "titolo": "WTA 1000 Pechino: 7a giornata",
-              "categoria": "Tennis",
-              "sottocartella": "WTA 1000 Pechino",
-              "sport": "Tennis",
-              "competizione": "WTA 1000 Pechino",
-              "evento": "7a giornata",
-              "inizio": "2026-10-06T15:00:00+02:00",
-              "data": "06/10/2026",
-              "ora": "15:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport 1",
-                  "numero": "201",
-                  "tipo": "diretta",
-                  "orario": "2026-10-06T15:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "WTA 1000 Pechino: 8a giornata",
-              "categoria": "Tennis",
-              "sottocartella": "WTA 1000 Pechino",
-              "sport": "Tennis",
-              "competizione": "WTA 1000 Pechino",
-              "evento": "8a giornata",
-              "inizio": "2026-10-07T07:00:00+02:00",
-              "data": "07/10/2026",
-              "ora": "07:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Max",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-07T07:00",
-                  "fonte": "virgilio"
-                },
-                {
-                  "nome": "Sky Sport Mix",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-07T13:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "WTA 1000 Pechino: 1^ Quarto di Finale",
-              "categoria": "Tennis",
-              "sottocartella": "WTA 1000 Pechino",
-              "sport": "Tennis",
-              "competizione": "WTA 1000 Pechino",
-              "evento": "1^ Quarto di Finale",
-              "inizio": "2026-10-08T09:00:00+02:00",
-              "data": "08/10/2026",
-              "ora": "09:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Max",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-08T09:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "WTA 1000 Pechino: 2^ Quarto di Finale",
-              "categoria": "Tennis",
-              "sottocartella": "WTA 1000 Pechino",
-              "sport": "Tennis",
-              "competizione": "WTA 1000 Pechino",
-              "evento": "2^ Quarto di Finale",
-              "inizio": "2026-10-08T13:00:00+02:00",
-              "data": "08/10/2026",
-              "ora": "13:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Mix",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-08T13:00",
-                  "fonte": "virgilio"
-                },
-                {
-                  "nome": "Sky Sport Max",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-08T13:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "WTA 1000 Pechino: 3^ Quarto di Finale",
-              "categoria": "Tennis",
-              "sottocartella": "WTA 1000 Pechino",
-              "sport": "Tennis",
-              "competizione": "WTA 1000 Pechino",
-              "evento": "3^ Quarto di Finale",
-              "inizio": "2026-10-09T09:00:00+02:00",
-              "data": "09/10/2026",
-              "ora": "09:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Max",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-09T09:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "WTA 1000 Pechino: 4^ Quarto di Finale",
-              "categoria": "Tennis",
-              "sottocartella": "WTA 1000 Pechino",
-              "sport": "Tennis",
-              "competizione": "WTA 1000 Pechino",
-              "evento": "4^ Quarto di Finale",
-              "inizio": "2026-10-09T13:00:00+02:00",
-              "data": "09/10/2026",
-              "ora": "13:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Max",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-09T13:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "WTA 1000 Pechino: 1a Semifinale Singolare",
-              "categoria": "Tennis",
-              "sottocartella": "WTA 1000 Pechino",
-              "sport": "Tennis",
-              "competizione": "WTA 1000 Pechino",
-              "evento": "1a Semifinale Singolare",
-              "inizio": "2026-10-10T09:00:00+02:00",
-              "data": "10/10/2026",
-              "ora": "09:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Max",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-10T09:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "WTA 1000 Pechino: 2a Semifinale Singolare",
-              "categoria": "Tennis",
-              "sottocartella": "WTA 1000 Pechino",
-              "sport": "Tennis",
-              "competizione": "WTA 1000 Pechino",
-              "evento": "2a Semifinale Singolare",
-              "inizio": "2026-10-10T13:00:00+02:00",
-              "data": "10/10/2026",
-              "ora": "13:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Max",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-10T13:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "WTA 1000 Pechino: Finale",
-              "categoria": "Tennis",
-              "sottocartella": "WTA 1000 Pechino",
-              "sport": "Tennis",
-              "competizione": "WTA 1000 Pechino",
-              "evento": "Finale",
-              "inizio": "2026-10-11T13:30:00+02:00",
-              "data": "11/10/2026",
-              "ora": "13:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport Max",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-11T13:30",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            }
-          ]
-        },
         {
           "nome": "ATP Masters 1000 Shanghai",
           "totale": 10,
@@ -23059,6 +22674,194 @@
           ]
         },
         {
+          "nome": "WTA 1000 Pechino",
+          "totale": 8,
+          "eventi": [
+            {
+              "titolo": "WTA 1000 Pechino: 8a giornata",
+              "categoria": "Tennis",
+              "sottocartella": "WTA 1000 Pechino",
+              "sport": "Tennis",
+              "competizione": "WTA 1000 Pechino",
+              "evento": "8a giornata",
+              "inizio": "2026-10-07T07:00:00+02:00",
+              "data": "07/10/2026",
+              "ora": "07:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport Max",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-07T07:00",
+                  "fonte": "virgilio"
+                },
+                {
+                  "nome": "Sky Sport Mix",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-07T13:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "WTA 1000 Pechino: 1^ Quarto di Finale",
+              "categoria": "Tennis",
+              "sottocartella": "WTA 1000 Pechino",
+              "sport": "Tennis",
+              "competizione": "WTA 1000 Pechino",
+              "evento": "1^ Quarto di Finale",
+              "inizio": "2026-10-08T09:00:00+02:00",
+              "data": "08/10/2026",
+              "ora": "09:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport Max",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-08T09:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "WTA 1000 Pechino: 2^ Quarto di Finale",
+              "categoria": "Tennis",
+              "sottocartella": "WTA 1000 Pechino",
+              "sport": "Tennis",
+              "competizione": "WTA 1000 Pechino",
+              "evento": "2^ Quarto di Finale",
+              "inizio": "2026-10-08T13:00:00+02:00",
+              "data": "08/10/2026",
+              "ora": "13:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport Mix",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-08T13:00",
+                  "fonte": "virgilio"
+                },
+                {
+                  "nome": "Sky Sport Max",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-08T13:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "WTA 1000 Pechino: 3^ Quarto di Finale",
+              "categoria": "Tennis",
+              "sottocartella": "WTA 1000 Pechino",
+              "sport": "Tennis",
+              "competizione": "WTA 1000 Pechino",
+              "evento": "3^ Quarto di Finale",
+              "inizio": "2026-10-09T09:00:00+02:00",
+              "data": "09/10/2026",
+              "ora": "09:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport Max",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-09T09:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "WTA 1000 Pechino: 4^ Quarto di Finale",
+              "categoria": "Tennis",
+              "sottocartella": "WTA 1000 Pechino",
+              "sport": "Tennis",
+              "competizione": "WTA 1000 Pechino",
+              "evento": "4^ Quarto di Finale",
+              "inizio": "2026-10-09T13:00:00+02:00",
+              "data": "09/10/2026",
+              "ora": "13:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport Max",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-09T13:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "WTA 1000 Pechino: 1a Semifinale Singolare",
+              "categoria": "Tennis",
+              "sottocartella": "WTA 1000 Pechino",
+              "sport": "Tennis",
+              "competizione": "WTA 1000 Pechino",
+              "evento": "1a Semifinale Singolare",
+              "inizio": "2026-10-10T09:00:00+02:00",
+              "data": "10/10/2026",
+              "ora": "09:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport Max",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-10T09:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "WTA 1000 Pechino: 2a Semifinale Singolare",
+              "categoria": "Tennis",
+              "sottocartella": "WTA 1000 Pechino",
+              "sport": "Tennis",
+              "competizione": "WTA 1000 Pechino",
+              "evento": "2a Semifinale Singolare",
+              "inizio": "2026-10-10T13:00:00+02:00",
+              "data": "10/10/2026",
+              "ora": "13:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport Max",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-10T13:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "WTA 1000 Pechino: Finale",
+              "categoria": "Tennis",
+              "sottocartella": "WTA 1000 Pechino",
+              "sport": "Tennis",
+              "competizione": "WTA 1000 Pechino",
+              "evento": "Finale",
+              "inizio": "2026-10-11T13:30:00+02:00",
+              "data": "11/10/2026",
+              "ora": "13:30",
+              "canali": [
+                {
+                  "nome": "Sky Sport Max",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-11T13:30",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            }
+          ]
+        },
+        {
           "nome": "WTA 1000 Wuhan",
           "totale": 1,
           "eventi": [
@@ -23314,61 +23117,12 @@
     },
     {
       "nome": "Altri sport",
-      "totale": 12,
+      "totale": 10,
       "sottocartelle": [
         {
           "nome": "Ciclismo",
-          "totale": 8,
+          "totale": 6,
           "eventi": [
-            {
-              "titolo": "Binche-Chimay-Binche: .",
-              "categoria": "Altri sport",
-              "sottocartella": "Ciclismo",
-              "sport": "Ciclismo",
-              "competizione": "Binche-Chimay-Binche",
-              "evento": ".",
-              "inizio": "2026-10-06T13:00:00+02:00",
-              "data": "06/10/2026",
-              "ora": "13:00",
-              "canali": [
-                {
-                  "nome": "Eurosport",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-06T13:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "Europei Ljubljana: Staffetta mista a squadre",
-              "categoria": "Altri sport",
-              "sottocartella": "Ciclismo",
-              "sport": "Ciclismo",
-              "competizione": "Europei Ljubljana 2026",
-              "evento": "Staffetta mista a squadre",
-              "inizio": "2026-10-06T14:55:00+02:00",
-              "data": "06/10/2026",
-              "ora": "14:55",
-              "canali": [
-                {
-                  "nome": "Eurosport",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-06T14:55",
-                  "fonte": "virgilio"
-                },
-                {
-                  "nome": "Rai Sport",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-06T14:55",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
             {
               "titolo": "Tre Valli Varesine: .",
               "categoria": "Altri sport",
