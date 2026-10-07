@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-10-07T11:39:03+02:00",
+  "aggiornato": "2026-10-07T15:35:17+02:00",
   "fonti": {
     "motori": "Fuori Traiettoria, Dizzle0987/motorsport-calendar, palinsesto TV8",
     "calcio_italiano": "https://raw.githubusercontent.com/aandroide/Livesoccer/master/livesoccertv/output/eventi.json",
@@ -9,29 +9,8 @@
   "cartelle": [
     {
       "nome": "Oggi",
-      "totale": 6,
+      "totale": 5,
       "eventi": [
-        {
-          "titolo": "[Tennis] ATP Masters 1000 Shanghai: 1a giornata",
-          "categoria": "Tennis",
-          "sottocartella": "ATP Masters 1000 Shanghai",
-          "sport": "Tennis",
-          "competizione": "ATP Masters 1000 Shanghai",
-          "evento": "1a giornata",
-          "inizio": "2026-10-07T12:30:00+02:00",
-          "data": "07/10/2026",
-          "ora": "12:30",
-          "canali": [
-            {
-              "nome": "Sky Sport Tennis",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-10-07T12:30",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
         {
           "titolo": "[Altri sport] Europei Ljubljana: Cronometro Élite Donne",
           "categoria": "Altri sport",
@@ -155,11 +134,11 @@
     },
     {
       "nome": "Motori",
-      "totale": 135,
+      "totale": 136,
       "sottocartelle": [
         {
           "nome": "Formula 1",
-          "totale": 34,
+          "totale": 35,
           "eventi": [
             {
               "titolo": "Formula 1: Singapore Grand Prix - FP1",
@@ -1750,6 +1729,57 @@
                   "numero": "213",
                   "tipo": "diretta",
                   "orario": "2026-12-05T15:00",
+                  "fonte": "config"
+                },
+                {
+                  "nome": "TV8",
+                  "numero": "8",
+                  "tipo": "differita",
+                  "orario": "",
+                  "fonte": "config"
+                }
+              ],
+              "fonte": "Dizzle0987/motorsport-calendar"
+            },
+            {
+              "titolo": "Formula 1: Abu Dhabi Grand Prix - Gara",
+              "categoria": "Motori",
+              "sottocartella": "Formula 1",
+              "sport": "Motori",
+              "competizione": "Formula 1",
+              "evento": "Abu Dhabi Grand Prix - Gara",
+              "sessione": "gara",
+              "circuito": "Yas Marina Circuit, Abu Dhabi, UAE",
+              "inizio": "2026-12-06T14:00:00+01:00",
+              "data": "06/12/2026",
+              "ora": "14:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport F1",
+                  "numero": "207",
+                  "tipo": "diretta",
+                  "orario": "2026-12-06T14:00",
+                  "fonte": "dizzle+config"
+                },
+                {
+                  "nome": "NOW",
+                  "numero": "",
+                  "tipo": "streaming",
+                  "orario": "2026-12-06T14:00",
+                  "fonte": "dizzle+config"
+                },
+                {
+                  "nome": "Sky Sport 1",
+                  "numero": "201",
+                  "tipo": "diretta",
+                  "orario": "2026-12-06T14:00",
+                  "fonte": "config"
+                },
+                {
+                  "nome": "Sky Sport 4K",
+                  "numero": "213",
+                  "tipo": "diretta",
+                  "orario": "2026-12-06T14:00",
                   "fonte": "config"
                 },
                 {
@@ -3566,16 +3596,7 @@
               "inizio": "2026-10-24T03:50:00+02:00",
               "data": "24/10/2026",
               "ora": "03:50",
-              "canali": [
-                {
-                  "nome": "TV8",
-                  "numero": "8",
-                  "tipo": "differita",
-                  "orario": "2026-10-24T04:45",
-                  "programma": "GP Australia: Qualifiche",
-                  "fonte": "tv8"
-                }
-              ],
+              "canali": [],
               "fonte": "Fuori Traiettoria"
             },
             {
@@ -3590,16 +3611,7 @@
               "inizio": "2026-10-24T04:45:00+02:00",
               "data": "24/10/2026",
               "ora": "04:45",
-              "canali": [
-                {
-                  "nome": "TV8",
-                  "numero": "8",
-                  "tipo": "diretta",
-                  "orario": "2026-10-24T04:45",
-                  "programma": "GP Australia: Qualifiche",
-                  "fonte": "tv8"
-                }
-              ],
+              "canali": [],
               "fonte": "Fuori Traiettoria"
             },
             {
@@ -15050,33 +15062,12 @@
     },
     {
       "nome": "Tennis",
-      "totale": 17,
+      "totale": 16,
       "sottocartelle": [
         {
           "nome": "ATP Masters 1000 Shanghai",
-          "totale": 9,
+          "totale": 8,
           "eventi": [
-            {
-              "titolo": "ATP Masters 1000 Shanghai: 1a giornata",
-              "categoria": "Tennis",
-              "sottocartella": "ATP Masters 1000 Shanghai",
-              "sport": "Tennis",
-              "competizione": "ATP Masters 1000 Shanghai",
-              "evento": "1a giornata",
-              "inizio": "2026-10-07T12:30:00+02:00",
-              "data": "07/10/2026",
-              "ora": "12:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport Tennis",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-07T12:30",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
             {
               "titolo": "ATP Masters 1000 Shanghai: 2a giornata",
               "categoria": "Tennis",
