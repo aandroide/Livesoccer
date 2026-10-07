@@ -1,114 +1,16 @@
 {
-  "aggiornato": "2026-10-07T15:35:17+02:00",
+  "aggiornato": "2026-10-07T22:39:43+02:00",
   "fonti": {
     "motori": "Fuori Traiettoria, Dizzle0987/motorsport-calendar, palinsesto TV8",
     "calcio_italiano": "https://raw.githubusercontent.com/aandroide/Livesoccer/master/livesoccertv/output/eventi.json",
     "altri_sport": "https://sport.virgilio.it/guida-tv/"
   },
-  "totale": 225,
+  "totale": 221,
   "cartelle": [
     {
       "nome": "Oggi",
-      "totale": 5,
+      "totale": 1,
       "eventi": [
-        {
-          "titolo": "[Altri sport] Europei Ljubljana: Cronometro Élite Donne",
-          "categoria": "Altri sport",
-          "sottocartella": "Ciclismo",
-          "sport": "Ciclismo",
-          "competizione": "Europei Ljubljana 2026",
-          "evento": "Cronometro Élite Donne",
-          "inizio": "2026-10-07T14:25:00+02:00",
-          "data": "07/10/2026",
-          "ora": "14:25",
-          "canali": [
-            {
-              "nome": "Eurosport",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-10-07T14:25",
-              "fonte": "virgilio"
-            },
-            {
-              "nome": "Rai Sport",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-10-07T14:25",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Altri sport] Europei Ljubljana: Cronometro Élite Uomini",
-          "categoria": "Altri sport",
-          "sottocartella": "Ciclismo",
-          "sport": "Ciclismo",
-          "competizione": "Europei Ljubljana 2026",
-          "evento": "Cronometro Élite Uomini",
-          "inizio": "2026-10-07T16:10:00+02:00",
-          "data": "07/10/2026",
-          "ora": "16:10",
-          "canali": [
-            {
-              "nome": "Eurosport",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-10-07T16:10",
-              "fonte": "virgilio"
-            },
-            {
-              "nome": "Rai Sport",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-10-07T16:10",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Basket] Eurocup: Cluj Napoca-Reyer Venezia",
-          "categoria": "Basket",
-          "sottocartella": "Eurocup",
-          "sport": "Basket",
-          "competizione": "Eurocup",
-          "evento": "Cluj Napoca-Reyer Venezia",
-          "inizio": "2026-10-07T18:00:00+02:00",
-          "data": "07/10/2026",
-          "ora": "18:00",
-          "canali": [
-            {
-              "nome": "Sky Sport 1",
-              "numero": "201",
-              "tipo": "diretta",
-              "orario": "2026-10-07T18:00",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Basket] Eurocup: Derthona Tortona-Le Mans",
-          "categoria": "Basket",
-          "sottocartella": "Eurocup",
-          "sport": "Basket",
-          "competizione": "Eurocup",
-          "evento": "Derthona Tortona-Le Mans",
-          "inizio": "2026-10-07T19:30:00+02:00",
-          "data": "07/10/2026",
-          "ora": "19:30",
-          "canali": [
-            {
-              "nome": "Sky Sport Arena",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-10-07T19:30",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
         {
           "titolo": "[Basket] Eurocup: BC Roma-Lietkabelis Panevezys",
           "categoria": "Basket",
@@ -355,7 +257,7 @@
                   "numero": "8",
                   "tipo": "diretta",
                   "orario": "2026-10-11T14:00",
-                  "fonte": "dizzle+tv8"
+                  "fonte": "dizzle"
                 },
                 {
                   "nome": "Sky Sport F1",
@@ -2228,7 +2130,7 @@
                   "nome": "TV8",
                   "numero": "8",
                   "tipo": "differita",
-                  "orario": "2026-10-11T11:00",
+                  "orario": "2026-10-11T14:00",
                   "fonte": "config+tv8"
                 }
               ],
@@ -3536,7 +3438,16 @@
               "inizio": "2026-10-10T06:45:00+02:00",
               "data": "10/10/2026",
               "ora": "06:45",
-              "canali": [],
+              "canali": [
+                {
+                  "nome": "TV8",
+                  "numero": "8",
+                  "tipo": "diretta",
+                  "orario": "2026-10-10T06:50",
+                  "programma": "GP Indonesia: Qualifiche",
+                  "fonte": "tv8"
+                }
+              ],
               "fonte": "Fuori Traiettoria"
             },
             {
@@ -3551,7 +3462,16 @@
               "inizio": "2026-10-10T07:40:00+02:00",
               "data": "10/10/2026",
               "ora": "07:40",
-              "canali": [],
+              "canali": [
+                {
+                  "nome": "TV8",
+                  "numero": "8",
+                  "tipo": "diretta",
+                  "orario": "2026-10-10T06:50",
+                  "programma": "GP Indonesia: Qualifiche",
+                  "fonte": "tv8"
+                }
+              ],
               "fonte": "Fuori Traiettoria"
             },
             {
@@ -3566,7 +3486,16 @@
               "inizio": "2026-10-11T06:00:00+02:00",
               "data": "11/10/2026",
               "ora": "06:00",
-              "canali": [],
+              "canali": [
+                {
+                  "nome": "TV8",
+                  "numero": "8",
+                  "tipo": "differita",
+                  "orario": "2026-10-11T11:00",
+                  "programma": "GP Indonesia: Gara",
+                  "fonte": "tv8"
+                }
+              ],
               "fonte": "Fuori Traiettoria"
             },
             {
@@ -3581,7 +3510,16 @@
               "inizio": "2026-10-11T07:15:00+02:00",
               "data": "11/10/2026",
               "ora": "07:15",
-              "canali": [],
+              "canali": [
+                {
+                  "nome": "TV8",
+                  "numero": "8",
+                  "tipo": "differita",
+                  "orario": "2026-10-11T11:00",
+                  "programma": "GP Indonesia: Gara",
+                  "fonte": "tv8"
+                }
+              ],
               "fonte": "Fuori Traiettoria"
             },
             {
@@ -15464,54 +15402,12 @@
     },
     {
       "nome": "Basket",
-      "totale": 6,
+      "totale": 4,
       "sottocartelle": [
         {
           "nome": "Eurocup",
-          "totale": 3,
+          "totale": 1,
           "eventi": [
-            {
-              "titolo": "Eurocup: Cluj Napoca-Reyer Venezia",
-              "categoria": "Basket",
-              "sottocartella": "Eurocup",
-              "sport": "Basket",
-              "competizione": "Eurocup",
-              "evento": "Cluj Napoca-Reyer Venezia",
-              "inizio": "2026-10-07T18:00:00+02:00",
-              "data": "07/10/2026",
-              "ora": "18:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport 1",
-                  "numero": "201",
-                  "tipo": "diretta",
-                  "orario": "2026-10-07T18:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "Eurocup: Derthona Tortona-Le Mans",
-              "categoria": "Basket",
-              "sottocartella": "Eurocup",
-              "sport": "Basket",
-              "competizione": "Eurocup",
-              "evento": "Derthona Tortona-Le Mans",
-              "inizio": "2026-10-07T19:30:00+02:00",
-              "data": "07/10/2026",
-              "ora": "19:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport Arena",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-07T19:30",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
             {
               "titolo": "Eurocup: BC Roma-Lietkabelis Panevezys",
               "categoria": "Basket",
@@ -15647,68 +15543,12 @@
     },
     {
       "nome": "Altri sport",
-      "totale": 9,
+      "totale": 7,
       "sottocartelle": [
         {
           "nome": "Ciclismo",
-          "totale": 5,
+          "totale": 3,
           "eventi": [
-            {
-              "titolo": "Europei Ljubljana: Cronometro Élite Donne",
-              "categoria": "Altri sport",
-              "sottocartella": "Ciclismo",
-              "sport": "Ciclismo",
-              "competizione": "Europei Ljubljana 2026",
-              "evento": "Cronometro Élite Donne",
-              "inizio": "2026-10-07T14:25:00+02:00",
-              "data": "07/10/2026",
-              "ora": "14:25",
-              "canali": [
-                {
-                  "nome": "Eurosport",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-07T14:25",
-                  "fonte": "virgilio"
-                },
-                {
-                  "nome": "Rai Sport",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-07T14:25",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "Europei Ljubljana: Cronometro Élite Uomini",
-              "categoria": "Altri sport",
-              "sottocartella": "Ciclismo",
-              "sport": "Ciclismo",
-              "competizione": "Europei Ljubljana 2026",
-              "evento": "Cronometro Élite Uomini",
-              "inizio": "2026-10-07T16:10:00+02:00",
-              "data": "07/10/2026",
-              "ora": "16:10",
-              "canali": [
-                {
-                  "nome": "Eurosport",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-07T16:10",
-                  "fonte": "virgilio"
-                },
-                {
-                  "nome": "Rai Sport",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-07T16:10",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
             {
               "titolo": "Gran Piemonte: .",
               "categoria": "Altri sport",
