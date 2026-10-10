@@ -1,120 +1,4659 @@
 {
-  "aggiornato": "2026-10-09T23:18:09+02:00",
+  "aggiornato": "2026-10-10T02:57:45+02:00",
   "fonti": {
     "motori": "Fuori Traiettoria, Dizzle0987/motorsport-calendar, palinsesto TV8",
     "calcio_italiano": "https://raw.githubusercontent.com/aandroide/Livesoccer/master/livesoccertv/output/eventi.json",
     "altri_sport": "https://sport.virgilio.it/guida-tv/"
   },
-  "totale": 279,
+  "totale": 300,
   "cartelle": [
     {
       "nome": "Oggi",
-      "totale": 5,
+      "totale": 44,
       "eventi": [
         {
-          "titolo": "[Basket] Eurolega: Barcellona-Zalgiris Kaunas",
-          "categoria": "Basket",
-          "sottocartella": "Eurolega",
-          "sport": "Basket",
-          "competizione": "Eurolega",
-          "evento": "Barcellona-Zalgiris Kaunas",
-          "inizio": "2026-10-09T20:30:00+02:00",
-          "data": "09/10/2026",
-          "ora": "20:30",
+          "titolo": "[Calcio] Liga Profesional: Istituto-Boca Juniors",
+          "categoria": "Calcio",
+          "sottocartella": "Liga Profesional",
+          "sport": "Calcio",
+          "competizione": "Liga Profesional",
+          "evento": "Istituto-Boca Juniors",
+          "inizio": "2026-10-10T00:30:00+02:00",
+          "data": "10/10/2026",
+          "ora": "00:30",
+          "canali": [
+            {
+              "nome": "Sportitalia",
+              "numero": "",
+              "tipo": "diretta",
+              "orario": "2026-10-10T00:30",
+              "fonte": "virgilio"
+            }
+          ],
+          "fonte": "Virgilio Sport"
+        },
+        {
+          "titolo": "[Motori] MotoGP: Grand Prix of Indonesia - FP2",
+          "categoria": "Motori",
+          "sottocartella": "MotoGP",
+          "sport": "Motori",
+          "competizione": "MotoGP",
+          "evento": "Grand Prix of Indonesia - FP2",
+          "sessione": "prove",
+          "circuito": "Pertamina Mandalika International Circuit, Lombok, Indonesia",
+          "inizio": "2026-10-10T04:10:00+02:00",
+          "data": "10/10/2026",
+          "ora": "04:10",
+          "canali": [
+            {
+              "nome": "Sky Sport MotoGP",
+              "numero": "208",
+              "tipo": "diretta",
+              "orario": "2026-10-10T04:10",
+              "fonte": "dizzle+config"
+            },
+            {
+              "nome": "NOW",
+              "numero": "",
+              "tipo": "streaming",
+              "orario": "2026-10-10T04:10",
+              "fonte": "dizzle+config"
+            }
+          ],
+          "fonte": "Dizzle0987/motorsport-calendar"
+        },
+        {
+          "titolo": "[Motori] MotoGP: Grand Prix of Indonesia - Q1",
+          "categoria": "Motori",
+          "sottocartella": "MotoGP",
+          "sport": "Motori",
+          "competizione": "MotoGP",
+          "evento": "Grand Prix of Indonesia - Q1",
+          "sessione": "qualifiche",
+          "circuito": "Pertamina Mandalika International Circuit, Lombok, Indonesia",
+          "inizio": "2026-10-10T04:50:00+02:00",
+          "data": "10/10/2026",
+          "ora": "04:50",
+          "canali": [
+            {
+              "nome": "TV8",
+              "numero": "8",
+              "tipo": "diretta",
+              "orario": "2026-10-10T04:45",
+              "fonte": "dizzle+tv8"
+            },
+            {
+              "nome": "Sky Sport MotoGP",
+              "numero": "208",
+              "tipo": "diretta",
+              "orario": "2026-10-10T04:50",
+              "fonte": "config"
+            },
+            {
+              "nome": "NOW",
+              "numero": "",
+              "tipo": "streaming",
+              "orario": "2026-10-10T04:50",
+              "fonte": "config"
+            }
+          ],
+          "fonte": "Dizzle0987/motorsport-calendar"
+        },
+        {
+          "titolo": "[Motori] MotoGP: Grand Prix of Indonesia - Q2",
+          "categoria": "Motori",
+          "sottocartella": "MotoGP",
+          "sport": "Motori",
+          "competizione": "MotoGP",
+          "evento": "Grand Prix of Indonesia - Q2",
+          "sessione": "qualifiche",
+          "circuito": "Pertamina Mandalika International Circuit, Lombok, Indonesia",
+          "inizio": "2026-10-10T05:15:00+02:00",
+          "data": "10/10/2026",
+          "ora": "05:15",
+          "canali": [
+            {
+              "nome": "TV8",
+              "numero": "8",
+              "tipo": "diretta",
+              "orario": "2026-10-10T04:45",
+              "fonte": "dizzle+tv8"
+            },
+            {
+              "nome": "Sky Sport MotoGP",
+              "numero": "208",
+              "tipo": "diretta",
+              "orario": "2026-10-10T05:15",
+              "fonte": "config"
+            },
+            {
+              "nome": "NOW",
+              "numero": "",
+              "tipo": "streaming",
+              "orario": "2026-10-10T05:15",
+              "fonte": "config"
+            }
+          ],
+          "fonte": "Dizzle0987/motorsport-calendar"
+        },
+        {
+          "titolo": "[Tennis] ATP Masters 1000 Shanghai: 4a giornata",
+          "categoria": "Tennis",
+          "sottocartella": "ATP Masters 1000 Shanghai",
+          "sport": "Tennis",
+          "competizione": "ATP Masters 1000 Shanghai",
+          "evento": "4a giornata",
+          "inizio": "2026-10-10T06:00:00+02:00",
+          "data": "10/10/2026",
+          "ora": "06:00",
           "canali": [
             {
               "nome": "Sky Sport Arena",
               "numero": "",
               "tipo": "diretta",
-              "orario": "2026-10-09T20:30",
+              "orario": "2026-10-10T06:00",
+              "fonte": "virgilio"
+            },
+            {
+              "nome": "Sky Sport Tennis",
+              "numero": "",
+              "tipo": "diretta",
+              "orario": "2026-10-10T06:30",
               "fonte": "virgilio"
             }
           ],
           "fonte": "Virgilio Sport"
         },
         {
-          "titolo": "[Calcio] Bundesliga: Borussia Dortmund-Werder Brema",
+          "titolo": "[Altri sport] Mondiali Gravel Nannup: Prova Élite Donne",
+          "categoria": "Altri sport",
+          "sottocartella": "Ciclismo",
+          "sport": "Ciclismo",
+          "competizione": "Mondiali Gravel Nannup 2026",
+          "evento": "Prova Élite Donne",
+          "inizio": "2026-10-10T06:30:00+02:00",
+          "data": "10/10/2026",
+          "ora": "06:30",
+          "canali": [
+            {
+              "nome": "Rai Sport",
+              "numero": "",
+              "tipo": "diretta",
+              "orario": "2026-10-10T06:30",
+              "fonte": "virgilio"
+            }
+          ],
+          "fonte": "Virgilio Sport"
+        },
+        {
+          "titolo": "[Motori] Moto2 e Moto3: M3 - Indonesian GP - Quali",
+          "categoria": "Motori",
+          "sottocartella": "Moto2 e Moto3",
+          "sport": "Motori",
+          "competizione": "Moto2 e Moto3",
+          "evento": "M3 - Indonesian GP - Quali",
+          "sessione": "qualifiche",
+          "circuito": "Pertamina Mandalika International Street Circuit, Jl. Mandalika Resort Pantai Putri Nyale, Kuta, Pujut, Kabupaten Lombok Tengah, Nusa Tenggara Bar. 83573, Indonesia",
+          "inizio": "2026-10-10T06:45:00+02:00",
+          "data": "10/10/2026",
+          "ora": "06:45",
+          "canali": [
+            {
+              "nome": "TV8",
+              "numero": "8",
+              "tipo": "diretta",
+              "orario": "2026-10-10T06:40",
+              "programma": "GP Indonesia: Qualifiche",
+              "fonte": "tv8"
+            }
+          ],
+          "fonte": "Fuori Traiettoria"
+        },
+        {
+          "titolo": "[Motori] Moto2 e Moto3: M2 - Indonesian GP - Quali",
+          "categoria": "Motori",
+          "sottocartella": "Moto2 e Moto3",
+          "sport": "Motori",
+          "competizione": "Moto2 e Moto3",
+          "evento": "M2 - Indonesian GP - Quali",
+          "sessione": "qualifiche",
+          "circuito": "Pertamina Mandalika International Street Circuit, Jl. Mandalika Resort Pantai Putri Nyale, Kuta, Pujut, Kabupaten Lombok Tengah, Nusa Tenggara Bar. 83573, Indonesia",
+          "inizio": "2026-10-10T07:40:00+02:00",
+          "data": "10/10/2026",
+          "ora": "07:40",
+          "canali": [
+            {
+              "nome": "TV8",
+              "numero": "8",
+              "tipo": "diretta",
+              "orario": "2026-10-10T07:35",
+              "programma": "GP Indonesia: Qualifiche",
+              "fonte": "tv8"
+            }
+          ],
+          "fonte": "Fuori Traiettoria"
+        },
+        {
+          "titolo": "[Motori] MotoGP: Grand Prix of Indonesia - Sprint",
+          "categoria": "Motori",
+          "sottocartella": "MotoGP",
+          "sport": "Motori",
+          "competizione": "MotoGP",
+          "evento": "Grand Prix of Indonesia - Sprint",
+          "sessione": "sprint",
+          "circuito": "Pertamina Mandalika International Circuit, Lombok, Indonesia",
+          "inizio": "2026-10-10T09:00:00+02:00",
+          "data": "10/10/2026",
+          "ora": "09:00",
+          "canali": [
+            {
+              "nome": "TV8",
+              "numero": "8",
+              "tipo": "diretta",
+              "orario": "2026-10-10T08:55",
+              "fonte": "dizzle+tv8"
+            },
+            {
+              "nome": "Sky Sport MotoGP",
+              "numero": "208",
+              "tipo": "diretta",
+              "orario": "2026-10-10T09:00",
+              "fonte": "config"
+            },
+            {
+              "nome": "NOW",
+              "numero": "",
+              "tipo": "streaming",
+              "orario": "2026-10-10T09:00",
+              "fonte": "config"
+            }
+          ],
+          "fonte": "Dizzle0987/motorsport-calendar"
+        },
+        {
+          "titolo": "[Tennis] WTA 1000 Pechino: 1a Semifinale Singolare",
+          "categoria": "Tennis",
+          "sottocartella": "WTA 1000 Pechino",
+          "sport": "Tennis",
+          "competizione": "WTA 1000 Pechino",
+          "evento": "1a Semifinale Singolare",
+          "inizio": "2026-10-10T09:00:00+02:00",
+          "data": "10/10/2026",
+          "ora": "09:00",
+          "canali": [
+            {
+              "nome": "Sky Sport Max",
+              "numero": "",
+              "tipo": "diretta",
+              "orario": "2026-10-10T09:00",
+              "fonte": "virgilio"
+            }
+          ],
+          "fonte": "Virgilio Sport"
+        },
+        {
+          "titolo": "[Altri sport] Il Lombardia: .",
+          "categoria": "Altri sport",
+          "sottocartella": "Ciclismo",
+          "sport": "Ciclismo",
+          "competizione": "Il Lombardia",
+          "evento": ".",
+          "inizio": "2026-10-10T10:35:00+02:00",
+          "data": "10/10/2026",
+          "ora": "10:35",
+          "canali": [
+            {
+              "nome": "Eurosport",
+              "numero": "",
+              "tipo": "diretta",
+              "orario": "2026-10-10T10:35",
+              "fonte": "virgilio"
+            },
+            {
+              "nome": "Rai Sport",
+              "numero": "",
+              "tipo": "diretta",
+              "orario": "2026-10-10T10:35",
+              "fonte": "virgilio"
+            },
+            {
+              "nome": "Rai 2",
+              "numero": "",
+              "tipo": "diretta",
+              "orario": "2026-10-10T14:00",
+              "fonte": "virgilio"
+            }
+          ],
+          "fonte": "Virgilio Sport"
+        },
+        {
+          "titolo": "[Calcio] Primavera 1: Inter-Como",
           "categoria": "Calcio",
-          "sottocartella": "Bundesliga",
+          "sottocartella": "Primavera 1",
           "sport": "Calcio",
-          "competizione": "Bundesliga",
-          "evento": "Borussia Dortmund-Werder Brema",
-          "inizio": "2026-10-09T20:30:00+02:00",
-          "data": "09/10/2026",
-          "ora": "20:30",
+          "competizione": "Primavera 1",
+          "evento": "Inter-Como",
+          "inizio": "2026-10-10T11:00:00+02:00",
+          "data": "10/10/2026",
+          "ora": "11:00",
+          "canali": [
+            {
+              "nome": "Sportitalia",
+              "numero": "",
+              "tipo": "diretta",
+              "orario": "2026-10-10T11:00",
+              "fonte": "virgilio"
+            }
+          ],
+          "fonte": "Virgilio Sport"
+        },
+        {
+          "titolo": "[Motori] Formula 1: Singapore Grand Prix - Sprint",
+          "categoria": "Motori",
+          "sottocartella": "Formula 1",
+          "sport": "Motori",
+          "competizione": "Formula 1",
+          "evento": "Singapore Grand Prix - Sprint",
+          "sessione": "sprint",
+          "circuito": "Marina Bay Street Circuit, Marina Bay, Singapore",
+          "inizio": "2026-10-10T11:00:00+02:00",
+          "data": "10/10/2026",
+          "ora": "11:00",
+          "canali": [
+            {
+              "nome": "TV8",
+              "numero": "8",
+              "tipo": "diretta",
+              "orario": "2026-10-10T10:35",
+              "fonte": "dizzle+tv8"
+            },
+            {
+              "nome": "Sky Sport F1",
+              "numero": "207",
+              "tipo": "diretta",
+              "orario": "2026-10-10T11:00",
+              "fonte": "config"
+            },
+            {
+              "nome": "Sky Sport 1",
+              "numero": "201",
+              "tipo": "diretta",
+              "orario": "2026-10-10T11:00",
+              "fonte": "config"
+            },
+            {
+              "nome": "Sky Sport 4K",
+              "numero": "213",
+              "tipo": "diretta",
+              "orario": "2026-10-10T11:00",
+              "fonte": "config"
+            },
+            {
+              "nome": "NOW",
+              "numero": "",
+              "tipo": "streaming",
+              "orario": "2026-10-10T11:00",
+              "fonte": "config"
+            }
+          ],
+          "fonte": "Dizzle0987/motorsport-calendar"
+        },
+        {
+          "titolo": "[Motori] World Superbike: Estoril Round - Superpole",
+          "categoria": "Motori",
+          "sottocartella": "World Superbike",
+          "sport": "Motori",
+          "competizione": "World Superbike",
+          "evento": "Estoril Round - Superpole",
+          "sessione": "qualifiche",
+          "circuito": "Circuito di Estoril, Av. Alfredo César Torres, 2646-901 Alcabideche, Portogallo",
+          "inizio": "2026-10-10T12:15:00+02:00",
+          "data": "10/10/2026",
+          "ora": "12:15",
+          "canali": [],
+          "fonte": "Fuori Traiettoria"
+        },
+        {
+          "titolo": "[Tennis] ATP Masters 1000 Shanghai: 4a giornata",
+          "categoria": "Tennis",
+          "sottocartella": "ATP Masters 1000 Shanghai",
+          "sport": "Tennis",
+          "competizione": "ATP Masters 1000 Shanghai",
+          "evento": "4a giornata",
+          "inizio": "2026-10-10T12:30:00+02:00",
+          "data": "10/10/2026",
+          "ora": "12:30",
+          "canali": [
+            {
+              "nome": "Sky Sport Tennis",
+              "numero": "",
+              "tipo": "diretta",
+              "orario": "2026-10-10T12:30",
+              "fonte": "virgilio"
+            }
+          ],
+          "fonte": "Virgilio Sport"
+        },
+        {
+          "titolo": "[Calcio] Primavera 1: Atalanta-Milan",
+          "categoria": "Calcio",
+          "sottocartella": "Primavera 1",
+          "sport": "Calcio",
+          "competizione": "Primavera 1",
+          "evento": "Atalanta-Milan",
+          "inizio": "2026-10-10T13:00:00+02:00",
+          "data": "10/10/2026",
+          "ora": "13:00",
+          "canali": [
+            {
+              "nome": "Sportitalia",
+              "numero": "",
+              "tipo": "diretta",
+              "orario": "2026-10-10T13:00",
+              "fonte": "virgilio"
+            }
+          ],
+          "fonte": "Virgilio Sport"
+        },
+        {
+          "titolo": "[Tennis] WTA 1000 Pechino: 2a Semifinale Singolare",
+          "categoria": "Tennis",
+          "sottocartella": "WTA 1000 Pechino",
+          "sport": "Tennis",
+          "competizione": "WTA 1000 Pechino",
+          "evento": "2a Semifinale Singolare",
+          "inizio": "2026-10-10T13:00:00+02:00",
+          "data": "10/10/2026",
+          "ora": "13:00",
+          "canali": [
+            {
+              "nome": "Sky Sport Max",
+              "numero": "",
+              "tipo": "diretta",
+              "orario": "2026-10-10T13:00",
+              "fonte": "virgilio"
+            }
+          ],
+          "fonte": "Virgilio Sport"
+        },
+        {
+          "titolo": "[Calcio] Premier League: Arsenal-Leeds United",
+          "categoria": "Calcio",
+          "sottocartella": "Premier League",
+          "sport": "Calcio",
+          "competizione": "Premier League",
+          "evento": "Arsenal-Leeds United",
+          "inizio": "2026-10-10T13:30:00+02:00",
+          "data": "10/10/2026",
+          "ora": "13:30",
           "canali": [
             {
               "nome": "Sky Sport Calcio",
               "numero": "",
               "tipo": "diretta",
-              "orario": "2026-10-09T20:30",
+              "orario": "2026-10-10T13:30",
               "fonte": "virgilio"
             }
           ],
           "fonte": "Virgilio Sport"
         },
         {
-          "titolo": "[Calcio] Serie A Futsal: Napoli-L84 Torino",
+          "titolo": "[Calcio] Serie C: Bari 1908 vs Giugliano",
           "categoria": "Calcio",
-          "sottocartella": "Serie A Futsal",
-          "sport": "Calcio a 5 maschile",
-          "competizione": "Serie A Futsal",
-          "evento": "Napoli-L84 Torino",
-          "inizio": "2026-10-09T20:30:00+02:00",
-          "data": "09/10/2026",
+          "sottocartella": "Serie C",
+          "sport": "Calcio",
+          "competizione": "Serie C",
+          "evento": "Bari 1908 vs Giugliano",
+          "inizio": "2026-10-10T14:30:00+02:00",
+          "data": "10/10/2026",
+          "ora": "14:30",
+          "canali": [
+            {
+              "nome": "Sky Sport 251",
+              "numero": "",
+              "tipo": "diretta",
+              "orario": "2026-10-10T14:30",
+              "fonte": "livesoccer"
+            },
+            {
+              "nome": "SKY Go Italia",
+              "numero": "",
+              "tipo": "streaming",
+              "orario": "2026-10-10T14:30",
+              "fonte": "livesoccer"
+            },
+            {
+              "nome": "NOW TV",
+              "numero": "",
+              "tipo": "streaming",
+              "orario": "2026-10-10T14:30",
+              "fonte": "livesoccer"
+            },
+            {
+              "nome": "Antenna Sud",
+              "numero": "",
+              "tipo": "diretta",
+              "orario": "2026-10-10T14:30",
+              "fonte": "livesoccer"
+            }
+          ],
+          "canali_mondo": [
+            {
+              "paese": "Italia",
+              "canali": [
+                "Sky Sport 251",
+                "SKY Go Italia",
+                "NOW TV",
+                "Antenna Sud"
+              ]
+            },
+            {
+              "paese": "San Marino",
+              "canali": [
+                "Sky Sport 251",
+                "SKY Go Italia",
+                "NOW TV"
+              ]
+            }
+          ],
+          "fonte": "LiveSoccerTV"
+        },
+        {
+          "titolo": "[Calcio] Serie C: Casertana vs Monopoli",
+          "categoria": "Calcio",
+          "sottocartella": "Serie C",
+          "sport": "Calcio",
+          "competizione": "Serie C",
+          "evento": "Casertana vs Monopoli",
+          "inizio": "2026-10-10T14:30:00+02:00",
+          "data": "10/10/2026",
+          "ora": "14:30",
+          "canali": [
+            {
+              "nome": "Sky Sport 253",
+              "numero": "",
+              "tipo": "diretta",
+              "orario": "2026-10-10T14:30",
+              "fonte": "livesoccer"
+            },
+            {
+              "nome": "SKY Go Italia",
+              "numero": "",
+              "tipo": "streaming",
+              "orario": "2026-10-10T14:30",
+              "fonte": "livesoccer"
+            },
+            {
+              "nome": "NOW TV",
+              "numero": "",
+              "tipo": "streaming",
+              "orario": "2026-10-10T14:30",
+              "fonte": "livesoccer"
+            }
+          ],
+          "canali_mondo": [
+            {
+              "paese": "Italia",
+              "canali": [
+                "Sky Sport 253",
+                "SKY Go Italia",
+                "NOW TV"
+              ]
+            },
+            {
+              "paese": "San Marino",
+              "canali": [
+                "Sky Sport 253",
+                "SKY Go Italia",
+                "NOW TV"
+              ]
+            }
+          ],
+          "fonte": "LiveSoccerTV"
+        },
+        {
+          "titolo": "[Calcio] Serie C: Crotone vs Audace Cerignola",
+          "categoria": "Calcio",
+          "sottocartella": "Serie C",
+          "sport": "Calcio",
+          "competizione": "Serie C",
+          "evento": "Crotone vs Audace Cerignola",
+          "inizio": "2026-10-10T14:30:00+02:00",
+          "data": "10/10/2026",
+          "ora": "14:30",
+          "canali": [
+            {
+              "nome": "Sky Sport 254",
+              "numero": "",
+              "tipo": "diretta",
+              "orario": "2026-10-10T14:30",
+              "fonte": "livesoccer"
+            },
+            {
+              "nome": "SKY Go Italia",
+              "numero": "",
+              "tipo": "streaming",
+              "orario": "2026-10-10T14:30",
+              "fonte": "livesoccer"
+            },
+            {
+              "nome": "NOW TV",
+              "numero": "",
+              "tipo": "streaming",
+              "orario": "2026-10-10T14:30",
+              "fonte": "livesoccer"
+            },
+            {
+              "nome": "Antenna Sud",
+              "numero": "",
+              "tipo": "diretta",
+              "orario": "2026-10-10T14:30",
+              "fonte": "livesoccer"
+            }
+          ],
+          "canali_mondo": [
+            {
+              "paese": "Italia",
+              "canali": [
+                "Sky Sport 254",
+                "SKY Go Italia",
+                "NOW TV",
+                "Antenna Sud"
+              ]
+            },
+            {
+              "paese": "San Marino",
+              "canali": [
+                "Sky Sport 254",
+                "SKY Go Italia",
+                "NOW TV"
+              ]
+            }
+          ],
+          "fonte": "LiveSoccerTV"
+        },
+        {
+          "titolo": "[Calcio] Serie C: Pergolettese vs Athletic Carpi",
+          "categoria": "Calcio",
+          "sottocartella": "Serie C",
+          "sport": "Calcio",
+          "competizione": "Serie C",
+          "evento": "Pergolettese vs Athletic Carpi",
+          "inizio": "2026-10-10T14:30:00+02:00",
+          "data": "10/10/2026",
+          "ora": "14:30",
+          "canali": [
+            {
+              "nome": "Sky Sport 256",
+              "numero": "",
+              "tipo": "diretta",
+              "orario": "2026-10-10T14:30",
+              "fonte": "livesoccer"
+            },
+            {
+              "nome": "SKY Go Italia",
+              "numero": "",
+              "tipo": "streaming",
+              "orario": "2026-10-10T14:30",
+              "fonte": "livesoccer"
+            },
+            {
+              "nome": "NOW TV",
+              "numero": "",
+              "tipo": "streaming",
+              "orario": "2026-10-10T14:30",
+              "fonte": "livesoccer"
+            }
+          ],
+          "canali_mondo": [
+            {
+              "paese": "Italia",
+              "canali": [
+                "Sky Sport 256",
+                "SKY Go Italia",
+                "NOW TV"
+              ]
+            },
+            {
+              "paese": "San Marino",
+              "canali": [
+                "Sky Sport 256",
+                "SKY Go Italia",
+                "NOW TV"
+              ]
+            }
+          ],
+          "fonte": "LiveSoccerTV"
+        },
+        {
+          "titolo": "[Calcio] Serie C: Savoia vs Inter II",
+          "categoria": "Calcio",
+          "sottocartella": "Serie C",
+          "sport": "Calcio",
+          "competizione": "Serie C",
+          "evento": "Savoia vs Inter II",
+          "inizio": "2026-10-10T14:30:00+02:00",
+          "data": "10/10/2026",
+          "ora": "14:30",
+          "canali": [
+            {
+              "nome": "Sky Sport 252",
+              "numero": "",
+              "tipo": "diretta",
+              "orario": "2026-10-10T14:30",
+              "fonte": "livesoccer"
+            },
+            {
+              "nome": "SKY Go Italia",
+              "numero": "",
+              "tipo": "streaming",
+              "orario": "2026-10-10T14:30",
+              "fonte": "livesoccer"
+            },
+            {
+              "nome": "NOW TV",
+              "numero": "",
+              "tipo": "streaming",
+              "orario": "2026-10-10T14:30",
+              "fonte": "livesoccer"
+            }
+          ],
+          "canali_mondo": [
+            {
+              "paese": "Italia",
+              "canali": [
+                "Sky Sport 252",
+                "SKY Go Italia",
+                "NOW TV"
+              ]
+            },
+            {
+              "paese": "San Marino",
+              "canali": [
+                "Sky Sport 252",
+                "SKY Go Italia",
+                "NOW TV"
+              ]
+            }
+          ],
+          "fonte": "LiveSoccerTV"
+        },
+        {
+          "titolo": "[Calcio] Primavera 1: Roma-Empoli",
+          "categoria": "Calcio",
+          "sottocartella": "Primavera 1",
+          "sport": "Calcio",
+          "competizione": "Primavera 1",
+          "evento": "Roma-Empoli",
+          "inizio": "2026-10-10T15:00:00+02:00",
+          "data": "10/10/2026",
+          "ora": "15:00",
+          "canali": [
+            {
+              "nome": "Sportitalia",
+              "numero": "",
+              "tipo": "diretta",
+              "orario": "2026-10-10T15:00",
+              "fonte": "virgilio"
+            }
+          ],
+          "fonte": "Virgilio Sport"
+        },
+        {
+          "titolo": "[Calcio] Serie A: Genoa vs Fiorentina",
+          "categoria": "Calcio",
+          "sottocartella": "Serie A",
+          "sport": "Calcio",
+          "competizione": "Serie A",
+          "evento": "Genoa vs Fiorentina",
+          "inizio": "2026-10-10T15:00:00+02:00",
+          "data": "10/10/2026",
+          "ora": "15:00",
+          "canali": [
+            {
+              "nome": "DAZN Italia",
+              "numero": "",
+              "tipo": "streaming",
+              "orario": "2026-10-10T15:00",
+              "fonte": "livesoccer"
+            },
+            {
+              "nome": "DAZN1",
+              "numero": "",
+              "tipo": "streaming",
+              "orario": "2026-10-10T15:00",
+              "fonte": "livesoccer"
+            },
+            {
+              "nome": "DAZN",
+              "numero": "",
+              "tipo": "diretta",
+              "orario": "2026-10-10T15:00",
+              "fonte": "virgilio"
+            }
+          ],
+          "canali_mondo": [
+            {
+              "paese": "Afghanistan",
+              "canali": [
+                "ZEE5",
+                "Unite8 Sports 1",
+                "Unite8 Sports 1 HD"
+              ]
+            },
+            {
+              "paese": "Albania",
+              "canali": [
+                "Tring Sport 1",
+                "Tring"
+              ]
+            },
+            {
+              "paese": "Algeria",
+              "canali": [
+                "STARZPLAY",
+                "Shasha",
+                "Thmanyah"
+              ]
+            },
+            {
+              "paese": "Andorra",
+              "canali": [
+                "DAZN Spain",
+                "DAZN France"
+              ]
+            },
+            {
+              "paese": "Anguilla",
+              "canali": [
+                "Disney+ Premium Caribbean"
+              ]
+            },
+            {
+              "paese": "Antigua e Barbuda",
+              "canali": [
+                "Disney+ Premium Caribbean"
+              ]
+            },
+            {
+              "paese": "Argentina",
+              "canali": [
+                "Disney+ Premium Argentina"
+              ]
+            },
+            {
+              "paese": "Armenia",
+              "canali": [
+                "Q League"
+              ]
+            },
+            {
+              "paese": "Aruba",
+              "canali": [
+                "Disney+ Premium Caribbean"
+              ]
+            },
+            {
+              "paese": "Australia",
+              "canali": [
+                "beIN SPORTS 2",
+                "beIN Sports Connect"
+              ]
+            },
+            {
+              "paese": "Austria",
+              "canali": [
+                "DAZN Austria"
+              ]
+            },
+            {
+              "paese": "Azerbaigian",
+              "canali": [
+                "Q League"
+              ]
+            },
+            {
+              "paese": "Bahrain",
+              "canali": [
+                "STARZPLAY",
+                "Shasha",
+                "Thmanyah"
+              ]
+            },
+            {
+              "paese": "Bangladesh",
+              "canali": [
+                "ZEE5",
+                "Begin",
+                "Unite8 Sports 1",
+                "Unite8 Sports 1 HD"
+              ]
+            },
+            {
+              "paese": "Barbados",
+              "canali": [
+                "Disney+ Premium Caribbean"
+              ]
+            },
+            {
+              "paese": "Bielorussia",
+              "canali": [
+                "Q League"
+              ]
+            },
+            {
+              "paese": "Belgio",
+              "canali": [
+                "DAZN Belgium"
+              ]
+            },
+            {
+              "paese": "Belize",
+              "canali": [
+                "ESPN Norte",
+                "Nexgen"
+              ]
+            },
+            {
+              "paese": "Bhutan",
+              "canali": [
+                "ZEE5",
+                "Unite8 Sports 1",
+                "Unite8 Sports 1 HD"
+              ]
+            },
+            {
+              "paese": "Bolivia",
+              "canali": [
+                "Disney+ Premium Chile"
+              ]
+            },
+            {
+              "paese": "Bosnia ed Erzegovina",
+              "canali": [
+                "Moja TV",
+                "Arena Sport 2P",
+                "Arena Cloud"
+              ]
+            },
+            {
+              "paese": "Brasile",
+              "canali": [
+                "Disney+ Premium Brazil"
+              ]
+            },
+            {
+              "paese": "Isole Vergini britanniche",
+              "canali": [
+                "Disney+ Premium Caribbean"
+              ]
+            },
+            {
+              "paese": "Brunei",
+              "canali": [
+                "Astro Go"
+              ]
+            },
+            {
+              "paese": "Bulgaria",
+              "canali": [
+                "MAX Sport 3"
+              ]
+            },
+            {
+              "paese": "Canada",
+              "canali": [
+                "DAZN Canada",
+                "fuboTV Canada",
+                "Fubo Sports Network 2 Canada"
+              ]
+            },
+            {
+              "paese": "Isole Cayman",
+              "canali": [
+                "Disney+ Premium Caribbean"
+              ]
+            },
+            {
+              "paese": "Ciad",
+              "canali": [
+                "STARZPLAY",
+                "Shasha",
+                "Thmanyah"
+              ]
+            },
+            {
+              "paese": "Cile",
+              "canali": [
+                "Disney+ Premium Chile"
+              ]
+            },
+            {
+              "paese": "Cina",
+              "canali": [
+                "Migu"
+              ]
+            },
+            {
+              "paese": "Taipei cinese",
+              "canali": [
+                "eltaott.tv"
+              ]
+            },
+            {
+              "paese": "Colombia",
+              "canali": [
+                "Disney+ Premium Sur"
+              ]
+            },
+            {
+              "paese": "Costa Rica",
+              "canali": [
+                "ESPN Norte",
+                "Disney+ Premium Norte"
+              ]
+            },
+            {
+              "paese": "Croazia",
+              "canali": [
+                "Arena Sport 4 Croatia",
+                "MAXtv To Go"
+              ]
+            },
+            {
+              "paese": "Cuba",
+              "canali": [
+                "Disney+ Premium Caribbean"
+              ]
+            },
+            {
+              "paese": "Repubblica Ceca",
+              "canali": [
+                "Sport 1 CZ",
+                "OnePlay"
+              ]
+            },
+            {
+              "paese": "Danimarca",
+              "canali": [
+                "TV2 Play Denmark"
+              ]
+            },
+            {
+              "paese": "Gibuti",
+              "canali": [
+                "STARZPLAY",
+                "Shasha",
+                "Thmanyah"
+              ]
+            },
+            {
+              "paese": "Dominica",
+              "canali": [
+                "Disney+ Premium Caribbean"
+              ]
+            },
+            {
+              "paese": "Repubblica Dominicana",
+              "canali": [
+                "Disney+ Premium Caribbean",
+                "ESPN Norte",
+                "Disney+ Premium Norte"
+              ]
+            },
+            {
+              "paese": "Ecuador",
+              "canali": [
+                "Disney+ Premium Sur"
+              ]
+            },
+            {
+              "paese": "Egitto",
+              "canali": [
+                "STARZPLAY",
+                "Shasha",
+                "Thmanyah"
+              ]
+            },
+            {
+              "paese": "El Salvador",
+              "canali": [
+                "ESPN Norte",
+                "Disney+ Premium Norte"
+              ]
+            },
+            {
+              "paese": "Isole Faroe",
+              "canali": [
+                "TV2 Play Denmark"
+              ]
+            },
+            {
+              "paese": "Finlandia",
+              "canali": [
+                "MTV Katsomo"
+              ]
+            },
+            {
+              "paese": "Francia",
+              "canali": [
+                "DAZN France"
+              ]
+            },
+            {
+              "paese": "Georgia",
+              "canali": [
+                "Silk Sport HD 2",
+                "Q League"
+              ]
+            },
+            {
+              "paese": "Germania",
+              "canali": [
+                "DAZN Deutschland"
+              ]
+            },
+            {
+              "paese": "Gran Bretagna",
+              "canali": [
+                "DAZN UK"
+              ]
+            },
+            {
+              "paese": "Grecia",
+              "canali": [
+                "MagentaSport 1"
+              ]
+            },
+            {
+              "paese": "Grenada",
+              "canali": [
+                "Disney+ Premium Caribbean"
+              ]
+            },
+            {
+              "paese": "Guadalupa",
+              "canali": [
+                "Disney+ Premium Caribbean"
+              ]
+            },
+            {
+              "paese": "Guatemala",
+              "canali": [
+                "ESPN Norte",
+                "Disney+ Premium Norte"
+              ]
+            },
+            {
+              "paese": "Haiti",
+              "canali": [
+                "Disney+ Premium Caribbean"
+              ]
+            },
+            {
+              "paese": "Honduras",
+              "canali": [
+                "ESPN Norte",
+                "Disney+ Premium Norte"
+              ]
+            },
+            {
+              "paese": "Hong Kong",
+              "canali": [
+                "M Plus Live",
+                "beIN SPORTS MAX Hong Kong"
+              ]
+            },
+            {
+              "paese": "India",
+              "canali": [
+                "ZEE5",
+                "Unite8 Sports 1",
+                "Unite8 Sports 1 HD"
+              ]
+            },
+            {
+              "paese": "Indonesia",
+              "canali": [
+                "Vidio"
+              ]
+            },
+            {
+              "paese": "Iran",
+              "canali": [
+                "Thmanyah"
+              ]
+            },
+            {
+              "paese": "Iraq",
+              "canali": [
+                "STARZPLAY",
+                "Shasha",
+                "Almanasa",
+                "Thmanyah"
+              ]
+            },
+            {
+              "paese": "Irlanda",
+              "canali": [
+                "DAZN UK"
+              ]
+            },
+            {
+              "paese": "Israele",
+              "canali": [
+                "Sport 6"
+              ]
+            },
+            {
+              "paese": "Italia",
+              "canali": [
+                "DAZN Italia",
+                "DAZN1"
+              ]
+            },
+            {
+              "paese": "Giamaica",
+              "canali": [
+                "Disney+ Premium Caribbean"
+              ]
+            },
+            {
+              "paese": "Giappone",
+              "canali": [
+                "DAZN Japan"
+              ]
+            },
+            {
+              "paese": "Giordania",
+              "canali": [
+                "STARZPLAY",
+                "Shasha",
+                "Thmanyah"
+              ]
+            },
+            {
+              "paese": "Kazakistan",
+              "canali": [
+                "Q League"
+              ]
+            },
+            {
+              "paese": "Kenya",
+              "canali": [
+                "Azam Sports 3 HD"
+              ]
+            },
+            {
+              "paese": "Corea del Sud",
+              "canali": [
+                "SPOTV NOW",
+                "SPOTV Prime"
+              ]
+            },
+            {
+              "paese": "Kosovo",
+              "canali": [
+                "Tring Sport 1",
+                "TV Vala Kosovo Telecom"
+              ]
+            },
+            {
+              "paese": "Kuwait",
+              "canali": [
+                "STARZPLAY",
+                "Shasha",
+                "Thmanyah"
+              ]
+            },
+            {
+              "paese": "Kirghizistan",
+              "canali": [
+                "Q League"
+              ]
+            },
+            {
+              "paese": "Libano",
+              "canali": [
+                "STARZPLAY",
+                "Shasha"
+              ]
+            },
+            {
+              "paese": "Libia",
+              "canali": [
+                "STARZPLAY",
+                "Shasha",
+                "Thmanyah"
+              ]
+            },
+            {
+              "paese": "Liechtenstein",
+              "canali": [
+                "DAZN Deutschland"
+              ]
+            },
+            {
+              "paese": "Macao",
+              "canali": [
+                "M Plus Live",
+                "Macau Cable TV 34 Football"
+              ]
+            },
+            {
+              "paese": "Macedonia",
+              "canali": [
+                "Arena Sport 1 Serbia",
+                "MaxTV Go",
+                "Arena Cloud"
+              ]
+            },
+            {
+              "paese": "Malawi",
+              "canali": [
+                "Azam Sports 3 HD"
+              ]
+            },
+            {
+              "paese": "Malesia",
+              "canali": [
+                "Astro Go",
+                "Astro Football",
+                "sooka"
+              ]
+            },
+            {
+              "paese": "Maldive",
+              "canali": [
+                "ZEE5",
+                "ICE Plus",
+                "Unite8 Sports 1",
+                "Unite8 Sports 1 HD"
+              ]
+            },
+            {
+              "paese": "Malta",
+              "canali": [
+                "GO TV Anywhere",
+                "TSN3 Malta"
+              ]
+            },
+            {
+              "paese": "Martinica",
+              "canali": [
+                "Disney+ Premium Caribbean"
+              ]
+            },
+            {
+              "paese": "Mauritania",
+              "canali": [
+                "STARZPLAY",
+                "Shasha"
+              ]
+            },
+            {
+              "paese": "Mauritius",
+              "canali": [
+                "Thmanyah"
+              ]
+            },
+            {
+              "paese": "Messico",
+              "canali": [
+                "ESPN Mexico",
+                "Disney+ Premium Mexico"
+              ]
+            },
+            {
+              "paese": "Moldavia",
+              "canali": [
+                "Q League"
+              ]
+            },
+            {
+              "paese": "Monaco",
+              "canali": [
+                "DAZN France"
+              ]
+            },
+            {
+              "paese": "Montenegro",
+              "canali": [
+                "Arena Sport 1 Serbia",
+                "Arena Cloud"
+              ]
+            },
+            {
+              "paese": "Montserrat",
+              "canali": [
+                "Disney+ Premium Caribbean"
+              ]
+            },
+            {
+              "paese": "Marocco",
+              "canali": [
+                "STARZPLAY",
+                "Shasha",
+                "Thmanyah"
+              ]
+            },
+            {
+              "paese": "Nepal",
+              "canali": [
+                "ZEE5",
+                "Unite8 Sports 1",
+                "Unite8 Sports 1 HD"
+              ]
+            },
+            {
+              "paese": "Paesi Bassi",
+              "canali": [
+                "Ziggo Go",
+                "Ziggo Sport 2"
+              ]
+            },
+            {
+              "paese": "Nuova Zelanda",
+              "canali": [
+                "beIN Sports Connect New Zealand"
+              ]
+            },
+            {
+              "paese": "Nicaragua",
+              "canali": [
+                "ESPN Norte",
+                "Disney+ Premium Norte"
+              ]
+            },
+            {
+              "paese": "Norvegia",
+              "canali": [
+                "VG+"
+              ]
+            },
+            {
+              "paese": "Oman",
+              "canali": [
+                "STARZPLAY",
+                "Shasha",
+                "Thmanyah"
+              ]
+            },
+            {
+              "paese": "Pakistan",
+              "canali": [
+                "Begin"
+              ]
+            },
+            {
+              "paese": "Palestina",
+              "canali": [
+                "STARZPLAY",
+                "Shasha",
+                "Thmanyah"
+              ]
+            },
+            {
+              "paese": "Panama",
+              "canali": [
+                "ESPN Norte",
+                "Disney+ Premium Norte"
+              ]
+            },
+            {
+              "paese": "Paraguay",
+              "canali": [
+                "Disney+ Premium Argentina"
+              ]
+            },
+            {
+              "paese": "Perù",
+              "canali": [
+                "Disney+ Premium Chile"
+              ]
+            },
+            {
+              "paese": "Polonia",
+              "canali": [
+                "Canal+",
+                "Eleven Sports 3 Poland"
+              ]
+            },
+            {
+              "paese": "Portogallo",
+              "canali": [
+                "Sport TV1",
+                "Sport TV Multiscreen"
+              ]
+            },
+            {
+              "paese": "Porto Rico",
+              "canali": [
+                "Peacock",
+                "Disney+ Premium Caribbean"
+              ]
+            },
+            {
+              "paese": "Qatar",
+              "canali": [
+                "STARZPLAY",
+                "Shasha",
+                "Thmanyah"
+              ]
+            },
+            {
+              "paese": "Romania",
+              "canali": [
+                "Digi Sport 3 Romania",
+                "Digi Online",
+                "Prima Sport 2",
+                "Orange TV Go",
+                "Prima Play"
+              ]
+            },
+            {
+              "paese": "Russia",
+              "canali": [
+                "Sportbox.ru",
+                "Матч! Футбол 1",
+                "matchtv.ru"
+              ]
+            },
+            {
+              "paese": "Ruanda",
+              "canali": [
+                "Azam Sports 3 HD"
+              ]
+            },
+            {
+              "paese": "Saint Barthelemy",
+              "canali": [
+                "Disney+ Premium Caribbean"
+              ]
+            },
+            {
+              "paese": "Saint Kitts e Nevis",
+              "canali": [
+                "Disney+ Premium Caribbean"
+              ]
+            },
+            {
+              "paese": "Santa Lucia",
+              "canali": [
+                "Disney+ Premium Caribbean"
+              ]
+            },
+            {
+              "paese": "Saint Martin",
+              "canali": [
+                "Disney+ Premium Caribbean"
+              ]
+            },
+            {
+              "paese": "San Marino",
+              "canali": [
+                "DAZN Italia",
+                "DAZN1"
+              ]
+            },
+            {
+              "paese": "Arabia Saudita",
+              "canali": [
+                "STARZPLAY",
+                "Shasha",
+                "STC TV",
+                "Thmanyah"
+              ]
+            },
+            {
+              "paese": "Serbia",
+              "canali": [
+                "Arena Sport 1 Serbia",
+                "Arena Cloud"
+              ]
+            },
+            {
+              "paese": "Slovacchia",
+              "canali": [
+                "Sport 1 SK"
+              ]
+            },
+            {
+              "paese": "Slovenia",
+              "canali": [
+                "Arena Sport 2 Slovenia"
+              ]
+            },
+            {
+              "paese": "Somalia",
+              "canali": [
+                "STARZPLAY",
+                "Shasha"
+              ]
+            },
+            {
+              "paese": "Sud Sudan",
+              "canali": [
+                "STARZPLAY",
+                "Shasha"
+              ]
+            },
+            {
+              "paese": "Spagna",
+              "canali": [
+                "DAZN Spain"
+              ]
+            },
+            {
+              "paese": "Sri Lanka",
+              "canali": [
+                "ZEE5",
+                "Begin",
+                "Unite8 Sports 1",
+                "Unite8 Sports 1 HD"
+              ]
+            },
+            {
+              "paese": "St. Vincent / Grenadines",
+              "canali": [
+                "Disney+ Premium Caribbean"
+              ]
+            },
+            {
+              "paese": "Sudan",
+              "canali": [
+                "STARZPLAY",
+                "Shasha",
+                "Thmanyah"
+              ]
+            },
+            {
+              "paese": "Suriname",
+              "canali": [
+                "SCCN"
+              ]
+            },
+            {
+              "paese": "Svezia",
+              "canali": [
+                "TV4 Play",
+                "TV4 Sport Live 4"
+              ]
+            },
+            {
+              "paese": "Svizzera",
+              "canali": [
+                "DAZN Switzerland"
+              ]
+            },
+            {
+              "paese": "Siria",
+              "canali": [
+                "STARZPLAY",
+                "Shasha",
+                "Thmanyah"
+              ]
+            },
+            {
+              "paese": "Tajikistan",
+              "canali": [
+                "Q League"
+              ]
+            },
+            {
+              "paese": "Tanzania",
+              "canali": [
+                "Azam Sports 3 HD"
+              ]
+            },
+            {
+              "paese": "Thailandia",
+              "canali": [
+                "True ID",
+                "True Premier Football HD 3"
+              ]
+            },
+            {
+              "paese": "Trinidad e Tobago",
+              "canali": [
+                "Disney+ Premium Caribbean"
+              ]
+            },
+            {
+              "paese": "Tunisia",
+              "canali": [
+                "STARZPLAY",
+                "Shasha",
+                "Diwan Sport",
+                "Thmanyah"
+              ]
+            },
+            {
+              "paese": "Turchia",
+              "canali": [
+                "S Sport+",
+                "S Sport 2",
+                "Disney+ Premium Turkey"
+              ]
+            },
+            {
+              "paese": "Turkmenistan",
+              "canali": [
+                "Q League"
+              ]
+            },
+            {
+              "paese": "U.S. Virgin Islands",
+              "canali": [
+                "Disney+ Premium Caribbean"
+              ]
+            },
+            {
+              "paese": "Uganda",
+              "canali": [
+                "Azam Sports 3 HD"
+              ]
+            },
+            {
+              "paese": "Ucraina",
+              "canali": [
+                "Megogo",
+                "MEGOGO Football 2"
+              ]
+            },
+            {
+              "paese": "Emirati Arabi Uniti",
+              "canali": [
+                "STARZPLAY",
+                "Shasha",
+                "Thmanyah"
+              ]
+            },
+            {
+              "paese": "Uruguay",
+              "canali": [
+                "Disney+ Premium Argentina"
+              ]
+            },
+            {
+              "paese": "USA",
+              "canali": [
+                "Paramount+",
+                "Peacock"
+              ]
+            },
+            {
+              "paese": "Uzbekistan",
+              "canali": [
+                "Q League"
+              ]
+            },
+            {
+              "paese": "Venezuela",
+              "canali": [
+                "Disney+ Premium Sur"
+              ]
+            },
+            {
+              "paese": "Vietnam",
+              "canali": [
+                "MyTV Vietnam"
+              ]
+            },
+            {
+              "paese": "Yemen",
+              "canali": [
+                "STARZPLAY",
+                "Shasha",
+                "Thmanyah"
+              ]
+            },
+            {
+              "paese": "Zambia",
+              "canali": [
+                "Azam Sports 3 HD"
+              ]
+            },
+            {
+              "paese": "Zimbabwe",
+              "canali": [
+                "Azam Sports 3 HD"
+              ]
+            }
+          ],
+          "fonte": "LiveSoccerTV"
+        },
+        {
+          "titolo": "[Calcio] Serie B: Benevento vs Cesena",
+          "categoria": "Calcio",
+          "sottocartella": "Serie B",
+          "sport": "Calcio",
+          "competizione": "Serie B",
+          "evento": "Benevento vs Cesena",
+          "inizio": "2026-10-10T15:00:00+02:00",
+          "data": "10/10/2026",
+          "ora": "15:00",
+          "canali": [
+            {
+              "nome": "DAZN Italia",
+              "numero": "",
+              "tipo": "streaming",
+              "orario": "2026-10-10T15:00",
+              "fonte": "livesoccer"
+            },
+            {
+              "nome": "LAB Channel",
+              "numero": "",
+              "tipo": "diretta",
+              "orario": "2026-10-10T15:00",
+              "fonte": "livesoccer"
+            },
+            {
+              "nome": "DAZN",
+              "numero": "",
+              "tipo": "diretta",
+              "orario": "2026-10-10T15:00",
+              "fonte": "virgilio"
+            }
+          ],
+          "canali_mondo": [
+            {
+              "paese": "Italia",
+              "canali": [
+                "DAZN Italia",
+                "LAB Channel"
+              ]
+            },
+            {
+              "paese": "San Marino",
+              "canali": [
+                "DAZN Italia",
+                "LAB Channel"
+              ]
+            }
+          ],
+          "fonte": "LiveSoccerTV"
+        },
+        {
+          "titolo": "[Calcio] Serie B: Empoli vs Palermo",
+          "categoria": "Calcio",
+          "sottocartella": "Serie B",
+          "sport": "Calcio",
+          "competizione": "Serie B",
+          "evento": "Empoli vs Palermo",
+          "inizio": "2026-10-10T15:00:00+02:00",
+          "data": "10/10/2026",
+          "ora": "15:00",
+          "canali": [
+            {
+              "nome": "DAZN Italia",
+              "numero": "",
+              "tipo": "streaming",
+              "orario": "2026-10-10T15:00",
+              "fonte": "livesoccer"
+            },
+            {
+              "nome": "LAB Channel",
+              "numero": "",
+              "tipo": "diretta",
+              "orario": "2026-10-10T15:00",
+              "fonte": "livesoccer"
+            },
+            {
+              "nome": "DAZN",
+              "numero": "",
+              "tipo": "diretta",
+              "orario": "2026-10-10T15:00",
+              "fonte": "virgilio"
+            }
+          ],
+          "canali_mondo": [
+            {
+              "paese": "Bosnia ed Erzegovina",
+              "canali": [
+                "Moja TV",
+                "Arena Sport 2",
+                "Arena Cloud"
+              ]
+            },
+            {
+              "paese": "Gran Bretagna",
+              "canali": [
+                "DCTV"
+              ]
+            },
+            {
+              "paese": "Irlanda",
+              "canali": [
+                "DCTV"
+              ]
+            },
+            {
+              "paese": "Israele",
+              "canali": [
+                "5Plus"
+              ]
+            },
+            {
+              "paese": "Italia",
+              "canali": [
+                "DAZN Italia",
+                "LAB Channel"
+              ]
+            },
+            {
+              "paese": "Liechtenstein",
+              "canali": [
+                "Blue Sport 3 Live",
+                "Blue Sport"
+              ]
+            },
+            {
+              "paese": "Macedonia",
+              "canali": [
+                "Arena Cloud"
+              ]
+            },
+            {
+              "paese": "Montenegro",
+              "canali": [
+                "Arena Cloud"
+              ]
+            },
+            {
+              "paese": "San Marino",
+              "canali": [
+                "DAZN Italia",
+                "LAB Channel"
+              ]
+            },
+            {
+              "paese": "Serbia",
+              "canali": [
+                "Arena Sport 6 Serbia",
+                "Arena Cloud"
+              ]
+            },
+            {
+              "paese": "Svizzera",
+              "canali": [
+                "Blue Sport 3 Live",
+                "Blue Sport"
+              ]
+            },
+            {
+              "paese": "Turchia",
+              "canali": [
+                "Sifir TV"
+              ]
+            },
+            {
+              "paese": "USA",
+              "canali": [
+                "Fox Soccer Plus",
+                "fuboTV",
+                "DCTV",
+                "FOX One"
+              ]
+            }
+          ],
+          "fonte": "LiveSoccerTV"
+        },
+        {
+          "titolo": "[Calcio] Serie B: Südtirol vs Ascoli",
+          "categoria": "Calcio",
+          "sottocartella": "Serie B",
+          "sport": "Calcio",
+          "competizione": "Serie B",
+          "evento": "Südtirol vs Ascoli",
+          "inizio": "2026-10-10T15:00:00+02:00",
+          "data": "10/10/2026",
+          "ora": "15:00",
+          "canali": [
+            {
+              "nome": "DAZN Italia",
+              "numero": "",
+              "tipo": "streaming",
+              "orario": "2026-10-10T15:00",
+              "fonte": "livesoccer"
+            },
+            {
+              "nome": "LAB Channel",
+              "numero": "",
+              "tipo": "diretta",
+              "orario": "2026-10-10T15:00",
+              "fonte": "livesoccer"
+            },
+            {
+              "nome": "DAZN",
+              "numero": "",
+              "tipo": "diretta",
+              "orario": "2026-10-10T15:00",
+              "fonte": "virgilio"
+            }
+          ],
+          "canali_mondo": [
+            {
+              "paese": "Italia",
+              "canali": [
+                "DAZN Italia",
+                "LAB Channel"
+              ]
+            },
+            {
+              "paese": "San Marino",
+              "canali": [
+                "DAZN Italia",
+                "LAB Channel"
+              ]
+            }
+          ],
+          "fonte": "LiveSoccerTV"
+        },
+        {
+          "titolo": "[Calcio] Serie B: Virtus Entella vs Juve Stabia",
+          "categoria": "Calcio",
+          "sottocartella": "Serie B",
+          "sport": "Calcio",
+          "competizione": "Serie B",
+          "evento": "Virtus Entella vs Juve Stabia",
+          "inizio": "2026-10-10T15:00:00+02:00",
+          "data": "10/10/2026",
+          "ora": "15:00",
+          "canali": [
+            {
+              "nome": "DAZN Italia",
+              "numero": "",
+              "tipo": "streaming",
+              "orario": "2026-10-10T15:00",
+              "fonte": "livesoccer"
+            },
+            {
+              "nome": "LAB Channel",
+              "numero": "",
+              "tipo": "diretta",
+              "orario": "2026-10-10T15:00",
+              "fonte": "livesoccer"
+            },
+            {
+              "nome": "DAZN",
+              "numero": "",
+              "tipo": "diretta",
+              "orario": "2026-10-10T15:00",
+              "fonte": "virgilio"
+            }
+          ],
+          "canali_mondo": [
+            {
+              "paese": "Italia",
+              "canali": [
+                "DAZN Italia",
+                "LAB Channel"
+              ]
+            },
+            {
+              "paese": "San Marino",
+              "canali": [
+                "DAZN Italia",
+                "LAB Channel"
+              ]
+            }
+          ],
+          "fonte": "LiveSoccerTV"
+        },
+        {
+          "titolo": "[Motori] Formula 1: Singapore Grand Prix - Qualifiche",
+          "categoria": "Motori",
+          "sottocartella": "Formula 1",
+          "sport": "Motori",
+          "competizione": "Formula 1",
+          "evento": "Singapore Grand Prix - Qualifiche",
+          "sessione": "qualifiche",
+          "circuito": "Marina Bay Street Circuit, Marina Bay, Singapore",
+          "inizio": "2026-10-10T15:00:00+02:00",
+          "data": "10/10/2026",
+          "ora": "15:00",
+          "canali": [
+            {
+              "nome": "TV8",
+              "numero": "8",
+              "tipo": "diretta",
+              "orario": "2026-10-10T14:55",
+              "fonte": "dizzle+tv8"
+            },
+            {
+              "nome": "Sky Sport F1",
+              "numero": "207",
+              "tipo": "diretta",
+              "orario": "2026-10-10T15:00",
+              "fonte": "config"
+            },
+            {
+              "nome": "Sky Sport 1",
+              "numero": "201",
+              "tipo": "diretta",
+              "orario": "2026-10-10T15:00",
+              "fonte": "config"
+            },
+            {
+              "nome": "Sky Sport 4K",
+              "numero": "213",
+              "tipo": "diretta",
+              "orario": "2026-10-10T15:00",
+              "fonte": "config"
+            },
+            {
+              "nome": "NOW",
+              "numero": "",
+              "tipo": "streaming",
+              "orario": "2026-10-10T15:00",
+              "fonte": "config"
+            }
+          ],
+          "fonte": "Dizzle0987/motorsport-calendar"
+        },
+        {
+          "titolo": "[Altri sport] United Rugby Championship: Zebre-Edinburgh",
+          "categoria": "Altri sport",
+          "sottocartella": "Rugby",
+          "sport": "Rugby",
+          "competizione": "United Rugby Championship",
+          "evento": "Zebre-Edinburgh",
+          "inizio": "2026-10-10T16:00:00+02:00",
+          "data": "10/10/2026",
+          "ora": "16:00",
+          "canali": [
+            {
+              "nome": "Sky Sport Arena",
+              "numero": "",
+              "tipo": "diretta",
+              "orario": "2026-10-10T16:00",
+              "fonte": "virgilio"
+            }
+          ],
+          "fonte": "Virgilio Sport"
+        },
+        {
+          "titolo": "[Calcio] Premier League: Chelsea-Bournemouth",
+          "categoria": "Calcio",
+          "sottocartella": "Premier League",
+          "sport": "Calcio",
+          "competizione": "Premier League",
+          "evento": "Chelsea-Bournemouth",
+          "inizio": "2026-10-10T16:00:00+02:00",
+          "data": "10/10/2026",
+          "ora": "16:00",
+          "canali": [
+            {
+              "nome": "Sky Sport Calcio",
+              "numero": "",
+              "tipo": "diretta",
+              "orario": "2026-10-10T16:00",
+              "fonte": "virgilio"
+            }
+          ],
+          "fonte": "Virgilio Sport"
+        },
+        {
+          "titolo": "[Motori] World Superbike: Estoril Round - Race 1",
+          "categoria": "Motori",
+          "sottocartella": "World Superbike",
+          "sport": "Motori",
+          "competizione": "World Superbike",
+          "evento": "Estoril Round - Race 1",
+          "sessione": "gara",
+          "circuito": "Circuito di Estoril, Av. Alfredo César Torres, 2646-901 Alcabideche, Portogallo",
+          "inizio": "2026-10-10T16:30:00+02:00",
+          "data": "10/10/2026",
+          "ora": "16:30",
+          "canali": [
+            {
+              "nome": "TV8",
+              "numero": "8",
+              "tipo": "diretta",
+              "orario": "2026-10-10T16:30",
+              "programma": "Estoril: Gara 1",
+              "fonte": "tv8"
+            }
+          ],
+          "fonte": "Fuori Traiettoria"
+        },
+        {
+          "titolo": "[Calcio] Serie B: Vicenza vs Pisa",
+          "categoria": "Calcio",
+          "sottocartella": "Serie B",
+          "sport": "Calcio",
+          "competizione": "Serie B",
+          "evento": "Vicenza vs Pisa",
+          "inizio": "2026-10-10T17:15:00+02:00",
+          "data": "10/10/2026",
+          "ora": "17:15",
+          "canali": [
+            {
+              "nome": "DAZN Italia",
+              "numero": "",
+              "tipo": "streaming",
+              "orario": "2026-10-10T17:15",
+              "fonte": "livesoccer"
+            },
+            {
+              "nome": "LAB Channel",
+              "numero": "",
+              "tipo": "diretta",
+              "orario": "2026-10-10T17:15",
+              "fonte": "livesoccer"
+            },
+            {
+              "nome": "DAZN",
+              "numero": "",
+              "tipo": "diretta",
+              "orario": "2026-10-10T17:15",
+              "fonte": "virgilio"
+            }
+          ],
+          "canali_mondo": [
+            {
+              "paese": "Italia",
+              "canali": [
+                "DAZN Italia",
+                "LAB Channel"
+              ]
+            },
+            {
+              "paese": "San Marino",
+              "canali": [
+                "DAZN Italia",
+                "LAB Channel"
+              ]
+            }
+          ],
+          "fonte": "LiveSoccerTV"
+        },
+        {
+          "titolo": "[Calcio] Serie C: Novara-Cittadella",
+          "categoria": "Calcio",
+          "sottocartella": "Serie C",
+          "sport": "Calcio",
+          "competizione": "Serie C",
+          "evento": "Novara-Cittadella",
+          "inizio": "2026-10-10T17:30:00+02:00",
+          "data": "10/10/2026",
+          "ora": "17:30",
+          "canali": [
+            {
+              "nome": "Sky Sport Max",
+              "numero": "",
+              "tipo": "diretta",
+              "orario": "2026-10-10T17:30",
+              "fonte": "virgilio"
+            }
+          ],
+          "fonte": "Virgilio Sport"
+        },
+        {
+          "titolo": "[Calcio] Serie A: Internazionale vs Parma",
+          "categoria": "Calcio",
+          "sottocartella": "Serie A",
+          "sport": "Calcio",
+          "competizione": "Serie A",
+          "evento": "Internazionale vs Parma",
+          "inizio": "2026-10-10T18:00:00+02:00",
+          "data": "10/10/2026",
+          "ora": "18:00",
+          "canali": [
+            {
+              "nome": "DAZN Italia",
+              "numero": "",
+              "tipo": "streaming",
+              "orario": "2026-10-10T18:00",
+              "fonte": "livesoccer"
+            },
+            {
+              "nome": "DAZN1",
+              "numero": "",
+              "tipo": "streaming",
+              "orario": "2026-10-10T18:00",
+              "fonte": "livesoccer"
+            },
+            {
+              "nome": "DAZN",
+              "numero": "",
+              "tipo": "diretta",
+              "orario": "2026-10-10T18:00",
+              "fonte": "virgilio"
+            }
+          ],
+          "canali_mondo": [
+            {
+              "paese": "Afghanistan",
+              "canali": [
+                "ZEE5",
+                "Unite8 Sports 1",
+                "Unite8 Sports 1 HD"
+              ]
+            },
+            {
+              "paese": "Albania",
+              "canali": [
+                "Tring Sport 1",
+                "Tring"
+              ]
+            },
+            {
+              "paese": "Algeria",
+              "canali": [
+                "STARZPLAY",
+                "Shasha",
+                "Thmanyah"
+              ]
+            },
+            {
+              "paese": "Andorra",
+              "canali": [
+                "DAZN Spain",
+                "DAZN France"
+              ]
+            },
+            {
+              "paese": "Angola",
+              "canali": [
+                "ZSPORTS 2"
+              ]
+            },
+            {
+              "paese": "Anguilla",
+              "canali": [
+                "Disney+ Premium Caribbean"
+              ]
+            },
+            {
+              "paese": "Antigua e Barbuda",
+              "canali": [
+                "Disney+ Premium Caribbean"
+              ]
+            },
+            {
+              "paese": "Argentina",
+              "canali": [
+                "Disney+ Premium Argentina"
+              ]
+            },
+            {
+              "paese": "Armenia",
+              "canali": [
+                "Q League"
+              ]
+            },
+            {
+              "paese": "Aruba",
+              "canali": [
+                "Disney+ Premium Caribbean"
+              ]
+            },
+            {
+              "paese": "Australia",
+              "canali": [
+                "beIN SPORTS 2",
+                "beIN Sports Connect"
+              ]
+            },
+            {
+              "paese": "Austria",
+              "canali": [
+                "DAZN Austria"
+              ]
+            },
+            {
+              "paese": "Azerbaigian",
+              "canali": [
+                "Q League",
+                "TV NET"
+              ]
+            },
+            {
+              "paese": "Bahrain",
+              "canali": [
+                "STARZPLAY",
+                "Shasha",
+                "Thmanyah"
+              ]
+            },
+            {
+              "paese": "Bangladesh",
+              "canali": [
+                "ZEE5",
+                "Begin",
+                "Unite8 Sports 1",
+                "Unite8 Sports 1 HD"
+              ]
+            },
+            {
+              "paese": "Barbados",
+              "canali": [
+                "Disney+ Premium Caribbean"
+              ]
+            },
+            {
+              "paese": "Bielorussia",
+              "canali": [
+                "Q League"
+              ]
+            },
+            {
+              "paese": "Belgio",
+              "canali": [
+                "DAZN Belgium"
+              ]
+            },
+            {
+              "paese": "Belize",
+              "canali": [
+                "ESPN Norte",
+                "Nexgen"
+              ]
+            },
+            {
+              "paese": "Bhutan",
+              "canali": [
+                "ZEE5",
+                "Unite8 Sports 1",
+                "Unite8 Sports 1 HD"
+              ]
+            },
+            {
+              "paese": "Bolivia",
+              "canali": [
+                "Disney+ Premium Chile"
+              ]
+            },
+            {
+              "paese": "Bosnia ed Erzegovina",
+              "canali": [
+                "Moja TV",
+                "Arena Sport 2P",
+                "Arena Cloud"
+              ]
+            },
+            {
+              "paese": "Brasile",
+              "canali": [
+                "ESPN4 Brazil",
+                "Disney+ Premium Brazil"
+              ]
+            },
+            {
+              "paese": "Isole Vergini britanniche",
+              "canali": [
+                "Disney+ Premium Caribbean"
+              ]
+            },
+            {
+              "paese": "Brunei",
+              "canali": [
+                "Astro Go"
+              ]
+            },
+            {
+              "paese": "Bulgaria",
+              "canali": [
+                "MAX Sport 3"
+              ]
+            },
+            {
+              "paese": "Canada",
+              "canali": [
+                "DAZN Canada",
+                "TLN",
+                "fuboTV Canada",
+                "VIVA",
+                "Fubo Sports Network 8 Canada"
+              ]
+            },
+            {
+              "paese": "Isole Cayman",
+              "canali": [
+                "Disney+ Premium Caribbean"
+              ]
+            },
+            {
+              "paese": "Ciad",
+              "canali": [
+                "STARZPLAY",
+                "Shasha",
+                "Thmanyah"
+              ]
+            },
+            {
+              "paese": "Cile",
+              "canali": [
+                "Disney+ Premium Chile"
+              ]
+            },
+            {
+              "paese": "Cina",
+              "canali": [
+                "Migu"
+              ]
+            },
+            {
+              "paese": "Taipei cinese",
+              "canali": [
+                "eltaott.tv"
+              ]
+            },
+            {
+              "paese": "Colombia",
+              "canali": [
+                "Disney+ Premium Sur"
+              ]
+            },
+            {
+              "paese": "Costa Rica",
+              "canali": [
+                "ESPN Norte",
+                "Disney+ Premium Norte"
+              ]
+            },
+            {
+              "paese": "Croazia",
+              "canali": [
+                "Arena Sport 3 Croatia",
+                "MAXtv To Go"
+              ]
+            },
+            {
+              "paese": "Cuba",
+              "canali": [
+                "Disney+ Premium Caribbean"
+              ]
+            },
+            {
+              "paese": "Cipro",
+              "canali": [
+                "Cytavision on the Go",
+                "Cytavision Sports 4"
+              ]
+            },
+            {
+              "paese": "Repubblica Ceca",
+              "canali": [
+                "Sport 1 CZ",
+                "OnePlay"
+              ]
+            },
+            {
+              "paese": "Danimarca",
+              "canali": [
+                "TV2 Play Denmark"
+              ]
+            },
+            {
+              "paese": "Gibuti",
+              "canali": [
+                "STARZPLAY",
+                "Shasha",
+                "Thmanyah"
+              ]
+            },
+            {
+              "paese": "Dominica",
+              "canali": [
+                "Disney+ Premium Caribbean"
+              ]
+            },
+            {
+              "paese": "Repubblica Dominicana",
+              "canali": [
+                "Disney+ Premium Caribbean",
+                "ESPN Norte",
+                "Disney+ Premium Norte"
+              ]
+            },
+            {
+              "paese": "Ecuador",
+              "canali": [
+                "Disney+ Premium Sur"
+              ]
+            },
+            {
+              "paese": "Egitto",
+              "canali": [
+                "STARZPLAY",
+                "Shasha",
+                "Thmanyah"
+              ]
+            },
+            {
+              "paese": "El Salvador",
+              "canali": [
+                "ESPN Norte",
+                "Disney+ Premium Norte"
+              ]
+            },
+            {
+              "paese": "Estonia",
+              "canali": [
+                "Go3 Sport 2"
+              ]
+            },
+            {
+              "paese": "Isole Faroe",
+              "canali": [
+                "TV2 Play Denmark"
+              ]
+            },
+            {
+              "paese": "Finlandia",
+              "canali": [
+                "MTV Urheilu 1",
+                "MTV Katsomo"
+              ]
+            },
+            {
+              "paese": "Francia",
+              "canali": [
+                "DAZN France"
+              ]
+            },
+            {
+              "paese": "Georgia",
+              "canali": [
+                "Silk Sport HD 3",
+                "Q League"
+              ]
+            },
+            {
+              "paese": "Germania",
+              "canali": [
+                "DAZN Deutschland"
+              ]
+            },
+            {
+              "paese": "Gran Bretagna",
+              "canali": [
+                "DAZN UK"
+              ]
+            },
+            {
+              "paese": "Grecia",
+              "canali": [
+                "MagentaSport 1"
+              ]
+            },
+            {
+              "paese": "Grenada",
+              "canali": [
+                "Disney+ Premium Caribbean"
+              ]
+            },
+            {
+              "paese": "Guadalupa",
+              "canali": [
+                "Disney+ Premium Caribbean"
+              ]
+            },
+            {
+              "paese": "Guatemala",
+              "canali": [
+                "ESPN Norte",
+                "Disney+ Premium Norte"
+              ]
+            },
+            {
+              "paese": "Haiti",
+              "canali": [
+                "Disney+ Premium Caribbean"
+              ]
+            },
+            {
+              "paese": "Honduras",
+              "canali": [
+                "ESPN Norte",
+                "Disney+ Premium Norte"
+              ]
+            },
+            {
+              "paese": "Hong Kong",
+              "canali": [
+                "Now Player",
+                "beIN Sports 1 Hong Kong",
+                "M Plus Live",
+                "beIN SPORTS MAX Hong Kong"
+              ]
+            },
+            {
+              "paese": "Ungheria",
+              "canali": [
+                "Match4"
+              ]
+            },
+            {
+              "paese": "India",
+              "canali": [
+                "ZEE5",
+                "Unite8 Sports 1",
+                "Unite8 Sports 1 HD"
+              ]
+            },
+            {
+              "paese": "Indonesia",
+              "canali": [
+                "Vidio"
+              ]
+            },
+            {
+              "paese": "Iran",
+              "canali": [
+                "Thmanyah"
+              ]
+            },
+            {
+              "paese": "Iraq",
+              "canali": [
+                "STARZPLAY",
+                "Shasha",
+                "Almanasa",
+                "Thmanyah"
+              ]
+            },
+            {
+              "paese": "Irlanda",
+              "canali": [
+                "DAZN UK"
+              ]
+            },
+            {
+              "paese": "Italia",
+              "canali": [
+                "DAZN Italia",
+                "DAZN1"
+              ]
+            },
+            {
+              "paese": "Giamaica",
+              "canali": [
+                "Disney+ Premium Caribbean"
+              ]
+            },
+            {
+              "paese": "Giappone",
+              "canali": [
+                "DAZN Japan"
+              ]
+            },
+            {
+              "paese": "Giordania",
+              "canali": [
+                "STARZPLAY",
+                "Shasha",
+                "Thmanyah"
+              ]
+            },
+            {
+              "paese": "Kazakistan",
+              "canali": [
+                "Q League"
+              ]
+            },
+            {
+              "paese": "Kenya",
+              "canali": [
+                "Azam Sports 3 HD"
+              ]
+            },
+            {
+              "paese": "Corea del Sud",
+              "canali": [
+                "SPOTV NOW",
+                "SPOTV Prime"
+              ]
+            },
+            {
+              "paese": "Kosovo",
+              "canali": [
+                "Tring Sport 1",
+                "Arena 4 Premium",
+                "TV Vala Kosovo Telecom"
+              ]
+            },
+            {
+              "paese": "Kuwait",
+              "canali": [
+                "STARZPLAY",
+                "Shasha",
+                "Thmanyah"
+              ]
+            },
+            {
+              "paese": "Kirghizistan",
+              "canali": [
+                "Q League"
+              ]
+            },
+            {
+              "paese": "Lettonia",
+              "canali": [
+                "Go3 Sport 2"
+              ]
+            },
+            {
+              "paese": "Libano",
+              "canali": [
+                "STARZPLAY",
+                "Shasha"
+              ]
+            },
+            {
+              "paese": "Libia",
+              "canali": [
+                "STARZPLAY",
+                "Shasha",
+                "Thmanyah"
+              ]
+            },
+            {
+              "paese": "Liechtenstein",
+              "canali": [
+                "DAZN Deutschland"
+              ]
+            },
+            {
+              "paese": "Lituania",
+              "canali": [
+                "Go3 Sport 2"
+              ]
+            },
+            {
+              "paese": "Macao",
+              "canali": [
+                "M Plus Live",
+                "Macau Cable TV 34 Football"
+              ]
+            },
+            {
+              "paese": "Macedonia",
+              "canali": [
+                "Arena 4 Premium",
+                "Arena Cloud"
+              ]
+            },
+            {
+              "paese": "Malawi",
+              "canali": [
+                "Azam Sports 3 HD"
+              ]
+            },
+            {
+              "paese": "Malesia",
+              "canali": [
+                "Astro Go",
+                "Astro Football",
+                "sooka"
+              ]
+            },
+            {
+              "paese": "Maldive",
+              "canali": [
+                "ZEE5",
+                "ICE Plus",
+                "Unite8 Sports 1",
+                "Unite8 Sports 1 HD"
+              ]
+            },
+            {
+              "paese": "Malta",
+              "canali": [
+                "GO TV Anywhere",
+                "TSN3 Malta"
+              ]
+            },
+            {
+              "paese": "Martinica",
+              "canali": [
+                "Disney+ Premium Caribbean"
+              ]
+            },
+            {
+              "paese": "Mauritania",
+              "canali": [
+                "STARZPLAY",
+                "Shasha"
+              ]
+            },
+            {
+              "paese": "Mauritius",
+              "canali": [
+                "Thmanyah"
+              ]
+            },
+            {
+              "paese": "Messico",
+              "canali": [
+                "ESPN Mexico",
+                "Disney+ Premium Mexico"
+              ]
+            },
+            {
+              "paese": "Moldavia",
+              "canali": [
+                "Q League"
+              ]
+            },
+            {
+              "paese": "Monaco",
+              "canali": [
+                "DAZN France"
+              ]
+            },
+            {
+              "paese": "Montenegro",
+              "canali": [
+                "Arena 4 Premium",
+                "Arena Cloud"
+              ]
+            },
+            {
+              "paese": "Montserrat",
+              "canali": [
+                "Disney+ Premium Caribbean"
+              ]
+            },
+            {
+              "paese": "Marocco",
+              "canali": [
+                "STARZPLAY",
+                "Shasha",
+                "Thmanyah"
+              ]
+            },
+            {
+              "paese": "Birmania",
+              "canali": [
+                "M Channel Sport"
+              ]
+            },
+            {
+              "paese": "Nepal",
+              "canali": [
+                "ZEE5",
+                "Unite8 Sports 1",
+                "Unite8 Sports 1 HD"
+              ]
+            },
+            {
+              "paese": "Paesi Bassi",
+              "canali": [
+                "Ziggo Go",
+                "Ziggo Sport 2"
+              ]
+            },
+            {
+              "paese": "Nuova Zelanda",
+              "canali": [
+                "beIN Sports Connect New Zealand"
+              ]
+            },
+            {
+              "paese": "Nicaragua",
+              "canali": [
+                "ESPN Norte",
+                "Disney+ Premium Norte"
+              ]
+            },
+            {
+              "paese": "Norvegia",
+              "canali": [
+                "VG+"
+              ]
+            },
+            {
+              "paese": "Oman",
+              "canali": [
+                "STARZPLAY",
+                "Shasha",
+                "Thmanyah"
+              ]
+            },
+            {
+              "paese": "Pakistan",
+              "canali": [
+                "Begin"
+              ]
+            },
+            {
+              "paese": "Palestina",
+              "canali": [
+                "STARZPLAY",
+                "Shasha",
+                "Thmanyah"
+              ]
+            },
+            {
+              "paese": "Panama",
+              "canali": [
+                "ESPN Norte",
+                "Disney+ Premium Norte"
+              ]
+            },
+            {
+              "paese": "Paraguay",
+              "canali": [
+                "Disney+ Premium Argentina"
+              ]
+            },
+            {
+              "paese": "Perù",
+              "canali": [
+                "Disney+ Premium Chile"
+              ]
+            },
+            {
+              "paese": "Polonia",
+              "canali": [
+                "Polsat Box Go",
+                "Eleven Sports 1 Poland",
+                "Canal+",
+                "Polsat Sport Extra"
+              ]
+            },
+            {
+              "paese": "Portogallo",
+              "canali": [
+                "Sport TV2",
+                "Sport TV Multiscreen"
+              ]
+            },
+            {
+              "paese": "Porto Rico",
+              "canali": [
+                "Peacock",
+                "UNIVERSO",
+                "Disney+ Premium Caribbean",
+                "NAICOM"
+              ]
+            },
+            {
+              "paese": "Qatar",
+              "canali": [
+                "STARZPLAY",
+                "Shasha",
+                "Thmanyah"
+              ]
+            },
+            {
+              "paese": "Romania",
+              "canali": [
+                "Digi Sport 2 Romania",
+                "Digi Online",
+                "Prima Sport 2",
+                "Orange TV Go",
+                "Prima Play"
+              ]
+            },
+            {
+              "paese": "Russia",
+              "canali": [
+                "Sportbox.ru",
+                "Матч! Футбол 1",
+                "matchtv.ru"
+              ]
+            },
+            {
+              "paese": "Ruanda",
+              "canali": [
+                "Azam Sports 3 HD"
+              ]
+            },
+            {
+              "paese": "Saint Barthelemy",
+              "canali": [
+                "Disney+ Premium Caribbean"
+              ]
+            },
+            {
+              "paese": "Saint Kitts e Nevis",
+              "canali": [
+                "Disney+ Premium Caribbean"
+              ]
+            },
+            {
+              "paese": "Santa Lucia",
+              "canali": [
+                "Disney+ Premium Caribbean"
+              ]
+            },
+            {
+              "paese": "Saint Martin",
+              "canali": [
+                "Disney+ Premium Caribbean"
+              ]
+            },
+            {
+              "paese": "San Marino",
+              "canali": [
+                "DAZN Italia",
+                "DAZN1"
+              ]
+            },
+            {
+              "paese": "Arabia Saudita",
+              "canali": [
+                "STARZPLAY",
+                "Shasha",
+                "STC TV",
+                "Thmanyah"
+              ]
+            },
+            {
+              "paese": "Serbia",
+              "canali": [
+                "Arena 4 Premium",
+                "Arena Cloud"
+              ]
+            },
+            {
+              "paese": "Slovacchia",
+              "canali": [
+                "Sport 1 SK"
+              ]
+            },
+            {
+              "paese": "Slovenia",
+              "canali": [
+                "Arena Sport 1 Premium"
+              ]
+            },
+            {
+              "paese": "Somalia",
+              "canali": [
+                "STARZPLAY",
+                "Shasha"
+              ]
+            },
+            {
+              "paese": "Sudafrica",
+              "canali": [
+                "MáXimo 360"
+              ]
+            },
+            {
+              "paese": "Sud Sudan",
+              "canali": [
+                "STARZPLAY",
+                "Shasha"
+              ]
+            },
+            {
+              "paese": "Spagna",
+              "canali": [
+                "DAZN Spain"
+              ]
+            },
+            {
+              "paese": "Sri Lanka",
+              "canali": [
+                "ZEE5",
+                "Begin",
+                "Unite8 Sports 1",
+                "Unite8 Sports 1 HD"
+              ]
+            },
+            {
+              "paese": "St. Vincent / Grenadines",
+              "canali": [
+                "Disney+ Premium Caribbean"
+              ]
+            },
+            {
+              "paese": "Sudan",
+              "canali": [
+                "STARZPLAY",
+                "Shasha",
+                "Thmanyah"
+              ]
+            },
+            {
+              "paese": "Suriname",
+              "canali": [
+                "SCCN"
+              ]
+            },
+            {
+              "paese": "Svezia",
+              "canali": [
+                "TV4 Play",
+                "TV4 Fotball"
+              ]
+            },
+            {
+              "paese": "Svizzera",
+              "canali": [
+                "DAZN Switzerland"
+              ]
+            },
+            {
+              "paese": "Siria",
+              "canali": [
+                "STARZPLAY",
+                "Shasha",
+                "Thmanyah"
+              ]
+            },
+            {
+              "paese": "Tajikistan",
+              "canali": [
+                "Q League"
+              ]
+            },
+            {
+              "paese": "Tanzania",
+              "canali": [
+                "Azam Sports 3 HD"
+              ]
+            },
+            {
+              "paese": "Thailandia",
+              "canali": [
+                "True ID",
+                "True Premier Football HD 3"
+              ]
+            },
+            {
+              "paese": "Trinidad e Tobago",
+              "canali": [
+                "Disney+ Premium Caribbean"
+              ]
+            },
+            {
+              "paese": "Tunisia",
+              "canali": [
+                "STARZPLAY",
+                "Shasha",
+                "Diwan Sport",
+                "Thmanyah"
+              ]
+            },
+            {
+              "paese": "Turchia",
+              "canali": [
+                "S Sport+",
+                "S Sport 2",
+                "Disney+ Premium Turkey"
+              ]
+            },
+            {
+              "paese": "Turkmenistan",
+              "canali": [
+                "Q League"
+              ]
+            },
+            {
+              "paese": "U.S. Virgin Islands",
+              "canali": [
+                "Disney+ Premium Caribbean"
+              ]
+            },
+            {
+              "paese": "Uganda",
+              "canali": [
+                "Azam Sports 3 HD"
+              ]
+            },
+            {
+              "paese": "Ucraina",
+              "canali": [
+                "Megogo",
+                "MEGOGO Football 2"
+              ]
+            },
+            {
+              "paese": "Emirati Arabi Uniti",
+              "canali": [
+                "STARZPLAY",
+                "Shasha",
+                "Thmanyah"
+              ]
+            },
+            {
+              "paese": "Uruguay",
+              "canali": [
+                "Disney+ Premium Argentina"
+              ]
+            },
+            {
+              "paese": "USA",
+              "canali": [
+                "Paramount+",
+                "fuboTV",
+                "Peacock",
+                "Telemundo Deportes En Vivo",
+                "UNIVERSO",
+                "UNIVERSO NOW",
+                "CBS Sports Golazo"
+              ]
+            },
+            {
+              "paese": "Uzbekistan",
+              "canali": [
+                "Q League"
+              ]
+            },
+            {
+              "paese": "Venezuela",
+              "canali": [
+                "Disney+ Premium Sur"
+              ]
+            },
+            {
+              "paese": "Vietnam",
+              "canali": [
+                "MyTV Vietnam"
+              ]
+            },
+            {
+              "paese": "Yemen",
+              "canali": [
+                "STARZPLAY",
+                "Shasha",
+                "Thmanyah"
+              ]
+            },
+            {
+              "paese": "Zambia",
+              "canali": [
+                "Azam Sports 3 HD"
+              ]
+            },
+            {
+              "paese": "Zimbabwe",
+              "canali": [
+                "Azam Sports 3 HD"
+              ]
+            }
+          ],
+          "fonte": "LiveSoccerTV"
+        },
+        {
+          "titolo": "[Altri sport] United Rugby Championship: Scarlets-Benetton Rugby",
+          "categoria": "Altri sport",
+          "sottocartella": "Rugby",
+          "sport": "Rugby",
+          "competizione": "United Rugby Championship",
+          "evento": "Scarlets-Benetton Rugby",
+          "inizio": "2026-10-10T18:30:00+02:00",
+          "data": "10/10/2026",
+          "ora": "18:30",
+          "canali": [
+            {
+              "nome": "Sky Sport Arena",
+              "numero": "",
+              "tipo": "diretta",
+              "orario": "2026-10-10T18:30",
+              "fonte": "virgilio"
+            }
+          ],
+          "fonte": "Virgilio Sport"
+        },
+        {
+          "titolo": "[Calcio] Bundesliga: RB Lipsia-Eintracht Francoforte",
+          "categoria": "Calcio",
+          "sottocartella": "Bundesliga",
+          "sport": "Calcio",
+          "competizione": "Bundesliga",
+          "evento": "RB Lipsia-Eintracht Francoforte",
+          "inizio": "2026-10-10T18:30:00+02:00",
+          "data": "10/10/2026",
+          "ora": "18:30",
+          "canali": [
+            {
+              "nome": "Sky Sport Calcio",
+              "numero": "",
+              "tipo": "diretta",
+              "orario": "2026-10-10T18:30",
+              "fonte": "virgilio"
+            }
+          ],
+          "fonte": "Virgilio Sport"
+        },
+        {
+          "titolo": "[Calcio] Premier League: Manchester United-Tottenham",
+          "categoria": "Calcio",
+          "sottocartella": "Premier League",
+          "sport": "Calcio",
+          "competizione": "Premier League",
+          "evento": "Manchester United-Tottenham",
+          "inizio": "2026-10-10T18:30:00+02:00",
+          "data": "10/10/2026",
+          "ora": "18:30",
+          "canali": [
+            {
+              "nome": "Sky Sport 1",
+              "numero": "201",
+              "tipo": "diretta",
+              "orario": "2026-10-10T18:30",
+              "fonte": "virgilio"
+            }
+          ],
+          "fonte": "Virgilio Sport"
+        },
+        {
+          "titolo": "[Calcio] Serie B: Arezzo-Cremonese",
+          "categoria": "Calcio",
+          "sottocartella": "Serie B",
+          "sport": "Calcio",
+          "competizione": "Serie B",
+          "evento": "Arezzo-Cremonese",
+          "inizio": "2026-10-10T19:30:00+02:00",
+          "data": "10/10/2026",
+          "ora": "19:30",
+          "canali": [
+            {
+              "nome": "DAZN",
+              "numero": "",
+              "tipo": "diretta",
+              "orario": "2026-10-10T19:30",
+              "fonte": "virgilio"
+            }
+          ],
+          "fonte": "Virgilio Sport"
+        },
+        {
+          "titolo": "[Calcio] Bundesliga 2: Norimberga-Wolfsburg",
+          "categoria": "Calcio",
+          "sottocartella": "Bundesliga 2",
+          "sport": "Calcio",
+          "competizione": "Bundesliga 2",
+          "evento": "Norimberga-Wolfsburg",
+          "inizio": "2026-10-10T20:30:00+02:00",
+          "data": "10/10/2026",
           "ora": "20:30",
           "canali": [
             {
               "nome": "Sky Sport Max",
               "numero": "",
               "tipo": "diretta",
-              "orario": "2026-10-09T20:30",
+              "orario": "2026-10-10T20:30",
               "fonte": "virgilio"
             }
           ],
           "fonte": "Virgilio Sport"
         },
         {
-          "titolo": "[Calcio] Serie B: Avellino-Sampdoria",
-          "categoria": "Calcio",
-          "sottocartella": "Serie B",
-          "sport": "Calcio",
-          "competizione": "Serie B",
-          "evento": "Avellino-Sampdoria",
-          "inizio": "2026-10-09T20:30:00+02:00",
-          "data": "09/10/2026",
-          "ora": "20:30",
-          "canali": [
-            {
-              "nome": "DAZN",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-10-09T20:30",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Calcio] Serie C: Union Brescia-Pro Vercelli",
+          "titolo": "[Calcio] Serie C: Spezia-Gubbio",
           "categoria": "Calcio",
           "sottocartella": "Serie C",
           "sport": "Calcio",
           "competizione": "Serie C",
-          "evento": "Union Brescia-Pro Vercelli",
-          "inizio": "2026-10-09T20:30:00+02:00",
-          "data": "09/10/2026",
+          "evento": "Spezia-Gubbio",
+          "inizio": "2026-10-10T20:30:00+02:00",
+          "data": "10/10/2026",
           "ora": "20:30",
           "canali": [
             {
-              "nome": "Sky Sport 1",
-              "numero": "201",
+              "nome": "Sky Sport Arena",
+              "numero": "",
               "tipo": "diretta",
-              "orario": "2026-10-09T20:30",
+              "orario": "2026-10-10T20:30",
               "fonte": "virgilio"
             }
           ],
           "fonte": "Virgilio Sport"
+        },
+        {
+          "titolo": "[Volley] Serie A1: Conegliano-Busto Arsizio",
+          "categoria": "Volley",
+          "sottocartella": "Serie A1 femminile",
+          "sport": "Pallavolo femminile",
+          "competizione": "Serie A1",
+          "evento": "Conegliano-Busto Arsizio",
+          "inizio": "2026-10-10T20:30:00+02:00",
+          "data": "10/10/2026",
+          "ora": "20:30",
+          "canali": [
+            {
+              "nome": "Rai Sport",
+              "numero": "",
+              "tipo": "diretta",
+              "orario": "2026-10-10T20:30",
+              "fonte": "virgilio"
+            }
+          ],
+          "fonte": "Virgilio Sport"
+        },
+        {
+          "titolo": "[Calcio] Serie A: Napoli vs Frosinone",
+          "categoria": "Calcio",
+          "sottocartella": "Serie A",
+          "sport": "Calcio",
+          "competizione": "Serie A",
+          "evento": "Napoli vs Frosinone",
+          "inizio": "2026-10-10T20:45:00+02:00",
+          "data": "10/10/2026",
+          "ora": "20:45",
+          "canali": [
+            {
+              "nome": "DAZN Italia",
+              "numero": "",
+              "tipo": "streaming",
+              "orario": "2026-10-10T20:45",
+              "fonte": "livesoccer"
+            },
+            {
+              "nome": "Sky Sport 251",
+              "numero": "",
+              "tipo": "diretta",
+              "orario": "2026-10-10T20:45",
+              "fonte": "livesoccer"
+            },
+            {
+              "nome": "SKY Go Italia",
+              "numero": "",
+              "tipo": "streaming",
+              "orario": "2026-10-10T20:45",
+              "fonte": "livesoccer"
+            },
+            {
+              "nome": "Sky Sport Uno",
+              "numero": "",
+              "tipo": "diretta",
+              "orario": "2026-10-10T20:45",
+              "fonte": "livesoccer"
+            },
+            {
+              "nome": "Sky Sport Calcio",
+              "numero": "",
+              "tipo": "diretta",
+              "orario": "2026-10-10T20:45",
+              "fonte": "livesoccer"
+            },
+            {
+              "nome": "NOW TV",
+              "numero": "",
+              "tipo": "streaming",
+              "orario": "2026-10-10T20:45",
+              "fonte": "livesoccer"
+            },
+            {
+              "nome": "Sky Sport 4K",
+              "numero": "213",
+              "tipo": "diretta",
+              "orario": "2026-10-10T20:45",
+              "fonte": "livesoccer"
+            },
+            {
+              "nome": "DAZN",
+              "numero": "",
+              "tipo": "diretta",
+              "orario": "2026-10-10T20:45",
+              "fonte": "virgilio"
+            },
+            {
+              "nome": "Sky Sport 1",
+              "numero": "201",
+              "tipo": "diretta",
+              "orario": "2026-10-10T20:45",
+              "fonte": "virgilio"
+            }
+          ],
+          "canali_mondo": [
+            {
+              "paese": "Afghanistan",
+              "canali": [
+                "ZEE5",
+                "Unite8 Sports 1",
+                "Unite8 Sports 1 HD"
+              ]
+            },
+            {
+              "paese": "Albania",
+              "canali": [
+                "Tring Sport 1",
+                "Tring"
+              ]
+            },
+            {
+              "paese": "Algeria",
+              "canali": [
+                "STARZPLAY",
+                "Shasha",
+                "Thmanyah"
+              ]
+            },
+            {
+              "paese": "Andorra",
+              "canali": [
+                "DAZN Spain",
+                "DAZN France",
+                "ZAP"
+              ]
+            },
+            {
+              "paese": "Angola",
+              "canali": [
+                "ZAP",
+                "ZSPORT 1"
+              ]
+            },
+            {
+              "paese": "Anguilla",
+              "canali": [
+                "Disney+ Premium Caribbean"
+              ]
+            },
+            {
+              "paese": "Antigua e Barbuda",
+              "canali": [
+                "Disney+ Premium Caribbean"
+              ]
+            },
+            {
+              "paese": "Argentina",
+              "canali": [
+                "ESPN3 Argentina",
+                "Disney+ Premium Argentina"
+              ]
+            },
+            {
+              "paese": "Armenia",
+              "canali": [
+                "Q League"
+              ]
+            },
+            {
+              "paese": "Aruba",
+              "canali": [
+                "Disney+ Premium Caribbean"
+              ]
+            },
+            {
+              "paese": "Australia",
+              "canali": [
+                "beIN SPORTS 2",
+                "beIN Sports Connect"
+              ]
+            },
+            {
+              "paese": "Austria",
+              "canali": [
+                "DAZN Austria"
+              ]
+            },
+            {
+              "paese": "Azerbaigian",
+              "canali": [
+                "Q League"
+              ]
+            },
+            {
+              "paese": "Bahrain",
+              "canali": [
+                "STARZPLAY",
+                "Shasha",
+                "Thmanyah"
+              ]
+            },
+            {
+              "paese": "Bangladesh",
+              "canali": [
+                "ZEE5",
+                "Begin",
+                "Unite8 Sports 1",
+                "Unite8 Sports 1 HD"
+              ]
+            },
+            {
+              "paese": "Barbados",
+              "canali": [
+                "Disney+ Premium Caribbean"
+              ]
+            },
+            {
+              "paese": "Bielorussia",
+              "canali": [
+                "Q League"
+              ]
+            },
+            {
+              "paese": "Belgio",
+              "canali": [
+                "DAZN Belgium"
+              ]
+            },
+            {
+              "paese": "Belize",
+              "canali": [
+                "Nexgen"
+              ]
+            },
+            {
+              "paese": "Bhutan",
+              "canali": [
+                "ZEE5",
+                "Unite8 Sports 1",
+                "Unite8 Sports 1 HD"
+              ]
+            },
+            {
+              "paese": "Bolivia",
+              "canali": [
+                "ESPN2 Colombia",
+                "Disney+ Premium Chile"
+              ]
+            },
+            {
+              "paese": "Bosnia ed Erzegovina",
+              "canali": [
+                "Moja TV",
+                "Arena Sport 2P",
+                "Arena Cloud"
+              ]
+            },
+            {
+              "paese": "Brasile",
+              "canali": [
+                "ESPN Brazil",
+                "Disney+ Premium Brazil"
+              ]
+            },
+            {
+              "paese": "Isole Vergini britanniche",
+              "canali": [
+                "Disney+ Premium Caribbean"
+              ]
+            },
+            {
+              "paese": "Brunei",
+              "canali": [
+                "Astro Go"
+              ]
+            },
+            {
+              "paese": "Bulgaria",
+              "canali": [
+                "MAX Sport 3"
+              ]
+            },
+            {
+              "paese": "Canada",
+              "canali": [
+                "DAZN Canada",
+                "TLN",
+                "fuboTV Canada",
+                "VIVA",
+                "Fubo Sports Network 9 Canada"
+              ]
+            },
+            {
+              "paese": "Capo Verde",
+              "canali": [
+                "ZAP"
+              ]
+            },
+            {
+              "paese": "Isole Cayman",
+              "canali": [
+                "Disney+ Premium Caribbean"
+              ]
+            },
+            {
+              "paese": "Ciad",
+              "canali": [
+                "STARZPLAY",
+                "Shasha",
+                "Thmanyah"
+              ]
+            },
+            {
+              "paese": "Cile",
+              "canali": [
+                "ESPN2 Chile",
+                "Disney+ Premium Chile"
+              ]
+            },
+            {
+              "paese": "Cina",
+              "canali": [
+                "Migu"
+              ]
+            },
+            {
+              "paese": "Taipei cinese",
+              "canali": [
+                "ELTA Sports 1"
+              ]
+            },
+            {
+              "paese": "Colombia",
+              "canali": [
+                "ESPN2 Colombia",
+                "Disney+ Premium Sur"
+              ]
+            },
+            {
+              "paese": "Costa Rica",
+              "canali": [
+                "Disney+ Premium Norte"
+              ]
+            },
+            {
+              "paese": "Croazia",
+              "canali": [
+                "MAXtv To Go",
+                "Arena Sport 7 Croatia"
+              ]
+            },
+            {
+              "paese": "Cuba",
+              "canali": [
+                "Disney+ Premium Caribbean"
+              ]
+            },
+            {
+              "paese": "Cipro",
+              "canali": [
+                "Cytavision on the Go",
+                "Cytavision Sports 4"
+              ]
+            },
+            {
+              "paese": "Repubblica Ceca",
+              "canali": [
+                "Sport 1 CZ",
+                "OnePlay"
+              ]
+            },
+            {
+              "paese": "Danimarca",
+              "canali": [
+                "TV2 Play Denmark"
+              ]
+            },
+            {
+              "paese": "Gibuti",
+              "canali": [
+                "STARZPLAY",
+                "Shasha",
+                "Thmanyah"
+              ]
+            },
+            {
+              "paese": "Dominica",
+              "canali": [
+                "Disney+ Premium Caribbean"
+              ]
+            },
+            {
+              "paese": "Repubblica Dominicana",
+              "canali": [
+                "Disney+ Premium Caribbean",
+                "Disney+ Premium Norte"
+              ]
+            },
+            {
+              "paese": "Ecuador",
+              "canali": [
+                "ESPN2 Colombia",
+                "Disney+ Premium Sur"
+              ]
+            },
+            {
+              "paese": "Egitto",
+              "canali": [
+                "STARZPLAY",
+                "Shasha",
+                "Thmanyah"
+              ]
+            },
+            {
+              "paese": "El Salvador",
+              "canali": [
+                "Disney+ Premium Norte"
+              ]
+            },
+            {
+              "paese": "Isole Faroe",
+              "canali": [
+                "TV2 Play Denmark"
+              ]
+            },
+            {
+              "paese": "Finlandia",
+              "canali": [
+                "MTV Urheilu 1",
+                "MTV Katsomo"
+              ]
+            },
+            {
+              "paese": "Francia",
+              "canali": [
+                "DAZN France"
+              ]
+            },
+            {
+              "paese": "Georgia",
+              "canali": [
+                "Silk Sport HD 3",
+                "Q League"
+              ]
+            },
+            {
+              "paese": "Germania",
+              "canali": [
+                "DAZN Deutschland"
+              ]
+            },
+            {
+              "paese": "Gran Bretagna",
+              "canali": [
+                "DAZN UK"
+              ]
+            },
+            {
+              "paese": "Grecia",
+              "canali": [
+                "MagentaSport 1"
+              ]
+            },
+            {
+              "paese": "Grenada",
+              "canali": [
+                "Disney+ Premium Caribbean"
+              ]
+            },
+            {
+              "paese": "Guadalupa",
+              "canali": [
+                "Disney+ Premium Caribbean"
+              ]
+            },
+            {
+              "paese": "Guatemala",
+              "canali": [
+                "Disney+ Premium Norte"
+              ]
+            },
+            {
+              "paese": "Guinea-Bissau",
+              "canali": [
+                "ZAP"
+              ]
+            },
+            {
+              "paese": "Haiti",
+              "canali": [
+                "Disney+ Premium Caribbean"
+              ]
+            },
+            {
+              "paese": "Honduras",
+              "canali": [
+                "Disney+ Premium Norte"
+              ]
+            },
+            {
+              "paese": "Hong Kong",
+              "canali": [
+                "Now Player",
+                "beIN Sports 1 Hong Kong",
+                "M Plus Live"
+              ]
+            },
+            {
+              "paese": "Ungheria",
+              "canali": [
+                "Arena4"
+              ]
+            },
+            {
+              "paese": "India",
+              "canali": [
+                "ZEE5",
+                "Unite8 Sports 1",
+                "Unite8 Sports 1 HD"
+              ]
+            },
+            {
+              "paese": "Indonesia",
+              "canali": [
+                "ANTV",
+                "Vidio"
+              ]
+            },
+            {
+              "paese": "Iran",
+              "canali": [
+                "Thmanyah"
+              ]
+            },
+            {
+              "paese": "Iraq",
+              "canali": [
+                "STARZPLAY",
+                "Shasha",
+                "Almanasa",
+                "Thmanyah"
+              ]
+            },
+            {
+              "paese": "Irlanda",
+              "canali": [
+                "DAZN UK"
+              ]
+            },
+            {
+              "paese": "Israele",
+              "canali": [
+                "Sport 4"
+              ]
+            },
+            {
+              "paese": "Italia",
+              "canali": [
+                "DAZN Italia",
+                "Sky Sport 251",
+                "SKY Go Italia",
+                "Sky Sport Uno",
+                "Sky Sport Calcio",
+                "NOW TV",
+                "Sky Sport 4K"
+              ]
+            },
+            {
+              "paese": "Giamaica",
+              "canali": [
+                "Disney+ Premium Caribbean"
+              ]
+            },
+            {
+              "paese": "Giappone",
+              "canali": [
+                "DAZN Japan"
+              ]
+            },
+            {
+              "paese": "Giordania",
+              "canali": [
+                "STARZPLAY",
+                "Shasha",
+                "Thmanyah"
+              ]
+            },
+            {
+              "paese": "Kazakistan",
+              "canali": [
+                "Q League"
+              ]
+            },
+            {
+              "paese": "Kenya",
+              "canali": [
+                "Azam Sports 3 HD"
+              ]
+            },
+            {
+              "paese": "Corea del Sud",
+              "canali": [
+                "SPOTV NOW",
+                "SPOTV Prime 2"
+              ]
+            },
+            {
+              "paese": "Kosovo",
+              "canali": [
+                "Tring Sport 1",
+                "Arena 3 Premium",
+                "TV Vala Kosovo Telecom"
+              ]
+            },
+            {
+              "paese": "Kuwait",
+              "canali": [
+                "STARZPLAY",
+                "Shasha",
+                "Thmanyah"
+              ]
+            },
+            {
+              "paese": "Kirghizistan",
+              "canali": [
+                "Q League"
+              ]
+            },
+            {
+              "paese": "Libano",
+              "canali": [
+                "STARZPLAY",
+                "Shasha"
+              ]
+            },
+            {
+              "paese": "Libia",
+              "canali": [
+                "STARZPLAY",
+                "Shasha",
+                "Thmanyah"
+              ]
+            },
+            {
+              "paese": "Liechtenstein",
+              "canali": [
+                "DAZN Deutschland"
+              ]
+            },
+            {
+              "paese": "Macao",
+              "canali": [
+                "M Plus Live",
+                "Macau Cable TV 34 Football"
+              ]
+            },
+            {
+              "paese": "Macedonia",
+              "canali": [
+                "Arena 3 Premium",
+                "Arena Cloud"
+              ]
+            },
+            {
+              "paese": "Malawi",
+              "canali": [
+                "Azam Sports 3 HD"
+              ]
+            },
+            {
+              "paese": "Malesia",
+              "canali": [
+                "Astro Go",
+                "Astro Football",
+                "sooka"
+              ]
+            },
+            {
+              "paese": "Maldive",
+              "canali": [
+                "ZEE5",
+                "Unite8 Sports 1",
+                "Unite8 Sports 1 HD"
+              ]
+            },
+            {
+              "paese": "Malta",
+              "canali": [
+                "GO TV Anywhere",
+                "TSN3 Malta"
+              ]
+            },
+            {
+              "paese": "Martinica",
+              "canali": [
+                "Disney+ Premium Caribbean"
+              ]
+            },
+            {
+              "paese": "Mauritania",
+              "canali": [
+                "STARZPLAY",
+                "Shasha"
+              ]
+            },
+            {
+              "paese": "Mauritius",
+              "canali": [
+                "Thmanyah"
+              ]
+            },
+            {
+              "paese": "Messico",
+              "canali": [
+                "Disney+ Premium Mexico"
+              ]
+            },
+            {
+              "paese": "Moldavia",
+              "canali": [
+                "Q League"
+              ]
+            },
+            {
+              "paese": "Monaco",
+              "canali": [
+                "DAZN France"
+              ]
+            },
+            {
+              "paese": "Montenegro",
+              "canali": [
+                "Arena 3 Premium",
+                "Arena Cloud"
+              ]
+            },
+            {
+              "paese": "Montserrat",
+              "canali": [
+                "Disney+ Premium Caribbean"
+              ]
+            },
+            {
+              "paese": "Marocco",
+              "canali": [
+                "STARZPLAY",
+                "Shasha",
+                "Thmanyah"
+              ]
+            },
+            {
+              "paese": "Mozambico",
+              "canali": [
+                "ZAP"
+              ]
+            },
+            {
+              "paese": "Nepal",
+              "canali": [
+                "ZEE5",
+                "Unite8 Sports 1",
+                "Unite8 Sports 1 HD"
+              ]
+            },
+            {
+              "paese": "Paesi Bassi",
+              "canali": [
+                "Ziggo Go",
+                "Ziggo Sport 2"
+              ]
+            },
+            {
+              "paese": "Nuova Zelanda",
+              "canali": [
+                "beIN Sports Connect New Zealand"
+              ]
+            },
+            {
+              "paese": "Nicaragua",
+              "canali": [
+                "Disney+ Premium Norte"
+              ]
+            },
+            {
+              "paese": "Norvegia",
+              "canali": [
+                "VG+"
+              ]
+            },
+            {
+              "paese": "Oman",
+              "canali": [
+                "STARZPLAY",
+                "Shasha",
+                "Thmanyah"
+              ]
+            },
+            {
+              "paese": "Pakistan",
+              "canali": [
+                "Begin"
+              ]
+            },
+            {
+              "paese": "Palestina",
+              "canali": [
+                "STARZPLAY",
+                "Shasha",
+                "Thmanyah"
+              ]
+            },
+            {
+              "paese": "Panama",
+              "canali": [
+                "Disney+ Premium Norte"
+              ]
+            },
+            {
+              "paese": "Paraguay",
+              "canali": [
+                "ESPN2 Colombia",
+                "Disney+ Premium Argentina"
+              ]
+            },
+            {
+              "paese": "Perù",
+              "canali": [
+                "ESPN2 Colombia",
+                "Disney+ Premium Chile"
+              ]
+            },
+            {
+              "paese": "Polonia",
+              "canali": [
+                "Polsat Box Go",
+                "Eleven Sports 1 Poland",
+                "Canal+",
+                "Polsat Sport Extra"
+              ]
+            },
+            {
+              "paese": "Portogallo",
+              "canali": [
+                "Sport TV Multiscreen",
+                "Sport TV5"
+              ]
+            },
+            {
+              "paese": "Porto Rico",
+              "canali": [
+                "Peacock",
+                "Disney+ Premium Caribbean"
+              ]
+            },
+            {
+              "paese": "Qatar",
+              "canali": [
+                "STARZPLAY",
+                "Shasha",
+                "Thmanyah"
+              ]
+            },
+            {
+              "paese": "Romania",
+              "canali": [
+                "Digi Online",
+                "Digi Sport 4 Romania",
+                "Orange TV Go",
+                "Prima Sport 3",
+                "Prima Play"
+              ]
+            },
+            {
+              "paese": "Russia",
+              "canali": [
+                "Sportbox.ru",
+                "Матч! Футбол 1",
+                "matchtv.ru"
+              ]
+            },
+            {
+              "paese": "Ruanda",
+              "canali": [
+                "Azam Sports 3 HD"
+              ]
+            },
+            {
+              "paese": "Saint Barthelemy",
+              "canali": [
+                "Disney+ Premium Caribbean"
+              ]
+            },
+            {
+              "paese": "Saint Kitts e Nevis",
+              "canali": [
+                "Disney+ Premium Caribbean"
+              ]
+            },
+            {
+              "paese": "Santa Lucia",
+              "canali": [
+                "Disney+ Premium Caribbean"
+              ]
+            },
+            {
+              "paese": "Saint Martin",
+              "canali": [
+                "Disney+ Premium Caribbean"
+              ]
+            },
+            {
+              "paese": "San Marino",
+              "canali": [
+                "DAZN Italia",
+                "Sky Sport 251",
+                "SKY Go Italia",
+                "Sky Sport Uno",
+                "Sky Sport Calcio",
+                "NOW TV",
+                "Sky Sport 4K"
+              ]
+            },
+            {
+              "paese": "Arabia Saudita",
+              "canali": [
+                "STARZPLAY",
+                "Shasha",
+                "STC TV",
+                "Thmanyah"
+              ]
+            },
+            {
+              "paese": "Serbia",
+              "canali": [
+                "Arena 3 Premium",
+                "Arena Cloud"
+              ]
+            },
+            {
+              "paese": "Slovacchia",
+              "canali": [
+                "Sport 1 SK"
+              ]
+            },
+            {
+              "paese": "Slovenia",
+              "canali": [
+                "Arena Sport 3 Slovenia"
+              ]
+            },
+            {
+              "paese": "Somalia",
+              "canali": [
+                "STARZPLAY",
+                "Shasha"
+              ]
+            },
+            {
+              "paese": "Sudafrica",
+              "canali": [
+                "MáXimo 360"
+              ]
+            },
+            {
+              "paese": "Sud Sudan",
+              "canali": [
+                "STARZPLAY",
+                "Shasha"
+              ]
+            },
+            {
+              "paese": "Spagna",
+              "canali": [
+                "DAZN Spain"
+              ]
+            },
+            {
+              "paese": "Sri Lanka",
+              "canali": [
+                "ZEE5",
+                "Begin",
+                "Unite8 Sports 1",
+                "Unite8 Sports 1 HD"
+              ]
+            },
+            {
+              "paese": "St. Vincent / Grenadines",
+              "canali": [
+                "Disney+ Premium Caribbean"
+              ]
+            },
+            {
+              "paese": "Sudan",
+              "canali": [
+                "STARZPLAY",
+                "Shasha",
+                "Thmanyah"
+              ]
+            },
+            {
+              "paese": "Suriname",
+              "canali": [
+                "SCCN"
+              ]
+            },
+            {
+              "paese": "Svezia",
+              "canali": [
+                "TV4 Play",
+                "TV4 Fotball"
+              ]
+            },
+            {
+              "paese": "Svizzera",
+              "canali": [
+                "DAZN Switzerland"
+              ]
+            },
+            {
+              "paese": "Siria",
+              "canali": [
+                "STARZPLAY",
+                "Shasha",
+                "Thmanyah"
+              ]
+            },
+            {
+              "paese": "São Tomé and Príncipe",
+              "canali": [
+                "ZAP"
+              ]
+            },
+            {
+              "paese": "Tajikistan",
+              "canali": [
+                "Q League"
+              ]
+            },
+            {
+              "paese": "Tanzania",
+              "canali": [
+                "Azam Sports 3 HD"
+              ]
+            },
+            {
+              "paese": "Thailandia",
+              "canali": [
+                "True ID",
+                "True Premier Football HD 3"
+              ]
+            },
+            {
+              "paese": "Trinidad e Tobago",
+              "canali": [
+                "Disney+ Premium Caribbean"
+              ]
+            },
+            {
+              "paese": "Tunisia",
+              "canali": [
+                "STARZPLAY",
+                "Shasha",
+                "Diwan Sport",
+                "Thmanyah"
+              ]
+            },
+            {
+              "paese": "Turchia",
+              "canali": [
+                "S Sport+",
+                "S Sport 2",
+                "Disney+ Premium Turkey"
+              ]
+            },
+            {
+              "paese": "Turkmenistan",
+              "canali": [
+                "Q League"
+              ]
+            },
+            {
+              "paese": "U.S. Virgin Islands",
+              "canali": [
+                "Disney+ Premium Caribbean"
+              ]
+            },
+            {
+              "paese": "Uganda",
+              "canali": [
+                "Azam Sports 3 HD"
+              ]
+            },
+            {
+              "paese": "Ucraina",
+              "canali": [
+                "Megogo",
+                "MEGOGO Football 3"
+              ]
+            },
+            {
+              "paese": "Emirati Arabi Uniti",
+              "canali": [
+                "STARZPLAY",
+                "Shasha",
+                "Thmanyah"
+              ]
+            },
+            {
+              "paese": "Uruguay",
+              "canali": [
+                "ESPN2 Colombia",
+                "Disney+ Premium Argentina"
+              ]
+            },
+            {
+              "paese": "USA",
+              "canali": [
+                "Paramount+",
+                "Peacock",
+                "CBS Sports Golazo"
+              ]
+            },
+            {
+              "paese": "Uzbekistan",
+              "canali": [
+                "Q League"
+              ]
+            },
+            {
+              "paese": "Venezuela",
+              "canali": [
+                "ESPN2 Colombia",
+                "Disney+ Premium Sur"
+              ]
+            },
+            {
+              "paese": "Vietnam",
+              "canali": [
+                "MyTV Vietnam"
+              ]
+            },
+            {
+              "paese": "Yemen",
+              "canali": [
+                "STARZPLAY",
+                "Shasha",
+                "Thmanyah"
+              ]
+            },
+            {
+              "paese": "Zambia",
+              "canali": [
+                "Azam Sports 3 HD"
+              ]
+            },
+            {
+              "paese": "Zimbabwe",
+              "canali": [
+                "Azam Sports 3 HD"
+              ]
+            }
+          ],
+          "fonte": "LiveSoccerTV"
         }
       ]
     },
@@ -456,8 +4995,8 @@
                   "nome": "TV8",
                   "numero": "8",
                   "tipo": "differita",
-                  "orario": "",
-                  "fonte": "config"
+                  "orario": "2026-10-25T00:30",
+                  "fonte": "config+tv8"
                 }
               ],
               "fonte": "Dizzle0987/motorsport-calendar"
@@ -507,8 +5046,8 @@
                   "nome": "TV8",
                   "numero": "8",
                   "tipo": "differita",
-                  "orario": "",
-                  "fonte": "config"
+                  "orario": "2026-10-25T22:30",
+                  "fonte": "config+tv8"
                 }
               ],
               "fonte": "Dizzle0987/motorsport-calendar"
@@ -4108,11 +8647,11 @@
     },
     {
       "nome": "Calcio",
-      "totale": 101,
+      "totale": 105,
       "sottocartelle": [
         {
           "nome": "Serie A",
-          "totale": 10,
+          "totale": 11,
           "eventi": [
             {
               "titolo": "Serie A: Genoa vs Fiorentina",
@@ -9695,6 +14234,27 @@
                 }
               ],
               "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "Serie A: Frosinone-Sassuolo",
+              "categoria": "Calcio",
+              "sottocartella": "Serie A",
+              "sport": "Calcio",
+              "competizione": "Serie A",
+              "evento": "Frosinone-Sassuolo",
+              "inizio": "2026-10-16T20:45:00+02:00",
+              "data": "16/10/2026",
+              "ora": "20:45",
+              "canali": [
+                {
+                  "nome": "DAZN",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-16T20:45",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
             }
           ]
         },
@@ -9702,27 +14262,6 @@
           "nome": "Serie B",
           "totale": 11,
           "eventi": [
-            {
-              "titolo": "Serie B: Avellino-Sampdoria",
-              "categoria": "Calcio",
-              "sottocartella": "Serie B",
-              "sport": "Calcio",
-              "competizione": "Serie B",
-              "evento": "Avellino-Sampdoria",
-              "inizio": "2026-10-09T20:30:00+02:00",
-              "data": "09/10/2026",
-              "ora": "20:30",
-              "canali": [
-                {
-                  "nome": "DAZN",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-09T20:30",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
             {
               "titolo": "Serie B: Benevento vs Cesena",
               "categoria": "Calcio",
@@ -10164,34 +14703,34 @@
               ],
               "canali_mondo": [],
               "fonte": "LiveSoccerTV"
+            },
+            {
+              "titolo": "Serie B: Hellas Verona-Catanzaro",
+              "categoria": "Calcio",
+              "sottocartella": "Serie B",
+              "sport": "Calcio",
+              "competizione": "Serie B",
+              "evento": "Hellas Verona-Catanzaro",
+              "inizio": "2026-10-16T20:30:00+02:00",
+              "data": "16/10/2026",
+              "ora": "20:30",
+              "canali": [
+                {
+                  "nome": "DAZN",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-16T20:30",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
             }
           ]
         },
         {
           "nome": "Serie C",
-          "totale": 17,
+          "totale": 18,
           "eventi": [
-            {
-              "titolo": "Serie C: Union Brescia-Pro Vercelli",
-              "categoria": "Calcio",
-              "sottocartella": "Serie C",
-              "sport": "Calcio",
-              "competizione": "Serie C",
-              "evento": "Union Brescia-Pro Vercelli",
-              "inizio": "2026-10-09T20:30:00+02:00",
-              "data": "09/10/2026",
-              "ora": "20:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport 1",
-                  "numero": "201",
-                  "tipo": "diretta",
-                  "orario": "2026-10-09T20:30",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
             {
               "titolo": "Serie C: Bari 1908 vs Giugliano",
               "categoria": "Calcio",
@@ -10706,6 +15245,48 @@
                   "numero": "",
                   "tipo": "diretta",
                   "orario": "2026-10-14T15:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "Serie C: Livorno-Grosseto",
+              "categoria": "Calcio",
+              "sottocartella": "Serie C",
+              "sport": "Calcio",
+              "competizione": "Serie C",
+              "evento": "Livorno-Grosseto",
+              "inizio": "2026-10-16T20:30:00+02:00",
+              "data": "16/10/2026",
+              "ora": "20:30",
+              "canali": [
+                {
+                  "nome": "Sky Sport Arena",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-16T20:30",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "Serie C: Pro Vercelli-Lecco",
+              "categoria": "Calcio",
+              "sottocartella": "Serie C",
+              "sport": "Calcio",
+              "competizione": "Serie C",
+              "evento": "Pro Vercelli-Lecco",
+              "inizio": "2026-10-16T20:30:00+02:00",
+              "data": "16/10/2026",
+              "ora": "20:30",
+              "canali": [
+                {
+                  "nome": "Sky Sport Mix",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-16T20:30",
                   "fonte": "virgilio"
                 }
               ],
@@ -13061,81 +17642,6 @@
           ]
         },
         {
-          "nome": "Bundesliga",
-          "totale": 2,
-          "eventi": [
-            {
-              "titolo": "Bundesliga: Borussia Dortmund-Werder Brema",
-              "categoria": "Calcio",
-              "sottocartella": "Bundesliga",
-              "sport": "Calcio",
-              "competizione": "Bundesliga",
-              "evento": "Borussia Dortmund-Werder Brema",
-              "inizio": "2026-10-09T20:30:00+02:00",
-              "data": "09/10/2026",
-              "ora": "20:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport Calcio",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-09T20:30",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "Bundesliga: RB Lipsia-Eintracht Francoforte",
-              "categoria": "Calcio",
-              "sottocartella": "Bundesliga",
-              "sport": "Calcio",
-              "competizione": "Bundesliga",
-              "evento": "RB Lipsia-Eintracht Francoforte",
-              "inizio": "2026-10-10T18:30:00+02:00",
-              "data": "10/10/2026",
-              "ora": "18:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport Calcio",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-10T18:30",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            }
-          ]
-        },
-        {
-          "nome": "Serie A Futsal",
-          "totale": 1,
-          "eventi": [
-            {
-              "titolo": "Serie A Futsal: Napoli-L84 Torino",
-              "categoria": "Calcio",
-              "sottocartella": "Serie A Futsal",
-              "sport": "Calcio a 5 maschile",
-              "competizione": "Serie A Futsal",
-              "evento": "Napoli-L84 Torino",
-              "inizio": "2026-10-09T20:30:00+02:00",
-              "data": "09/10/2026",
-              "ora": "20:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport Max",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-09T20:30",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            }
-          ]
-        },
-        {
           "nome": "Liga Profesional",
           "totale": 4,
           "eventi": [
@@ -13227,7 +17733,7 @@
         },
         {
           "nome": "Primavera 1",
-          "totale": 6,
+          "totale": 7,
           "eventi": [
             {
               "titolo": "Primavera 1: Inter-Como",
@@ -13350,6 +17856,27 @@
                   "numero": "",
                   "tipo": "diretta",
                   "orario": "2026-10-12T15:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "Primavera 1: Parma-Bologna",
+              "categoria": "Calcio",
+              "sottocartella": "Primavera 1",
+              "sport": "Calcio",
+              "competizione": "Primavera 1",
+              "evento": "Parma-Bologna",
+              "inizio": "2026-10-16T15:00:00+02:00",
+              "data": "16/10/2026",
+              "ora": "15:00",
+              "canali": [
+                {
+                  "nome": "Sportitalia",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-16T15:00",
                   "fonte": "virgilio"
                 }
               ],
@@ -13490,8 +18017,56 @@
           ]
         },
         {
+          "nome": "Bundesliga",
+          "totale": 2,
+          "eventi": [
+            {
+              "titolo": "Bundesliga: RB Lipsia-Eintracht Francoforte",
+              "categoria": "Calcio",
+              "sottocartella": "Bundesliga",
+              "sport": "Calcio",
+              "competizione": "Bundesliga",
+              "evento": "RB Lipsia-Eintracht Francoforte",
+              "inizio": "2026-10-10T18:30:00+02:00",
+              "data": "10/10/2026",
+              "ora": "18:30",
+              "canali": [
+                {
+                  "nome": "Sky Sport Calcio",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-10T18:30",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "Bundesliga: Eintracht-Colonia",
+              "categoria": "Calcio",
+              "sottocartella": "Bundesliga",
+              "sport": "Calcio",
+              "competizione": "Bundesliga",
+              "evento": "Eintracht-Colonia",
+              "inizio": "2026-10-16T20:30:00+02:00",
+              "data": "16/10/2026",
+              "ora": "20:30",
+              "canali": [
+                {
+                  "nome": "Sky Sport Calcio",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-16T20:30",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            }
+          ]
+        },
+        {
           "nome": "Bundesliga 2",
-          "totale": 1,
+          "totale": 2,
           "eventi": [
             {
               "titolo": "Bundesliga 2: Norimberga-Wolfsburg",
@@ -13509,6 +18084,27 @@
                   "numero": "",
                   "tipo": "diretta",
                   "orario": "2026-10-10T20:30",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "Bundesliga 2: Cottbus-Norimberga",
+              "categoria": "Calcio",
+              "sottocartella": "Bundesliga 2",
+              "sport": "Calcio",
+              "competizione": "Bundesliga 2",
+              "evento": "Cottbus-Norimberga",
+              "inizio": "2026-10-16T18:30:00+02:00",
+              "data": "16/10/2026",
+              "ora": "18:30",
+              "canali": [
+                {
+                  "nome": "Sky Sport Arena",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-16T18:30",
                   "fonte": "virgilio"
                 }
               ],
@@ -22019,16 +26615,43 @@
               "fonte": "Virgilio Sport"
             }
           ]
+        },
+        {
+          "nome": "Saudi League",
+          "totale": 1,
+          "eventi": [
+            {
+              "titolo": "Saudi League: Al Riyadh-Al Hilal",
+              "categoria": "Calcio",
+              "sottocartella": "Saudi League",
+              "sport": "Calcio",
+              "competizione": "Saudi League",
+              "evento": "Al Riyadh-Al Hilal",
+              "inizio": "2026-10-16T17:00:00+02:00",
+              "data": "16/10/2026",
+              "ora": "17:00",
+              "canali": [
+                {
+                  "nome": "Sportitalia",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-16T17:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            }
+          ]
         }
       ]
     },
     {
       "nome": "Tennis",
-      "totale": 22,
+      "totale": 28,
       "sottocartelle": [
         {
           "nome": "ATP Masters 1000 Shanghai",
-          "totale": 11,
+          "totale": 14,
           "eventi": [
             {
               "titolo": "ATP Masters 1000 Shanghai: 4a giornata",
@@ -22288,6 +26911,69 @@
                 }
               ],
               "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "ATP Masters 1000 Shanghai: 2^ Quarto di Finale",
+              "categoria": "Tennis",
+              "sottocartella": "ATP Masters 1000 Shanghai",
+              "sport": "Tennis",
+              "competizione": "ATP Masters 1000 Shanghai",
+              "evento": "2^ Quarto di Finale",
+              "inizio": "2026-10-16T07:00:00+02:00",
+              "data": "16/10/2026",
+              "ora": "07:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport Tennis",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-16T07:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "ATP Masters 1000 Shanghai: 3^ Quarto Di Finale",
+              "categoria": "Tennis",
+              "sottocartella": "ATP Masters 1000 Shanghai",
+              "sport": "Tennis",
+              "competizione": "ATP Masters 1000 Shanghai",
+              "evento": "3^ Quarto Di Finale",
+              "inizio": "2026-10-16T08:30:00+02:00",
+              "data": "16/10/2026",
+              "ora": "08:30",
+              "canali": [
+                {
+                  "nome": "Sky Sport 1",
+                  "numero": "201",
+                  "tipo": "diretta",
+                  "orario": "2026-10-16T08:30",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "ATP Masters 1000 Shanghai: 4^ Quarto Di Finale",
+              "categoria": "Tennis",
+              "sottocartella": "ATP Masters 1000 Shanghai",
+              "sport": "Tennis",
+              "competizione": "ATP Masters 1000 Shanghai",
+              "evento": "4^ Quarto Di Finale",
+              "inizio": "2026-10-16T12:00:00+02:00",
+              "data": "16/10/2026",
+              "ora": "12:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport 1",
+                  "numero": "201",
+                  "tipo": "diretta",
+                  "orario": "2026-10-16T12:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
             }
           ]
         },
@@ -22362,7 +27048,7 @@
         },
         {
           "nome": "WTA 1000 Wuhan",
-          "totale": 8,
+          "totale": 11,
           "eventi": [
             {
               "titolo": "WTA 1000 Wuhan: 1a giornata",
@@ -22531,6 +27217,69 @@
                 }
               ],
               "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "WTA 1000 Wuhan: 2^ Quarto di Finale",
+              "categoria": "Tennis",
+              "sottocartella": "WTA 1000 Wuhan",
+              "sport": "Tennis",
+              "competizione": "WTA 1000 Wuhan",
+              "evento": "2^ Quarto di Finale",
+              "inizio": "2026-10-16T07:00:00+02:00",
+              "data": "16/10/2026",
+              "ora": "07:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport Max",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-16T07:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "WTA 1000 Wuhan: 3^ Quarto di Finale",
+              "categoria": "Tennis",
+              "sottocartella": "WTA 1000 Wuhan",
+              "sport": "Tennis",
+              "competizione": "WTA 1000 Wuhan",
+              "evento": "3^ Quarto di Finale",
+              "inizio": "2026-10-16T09:00:00+02:00",
+              "data": "16/10/2026",
+              "ora": "09:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport Max",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-16T09:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "WTA 1000 Wuhan: 4^ Quarto di Finale",
+              "categoria": "Tennis",
+              "sottocartella": "WTA 1000 Wuhan",
+              "sport": "Tennis",
+              "competizione": "WTA 1000 Wuhan",
+              "evento": "4^ Quarto di Finale",
+              "inizio": "2026-10-16T13:00:00+02:00",
+              "data": "16/10/2026",
+              "ora": "13:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport Max",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-16T13:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
             }
           ]
         }
@@ -22538,119 +27287,8 @@
     },
     {
       "nome": "Basket",
-      "totale": 14,
+      "totale": 16,
       "sottocartelle": [
-        {
-          "nome": "Eurolega",
-          "totale": 5,
-          "eventi": [
-            {
-              "titolo": "Eurolega: Barcellona-Zalgiris Kaunas",
-              "categoria": "Basket",
-              "sottocartella": "Eurolega",
-              "sport": "Basket",
-              "competizione": "Eurolega",
-              "evento": "Barcellona-Zalgiris Kaunas",
-              "inizio": "2026-10-09T20:30:00+02:00",
-              "data": "09/10/2026",
-              "ora": "20:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport Arena",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-09T20:30",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "Eurolega: Olimpia Milano-Real Madrid",
-              "categoria": "Basket",
-              "sottocartella": "Eurolega",
-              "sport": "Basket",
-              "competizione": "Eurolega",
-              "evento": "Olimpia Milano-Real Madrid",
-              "inizio": "2026-10-13T20:30:00+02:00",
-              "data": "13/10/2026",
-              "ora": "20:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport Basket",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-13T20:30",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "Eurolega: Paris Basketball-Virtus Bologna",
-              "categoria": "Basket",
-              "sottocartella": "Eurolega",
-              "sport": "Basket",
-              "competizione": "Eurolega",
-              "evento": "Paris Basketball-Virtus Bologna",
-              "inizio": "2026-10-14T20:45:00+02:00",
-              "data": "14/10/2026",
-              "ora": "20:45",
-              "canali": [
-                {
-                  "nome": "Sky Sport Basket",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-14T20:45",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "Eurolega: Fenerbahce-Partizan Belgrado",
-              "categoria": "Basket",
-              "sottocartella": "Eurolega",
-              "sport": "Basket",
-              "competizione": "Eurolega",
-              "evento": "Fenerbahce-Partizan Belgrado",
-              "inizio": "2026-10-15T19:45:00+02:00",
-              "data": "15/10/2026",
-              "ora": "19:45",
-              "canali": [
-                {
-                  "nome": "Sky Sport Max",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-15T19:45",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "Eurolega: Olimpia Milano-Dubai Basketball",
-              "categoria": "Basket",
-              "sottocartella": "Eurolega",
-              "sport": "Basket",
-              "competizione": "Eurolega",
-              "evento": "Olimpia Milano-Dubai Basketball",
-              "inizio": "2026-10-15T20:30:00+02:00",
-              "data": "15/10/2026",
-              "ora": "20:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport Basket",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-15T20:30",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            }
-          ]
-        },
         {
           "nome": "Serie A",
           "totale": 2,
@@ -22706,6 +27344,33 @@
                   "numero": "201",
                   "tipo": "diretta",
                   "orario": "2026-10-11T18:15",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            }
+          ]
+        },
+        {
+          "nome": "Serie A2",
+          "totale": 1,
+          "eventi": [
+            {
+              "titolo": "Serie A2: Fortitudo Bologna-Rimini",
+              "categoria": "Basket",
+              "sottocartella": "Serie A2",
+              "sport": "Basket",
+              "competizione": "Serie A2",
+              "evento": "Fortitudo Bologna-Rimini",
+              "inizio": "2026-10-11T20:45:00+02:00",
+              "data": "11/10/2026",
+              "ora": "20:45",
+              "canali": [
+                {
+                  "nome": "Rai Sport",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-11T20:45",
                   "fonte": "virgilio"
                 }
               ],
@@ -22871,16 +27536,155 @@
               "fonte": "Virgilio Sport"
             }
           ]
+        },
+        {
+          "nome": "Eurolega",
+          "totale": 6,
+          "eventi": [
+            {
+              "titolo": "Eurolega: Olimpia Milano-Real Madrid",
+              "categoria": "Basket",
+              "sottocartella": "Eurolega",
+              "sport": "Basket",
+              "competizione": "Eurolega",
+              "evento": "Olimpia Milano-Real Madrid",
+              "inizio": "2026-10-13T20:30:00+02:00",
+              "data": "13/10/2026",
+              "ora": "20:30",
+              "canali": [
+                {
+                  "nome": "Sky Sport Basket",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-13T20:30",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "Eurolega: Paris Basketball-Virtus Bologna",
+              "categoria": "Basket",
+              "sottocartella": "Eurolega",
+              "sport": "Basket",
+              "competizione": "Eurolega",
+              "evento": "Paris Basketball-Virtus Bologna",
+              "inizio": "2026-10-14T20:45:00+02:00",
+              "data": "14/10/2026",
+              "ora": "20:45",
+              "canali": [
+                {
+                  "nome": "Sky Sport Basket",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-14T20:45",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "Eurolega: Fenerbahce-Partizan Belgrado",
+              "categoria": "Basket",
+              "sottocartella": "Eurolega",
+              "sport": "Basket",
+              "competizione": "Eurolega",
+              "evento": "Fenerbahce-Partizan Belgrado",
+              "inizio": "2026-10-15T19:45:00+02:00",
+              "data": "15/10/2026",
+              "ora": "19:45",
+              "canali": [
+                {
+                  "nome": "Sky Sport Max",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-15T19:45",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "Eurolega: Olimpia Milano-Dubai Basketball",
+              "categoria": "Basket",
+              "sottocartella": "Eurolega",
+              "sport": "Basket",
+              "competizione": "Eurolega",
+              "evento": "Olimpia Milano-Dubai Basketball",
+              "inizio": "2026-10-15T20:30:00+02:00",
+              "data": "15/10/2026",
+              "ora": "20:30",
+              "canali": [
+                {
+                  "nome": "Sky Sport Basket",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-15T20:30",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "Eurolega: Barcellona-Olympiacos",
+              "categoria": "Basket",
+              "sottocartella": "Eurolega",
+              "sport": "Basket",
+              "competizione": "Eurolega",
+              "evento": "Barcellona-Olympiacos",
+              "inizio": "2026-10-16T20:30:00+02:00",
+              "data": "16/10/2026",
+              "ora": "20:30",
+              "canali": [
+                {
+                  "nome": "Sky Sport Max",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-16T20:30",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "Eurolega: Virtus Bologna-Baskonia Vitoria Gasteiz",
+              "categoria": "Basket",
+              "sottocartella": "Eurolega",
+              "sport": "Basket",
+              "competizione": "Eurolega",
+              "evento": "Virtus Bologna-Baskonia Vitoria Gasteiz",
+              "inizio": "2026-10-16T20:30:00+02:00",
+              "data": "16/10/2026",
+              "ora": "20:30",
+              "canali": [
+                {
+                  "nome": "Sky Sport Basket",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-16T20:30",
+                  "fonte": "virgilio"
+                },
+                {
+                  "nome": "Sky Sport 1",
+                  "numero": "201",
+                  "tipo": "diretta",
+                  "orario": "2026-10-16T20:30",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            }
+          ]
         }
       ]
     },
     {
       "nome": "Volley",
-      "totale": 1,
+      "totale": 2,
       "sottocartelle": [
         {
           "nome": "Serie A1 femminile",
-          "totale": 1,
+          "totale": 2,
           "eventi": [
             {
               "titolo": "Serie A1: Conegliano-Busto Arsizio",
@@ -22902,6 +27706,27 @@
                 }
               ],
               "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "Serie A1: Chieri-Conegliano",
+              "categoria": "Volley",
+              "sottocartella": "Serie A1 femminile",
+              "sport": "Pallavolo femminile",
+              "competizione": "Serie A1",
+              "evento": "Chieri-Conegliano",
+              "inizio": "2026-10-14T20:30:00+02:00",
+              "data": "14/10/2026",
+              "ora": "20:30",
+              "canali": [
+                {
+                  "nome": "Rai Sport",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-14T20:30",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
             }
           ]
         }
@@ -22909,12 +27734,33 @@
     },
     {
       "nome": "Altri sport",
-      "totale": 9,
+      "totale": 17,
       "sottocartelle": [
         {
           "nome": "Ciclismo",
-          "totale": 3,
+          "totale": 5,
           "eventi": [
+            {
+              "titolo": "Mondiali Gravel Nannup: Prova Élite Donne",
+              "categoria": "Altri sport",
+              "sottocartella": "Ciclismo",
+              "sport": "Ciclismo",
+              "competizione": "Mondiali Gravel Nannup 2026",
+              "evento": "Prova Élite Donne",
+              "inizio": "2026-10-10T06:30:00+02:00",
+              "data": "10/10/2026",
+              "ora": "06:30",
+              "canali": [
+                {
+                  "nome": "Rai Sport",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-10T06:30",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
             {
               "titolo": "Il Lombardia: .",
               "categoria": "Altri sport",
@@ -22945,6 +27791,27 @@
                   "numero": "",
                   "tipo": "diretta",
                   "orario": "2026-10-10T14:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "Mondiali Gravel Nannup: Prova Élite Uomini",
+              "categoria": "Altri sport",
+              "sottocartella": "Ciclismo",
+              "sport": "Ciclismo",
+              "competizione": "Mondiali Gravel Nannup 2026",
+              "evento": "Prova Élite Uomini",
+              "inizio": "2026-10-11T06:30:00+02:00",
+              "data": "11/10/2026",
+              "ora": "06:30",
+              "canali": [
+                {
+                  "nome": "Rai Sport",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-11T06:30",
                   "fonte": "virgilio"
                 }
               ],
@@ -23050,8 +27917,104 @@
           ]
         },
         {
+          "nome": "Baseball",
+          "totale": 1,
+          "eventi": [
+            {
+              "titolo": "Qualificazioni Premier12: Italia-Germania",
+              "categoria": "Altri sport",
+              "sottocartella": "Baseball",
+              "sport": "Baseball",
+              "competizione": "Qualificazioni Premier12 2027",
+              "evento": "Italia-Germania",
+              "inizio": "2026-10-11T12:30:00+02:00",
+              "data": "11/10/2026",
+              "ora": "12:30",
+              "canali": [
+                {
+                  "nome": "Rai Sport",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-11T12:30",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            }
+          ]
+        },
+        {
+          "nome": "World skate games asunción",
+          "totale": 3,
+          "eventi": [
+            {
+              "titolo": "Hockey su Pista: Spagna-Italia",
+              "categoria": "Altri sport",
+              "sottocartella": "World skate games asunción",
+              "sport": "World skate games asunción 2026",
+              "competizione": "Hockey su Pista",
+              "evento": "Spagna-Italia",
+              "inizio": "2026-10-12T20:30:00+02:00",
+              "data": "12/10/2026",
+              "ora": "20:30",
+              "canali": [
+                {
+                  "nome": "Rai Sport",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-12T20:30",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "Hockey su Pista: Svizzera-Italia",
+              "categoria": "Altri sport",
+              "sottocartella": "World skate games asunción",
+              "sport": "World skate games asunción 2026",
+              "competizione": "Hockey su Pista",
+              "evento": "Svizzera-Italia",
+              "inizio": "2026-10-13T20:30:00+02:00",
+              "data": "13/10/2026",
+              "ora": "20:30",
+              "canali": [
+                {
+                  "nome": "Rai Sport",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-13T20:30",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "Hockey su Pista: Italia-Portogallo",
+              "categoria": "Altri sport",
+              "sottocartella": "World skate games asunción",
+              "sport": "World skate games asunción 2026",
+              "competizione": "Hockey su Pista",
+              "evento": "Italia-Portogallo",
+              "inizio": "2026-10-14T22:45:00+02:00",
+              "data": "14/10/2026",
+              "ora": "22:45",
+              "canali": [
+                {
+                  "nome": "Rai Sport",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-14T22:45",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            }
+          ]
+        },
+        {
           "nome": "Ciclismo femminile",
-          "totale": 2,
+          "totale": 3,
           "eventi": [
             {
               "titolo": "Eneco Tour: 1a tappa",
@@ -23094,12 +28057,33 @@
                 }
               ],
               "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "Eneco Tour: 3a tappa",
+              "categoria": "Altri sport",
+              "sottocartella": "Ciclismo femminile",
+              "sport": "Ciclismo femminile",
+              "competizione": "Eneco Tour",
+              "evento": "3a tappa",
+              "inizio": "2026-10-16T10:25:00+02:00",
+              "data": "16/10/2026",
+              "ora": "10:25",
+              "canali": [
+                {
+                  "nome": "Eurosport",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-16T10:25",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
             }
           ]
         },
         {
           "nome": "Ciclismo su pista",
-          "totale": 2,
+          "totale": 3,
           "eventi": [
             {
               "titolo": "Mondiali Shanghai: 1a giornata",
@@ -23108,10 +28092,17 @@
               "sport": "Ciclismo su pista",
               "competizione": "Mondiali Shanghai 2026",
               "evento": "1a giornata",
-              "inizio": "2026-10-14T12:25:00+02:00",
+              "inizio": "2026-10-14T12:10:00+02:00",
               "data": "14/10/2026",
-              "ora": "12:25",
+              "ora": "12:10",
               "canali": [
+                {
+                  "nome": "Rai Sport",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-14T12:10",
+                  "fonte": "virgilio"
+                },
                 {
                   "nome": "Eurosport 2",
                   "numero": "",
@@ -23129,15 +28120,50 @@
               "sport": "Ciclismo su pista",
               "competizione": "Mondiali Shanghai 2026",
               "evento": "2a giornata",
-              "inizio": "2026-10-15T10:55:00+02:00",
+              "inizio": "2026-10-15T10:40:00+02:00",
               "data": "15/10/2026",
-              "ora": "10:55",
+              "ora": "10:40",
               "canali": [
+                {
+                  "nome": "Rai Sport",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-15T10:40",
+                  "fonte": "virgilio"
+                },
                 {
                   "nome": "Eurosport 2",
                   "numero": "",
                   "tipo": "diretta",
                   "orario": "2026-10-15T10:55",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "Mondiali Shanghai: 3a giornata",
+              "categoria": "Altri sport",
+              "sottocartella": "Ciclismo su pista",
+              "sport": "Ciclismo su pista",
+              "competizione": "Mondiali Shanghai 2026",
+              "evento": "3a giornata",
+              "inizio": "2026-10-16T10:40:00+02:00",
+              "data": "16/10/2026",
+              "ora": "10:40",
+              "canali": [
+                {
+                  "nome": "Rai Sport",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-16T10:40",
+                  "fonte": "virgilio"
+                },
+                {
+                  "nome": "Eurosport 2",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-16T10:55",
                   "fonte": "virgilio"
                 }
               ],
