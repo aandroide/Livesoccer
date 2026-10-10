@@ -1,214 +1,16 @@
 {
-  "aggiornato": "2026-10-10T03:19:08+02:00",
+  "aggiornato": "2026-10-10T09:48:42+02:00",
   "fonti": {
     "motori": "Fuori Traiettoria, Dizzle0987/motorsport-calendar, palinsesto TV8",
     "calcio_italiano": "https://raw.githubusercontent.com/aandroide/Livesoccer/master/livesoccertv/output/eventi.json",
     "altri_sport": "https://sport.virgilio.it/guida-tv/"
   },
-  "totale": 303,
+  "totale": 296,
   "cartelle": [
     {
       "nome": "Oggi",
-      "totale": 44,
+      "totale": 37,
       "eventi": [
-        {
-          "titolo": "[Calcio] Liga Profesional: Istituto-Boca Juniors",
-          "categoria": "Calcio",
-          "sottocartella": "Liga Profesional",
-          "sport": "Calcio",
-          "competizione": "Liga Profesional",
-          "evento": "Istituto-Boca Juniors",
-          "inizio": "2026-10-10T00:30:00+02:00",
-          "data": "10/10/2026",
-          "ora": "00:30",
-          "canali": [
-            {
-              "nome": "Sportitalia",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-10-10T00:30",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Motori] MotoGP: Grand Prix of Indonesia - FP2",
-          "categoria": "Motori",
-          "sottocartella": "MotoGP",
-          "sport": "Motori",
-          "competizione": "MotoGP",
-          "evento": "Grand Prix of Indonesia - FP2",
-          "sessione": "prove",
-          "circuito": "Pertamina Mandalika International Circuit, Lombok, Indonesia",
-          "inizio": "2026-10-10T04:10:00+02:00",
-          "data": "10/10/2026",
-          "ora": "04:10",
-          "canali": [
-            {
-              "nome": "Sky Sport MotoGP",
-              "numero": "208",
-              "tipo": "diretta",
-              "orario": "2026-10-10T04:10",
-              "fonte": "dizzle+config"
-            },
-            {
-              "nome": "NOW",
-              "numero": "",
-              "tipo": "streaming",
-              "orario": "2026-10-10T04:10",
-              "fonte": "dizzle+config"
-            }
-          ],
-          "fonte": "Dizzle0987/motorsport-calendar"
-        },
-        {
-          "titolo": "[Motori] MotoGP: Grand Prix of Indonesia - Q1",
-          "categoria": "Motori",
-          "sottocartella": "MotoGP",
-          "sport": "Motori",
-          "competizione": "MotoGP",
-          "evento": "Grand Prix of Indonesia - Q1",
-          "sessione": "qualifiche",
-          "circuito": "Pertamina Mandalika International Circuit, Lombok, Indonesia",
-          "inizio": "2026-10-10T04:50:00+02:00",
-          "data": "10/10/2026",
-          "ora": "04:50",
-          "canali": [
-            {
-              "nome": "TV8",
-              "numero": "8",
-              "tipo": "diretta",
-              "orario": "2026-10-10T04:45",
-              "fonte": "dizzle+tv8"
-            },
-            {
-              "nome": "Sky Sport MotoGP",
-              "numero": "208",
-              "tipo": "diretta",
-              "orario": "2026-10-10T04:50",
-              "fonte": "config"
-            },
-            {
-              "nome": "NOW",
-              "numero": "",
-              "tipo": "streaming",
-              "orario": "2026-10-10T04:50",
-              "fonte": "config"
-            }
-          ],
-          "fonte": "Dizzle0987/motorsport-calendar"
-        },
-        {
-          "titolo": "[Motori] MotoGP: Grand Prix of Indonesia - Q2",
-          "categoria": "Motori",
-          "sottocartella": "MotoGP",
-          "sport": "Motori",
-          "competizione": "MotoGP",
-          "evento": "Grand Prix of Indonesia - Q2",
-          "sessione": "qualifiche",
-          "circuito": "Pertamina Mandalika International Circuit, Lombok, Indonesia",
-          "inizio": "2026-10-10T05:15:00+02:00",
-          "data": "10/10/2026",
-          "ora": "05:15",
-          "canali": [
-            {
-              "nome": "TV8",
-              "numero": "8",
-              "tipo": "diretta",
-              "orario": "2026-10-10T04:45",
-              "fonte": "dizzle+tv8"
-            },
-            {
-              "nome": "Sky Sport MotoGP",
-              "numero": "208",
-              "tipo": "diretta",
-              "orario": "2026-10-10T05:15",
-              "fonte": "config"
-            },
-            {
-              "nome": "NOW",
-              "numero": "",
-              "tipo": "streaming",
-              "orario": "2026-10-10T05:15",
-              "fonte": "config"
-            }
-          ],
-          "fonte": "Dizzle0987/motorsport-calendar"
-        },
-        {
-          "titolo": "[Tennis] ATP Masters 1000 Shanghai: 4a giornata",
-          "categoria": "Tennis",
-          "sottocartella": "ATP Masters 1000 Shanghai",
-          "sport": "Tennis",
-          "competizione": "ATP Masters 1000 Shanghai",
-          "evento": "4a giornata",
-          "inizio": "2026-10-10T06:00:00+02:00",
-          "data": "10/10/2026",
-          "ora": "06:00",
-          "canali": [
-            {
-              "nome": "Sky Sport Arena",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-10-10T06:00",
-              "fonte": "virgilio"
-            },
-            {
-              "nome": "Sky Sport Tennis",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-10-10T06:30",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Altri sport] Mondiali Gravel Nannup: Prova Élite Donne",
-          "categoria": "Altri sport",
-          "sottocartella": "Ciclismo",
-          "sport": "Ciclismo",
-          "competizione": "Mondiali Gravel Nannup 2026",
-          "evento": "Prova Élite Donne",
-          "inizio": "2026-10-10T06:30:00+02:00",
-          "data": "10/10/2026",
-          "ora": "06:30",
-          "canali": [
-            {
-              "nome": "Rai Sport",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-10-10T06:30",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Motori] Moto2 e Moto3: M3 - Indonesian GP - Quali",
-          "categoria": "Motori",
-          "sottocartella": "Moto2 e Moto3",
-          "sport": "Motori",
-          "competizione": "Moto2 e Moto3",
-          "evento": "M3 - Indonesian GP - Quali",
-          "sessione": "qualifiche",
-          "circuito": "Pertamina Mandalika International Street Circuit, Jl. Mandalika Resort Pantai Putri Nyale, Kuta, Pujut, Kabupaten Lombok Tengah, Nusa Tenggara Bar. 83573, Indonesia",
-          "inizio": "2026-10-10T06:45:00+02:00",
-          "data": "10/10/2026",
-          "ora": "06:45",
-          "canali": [
-            {
-              "nome": "TV8",
-              "numero": "8",
-              "tipo": "diretta",
-              "orario": "2026-10-10T06:40",
-              "programma": "GP Indonesia: Qualifiche",
-              "fonte": "tv8"
-            }
-          ],
-          "fonte": "Fuori Traiettoria"
-        },
         {
           "titolo": "[Motori] Moto2 e Moto3: M2 - Indonesian GP - Quali",
           "categoria": "Motori",
@@ -1367,6 +1169,7 @@
               "canali": [
                 "ZEE5",
                 "ICE Plus",
+                "Medianet",
                 "Unite8 Sports 1",
                 "Unite8 Sports 1 HD"
               ]
@@ -1858,6 +1661,12 @@
           ],
           "canali_mondo": [
             {
+              "paese": "Internazionale",
+              "canali": [
+                "Onefootball"
+              ]
+            },
+            {
               "paese": "Italia",
               "canali": [
                 "DAZN Italia",
@@ -2034,6 +1843,12 @@
           ],
           "canali_mondo": [
             {
+              "paese": "Internazionale",
+              "canali": [
+                "Onefootball"
+              ]
+            },
+            {
               "paese": "Italia",
               "canali": [
                 "DAZN Italia",
@@ -2084,6 +1899,12 @@
             }
           ],
           "canali_mondo": [
+            {
+              "paese": "Internazionale",
+              "canali": [
+                "Onefootball"
+              ]
+            },
             {
               "paese": "Italia",
               "canali": [
@@ -2252,6 +2073,12 @@
             }
           ],
           "canali_mondo": [
+            {
+              "paese": "Internazionale",
+              "canali": [
+                "Onefootball"
+              ]
+            },
             {
               "paese": "Italia",
               "canali": [
@@ -2633,7 +2460,8 @@
             {
               "paese": "Estonia",
               "canali": [
-                "Go3 Sport 2"
+                "Go3 Sport 2",
+                "Go3 Extra Sports Estonia"
               ]
             },
             {
@@ -2833,7 +2661,8 @@
             {
               "paese": "Lettonia",
               "canali": [
-                "Go3 Sport 2"
+                "Go3 Sport 2",
+                "Go3 Extra Sports Latvia"
               ]
             },
             {
@@ -2860,7 +2689,8 @@
             {
               "paese": "Lituania",
               "canali": [
-                "Go3 Sport 2"
+                "Go3 Sport 2",
+                "Go3 Extra Sports Lithuania"
               ]
             },
             {
@@ -2896,6 +2726,7 @@
               "canali": [
                 "ZEE5",
                 "ICE Plus",
+                "Medianet",
                 "Unite8 Sports 1",
                 "Unite8 Sports 1 HD"
               ]
@@ -4022,7 +3853,8 @@
             {
               "paese": "Iran",
               "canali": [
-                "Thmanyah"
+                "Thmanyah",
+                "Persiana Sports 3"
               ]
             },
             {
@@ -4623,7 +4455,8 @@
               "paese": "Venezuela",
               "canali": [
                 "ESPN2 Colombia",
-                "Disney+ Premium Sur"
+                "Disney+ Premium Sur",
+                "inter"
               ]
             },
             {
@@ -4659,7 +4492,7 @@
     },
     {
       "nome": "Motori",
-      "totale": 132,
+      "totale": 128,
       "sottocartelle": [
         {
           "nome": "Formula 1",
@@ -6394,112 +6227,8 @@
         },
         {
           "nome": "MotoGP",
-          "totale": 46,
+          "totale": 43,
           "eventi": [
-            {
-              "titolo": "MotoGP: Grand Prix of Indonesia - FP2",
-              "categoria": "Motori",
-              "sottocartella": "MotoGP",
-              "sport": "Motori",
-              "competizione": "MotoGP",
-              "evento": "Grand Prix of Indonesia - FP2",
-              "sessione": "prove",
-              "circuito": "Pertamina Mandalika International Circuit, Lombok, Indonesia",
-              "inizio": "2026-10-10T04:10:00+02:00",
-              "data": "10/10/2026",
-              "ora": "04:10",
-              "canali": [
-                {
-                  "nome": "Sky Sport MotoGP",
-                  "numero": "208",
-                  "tipo": "diretta",
-                  "orario": "2026-10-10T04:10",
-                  "fonte": "dizzle+config"
-                },
-                {
-                  "nome": "NOW",
-                  "numero": "",
-                  "tipo": "streaming",
-                  "orario": "2026-10-10T04:10",
-                  "fonte": "dizzle+config"
-                }
-              ],
-              "fonte": "Dizzle0987/motorsport-calendar"
-            },
-            {
-              "titolo": "MotoGP: Grand Prix of Indonesia - Q1",
-              "categoria": "Motori",
-              "sottocartella": "MotoGP",
-              "sport": "Motori",
-              "competizione": "MotoGP",
-              "evento": "Grand Prix of Indonesia - Q1",
-              "sessione": "qualifiche",
-              "circuito": "Pertamina Mandalika International Circuit, Lombok, Indonesia",
-              "inizio": "2026-10-10T04:50:00+02:00",
-              "data": "10/10/2026",
-              "ora": "04:50",
-              "canali": [
-                {
-                  "nome": "TV8",
-                  "numero": "8",
-                  "tipo": "diretta",
-                  "orario": "2026-10-10T04:45",
-                  "fonte": "dizzle+tv8"
-                },
-                {
-                  "nome": "Sky Sport MotoGP",
-                  "numero": "208",
-                  "tipo": "diretta",
-                  "orario": "2026-10-10T04:50",
-                  "fonte": "config"
-                },
-                {
-                  "nome": "NOW",
-                  "numero": "",
-                  "tipo": "streaming",
-                  "orario": "2026-10-10T04:50",
-                  "fonte": "config"
-                }
-              ],
-              "fonte": "Dizzle0987/motorsport-calendar"
-            },
-            {
-              "titolo": "MotoGP: Grand Prix of Indonesia - Q2",
-              "categoria": "Motori",
-              "sottocartella": "MotoGP",
-              "sport": "Motori",
-              "competizione": "MotoGP",
-              "evento": "Grand Prix of Indonesia - Q2",
-              "sessione": "qualifiche",
-              "circuito": "Pertamina Mandalika International Circuit, Lombok, Indonesia",
-              "inizio": "2026-10-10T05:15:00+02:00",
-              "data": "10/10/2026",
-              "ora": "05:15",
-              "canali": [
-                {
-                  "nome": "TV8",
-                  "numero": "8",
-                  "tipo": "diretta",
-                  "orario": "2026-10-10T04:45",
-                  "fonte": "dizzle+tv8"
-                },
-                {
-                  "nome": "Sky Sport MotoGP",
-                  "numero": "208",
-                  "tipo": "diretta",
-                  "orario": "2026-10-10T05:15",
-                  "fonte": "config"
-                },
-                {
-                  "nome": "NOW",
-                  "numero": "",
-                  "tipo": "streaming",
-                  "orario": "2026-10-10T05:15",
-                  "fonte": "config"
-                }
-              ],
-              "fonte": "Dizzle0987/motorsport-calendar"
-            },
             {
               "titolo": "MotoGP: Grand Prix of Indonesia - Sprint",
               "categoria": "Motori",
@@ -7892,32 +7621,8 @@
         },
         {
           "nome": "Moto2 e Moto3",
-          "totale": 23,
+          "totale": 22,
           "eventi": [
-            {
-              "titolo": "Moto2 e Moto3: M3 - Indonesian GP - Quali",
-              "categoria": "Motori",
-              "sottocartella": "Moto2 e Moto3",
-              "sport": "Motori",
-              "competizione": "Moto2 e Moto3",
-              "evento": "M3 - Indonesian GP - Quali",
-              "sessione": "qualifiche",
-              "circuito": "Pertamina Mandalika International Street Circuit, Jl. Mandalika Resort Pantai Putri Nyale, Kuta, Pujut, Kabupaten Lombok Tengah, Nusa Tenggara Bar. 83573, Indonesia",
-              "inizio": "2026-10-10T06:45:00+02:00",
-              "data": "10/10/2026",
-              "ora": "06:45",
-              "canali": [
-                {
-                  "nome": "TV8",
-                  "numero": "8",
-                  "tipo": "diretta",
-                  "orario": "2026-10-10T06:40",
-                  "programma": "GP Indonesia: Qualifiche",
-                  "fonte": "tv8"
-                }
-              ],
-              "fonte": "Fuori Traiettoria"
-            },
             {
               "titolo": "Moto2 e Moto3: M2 - Indonesian GP - Quali",
               "categoria": "Motori",
@@ -8647,7 +8352,7 @@
     },
     {
       "nome": "Calcio",
-      "totale": 108,
+      "totale": 107,
       "sottocartelle": [
         {
           "nome": "Serie A",
@@ -9221,6 +8926,7 @@
                   "canali": [
                     "ZEE5",
                     "ICE Plus",
+                    "Medianet",
                     "Unite8 Sports 1",
                     "Unite8 Sports 1 HD"
                   ]
@@ -10020,7 +9726,8 @@
                 {
                   "paese": "Estonia",
                   "canali": [
-                    "Go3 Sport 2"
+                    "Go3 Sport 2",
+                    "Go3 Extra Sports Estonia"
                   ]
                 },
                 {
@@ -10220,7 +9927,8 @@
                 {
                   "paese": "Lettonia",
                   "canali": [
-                    "Go3 Sport 2"
+                    "Go3 Sport 2",
+                    "Go3 Extra Sports Latvia"
                   ]
                 },
                 {
@@ -10247,7 +9955,8 @@
                 {
                   "paese": "Lituania",
                   "canali": [
-                    "Go3 Sport 2"
+                    "Go3 Sport 2",
+                    "Go3 Extra Sports Lithuania"
                   ]
                 },
                 {
@@ -10283,6 +9992,7 @@
                   "canali": [
                     "ZEE5",
                     "ICE Plus",
+                    "Medianet",
                     "Unite8 Sports 1",
                     "Unite8 Sports 1 HD"
                   ]
@@ -11262,7 +10972,8 @@
                 {
                   "paese": "Iran",
                   "canali": [
-                    "Thmanyah"
+                    "Thmanyah",
+                    "Persiana Sports 3"
                   ]
                 },
                 {
@@ -11863,7 +11574,8 @@
                   "paese": "Venezuela",
                   "canali": [
                     "ESPN2 Colombia",
-                    "Disney+ Premium Sur"
+                    "Disney+ Premium Sur",
+                    "inter"
                   ]
                 },
                 {
@@ -12216,7 +11928,8 @@
                 {
                   "paese": "Repubblica Ceca",
                   "canali": [
-                    "Sport 1 CZ"
+                    "Sport 1 CZ",
+                    "OnePlay"
                   ]
                 },
                 {
@@ -12272,7 +11985,8 @@
                 {
                   "paese": "Estonia",
                   "canali": [
-                    "Go3 Sport 1"
+                    "Go3 Sport 1",
+                    "Go3 Extra Sports Estonia"
                   ]
                 },
                 {
@@ -12498,7 +12212,8 @@
                 {
                   "paese": "Lettonia",
                   "canali": [
-                    "Go3 Sport 1"
+                    "Go3 Sport 1",
+                    "Go3 Extra Sports Latvia"
                   ]
                 },
                 {
@@ -12525,7 +12240,8 @@
                 {
                   "paese": "Lituania",
                   "canali": [
-                    "Go3 Sport 1"
+                    "Go3 Sport 1",
+                    "Go3 Extra Sports Lithuania"
                   ]
                 },
                 {
@@ -12574,6 +12290,7 @@
                   "canali": [
                     "ZEE5",
                     "ICE Plus",
+                    "Medianet",
                     "Unite8 Sports 1",
                     "Unite8 Sports 1 HD"
                   ]
@@ -13056,7 +12773,8 @@
                   "paese": "Venezuela",
                   "canali": [
                     "ESPN Colombia",
-                    "Disney+ Premium Sur"
+                    "Disney+ Premium Sur",
+                    "inter"
                   ]
                 },
                 {
@@ -13660,6 +13378,7 @@
                   "canali": [
                     "ZEE5",
                     "ICE Plus",
+                    "Medianet",
                     "Unite8 Sports 1",
                     "Unite8 Sports 1 HD"
                   ]
@@ -14011,7 +13730,8 @@
                   "paese": "Turchia",
                   "canali": [
                     "S Sport+",
-                    "S Sport 2"
+                    "S Sport 2",
+                    "Disney+ Premium Turkey"
                   ]
                 },
                 {
@@ -14297,6 +14017,12 @@
               ],
               "canali_mondo": [
                 {
+                  "paese": "Internazionale",
+                  "canali": [
+                    "Onefootball"
+                  ]
+                },
+                {
                   "paese": "Italia",
                   "canali": [
                     "DAZN Italia",
@@ -14473,6 +14199,12 @@
               ],
               "canali_mondo": [
                 {
+                  "paese": "Internazionale",
+                  "canali": [
+                    "Onefootball"
+                  ]
+                },
+                {
                   "paese": "Italia",
                   "canali": [
                     "DAZN Italia",
@@ -14524,6 +14256,12 @@
               ],
               "canali_mondo": [
                 {
+                  "paese": "Internazionale",
+                  "canali": [
+                    "Onefootball"
+                  ]
+                },
+                {
                   "paese": "Italia",
                   "canali": [
                     "DAZN Italia",
@@ -14574,6 +14312,12 @@
                 }
               ],
               "canali_mondo": [
+                {
+                  "paese": "Internazionale",
+                  "canali": [
+                    "Onefootball"
+                  ]
+                },
                 {
                   "paese": "Italia",
                   "canali": [
@@ -22236,96 +21980,6 @@
           ]
         },
         {
-          "nome": "Liga Profesional",
-          "totale": 4,
-          "eventi": [
-            {
-              "titolo": "Liga Profesional: Istituto-Boca Juniors",
-              "categoria": "Calcio",
-              "sottocartella": "Liga Profesional",
-              "sport": "Calcio",
-              "competizione": "Liga Profesional",
-              "evento": "Istituto-Boca Juniors",
-              "inizio": "2026-10-10T00:30:00+02:00",
-              "data": "10/10/2026",
-              "ora": "00:30",
-              "canali": [
-                {
-                  "nome": "Sportitalia",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-10T00:30",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "Liga Profesional: River Plate-Estudiantes",
-              "categoria": "Calcio",
-              "sottocartella": "Liga Profesional",
-              "sport": "Calcio",
-              "competizione": "Liga Profesional",
-              "evento": "River Plate-Estudiantes",
-              "inizio": "2026-10-11T02:30:00+02:00",
-              "data": "11/10/2026",
-              "ora": "02:30",
-              "canali": [
-                {
-                  "nome": "Sportitalia",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-11T02:30",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "Liga Profesional: Racing-Belgrano",
-              "categoria": "Calcio",
-              "sottocartella": "Liga Profesional",
-              "sport": "Calcio",
-              "competizione": "Liga Profesional",
-              "evento": "Racing-Belgrano",
-              "inizio": "2026-10-12T00:15:00+02:00",
-              "data": "12/10/2026",
-              "ora": "00:15",
-              "canali": [
-                {
-                  "nome": "Sportitalia",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-12T00:15",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "Liga Profesional: Sarmiento-River Plate",
-              "categoria": "Calcio",
-              "sottocartella": "Liga Profesional",
-              "sport": "Calcio",
-              "competizione": "Liga Profesional",
-              "evento": "Sarmiento-River Plate",
-              "inizio": "2026-10-15T00:00:00+02:00",
-              "data": "15/10/2026",
-              "ora": "00:00",
-              "canali": [
-                {
-                  "nome": "Sportitalia",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-15T00:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            }
-          ]
-        },
-        {
           "nome": "Primavera 1",
           "totale": 7,
           "eventi": [
@@ -22707,6 +22361,75 @@
           ]
         },
         {
+          "nome": "Liga Profesional",
+          "totale": 3,
+          "eventi": [
+            {
+              "titolo": "Liga Profesional: River Plate-Estudiantes",
+              "categoria": "Calcio",
+              "sottocartella": "Liga Profesional",
+              "sport": "Calcio",
+              "competizione": "Liga Profesional",
+              "evento": "River Plate-Estudiantes",
+              "inizio": "2026-10-11T02:30:00+02:00",
+              "data": "11/10/2026",
+              "ora": "02:30",
+              "canali": [
+                {
+                  "nome": "Sportitalia",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-11T02:30",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "Liga Profesional: Racing-Belgrano",
+              "categoria": "Calcio",
+              "sottocartella": "Liga Profesional",
+              "sport": "Calcio",
+              "competizione": "Liga Profesional",
+              "evento": "Racing-Belgrano",
+              "inizio": "2026-10-12T00:15:00+02:00",
+              "data": "12/10/2026",
+              "ora": "00:15",
+              "canali": [
+                {
+                  "nome": "Sportitalia",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-12T00:15",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "Liga Profesional: Sarmiento-River Plate",
+              "categoria": "Calcio",
+              "sottocartella": "Liga Profesional",
+              "sport": "Calcio",
+              "competizione": "Liga Profesional",
+              "evento": "Sarmiento-River Plate",
+              "inizio": "2026-10-15T00:00:00+02:00",
+              "data": "15/10/2026",
+              "ora": "00:00",
+              "canali": [
+                {
+                  "nome": "Sportitalia",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-15T00:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            }
+          ]
+        },
+        {
           "nome": "Qualificazioni Mondiali Brasile femminile",
           "totale": 1,
           "eventi": [
@@ -22761,6 +22484,20 @@
                   "tipo": "diretta",
                   "orario": "2026-10-13T18:45",
                   "fonte": "virgilio"
+                },
+                {
+                  "nome": "SKY Go Italia",
+                  "numero": "",
+                  "tipo": "streaming",
+                  "orario": "2026-10-13T18:45",
+                  "fonte": "livesoccer"
+                },
+                {
+                  "nome": "NOW TV",
+                  "numero": "",
+                  "tipo": "streaming",
+                  "orario": "2026-10-13T18:45",
+                  "fonte": "livesoccer"
                 }
               ],
               "fonte": "Virgilio Sport",
@@ -22878,6 +22615,7 @@
                   "canali": [
                     "Proximus Pickx",
                     "Play Sports 3",
+                    "Play Sports",
                     "Pickx+ Sports 2"
                   ]
                 },
@@ -23100,7 +22838,8 @@
                 {
                   "paese": "Repubblica Ceca",
                   "canali": [
-                    "Nova Sport 4 CZ"
+                    "Nova Sport 4 CZ",
+                    "OnePlay"
                   ]
                 },
                 {
@@ -23368,7 +23107,9 @@
                 {
                   "paese": "Italia",
                   "canali": [
-                    "Sky Sport Calcio"
+                    "SKY Go Italia",
+                    "Sky Sport Calcio",
+                    "NOW TV"
                   ]
                 },
                 {
@@ -23642,6 +23383,7 @@
                 {
                   "paese": "Paesi Bassi",
                   "canali": [
+                    "Ziggo Go",
                     "Ziggo Sport",
                     "Ziggo Sport 2"
                   ]
@@ -23775,7 +23517,9 @@
                   "canali": [
                     "Digi Sport 1 Romania",
                     "Digi Online",
-                    "Prima Sport 1"
+                    "Prima Sport 1",
+                    "Orange TV Go",
+                    "Prima Play"
                   ]
                 },
                 {
@@ -23815,7 +23559,9 @@
                 {
                   "paese": "San Marino",
                   "canali": [
-                    "Sky Sport Calcio"
+                    "SKY Go Italia",
+                    "Sky Sport Calcio",
+                    "NOW TV"
                   ]
                 },
                 {
@@ -23873,6 +23619,7 @@
                 {
                   "paese": "Slovacchia",
                   "canali": [
+                    "Voyo",
                     "Nova Sport 4"
                   ]
                 },
@@ -24073,7 +23820,8 @@
                   "paese": "Venezuela",
                   "canali": [
                     "ESPN Colombia",
-                    "Disney+ Premium Sur"
+                    "Disney+ Premium Sur",
+                    "inter"
                   ]
                 },
                 {
@@ -24126,6 +23874,20 @@
                   "tipo": "diretta",
                   "orario": "2026-10-13T18:45",
                   "fonte": "virgilio"
+                },
+                {
+                  "nome": "SKY Go Italia",
+                  "numero": "",
+                  "tipo": "streaming",
+                  "orario": "2026-10-13T18:45",
+                  "fonte": "livesoccer"
+                },
+                {
+                  "nome": "NOW TV",
+                  "numero": "",
+                  "tipo": "streaming",
+                  "orario": "2026-10-13T18:45",
+                  "fonte": "livesoccer"
                 }
               ],
               "fonte": "Virgilio Sport",
@@ -24248,6 +24010,7 @@
                   "canali": [
                     "Proximus Pickx",
                     "Play Sports 4",
+                    "Play Sports",
                     "Pickx+ Sports 3"
                   ]
                 },
@@ -24468,7 +24231,8 @@
                 {
                   "paese": "Repubblica Ceca",
                   "canali": [
-                    "Nova Sport 3 CZ"
+                    "Nova Sport 3 CZ",
+                    "OnePlay"
                   ]
                 },
                 {
@@ -24724,7 +24488,9 @@
                 {
                   "paese": "Italia",
                   "canali": [
-                    "Sky Sport Arena"
+                    "SKY Go Italia",
+                    "Sky Sport Arena",
+                    "NOW TV"
                   ]
                 },
                 {
@@ -24990,6 +24756,7 @@
                 {
                   "paese": "Paesi Bassi",
                   "canali": [
+                    "Ziggo Go",
                     "Ziggo Sport 3"
                   ]
                 },
@@ -25086,7 +24853,6 @@
                 {
                   "paese": "Portogallo",
                   "canali": [
-                    "DAZN1 Portugal",
                     "DAZN Portugal"
                   ]
                 },
@@ -25116,7 +24882,9 @@
                   "canali": [
                     "Digi Sport 2 Romania",
                     "Digi Online",
-                    "Prima Sport 2"
+                    "Prima Sport 2",
+                    "Orange TV Go",
+                    "Prima Play"
                   ]
                 },
                 {
@@ -25156,7 +24924,9 @@
                 {
                   "paese": "San Marino",
                   "canali": [
-                    "Sky Sport Arena"
+                    "SKY Go Italia",
+                    "Sky Sport Arena",
+                    "NOW TV"
                   ]
                 },
                 {
@@ -25214,6 +24984,7 @@
                 {
                   "paese": "Slovacchia",
                   "canali": [
+                    "Voyo",
                     "Nova Sport 3"
                   ]
                 },
@@ -25400,7 +25171,8 @@
                   "paese": "Venezuela",
                   "canali": [
                     "ESPN2 Colombia",
-                    "Disney+ Premium Sur"
+                    "Disney+ Premium Sur",
+                    "inter"
                   ]
                 },
                 {
@@ -25450,6 +25222,20 @@
                   "nome": "Sky Sport 256",
                   "numero": "",
                   "tipo": "diretta",
+                  "orario": "2026-10-13T21:00",
+                  "fonte": "livesoccer"
+                },
+                {
+                  "nome": "SKY Go Italia",
+                  "numero": "",
+                  "tipo": "streaming",
+                  "orario": "2026-10-13T21:00",
+                  "fonte": "livesoccer"
+                },
+                {
+                  "nome": "NOW TV",
+                  "numero": "",
+                  "tipo": "streaming",
                   "orario": "2026-10-13T21:00",
                   "fonte": "livesoccer"
                 }
@@ -25568,6 +25354,7 @@
                   "canali": [
                     "Proximus Pickx",
                     "Play Sports 5",
+                    "Play Sports",
                     "Pickx+ Sports 5"
                   ]
                 },
@@ -25789,6 +25576,7 @@
                 {
                   "paese": "Repubblica Ceca",
                   "canali": [
+                    "OnePlay",
                     "Nova Sport 5 CZ"
                   ]
                 },
@@ -26046,7 +25834,9 @@
                 {
                   "paese": "Italia",
                   "canali": [
-                    "Sky Sport 256"
+                    "Sky Sport 256",
+                    "SKY Go Italia",
+                    "NOW TV"
                   ]
                 },
                 {
@@ -26314,7 +26104,8 @@
                 {
                   "paese": "Paesi Bassi",
                   "canali": [
-                    "Ziggo Sport 6"
+                    "Ziggo Sport 6",
+                    "Ziggo Go"
                   ]
                 },
                 {
@@ -26439,7 +26230,9 @@
                 {
                   "paese": "Romania",
                   "canali": [
-                    "Prima Sport 4"
+                    "Orange TV Go",
+                    "Prima Sport 4",
+                    "Prima Play"
                   ]
                 },
                 {
@@ -26479,7 +26272,9 @@
                 {
                   "paese": "San Marino",
                   "canali": [
-                    "Sky Sport 256"
+                    "Sky Sport 256",
+                    "SKY Go Italia",
+                    "NOW TV"
                   ]
                 },
                 {
@@ -26537,6 +26332,7 @@
                 {
                   "paese": "Slovacchia",
                   "canali": [
+                    "Voyo",
                     "Nova Sport 5"
                   ]
                 },
@@ -26725,7 +26521,8 @@
                   "paese": "Venezuela",
                   "canali": [
                     "ESPN 4 Sur",
-                    "Disney+ Premium Sur"
+                    "Disney+ Premium Sur",
+                    "inter"
                   ]
                 },
                 {
@@ -26775,6 +26572,20 @@
                   "nome": "Sky Sport 255",
                   "numero": "",
                   "tipo": "diretta",
+                  "orario": "2026-10-13T21:00",
+                  "fonte": "livesoccer"
+                },
+                {
+                  "nome": "SKY Go Italia",
+                  "numero": "",
+                  "tipo": "streaming",
+                  "orario": "2026-10-13T21:00",
+                  "fonte": "livesoccer"
+                },
+                {
+                  "nome": "NOW TV",
+                  "numero": "",
+                  "tipo": "streaming",
                   "orario": "2026-10-13T21:00",
                   "fonte": "livesoccer"
                 }
@@ -26895,6 +26706,7 @@
                   "canali": [
                     "Proximus Pickx",
                     "Play Sports 4",
+                    "Play Sports",
                     "Pickx+ Sports 3"
                   ]
                 },
@@ -27116,7 +26928,8 @@
                 {
                   "paese": "Repubblica Ceca",
                   "canali": [
-                    "Nova Sport 4 CZ"
+                    "Nova Sport 4 CZ",
+                    "OnePlay"
                   ]
                 },
                 {
@@ -27390,7 +27203,9 @@
                 {
                   "paese": "Italia",
                   "canali": [
-                    "Sky Sport 255"
+                    "Sky Sport 255",
+                    "SKY Go Italia",
+                    "NOW TV"
                   ]
                 },
                 {
@@ -27663,6 +27478,7 @@
                 {
                   "paese": "Paesi Bassi",
                   "canali": [
+                    "Ziggo Go",
                     "Ziggo Sport 3"
                   ]
                 },
@@ -27794,7 +27610,9 @@
                   "canali": [
                     "Digi Sport 2 Romania",
                     "Digi Online",
-                    "Prima Sport 2"
+                    "Prima Sport 2",
+                    "Orange TV Go",
+                    "Prima Play"
                   ]
                 },
                 {
@@ -27834,7 +27652,9 @@
                 {
                   "paese": "San Marino",
                   "canali": [
-                    "Sky Sport 255"
+                    "Sky Sport 255",
+                    "SKY Go Italia",
+                    "NOW TV"
                   ]
                 },
                 {
@@ -27892,6 +27712,7 @@
                 {
                   "paese": "Slovacchia",
                   "canali": [
+                    "Voyo",
                     "Nova Sport 4"
                   ]
                 },
@@ -28097,7 +27918,8 @@
                   "paese": "Venezuela",
                   "canali": [
                     "ESPN2 Colombia",
-                    "Disney+ Premium Sur"
+                    "Disney+ Premium Sur",
+                    "inter"
                   ]
                 },
                 {
@@ -28145,9 +27967,23 @@
                   "fonte": "livesoccer"
                 },
                 {
+                  "nome": "SKY Go Italia",
+                  "numero": "",
+                  "tipo": "streaming",
+                  "orario": "2026-10-13T21:00",
+                  "fonte": "livesoccer"
+                },
+                {
                   "nome": "Sky Sport Calcio",
                   "numero": "",
                   "tipo": "diretta",
+                  "orario": "2026-10-13T21:00",
+                  "fonte": "livesoccer"
+                },
+                {
+                  "nome": "NOW TV",
+                  "numero": "",
+                  "tipo": "streaming",
                   "orario": "2026-10-13T21:00",
                   "fonte": "livesoccer"
                 }
@@ -28265,6 +28101,7 @@
                   "canali": [
                     "Proximus Pickx",
                     "Play Sports 3",
+                    "Play Sports",
                     "Pickx+ Sports 4"
                   ]
                 },
@@ -28498,6 +28335,7 @@
                 {
                   "paese": "Repubblica Ceca",
                   "canali": [
+                    "OnePlay",
                     "Nova Sport 6 CZ"
                   ]
                 },
@@ -28745,6 +28583,7 @@
                 {
                   "paese": "Iran",
                   "canali": [
+                    "Shabake 3",
                     "beIN Sports HD 1",
                     "beIN SPORTS CONNECT"
                   ]
@@ -28775,7 +28614,9 @@
                   "paese": "Italia",
                   "canali": [
                     "Sky Sport 254",
-                    "Sky Sport Calcio"
+                    "SKY Go Italia",
+                    "Sky Sport Calcio",
+                    "NOW TV"
                   ]
                 },
                 {
@@ -29054,6 +28895,7 @@
                 {
                   "paese": "Paesi Bassi",
                   "canali": [
+                    "Ziggo Go",
                     "Ziggo Sport 2"
                   ]
                 },
@@ -29176,7 +29018,9 @@
                   "canali": [
                     "Digi Sport 1 Romania",
                     "Digi Online",
-                    "Prima Sport 1"
+                    "Prima Sport 1",
+                    "Orange TV Go",
+                    "Prima Play"
                   ]
                 },
                 {
@@ -29219,7 +29063,9 @@
                   "paese": "San Marino",
                   "canali": [
                     "Sky Sport 254",
-                    "Sky Sport Calcio"
+                    "SKY Go Italia",
+                    "Sky Sport Calcio",
+                    "NOW TV"
                   ]
                 },
                 {
@@ -29280,6 +29126,7 @@
                 {
                   "paese": "Slovacchia",
                   "canali": [
+                    "Voyo",
                     "Nova Sport 6"
                   ]
                 },
@@ -29481,7 +29328,8 @@
                   "paese": "Venezuela",
                   "canali": [
                     "Disney+ Premium Sur",
-                    "ESPN 5 Sur"
+                    "ESPN 5 Sur",
+                    "inter"
                   ]
                 },
                 {
@@ -30038,19 +29886,35 @@
                   "tipo": "diretta",
                   "orario": "2026-10-15T18:45",
                   "fonte": "livesoccer"
+                },
+                {
+                  "nome": "SKY Go Italia",
+                  "numero": "",
+                  "tipo": "streaming",
+                  "orario": "2026-10-15T18:45",
+                  "fonte": "livesoccer"
+                },
+                {
+                  "nome": "NOW TV",
+                  "numero": "",
+                  "tipo": "streaming",
+                  "orario": "2026-10-15T18:45",
+                  "fonte": "livesoccer"
                 }
               ],
               "canali_mondo": [
                 {
                   "paese": "Algeria",
                   "canali": [
-                    "beIN Sports HD 1"
+                    "beIN Sports HD 1",
+                    "beIN SPORTS CONNECT",
+                    "TOD"
                   ]
                 },
                 {
                   "paese": "Angola",
                   "canali": [
-                    "SuperSport MáXimo 3"
+                    "DStv Now"
                   ]
                 },
                 {
@@ -30099,7 +29963,9 @@
                 {
                   "paese": "Bahrain",
                   "canali": [
-                    "beIN Sports HD 1"
+                    "beIN Sports HD 1",
+                    "beIN SPORTS CONNECT",
+                    "TOD"
                   ]
                 },
                 {
@@ -30112,12 +29978,6 @@
                   "paese": "Bielorussia",
                   "canali": [
                     "Okko Спорт"
-                  ]
-                },
-                {
-                  "paese": "Benin",
-                  "canali": [
-                    "SuperSport MáXimo 3"
                   ]
                 },
                 {
@@ -30136,7 +29996,7 @@
                 {
                   "paese": "Botswana",
                   "canali": [
-                    "SuperSport MáXimo 3"
+                    "DStv Now"
                   ]
                 },
                 {
@@ -30161,13 +30021,13 @@
                 {
                   "paese": "Burkina Faso",
                   "canali": [
-                    "SuperSport MáXimo 3"
+                    "DStv Now"
                   ]
                 },
                 {
                   "paese": "Burundi",
                   "canali": [
-                    "SuperSport MáXimo 3"
+                    "DStv Now"
                   ]
                 },
                 {
@@ -30180,7 +30040,7 @@
                 {
                   "paese": "Camerun",
                   "canali": [
-                    "SuperSport MáXimo 3"
+                    "DStv Now"
                   ]
                 },
                 {
@@ -30193,7 +30053,7 @@
                 {
                   "paese": "Capo Verde",
                   "canali": [
-                    "SuperSport MáXimo 3"
+                    "DStv Now"
                   ]
                 },
                 {
@@ -30203,16 +30063,12 @@
                   ]
                 },
                 {
-                  "paese": "Repubblica Centrafricana",
-                  "canali": [
-                    "SuperSport MáXimo 3"
-                  ]
-                },
-                {
                   "paese": "Ciad",
                   "canali": [
                     "beIN Sports HD 1",
-                    "SuperSport MáXimo 3"
+                    "beIN SPORTS CONNECT",
+                    "DStv Now",
+                    "TOD"
                   ]
                 },
                 {
@@ -30236,16 +30092,9 @@
                   ]
                 },
                 {
-                  "paese": "Comore",
-                  "canali": [
-                    "SuperSport MáXimo 3"
-                  ]
-                },
-                {
                   "paese": "Repubblica Democratica del Congo",
                   "canali": [
-                    "SuperSport MáXimo 3",
-                    "SuperSport MáXimo 3"
+                    "DStv Now"
                   ]
                 },
                 {
@@ -30258,7 +30107,7 @@
                 {
                   "paese": "Costa d'Avorio",
                   "canali": [
-                    "SuperSport MáXimo 3"
+                    "DStv Now"
                   ]
                 },
                 {
@@ -30271,7 +30120,9 @@
                   "paese": "Gibuti",
                   "canali": [
                     "beIN Sports HD 1",
-                    "SuperSport MáXimo 3"
+                    "beIN SPORTS CONNECT",
+                    "DStv Now",
+                    "TOD"
                   ]
                 },
                 {
@@ -30290,19 +30141,21 @@
                 {
                   "paese": "Egitto",
                   "canali": [
-                    "beIN Sports HD 1"
+                    "beIN Sports HD 1",
+                    "beIN SPORTS CONNECT",
+                    "TOD"
                   ]
                 },
                 {
                   "paese": "Guinea Equatoriale",
                   "canali": [
-                    "SuperSport MáXimo 3"
+                    "DStv Now"
                   ]
                 },
                 {
                   "paese": "Eritrea",
                   "canali": [
-                    "SuperSport MáXimo 3"
+                    "DStv Now"
                   ]
                 },
                 {
@@ -30314,7 +30167,7 @@
                 {
                   "paese": "Etiopia",
                   "canali": [
-                    "SuperSport MáXimo 3"
+                    "DStv Now"
                   ]
                 },
                 {
@@ -30326,19 +30179,19 @@
                 {
                   "paese": "Gabon",
                   "canali": [
-                    "SuperSport MáXimo 3"
+                    "DStv Now"
                   ]
                 },
                 {
                   "paese": "Gambia",
                   "canali": [
-                    "SuperSport MáXimo 3"
+                    "DStv Now"
                   ]
                 },
                 {
                   "paese": "Ghana",
                   "canali": [
-                    "SuperSport MáXimo 3"
+                    "DStv Now"
                   ]
                 },
                 {
@@ -30357,13 +30210,13 @@
                 {
                   "paese": "Guinea",
                   "canali": [
-                    "SuperSport MáXimo 3"
+                    "DStv Now"
                   ]
                 },
                 {
                   "paese": "Guinea-Bissau",
                   "canali": [
-                    "SuperSport MáXimo 3"
+                    "DStv Now"
                   ]
                 },
                 {
@@ -30384,13 +30237,16 @@
                 {
                   "paese": "Iran",
                   "canali": [
-                    "beIN Sports HD 1"
+                    "beIN Sports HD 1",
+                    "beIN SPORTS CONNECT"
                   ]
                 },
                 {
                   "paese": "Iraq",
                   "canali": [
-                    "beIN Sports HD 1"
+                    "beIN Sports HD 1",
+                    "beIN SPORTS CONNECT",
+                    "TOD"
                   ]
                 },
                 {
@@ -30403,7 +30259,9 @@
                 {
                   "paese": "Italia",
                   "canali": [
-                    "Sky Sport 252"
+                    "Sky Sport 252",
+                    "SKY Go Italia",
+                    "NOW TV"
                   ]
                 },
                 {
@@ -30415,19 +30273,23 @@
                 {
                   "paese": "Giordania",
                   "canali": [
-                    "beIN Sports HD 1"
+                    "beIN Sports HD 1",
+                    "beIN SPORTS CONNECT",
+                    "TOD"
                   ]
                 },
                 {
                   "paese": "Kenya",
                   "canali": [
-                    "SuperSport MáXimo 3"
+                    "DStv Now"
                   ]
                 },
                 {
                   "paese": "Kuwait",
                   "canali": [
-                    "beIN Sports HD 1"
+                    "beIN Sports HD 1",
+                    "beIN SPORTS CONNECT",
+                    "TOD"
                   ]
                 },
                 {
@@ -30446,25 +30308,29 @@
                 {
                   "paese": "Libano",
                   "canali": [
-                    "beIN Sports HD 1"
+                    "beIN Sports HD 1",
+                    "beIN SPORTS CONNECT",
+                    "TOD"
                   ]
                 },
                 {
                   "paese": "Lesotho",
                   "canali": [
-                    "SuperSport MáXimo 3"
+                    "DStv Now"
                   ]
                 },
                 {
                   "paese": "Liberia",
                   "canali": [
-                    "SuperSport MáXimo 3"
+                    "DStv Now"
                   ]
                 },
                 {
                   "paese": "Libia",
                   "canali": [
-                    "beIN Sports HD 1"
+                    "beIN Sports HD 1",
+                    "beIN SPORTS CONNECT",
+                    "TOD"
                   ]
                 },
                 {
@@ -30489,45 +30355,42 @@
                 {
                   "paese": "Madagascar",
                   "canali": [
-                    "SuperSport MáXimo 3"
+                    "DStv Now"
                   ]
                 },
                 {
                   "paese": "Malawi",
                   "canali": [
-                    "SuperSport MáXimo 3"
+                    "DStv Now"
                   ]
                 },
                 {
                   "paese": "Malesia",
                   "canali": [
                     "beIN Sports Connect Malaysia",
-                    "beIN Sports 3 Malaysia"
+                    "beIN Sports 3 Malaysia",
+                    "sooka"
                   ]
                 },
                 {
                   "paese": "Mali",
                   "canali": [
-                    "SuperSport MáXimo 3"
+                    "DStv Now"
                   ]
                 },
                 {
                   "paese": "Mauritania",
                   "canali": [
                     "beIN Sports HD 1",
-                    "SuperSport MáXimo 3"
+                    "beIN SPORTS CONNECT",
+                    "DStv Now",
+                    "TOD"
                   ]
                 },
                 {
                   "paese": "Mauritius",
                   "canali": [
-                    "SuperSport MáXimo 3"
-                  ]
-                },
-                {
-                  "paese": "Mayotte",
-                  "canali": [
-                    "SuperSport MáXimo 3"
+                    "DStv Now"
                   ]
                 },
                 {
@@ -30545,24 +30408,27 @@
                 {
                   "paese": "Marocco",
                   "canali": [
-                    "beIN Sports HD 1"
+                    "beIN Sports HD 1",
+                    "beIN SPORTS CONNECT",
+                    "TOD"
                   ]
                 },
                 {
                   "paese": "Mozambico",
                   "canali": [
-                    "SuperSport MáXimo 3"
+                    "DStv Now"
                   ]
                 },
                 {
                   "paese": "Namibia",
                   "canali": [
-                    "SuperSport MáXimo 3"
+                    "DStv Now"
                   ]
                 },
                 {
                   "paese": "Paesi Bassi",
                   "canali": [
+                    "Ziggo Go",
                     "Ziggo Sport 5"
                   ]
                 },
@@ -30575,13 +30441,13 @@
                 {
                   "paese": "Niger",
                   "canali": [
-                    "SuperSport MáXimo 3"
+                    "DStv Now"
                   ]
                 },
                 {
                   "paese": "Nigeria",
                   "canali": [
-                    "SuperSport MáXimo 3"
+                    "DStv Now"
                   ]
                 },
                 {
@@ -30593,13 +30459,17 @@
                 {
                   "paese": "Oman",
                   "canali": [
-                    "beIN Sports HD 1"
+                    "beIN Sports HD 1",
+                    "beIN SPORTS CONNECT",
+                    "TOD"
                   ]
                 },
                 {
                   "paese": "Palestina",
                   "canali": [
-                    "beIN Sports HD 1"
+                    "beIN Sports HD 1",
+                    "beIN SPORTS CONNECT",
+                    "TOD"
                   ]
                 },
                 {
@@ -30637,37 +30507,23 @@
                 {
                   "paese": "Qatar",
                   "canali": [
-                    "beIN Sports HD 1"
-                  ]
-                },
-                {
-                  "paese": "Reunion",
-                  "canali": [
-                    "SuperSport MáXimo 3"
+                    "beIN Sports HD 1",
+                    "beIN SPORTS CONNECT",
+                    "TOD"
                   ]
                 },
                 {
                   "paese": "Romania",
                   "canali": [
-                    "Prima Sport 2"
+                    "Prima Sport 2",
+                    "Orange TV Go",
+                    "Prima Play"
                   ]
                 },
                 {
                   "paese": "Russia",
                   "canali": [
                     "Okko Спорт"
-                  ]
-                },
-                {
-                  "paese": "Ruanda",
-                  "canali": [
-                    "SuperSport MáXimo 3"
-                  ]
-                },
-                {
-                  "paese": "Saint Helena",
-                  "canali": [
-                    "SuperSport MáXimo 3"
                   ]
                 },
                 {
@@ -30685,37 +30541,42 @@
                 {
                   "paese": "San Marino",
                   "canali": [
-                    "Sky Sport 252"
+                    "Sky Sport 252",
+                    "SKY Go Italia",
+                    "NOW TV"
                   ]
                 },
                 {
                   "paese": "Arabia Saudita",
                   "canali": [
-                    "beIN Sports HD 1"
+                    "beIN Sports HD 1",
+                    "beIN SPORTS CONNECT",
+                    "TOD"
                   ]
                 },
                 {
                   "paese": "Senegal",
                   "canali": [
-                    "SuperSport MáXimo 3"
+                    "DStv Now"
                   ]
                 },
                 {
                   "paese": "Seychelles",
                   "canali": [
-                    "SuperSport MáXimo 3",
-                    "Bluu"
+                    "Bluu",
+                    "DStv Now"
                   ]
                 },
                 {
                   "paese": "Sierra Leone",
                   "canali": [
-                    "SuperSport MáXimo 3"
+                    "DStv Now"
                   ]
                 },
                 {
                   "paese": "Singapore",
                   "canali": [
+                    "StarHub TV+",
                     "beIN Sports Connect Singapore",
                     "beIN Sports 3 Singapore"
                   ]
@@ -30724,20 +30585,23 @@
                   "paese": "Somalia",
                   "canali": [
                     "beIN Sports HD 1",
-                    "SuperSport MáXimo 3"
+                    "beIN SPORTS CONNECT",
+                    "TOD"
                   ]
                 },
                 {
                   "paese": "Sudafrica",
                   "canali": [
-                    "SuperSport MáXimo 3",
-                    "SuperSport Football"
+                    "DStv App"
                   ]
                 },
                 {
                   "paese": "Sud Sudan",
                   "canali": [
-                    "beIN Sports HD 1"
+                    "beIN Sports HD 1",
+                    "beIN SPORTS CONNECT",
+                    "DStv Now",
+                    "TOD"
                   ]
                 },
                 {
@@ -30750,7 +30614,9 @@
                   "paese": "Sudan",
                   "canali": [
                     "beIN Sports HD 1",
-                    "SuperSport MáXimo 3"
+                    "beIN SPORTS CONNECT",
+                    "DStv Now",
+                    "TOD"
                   ]
                 },
                 {
@@ -30762,7 +30628,7 @@
                 {
                   "paese": "Swaziland",
                   "canali": [
-                    "SuperSport MáXimo 3"
+                    "DStv Now"
                   ]
                 },
                 {
@@ -30781,19 +30647,15 @@
                 {
                   "paese": "Siria",
                   "canali": [
-                    "beIN Sports HD 1"
-                  ]
-                },
-                {
-                  "paese": "São Tomé and Príncipe",
-                  "canali": [
-                    "SuperSport MáXimo 3"
+                    "beIN Sports HD 1",
+                    "beIN SPORTS CONNECT",
+                    "TOD"
                   ]
                 },
                 {
                   "paese": "Tanzania",
                   "canali": [
-                    "SuperSport MáXimo 3"
+                    "DStv Now"
                   ]
                 },
                 {
@@ -30806,7 +30668,7 @@
                 {
                   "paese": "Togo",
                   "canali": [
-                    "SuperSport MáXimo 3"
+                    "DStv Now"
                   ]
                 },
                 {
@@ -30818,7 +30680,9 @@
                 {
                   "paese": "Tunisia",
                   "canali": [
-                    "beIN Sports HD 1"
+                    "beIN Sports HD 1",
+                    "beIN SPORTS CONNECT",
+                    "TOD"
                   ]
                 },
                 {
@@ -30836,13 +30700,15 @@
                 {
                   "paese": "Uganda",
                   "canali": [
-                    "SuperSport MáXimo 3"
+                    "DStv Now"
                   ]
                 },
                 {
                   "paese": "Emirati Arabi Uniti",
                   "canali": [
-                    "beIN Sports HD 1"
+                    "beIN Sports HD 1",
+                    "beIN SPORTS CONNECT",
+                    "TOD"
                   ]
                 },
                 {
@@ -30863,25 +30729,22 @@
                   "paese": "Venezuela",
                   "canali": [
                     "ESPN Colombia",
-                    "Disney+ Premium Sur"
+                    "Disney+ Premium Sur",
+                    "inter"
                   ]
                 },
                 {
                   "paese": "Yemen",
                   "canali": [
-                    "beIN Sports HD 1"
-                  ]
-                },
-                {
-                  "paese": "Zambia",
-                  "canali": [
-                    "SuperSport MáXimo 3"
+                    "beIN Sports HD 1",
+                    "beIN SPORTS CONNECT",
+                    "TOD"
                   ]
                 },
                 {
                   "paese": "Zimbabwe",
                   "canali": [
-                    "SuperSport MáXimo 3"
+                    "DStv Now"
                   ]
                 }
               ],
@@ -31241,40 +31104,81 @@
     },
     {
       "nome": "Tennis",
-      "totale": 28,
+      "totale": 27,
       "sottocartelle": [
         {
-          "nome": "ATP Masters 1000 Shanghai",
-          "totale": 14,
+          "nome": "WTA 1000 Pechino",
+          "totale": 3,
           "eventi": [
             {
-              "titolo": "ATP Masters 1000 Shanghai: 4a giornata",
+              "titolo": "WTA 1000 Pechino: 1a Semifinale Singolare",
               "categoria": "Tennis",
-              "sottocartella": "ATP Masters 1000 Shanghai",
+              "sottocartella": "WTA 1000 Pechino",
               "sport": "Tennis",
-              "competizione": "ATP Masters 1000 Shanghai",
-              "evento": "4a giornata",
-              "inizio": "2026-10-10T06:00:00+02:00",
+              "competizione": "WTA 1000 Pechino",
+              "evento": "1a Semifinale Singolare",
+              "inizio": "2026-10-10T09:00:00+02:00",
               "data": "10/10/2026",
-              "ora": "06:00",
+              "ora": "09:00",
               "canali": [
                 {
-                  "nome": "Sky Sport Arena",
+                  "nome": "Sky Sport Max",
                   "numero": "",
                   "tipo": "diretta",
-                  "orario": "2026-10-10T06:00",
-                  "fonte": "virgilio"
-                },
-                {
-                  "nome": "Sky Sport Tennis",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-10T06:30",
+                  "orario": "2026-10-10T09:00",
                   "fonte": "virgilio"
                 }
               ],
               "fonte": "Virgilio Sport"
             },
+            {
+              "titolo": "WTA 1000 Pechino: 2a Semifinale Singolare",
+              "categoria": "Tennis",
+              "sottocartella": "WTA 1000 Pechino",
+              "sport": "Tennis",
+              "competizione": "WTA 1000 Pechino",
+              "evento": "2a Semifinale Singolare",
+              "inizio": "2026-10-10T13:00:00+02:00",
+              "data": "10/10/2026",
+              "ora": "13:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport Max",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-10T13:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "WTA 1000 Pechino: WTA: Finale",
+              "categoria": "Tennis",
+              "sottocartella": "WTA 1000 Pechino",
+              "sport": "Tennis",
+              "competizione": "WTA 1000 Pechino",
+              "evento": "WTA: Finale",
+              "inizio": "2026-10-11T13:30:00+02:00",
+              "data": "11/10/2026",
+              "ora": "13:30",
+              "canali": [
+                {
+                  "nome": "Sky Sport Max",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-11T13:30",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            }
+          ]
+        },
+        {
+          "nome": "ATP Masters 1000 Shanghai",
+          "totale": 13,
+          "eventi": [
             {
               "titolo": "ATP Masters 1000 Shanghai: 4a giornata",
               "categoria": "Tennis",
@@ -31564,75 +31468,6 @@
                   "numero": "201",
                   "tipo": "diretta",
                   "orario": "2026-10-16T12:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            }
-          ]
-        },
-        {
-          "nome": "WTA 1000 Pechino",
-          "totale": 3,
-          "eventi": [
-            {
-              "titolo": "WTA 1000 Pechino: 1a Semifinale Singolare",
-              "categoria": "Tennis",
-              "sottocartella": "WTA 1000 Pechino",
-              "sport": "Tennis",
-              "competizione": "WTA 1000 Pechino",
-              "evento": "1a Semifinale Singolare",
-              "inizio": "2026-10-10T09:00:00+02:00",
-              "data": "10/10/2026",
-              "ora": "09:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Max",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-10T09:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "WTA 1000 Pechino: 2a Semifinale Singolare",
-              "categoria": "Tennis",
-              "sottocartella": "WTA 1000 Pechino",
-              "sport": "Tennis",
-              "competizione": "WTA 1000 Pechino",
-              "evento": "2a Semifinale Singolare",
-              "inizio": "2026-10-10T13:00:00+02:00",
-              "data": "10/10/2026",
-              "ora": "13:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Max",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-10T13:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "WTA 1000 Pechino: WTA: Finale",
-              "categoria": "Tennis",
-              "sottocartella": "WTA 1000 Pechino",
-              "sport": "Tennis",
-              "competizione": "WTA 1000 Pechino",
-              "evento": "WTA: Finale",
-              "inizio": "2026-10-11T13:30:00+02:00",
-              "data": "11/10/2026",
-              "ora": "13:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport Max",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-11T13:30",
                   "fonte": "virgilio"
                 }
               ],
@@ -32328,33 +32163,12 @@
     },
     {
       "nome": "Altri sport",
-      "totale": 17,
+      "totale": 16,
       "sottocartelle": [
         {
           "nome": "Ciclismo",
-          "totale": 5,
+          "totale": 4,
           "eventi": [
-            {
-              "titolo": "Mondiali Gravel Nannup: Prova Élite Donne",
-              "categoria": "Altri sport",
-              "sottocartella": "Ciclismo",
-              "sport": "Ciclismo",
-              "competizione": "Mondiali Gravel Nannup 2026",
-              "evento": "Prova Élite Donne",
-              "inizio": "2026-10-10T06:30:00+02:00",
-              "data": "10/10/2026",
-              "ora": "06:30",
-              "canali": [
-                {
-                  "nome": "Rai Sport",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-10T06:30",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
             {
               "titolo": "Il Lombardia: .",
               "categoria": "Altri sport",
