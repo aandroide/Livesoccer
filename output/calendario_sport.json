@@ -1,280 +1,16 @@
 {
-  "aggiornato": "2026-10-10T11:58:33+02:00",
+  "aggiornato": "2026-10-10T17:12:58+02:00",
   "fonti": {
     "motori": "Fuori Traiettoria, Dizzle0987/motorsport-calendar, palinsesto TV8",
     "calcio_italiano": "https://raw.githubusercontent.com/aandroide/Livesoccer/master/livesoccertv/output/eventi.json",
     "altri_sport": "https://sport.virgilio.it/guida-tv/"
   },
-  "totale": 295,
+  "totale": 285,
   "cartelle": [
     {
       "nome": "Oggi",
-      "totale": 36,
+      "totale": 26,
       "eventi": [
-        {
-          "titolo": "[Motori] MotoGP: Grand Prix of Indonesia - Sprint",
-          "categoria": "Motori",
-          "sottocartella": "MotoGP",
-          "sport": "Motori",
-          "competizione": "MotoGP",
-          "evento": "Grand Prix of Indonesia - Sprint",
-          "sessione": "sprint",
-          "circuito": "Pertamina Mandalika International Circuit, Lombok, Indonesia",
-          "inizio": "2026-10-10T09:00:00+02:00",
-          "data": "10/10/2026",
-          "ora": "09:00",
-          "canali": [
-            {
-              "nome": "TV8",
-              "numero": "8",
-              "tipo": "diretta",
-              "orario": "2026-10-10T08:55",
-              "fonte": "dizzle+tv8"
-            },
-            {
-              "nome": "Sky Sport MotoGP",
-              "numero": "208",
-              "tipo": "diretta",
-              "orario": "2026-10-10T09:00",
-              "fonte": "config"
-            },
-            {
-              "nome": "NOW",
-              "numero": "",
-              "tipo": "streaming",
-              "orario": "2026-10-10T09:00",
-              "fonte": "config"
-            }
-          ],
-          "fonte": "Dizzle0987/motorsport-calendar"
-        },
-        {
-          "titolo": "[Tennis] WTA 1000 Pechino: 1a Semifinale Singolare",
-          "categoria": "Tennis",
-          "sottocartella": "WTA 1000 Pechino",
-          "sport": "Tennis",
-          "competizione": "WTA 1000 Pechino",
-          "evento": "1a Semifinale Singolare",
-          "inizio": "2026-10-10T09:00:00+02:00",
-          "data": "10/10/2026",
-          "ora": "09:00",
-          "canali": [
-            {
-              "nome": "Sky Sport Max",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-10-10T09:00",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Altri sport] Il Lombardia: .",
-          "categoria": "Altri sport",
-          "sottocartella": "Ciclismo",
-          "sport": "Ciclismo",
-          "competizione": "Il Lombardia",
-          "evento": ".",
-          "inizio": "2026-10-10T10:35:00+02:00",
-          "data": "10/10/2026",
-          "ora": "10:35",
-          "canali": [
-            {
-              "nome": "Eurosport",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-10-10T10:35",
-              "fonte": "virgilio"
-            },
-            {
-              "nome": "Rai Sport",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-10-10T10:35",
-              "fonte": "virgilio"
-            },
-            {
-              "nome": "Rai 2",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-10-10T14:00",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Calcio] Primavera 1: Inter-Como",
-          "categoria": "Calcio",
-          "sottocartella": "Primavera 1",
-          "sport": "Calcio",
-          "competizione": "Primavera 1",
-          "evento": "Inter-Como",
-          "inizio": "2026-10-10T11:00:00+02:00",
-          "data": "10/10/2026",
-          "ora": "11:00",
-          "canali": [
-            {
-              "nome": "Sportitalia",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-10-10T11:00",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Motori] Formula 1: Singapore Grand Prix - Sprint",
-          "categoria": "Motori",
-          "sottocartella": "Formula 1",
-          "sport": "Motori",
-          "competizione": "Formula 1",
-          "evento": "Singapore Grand Prix - Sprint",
-          "sessione": "sprint",
-          "circuito": "Marina Bay Street Circuit, Marina Bay, Singapore",
-          "inizio": "2026-10-10T11:00:00+02:00",
-          "data": "10/10/2026",
-          "ora": "11:00",
-          "canali": [
-            {
-              "nome": "TV8",
-              "numero": "8",
-              "tipo": "diretta",
-              "orario": "2026-10-10T10:35",
-              "fonte": "dizzle+tv8"
-            },
-            {
-              "nome": "Sky Sport F1",
-              "numero": "207",
-              "tipo": "diretta",
-              "orario": "2026-10-10T11:00",
-              "fonte": "config"
-            },
-            {
-              "nome": "Sky Sport 1",
-              "numero": "201",
-              "tipo": "diretta",
-              "orario": "2026-10-10T11:00",
-              "fonte": "config"
-            },
-            {
-              "nome": "Sky Sport 4K",
-              "numero": "213",
-              "tipo": "diretta",
-              "orario": "2026-10-10T11:00",
-              "fonte": "config"
-            },
-            {
-              "nome": "NOW",
-              "numero": "",
-              "tipo": "streaming",
-              "orario": "2026-10-10T11:00",
-              "fonte": "config"
-            }
-          ],
-          "fonte": "Dizzle0987/motorsport-calendar"
-        },
-        {
-          "titolo": "[Motori] World Superbike: Estoril Round - Superpole",
-          "categoria": "Motori",
-          "sottocartella": "World Superbike",
-          "sport": "Motori",
-          "competizione": "World Superbike",
-          "evento": "Estoril Round - Superpole",
-          "sessione": "qualifiche",
-          "circuito": "Circuito di Estoril, Av. Alfredo César Torres, 2646-901 Alcabideche, Portogallo",
-          "inizio": "2026-10-10T12:15:00+02:00",
-          "data": "10/10/2026",
-          "ora": "12:15",
-          "canali": [],
-          "fonte": "Fuori Traiettoria"
-        },
-        {
-          "titolo": "[Tennis] ATP Masters 1000 Shanghai: 4a giornata",
-          "categoria": "Tennis",
-          "sottocartella": "ATP Masters 1000 Shanghai",
-          "sport": "Tennis",
-          "competizione": "ATP Masters 1000 Shanghai",
-          "evento": "4a giornata",
-          "inizio": "2026-10-10T12:30:00+02:00",
-          "data": "10/10/2026",
-          "ora": "12:30",
-          "canali": [
-            {
-              "nome": "Sky Sport Tennis",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-10-10T12:30",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Calcio] Primavera 1: Atalanta-Milan",
-          "categoria": "Calcio",
-          "sottocartella": "Primavera 1",
-          "sport": "Calcio",
-          "competizione": "Primavera 1",
-          "evento": "Atalanta-Milan",
-          "inizio": "2026-10-10T13:00:00+02:00",
-          "data": "10/10/2026",
-          "ora": "13:00",
-          "canali": [
-            {
-              "nome": "Sportitalia",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-10-10T13:00",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Tennis] WTA 1000 Pechino: 2a Semifinale Singolare",
-          "categoria": "Tennis",
-          "sottocartella": "WTA 1000 Pechino",
-          "sport": "Tennis",
-          "competizione": "WTA 1000 Pechino",
-          "evento": "2a Semifinale Singolare",
-          "inizio": "2026-10-10T13:00:00+02:00",
-          "data": "10/10/2026",
-          "ora": "13:00",
-          "canali": [
-            {
-              "nome": "Sky Sport Max",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-10-10T13:00",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Calcio] Premier League: Arsenal-Leeds United",
-          "categoria": "Calcio",
-          "sottocartella": "Premier League",
-          "sport": "Calcio",
-          "competizione": "Premier League",
-          "evento": "Arsenal-Leeds United",
-          "inizio": "2026-10-10T13:30:00+02:00",
-          "data": "10/10/2026",
-          "ora": "13:30",
-          "canali": [
-            {
-              "nome": "Sky Sport Calcio",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-10-10T13:30",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
         {
           "titolo": "[Calcio] Serie C: Bari 1908 vs Giugliano",
           "categoria": "Calcio",
@@ -1915,8 +1651,8 @@
               "nome": "TV8",
               "numero": "8",
               "tipo": "diretta",
-              "orario": "2026-10-10T14:55",
-              "fonte": "dizzle+tv8"
+              "orario": "2026-10-10T15:00",
+              "fonte": "dizzle"
             },
             {
               "nome": "Sky Sport F1",
@@ -2003,16 +1739,7 @@
           "inizio": "2026-10-10T16:30:00+02:00",
           "data": "10/10/2026",
           "ora": "16:30",
-          "canali": [
-            {
-              "nome": "TV8",
-              "numero": "8",
-              "tipo": "diretta",
-              "orario": "2026-10-10T16:30",
-              "programma": "Estoril: Gara 1",
-              "fonte": "tv8"
-            }
-          ],
+          "canali": [],
           "fonte": "Fuori Traiettoria"
         },
         {
@@ -4468,63 +4195,12 @@
     },
     {
       "nome": "Motori",
-      "totale": 127,
+      "totale": 124,
       "sottocartelle": [
         {
           "nome": "Formula 1",
-          "totale": 33,
+          "totale": 32,
           "eventi": [
-            {
-              "titolo": "Formula 1: Singapore Grand Prix - Sprint",
-              "categoria": "Motori",
-              "sottocartella": "Formula 1",
-              "sport": "Motori",
-              "competizione": "Formula 1",
-              "evento": "Singapore Grand Prix - Sprint",
-              "sessione": "sprint",
-              "circuito": "Marina Bay Street Circuit, Marina Bay, Singapore",
-              "inizio": "2026-10-10T11:00:00+02:00",
-              "data": "10/10/2026",
-              "ora": "11:00",
-              "canali": [
-                {
-                  "nome": "TV8",
-                  "numero": "8",
-                  "tipo": "diretta",
-                  "orario": "2026-10-10T10:35",
-                  "fonte": "dizzle+tv8"
-                },
-                {
-                  "nome": "Sky Sport F1",
-                  "numero": "207",
-                  "tipo": "diretta",
-                  "orario": "2026-10-10T11:00",
-                  "fonte": "config"
-                },
-                {
-                  "nome": "Sky Sport 1",
-                  "numero": "201",
-                  "tipo": "diretta",
-                  "orario": "2026-10-10T11:00",
-                  "fonte": "config"
-                },
-                {
-                  "nome": "Sky Sport 4K",
-                  "numero": "213",
-                  "tipo": "diretta",
-                  "orario": "2026-10-10T11:00",
-                  "fonte": "config"
-                },
-                {
-                  "nome": "NOW",
-                  "numero": "",
-                  "tipo": "streaming",
-                  "orario": "2026-10-10T11:00",
-                  "fonte": "config"
-                }
-              ],
-              "fonte": "Dizzle0987/motorsport-calendar"
-            },
             {
               "titolo": "Formula 1: Singapore Grand Prix - Qualifiche",
               "categoria": "Motori",
@@ -4542,8 +4218,8 @@
                   "nome": "TV8",
                   "numero": "8",
                   "tipo": "diretta",
-                  "orario": "2026-10-10T14:55",
-                  "fonte": "dizzle+tv8"
+                  "orario": "2026-10-10T15:00",
+                  "fonte": "dizzle"
                 },
                 {
                   "nome": "Sky Sport F1",
@@ -6203,45 +5879,8 @@
         },
         {
           "nome": "MotoGP",
-          "totale": 43,
+          "totale": 42,
           "eventi": [
-            {
-              "titolo": "MotoGP: Grand Prix of Indonesia - Sprint",
-              "categoria": "Motori",
-              "sottocartella": "MotoGP",
-              "sport": "Motori",
-              "competizione": "MotoGP",
-              "evento": "Grand Prix of Indonesia - Sprint",
-              "sessione": "sprint",
-              "circuito": "Pertamina Mandalika International Circuit, Lombok, Indonesia",
-              "inizio": "2026-10-10T09:00:00+02:00",
-              "data": "10/10/2026",
-              "ora": "09:00",
-              "canali": [
-                {
-                  "nome": "TV8",
-                  "numero": "8",
-                  "tipo": "diretta",
-                  "orario": "2026-10-10T08:55",
-                  "fonte": "dizzle+tv8"
-                },
-                {
-                  "nome": "Sky Sport MotoGP",
-                  "numero": "208",
-                  "tipo": "diretta",
-                  "orario": "2026-10-10T09:00",
-                  "fonte": "config"
-                },
-                {
-                  "nome": "NOW",
-                  "numero": "",
-                  "tipo": "streaming",
-                  "orario": "2026-10-10T09:00",
-                  "fonte": "config"
-                }
-              ],
-              "fonte": "Dizzle0987/motorsport-calendar"
-            },
             {
               "titolo": "MotoGP: Grand Prix of Indonesia - Warm Up",
               "categoria": "Motori",
@@ -7936,23 +7575,8 @@
         },
         {
           "nome": "World Superbike",
-          "totale": 8,
+          "totale": 7,
           "eventi": [
-            {
-              "titolo": "World Superbike: Estoril Round - Superpole",
-              "categoria": "Motori",
-              "sottocartella": "World Superbike",
-              "sport": "Motori",
-              "competizione": "World Superbike",
-              "evento": "Estoril Round - Superpole",
-              "sessione": "qualifiche",
-              "circuito": "Circuito di Estoril, Av. Alfredo César Torres, 2646-901 Alcabideche, Portogallo",
-              "inizio": "2026-10-10T12:15:00+02:00",
-              "data": "10/10/2026",
-              "ora": "12:15",
-              "canali": [],
-              "fonte": "Fuori Traiettoria"
-            },
             {
               "titolo": "World Superbike: Estoril Round - Race 1",
               "categoria": "Motori",
@@ -7965,16 +7589,7 @@
               "inizio": "2026-10-10T16:30:00+02:00",
               "data": "10/10/2026",
               "ora": "16:30",
-              "canali": [
-                {
-                  "nome": "TV8",
-                  "numero": "8",
-                  "tipo": "diretta",
-                  "orario": "2026-10-10T16:30",
-                  "programma": "Estoril: Gara 1",
-                  "fonte": "tv8"
-                }
-              ],
+              "canali": [],
               "fonte": "Fuori Traiettoria"
             },
             {
@@ -8304,7 +7919,7 @@
     },
     {
       "nome": "Calcio",
-      "totale": 107,
+      "totale": 104,
       "sottocartelle": [
         {
           "nome": "Serie A",
@@ -21933,50 +21548,8 @@
         },
         {
           "nome": "Primavera 1",
-          "totale": 7,
+          "totale": 5,
           "eventi": [
-            {
-              "titolo": "Primavera 1: Inter-Como",
-              "categoria": "Calcio",
-              "sottocartella": "Primavera 1",
-              "sport": "Calcio",
-              "competizione": "Primavera 1",
-              "evento": "Inter-Como",
-              "inizio": "2026-10-10T11:00:00+02:00",
-              "data": "10/10/2026",
-              "ora": "11:00",
-              "canali": [
-                {
-                  "nome": "Sportitalia",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-10T11:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "Primavera 1: Atalanta-Milan",
-              "categoria": "Calcio",
-              "sottocartella": "Primavera 1",
-              "sport": "Calcio",
-              "competizione": "Primavera 1",
-              "evento": "Atalanta-Milan",
-              "inizio": "2026-10-10T13:00:00+02:00",
-              "data": "10/10/2026",
-              "ora": "13:00",
-              "canali": [
-                {
-                  "nome": "Sportitalia",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-10T13:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
             {
               "titolo": "Primavera 1: Roma-Empoli",
               "categoria": "Calcio",
@@ -22086,29 +21659,8 @@
         },
         {
           "nome": "Premier League",
-          "totale": 6,
+          "totale": 5,
           "eventi": [
-            {
-              "titolo": "Premier League: Arsenal-Leeds United",
-              "categoria": "Calcio",
-              "sottocartella": "Premier League",
-              "sport": "Calcio",
-              "competizione": "Premier League",
-              "evento": "Arsenal-Leeds United",
-              "inizio": "2026-10-10T13:30:00+02:00",
-              "data": "10/10/2026",
-              "ora": "13:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport Calcio",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-10T13:30",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
             {
               "titolo": "Premier League: Chelsea-Bournemouth",
               "categoria": "Calcio",
@@ -31056,70 +30608,238 @@
     },
     {
       "nome": "Tennis",
-      "totale": 27,
+      "totale": 24,
       "sottocartelle": [
         {
-          "nome": "WTA 1000 Pechino",
-          "totale": 3,
+          "nome": "WTA 1000 Wuhan",
+          "totale": 11,
           "eventi": [
             {
-              "titolo": "WTA 1000 Pechino: 1a Semifinale Singolare",
+              "titolo": "WTA 1000 Wuhan: 1a giornata",
               "categoria": "Tennis",
-              "sottocartella": "WTA 1000 Pechino",
+              "sottocartella": "WTA 1000 Wuhan",
               "sport": "Tennis",
-              "competizione": "WTA 1000 Pechino",
-              "evento": "1a Semifinale Singolare",
-              "inizio": "2026-10-10T09:00:00+02:00",
-              "data": "10/10/2026",
+              "competizione": "WTA 1000 Wuhan",
+              "evento": "1a giornata",
+              "inizio": "2026-10-11T05:00:00+02:00",
+              "data": "11/10/2026",
+              "ora": "05:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport Arena",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-11T05:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "WTA 1000 Wuhan: 2a giornata",
+              "categoria": "Tennis",
+              "sottocartella": "WTA 1000 Wuhan",
+              "sport": "Tennis",
+              "competizione": "WTA 1000 Wuhan",
+              "evento": "2a giornata",
+              "inizio": "2026-10-12T05:00:00+02:00",
+              "data": "12/10/2026",
+              "ora": "05:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport Tennis",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-12T05:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "WTA 1000 Wuhan: 1a giornata",
+              "categoria": "Tennis",
+              "sottocartella": "WTA 1000 Wuhan",
+              "sport": "Tennis",
+              "competizione": "WTA 1000 Wuhan",
+              "evento": "1a giornata",
+              "inizio": "2026-10-12T06:00:00+02:00",
+              "data": "12/10/2026",
+              "ora": "06:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport Arena",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-12T06:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "WTA 1000 Wuhan: 3a giornata",
+              "categoria": "Tennis",
+              "sottocartella": "WTA 1000 Wuhan",
+              "sport": "Tennis",
+              "competizione": "WTA 1000 Wuhan",
+              "evento": "3a giornata",
+              "inizio": "2026-10-13T05:00:00+02:00",
+              "data": "13/10/2026",
+              "ora": "05:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport Tennis",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-13T05:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "WTA 1000 Wuhan: 2a giornata",
+              "categoria": "Tennis",
+              "sottocartella": "WTA 1000 Wuhan",
+              "sport": "Tennis",
+              "competizione": "WTA 1000 Wuhan",
+              "evento": "2a giornata",
+              "inizio": "2026-10-13T06:00:00+02:00",
+              "data": "13/10/2026",
+              "ora": "06:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport Tennis",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-13T06:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "WTA 1000 Wuhan: 4a giornata",
+              "categoria": "Tennis",
+              "sottocartella": "WTA 1000 Wuhan",
+              "sport": "Tennis",
+              "competizione": "WTA 1000 Wuhan",
+              "evento": "4a giornata",
+              "inizio": "2026-10-14T05:00:00+02:00",
+              "data": "14/10/2026",
+              "ora": "05:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport Tennis",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-14T05:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "WTA 1000 Wuhan: 3a giornata",
+              "categoria": "Tennis",
+              "sottocartella": "WTA 1000 Wuhan",
+              "sport": "Tennis",
+              "competizione": "WTA 1000 Wuhan",
+              "evento": "3a giornata",
+              "inizio": "2026-10-14T06:00:00+02:00",
+              "data": "14/10/2026",
+              "ora": "06:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport Tennis",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-14T06:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "WTA 1000 Wuhan: 4a giornata",
+              "categoria": "Tennis",
+              "sottocartella": "WTA 1000 Wuhan",
+              "sport": "Tennis",
+              "competizione": "WTA 1000 Wuhan",
+              "evento": "4a giornata",
+              "inizio": "2026-10-15T06:00:00+02:00",
+              "data": "15/10/2026",
+              "ora": "06:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport Tennis",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-15T06:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "WTA 1000 Wuhan: 2^ Quarto di Finale",
+              "categoria": "Tennis",
+              "sottocartella": "WTA 1000 Wuhan",
+              "sport": "Tennis",
+              "competizione": "WTA 1000 Wuhan",
+              "evento": "2^ Quarto di Finale",
+              "inizio": "2026-10-16T07:00:00+02:00",
+              "data": "16/10/2026",
+              "ora": "07:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport Max",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-16T07:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "WTA 1000 Wuhan: 3^ Quarto di Finale",
+              "categoria": "Tennis",
+              "sottocartella": "WTA 1000 Wuhan",
+              "sport": "Tennis",
+              "competizione": "WTA 1000 Wuhan",
+              "evento": "3^ Quarto di Finale",
+              "inizio": "2026-10-16T09:00:00+02:00",
+              "data": "16/10/2026",
               "ora": "09:00",
               "canali": [
                 {
                   "nome": "Sky Sport Max",
                   "numero": "",
                   "tipo": "diretta",
-                  "orario": "2026-10-10T09:00",
+                  "orario": "2026-10-16T09:00",
                   "fonte": "virgilio"
                 }
               ],
               "fonte": "Virgilio Sport"
             },
             {
-              "titolo": "WTA 1000 Pechino: 2a Semifinale Singolare",
+              "titolo": "WTA 1000 Wuhan: 4^ Quarto di Finale",
               "categoria": "Tennis",
-              "sottocartella": "WTA 1000 Pechino",
+              "sottocartella": "WTA 1000 Wuhan",
               "sport": "Tennis",
-              "competizione": "WTA 1000 Pechino",
-              "evento": "2a Semifinale Singolare",
-              "inizio": "2026-10-10T13:00:00+02:00",
-              "data": "10/10/2026",
+              "competizione": "WTA 1000 Wuhan",
+              "evento": "4^ Quarto di Finale",
+              "inizio": "2026-10-16T13:00:00+02:00",
+              "data": "16/10/2026",
               "ora": "13:00",
               "canali": [
                 {
                   "nome": "Sky Sport Max",
                   "numero": "",
                   "tipo": "diretta",
-                  "orario": "2026-10-10T13:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "WTA 1000 Pechino: WTA: Finale",
-              "categoria": "Tennis",
-              "sottocartella": "WTA 1000 Pechino",
-              "sport": "Tennis",
-              "competizione": "WTA 1000 Pechino",
-              "evento": "WTA: Finale",
-              "inizio": "2026-10-11T13:30:00+02:00",
-              "data": "11/10/2026",
-              "ora": "13:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport Max",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-11T13:30",
+                  "orario": "2026-10-16T13:00",
                   "fonte": "virgilio"
                 }
               ],
@@ -31129,29 +30849,8 @@
         },
         {
           "nome": "ATP Masters 1000 Shanghai",
-          "totale": 13,
+          "totale": 12,
           "eventi": [
-            {
-              "titolo": "ATP Masters 1000 Shanghai: 4a giornata",
-              "categoria": "Tennis",
-              "sottocartella": "ATP Masters 1000 Shanghai",
-              "sport": "Tennis",
-              "competizione": "ATP Masters 1000 Shanghai",
-              "evento": "4a giornata",
-              "inizio": "2026-10-10T12:30:00+02:00",
-              "data": "10/10/2026",
-              "ora": "12:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport Tennis",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-10T12:30",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
             {
               "titolo": "ATP Masters 1000 Shanghai: 5a giornata",
               "categoria": "Tennis",
@@ -31428,235 +31127,25 @@
           ]
         },
         {
-          "nome": "WTA 1000 Wuhan",
-          "totale": 11,
+          "nome": "WTA 1000 Pechino",
+          "totale": 1,
           "eventi": [
             {
-              "titolo": "WTA 1000 Wuhan: 1a giornata",
+              "titolo": "WTA 1000 Pechino: WTA: Finale",
               "categoria": "Tennis",
-              "sottocartella": "WTA 1000 Wuhan",
+              "sottocartella": "WTA 1000 Pechino",
               "sport": "Tennis",
-              "competizione": "WTA 1000 Wuhan",
-              "evento": "1a giornata",
-              "inizio": "2026-10-11T05:00:00+02:00",
+              "competizione": "WTA 1000 Pechino",
+              "evento": "WTA: Finale",
+              "inizio": "2026-10-11T13:30:00+02:00",
               "data": "11/10/2026",
-              "ora": "05:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Arena",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-11T05:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "WTA 1000 Wuhan: 2a giornata",
-              "categoria": "Tennis",
-              "sottocartella": "WTA 1000 Wuhan",
-              "sport": "Tennis",
-              "competizione": "WTA 1000 Wuhan",
-              "evento": "2a giornata",
-              "inizio": "2026-10-12T05:00:00+02:00",
-              "data": "12/10/2026",
-              "ora": "05:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Tennis",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-12T05:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "WTA 1000 Wuhan: 1a giornata",
-              "categoria": "Tennis",
-              "sottocartella": "WTA 1000 Wuhan",
-              "sport": "Tennis",
-              "competizione": "WTA 1000 Wuhan",
-              "evento": "1a giornata",
-              "inizio": "2026-10-12T06:00:00+02:00",
-              "data": "12/10/2026",
-              "ora": "06:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Arena",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-12T06:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "WTA 1000 Wuhan: 3a giornata",
-              "categoria": "Tennis",
-              "sottocartella": "WTA 1000 Wuhan",
-              "sport": "Tennis",
-              "competizione": "WTA 1000 Wuhan",
-              "evento": "3a giornata",
-              "inizio": "2026-10-13T05:00:00+02:00",
-              "data": "13/10/2026",
-              "ora": "05:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Tennis",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-13T05:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "WTA 1000 Wuhan: 2a giornata",
-              "categoria": "Tennis",
-              "sottocartella": "WTA 1000 Wuhan",
-              "sport": "Tennis",
-              "competizione": "WTA 1000 Wuhan",
-              "evento": "2a giornata",
-              "inizio": "2026-10-13T06:00:00+02:00",
-              "data": "13/10/2026",
-              "ora": "06:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Tennis",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-13T06:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "WTA 1000 Wuhan: 4a giornata",
-              "categoria": "Tennis",
-              "sottocartella": "WTA 1000 Wuhan",
-              "sport": "Tennis",
-              "competizione": "WTA 1000 Wuhan",
-              "evento": "4a giornata",
-              "inizio": "2026-10-14T05:00:00+02:00",
-              "data": "14/10/2026",
-              "ora": "05:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Tennis",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-14T05:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "WTA 1000 Wuhan: 3a giornata",
-              "categoria": "Tennis",
-              "sottocartella": "WTA 1000 Wuhan",
-              "sport": "Tennis",
-              "competizione": "WTA 1000 Wuhan",
-              "evento": "3a giornata",
-              "inizio": "2026-10-14T06:00:00+02:00",
-              "data": "14/10/2026",
-              "ora": "06:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Tennis",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-14T06:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "WTA 1000 Wuhan: 4a giornata",
-              "categoria": "Tennis",
-              "sottocartella": "WTA 1000 Wuhan",
-              "sport": "Tennis",
-              "competizione": "WTA 1000 Wuhan",
-              "evento": "4a giornata",
-              "inizio": "2026-10-15T06:00:00+02:00",
-              "data": "15/10/2026",
-              "ora": "06:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Tennis",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-15T06:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "WTA 1000 Wuhan: 2^ Quarto di Finale",
-              "categoria": "Tennis",
-              "sottocartella": "WTA 1000 Wuhan",
-              "sport": "Tennis",
-              "competizione": "WTA 1000 Wuhan",
-              "evento": "2^ Quarto di Finale",
-              "inizio": "2026-10-16T07:00:00+02:00",
-              "data": "16/10/2026",
-              "ora": "07:00",
+              "ora": "13:30",
               "canali": [
                 {
                   "nome": "Sky Sport Max",
                   "numero": "",
                   "tipo": "diretta",
-                  "orario": "2026-10-16T07:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "WTA 1000 Wuhan: 3^ Quarto di Finale",
-              "categoria": "Tennis",
-              "sottocartella": "WTA 1000 Wuhan",
-              "sport": "Tennis",
-              "competizione": "WTA 1000 Wuhan",
-              "evento": "3^ Quarto di Finale",
-              "inizio": "2026-10-16T09:00:00+02:00",
-              "data": "16/10/2026",
-              "ora": "09:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Max",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-16T09:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "WTA 1000 Wuhan: 4^ Quarto di Finale",
-              "categoria": "Tennis",
-              "sottocartella": "WTA 1000 Wuhan",
-              "sport": "Tennis",
-              "competizione": "WTA 1000 Wuhan",
-              "evento": "4^ Quarto di Finale",
-              "inizio": "2026-10-16T13:00:00+02:00",
-              "data": "16/10/2026",
-              "ora": "13:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Max",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-16T13:00",
+                  "orario": "2026-10-11T13:30",
                   "fonte": "virgilio"
                 }
               ],
@@ -32115,47 +31604,60 @@
     },
     {
       "nome": "Altri sport",
-      "totale": 16,
+      "totale": 15,
       "sottocartelle": [
         {
-          "nome": "Ciclismo",
-          "totale": 4,
+          "nome": "Rugby",
+          "totale": 2,
           "eventi": [
             {
-              "titolo": "Il Lombardia: .",
+              "titolo": "United Rugby Championship: Zebre-Edinburgh",
               "categoria": "Altri sport",
-              "sottocartella": "Ciclismo",
-              "sport": "Ciclismo",
-              "competizione": "Il Lombardia",
-              "evento": ".",
-              "inizio": "2026-10-10T10:35:00+02:00",
+              "sottocartella": "Rugby",
+              "sport": "Rugby",
+              "competizione": "United Rugby Championship",
+              "evento": "Zebre-Edinburgh",
+              "inizio": "2026-10-10T16:00:00+02:00",
               "data": "10/10/2026",
-              "ora": "10:35",
+              "ora": "16:00",
               "canali": [
                 {
-                  "nome": "Eurosport",
+                  "nome": "Sky Sport Arena",
                   "numero": "",
                   "tipo": "diretta",
-                  "orario": "2026-10-10T10:35",
-                  "fonte": "virgilio"
-                },
-                {
-                  "nome": "Rai Sport",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-10T10:35",
-                  "fonte": "virgilio"
-                },
-                {
-                  "nome": "Rai 2",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-10T14:00",
+                  "orario": "2026-10-10T16:00",
                   "fonte": "virgilio"
                 }
               ],
               "fonte": "Virgilio Sport"
             },
+            {
+              "titolo": "United Rugby Championship: Scarlets-Benetton Rugby",
+              "categoria": "Altri sport",
+              "sottocartella": "Rugby",
+              "sport": "Rugby",
+              "competizione": "United Rugby Championship",
+              "evento": "Scarlets-Benetton Rugby",
+              "inizio": "2026-10-10T18:30:00+02:00",
+              "data": "10/10/2026",
+              "ora": "18:30",
+              "canali": [
+                {
+                  "nome": "Sky Sport Arena",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-10T18:30",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            }
+          ]
+        },
+        {
+          "nome": "Ciclismo",
+          "totale": 3,
+          "eventi": [
             {
               "titolo": "Mondiali Gravel Nannup: Prova Élite Uomini",
               "categoria": "Altri sport",
@@ -32221,54 +31723,6 @@
                   "numero": "",
                   "tipo": "diretta",
                   "orario": "2026-10-14T16:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            }
-          ]
-        },
-        {
-          "nome": "Rugby",
-          "totale": 2,
-          "eventi": [
-            {
-              "titolo": "United Rugby Championship: Zebre-Edinburgh",
-              "categoria": "Altri sport",
-              "sottocartella": "Rugby",
-              "sport": "Rugby",
-              "competizione": "United Rugby Championship",
-              "evento": "Zebre-Edinburgh",
-              "inizio": "2026-10-10T16:00:00+02:00",
-              "data": "10/10/2026",
-              "ora": "16:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Arena",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-10T16:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "United Rugby Championship: Scarlets-Benetton Rugby",
-              "categoria": "Altri sport",
-              "sottocartella": "Rugby",
-              "sport": "Rugby",
-              "competizione": "United Rugby Championship",
-              "evento": "Scarlets-Benetton Rugby",
-              "inizio": "2026-10-10T18:30:00+02:00",
-              "data": "10/10/2026",
-              "ora": "18:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport Arena",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-10T18:30",
                   "fonte": "virgilio"
                 }
               ],
