@@ -1,176 +1,16 @@
 {
-  "aggiornato": "2026-10-12T02:02:30+02:00",
+  "aggiornato": "2026-10-12T08:35:41+02:00",
   "fonti": {
     "motori": "Fuori Traiettoria, Dizzle0987/motorsport-calendar, palinsesto TV8",
     "calcio_italiano": "https://raw.githubusercontent.com/aandroide/Livesoccer/master/livesoccertv/output/eventi.json",
     "altri_sport": "https://sport.virgilio.it/guida-tv/"
   },
-  "totale": 288,
+  "totale": 285,
   "cartelle": [
     {
       "nome": "Oggi",
-      "totale": 16,
+      "totale": 13,
       "eventi": [
-        {
-          "titolo": "[Calcio] Liga Profesional: Racing-Belgrano",
-          "categoria": "Calcio",
-          "sottocartella": "Liga Profesional",
-          "sport": "Calcio",
-          "competizione": "Liga Profesional",
-          "evento": "Racing-Belgrano",
-          "inizio": "2026-10-12T00:15:00+02:00",
-          "data": "12/10/2026",
-          "ora": "00:15",
-          "canali": [
-            {
-              "nome": "Sportitalia",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-10-12T00:15",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Calcio] Serie B: Empoli vs Palermo",
-          "categoria": "Calcio",
-          "sottocartella": "Serie B",
-          "sport": "Calcio",
-          "competizione": "Serie B",
-          "evento": "Empoli vs Palermo",
-          "inizio": "2026-10-12T03:30:00+02:00",
-          "data": "12/10/2026",
-          "ora": "03:30",
-          "canali": [
-            {
-              "nome": "DAZN Italia",
-              "numero": "",
-              "tipo": "streaming",
-              "orario": "2026-10-12T03:30",
-              "fonte": "livesoccer"
-            },
-            {
-              "nome": "LAB Channel",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-10-12T03:30",
-              "fonte": "livesoccer"
-            }
-          ],
-          "canali_mondo": [
-            {
-              "paese": "Bosnia ed Erzegovina",
-              "canali": [
-                "Moja TV",
-                "Arena Sport 2",
-                "Arena Cloud"
-              ]
-            },
-            {
-              "paese": "Gran Bretagna",
-              "canali": [
-                "DCTV"
-              ]
-            },
-            {
-              "paese": "Irlanda",
-              "canali": [
-                "DCTV"
-              ]
-            },
-            {
-              "paese": "Israele",
-              "canali": [
-                "5Plus"
-              ]
-            },
-            {
-              "paese": "Italia",
-              "canali": [
-                "DAZN Italia",
-                "LAB Channel"
-              ]
-            },
-            {
-              "paese": "Liechtenstein",
-              "canali": [
-                "Blue Sport 3 Live",
-                "Blue Sport"
-              ]
-            },
-            {
-              "paese": "Macedonia",
-              "canali": [
-                "Arena Cloud"
-              ]
-            },
-            {
-              "paese": "Montenegro",
-              "canali": [
-                "Arena Cloud"
-              ]
-            },
-            {
-              "paese": "San Marino",
-              "canali": [
-                "DAZN Italia",
-                "LAB Channel"
-              ]
-            },
-            {
-              "paese": "Serbia",
-              "canali": [
-                "Arena Sport 6 Serbia",
-                "Arena Cloud"
-              ]
-            },
-            {
-              "paese": "Svizzera",
-              "canali": [
-                "Blue Sport 3 Live",
-                "Blue Sport"
-              ]
-            },
-            {
-              "paese": "Turchia",
-              "canali": [
-                "Sifir TV"
-              ]
-            },
-            {
-              "paese": "USA",
-              "canali": [
-                "Fox Soccer Plus",
-                "fuboTV",
-                "DCTV",
-                "FOX One"
-              ]
-            }
-          ],
-          "fonte": "LiveSoccerTV"
-        },
-        {
-          "titolo": "[Tennis] WTA 1000 Wuhan: 2a giornata",
-          "categoria": "Tennis",
-          "sottocartella": "WTA 1000 Wuhan",
-          "sport": "Tennis",
-          "competizione": "WTA 1000 Wuhan",
-          "evento": "2a giornata",
-          "inizio": "2026-10-12T05:00:00+02:00",
-          "data": "12/10/2026",
-          "ora": "05:00",
-          "canali": [
-            {
-              "nome": "Sky Sport Tennis",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-10-12T05:00",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
         {
           "titolo": "[Tennis] ATP Masters 1000 Shanghai: 6 giornata",
           "categoria": "Tennis",
@@ -843,6 +683,13 @@
               ]
             },
             {
+              "paese": "Corea del Sud",
+              "canali": [
+                "SPOTV NOW",
+                "SPOTV Prime 2"
+              ]
+            },
+            {
               "paese": "Kosovo",
               "canali": [
                 "Tring Sport 1",
@@ -1264,6 +1111,7 @@
             {
               "paese": "Ucraina",
               "canali": [
+                "Megogo",
                 "MEGOGO Football 1"
               ]
             },
@@ -2054,10 +1902,16 @@
               ]
             },
             {
+              "paese": "Corea del Sud",
+              "canali": [
+                "SPOTV NOW",
+                "SPOTV Prime 2"
+              ]
+            },
+            {
               "paese": "Kosovo",
               "canali": [
                 "Tring Sport 1",
-                "Arena 2 Premium",
                 "Arena 4 Premium",
                 "TV Vala Kosovo Telecom"
               ]
@@ -2111,7 +1965,6 @@
             {
               "paese": "Macedonia",
               "canali": [
-                "Arena 2 Premium",
                 "Arena 4 Premium",
                 "Arena Cloud",
                 "Arena M2 Premium"
@@ -2172,7 +2025,6 @@
             {
               "paese": "Montenegro",
               "canali": [
-                "Arena 2 Premium",
                 "Arena 4 Premium",
                 "Arena Cloud"
               ]
@@ -2356,7 +2208,6 @@
             {
               "paese": "Serbia",
               "canali": [
-                "Arena 2 Premium",
                 "Arena 4 Premium",
                 "Arena Cloud"
               ]
@@ -2485,6 +2336,7 @@
             {
               "paese": "Ucraina",
               "canali": [
+                "Megogo",
                 "MEGOGO Football 3"
               ]
             },
@@ -6019,7 +5871,7 @@
     },
     {
       "nome": "Calcio",
-      "totale": 109,
+      "totale": 107,
       "sottocartelle": [
         {
           "nome": "Serie A",
@@ -6480,6 +6332,13 @@
                   ]
                 },
                 {
+                  "paese": "Corea del Sud",
+                  "canali": [
+                    "SPOTV NOW",
+                    "SPOTV Prime 2"
+                  ]
+                },
+                {
                   "paese": "Kosovo",
                   "canali": [
                     "Tring Sport 1",
@@ -6901,6 +6760,7 @@
                 {
                   "paese": "Ucraina",
                   "canali": [
+                    "Megogo",
                     "MEGOGO Football 1"
                   ]
                 },
@@ -7455,10 +7315,16 @@
                   ]
                 },
                 {
+                  "paese": "Corea del Sud",
+                  "canali": [
+                    "SPOTV NOW",
+                    "SPOTV Prime 2"
+                  ]
+                },
+                {
                   "paese": "Kosovo",
                   "canali": [
                     "Tring Sport 1",
-                    "Arena 2 Premium",
                     "Arena 4 Premium",
                     "TV Vala Kosovo Telecom"
                   ]
@@ -7512,7 +7378,6 @@
                 {
                   "paese": "Macedonia",
                   "canali": [
-                    "Arena 2 Premium",
                     "Arena 4 Premium",
                     "Arena Cloud",
                     "Arena M2 Premium"
@@ -7573,7 +7438,6 @@
                 {
                   "paese": "Montenegro",
                   "canali": [
-                    "Arena 2 Premium",
                     "Arena 4 Premium",
                     "Arena Cloud"
                   ]
@@ -7757,7 +7621,6 @@
                 {
                   "paese": "Serbia",
                   "canali": [
-                    "Arena 2 Premium",
                     "Arena 4 Premium",
                     "Arena Cloud"
                   ]
@@ -7886,6 +7749,7 @@
                 {
                   "paese": "Ucraina",
                   "canali": [
+                    "Megogo",
                     "MEGOGO Football 3"
                   ]
                 },
@@ -8149,6 +8013,12 @@
                   ]
                 },
                 {
+                  "paese": "Taipei cinese",
+                  "canali": [
+                    "eltaott.tv"
+                  ]
+                },
+                {
                   "paese": "Colombia",
                   "canali": [
                     "Disney+ Premium Sur"
@@ -8164,7 +8034,8 @@
                 {
                   "paese": "Croazia",
                   "canali": [
-                    "Arena Sport 2 Croatia"
+                    "Arena Sport 2 Croatia",
+                    "MAXtv To Go"
                   ]
                 },
                 {
@@ -8382,6 +8253,13 @@
                   ]
                 },
                 {
+                  "paese": "Corea del Sud",
+                  "canali": [
+                    "SPOTV NOW",
+                    "SPOTV Prime+"
+                  ]
+                },
+                {
                   "paese": "Kosovo",
                   "canali": [
                     "Tring Sport 1",
@@ -8421,6 +8299,14 @@
                   "paese": "Macao",
                   "canali": [
                     "M Plus Live"
+                  ]
+                },
+                {
+                  "paese": "Macedonia",
+                  "canali": [
+                    "Arena Sport 3 Serbia",
+                    "MaxTV Go",
+                    "Arena Cloud"
                   ]
                 },
                 {
@@ -8465,6 +8351,13 @@
                   "paese": "Monaco",
                   "canali": [
                     "DAZN France"
+                  ]
+                },
+                {
+                  "paese": "Montenegro",
+                  "canali": [
+                    "Arena Sport 3 Serbia",
+                    "Arena Cloud"
                   ]
                 },
                 {
@@ -8548,6 +8441,13 @@
                   ]
                 },
                 {
+                  "paese": "Polonia",
+                  "canali": [
+                    "Eleven Sports 2 Poland",
+                    "Canal+"
+                  ]
+                },
+                {
                   "paese": "Portogallo",
                   "canali": [
                     "Sport TV2",
@@ -8568,6 +8468,21 @@
                     "STARZPLAY",
                     "Shasha",
                     "Thmanyah"
+                  ]
+                },
+                {
+                  "paese": "Romania",
+                  "canali": [
+                    "Digi Sport 2 Romania",
+                    "Digi Online"
+                  ]
+                },
+                {
+                  "paese": "Russia",
+                  "canali": [
+                    "Sportbox.ru",
+                    "Матч! Футбол 1",
+                    "matchtv.ru"
                   ]
                 },
                 {
@@ -8614,6 +8529,13 @@
                     "Shasha",
                     "STC TV",
                     "Thmanyah"
+                  ]
+                },
+                {
+                  "paese": "Serbia",
+                  "canali": [
+                    "Arena Sport 3 Serbia",
+                    "Arena Cloud"
                   ]
                 },
                 {
@@ -8739,6 +8661,7 @@
                 {
                   "paese": "Ucraina",
                   "canali": [
+                    "Megogo",
                     "MEGOGO Football 2"
                   ]
                 },
@@ -8888,7 +8811,8 @@
                 {
                   "paese": "Australia",
                   "canali": [
-                    "beIN SPORTS 2"
+                    "beIN SPORTS 2",
+                    "beIN Sports Connect"
                   ]
                 },
                 {
@@ -8994,6 +8918,12 @@
                   ]
                 },
                 {
+                  "paese": "Taipei cinese",
+                  "canali": [
+                    "eltaott.tv"
+                  ]
+                },
+                {
                   "paese": "Colombia",
                   "canali": [
                     "Disney+ Premium Sur"
@@ -9008,7 +8938,8 @@
                 {
                   "paese": "Croazia",
                   "canali": [
-                    "Arena Sport 3 Croatia"
+                    "Arena Sport 3 Croatia",
+                    "MAXtv To Go"
                   ]
                 },
                 {
@@ -9135,6 +9066,7 @@
                 {
                   "paese": "Hong Kong",
                   "canali": [
+                    "Now Player",
                     "beIN Sports 1 Hong Kong",
                     "M Plus Live",
                     "beIN SPORTS MAX Hong Kong"
@@ -9201,6 +9133,13 @@
                   ]
                 },
                 {
+                  "paese": "Corea del Sud",
+                  "canali": [
+                    "SPOTV NOW",
+                    "SPOTV Prime 2"
+                  ]
+                },
+                {
                   "paese": "Kosovo",
                   "canali": [
                     "Tring Sport 1",
@@ -9243,6 +9182,14 @@
                   ]
                 },
                 {
+                  "paese": "Macedonia",
+                  "canali": [
+                    "Arena Sport 1 Serbia",
+                    "MaxTV Go",
+                    "Arena Cloud"
+                  ]
+                },
+                {
                   "paese": "Maldive",
                   "canali": [
                     "ZEE5"
@@ -9277,6 +9224,13 @@
                   "paese": "Monaco",
                   "canali": [
                     "DAZN France"
+                  ]
+                },
+                {
+                  "paese": "Montenegro",
+                  "canali": [
+                    "Arena Sport 1 Serbia",
+                    "Arena Cloud"
                   ]
                 },
                 {
@@ -9379,6 +9333,21 @@
                   ]
                 },
                 {
+                  "paese": "Romania",
+                  "canali": [
+                    "Digi Online",
+                    "Digi Sport 4 Romania"
+                  ]
+                },
+                {
+                  "paese": "Russia",
+                  "canali": [
+                    "Sportbox.ru",
+                    "Матч! Футбол 1",
+                    "matchtv.ru"
+                  ]
+                },
+                {
                   "paese": "Saint Barthelemy",
                   "canali": [
                     "Disney+ Premium Caribbean"
@@ -9416,6 +9385,13 @@
                     "Shasha",
                     "STC TV",
                     "Thmanyah"
+                  ]
+                },
+                {
+                  "paese": "Serbia",
+                  "canali": [
+                    "Arena Sport 1 Serbia",
+                    "Arena Cloud"
                   ]
                 },
                 {
@@ -9521,6 +9497,7 @@
                 {
                   "paese": "Ucraina",
                   "canali": [
+                    "Megogo",
                     "MEGOGO Football 2"
                   ]
                 },
@@ -9656,7 +9633,8 @@
                 {
                   "paese": "Australia",
                   "canali": [
-                    "beIN SPORTS 2"
+                    "beIN SPORTS 2",
+                    "beIN Sports Connect"
                   ]
                 },
                 {
@@ -9762,6 +9740,12 @@
                   ]
                 },
                 {
+                  "paese": "Taipei cinese",
+                  "canali": [
+                    "eltaott.tv"
+                  ]
+                },
+                {
                   "paese": "Colombia",
                   "canali": [
                     "Disney+ Premium Sur"
@@ -9776,7 +9760,8 @@
                 {
                   "paese": "Croazia",
                   "canali": [
-                    "Arena Sport 2 Croatia"
+                    "Arena Sport 2 Croatia",
+                    "MAXtv To Go"
                   ]
                 },
                 {
@@ -9903,6 +9888,7 @@
                 {
                   "paese": "Hong Kong",
                   "canali": [
+                    "Now Player",
                     "beIN Sports 1 Hong Kong",
                     "M Plus Live"
                   ]
@@ -9974,9 +9960,17 @@
                   ]
                 },
                 {
+                  "paese": "Corea del Sud",
+                  "canali": [
+                    "SPOTV NOW",
+                    "SPOTV Prime 2"
+                  ]
+                },
+                {
                   "paese": "Kosovo",
                   "canali": [
                     "Tring Sport 1",
+                    "Arena 5 Premium",
                     "TV Vala Kosovo Telecom"
                   ]
                 },
@@ -10016,6 +10010,13 @@
                   ]
                 },
                 {
+                  "paese": "Macedonia",
+                  "canali": [
+                    "Arena 5 Premium",
+                    "Arena Cloud"
+                  ]
+                },
+                {
                   "paese": "Maldive",
                   "canali": [
                     "ZEE5"
@@ -10050,6 +10051,13 @@
                   "paese": "Monaco",
                   "canali": [
                     "DAZN France"
+                  ]
+                },
+                {
+                  "paese": "Montenegro",
+                  "canali": [
+                    "Arena 5 Premium",
+                    "Arena Cloud"
                   ]
                 },
                 {
@@ -10133,7 +10141,8 @@
                 {
                   "paese": "Portogallo",
                   "canali": [
-                    "Sport TV1"
+                    "Sport TV1",
+                    "Sport TV Multiscreen"
                   ]
                 },
                 {
@@ -10148,6 +10157,21 @@
                     "STARZPLAY",
                     "Shasha",
                     "Thmanyah"
+                  ]
+                },
+                {
+                  "paese": "Romania",
+                  "canali": [
+                    "Digi Sport 2 Romania",
+                    "Digi Online"
+                  ]
+                },
+                {
+                  "paese": "Russia",
+                  "canali": [
+                    "Sportbox.ru",
+                    "Матч! Футбол 1",
+                    "matchtv.ru"
                   ]
                 },
                 {
@@ -10188,6 +10212,13 @@
                     "Shasha",
                     "STC TV",
                     "Thmanyah"
+                  ]
+                },
+                {
+                  "paese": "Serbia",
+                  "canali": [
+                    "Arena 5 Premium",
+                    "Arena Cloud"
                   ]
                 },
                 {
@@ -10293,6 +10324,7 @@
                 {
                   "paese": "Ucraina",
                   "canali": [
+                    "Megogo",
                     "MEGOGO Football 2"
                   ]
                 },
@@ -10490,126 +10522,8 @@
         },
         {
           "nome": "Serie B",
-          "totale": 12,
+          "totale": 11,
           "eventi": [
-            {
-              "titolo": "Serie B: Empoli vs Palermo",
-              "categoria": "Calcio",
-              "sottocartella": "Serie B",
-              "sport": "Calcio",
-              "competizione": "Serie B",
-              "evento": "Empoli vs Palermo",
-              "inizio": "2026-10-12T03:30:00+02:00",
-              "data": "12/10/2026",
-              "ora": "03:30",
-              "canali": [
-                {
-                  "nome": "DAZN Italia",
-                  "numero": "",
-                  "tipo": "streaming",
-                  "orario": "2026-10-12T03:30",
-                  "fonte": "livesoccer"
-                },
-                {
-                  "nome": "LAB Channel",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-12T03:30",
-                  "fonte": "livesoccer"
-                }
-              ],
-              "canali_mondo": [
-                {
-                  "paese": "Bosnia ed Erzegovina",
-                  "canali": [
-                    "Moja TV",
-                    "Arena Sport 2",
-                    "Arena Cloud"
-                  ]
-                },
-                {
-                  "paese": "Gran Bretagna",
-                  "canali": [
-                    "DCTV"
-                  ]
-                },
-                {
-                  "paese": "Irlanda",
-                  "canali": [
-                    "DCTV"
-                  ]
-                },
-                {
-                  "paese": "Israele",
-                  "canali": [
-                    "5Plus"
-                  ]
-                },
-                {
-                  "paese": "Italia",
-                  "canali": [
-                    "DAZN Italia",
-                    "LAB Channel"
-                  ]
-                },
-                {
-                  "paese": "Liechtenstein",
-                  "canali": [
-                    "Blue Sport 3 Live",
-                    "Blue Sport"
-                  ]
-                },
-                {
-                  "paese": "Macedonia",
-                  "canali": [
-                    "Arena Cloud"
-                  ]
-                },
-                {
-                  "paese": "Montenegro",
-                  "canali": [
-                    "Arena Cloud"
-                  ]
-                },
-                {
-                  "paese": "San Marino",
-                  "canali": [
-                    "DAZN Italia",
-                    "LAB Channel"
-                  ]
-                },
-                {
-                  "paese": "Serbia",
-                  "canali": [
-                    "Arena Sport 6 Serbia",
-                    "Arena Cloud"
-                  ]
-                },
-                {
-                  "paese": "Svizzera",
-                  "canali": [
-                    "Blue Sport 3 Live",
-                    "Blue Sport"
-                  ]
-                },
-                {
-                  "paese": "Turchia",
-                  "canali": [
-                    "Sifir TV"
-                  ]
-                },
-                {
-                  "paese": "USA",
-                  "canali": [
-                    "Fox Soccer Plus",
-                    "fuboTV",
-                    "DCTV",
-                    "FOX One"
-                  ]
-                }
-              ],
-              "fonte": "LiveSoccerTV"
-            },
             {
               "titolo": "Serie B: Avellino vs Sampdoria",
               "categoria": "Calcio",
@@ -10791,10 +10705,29 @@
                   ]
                 },
                 {
+                  "paese": "Macedonia",
+                  "canali": [
+                    "Arena Cloud"
+                  ]
+                },
+                {
+                  "paese": "Montenegro",
+                  "canali": [
+                    "Arena Cloud"
+                  ]
+                },
+                {
                   "paese": "San Marino",
                   "canali": [
                     "DAZN Italia",
                     "LAB Channel"
+                  ]
+                },
+                {
+                  "paese": "Serbia",
+                  "canali": [
+                    "Arena Sport 7 Serbia",
+                    "Arena Cloud"
                   ]
                 }
               ],
@@ -18460,75 +18393,6 @@
           ]
         },
         {
-          "nome": "Liga Profesional",
-          "totale": 3,
-          "eventi": [
-            {
-              "titolo": "Liga Profesional: Racing-Belgrano",
-              "categoria": "Calcio",
-              "sottocartella": "Liga Profesional",
-              "sport": "Calcio",
-              "competizione": "Liga Profesional",
-              "evento": "Racing-Belgrano",
-              "inizio": "2026-10-12T00:15:00+02:00",
-              "data": "12/10/2026",
-              "ora": "00:15",
-              "canali": [
-                {
-                  "nome": "Sportitalia",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-12T00:15",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "Liga Profesional: Sarmiento-River Plate",
-              "categoria": "Calcio",
-              "sottocartella": "Liga Profesional",
-              "sport": "Calcio",
-              "competizione": "Liga Profesional",
-              "evento": "Sarmiento-River Plate",
-              "inizio": "2026-10-15T00:00:00+02:00",
-              "data": "15/10/2026",
-              "ora": "00:00",
-              "canali": [
-                {
-                  "nome": "Sportitalia",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-15T00:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "Liga Profesional: Boca Juniors-Talleres",
-              "categoria": "Calcio",
-              "sottocartella": "Liga Profesional",
-              "sport": "Calcio",
-              "competizione": "Liga Profesional",
-              "evento": "Boca Juniors-Talleres",
-              "inizio": "2026-10-17T02:30:00+02:00",
-              "data": "17/10/2026",
-              "ora": "02:30",
-              "canali": [
-                {
-                  "nome": "Sportitalia",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-17T02:30",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            }
-          ]
-        },
-        {
           "nome": "Primavera 1",
           "totale": 4,
           "eventi": [
@@ -19192,7 +19056,8 @@
                 {
                   "paese": "Taipei cinese",
                   "canali": [
-                    "eltaott.tv"
+                    "eltaott.tv",
+                    "ELTA Sports 1"
                   ]
                 },
                 {
@@ -19466,7 +19331,8 @@
                   "paese": "Ungheria",
                   "canali": [
                     "Sport 1 Hungary",
-                    "RTL+"
+                    "RTL+",
+                    "Selekt"
                   ]
                 },
                 {
@@ -19539,7 +19405,9 @@
                 {
                   "paese": "Giappone",
                   "canali": [
-                    "WOWOW"
+                    "WOWOW Live",
+                    "WOWOW",
+                    "WOWOW On Demand"
                   ]
                 },
                 {
@@ -19563,7 +19431,8 @@
                 {
                   "paese": "Corea del Sud",
                   "canali": [
-                    "SPOTV NOW"
+                    "SPOTV NOW",
+                    "SPOTV Prime 2"
                   ]
                 },
                 {
@@ -19571,7 +19440,8 @@
                   "canali": [
                     "Tring Sport 1",
                     "ArtMotion",
-                    "Arena 3 Premium"
+                    "Arena 3 Premium",
+                    "TV Vala Kosovo Telecom"
                   ]
                 },
                 {
@@ -19653,6 +19523,7 @@
                 {
                   "paese": "Macao",
                   "canali": [
+                    "TDM HD",
                     "iQiyi"
                   ]
                 },
@@ -20126,7 +19997,8 @@
                   "canali": [
                     "Blue Sport",
                     "Blue Sport 8 Live",
-                    "Canal+ Foot"
+                    "Canal+ Foot",
+                    "Sunrise TV"
                   ]
                 },
                 {
@@ -20209,6 +20081,7 @@
                 {
                   "paese": "Ucraina",
                   "canali": [
+                    "Megogo",
                     "MEGOGO Football 2"
                   ]
                 },
@@ -20248,6 +20121,14 @@
                     "ESPN Colombia",
                     "Disney+ Premium Sur",
                     "inter"
+                  ]
+                },
+                {
+                  "paese": "Vietnam",
+                  "canali": [
+                    "ON Football",
+                    "VTVcab ON",
+                    "ON Plus"
                   ]
                 },
                 {
@@ -20606,7 +20487,8 @@
                 {
                   "paese": "Taipei cinese",
                   "canali": [
-                    "eltaott.tv"
+                    "eltaott.tv",
+                    "ELTA Sports 2"
                   ]
                 },
                 {
@@ -20877,7 +20759,8 @@
                   "paese": "Ungheria",
                   "canali": [
                     "Sport 2 Hungary",
-                    "RTL+"
+                    "RTL+",
+                    "Selekt"
                   ]
                 },
                 {
@@ -20963,7 +20846,8 @@
                 {
                   "paese": "Corea del Sud",
                   "canali": [
-                    "SPOTV NOW"
+                    "SPOTV NOW",
+                    "SPOTV Prime+"
                   ]
                 },
                 {
@@ -20971,7 +20855,8 @@
                   "canali": [
                     "Tring Sport 2",
                     "ArtMotion",
-                    "Arena 4 Premium"
+                    "Arena 4 Premium",
+                    "TV Vala Kosovo Telecom"
                   ]
                 },
                 {
@@ -21279,6 +21164,7 @@
                 {
                   "paese": "Filippine",
                   "canali": [
+                    "beIN Sports 3 Philippines",
                     "beIN Sports Connect Philippines"
                   ]
                 },
@@ -21509,7 +21395,8 @@
                   "paese": "Svizzera",
                   "canali": [
                     "Canal+ Sport",
-                    "Blue Sport"
+                    "Blue Sport",
+                    "Sunrise TV"
                   ]
                 },
                 {
@@ -21589,6 +21476,7 @@
                 {
                   "paese": "Ucraina",
                   "canali": [
+                    "Megogo",
                     "MEGOGO Football 3"
                   ]
                 },
@@ -21620,6 +21508,15 @@
                     "ESPN2 Colombia",
                     "Disney+ Premium Sur",
                     "inter"
+                  ]
+                },
+                {
+                  "paese": "Vietnam",
+                  "canali": [
+                    "VTVcab ON",
+                    "ON Sports",
+                    "TV 360",
+                    "ON Plus"
                   ]
                 },
                 {
@@ -21972,7 +21869,8 @@
                 {
                   "paese": "Taipei cinese",
                   "canali": [
-                    "eltaott.tv"
+                    "eltaott.tv",
+                    "ELTA Sports 2"
                   ]
                 },
                 {
@@ -22232,7 +22130,8 @@
                   "paese": "Ungheria",
                   "canali": [
                     "Sport 2 Hungary",
-                    "RTL+"
+                    "RTL+",
+                    "Selekt"
                   ]
                 },
                 {
@@ -22302,7 +22201,9 @@
                 {
                   "paese": "Giappone",
                   "canali": [
-                    "WOWOW"
+                    "WOWOW Cinema",
+                    "WOWOW",
+                    "WOWOW On Demand"
                   ]
                 },
                 {
@@ -22325,7 +22226,8 @@
                 {
                   "paese": "Corea del Sud",
                   "canali": [
-                    "SPOTV NOW"
+                    "SPOTV NOW",
+                    "SPOTV Prime 2"
                   ]
                 },
                 {
@@ -22334,7 +22236,8 @@
                     "ArtMotion",
                     "Tring Sport 5",
                     "Arena 4 Premium",
-                    "Arena 5 Premium"
+                    "Arena 5 Premium",
+                    "TV Vala Kosovo Telecom"
                   ]
                 },
                 {
@@ -22413,6 +22316,7 @@
                 {
                   "paese": "Macao",
                   "canali": [
+                    "TDM HD",
                     "iQiyi"
                   ]
                 },
@@ -22647,6 +22551,7 @@
                 {
                   "paese": "Filippine",
                   "canali": [
+                    "beIN Sports 3 Philippines",
                     "beIN Sports Connect Philippines"
                   ]
                 },
@@ -22877,7 +22782,8 @@
                   "canali": [
                     "Blue Sport 3 Live",
                     "Blue Sport",
-                    "Canal+ Foot"
+                    "Canal+ Foot",
+                    "Sunrise TV"
                   ]
                 },
                 {
@@ -23336,7 +23242,8 @@
                 {
                   "paese": "Taipei cinese",
                   "canali": [
-                    "eltaott.tv"
+                    "eltaott.tv",
+                    "ELTA Sports 1"
                   ]
                 },
                 {
@@ -23610,7 +23517,8 @@
                   "paese": "Ungheria",
                   "canali": [
                     "Sport 1 Hungary",
-                    "RTL+"
+                    "RTL+",
+                    "Selekt"
                   ]
                 },
                 {
@@ -23682,7 +23590,9 @@
                 {
                   "paese": "Giappone",
                   "canali": [
-                    "WOWOW"
+                    "WOWOW Prime",
+                    "WOWOW",
+                    "WOWOW On Demand"
                   ]
                 },
                 {
@@ -23706,7 +23616,8 @@
                 {
                   "paese": "Corea del Sud",
                   "canali": [
-                    "SPOTV NOW"
+                    "SPOTV NOW",
+                    "SPOTV Prime"
                   ]
                 },
                 {
@@ -23714,7 +23625,8 @@
                   "canali": [
                     "Tring Sport 1",
                     "ArtMotion",
-                    "Arena 3 Premium"
+                    "Arena 3 Premium",
+                    "TV Vala Kosovo Telecom"
                   ]
                 },
                 {
@@ -23796,6 +23708,7 @@
                 {
                   "paese": "Macao",
                   "canali": [
+                    "TDM Desporto",
                     "iQiyi"
                   ]
                 },
@@ -24030,6 +23943,7 @@
                 {
                   "paese": "Filippine",
                   "canali": [
+                    "beIN Sports 1 Philippines",
                     "beIN Sports Connect Philippines"
                   ]
                 },
@@ -24355,6 +24269,7 @@
                 {
                   "paese": "Ucraina",
                   "canali": [
+                    "Megogo",
                     "MEGOGO Football 2"
                   ]
                 },
@@ -26236,6 +26151,54 @@
           ]
         },
         {
+          "nome": "Liga Profesional",
+          "totale": 2,
+          "eventi": [
+            {
+              "titolo": "Liga Profesional: Sarmiento-River Plate",
+              "categoria": "Calcio",
+              "sottocartella": "Liga Profesional",
+              "sport": "Calcio",
+              "competizione": "Liga Profesional",
+              "evento": "Sarmiento-River Plate",
+              "inizio": "2026-10-15T00:00:00+02:00",
+              "data": "15/10/2026",
+              "ora": "00:00",
+              "canali": [
+                {
+                  "nome": "Sportitalia",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-15T00:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "Liga Profesional: Boca Juniors-Talleres",
+              "categoria": "Calcio",
+              "sottocartella": "Liga Profesional",
+              "sport": "Calcio",
+              "competizione": "Liga Profesional",
+              "evento": "Boca Juniors-Talleres",
+              "inizio": "2026-10-17T02:30:00+02:00",
+              "data": "17/10/2026",
+              "ora": "02:30",
+              "canali": [
+                {
+                  "nome": "Sportitalia",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-17T02:30",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            }
+          ]
+        },
+        {
           "nome": "UEFA Europa League",
           "totale": 19,
           "eventi": [
@@ -26568,6 +26531,12 @@
                   ]
                 },
                 {
+                  "paese": "Taipei cinese",
+                  "canali": [
+                    "eltaott.tv"
+                  ]
+                },
+                {
                   "paese": "Colombia",
                   "canali": [
                     "ESPN Colombia",
@@ -26662,6 +26631,7 @@
                 {
                   "paese": "Francia",
                   "canali": [
+                    "myCANAL",
                     "Canal+ Live 3"
                   ]
                 },
@@ -26762,6 +26732,19 @@
                   ]
                 },
                 {
+                  "paese": "Corea del Sud",
+                  "canali": [
+                    "SPOTV NOW",
+                    "SPOTV Prime"
+                  ]
+                },
+                {
+                  "paese": "Kosovo",
+                  "canali": [
+                    "Arena 4 Premium"
+                  ]
+                },
+                {
                   "paese": "Kuwait",
                   "canali": [
                     "beIN Sports HD 1",
@@ -26814,7 +26797,15 @@
                 {
                   "paese": "Macao",
                   "canali": [
+                    "TDM HD",
                     "iQiyi"
+                  ]
+                },
+                {
+                  "paese": "Macedonia",
+                  "canali": [
+                    "Arena 4 Premium",
+                    "Arena Cloud"
                   ]
                 },
                 {
@@ -26843,6 +26834,13 @@
                   "paese": "Moldavia",
                   "canali": [
                     "Okko Спорт"
+                  ]
+                },
+                {
+                  "paese": "Montenegro",
+                  "canali": [
+                    "Arena 4 Premium",
+                    "Arena Cloud"
                   ]
                 },
                 {
@@ -26923,7 +26921,15 @@
                 {
                   "paese": "Filippine",
                   "canali": [
+                    "beIN Sports 1 Philippines",
                     "beIN Sports Connect Philippines"
+                  ]
+                },
+                {
+                  "paese": "Polonia",
+                  "canali": [
+                    "Polsat Box Go",
+                    "Polsat Sport Premium 2"
                   ]
                 },
                 {
@@ -26950,6 +26956,8 @@
                 {
                   "paese": "Romania",
                   "canali": [
+                    "Digi Sport 3 Romania",
+                    "Digi Online",
                     "Prima Sport 2",
                     "Orange TV Go",
                     "Prima Play"
@@ -26987,6 +26995,13 @@
                     "beIN Sports HD 1",
                     "beIN SPORTS CONNECT",
                     "TOD"
+                  ]
+                },
+                {
+                  "paese": "Serbia",
+                  "canali": [
+                    "Arena 4 Premium",
+                    "Arena Cloud"
                   ]
                 },
                 {
@@ -27096,6 +27111,7 @@
                 {
                   "paese": "Ucraina",
                   "canali": [
+                    "Megogo",
                     "MEGOGO Football 2"
                   ]
                 },
@@ -27632,287 +27648,8 @@
     },
     {
       "nome": "Tennis",
-      "totale": 27,
+      "totale": 26,
       "sottocartelle": [
-        {
-          "nome": "WTA 1000 Wuhan",
-          "totale": 13,
-          "eventi": [
-            {
-              "titolo": "WTA 1000 Wuhan: 2a giornata",
-              "categoria": "Tennis",
-              "sottocartella": "WTA 1000 Wuhan",
-              "sport": "Tennis",
-              "competizione": "WTA 1000 Wuhan",
-              "evento": "2a giornata",
-              "inizio": "2026-10-12T05:00:00+02:00",
-              "data": "12/10/2026",
-              "ora": "05:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Tennis",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-12T05:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "WTA 1000 Wuhan: 1a giornata",
-              "categoria": "Tennis",
-              "sottocartella": "WTA 1000 Wuhan",
-              "sport": "Tennis",
-              "competizione": "WTA 1000 Wuhan",
-              "evento": "1a giornata",
-              "inizio": "2026-10-12T06:00:00+02:00",
-              "data": "12/10/2026",
-              "ora": "06:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Arena",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-12T06:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "WTA 1000 Wuhan: 3a giornata",
-              "categoria": "Tennis",
-              "sottocartella": "WTA 1000 Wuhan",
-              "sport": "Tennis",
-              "competizione": "WTA 1000 Wuhan",
-              "evento": "3a giornata",
-              "inizio": "2026-10-13T05:00:00+02:00",
-              "data": "13/10/2026",
-              "ora": "05:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Tennis",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-13T05:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "WTA 1000 Wuhan: 2a giornata",
-              "categoria": "Tennis",
-              "sottocartella": "WTA 1000 Wuhan",
-              "sport": "Tennis",
-              "competizione": "WTA 1000 Wuhan",
-              "evento": "2a giornata",
-              "inizio": "2026-10-13T06:00:00+02:00",
-              "data": "13/10/2026",
-              "ora": "06:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Tennis",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-13T06:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "WTA 1000 Wuhan: 4a giornata",
-              "categoria": "Tennis",
-              "sottocartella": "WTA 1000 Wuhan",
-              "sport": "Tennis",
-              "competizione": "WTA 1000 Wuhan",
-              "evento": "4a giornata",
-              "inizio": "2026-10-14T05:00:00+02:00",
-              "data": "14/10/2026",
-              "ora": "05:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Tennis",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-14T05:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "WTA 1000 Wuhan: 3a giornata",
-              "categoria": "Tennis",
-              "sottocartella": "WTA 1000 Wuhan",
-              "sport": "Tennis",
-              "competizione": "WTA 1000 Wuhan",
-              "evento": "3a giornata",
-              "inizio": "2026-10-14T06:00:00+02:00",
-              "data": "14/10/2026",
-              "ora": "06:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Tennis",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-14T06:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "WTA 1000 Wuhan: 4a giornata",
-              "categoria": "Tennis",
-              "sottocartella": "WTA 1000 Wuhan",
-              "sport": "Tennis",
-              "competizione": "WTA 1000 Wuhan",
-              "evento": "4a giornata",
-              "inizio": "2026-10-15T06:00:00+02:00",
-              "data": "15/10/2026",
-              "ora": "06:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Tennis",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-15T06:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "WTA 1000 Wuhan: 2^ Quarto di Finale",
-              "categoria": "Tennis",
-              "sottocartella": "WTA 1000 Wuhan",
-              "sport": "Tennis",
-              "competizione": "WTA 1000 Wuhan",
-              "evento": "2^ Quarto di Finale",
-              "inizio": "2026-10-16T07:00:00+02:00",
-              "data": "16/10/2026",
-              "ora": "07:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Max",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-16T07:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "WTA 1000 Wuhan: 3^ Quarto di Finale",
-              "categoria": "Tennis",
-              "sottocartella": "WTA 1000 Wuhan",
-              "sport": "Tennis",
-              "competizione": "WTA 1000 Wuhan",
-              "evento": "3^ Quarto di Finale",
-              "inizio": "2026-10-16T09:00:00+02:00",
-              "data": "16/10/2026",
-              "ora": "09:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Max",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-16T09:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "WTA 1000 Wuhan: 4^ Quarto di Finale",
-              "categoria": "Tennis",
-              "sottocartella": "WTA 1000 Wuhan",
-              "sport": "Tennis",
-              "competizione": "WTA 1000 Wuhan",
-              "evento": "4^ Quarto di Finale",
-              "inizio": "2026-10-16T13:00:00+02:00",
-              "data": "16/10/2026",
-              "ora": "13:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Max",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-16T13:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "WTA 1000 Wuhan: 1a Semifinale",
-              "categoria": "Tennis",
-              "sottocartella": "WTA 1000 Wuhan",
-              "sport": "Tennis",
-              "competizione": "WTA 1000 Wuhan",
-              "evento": "1a Semifinale",
-              "inizio": "2026-10-17T11:00:00+02:00",
-              "data": "17/10/2026",
-              "ora": "11:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Max",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-17T11:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "WTA 1000 Wuhan: 2a Semifinale",
-              "categoria": "Tennis",
-              "sottocartella": "WTA 1000 Wuhan",
-              "sport": "Tennis",
-              "competizione": "WTA 1000 Wuhan",
-              "evento": "2a Semifinale",
-              "inizio": "2026-10-17T12:30:00+02:00",
-              "data": "17/10/2026",
-              "ora": "12:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport Max",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-17T12:30",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "WTA 1000 Wuhan: Finale",
-              "categoria": "Tennis",
-              "sottocartella": "WTA 1000 Wuhan",
-              "sport": "Tennis",
-              "competizione": "WTA 1000 Wuhan",
-              "evento": "Finale",
-              "inizio": "2026-10-18T12:30:00+02:00",
-              "data": "18/10/2026",
-              "ora": "12:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport Max",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-18T12:30",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            }
-          ]
-        },
         {
           "nome": "ATP Masters 1000 Shanghai",
           "totale": 13,
@@ -28220,6 +27957,264 @@
                   "numero": "201",
                   "tipo": "diretta",
                   "orario": "2026-10-18T10:30",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            }
+          ]
+        },
+        {
+          "nome": "WTA 1000 Wuhan",
+          "totale": 12,
+          "eventi": [
+            {
+              "titolo": "WTA 1000 Wuhan: 1a giornata",
+              "categoria": "Tennis",
+              "sottocartella": "WTA 1000 Wuhan",
+              "sport": "Tennis",
+              "competizione": "WTA 1000 Wuhan",
+              "evento": "1a giornata",
+              "inizio": "2026-10-12T06:00:00+02:00",
+              "data": "12/10/2026",
+              "ora": "06:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport Arena",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-12T06:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "WTA 1000 Wuhan: 3a giornata",
+              "categoria": "Tennis",
+              "sottocartella": "WTA 1000 Wuhan",
+              "sport": "Tennis",
+              "competizione": "WTA 1000 Wuhan",
+              "evento": "3a giornata",
+              "inizio": "2026-10-13T05:00:00+02:00",
+              "data": "13/10/2026",
+              "ora": "05:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport Tennis",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-13T05:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "WTA 1000 Wuhan: 2a giornata",
+              "categoria": "Tennis",
+              "sottocartella": "WTA 1000 Wuhan",
+              "sport": "Tennis",
+              "competizione": "WTA 1000 Wuhan",
+              "evento": "2a giornata",
+              "inizio": "2026-10-13T06:00:00+02:00",
+              "data": "13/10/2026",
+              "ora": "06:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport Tennis",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-13T06:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "WTA 1000 Wuhan: 4a giornata",
+              "categoria": "Tennis",
+              "sottocartella": "WTA 1000 Wuhan",
+              "sport": "Tennis",
+              "competizione": "WTA 1000 Wuhan",
+              "evento": "4a giornata",
+              "inizio": "2026-10-14T05:00:00+02:00",
+              "data": "14/10/2026",
+              "ora": "05:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport Tennis",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-14T05:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "WTA 1000 Wuhan: 3a giornata",
+              "categoria": "Tennis",
+              "sottocartella": "WTA 1000 Wuhan",
+              "sport": "Tennis",
+              "competizione": "WTA 1000 Wuhan",
+              "evento": "3a giornata",
+              "inizio": "2026-10-14T06:00:00+02:00",
+              "data": "14/10/2026",
+              "ora": "06:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport Tennis",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-14T06:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "WTA 1000 Wuhan: 4a giornata",
+              "categoria": "Tennis",
+              "sottocartella": "WTA 1000 Wuhan",
+              "sport": "Tennis",
+              "competizione": "WTA 1000 Wuhan",
+              "evento": "4a giornata",
+              "inizio": "2026-10-15T06:00:00+02:00",
+              "data": "15/10/2026",
+              "ora": "06:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport Tennis",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-15T06:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "WTA 1000 Wuhan: 2^ Quarto di Finale",
+              "categoria": "Tennis",
+              "sottocartella": "WTA 1000 Wuhan",
+              "sport": "Tennis",
+              "competizione": "WTA 1000 Wuhan",
+              "evento": "2^ Quarto di Finale",
+              "inizio": "2026-10-16T07:00:00+02:00",
+              "data": "16/10/2026",
+              "ora": "07:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport Max",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-16T07:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "WTA 1000 Wuhan: 3^ Quarto di Finale",
+              "categoria": "Tennis",
+              "sottocartella": "WTA 1000 Wuhan",
+              "sport": "Tennis",
+              "competizione": "WTA 1000 Wuhan",
+              "evento": "3^ Quarto di Finale",
+              "inizio": "2026-10-16T09:00:00+02:00",
+              "data": "16/10/2026",
+              "ora": "09:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport Max",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-16T09:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "WTA 1000 Wuhan: 4^ Quarto di Finale",
+              "categoria": "Tennis",
+              "sottocartella": "WTA 1000 Wuhan",
+              "sport": "Tennis",
+              "competizione": "WTA 1000 Wuhan",
+              "evento": "4^ Quarto di Finale",
+              "inizio": "2026-10-16T13:00:00+02:00",
+              "data": "16/10/2026",
+              "ora": "13:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport Max",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-16T13:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "WTA 1000 Wuhan: 1a Semifinale",
+              "categoria": "Tennis",
+              "sottocartella": "WTA 1000 Wuhan",
+              "sport": "Tennis",
+              "competizione": "WTA 1000 Wuhan",
+              "evento": "1a Semifinale",
+              "inizio": "2026-10-17T11:00:00+02:00",
+              "data": "17/10/2026",
+              "ora": "11:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport Max",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-17T11:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "WTA 1000 Wuhan: 2a Semifinale",
+              "categoria": "Tennis",
+              "sottocartella": "WTA 1000 Wuhan",
+              "sport": "Tennis",
+              "competizione": "WTA 1000 Wuhan",
+              "evento": "2a Semifinale",
+              "inizio": "2026-10-17T12:30:00+02:00",
+              "data": "17/10/2026",
+              "ora": "12:30",
+              "canali": [
+                {
+                  "nome": "Sky Sport Max",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-17T12:30",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "WTA 1000 Wuhan: Finale",
+              "categoria": "Tennis",
+              "sottocartella": "WTA 1000 Wuhan",
+              "sport": "Tennis",
+              "competizione": "WTA 1000 Wuhan",
+              "evento": "Finale",
+              "inizio": "2026-10-18T12:30:00+02:00",
+              "data": "18/10/2026",
+              "ora": "12:30",
+              "canali": [
+                {
+                  "nome": "Sky Sport Max",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-18T12:30",
                   "fonte": "virgilio"
                 }
               ],
