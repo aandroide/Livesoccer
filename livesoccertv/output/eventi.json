@@ -2,106 +2,6 @@
   "eventi": [
     {
       "competizione": "Serie B",
-      "titolo": "Empoli vs Palermo",
-      "data": "2026-10-12",
-      "ora": "03:30",
-      "canali": [
-        "DAZN Italia",
-        "LAB Channel"
-      ],
-      "canali_mondo": [
-        {
-          "paese": "Bosnia ed Erzegovina",
-          "canali": [
-            "Moja TV",
-            "Arena Sport 2",
-            "Arena Cloud"
-          ]
-        },
-        {
-          "paese": "Gran Bretagna",
-          "canali": [
-            "DCTV"
-          ]
-        },
-        {
-          "paese": "Irlanda",
-          "canali": [
-            "DCTV"
-          ]
-        },
-        {
-          "paese": "Israele",
-          "canali": [
-            "5Plus"
-          ]
-        },
-        {
-          "paese": "Italia",
-          "canali": [
-            "DAZN Italia",
-            "LAB Channel"
-          ]
-        },
-        {
-          "paese": "Liechtenstein",
-          "canali": [
-            "Blue Sport 3 Live",
-            "Blue Sport"
-          ]
-        },
-        {
-          "paese": "Macedonia",
-          "canali": [
-            "Arena Cloud"
-          ]
-        },
-        {
-          "paese": "Montenegro",
-          "canali": [
-            "Arena Cloud"
-          ]
-        },
-        {
-          "paese": "San Marino",
-          "canali": [
-            "DAZN Italia",
-            "LAB Channel"
-          ]
-        },
-        {
-          "paese": "Serbia",
-          "canali": [
-            "Arena Sport 6 Serbia",
-            "Arena Cloud"
-          ]
-        },
-        {
-          "paese": "Svizzera",
-          "canali": [
-            "Blue Sport 3 Live",
-            "Blue Sport"
-          ]
-        },
-        {
-          "paese": "Turchia",
-          "canali": [
-            "Sifir TV"
-          ]
-        },
-        {
-          "paese": "USA",
-          "canali": [
-            "Fox Soccer Plus",
-            "fuboTV",
-            "DCTV",
-            "FOX One"
-          ]
-        }
-      ]
-    },
-    {
-      "competizione": "Serie B",
       "titolo": "Avellino vs Sampdoria",
       "data": "2026-10-12",
       "ora": "07:30",
@@ -646,6 +546,13 @@
           ]
         },
         {
+          "paese": "Corea del Sud",
+          "canali": [
+            "SPOTV NOW",
+            "SPOTV Prime 2"
+          ]
+        },
+        {
           "paese": "Kosovo",
           "canali": [
             "Tring Sport 1",
@@ -1067,6 +974,7 @@
         {
           "paese": "Ucraina",
           "canali": [
+            "Megogo",
             "MEGOGO Football 1"
           ]
         },
@@ -1670,10 +1578,16 @@
           ]
         },
         {
+          "paese": "Corea del Sud",
+          "canali": [
+            "SPOTV NOW",
+            "SPOTV Prime 2"
+          ]
+        },
+        {
           "paese": "Kosovo",
           "canali": [
             "Tring Sport 1",
-            "Arena 2 Premium",
             "Arena 4 Premium",
             "TV Vala Kosovo Telecom"
           ]
@@ -1727,7 +1641,6 @@
         {
           "paese": "Macedonia",
           "canali": [
-            "Arena 2 Premium",
             "Arena 4 Premium",
             "Arena Cloud",
             "Arena M2 Premium"
@@ -1788,7 +1701,6 @@
         {
           "paese": "Montenegro",
           "canali": [
-            "Arena 2 Premium",
             "Arena 4 Premium",
             "Arena Cloud"
           ]
@@ -1972,7 +1884,6 @@
         {
           "paese": "Serbia",
           "canali": [
-            "Arena 2 Premium",
             "Arena 4 Premium",
             "Arena Cloud"
           ]
@@ -2101,6 +2012,7 @@
         {
           "paese": "Ucraina",
           "canali": [
+            "Megogo",
             "MEGOGO Football 3"
           ]
         },
@@ -2525,7 +2437,8 @@
         {
           "paese": "Taipei cinese",
           "canali": [
-            "eltaott.tv"
+            "eltaott.tv",
+            "ELTA Sports 1"
           ]
         },
         {
@@ -2799,7 +2712,8 @@
           "paese": "Ungheria",
           "canali": [
             "Sport 1 Hungary",
-            "RTL+"
+            "RTL+",
+            "Selekt"
           ]
         },
         {
@@ -2872,7 +2786,9 @@
         {
           "paese": "Giappone",
           "canali": [
-            "WOWOW"
+            "WOWOW Live",
+            "WOWOW",
+            "WOWOW On Demand"
           ]
         },
         {
@@ -2896,7 +2812,8 @@
         {
           "paese": "Corea del Sud",
           "canali": [
-            "SPOTV NOW"
+            "SPOTV NOW",
+            "SPOTV Prime 2"
           ]
         },
         {
@@ -2904,7 +2821,8 @@
           "canali": [
             "Tring Sport 1",
             "ArtMotion",
-            "Arena 3 Premium"
+            "Arena 3 Premium",
+            "TV Vala Kosovo Telecom"
           ]
         },
         {
@@ -2986,6 +2904,7 @@
         {
           "paese": "Macao",
           "canali": [
+            "TDM HD",
             "iQiyi"
           ]
         },
@@ -3459,7 +3378,8 @@
           "canali": [
             "Blue Sport",
             "Blue Sport 8 Live",
-            "Canal+ Foot"
+            "Canal+ Foot",
+            "Sunrise TV"
           ]
         },
         {
@@ -3542,6 +3462,7 @@
         {
           "paese": "Ucraina",
           "canali": [
+            "Megogo",
             "MEGOGO Football 2"
           ]
         },
@@ -3581,6 +3502,14 @@
             "ESPN Colombia",
             "Disney+ Premium Sur",
             "inter"
+          ]
+        },
+        {
+          "paese": "Vietnam",
+          "canali": [
+            "ON Football",
+            "VTVcab ON",
+            "ON Plus"
           ]
         },
         {
@@ -3908,7 +3837,8 @@
         {
           "paese": "Taipei cinese",
           "canali": [
-            "eltaott.tv"
+            "eltaott.tv",
+            "ELTA Sports 2"
           ]
         },
         {
@@ -4179,7 +4109,8 @@
           "paese": "Ungheria",
           "canali": [
             "Sport 2 Hungary",
-            "RTL+"
+            "RTL+",
+            "Selekt"
           ]
         },
         {
@@ -4265,7 +4196,8 @@
         {
           "paese": "Corea del Sud",
           "canali": [
-            "SPOTV NOW"
+            "SPOTV NOW",
+            "SPOTV Prime+"
           ]
         },
         {
@@ -4273,7 +4205,8 @@
           "canali": [
             "Tring Sport 2",
             "ArtMotion",
-            "Arena 4 Premium"
+            "Arena 4 Premium",
+            "TV Vala Kosovo Telecom"
           ]
         },
         {
@@ -4581,6 +4514,7 @@
         {
           "paese": "Filippine",
           "canali": [
+            "beIN Sports 3 Philippines",
             "beIN Sports Connect Philippines"
           ]
         },
@@ -4811,7 +4745,8 @@
           "paese": "Svizzera",
           "canali": [
             "Canal+ Sport",
-            "Blue Sport"
+            "Blue Sport",
+            "Sunrise TV"
           ]
         },
         {
@@ -4891,6 +4826,7 @@
         {
           "paese": "Ucraina",
           "canali": [
+            "Megogo",
             "MEGOGO Football 3"
           ]
         },
@@ -4922,6 +4858,15 @@
             "ESPN2 Colombia",
             "Disney+ Premium Sur",
             "inter"
+          ]
+        },
+        {
+          "paese": "Vietnam",
+          "canali": [
+            "VTVcab ON",
+            "ON Sports",
+            "TV 360",
+            "ON Plus"
           ]
         },
         {
@@ -5243,7 +5188,8 @@
         {
           "paese": "Taipei cinese",
           "canali": [
-            "eltaott.tv"
+            "eltaott.tv",
+            "ELTA Sports 2"
           ]
         },
         {
@@ -5503,7 +5449,8 @@
           "paese": "Ungheria",
           "canali": [
             "Sport 2 Hungary",
-            "RTL+"
+            "RTL+",
+            "Selekt"
           ]
         },
         {
@@ -5573,7 +5520,9 @@
         {
           "paese": "Giappone",
           "canali": [
-            "WOWOW"
+            "WOWOW Cinema",
+            "WOWOW",
+            "WOWOW On Demand"
           ]
         },
         {
@@ -5596,7 +5545,8 @@
         {
           "paese": "Corea del Sud",
           "canali": [
-            "SPOTV NOW"
+            "SPOTV NOW",
+            "SPOTV Prime 2"
           ]
         },
         {
@@ -5605,7 +5555,8 @@
             "ArtMotion",
             "Tring Sport 5",
             "Arena 4 Premium",
-            "Arena 5 Premium"
+            "Arena 5 Premium",
+            "TV Vala Kosovo Telecom"
           ]
         },
         {
@@ -5684,6 +5635,7 @@
         {
           "paese": "Macao",
           "canali": [
+            "TDM HD",
             "iQiyi"
           ]
         },
@@ -5918,6 +5870,7 @@
         {
           "paese": "Filippine",
           "canali": [
+            "beIN Sports 3 Philippines",
             "beIN Sports Connect Philippines"
           ]
         },
@@ -6148,7 +6101,8 @@
           "canali": [
             "Blue Sport 3 Live",
             "Blue Sport",
-            "Canal+ Foot"
+            "Canal+ Foot",
+            "Sunrise TV"
           ]
         },
         {
@@ -6576,7 +6530,8 @@
         {
           "paese": "Taipei cinese",
           "canali": [
-            "eltaott.tv"
+            "eltaott.tv",
+            "ELTA Sports 1"
           ]
         },
         {
@@ -6850,7 +6805,8 @@
           "paese": "Ungheria",
           "canali": [
             "Sport 1 Hungary",
-            "RTL+"
+            "RTL+",
+            "Selekt"
           ]
         },
         {
@@ -6922,7 +6878,9 @@
         {
           "paese": "Giappone",
           "canali": [
-            "WOWOW"
+            "WOWOW Prime",
+            "WOWOW",
+            "WOWOW On Demand"
           ]
         },
         {
@@ -6946,7 +6904,8 @@
         {
           "paese": "Corea del Sud",
           "canali": [
-            "SPOTV NOW"
+            "SPOTV NOW",
+            "SPOTV Prime"
           ]
         },
         {
@@ -6954,7 +6913,8 @@
           "canali": [
             "Tring Sport 1",
             "ArtMotion",
-            "Arena 3 Premium"
+            "Arena 3 Premium",
+            "TV Vala Kosovo Telecom"
           ]
         },
         {
@@ -7036,6 +6996,7 @@
         {
           "paese": "Macao",
           "canali": [
+            "TDM Desporto",
             "iQiyi"
           ]
         },
@@ -7270,6 +7231,7 @@
         {
           "paese": "Filippine",
           "canali": [
+            "beIN Sports 1 Philippines",
             "beIN Sports Connect Philippines"
           ]
         },
@@ -7595,6 +7557,7 @@
         {
           "paese": "Ucraina",
           "canali": [
+            "Megogo",
             "MEGOGO Football 2"
           ]
         },
@@ -9221,6 +9184,12 @@
           ]
         },
         {
+          "paese": "Taipei cinese",
+          "canali": [
+            "eltaott.tv"
+          ]
+        },
+        {
           "paese": "Colombia",
           "canali": [
             "Disney+ Premium Sur"
@@ -9851,6 +9820,12 @@
           "paese": "Cina",
           "canali": [
             "iQiyi"
+          ]
+        },
+        {
+          "paese": "Taipei cinese",
+          "canali": [
+            "eltaott.tv"
           ]
         },
         {
@@ -10494,6 +10469,12 @@
           ]
         },
         {
+          "paese": "Taipei cinese",
+          "canali": [
+            "eltaott.tv"
+          ]
+        },
+        {
           "paese": "Colombia",
           "canali": [
             "ESPN3 Colombia",
@@ -10595,6 +10576,7 @@
         {
           "paese": "Francia",
           "canali": [
+            "myCANAL",
             "Canal+ Live 6"
           ]
         },
@@ -10827,7 +10809,16 @@
         {
           "paese": "Filippine",
           "canali": [
+            "beIN Sports 2 Philippines",
             "beIN Sports Connect Philippines"
+          ]
+        },
+        {
+          "paese": "Polonia",
+          "canali": [
+            "Polsat Sport 1",
+            "Polsat Box Go",
+            "Polsat Sport Premium 1"
           ]
         },
         {
@@ -11173,7 +11164,8 @@
         {
           "paese": "Bulgaria",
           "canali": [
-            "Ring.bg"
+            "Ring.bg",
+            "Voyo Sport"
           ]
         },
         {
@@ -11264,6 +11256,13 @@
           "paese": "Cina",
           "canali": [
             "iQiyi"
+          ]
+        },
+        {
+          "paese": "Taipei cinese",
+          "canali": [
+            "eltaott.tv",
+            "ELTA Sports 2"
           ]
         },
         {
@@ -11431,6 +11430,7 @@
           "paese": "Francia",
           "canali": [
             "Canal+ Foot",
+            "myCANAL",
             "Canal+ Live 2"
           ]
         },
@@ -11527,7 +11527,8 @@
         {
           "paese": "Ungheria",
           "canali": [
-            "Sport 2 Hungary"
+            "Sport 2 Hungary",
+            "Selekt"
           ]
         },
         {
@@ -11569,6 +11570,13 @@
           ]
         },
         {
+          "paese": "Giappone",
+          "canali": [
+            "WOWOW Prime",
+            "WOWOW On Demand"
+          ]
+        },
+        {
           "paese": "Giordania",
           "canali": [
             "beIN Sports HD 2",
@@ -11585,6 +11593,19 @@
             "SuperSport Premier League ROA",
             "Supersport Grandstand ROA",
             "GOtv"
+          ]
+        },
+        {
+          "paese": "Corea del Sud",
+          "canali": [
+            "SPOTV NOW",
+            "SPOTV Prime+"
+          ]
+        },
+        {
+          "paese": "Kosovo",
+          "canali": [
+            "Arena 3 Premium"
           ]
         },
         {
@@ -11661,7 +11682,15 @@
         {
           "paese": "Macao",
           "canali": [
+            "TDM Desporto",
             "iQiyi"
+          ]
+        },
+        {
+          "paese": "Macedonia",
+          "canali": [
+            "Arena 3 Premium",
+            "Arena Cloud"
           ]
         },
         {
@@ -11739,6 +11768,13 @@
           "paese": "Moldavia",
           "canali": [
             "Okko Спорт"
+          ]
+        },
+        {
+          "paese": "Montenegro",
+          "canali": [
+            "Arena 3 Premium",
+            "Arena Cloud"
           ]
         },
         {
@@ -11858,7 +11894,15 @@
         {
           "paese": "Filippine",
           "canali": [
+            "beIN Sports 1 Philippines",
             "beIN Sports Connect Philippines"
+          ]
+        },
+        {
+          "paese": "Polonia",
+          "canali": [
+            "Polsat Box Go",
+            "Polsat Sport Extra"
           ]
         },
         {
@@ -11942,6 +11986,13 @@
             "DStv Now",
             "SuperSport Premier League ROA",
             "Supersport Grandstand ROA"
+          ]
+        },
+        {
+          "paese": "Serbia",
+          "canali": [
+            "Arena 3 Premium",
+            "Arena Cloud"
           ]
         },
         {
@@ -12051,7 +12102,8 @@
           "canali": [
             "Blue Sport 3 Live",
             "Blue Sport",
-            "Canal+ Foot"
+            "Canal+ Foot",
+            "Sunrise TV"
           ]
         },
         {
@@ -12136,6 +12188,7 @@
         {
           "paese": "Ucraina",
           "canali": [
+            "Megogo",
             "MEGOGO Football 1"
           ]
         },
@@ -12383,6 +12436,12 @@
           ]
         },
         {
+          "paese": "Taipei cinese",
+          "canali": [
+            "eltaott.tv"
+          ]
+        },
+        {
           "paese": "Colombia",
           "canali": [
             "ESPN Colombia",
@@ -12477,6 +12536,7 @@
         {
           "paese": "Francia",
           "canali": [
+            "myCANAL",
             "Canal+ Live 3"
           ]
         },
@@ -12577,6 +12637,19 @@
           ]
         },
         {
+          "paese": "Corea del Sud",
+          "canali": [
+            "SPOTV NOW",
+            "SPOTV Prime"
+          ]
+        },
+        {
+          "paese": "Kosovo",
+          "canali": [
+            "Arena 4 Premium"
+          ]
+        },
+        {
           "paese": "Kuwait",
           "canali": [
             "beIN Sports HD 1",
@@ -12629,7 +12702,15 @@
         {
           "paese": "Macao",
           "canali": [
+            "TDM HD",
             "iQiyi"
+          ]
+        },
+        {
+          "paese": "Macedonia",
+          "canali": [
+            "Arena 4 Premium",
+            "Arena Cloud"
           ]
         },
         {
@@ -12658,6 +12739,13 @@
           "paese": "Moldavia",
           "canali": [
             "Okko Спорт"
+          ]
+        },
+        {
+          "paese": "Montenegro",
+          "canali": [
+            "Arena 4 Premium",
+            "Arena Cloud"
           ]
         },
         {
@@ -12738,7 +12826,15 @@
         {
           "paese": "Filippine",
           "canali": [
+            "beIN Sports 1 Philippines",
             "beIN Sports Connect Philippines"
+          ]
+        },
+        {
+          "paese": "Polonia",
+          "canali": [
+            "Polsat Box Go",
+            "Polsat Sport Premium 2"
           ]
         },
         {
@@ -12765,6 +12861,8 @@
         {
           "paese": "Romania",
           "canali": [
+            "Digi Sport 3 Romania",
+            "Digi Online",
             "Prima Sport 2",
             "Orange TV Go",
             "Prima Play"
@@ -12802,6 +12900,13 @@
             "beIN Sports HD 1",
             "beIN SPORTS CONNECT",
             "TOD"
+          ]
+        },
+        {
+          "paese": "Serbia",
+          "canali": [
+            "Arena 4 Premium",
+            "Arena Cloud"
           ]
         },
         {
@@ -12911,6 +13016,7 @@
         {
           "paese": "Ucraina",
           "canali": [
+            "Megogo",
             "MEGOGO Football 2"
           ]
         },
@@ -13027,6 +13133,12 @@
           ]
         },
         {
+          "paese": "Belize",
+          "canali": [
+            "Claro Sports"
+          ]
+        },
+        {
           "paese": "Bermuda",
           "canali": [
             "Bluu"
@@ -13053,7 +13165,8 @@
         {
           "paese": "Bulgaria",
           "canali": [
-            "bTV Action"
+            "bTV Action",
+            "Voyo Sport"
           ]
         },
         {
@@ -13096,6 +13209,18 @@
           ]
         },
         {
+          "paese": "Costa Rica",
+          "canali": [
+            "Claro Sports"
+          ]
+        },
+        {
+          "paese": "Cuba",
+          "canali": [
+            "Claro Sports"
+          ]
+        },
+        {
           "paese": "Danimarca",
           "canali": [
             "Disney+ Nordic"
@@ -13116,6 +13241,12 @@
           ]
         },
         {
+          "paese": "Repubblica Dominicana",
+          "canali": [
+            "Claro Sports"
+          ]
+        },
+        {
           "paese": "Ecuador",
           "canali": [
             "Disney+ Premium Sur"
@@ -13127,6 +13258,12 @@
             "beIN Sports HD 5",
             "beIN SPORTS CONNECT",
             "TOD"
+          ]
+        },
+        {
+          "paese": "El Salvador",
+          "canali": [
+            "Claro Sports"
           ]
         },
         {
@@ -13145,6 +13282,7 @@
           "paese": "Francia",
           "canali": [
             "Canal+ Sport",
+            "myCANAL",
             "Canal+ Live 1"
           ]
         },
@@ -13159,6 +13297,18 @@
           "paese": "Grenada",
           "canali": [
             "Bluu"
+          ]
+        },
+        {
+          "paese": "Guatemala",
+          "canali": [
+            "Claro Sports"
+          ]
+        },
+        {
+          "paese": "Honduras",
+          "canali": [
+            "Claro Sports"
           ]
         },
         {
@@ -13254,6 +13404,12 @@
           ]
         },
         {
+          "paese": "Macedonia",
+          "canali": [
+            "Arena Cloud"
+          ]
+        },
+        {
           "paese": "Malesia",
           "canali": [
             "beIN Sports Connect Malaysia",
@@ -13266,6 +13422,18 @@
             "beIN Sports HD 5",
             "beIN SPORTS CONNECT",
             "TOD"
+          ]
+        },
+        {
+          "paese": "Messico",
+          "canali": [
+            "Claro Sports"
+          ]
+        },
+        {
+          "paese": "Montenegro",
+          "canali": [
+            "Arena Cloud"
           ]
         },
         {
@@ -13289,6 +13457,12 @@
           ]
         },
         {
+          "paese": "Nicaragua",
+          "canali": [
+            "Claro Sports"
+          ]
+        },
+        {
           "paese": "Norvegia",
           "canali": [
             "Viaplay Norway"
@@ -13308,6 +13482,12 @@
             "beIN Sports HD 5",
             "beIN SPORTS CONNECT",
             "TOD"
+          ]
+        },
+        {
+          "paese": "Panama",
+          "canali": [
+            "Claro Sports"
           ]
         },
         {
@@ -13369,6 +13549,13 @@
           ]
         },
         {
+          "paese": "Serbia",
+          "canali": [
+            "Arena Sport 8 Serbia",
+            "Arena Cloud"
+          ]
+        },
+        {
           "paese": "Seychelles",
           "canali": [
             "Bluu"
@@ -13425,7 +13612,8 @@
         {
           "paese": "Svizzera",
           "canali": [
-            "Canal+ Sport"
+            "Canal+ Sport",
+            "Sunrise TV"
           ]
         },
         {
@@ -13465,6 +13653,7 @@
         {
           "paese": "Ucraina",
           "canali": [
+            "Megogo",
             "MEGOGO Football 8"
           ]
         },
@@ -13492,7 +13681,8 @@
         {
           "paese": "Venezuela",
           "canali": [
-            "Disney+ Premium Sur"
+            "Disney+ Premium Sur",
+            "inter"
           ]
         },
         {
@@ -13671,6 +13861,7 @@
         {
           "paese": "Francia",
           "canali": [
+            "myCANAL",
             "Canal+ Live 9"
           ]
         },
@@ -14430,6 +14621,7 @@
         {
           "paese": "Francia",
           "canali": [
+            "myCANAL",
             "Canal+ Live 7"
           ]
         },
@@ -14799,6 +14991,7 @@
         {
           "paese": "Francia",
           "canali": [
+            "myCANAL",
             "Canal+ Live 10"
           ]
         },
@@ -14903,6 +15096,13 @@
           ]
         },
         {
+          "paese": "Macedonia",
+          "canali": [
+            "Arena Sport 9 Serbia",
+            "Arena Cloud"
+          ]
+        },
+        {
           "paese": "Malesia",
           "canali": [
             "beIN Sports Connect Malaysia",
@@ -14919,6 +15119,13 @@
           "paese": "Messico",
           "canali": [
             "Disney+ Premium Mexico"
+          ]
+        },
+        {
+          "paese": "Montenegro",
+          "canali": [
+            "Arena Sport 9 Serbia",
+            "Arena Cloud"
           ]
         },
         {
@@ -14983,6 +15190,13 @@
           ]
         },
         {
+          "paese": "Polonia",
+          "canali": [
+            "Polsat Box Go",
+            "Polsat Sport Extra 4"
+          ]
+        },
+        {
           "paese": "Portogallo",
           "canali": [
             "DAZN4 Portugal",
@@ -15017,6 +15231,13 @@
           "paese": "Arabia Saudita",
           "canali": [
             "beIN Sports Arabia 8"
+          ]
+        },
+        {
+          "paese": "Serbia",
+          "canali": [
+            "Arena Sport 9 Serbia",
+            "Arena Cloud"
           ]
         },
         {
@@ -15148,10 +15369,29 @@
           ]
         },
         {
+          "paese": "Macedonia",
+          "canali": [
+            "Arena Cloud"
+          ]
+        },
+        {
+          "paese": "Montenegro",
+          "canali": [
+            "Arena Cloud"
+          ]
+        },
+        {
           "paese": "San Marino",
           "canali": [
             "DAZN Italia",
             "LAB Channel"
+          ]
+        },
+        {
+          "paese": "Serbia",
+          "canali": [
+            "Arena Sport 7 Serbia",
+            "Arena Cloud"
           ]
         }
       ]
@@ -15330,6 +15570,12 @@
           ]
         },
         {
+          "paese": "Taipei cinese",
+          "canali": [
+            "eltaott.tv"
+          ]
+        },
+        {
           "paese": "Colombia",
           "canali": [
             "Disney+ Premium Sur"
@@ -15345,7 +15591,8 @@
         {
           "paese": "Croazia",
           "canali": [
-            "Arena Sport 2 Croatia"
+            "Arena Sport 2 Croatia",
+            "MAXtv To Go"
           ]
         },
         {
@@ -15563,6 +15810,13 @@
           ]
         },
         {
+          "paese": "Corea del Sud",
+          "canali": [
+            "SPOTV NOW",
+            "SPOTV Prime+"
+          ]
+        },
+        {
           "paese": "Kosovo",
           "canali": [
             "Tring Sport 1",
@@ -15602,6 +15856,14 @@
           "paese": "Macao",
           "canali": [
             "M Plus Live"
+          ]
+        },
+        {
+          "paese": "Macedonia",
+          "canali": [
+            "Arena Sport 3 Serbia",
+            "MaxTV Go",
+            "Arena Cloud"
           ]
         },
         {
@@ -15646,6 +15908,13 @@
           "paese": "Monaco",
           "canali": [
             "DAZN France"
+          ]
+        },
+        {
+          "paese": "Montenegro",
+          "canali": [
+            "Arena Sport 3 Serbia",
+            "Arena Cloud"
           ]
         },
         {
@@ -15729,6 +15998,13 @@
           ]
         },
         {
+          "paese": "Polonia",
+          "canali": [
+            "Eleven Sports 2 Poland",
+            "Canal+"
+          ]
+        },
+        {
           "paese": "Portogallo",
           "canali": [
             "Sport TV2",
@@ -15749,6 +16025,21 @@
             "STARZPLAY",
             "Shasha",
             "Thmanyah"
+          ]
+        },
+        {
+          "paese": "Romania",
+          "canali": [
+            "Digi Sport 2 Romania",
+            "Digi Online"
+          ]
+        },
+        {
+          "paese": "Russia",
+          "canali": [
+            "Sportbox.ru",
+            "Матч! Футбол 1",
+            "matchtv.ru"
           ]
         },
         {
@@ -15795,6 +16086,13 @@
             "Shasha",
             "STC TV",
             "Thmanyah"
+          ]
+        },
+        {
+          "paese": "Serbia",
+          "canali": [
+            "Arena Sport 3 Serbia",
+            "Arena Cloud"
           ]
         },
         {
@@ -15920,6 +16218,7 @@
         {
           "paese": "Ucraina",
           "canali": [
+            "Megogo",
             "MEGOGO Football 2"
           ]
         },
@@ -16044,7 +16343,8 @@
         {
           "paese": "Australia",
           "canali": [
-            "beIN SPORTS 2"
+            "beIN SPORTS 2",
+            "beIN Sports Connect"
           ]
         },
         {
@@ -16150,6 +16450,12 @@
           ]
         },
         {
+          "paese": "Taipei cinese",
+          "canali": [
+            "eltaott.tv"
+          ]
+        },
+        {
           "paese": "Colombia",
           "canali": [
             "Disney+ Premium Sur"
@@ -16164,7 +16470,8 @@
         {
           "paese": "Croazia",
           "canali": [
-            "Arena Sport 3 Croatia"
+            "Arena Sport 3 Croatia",
+            "MAXtv To Go"
           ]
         },
         {
@@ -16291,6 +16598,7 @@
         {
           "paese": "Hong Kong",
           "canali": [
+            "Now Player",
             "beIN Sports 1 Hong Kong",
             "M Plus Live",
             "beIN SPORTS MAX Hong Kong"
@@ -16357,6 +16665,13 @@
           ]
         },
         {
+          "paese": "Corea del Sud",
+          "canali": [
+            "SPOTV NOW",
+            "SPOTV Prime 2"
+          ]
+        },
+        {
           "paese": "Kosovo",
           "canali": [
             "Tring Sport 1",
@@ -16399,6 +16714,14 @@
           ]
         },
         {
+          "paese": "Macedonia",
+          "canali": [
+            "Arena Sport 1 Serbia",
+            "MaxTV Go",
+            "Arena Cloud"
+          ]
+        },
+        {
           "paese": "Maldive",
           "canali": [
             "ZEE5"
@@ -16433,6 +16756,13 @@
           "paese": "Monaco",
           "canali": [
             "DAZN France"
+          ]
+        },
+        {
+          "paese": "Montenegro",
+          "canali": [
+            "Arena Sport 1 Serbia",
+            "Arena Cloud"
           ]
         },
         {
@@ -16535,6 +16865,21 @@
           ]
         },
         {
+          "paese": "Romania",
+          "canali": [
+            "Digi Online",
+            "Digi Sport 4 Romania"
+          ]
+        },
+        {
+          "paese": "Russia",
+          "canali": [
+            "Sportbox.ru",
+            "Матч! Футбол 1",
+            "matchtv.ru"
+          ]
+        },
+        {
           "paese": "Saint Barthelemy",
           "canali": [
             "Disney+ Premium Caribbean"
@@ -16572,6 +16917,13 @@
             "Shasha",
             "STC TV",
             "Thmanyah"
+          ]
+        },
+        {
+          "paese": "Serbia",
+          "canali": [
+            "Arena Sport 1 Serbia",
+            "Arena Cloud"
           ]
         },
         {
@@ -16677,6 +17029,7 @@
         {
           "paese": "Ucraina",
           "canali": [
+            "Megogo",
             "MEGOGO Football 2"
           ]
         },
@@ -16891,7 +17244,8 @@
         {
           "paese": "Australia",
           "canali": [
-            "beIN SPORTS 2"
+            "beIN SPORTS 2",
+            "beIN Sports Connect"
           ]
         },
         {
@@ -16997,6 +17351,12 @@
           ]
         },
         {
+          "paese": "Taipei cinese",
+          "canali": [
+            "eltaott.tv"
+          ]
+        },
+        {
           "paese": "Colombia",
           "canali": [
             "Disney+ Premium Sur"
@@ -17011,7 +17371,8 @@
         {
           "paese": "Croazia",
           "canali": [
-            "Arena Sport 2 Croatia"
+            "Arena Sport 2 Croatia",
+            "MAXtv To Go"
           ]
         },
         {
@@ -17138,6 +17499,7 @@
         {
           "paese": "Hong Kong",
           "canali": [
+            "Now Player",
             "beIN Sports 1 Hong Kong",
             "M Plus Live"
           ]
@@ -17209,9 +17571,17 @@
           ]
         },
         {
+          "paese": "Corea del Sud",
+          "canali": [
+            "SPOTV NOW",
+            "SPOTV Prime 2"
+          ]
+        },
+        {
           "paese": "Kosovo",
           "canali": [
             "Tring Sport 1",
+            "Arena 5 Premium",
             "TV Vala Kosovo Telecom"
           ]
         },
@@ -17251,6 +17621,13 @@
           ]
         },
         {
+          "paese": "Macedonia",
+          "canali": [
+            "Arena 5 Premium",
+            "Arena Cloud"
+          ]
+        },
+        {
           "paese": "Maldive",
           "canali": [
             "ZEE5"
@@ -17285,6 +17662,13 @@
           "paese": "Monaco",
           "canali": [
             "DAZN France"
+          ]
+        },
+        {
+          "paese": "Montenegro",
+          "canali": [
+            "Arena 5 Premium",
+            "Arena Cloud"
           ]
         },
         {
@@ -17368,7 +17752,8 @@
         {
           "paese": "Portogallo",
           "canali": [
-            "Sport TV1"
+            "Sport TV1",
+            "Sport TV Multiscreen"
           ]
         },
         {
@@ -17383,6 +17768,21 @@
             "STARZPLAY",
             "Shasha",
             "Thmanyah"
+          ]
+        },
+        {
+          "paese": "Romania",
+          "canali": [
+            "Digi Sport 2 Romania",
+            "Digi Online"
+          ]
+        },
+        {
+          "paese": "Russia",
+          "canali": [
+            "Sportbox.ru",
+            "Матч! Футбол 1",
+            "matchtv.ru"
           ]
         },
         {
@@ -17423,6 +17823,13 @@
             "Shasha",
             "STC TV",
             "Thmanyah"
+          ]
+        },
+        {
+          "paese": "Serbia",
+          "canali": [
+            "Arena 5 Premium",
+            "Arena Cloud"
           ]
         },
         {
@@ -17528,6 +17935,7 @@
         {
           "paese": "Ucraina",
           "canali": [
+            "Megogo",
             "MEGOGO Football 2"
           ]
         },
