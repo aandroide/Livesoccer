@@ -1,86 +1,16 @@
 {
-  "aggiornato": "2026-10-15T08:35:03+02:00",
+  "aggiornato": "2026-10-15T13:41:13+02:00",
   "fonti": {
     "motori": "Fuori Traiettoria, Dizzle0987/motorsport-calendar, palinsesto TV8",
     "calcio_italiano": "https://raw.githubusercontent.com/aandroide/Livesoccer/master/livesoccertv/output/eventi.json",
     "altri_sport": "https://sport.virgilio.it/guida-tv/"
   },
-  "totale": 264,
+  "totale": 261,
   "cartelle": [
     {
       "nome": "Oggi",
-      "totale": 28,
+      "totale": 25,
       "eventi": [
-        {
-          "titolo": "[Tennis] WTA 1000 Wuhan: 4a giornata",
-          "categoria": "Tennis",
-          "sottocartella": "WTA 1000 Wuhan",
-          "sport": "Tennis",
-          "competizione": "WTA 1000 Wuhan",
-          "evento": "4a giornata",
-          "inizio": "2026-10-15T06:00:00+02:00",
-          "data": "15/10/2026",
-          "ora": "06:00",
-          "canali": [
-            {
-              "nome": "Sky Sport Tennis",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-10-15T06:00",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Tennis] ATP Masters 1000 Shanghai: 1^ Quarto Di Finale",
-          "categoria": "Tennis",
-          "sottocartella": "ATP Masters 1000 Shanghai",
-          "sport": "Tennis",
-          "competizione": "ATP Masters 1000 Shanghai",
-          "evento": "1^ Quarto Di Finale",
-          "inizio": "2026-10-15T08:30:00+02:00",
-          "data": "15/10/2026",
-          "ora": "08:30",
-          "canali": [
-            {
-              "nome": "Sky Sport 1",
-              "numero": "201",
-              "tipo": "diretta",
-              "orario": "2026-10-15T08:30",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Altri sport] Mondiali Shanghai: 2a giornata",
-          "categoria": "Altri sport",
-          "sottocartella": "Ciclismo su pista",
-          "sport": "Ciclismo su pista",
-          "competizione": "Mondiali Shanghai 2026",
-          "evento": "2a giornata",
-          "inizio": "2026-10-15T10:40:00+02:00",
-          "data": "15/10/2026",
-          "ora": "10:40",
-          "canali": [
-            {
-              "nome": "Rai Sport",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-10-15T10:40",
-              "fonte": "virgilio"
-            },
-            {
-              "nome": "Eurosport 2",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-10-15T10:55",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
         {
           "titolo": "[Altri sport] Eneco Tour: 2a tappa",
           "categoria": "Altri sport",
@@ -22174,186 +22104,12 @@
     },
     {
       "nome": "Tennis",
-      "totale": 16,
+      "totale": 14,
       "sottocartelle": [
         {
-          "nome": "WTA 1000 Wuhan",
+          "nome": "ATP Masters 1000 Shanghai",
           "totale": 7,
           "eventi": [
-            {
-              "titolo": "WTA 1000 Wuhan: 4a giornata",
-              "categoria": "Tennis",
-              "sottocartella": "WTA 1000 Wuhan",
-              "sport": "Tennis",
-              "competizione": "WTA 1000 Wuhan",
-              "evento": "4a giornata",
-              "inizio": "2026-10-15T06:00:00+02:00",
-              "data": "15/10/2026",
-              "ora": "06:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Tennis",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-15T06:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "WTA 1000 Wuhan: 2^ Quarto di Finale",
-              "categoria": "Tennis",
-              "sottocartella": "WTA 1000 Wuhan",
-              "sport": "Tennis",
-              "competizione": "WTA 1000 Wuhan",
-              "evento": "2^ Quarto di Finale",
-              "inizio": "2026-10-16T07:00:00+02:00",
-              "data": "16/10/2026",
-              "ora": "07:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Max",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-16T07:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "WTA 1000 Wuhan: 3^ Quarto di Finale",
-              "categoria": "Tennis",
-              "sottocartella": "WTA 1000 Wuhan",
-              "sport": "Tennis",
-              "competizione": "WTA 1000 Wuhan",
-              "evento": "3^ Quarto di Finale",
-              "inizio": "2026-10-16T09:00:00+02:00",
-              "data": "16/10/2026",
-              "ora": "09:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Max",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-16T09:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "WTA 1000 Wuhan: 4^ Quarto di Finale",
-              "categoria": "Tennis",
-              "sottocartella": "WTA 1000 Wuhan",
-              "sport": "Tennis",
-              "competizione": "WTA 1000 Wuhan",
-              "evento": "4^ Quarto di Finale",
-              "inizio": "2026-10-16T13:00:00+02:00",
-              "data": "16/10/2026",
-              "ora": "13:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Max",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-16T13:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "WTA 1000 Wuhan: 1a Semifinale",
-              "categoria": "Tennis",
-              "sottocartella": "WTA 1000 Wuhan",
-              "sport": "Tennis",
-              "competizione": "WTA 1000 Wuhan",
-              "evento": "1a Semifinale",
-              "inizio": "2026-10-17T11:00:00+02:00",
-              "data": "17/10/2026",
-              "ora": "11:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Max",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-17T11:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "WTA 1000 Wuhan: 2a Semifinale",
-              "categoria": "Tennis",
-              "sottocartella": "WTA 1000 Wuhan",
-              "sport": "Tennis",
-              "competizione": "WTA 1000 Wuhan",
-              "evento": "2a Semifinale",
-              "inizio": "2026-10-17T12:30:00+02:00",
-              "data": "17/10/2026",
-              "ora": "12:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport Max",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-17T12:30",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "WTA 1000 Wuhan: Finale",
-              "categoria": "Tennis",
-              "sottocartella": "WTA 1000 Wuhan",
-              "sport": "Tennis",
-              "competizione": "WTA 1000 Wuhan",
-              "evento": "Finale",
-              "inizio": "2026-10-18T12:30:00+02:00",
-              "data": "18/10/2026",
-              "ora": "12:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport Max",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-18T12:30",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            }
-          ]
-        },
-        {
-          "nome": "ATP Masters 1000 Shanghai",
-          "totale": 8,
-          "eventi": [
-            {
-              "titolo": "ATP Masters 1000 Shanghai: 1^ Quarto Di Finale",
-              "categoria": "Tennis",
-              "sottocartella": "ATP Masters 1000 Shanghai",
-              "sport": "Tennis",
-              "competizione": "ATP Masters 1000 Shanghai",
-              "evento": "1^ Quarto Di Finale",
-              "inizio": "2026-10-15T08:30:00+02:00",
-              "data": "15/10/2026",
-              "ora": "08:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport 1",
-                  "numero": "201",
-                  "tipo": "diretta",
-                  "orario": "2026-10-15T08:30",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
             {
               "titolo": "ATP Masters 1000 Shanghai: 2^ Quarto Di Finale",
               "categoria": "Tennis",
@@ -22517,6 +22273,138 @@
                   "numero": "201",
                   "tipo": "diretta",
                   "orario": "2026-10-18T10:30",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            }
+          ]
+        },
+        {
+          "nome": "WTA 1000 Wuhan",
+          "totale": 6,
+          "eventi": [
+            {
+              "titolo": "WTA 1000 Wuhan: 2^ Quarto di Finale",
+              "categoria": "Tennis",
+              "sottocartella": "WTA 1000 Wuhan",
+              "sport": "Tennis",
+              "competizione": "WTA 1000 Wuhan",
+              "evento": "2^ Quarto di Finale",
+              "inizio": "2026-10-16T07:00:00+02:00",
+              "data": "16/10/2026",
+              "ora": "07:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport Max",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-16T07:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "WTA 1000 Wuhan: 3^ Quarto di Finale",
+              "categoria": "Tennis",
+              "sottocartella": "WTA 1000 Wuhan",
+              "sport": "Tennis",
+              "competizione": "WTA 1000 Wuhan",
+              "evento": "3^ Quarto di Finale",
+              "inizio": "2026-10-16T09:00:00+02:00",
+              "data": "16/10/2026",
+              "ora": "09:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport Max",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-16T09:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "WTA 1000 Wuhan: 4^ Quarto di Finale",
+              "categoria": "Tennis",
+              "sottocartella": "WTA 1000 Wuhan",
+              "sport": "Tennis",
+              "competizione": "WTA 1000 Wuhan",
+              "evento": "4^ Quarto di Finale",
+              "inizio": "2026-10-16T13:00:00+02:00",
+              "data": "16/10/2026",
+              "ora": "13:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport Max",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-16T13:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "WTA 1000 Wuhan: 1a Semifinale",
+              "categoria": "Tennis",
+              "sottocartella": "WTA 1000 Wuhan",
+              "sport": "Tennis",
+              "competizione": "WTA 1000 Wuhan",
+              "evento": "1a Semifinale",
+              "inizio": "2026-10-17T11:00:00+02:00",
+              "data": "17/10/2026",
+              "ora": "11:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport Max",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-17T11:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "WTA 1000 Wuhan: 2a Semifinale",
+              "categoria": "Tennis",
+              "sottocartella": "WTA 1000 Wuhan",
+              "sport": "Tennis",
+              "competizione": "WTA 1000 Wuhan",
+              "evento": "2a Semifinale",
+              "inizio": "2026-10-17T12:30:00+02:00",
+              "data": "17/10/2026",
+              "ora": "12:30",
+              "canali": [
+                {
+                  "nome": "Sky Sport Max",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-17T12:30",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "WTA 1000 Wuhan: Finale",
+              "categoria": "Tennis",
+              "sottocartella": "WTA 1000 Wuhan",
+              "sport": "Tennis",
+              "competizione": "WTA 1000 Wuhan",
+              "evento": "Finale",
+              "inizio": "2026-10-18T12:30:00+02:00",
+              "data": "18/10/2026",
+              "ora": "12:30",
+              "canali": [
+                {
+                  "nome": "Sky Sport Max",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-18T12:30",
                   "fonte": "virgilio"
                 }
               ],
@@ -22898,40 +22786,102 @@
     },
     {
       "nome": "Altri sport",
-      "totale": 13,
+      "totale": 12,
       "sottocartelle": [
         {
-          "nome": "Ciclismo su pista",
-          "totale": 5,
+          "nome": "Ciclismo femminile",
+          "totale": 4,
           "eventi": [
             {
-              "titolo": "Mondiali Shanghai: 2a giornata",
+              "titolo": "Eneco Tour: 2a tappa",
               "categoria": "Altri sport",
-              "sottocartella": "Ciclismo su pista",
-              "sport": "Ciclismo su pista",
-              "competizione": "Mondiali Shanghai 2026",
-              "evento": "2a giornata",
-              "inizio": "2026-10-15T10:40:00+02:00",
+              "sottocartella": "Ciclismo femminile",
+              "sport": "Ciclismo femminile",
+              "competizione": "Eneco Tour",
+              "evento": "2a tappa",
+              "inizio": "2026-10-15T11:05:00+02:00",
               "data": "15/10/2026",
-              "ora": "10:40",
+              "ora": "11:05",
               "canali": [
                 {
-                  "nome": "Rai Sport",
+                  "nome": "Eurosport",
                   "numero": "",
                   "tipo": "diretta",
-                  "orario": "2026-10-15T10:40",
-                  "fonte": "virgilio"
-                },
-                {
-                  "nome": "Eurosport 2",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-15T10:55",
+                  "orario": "2026-10-15T11:05",
                   "fonte": "virgilio"
                 }
               ],
               "fonte": "Virgilio Sport"
             },
+            {
+              "titolo": "Eneco Tour: 3a tappa",
+              "categoria": "Altri sport",
+              "sottocartella": "Ciclismo femminile",
+              "sport": "Ciclismo femminile",
+              "competizione": "Eneco Tour",
+              "evento": "3a tappa",
+              "inizio": "2026-10-16T10:25:00+02:00",
+              "data": "16/10/2026",
+              "ora": "10:25",
+              "canali": [
+                {
+                  "nome": "Eurosport",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-16T10:25",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "Eneco Tour: 4a tappa",
+              "categoria": "Altri sport",
+              "sottocartella": "Ciclismo femminile",
+              "sport": "Ciclismo femminile",
+              "competizione": "Eneco Tour",
+              "evento": "4a tappa",
+              "inizio": "2026-10-17T12:35:00+02:00",
+              "data": "17/10/2026",
+              "ora": "12:35",
+              "canali": [
+                {
+                  "nome": "Eurosport",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-17T12:35",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "Eneco Tour: 5a tappa",
+              "categoria": "Altri sport",
+              "sottocartella": "Ciclismo femminile",
+              "sport": "Ciclismo femminile",
+              "competizione": "Eneco Tour",
+              "evento": "5a tappa",
+              "inizio": "2026-10-18T12:30:00+02:00",
+              "data": "18/10/2026",
+              "ora": "12:30",
+              "canali": [
+                {
+                  "nome": "Eurosport",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-18T12:30",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            }
+          ]
+        },
+        {
+          "nome": "Ciclismo su pista",
+          "totale": 4,
+          "eventi": [
             {
               "titolo": "Mondiali Shanghai: 3a giornata",
               "categoria": "Altri sport",
@@ -23025,96 +22975,6 @@
                   "numero": "",
                   "tipo": "diretta",
                   "orario": "2026-10-18T07:25",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            }
-          ]
-        },
-        {
-          "nome": "Ciclismo femminile",
-          "totale": 4,
-          "eventi": [
-            {
-              "titolo": "Eneco Tour: 2a tappa",
-              "categoria": "Altri sport",
-              "sottocartella": "Ciclismo femminile",
-              "sport": "Ciclismo femminile",
-              "competizione": "Eneco Tour",
-              "evento": "2a tappa",
-              "inizio": "2026-10-15T11:05:00+02:00",
-              "data": "15/10/2026",
-              "ora": "11:05",
-              "canali": [
-                {
-                  "nome": "Eurosport",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-15T11:05",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "Eneco Tour: 3a tappa",
-              "categoria": "Altri sport",
-              "sottocartella": "Ciclismo femminile",
-              "sport": "Ciclismo femminile",
-              "competizione": "Eneco Tour",
-              "evento": "3a tappa",
-              "inizio": "2026-10-16T10:25:00+02:00",
-              "data": "16/10/2026",
-              "ora": "10:25",
-              "canali": [
-                {
-                  "nome": "Eurosport",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-16T10:25",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "Eneco Tour: 4a tappa",
-              "categoria": "Altri sport",
-              "sottocartella": "Ciclismo femminile",
-              "sport": "Ciclismo femminile",
-              "competizione": "Eneco Tour",
-              "evento": "4a tappa",
-              "inizio": "2026-10-17T12:35:00+02:00",
-              "data": "17/10/2026",
-              "ora": "12:35",
-              "canali": [
-                {
-                  "nome": "Eurosport",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-17T12:35",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "Eneco Tour: 5a tappa",
-              "categoria": "Altri sport",
-              "sottocartella": "Ciclismo femminile",
-              "sport": "Ciclismo femminile",
-              "competizione": "Eneco Tour",
-              "evento": "5a tappa",
-              "inizio": "2026-10-18T12:30:00+02:00",
-              "data": "18/10/2026",
-              "ora": "12:30",
-              "canali": [
-                {
-                  "nome": "Eurosport",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-18T12:30",
                   "fonte": "virgilio"
                 }
               ],
