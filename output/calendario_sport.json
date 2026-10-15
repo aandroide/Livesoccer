@@ -1,37 +1,16 @@
 {
-  "aggiornato": "2026-10-15T14:09:24+02:00",
+  "aggiornato": "2026-10-15T19:08:58+02:00",
   "fonti": {
     "motori": "Fuori Traiettoria, Dizzle0987/motorsport-calendar, palinsesto TV8",
     "calcio_italiano": "https://raw.githubusercontent.com/aandroide/Livesoccer/master/livesoccertv/output/eventi.json",
     "altri_sport": "https://sport.virgilio.it/guida-tv/"
   },
-  "totale": 261,
+  "totale": 268,
   "cartelle": [
     {
       "nome": "Oggi",
-      "totale": 24,
+      "totale": 23,
       "eventi": [
-        {
-          "titolo": "[Tennis] ATP Masters 1000 Shanghai: 2^ Quarto Di Finale",
-          "categoria": "Tennis",
-          "sottocartella": "ATP Masters 1000 Shanghai",
-          "sport": "Tennis",
-          "competizione": "ATP Masters 1000 Shanghai",
-          "evento": "2^ Quarto Di Finale",
-          "inizio": "2026-10-15T12:00:00+02:00",
-          "data": "15/10/2026",
-          "ora": "12:00",
-          "canali": [
-            {
-              "nome": "Sky Sport 1",
-              "numero": "201",
-              "tipo": "diretta",
-              "orario": "2026-10-15T12:00",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
         {
           "titolo": "[Calcio] UEFA Europa League: AZ Alkmaar-Hapoel Beer Sheva",
           "categoria": "Calcio",
@@ -7302,7 +7281,7 @@
     },
     {
       "nome": "Calcio",
-      "totale": 104,
+      "totale": 108,
       "sottocartelle": [
         {
           "nome": "Serie A",
@@ -12184,6 +12163,13 @@
                   "fonte": "virgilio"
                 },
                 {
+                  "nome": "Sky Sport Calcio",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-19T20:45",
+                  "fonte": "virgilio"
+                },
+                {
                   "nome": "DAZN",
                   "numero": "",
                   "tipo": "diretta",
@@ -13009,7 +12995,7 @@
         },
         {
           "nome": "Serie C",
-          "totale": 14,
+          "totale": 15,
           "eventi": [
             {
               "titolo": "Serie C: Livorno vs Grosseto",
@@ -13290,21 +13276,7 @@
                   "tipo": "diretta",
                   "orario": "2026-10-17T17:30",
                   "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "Serie C: Salernitana-Scafatese",
-              "categoria": "Calcio",
-              "sottocartella": "Serie C",
-              "sport": "Calcio",
-              "competizione": "Serie C",
-              "evento": "Salernitana-Scafatese",
-              "inizio": "2026-10-17T17:30:00+02:00",
-              "data": "17/10/2026",
-              "ora": "17:30",
-              "canali": [
+                },
                 {
                   "nome": "Sky Sport 1",
                   "numero": "201",
@@ -13316,19 +13288,19 @@
               "fonte": "Virgilio Sport"
             },
             {
-              "titolo": "Serie C: Latina-Vis Pesaro",
+              "titolo": "Serie C: Campobasso-Perugia",
               "categoria": "Calcio",
               "sottocartella": "Serie C",
               "sport": "Calcio",
               "competizione": "Serie C",
-              "evento": "Latina-Vis Pesaro",
+              "evento": "Campobasso-Perugia",
               "inizio": "2026-10-18T12:30:00+02:00",
               "data": "18/10/2026",
               "ora": "12:30",
               "canali": [
                 {
-                  "nome": "Sky Sport 1",
-                  "numero": "201",
+                  "nome": "Sky Sport Calcio",
+                  "numero": "",
                   "tipo": "diretta",
                   "orario": "2026-10-18T12:30",
                   "fonte": "virgilio"
@@ -13443,6 +13415,48 @@
                   "numero": "",
                   "tipo": "diretta",
                   "orario": "2026-10-19T20:30",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "Serie C: Juventus Next Gen-Renate",
+              "categoria": "Calcio",
+              "sottocartella": "Serie C",
+              "sport": "Calcio",
+              "competizione": "Serie C",
+              "evento": "Juventus Next Gen-Renate",
+              "inizio": "2026-10-19T20:30:00+02:00",
+              "data": "19/10/2026",
+              "ora": "20:30",
+              "canali": [
+                {
+                  "nome": "Sky Sport 1",
+                  "numero": "201",
+                  "tipo": "diretta",
+                  "orario": "2026-10-19T20:30",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "Serie C: Pineto-Reggiana",
+              "categoria": "Calcio",
+              "sottocartella": "Serie C",
+              "sport": "Calcio",
+              "competizione": "Serie C",
+              "evento": "Pineto-Reggiana",
+              "inizio": "2026-10-20T15:30:00+02:00",
+              "data": "20/10/2026",
+              "ora": "15:30",
+              "canali": [
+                {
+                  "nome": "Sky Sport Calcio",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-20T15:30",
                   "fonte": "virgilio"
                 }
               ],
@@ -22413,7 +22427,7 @@
         },
         {
           "nome": "Primavera 1",
-          "totale": 3,
+          "totale": 5,
           "eventi": [
             {
               "titolo": "Primavera 1: Parma-Bologna",
@@ -22473,6 +22487,48 @@
                   "numero": "",
                   "tipo": "diretta",
                   "orario": "2026-10-17T13:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "Primavera 1: Monza-Juventus",
+              "categoria": "Calcio",
+              "sottocartella": "Primavera 1",
+              "sport": "Calcio",
+              "competizione": "Primavera 1",
+              "evento": "Monza-Juventus",
+              "inizio": "2026-10-18T11:00:00+02:00",
+              "data": "18/10/2026",
+              "ora": "11:00",
+              "canali": [
+                {
+                  "nome": "Sportitalia",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-18T11:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "Primavera 1: Empoli-Atalanta",
+              "categoria": "Calcio",
+              "sottocartella": "Primavera 1",
+              "sport": "Calcio",
+              "competizione": "Primavera 1",
+              "evento": "Empoli-Atalanta",
+              "inizio": "2026-10-18T13:00:00+02:00",
+              "data": "18/10/2026",
+              "ora": "13:00",
+              "canali": [
+                {
+                  "nome": "Sportitalia",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-18T13:00",
                   "fonte": "virgilio"
                 }
               ],
@@ -22647,7 +22703,7 @@
         },
         {
           "nome": "Liga Profesional",
-          "totale": 1,
+          "totale": 2,
           "eventi": [
             {
               "titolo": "Liga Profesional: Boca Juniors-Talleres",
@@ -22665,6 +22721,27 @@
                   "numero": "",
                   "tipo": "diretta",
                   "orario": "2026-10-17T02:30",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "Liga Profesional: Belgrano-River Plate",
+              "categoria": "Calcio",
+              "sottocartella": "Liga Profesional",
+              "sport": "Calcio",
+              "competizione": "Liga Profesional",
+              "evento": "Belgrano-River Plate",
+              "inizio": "2026-10-19T01:15:00+02:00",
+              "data": "19/10/2026",
+              "ora": "01:15",
+              "canali": [
+                {
+                  "nome": "Sportitalia",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-19T01:15",
                   "fonte": "virgilio"
                 }
               ],
@@ -22932,6 +23009,13 @@
               "ora": "18:45",
               "canali": [
                 {
+                  "nome": "Sky Sport Calcio",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-20T18:45",
+                  "fonte": "virgilio"
+                },
+                {
                   "nome": "Sky",
                   "numero": "",
                   "tipo": "diretta",
@@ -23021,6 +23105,13 @@
                   "tipo": "diretta",
                   "orario": "2026-10-20T21:00",
                   "fonte": "virgilio"
+                },
+                {
+                  "nome": "Sky Sport 1",
+                  "numero": "201",
+                  "tipo": "diretta",
+                  "orario": "2026-10-20T21:00",
+                  "fonte": "virgilio"
                 }
               ],
               "fonte": "Virgilio Sport"
@@ -23036,6 +23127,13 @@
               "data": "20/10/2026",
               "ora": "21:00",
               "canali": [
+                {
+                  "nome": "Sky Sport Calcio",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-20T21:00",
+                  "fonte": "virgilio"
+                },
                 {
                   "nome": "Sky",
                   "numero": "",
@@ -23147,6 +23245,13 @@
                   "tipo": "diretta",
                   "orario": "2026-10-21T18:45",
                   "fonte": "virgilio"
+                },
+                {
+                  "nome": "Sky Sport 1",
+                  "numero": "201",
+                  "tipo": "diretta",
+                  "orario": "2026-10-21T18:45",
+                  "fonte": "virgilio"
                 }
               ],
               "fonte": "Virgilio Sport"
@@ -23164,6 +23269,13 @@
               "canali": [
                 {
                   "nome": "Sky",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-21T18:45",
+                  "fonte": "virgilio"
+                },
+                {
+                  "nome": "Sky Sport Calcio",
                   "numero": "",
                   "tipo": "diretta",
                   "orario": "2026-10-21T18:45",
@@ -23213,6 +23325,13 @@
               "canali": [
                 {
                   "nome": "Sky",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-21T21:00",
+                  "fonte": "virgilio"
+                },
+                {
+                  "nome": "Sky Sport Calcio",
                   "numero": "",
                   "tipo": "diretta",
                   "orario": "2026-10-21T21:00",
@@ -23346,33 +23465,12 @@
     },
     {
       "nome": "Tennis",
-      "totale": 14,
+      "totale": 16,
       "sottocartelle": [
         {
           "nome": "ATP Masters 1000 Shanghai",
-          "totale": 7,
+          "totale": 6,
           "eventi": [
-            {
-              "titolo": "ATP Masters 1000 Shanghai: 2^ Quarto Di Finale",
-              "categoria": "Tennis",
-              "sottocartella": "ATP Masters 1000 Shanghai",
-              "sport": "Tennis",
-              "competizione": "ATP Masters 1000 Shanghai",
-              "evento": "2^ Quarto Di Finale",
-              "inizio": "2026-10-15T12:00:00+02:00",
-              "data": "15/10/2026",
-              "ora": "12:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport 1",
-                  "numero": "201",
-                  "tipo": "diretta",
-                  "orario": "2026-10-15T12:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
             {
               "titolo": "ATP Masters 1000 Shanghai: 2^ Quarto di Finale",
               "categoria": "Tennis",
@@ -23448,15 +23546,15 @@
               "ora": "10:30",
               "canali": [
                 {
-                  "nome": "Sky Sport Tennis",
-                  "numero": "",
+                  "nome": "Sky Sport 1",
+                  "numero": "201",
                   "tipo": "diretta",
                   "orario": "2026-10-17T10:30",
                   "fonte": "virgilio"
                 },
                 {
-                  "nome": "Sky Sport 1",
-                  "numero": "201",
+                  "nome": "Sky Sport Tennis",
+                  "numero": "",
                   "tipo": "diretta",
                   "orario": "2026-10-17T10:30",
                   "fonte": "virgilio"
@@ -23476,15 +23574,15 @@
               "ora": "13:00",
               "canali": [
                 {
-                  "nome": "Sky Sport Tennis",
-                  "numero": "",
+                  "nome": "Sky Sport 1",
+                  "numero": "201",
                   "tipo": "diretta",
                   "orario": "2026-10-17T13:00",
                   "fonte": "virgilio"
                 },
                 {
-                  "nome": "Sky Sport 1",
-                  "numero": "201",
+                  "nome": "Sky Sport Tennis",
+                  "numero": "",
                   "tipo": "diretta",
                   "orario": "2026-10-17T13:00",
                   "fonte": "virgilio"
@@ -23656,7 +23754,7 @@
         },
         {
           "nome": "ATP & WTA",
-          "totale": 1,
+          "totale": 4,
           "eventi": [
             {
               "titolo": "ATP & WTA",
@@ -23674,6 +23772,90 @@
                   "numero": "",
                   "tipo": "diretta",
                   "orario": "2026-10-18T04:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "ATP & WTA",
+              "categoria": "Tennis",
+              "sottocartella": "ATP & WTA",
+              "sport": "Tennis",
+              "competizione": "ATP & WTA",
+              "evento": "ATP & WTA",
+              "inizio": "2026-10-19T04:00:00+02:00",
+              "data": "19/10/2026",
+              "ora": "04:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport Tennis",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-19T04:00",
+                  "fonte": "virgilio"
+                },
+                {
+                  "nome": "Sky Sport 1",
+                  "numero": "201",
+                  "tipo": "diretta",
+                  "orario": "2026-10-19T08:30",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "ATP & WTA",
+              "categoria": "Tennis",
+              "sottocartella": "ATP & WTA",
+              "sport": "Tennis",
+              "competizione": "ATP & WTA",
+              "evento": "ATP & WTA",
+              "inizio": "2026-10-20T04:00:00+02:00",
+              "data": "20/10/2026",
+              "ora": "04:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport Tennis",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-20T04:00",
+                  "fonte": "virgilio"
+                },
+                {
+                  "nome": "Sky Sport 1",
+                  "numero": "201",
+                  "tipo": "diretta",
+                  "orario": "2026-10-20T08:30",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "ATP & WTA",
+              "categoria": "Tennis",
+              "sottocartella": "ATP & WTA",
+              "sport": "Tennis",
+              "competizione": "ATP & WTA",
+              "evento": "ATP & WTA",
+              "inizio": "2026-10-21T04:00:00+02:00",
+              "data": "21/10/2026",
+              "ora": "04:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport Tennis",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-21T04:00",
+                  "fonte": "virgilio"
+                },
+                {
+                  "nome": "Sky Sport 1",
+                  "numero": "201",
+                  "tipo": "diretta",
+                  "orario": "2026-10-21T08:30",
                   "fonte": "virgilio"
                 }
               ],
@@ -24028,7 +24210,7 @@
     },
     {
       "nome": "Altri sport",
-      "totale": 11,
+      "totale": 12,
       "sottocartelle": [
         {
           "nome": "Ciclismo femminile",
@@ -24205,8 +24387,29 @@
         },
         {
           "nome": "Rugby femminile",
-          "totale": 1,
+          "totale": 2,
           "eventi": [
+            {
+              "titolo": "WXV Global Series: Stati Uniti-Italia",
+              "categoria": "Altri sport",
+              "sottocartella": "Rugby femminile",
+              "sport": "Rugby femminile",
+              "competizione": "WXV Global Series",
+              "evento": "Stati Uniti-Italia",
+              "inizio": "2026-10-17T00:00:00+02:00",
+              "data": "17/10/2026",
+              "ora": "00:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport 1",
+                  "numero": "201",
+                  "tipo": "diretta",
+                  "orario": "2026-10-17T00:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
             {
               "titolo": "WXV Global Series: Usa-Italia",
               "categoria": "Altri sport",
@@ -24221,13 +24424,6 @@
                 {
                   "nome": "Sky Sport Arena",
                   "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-17T00:00",
-                  "fonte": "virgilio"
-                },
-                {
-                  "nome": "Sky Sport 1",
-                  "numero": "201",
                   "tipo": "diretta",
                   "orario": "2026-10-17T00:00",
                   "fonte": "virgilio"
