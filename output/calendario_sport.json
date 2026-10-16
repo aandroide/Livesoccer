@@ -1,58 +1,16 @@
 {
-  "aggiornato": "2026-10-16T19:01:22+02:00",
+  "aggiornato": "2026-10-16T22:10:01+02:00",
   "fonti": {
     "motori": "Fuori Traiettoria, Dizzle0987/motorsport-calendar, palinsesto TV8",
     "calcio_italiano": "https://raw.githubusercontent.com/aandroide/Livesoccer/master/livesoccertv/output/eventi.json",
     "altri_sport": "https://sport.virgilio.it/guida-tv/"
   },
-  "totale": 257,
+  "totale": 255,
   "cartelle": [
     {
       "nome": "Oggi",
-      "totale": 9,
+      "totale": 7,
       "eventi": [
-        {
-          "titolo": "[Calcio] Saudi League: Al Riyadh-Al Hilal",
-          "categoria": "Calcio",
-          "sottocartella": "Saudi League",
-          "sport": "Calcio",
-          "competizione": "Saudi League",
-          "evento": "Al Riyadh-Al Hilal",
-          "inizio": "2026-10-16T17:00:00+02:00",
-          "data": "16/10/2026",
-          "ora": "17:00",
-          "canali": [
-            {
-              "nome": "Sportitalia",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-10-16T17:00",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Calcio] Bundesliga 2: Cottbus-Norimberga",
-          "categoria": "Calcio",
-          "sottocartella": "Bundesliga 2",
-          "sport": "Calcio",
-          "competizione": "Bundesliga 2",
-          "evento": "Cottbus-Norimberga",
-          "inizio": "2026-10-16T18:30:00+02:00",
-          "data": "16/10/2026",
-          "ora": "18:30",
-          "canali": [
-            {
-              "nome": "Sky Sport Arena",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-10-16T18:30",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
         {
           "titolo": "[Basket] Eurolega: Barcellona-Olympiacos",
           "categoria": "Basket",
@@ -164,6 +122,18 @@
               ]
             },
             {
+              "paese": "Gran Bretagna",
+              "canali": [
+                "DCTV"
+              ]
+            },
+            {
+              "paese": "Irlanda",
+              "canali": [
+                "DCTV"
+              ]
+            },
+            {
               "paese": "Israele",
               "canali": [
                 "Sport 5max"
@@ -227,6 +197,7 @@
               "canali": [
                 "Fox Soccer Plus",
                 "fuboTV",
+                "DCTV",
                 "FOX One"
               ]
             }
@@ -471,6 +442,12 @@
               "paese": "Barbados",
               "canali": [
                 "Disney+ Premium Caribbean"
+              ]
+            },
+            {
+              "paese": "Bielorussia",
+              "canali": [
+                "Sporttv"
               ]
             },
             {
@@ -3725,7 +3702,7 @@
                   "nome": "TV8",
                   "numero": "8",
                   "tipo": "differita",
-                  "orario": "2026-11-01T14:00",
+                  "orario": "2026-11-01T11:00",
                   "fonte": "config+tv8"
                 }
               ],
@@ -4624,7 +4601,7 @@
                   "nome": "TV8",
                   "numero": "8",
                   "tipo": "differita",
-                  "orario": "2026-11-01T11:00",
+                  "orario": "2026-11-01T12:15",
                   "programma": "GP Malesia: Gara",
                   "fonte": "tv8"
                 }
@@ -4648,7 +4625,7 @@
                   "nome": "TV8",
                   "numero": "8",
                   "tipo": "differita",
-                  "orario": "2026-11-01T11:00",
+                  "orario": "2026-11-01T12:15",
                   "programma": "GP Malesia: Gara",
                   "fonte": "tv8"
                 }
@@ -4882,7 +4859,7 @@
                   "nome": "TV8",
                   "numero": "8",
                   "tipo": "differita",
-                  "orario": "2026-10-18T14:45",
+                  "orario": "2026-10-18T14:35",
                   "programma": "Spagna: Superpole Race",
                   "fonte": "tv8"
                 }
@@ -5105,7 +5082,7 @@
     },
     {
       "nome": "Calcio",
-      "totale": 103,
+      "totale": 101,
       "sottocartelle": [
         {
           "nome": "Serie A",
@@ -5247,6 +5224,12 @@
                   "paese": "Barbados",
                   "canali": [
                     "Disney+ Premium Caribbean"
+                  ]
+                },
+                {
+                  "paese": "Bielorussia",
+                  "canali": [
+                    "Sporttv"
                   ]
                 },
                 {
@@ -10385,12 +10368,12 @@
               "fonte": "LiveSoccerTV"
             },
             {
-              "titolo": "Serie A: Fiorentina-Como",
+              "titolo": "Serie A: Fiorentina vs Como",
               "categoria": "Calcio",
               "sottocartella": "Serie A",
               "sport": "Calcio",
               "competizione": "Serie A",
-              "evento": "Fiorentina-Como",
+              "evento": "Fiorentina vs Como",
               "inizio": "2026-10-18T15:00:00+02:00",
               "data": "18/10/2026",
               "ora": "15:00",
@@ -10403,7 +10386,8 @@
                   "fonte": "virgilio"
                 }
               ],
-              "fonte": "Virgilio Sport"
+              "canali_mondo": [],
+              "fonte": "LiveSoccerTV"
             },
             {
               "titolo": "Serie A: Milan-Atalanta",
@@ -10528,7 +10512,7 @@
         },
         {
           "nome": "Serie B",
-          "totale": 12,
+          "totale": 11,
           "eventi": [
             {
               "titolo": "Serie B: Verona vs Catanzaro",
@@ -10568,6 +10552,18 @@
                   "paese": "Bielorussia",
                   "canali": [
                     "Sporttv"
+                  ]
+                },
+                {
+                  "paese": "Gran Bretagna",
+                  "canali": [
+                    "DCTV"
+                  ]
+                },
+                {
+                  "paese": "Irlanda",
+                  "canali": [
+                    "DCTV"
                   ]
                 },
                 {
@@ -10634,6 +10630,7 @@
                   "canali": [
                     "Fox Soccer Plus",
                     "fuboTV",
+                    "DCTV",
                     "FOX One"
                   ]
                 }
@@ -10845,16 +10842,30 @@
               "fonte": "LiveSoccerTV"
             },
             {
-              "titolo": "Serie B: Mantova-Palermo",
+              "titolo": "Serie B: Mantova vs Palermo",
               "categoria": "Calcio",
               "sottocartella": "Serie B",
               "sport": "Calcio",
               "competizione": "Serie B",
-              "evento": "Mantova-Palermo",
+              "evento": "Mantova vs Palermo",
               "inizio": "2026-10-17T17:15:00+02:00",
               "data": "17/10/2026",
               "ora": "17:15",
               "canali": [
+                {
+                  "nome": "DAZN Italia",
+                  "numero": "",
+                  "tipo": "streaming",
+                  "orario": "2026-10-17T17:15",
+                  "fonte": "livesoccer"
+                },
+                {
+                  "nome": "LAB Channel",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-17T17:15",
+                  "fonte": "livesoccer"
+                },
                 {
                   "nome": "DAZN",
                   "numero": "",
@@ -10863,56 +10874,13 @@
                   "fonte": "virgilio"
                 }
               ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "Serie B: Pisa-Cremonese",
-              "categoria": "Calcio",
-              "sottocartella": "Serie B",
-              "sport": "Calcio",
-              "competizione": "Serie B",
-              "evento": "Pisa-Cremonese",
-              "inizio": "2026-10-17T19:30:00+02:00",
-              "data": "17/10/2026",
-              "ora": "19:30",
-              "canali": [
-                {
-                  "nome": "DAZN",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-17T19:30",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "Serie B: Mantova vs Palermo",
-              "categoria": "Calcio",
-              "sottocartella": "Serie B",
-              "sport": "Calcio",
-              "competizione": "Serie B",
-              "evento": "Mantova vs Palermo",
-              "inizio": "2026-10-18T07:30:00+02:00",
-              "data": "18/10/2026",
-              "ora": "07:30",
-              "canali": [
-                {
-                  "nome": "DAZN Italia",
-                  "numero": "",
-                  "tipo": "streaming",
-                  "orario": "2026-10-18T07:30",
-                  "fonte": "livesoccer"
-                },
-                {
-                  "nome": "LAB Channel",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-18T07:30",
-                  "fonte": "livesoccer"
-                }
-              ],
               "canali_mondo": [
+                {
+                  "paese": "Bielorussia",
+                  "canali": [
+                    "Sporttv"
+                  ]
+                },
                 {
                   "paese": "Brasile",
                   "canali": [
@@ -11035,6 +11003,27 @@
               "fonte": "LiveSoccerTV"
             },
             {
+              "titolo": "Serie B: Pisa-Cremonese",
+              "categoria": "Calcio",
+              "sottocartella": "Serie B",
+              "sport": "Calcio",
+              "competizione": "Serie B",
+              "evento": "Pisa-Cremonese",
+              "inizio": "2026-10-17T19:30:00+02:00",
+              "data": "17/10/2026",
+              "ora": "19:30",
+              "canali": [
+                {
+                  "nome": "DAZN",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-17T19:30",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
               "titolo": "Serie B: Juve Stabia-Sudtirol",
               "categoria": "Calcio",
               "sottocartella": "Serie B",
@@ -11123,14 +11112,82 @@
                   "fonte": "livesoccer"
                 }
               ],
-              "canali_mondo": [],
+              "canali_mondo": [
+                {
+                  "paese": "Bosnia ed Erzegovina",
+                  "canali": [
+                    "Arena Sport 1",
+                    "Moja TV",
+                    "Arena Cloud"
+                  ]
+                },
+                {
+                  "paese": "Israele",
+                  "canali": [
+                    "5Gold"
+                  ]
+                },
+                {
+                  "paese": "Italia",
+                  "canali": [
+                    "DAZN Italia",
+                    "LAB Channel"
+                  ]
+                },
+                {
+                  "paese": "Liechtenstein",
+                  "canali": [
+                    "Blue Sport",
+                    "Blue Sport 1 Live"
+                  ]
+                },
+                {
+                  "paese": "Macedonia",
+                  "canali": [
+                    "Arena Cloud"
+                  ]
+                },
+                {
+                  "paese": "Montenegro",
+                  "canali": [
+                    "Arena Cloud"
+                  ]
+                },
+                {
+                  "paese": "Russia",
+                  "canali": [
+                    "Телеканал Футбол"
+                  ]
+                },
+                {
+                  "paese": "San Marino",
+                  "canali": [
+                    "DAZN Italia",
+                    "LAB Channel"
+                  ]
+                },
+                {
+                  "paese": "Serbia",
+                  "canali": [
+                    "Arena Sport 7 Serbia",
+                    "Arena Cloud"
+                  ]
+                },
+                {
+                  "paese": "Svizzera",
+                  "canali": [
+                    "Blue Sport",
+                    "Blue Sport 1 Live"
+                  ]
+                }
+              ],
               "fonte": "LiveSoccerTV"
             }
           ]
         },
         {
           "nome": "Serie C",
-          "totale": 15,
+          "totale": 16,
           "eventi": [
             {
               "titolo": "Serie C: Livorno vs Grosseto",
@@ -11374,16 +11431,74 @@
               "fonte": "LiveSoccerTV"
             },
             {
-              "titolo": "Serie C: Reggiana-Torres",
+              "titolo": "Serie C: Pianese vs Pineto",
               "categoria": "Calcio",
               "sottocartella": "Serie C",
               "sport": "Calcio",
               "competizione": "Serie C",
-              "evento": "Reggiana-Torres",
+              "evento": "Pianese vs Pineto",
               "inizio": "2026-10-17T14:30:00+02:00",
               "data": "17/10/2026",
               "ora": "14:30",
               "canali": [
+                {
+                  "nome": "SKY Go Italia",
+                  "numero": "",
+                  "tipo": "streaming",
+                  "orario": "2026-10-17T14:30",
+                  "fonte": "livesoccer"
+                },
+                {
+                  "nome": "NOW TV",
+                  "numero": "",
+                  "tipo": "streaming",
+                  "orario": "2026-10-17T14:30",
+                  "fonte": "livesoccer"
+                }
+              ],
+              "canali_mondo": [
+                {
+                  "paese": "Italia",
+                  "canali": [
+                    "SKY Go Italia",
+                    "NOW TV"
+                  ]
+                },
+                {
+                  "paese": "San Marino",
+                  "canali": [
+                    "SKY Go Italia",
+                    "NOW TV"
+                  ]
+                }
+              ],
+              "fonte": "LiveSoccerTV"
+            },
+            {
+              "titolo": "Serie C: Reggiana vs Sassari Torres",
+              "categoria": "Calcio",
+              "sottocartella": "Serie C",
+              "sport": "Calcio",
+              "competizione": "Serie C",
+              "evento": "Reggiana vs Sassari Torres",
+              "inizio": "2026-10-17T14:30:00+02:00",
+              "data": "17/10/2026",
+              "ora": "14:30",
+              "canali": [
+                {
+                  "nome": "SKY Go Italia",
+                  "numero": "",
+                  "tipo": "streaming",
+                  "orario": "2026-10-17T14:30",
+                  "fonte": "livesoccer"
+                },
+                {
+                  "nome": "NOW TV",
+                  "numero": "",
+                  "tipo": "streaming",
+                  "orario": "2026-10-17T14:30",
+                  "fonte": "livesoccer"
+                },
                 {
                   "nome": "Sky Sport Max",
                   "numero": "",
@@ -11392,7 +11507,23 @@
                   "fonte": "virgilio"
                 }
               ],
-              "fonte": "Virgilio Sport"
+              "canali_mondo": [
+                {
+                  "paese": "Italia",
+                  "canali": [
+                    "SKY Go Italia",
+                    "NOW TV"
+                  ]
+                },
+                {
+                  "paese": "San Marino",
+                  "canali": [
+                    "SKY Go Italia",
+                    "NOW TV"
+                  ]
+                }
+              ],
+              "fonte": "LiveSoccerTV"
             },
             {
               "titolo": "Serie C: Potenza-Catania",
@@ -14247,12 +14378,12 @@
               "fonte": "LiveSoccerTV"
             },
             {
-              "titolo": "UEFA Nations League: Repubblica Ceca vs Spagna",
+              "titolo": "UEFA Nations League: Inghilterra vs Croazia",
               "categoria": "Calcio",
               "sottocartella": "UEFA Nations League",
               "sport": "Calcio",
               "competizione": "UEFA Nations League",
-              "evento": "Repubblica Ceca vs Spagna",
+              "evento": "Inghilterra vs Croazia",
               "inizio": "2026-11-12T20:45:00+01:00",
               "data": "12/11/2026",
               "ora": "20:45",
@@ -14261,13 +14392,6 @@
                   "nome": "SKY Go Italia",
                   "numero": "",
                   "tipo": "streaming",
-                  "orario": "2026-11-12T20:45",
-                  "fonte": "livesoccer"
-                },
-                {
-                  "nome": "TV8",
-                  "numero": "8",
-                  "tipo": "diretta",
                   "orario": "2026-11-12T20:45",
                   "fonte": "livesoccer"
                 },
@@ -14299,7 +14423,7 @@
                 {
                   "paese": "Albania",
                   "canali": [
-                    "SuperSport 2 Digitalb"
+                    "SuperSport 1 Digitalb"
                   ]
                 },
                 {
@@ -14314,7 +14438,7 @@
                 {
                   "paese": "Andorra",
                   "canali": [
-                    "TVE La 1",
+                    "DAZN Spain",
                     "L'Équipe Live Foot"
                   ]
                 },
@@ -14370,7 +14494,7 @@
                   "paese": "Austria",
                   "canali": [
                     "DAZN Austria",
-                    "DAZN1 Germany"
+                    "A Spor"
                   ]
                 },
                 {
@@ -14398,8 +14522,7 @@
                   "paese": "Bangladesh",
                   "canali": [
                     "Sony LIV",
-                    "SONY TEN 2",
-                    "SONY TEN 4",
+                    "SONY TEN 1",
                     "tapmad"
                   ]
                 },
@@ -14413,7 +14536,7 @@
                   "paese": "Bielorussia",
                   "canali": [
                     "Okko Спорт",
-                    "Sport TV Belarus"
+                    "Sporttv"
                   ]
                 },
                 {
@@ -14425,8 +14548,7 @@
                 {
                   "paese": "Belize",
                   "canali": [
-                    "ESPN Norte",
-                    "Nexgen"
+                    "ESPN Norte"
                   ]
                 },
                 {
@@ -14477,8 +14599,8 @@
                 {
                   "paese": "Brasile",
                   "canali": [
-                    "SporTV 2",
-                    "Globoplay"
+                    "ESPN Brazil",
+                    "Disney+ Premium Brazil"
                   ]
                 },
                 {
@@ -14517,7 +14639,6 @@
                 {
                   "paese": "Cambogia",
                   "canali": [
-                    "MONOMAX Sports",
                     "MONOMAX"
                   ]
                 },
@@ -14579,7 +14700,6 @@
                 {
                   "paese": "Cile",
                   "canali": [
-                    "ESPN2 Chile",
                     "Disney+ Premium Chile"
                   ]
                 },
@@ -14592,7 +14712,7 @@
                 {
                   "paese": "Taipei cinese",
                   "canali": [
-                    "ELTA Sports 1"
+                    "eltaott.tv"
                   ]
                 },
                 {
@@ -14634,22 +14754,21 @@
                 {
                   "paese": "Croazia",
                   "canali": [
-                    "Sportklub 1 Croatia",
-                    "MAXtv To Go"
+                    "Nova TV"
                   ]
                 },
                 {
                   "paese": "Cipro",
                   "canali": [
                     "Cytavision on the Go",
-                    "Cytavision Sports 3",
+                    "Cytavision Sports 4",
                     "Nova Sports Prime"
                   ]
                 },
                 {
                   "paese": "Repubblica Ceca",
                   "canali": [
-                    "ČT Sport",
+                    "Sport 1 CZ",
                     "OnePlay"
                   ]
                 },
@@ -14762,7 +14881,7 @@
                 {
                   "paese": "Finlandia",
                   "canali": [
-                    "MTV Urheilu 1",
+                    "MTV Urheilu 2",
                     "MTV Katsomo"
                   ]
                 },
@@ -14806,8 +14925,7 @@
                 {
                   "paese": "Germania",
                   "canali": [
-                    "DAZN Deutschland",
-                    "DAZN1 Germany"
+                    "DAZN Deutschland"
                   ]
                 },
                 {
@@ -14822,13 +14940,17 @@
                 {
                   "paese": "Gran Bretagna",
                   "canali": [
-                    "Amazon Prime Video"
+                    "ITV 1 UK",
+                    "ITVX",
+                    "STV Scotland",
+                    "STV Player",
+                    "TalkSport Radio UK",
+                    "BBC Radio 5 Live"
                   ]
                 },
                 {
                   "paese": "Grecia",
                   "canali": [
-                    "Nova Sports 1",
                     "Nova Sports Prime",
                     "Alpha TV"
                   ]
@@ -14888,7 +15010,7 @@
                 {
                   "paese": "Ungheria",
                   "canali": [
-                    "Spíler2",
+                    "Spíler1",
                     "TV2 Play Premium"
                   ]
                 },
@@ -14903,9 +15025,8 @@
                   "paese": "India",
                   "canali": [
                     "Sony LIV",
-                    "SONY TEN 2",
-                    "JioTV",
-                    "SONY TEN 4"
+                    "SONY TEN 1",
+                    "JioTV"
                   ]
                 },
                 {
@@ -14915,7 +15036,6 @@
                     "K-Vision",
                     "MNC Soccer Channel",
                     "MAXstream TV",
-                    "RCTI+",
                     "Vision+"
                   ]
                 },
@@ -14947,7 +15067,12 @@
                 {
                   "paese": "Irlanda",
                   "canali": [
-                    "Virgin Media Two"
+                    "ITV 1 UK",
+                    "ITVX",
+                    "STV Scotland",
+                    "Virgin Media Two",
+                    "TalkSport Radio UK",
+                    "BBC Radio 5 Live"
                   ]
                 },
                 {
@@ -14960,7 +15085,6 @@
                   "paese": "Italia",
                   "canali": [
                     "SKY Go Italia",
-                    "TV8",
                     "Sky Sport Uno",
                     "NOW TV"
                   ]
@@ -15008,7 +15132,7 @@
                   "canali": [
                     "ART Sport 1",
                     "ArtMotion",
-                    "Arena 1 Premium"
+                    "Arena 2 Premium"
                   ]
                 },
                 {
@@ -15023,7 +15147,6 @@
                 {
                   "paese": "Laos",
                   "canali": [
-                    "MONOMAX Sports",
                     "MONOMAX"
                   ]
                 },
@@ -15090,7 +15213,7 @@
                 {
                   "paese": "Macedonia",
                   "canali": [
-                    "Arena 1 Premium",
+                    "Arena 2 Premium",
                     "Arena Cloud",
                     "Arena M2 Premium"
                   ]
@@ -15118,8 +15241,7 @@
                   "paese": "Maldive",
                   "canali": [
                     "Sony LIV",
-                    "SONY TEN 2",
-                    "SONY TEN 4",
+                    "SONY TEN 1",
                     "Medianet"
                   ]
                 },
@@ -15196,7 +15318,7 @@
                 {
                   "paese": "Montenegro",
                   "canali": [
-                    "Arena 1 Premium",
+                    "Arena 2 Premium",
                     "Arena Cloud"
                   ]
                 },
@@ -15237,15 +15359,14 @@
                   "paese": "Nepal",
                   "canali": [
                     "Sony LIV",
-                    "SONY TEN 2",
-                    "SONY TEN 4"
+                    "SONY TEN 1"
                   ]
                 },
                 {
                   "paese": "Paesi Bassi",
                   "canali": [
                     "Ziggo Go",
-                    "Ziggo Sport 2"
+                    "Ziggo Sport"
                   ]
                 },
                 {
@@ -15288,8 +15409,8 @@
                 {
                   "paese": "Norvegia",
                   "canali": [
-                    "TV2 Sport",
-                    "TV 2 Play"
+                    "TV 2 Play",
+                    "TV2 Sport Premium"
                   ]
                 },
                 {
@@ -15305,8 +15426,7 @@
                   "paese": "Pakistan",
                   "canali": [
                     "Sony LIV",
-                    "SONY TEN 2",
-                    "SONY TEN 4",
+                    "SONY TEN 1",
                     "tapmad"
                   ]
                 },
@@ -15348,20 +15468,10 @@
                   ]
                 },
                 {
-                  "paese": "Filippine",
-                  "canali": [
-                    "RCTI+"
-                  ]
-                },
-                {
                   "paese": "Polonia",
                   "canali": [
-                    "TVP Sport",
                     "Polsat Sport 1",
-                    "Polsat Box Go",
-                    "sport.tvp.pl",
-                    "Canal+",
-                    "TVP Sport App"
+                    "Polsat Box Go"
                   ]
                 },
                 {
@@ -15375,9 +15485,7 @@
                 {
                   "paese": "Porto Rico",
                   "canali": [
-                    "Fox Sports 2",
-                    "ViX",
-                    "NAICOM"
+                    "ViX"
                   ]
                 },
                 {
@@ -15447,7 +15555,6 @@
                   "paese": "San Marino",
                   "canali": [
                     "SKY Go Italia",
-                    "TV8",
                     "Sky Sport Uno",
                     "NOW TV"
                   ]
@@ -15473,7 +15580,7 @@
                 {
                   "paese": "Serbia",
                   "canali": [
-                    "Arena 1 Premium",
+                    "Arena 2 Premium",
                     "Arena Cloud"
                   ]
                 },
@@ -15543,18 +15650,14 @@
                 {
                   "paese": "Spagna",
                   "canali": [
-                    "TVE La 1",
-                    "RTVE Play",
-                    "Movistar+",
-                    "fuboTV España"
+                    "DAZN Spain"
                   ]
                 },
                 {
                   "paese": "Sri Lanka",
                   "canali": [
                     "Sony LIV",
-                    "SONY TEN 2",
-                    "SONY TEN 4",
+                    "SONY TEN 1",
                     "Dialog TV"
                   ]
                 },
@@ -15642,7 +15745,6 @@
                 {
                   "paese": "Thailandia",
                   "canali": [
-                    "MONOMAX Sports",
                     "MONOMAX"
                   ]
                 },
@@ -15681,7 +15783,7 @@
                 {
                   "paese": "Turchia",
                   "canali": [
-                    "a Haber"
+                    "A Spor"
                   ]
                 },
                 {
@@ -15725,10 +15827,8 @@
                 {
                   "paese": "USA",
                   "canali": [
-                    "Fox Sports 2",
                     "fuboTV",
-                    "ViX",
-                    "FOX One"
+                    "ViX"
                   ]
                 },
                 {
@@ -15773,81 +15873,6 @@
                 }
               ],
               "fonte": "LiveSoccerTV"
-            }
-          ]
-        },
-        {
-          "nome": "Saudi League",
-          "totale": 1,
-          "eventi": [
-            {
-              "titolo": "Saudi League: Al Riyadh-Al Hilal",
-              "categoria": "Calcio",
-              "sottocartella": "Saudi League",
-              "sport": "Calcio",
-              "competizione": "Saudi League",
-              "evento": "Al Riyadh-Al Hilal",
-              "inizio": "2026-10-16T17:00:00+02:00",
-              "data": "16/10/2026",
-              "ora": "17:00",
-              "canali": [
-                {
-                  "nome": "Sportitalia",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-16T17:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            }
-          ]
-        },
-        {
-          "nome": "Bundesliga 2",
-          "totale": 2,
-          "eventi": [
-            {
-              "titolo": "Bundesliga 2: Cottbus-Norimberga",
-              "categoria": "Calcio",
-              "sottocartella": "Bundesliga 2",
-              "sport": "Calcio",
-              "competizione": "Bundesliga 2",
-              "evento": "Cottbus-Norimberga",
-              "inizio": "2026-10-16T18:30:00+02:00",
-              "data": "16/10/2026",
-              "ora": "18:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport Arena",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-16T18:30",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "Bundesliga 2: Wolfsburg-Heidenheim",
-              "categoria": "Calcio",
-              "sottocartella": "Bundesliga 2",
-              "sport": "Calcio",
-              "competizione": "Bundesliga 2",
-              "evento": "Wolfsburg-Heidenheim",
-              "inizio": "2026-10-17T13:00:00+02:00",
-              "data": "17/10/2026",
-              "ora": "13:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Mix",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-17T13:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
             }
           ]
         },
@@ -16072,6 +16097,33 @@
                   "numero": "",
                   "tipo": "diretta",
                   "orario": "2026-10-18T13:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            }
+          ]
+        },
+        {
+          "nome": "Bundesliga 2",
+          "totale": 1,
+          "eventi": [
+            {
+              "titolo": "Bundesliga 2: Wolfsburg-Heidenheim",
+              "categoria": "Calcio",
+              "sottocartella": "Bundesliga 2",
+              "sport": "Calcio",
+              "competizione": "Bundesliga 2",
+              "evento": "Wolfsburg-Heidenheim",
+              "inizio": "2026-10-17T13:00:00+02:00",
+              "data": "17/10/2026",
+              "ora": "13:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport Mix",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-17T13:00",
                   "fonte": "virgilio"
                 }
               ],
