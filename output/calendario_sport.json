@@ -1,37 +1,16 @@
 {
-  "aggiornato": "2026-10-17T03:35:35+02:00",
+  "aggiornato": "2026-10-17T06:38:27+02:00",
   "fonti": {
     "motori": "Fuori Traiettoria, Dizzle0987/motorsport-calendar, palinsesto TV8",
     "calcio_italiano": "https://raw.githubusercontent.com/aandroide/Livesoccer/master/livesoccertv/output/eventi.json",
     "altri_sport": "https://sport.virgilio.it/guida-tv/"
   },
-  "totale": 262,
+  "totale": 261,
   "cartelle": [
     {
       "nome": "Oggi",
-      "totale": 41,
+      "totale": 40,
       "eventi": [
-        {
-          "titolo": "[Calcio] Liga Profesional: Boca Juniors-Talleres",
-          "categoria": "Calcio",
-          "sottocartella": "Liga Profesional",
-          "sport": "Calcio",
-          "competizione": "Liga Profesional",
-          "evento": "Boca Juniors-Talleres",
-          "inizio": "2026-10-17T02:30:00+02:00",
-          "data": "17/10/2026",
-          "ora": "02:30",
-          "canali": [
-            {
-              "nome": "Sportitalia",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-10-17T02:30",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
         {
           "titolo": "[Altri sport] Mondiali Shanghai: 5a giornata",
           "categoria": "Altri sport",
@@ -7853,7 +7832,7 @@
     },
     {
       "nome": "Calcio",
-      "totale": 103,
+      "totale": 102,
       "sottocartelle": [
         {
           "nome": "Serie A",
@@ -17372,54 +17351,6 @@
           ]
         },
         {
-          "nome": "Liga Profesional",
-          "totale": 2,
-          "eventi": [
-            {
-              "titolo": "Liga Profesional: Boca Juniors-Talleres",
-              "categoria": "Calcio",
-              "sottocartella": "Liga Profesional",
-              "sport": "Calcio",
-              "competizione": "Liga Profesional",
-              "evento": "Boca Juniors-Talleres",
-              "inizio": "2026-10-17T02:30:00+02:00",
-              "data": "17/10/2026",
-              "ora": "02:30",
-              "canali": [
-                {
-                  "nome": "Sportitalia",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-17T02:30",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "Liga Profesional: Belgrano-River Plate",
-              "categoria": "Calcio",
-              "sottocartella": "Liga Profesional",
-              "sport": "Calcio",
-              "competizione": "Liga Profesional",
-              "evento": "Belgrano-River Plate",
-              "inizio": "2026-10-19T01:15:00+02:00",
-              "data": "19/10/2026",
-              "ora": "01:15",
-              "canali": [
-                {
-                  "nome": "Sportitalia",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-19T01:15",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            }
-          ]
-        },
-        {
           "nome": "Primavera 1",
           "totale": 6,
           "eventi": [
@@ -17925,6 +17856,33 @@
                   "numero": "",
                   "tipo": "diretta",
                   "orario": "2026-10-18T12:30",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            }
+          ]
+        },
+        {
+          "nome": "Liga Profesional",
+          "totale": 1,
+          "eventi": [
+            {
+              "titolo": "Liga Profesional: Belgrano-River Plate",
+              "categoria": "Calcio",
+              "sottocartella": "Liga Profesional",
+              "sport": "Calcio",
+              "competizione": "Liga Profesional",
+              "evento": "Belgrano-River Plate",
+              "inizio": "2026-10-19T01:15:00+02:00",
+              "data": "19/10/2026",
+              "ora": "01:15",
+              "canali": [
+                {
+                  "nome": "Sportitalia",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-19T01:15",
                   "fonte": "virgilio"
                 }
               ],
