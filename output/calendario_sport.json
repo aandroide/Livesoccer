@@ -1,37 +1,16 @@
 {
-  "aggiornato": "2026-10-19T02:34:04+02:00",
+  "aggiornato": "2026-10-19T06:52:16+02:00",
   "fonti": {
     "motori": "Fuori Traiettoria, Dizzle0987/motorsport-calendar, palinsesto TV8",
     "calcio_italiano": "https://raw.githubusercontent.com/aandroide/Livesoccer/master/livesoccertv/output/eventi.json",
     "altri_sport": "https://sport.virgilio.it/guida-tv/"
   },
-  "totale": 257,
+  "totale": 256,
   "cartelle": [
     {
       "nome": "Oggi",
-      "totale": 11,
+      "totale": 10,
       "eventi": [
-        {
-          "titolo": "[Calcio] Liga Profesional: Belgrano-River Plate",
-          "categoria": "Calcio",
-          "sottocartella": "Liga Profesional",
-          "sport": "Calcio",
-          "competizione": "Liga Profesional",
-          "evento": "Belgrano-River Plate",
-          "inizio": "2026-10-19T01:15:00+02:00",
-          "data": "19/10/2026",
-          "ora": "01:15",
-          "canali": [
-            {
-              "nome": "Sportitalia",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-10-19T01:15",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
         {
           "titolo": "[Tennis] ATP & WTA",
           "categoria": "Tennis",
@@ -5882,7 +5861,7 @@
     },
     {
       "nome": "Calcio",
-      "totale": 105,
+      "totale": 104,
       "sottocartelle": [
         {
           "nome": "Serie A",
@@ -18739,33 +18718,6 @@
                 }
               ],
               "fonte": "LiveSoccerTV"
-            }
-          ]
-        },
-        {
-          "nome": "Liga Profesional",
-          "totale": 1,
-          "eventi": [
-            {
-              "titolo": "Liga Profesional: Belgrano-River Plate",
-              "categoria": "Calcio",
-              "sottocartella": "Liga Profesional",
-              "sport": "Calcio",
-              "competizione": "Liga Profesional",
-              "evento": "Belgrano-River Plate",
-              "inizio": "2026-10-19T01:15:00+02:00",
-              "data": "19/10/2026",
-              "ora": "01:15",
-              "canali": [
-                {
-                  "nome": "Sportitalia",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-19T01:15",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
             }
           ]
         },
