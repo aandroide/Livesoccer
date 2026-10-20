@@ -1,37 +1,16 @@
 {
-  "aggiornato": "2026-10-20T19:39:50+02:00",
+  "aggiornato": "2026-10-20T21:21:36+02:00",
   "fonti": {
     "motori": "Fuori Traiettoria, Dizzle0987/motorsport-calendar, palinsesto TV8",
     "calcio_italiano": "https://raw.githubusercontent.com/aandroide/Livesoccer/master/livesoccertv/output/eventi.json",
     "altri_sport": "https://sport.virgilio.it/guida-tv/"
   },
-  "totale": 246,
+  "totale": 245,
   "cartelle": [
     {
       "nome": "Oggi",
-      "totale": 15,
+      "totale": 14,
       "eventi": [
-        {
-          "titolo": "[Altri sport] Amichevole Internazionale: Italia-Spagna",
-          "categoria": "Altri sport",
-          "sottocartella": "Pallanuoto maschile",
-          "sport": "Pallanuoto maschile",
-          "competizione": "Amichevole Internazionale",
-          "evento": "Italia-Spagna",
-          "inizio": "2026-10-20T18:00:00+02:00",
-          "data": "20/10/2026",
-          "ora": "18:00",
-          "canali": [
-            {
-              "nome": "Rai Sport",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-10-20T18:00",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
         {
           "titolo": "[Calcio] UEFA Champions League: Fenerbahce-Slavia Praga",
           "categoria": "Calcio",
@@ -36963,35 +36942,8 @@
     },
     {
       "nome": "Altri sport",
-      "totale": 10,
+      "totale": 9,
       "sottocartelle": [
-        {
-          "nome": "Pallanuoto maschile",
-          "totale": 1,
-          "eventi": [
-            {
-              "titolo": "Amichevole Internazionale: Italia-Spagna",
-              "categoria": "Altri sport",
-              "sottocartella": "Pallanuoto maschile",
-              "sport": "Pallanuoto maschile",
-              "competizione": "Amichevole Internazionale",
-              "evento": "Italia-Spagna",
-              "inizio": "2026-10-20T18:00:00+02:00",
-              "data": "20/10/2026",
-              "ora": "18:00",
-              "canali": [
-                {
-                  "nome": "Rai Sport",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-20T18:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            }
-          ]
-        },
         {
           "nome": "Pallamano maschile",
           "totale": 2,
