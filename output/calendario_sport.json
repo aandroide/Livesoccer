@@ -1,11 +1,11 @@
 {
-  "aggiornato": "2026-10-21T12:37:30+02:00",
+  "aggiornato": "2026-10-21T14:01:11+02:00",
   "fonti": {
     "motori": "Fuori Traiettoria, Dizzle0987/motorsport-calendar, palinsesto TV8",
     "calcio_italiano": "https://raw.githubusercontent.com/aandroide/Livesoccer/master/livesoccertv/output/eventi.json",
     "altri_sport": "https://sport.virgilio.it/guida-tv/"
   },
-  "totale": 248,
+  "totale": 258,
   "cartelle": [
     {
       "nome": "Oggi",
@@ -18,15 +18,15 @@
           "sport": "Basket",
           "competizione": "Eurolega",
           "evento": "Hapoel Tel Aviv-Virtus Bologna",
-          "inizio": "2026-10-21T18:00:00+02:00",
+          "inizio": "2026-10-21T17:55:00+02:00",
           "data": "21/10/2026",
-          "ora": "18:00",
+          "ora": "17:55",
           "canali": [
             {
               "nome": "Sky Sport Basket",
               "numero": "",
               "tipo": "diretta",
-              "orario": "2026-10-21T18:00",
+              "orario": "2026-10-21T17:55",
               "fonte": "virgilio"
             }
           ],
@@ -3100,27 +3100,6 @@
           "fonte": "Virgilio Sport"
         },
         {
-          "titolo": "[Basket] Eurocup: Bourg En Bresse-Aquila Trento",
-          "categoria": "Basket",
-          "sottocartella": "Eurocup",
-          "sport": "Basket",
-          "competizione": "Eurocup",
-          "evento": "Bourg En Bresse-Aquila Trento",
-          "inizio": "2026-10-21T19:30:00+02:00",
-          "data": "21/10/2026",
-          "ora": "19:30",
-          "canali": [
-            {
-              "nome": "Sky Sport Mix",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-10-21T19:30",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
           "titolo": "[Basket] Eurocup: Napoli Basket-Tofas",
           "categoria": "Basket",
           "sottocartella": "Eurocup",
@@ -3132,10 +3111,31 @@
           "ora": "20:00",
           "canali": [
             {
-              "nome": "Sky Sport Basket",
+              "nome": "Sky Sport Mix",
               "numero": "",
               "tipo": "diretta",
               "orario": "2026-10-21T20:00",
+              "fonte": "virgilio"
+            }
+          ],
+          "fonte": "Virgilio Sport"
+        },
+        {
+          "titolo": "[Basket] Eurocup: Maxima Roma-Reyer Venezia",
+          "categoria": "Basket",
+          "sottocartella": "Eurocup",
+          "sport": "Basket",
+          "competizione": "Eurocup",
+          "evento": "Maxima Roma-Reyer Venezia",
+          "inizio": "2026-10-21T20:25:00+02:00",
+          "data": "21/10/2026",
+          "ora": "20:25",
+          "canali": [
+            {
+              "nome": "Sky Sport Basket",
+              "numero": "",
+              "tipo": "diretta",
+              "orario": "2026-10-21T20:25",
               "fonte": "virgilio"
             }
           ],
@@ -10663,7 +10663,7 @@
     },
     {
       "nome": "Calcio",
-      "totale": 101,
+      "totale": 102,
       "sottocartelle": [
         {
           "nome": "Serie A",
@@ -16626,7 +16626,7 @@
         },
         {
           "nome": "Serie C",
-          "totale": 14,
+          "totale": 15,
           "eventi": [
             {
               "titolo": "Serie C: Casertana vs Bari 1908",
@@ -16934,6 +16934,27 @@
                   "numero": "",
                   "tipo": "diretta",
                   "orario": "2026-10-24T17:30",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "Serie C: Monopoli-Audace Cerignola",
+              "categoria": "Calcio",
+              "sottocartella": "Serie C",
+              "sport": "Calcio",
+              "competizione": "Serie C",
+              "evento": "Monopoli-Audace Cerignola",
+              "inizio": "2026-10-25T12:30:00+01:00",
+              "data": "25/10/2026",
+              "ora": "12:30",
+              "canali": [
+                {
+                  "nome": "Sky Sport Mix",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-25T12:30",
                   "fonte": "virgilio"
                 }
               ],
@@ -35059,12 +35080,12 @@
               "fonte": "Virgilio Sport"
             },
             {
-              "titolo": "Premier League: Sunderland-Leeds",
+              "titolo": "Premier League: Sunderland-Leeds United",
               "categoria": "Calcio",
               "sottocartella": "Premier League",
               "sport": "Calcio",
               "competizione": "Premier League",
-              "evento": "Sunderland-Leeds",
+              "evento": "Sunderland-Leeds United",
               "inizio": "2026-10-25T17:30:00+01:00",
               "data": "25/10/2026",
               "ora": "17:30",
@@ -35552,14 +35573,14 @@
               "ora": "12:00",
               "canali": [
                 {
-                  "nome": "Sky Sport Tennis",
+                  "nome": "Sky Sport Mix",
                   "numero": "",
                   "tipo": "diretta",
                   "orario": "2026-10-24T12:00",
                   "fonte": "virgilio"
                 },
                 {
-                  "nome": "Sky Sport Mix",
+                  "nome": "Sky Sport Tennis",
                   "numero": "",
                   "tipo": "diretta",
                   "orario": "2026-10-24T12:00",
@@ -35650,7 +35671,7 @@
     },
     {
       "nome": "Basket",
-      "totale": 10,
+      "totale": 17,
       "sottocartelle": [
         {
           "nome": "Eurolega",
@@ -35663,15 +35684,15 @@
               "sport": "Basket",
               "competizione": "Eurolega",
               "evento": "Hapoel Tel Aviv-Virtus Bologna",
-              "inizio": "2026-10-21T18:00:00+02:00",
+              "inizio": "2026-10-21T17:55:00+02:00",
               "data": "21/10/2026",
-              "ora": "18:00",
+              "ora": "17:55",
               "canali": [
                 {
                   "nome": "Sky Sport Basket",
                   "numero": "",
                   "tipo": "diretta",
-                  "orario": "2026-10-21T18:00",
+                  "orario": "2026-10-21T17:55",
                   "fonte": "virgilio"
                 }
               ],
@@ -35741,12 +35762,12 @@
               "fonte": "Virgilio Sport"
             },
             {
-              "titolo": "Eurolega: Paris Basketball-Valencia",
+              "titolo": "Eurolega: Paris-Valencia",
               "categoria": "Basket",
               "sottocartella": "Eurolega",
               "sport": "Basket",
               "competizione": "Eurolega",
-              "evento": "Paris Basketball-Valencia",
+              "evento": "Paris-Valencia",
               "inizio": "2026-10-23T20:45:00+02:00",
               "data": "23/10/2026",
               "ora": "20:45",
@@ -35765,7 +35786,7 @@
         },
         {
           "nome": "Eurocup",
-          "totale": 3,
+          "totale": 4,
           "eventi": [
             {
               "titolo": "Eurocup: Derthona Tortona-San Pablo Burgos",
@@ -35789,27 +35810,6 @@
               "fonte": "Virgilio Sport"
             },
             {
-              "titolo": "Eurocup: Bourg En Bresse-Aquila Trento",
-              "categoria": "Basket",
-              "sottocartella": "Eurocup",
-              "sport": "Basket",
-              "competizione": "Eurocup",
-              "evento": "Bourg En Bresse-Aquila Trento",
-              "inizio": "2026-10-21T19:30:00+02:00",
-              "data": "21/10/2026",
-              "ora": "19:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport Mix",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-21T19:30",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
               "titolo": "Eurocup: Napoli Basket-Tofas",
               "categoria": "Basket",
               "sottocartella": "Eurocup",
@@ -35821,10 +35821,142 @@
               "ora": "20:00",
               "canali": [
                 {
-                  "nome": "Sky Sport Basket",
+                  "nome": "Sky Sport Mix",
                   "numero": "",
                   "tipo": "diretta",
                   "orario": "2026-10-21T20:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "Eurocup: Maxima Roma-Reyer Venezia",
+              "categoria": "Basket",
+              "sottocartella": "Eurocup",
+              "sport": "Basket",
+              "competizione": "Eurocup",
+              "evento": "Maxima Roma-Reyer Venezia",
+              "inizio": "2026-10-21T20:25:00+02:00",
+              "data": "21/10/2026",
+              "ora": "20:25",
+              "canali": [
+                {
+                  "nome": "Sky Sport Basket",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-21T20:25",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "Eurocup: Roma Basketball-Bosna Royal",
+              "categoria": "Basket",
+              "sottocartella": "Eurocup",
+              "sport": "Basket",
+              "competizione": "Eurocup",
+              "evento": "Roma Basketball-Bosna Royal",
+              "inizio": "2026-10-27T20:00:00+01:00",
+              "data": "27/10/2026",
+              "ora": "20:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport Basket",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-27T20:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            }
+          ]
+        },
+        {
+          "nome": "NBA",
+          "totale": 4,
+          "eventi": [
+            {
+              "titolo": "NBA: Philadelphia 76ers-Cleveland Cavaliers",
+              "categoria": "Basket",
+              "sottocartella": "NBA",
+              "sport": "Basket",
+              "competizione": "NBA",
+              "evento": "Philadelphia 76ers-Cleveland Cavaliers",
+              "inizio": "2026-10-22T01:00:00+02:00",
+              "data": "22/10/2026",
+              "ora": "01:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport Basket",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-22T01:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "NBA: Denver Nuggets-Golden State Warriors",
+              "categoria": "Basket",
+              "sottocartella": "NBA",
+              "sport": "Basket",
+              "competizione": "NBA",
+              "evento": "Denver Nuggets-Golden State Warriors",
+              "inizio": "2026-10-26T03:00:00+01:00",
+              "data": "26/10/2026",
+              "ora": "03:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport Basket",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-26T03:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "NBA: New York Knicks-Detroit Pistons",
+              "categoria": "Basket",
+              "sottocartella": "NBA",
+              "sport": "Basket",
+              "competizione": "NBA",
+              "evento": "New York Knicks-Detroit Pistons",
+              "inizio": "2026-10-27T01:00:00+01:00",
+              "data": "27/10/2026",
+              "ora": "01:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport Basket",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-27T01:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "NBA: Los Angeles Lakers-Portland Trail Blazers",
+              "categoria": "Basket",
+              "sottocartella": "NBA",
+              "sport": "Basket",
+              "competizione": "NBA",
+              "evento": "Los Angeles Lakers-Portland Trail Blazers",
+              "inizio": "2026-10-27T04:00:00+01:00",
+              "data": "27/10/2026",
+              "ora": "04:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport Basket",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-27T04:00",
                   "fonte": "virgilio"
                 }
               ],
@@ -35834,7 +35966,7 @@
         },
         {
           "nome": "Serie A",
-          "totale": 2,
+          "totale": 3,
           "eventi": [
             {
               "titolo": "Serie A: Derthona Tortona-Napoli",
@@ -35853,7 +35985,21 @@
                   "tipo": "diretta",
                   "orario": "2026-10-25T12:00",
                   "fonte": "virgilio"
-                },
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "Serie A: Derthona Tortona-Napoli Basket",
+              "categoria": "Basket",
+              "sottocartella": "Serie A",
+              "sport": "Basket",
+              "competizione": "Serie A",
+              "evento": "Derthona Tortona-Napoli Basket",
+              "inizio": "2026-10-25T12:00:00+01:00",
+              "data": "25/10/2026",
+              "ora": "12:00",
+              "canali": [
                 {
                   "nome": "Sky Sport Basket",
                   "numero": "",
@@ -35893,12 +36039,39 @@
               "fonte": "Virgilio Sport"
             }
           ]
+        },
+        {
+          "nome": "Serie A2",
+          "totale": 1,
+          "eventi": [
+            {
+              "titolo": "Serie A2: Brindisi-Avellino",
+              "categoria": "Basket",
+              "sottocartella": "Serie A2",
+              "sport": "Basket",
+              "competizione": "Serie A2",
+              "evento": "Brindisi-Avellino",
+              "inizio": "2026-10-25T20:45:00+01:00",
+              "data": "25/10/2026",
+              "ora": "20:45",
+              "canali": [
+                {
+                  "nome": "Rai Sport",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-25T20:45",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            }
+          ]
         }
       ]
     },
     {
       "nome": "Volley",
-      "totale": 1,
+      "totale": 2,
       "sottocartelle": [
         {
           "nome": "Supercoppa Italiana femminile",
@@ -35926,12 +36099,39 @@
               "fonte": "Virgilio Sport"
             }
           ]
+        },
+        {
+          "nome": "SuperLega",
+          "totale": 1,
+          "eventi": [
+            {
+              "titolo": "SuperLega: Piacenza-Modena",
+              "categoria": "Volley",
+              "sottocartella": "SuperLega",
+              "sport": "Pallavolo maschile",
+              "competizione": "SuperLega",
+              "evento": "Piacenza-Modena",
+              "inizio": "2026-10-25T18:00:00+01:00",
+              "data": "25/10/2026",
+              "ora": "18:00",
+              "canali": [
+                {
+                  "nome": "Rai Sport",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-25T18:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            }
+          ]
         }
       ]
     },
     {
       "nome": "Altri sport",
-      "totale": 9,
+      "totale": 10,
       "sottocartelle": [
         {
           "nome": "Pallamano maschile",
@@ -36106,6 +36306,13 @@
                   "tipo": "diretta",
                   "orario": "2026-10-25T10:00",
                   "fonte": "virgilio"
+                },
+                {
+                  "nome": "Rai Sport",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-25T10:00",
+                  "fonte": "virgilio"
                 }
               ],
               "fonte": "Virgilio Sport"
@@ -36123,6 +36330,13 @@
               "canali": [
                 {
                   "nome": "Eurosport",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-25T13:00",
+                  "fonte": "virgilio"
+                },
+                {
+                  "nome": "Rai Sport",
                   "numero": "",
                   "tipo": "diretta",
                   "orario": "2026-10-25T13:00",
@@ -36153,6 +36367,33 @@
                   "numero": "",
                   "tipo": "diretta",
                   "orario": "2026-10-24T22:15",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            }
+          ]
+        },
+        {
+          "nome": "Atletica leggera",
+          "totale": 1,
+          "eventi": [
+            {
+              "titolo": "Venicemarathon: .",
+              "categoria": "Altri sport",
+              "sottocartella": "Atletica leggera",
+              "sport": "Atletica leggera",
+              "competizione": "Venicemarathon",
+              "evento": ".",
+              "inizio": "2026-10-25T09:00:00+01:00",
+              "data": "25/10/2026",
+              "ora": "09:00",
+              "canali": [
+                {
+                  "nome": "Rai Sport",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-25T09:00",
                   "fonte": "virgilio"
                 }
               ],
