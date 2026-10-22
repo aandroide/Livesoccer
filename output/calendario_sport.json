@@ -1,247 +1,16 @@
 {
-  "aggiornato": "2026-10-22T20:55:51+02:00",
+  "aggiornato": "2026-10-22T23:44:02+02:00",
   "fonti": {
     "motori": "Fuori Traiettoria, Dizzle0987/motorsport-calendar, palinsesto TV8",
     "calcio_italiano": "https://raw.githubusercontent.com/aandroide/Livesoccer/master/livesoccertv/output/eventi.json",
     "altri_sport": "https://sport.virgilio.it/guida-tv/"
   },
-  "totale": 257,
+  "totale": 247,
   "cartelle": [
     {
       "nome": "Oggi",
-      "totale": 28,
+      "totale": 18,
       "eventi": [
-        {
-          "titolo": "[Altri sport] Qualificazioni Mondiali: Bulgaria-Italia",
-          "categoria": "Altri sport",
-          "sottocartella": "Pallamano maschile",
-          "sport": "Pallamano maschile",
-          "competizione": "Qualificazioni Mondiali 2027",
-          "evento": "Bulgaria-Italia",
-          "inizio": "2026-10-22T18:00:00+02:00",
-          "data": "22/10/2026",
-          "ora": "18:00",
-          "canali": [
-            {
-              "nome": "Sky Sport Max",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-10-22T18:00",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Calcio] UEFA Europa League: Ararat Armenia-AZ Alkmaar",
-          "categoria": "Calcio",
-          "sottocartella": "UEFA Europa League",
-          "sport": "Calcio",
-          "competizione": "UEFA Europa League",
-          "evento": "Ararat Armenia-AZ Alkmaar",
-          "inizio": "2026-10-22T18:45:00+02:00",
-          "data": "22/10/2026",
-          "ora": "18:45",
-          "canali": [
-            {
-              "nome": "Sky",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-10-22T18:45",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Calcio] UEFA Europa League: Dinamo Zagabria-NEC",
-          "categoria": "Calcio",
-          "sottocartella": "UEFA Europa League",
-          "sport": "Calcio",
-          "competizione": "UEFA Europa League",
-          "evento": "Dinamo Zagabria-NEC",
-          "inizio": "2026-10-22T18:45:00+02:00",
-          "data": "22/10/2026",
-          "ora": "18:45",
-          "canali": [
-            {
-              "nome": "Sky",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-10-22T18:45",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Calcio] UEFA Europa League: Ferencvaros-Torreense",
-          "categoria": "Calcio",
-          "sottocartella": "UEFA Europa League",
-          "sport": "Calcio",
-          "competizione": "UEFA Europa League",
-          "evento": "Ferencvaros-Torreense",
-          "inizio": "2026-10-22T18:45:00+02:00",
-          "data": "22/10/2026",
-          "ora": "18:45",
-          "canali": [
-            {
-              "nome": "Sky",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-10-22T18:45",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Calcio] UEFA Europa League: Juventus-Rennes",
-          "categoria": "Calcio",
-          "sottocartella": "UEFA Europa League",
-          "sport": "Calcio",
-          "competizione": "UEFA Europa League",
-          "evento": "Juventus-Rennes",
-          "inizio": "2026-10-22T18:45:00+02:00",
-          "data": "22/10/2026",
-          "ora": "18:45",
-          "canali": [
-            {
-              "nome": "Sky",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-10-22T18:45",
-              "fonte": "virgilio"
-            },
-            {
-              "nome": "Sky Sport 1",
-              "numero": "201",
-              "tipo": "diretta",
-              "orario": "2026-10-22T18:45",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Calcio] UEFA Europa League: Lech Poznan-Sunderland",
-          "categoria": "Calcio",
-          "sottocartella": "UEFA Europa League",
-          "sport": "Calcio",
-          "competizione": "UEFA Europa League",
-          "evento": "Lech Poznan-Sunderland",
-          "inizio": "2026-10-22T18:45:00+02:00",
-          "data": "22/10/2026",
-          "ora": "18:45",
-          "canali": [
-            {
-              "nome": "Sky Sport Mix",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-10-22T18:45",
-              "fonte": "virgilio"
-            },
-            {
-              "nome": "Sky",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-10-22T18:45",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Calcio] UEFA Europa League: OFI-Bayer Leverkusen",
-          "categoria": "Calcio",
-          "sottocartella": "UEFA Europa League",
-          "sport": "Calcio",
-          "competizione": "UEFA Europa League",
-          "evento": "OFI-Bayer Leverkusen",
-          "inizio": "2026-10-22T18:45:00+02:00",
-          "data": "22/10/2026",
-          "ora": "18:45",
-          "canali": [
-            {
-              "nome": "Sky",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-10-22T18:45",
-              "fonte": "virgilio"
-            },
-            {
-              "nome": "Sky Sport Calcio",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-10-22T18:45",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Calcio] UEFA Europa League: Sturm Graz-Marsiglia",
-          "categoria": "Calcio",
-          "sottocartella": "UEFA Europa League",
-          "sport": "Calcio",
-          "competizione": "UEFA Europa League",
-          "evento": "Sturm Graz-Marsiglia",
-          "inizio": "2026-10-22T18:45:00+02:00",
-          "data": "22/10/2026",
-          "ora": "18:45",
-          "canali": [
-            {
-              "nome": "Sky",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-10-22T18:45",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Calcio] UEFA Europa League: Union Saint Gilloise-Hapoel Beer Sheva",
-          "categoria": "Calcio",
-          "sottocartella": "UEFA Europa League",
-          "sport": "Calcio",
-          "competizione": "UEFA Europa League",
-          "evento": "Union Saint Gilloise-Hapoel Beer Sheva",
-          "inizio": "2026-10-22T18:45:00+02:00",
-          "data": "22/10/2026",
-          "ora": "18:45",
-          "canali": [
-            {
-              "nome": "Sky",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-10-22T18:45",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Basket] Eurolega: Olimpia Milano-Barcellona",
-          "categoria": "Basket",
-          "sottocartella": "Eurolega",
-          "sport": "Basket",
-          "competizione": "Eurolega",
-          "evento": "Olimpia Milano-Barcellona",
-          "inizio": "2026-10-22T20:30:00+02:00",
-          "data": "22/10/2026",
-          "ora": "20:30",
-          "canali": [
-            {
-              "nome": "Sky Sport Basket",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-10-22T20:30",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
         {
           "titolo": "[Basket] Eurolega: Partizan-Stella Rossa",
           "categoria": "Basket",
@@ -12727,7 +12496,7 @@
                   "nome": "TV8",
                   "numero": "8",
                   "tipo": "diretta",
-                  "orario": "2026-10-24T03:45",
+                  "orario": "2026-10-24T04:40",
                   "programma": "GP Australia: Qualifiche",
                   "fonte": "tv8"
                 }
@@ -13253,7 +13022,7 @@
     },
     {
       "nome": "Calcio",
-      "totale": 102,
+      "totale": 94,
       "sottocartelle": [
         {
           "nome": "Serie A",
@@ -30006,197 +29775,8 @@
         },
         {
           "nome": "UEFA Europa League",
-          "totale": 20,
+          "totale": 12,
           "eventi": [
-            {
-              "titolo": "UEFA Europa League: Ararat Armenia-AZ Alkmaar",
-              "categoria": "Calcio",
-              "sottocartella": "UEFA Europa League",
-              "sport": "Calcio",
-              "competizione": "UEFA Europa League",
-              "evento": "Ararat Armenia-AZ Alkmaar",
-              "inizio": "2026-10-22T18:45:00+02:00",
-              "data": "22/10/2026",
-              "ora": "18:45",
-              "canali": [
-                {
-                  "nome": "Sky",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-22T18:45",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "UEFA Europa League: Dinamo Zagabria-NEC",
-              "categoria": "Calcio",
-              "sottocartella": "UEFA Europa League",
-              "sport": "Calcio",
-              "competizione": "UEFA Europa League",
-              "evento": "Dinamo Zagabria-NEC",
-              "inizio": "2026-10-22T18:45:00+02:00",
-              "data": "22/10/2026",
-              "ora": "18:45",
-              "canali": [
-                {
-                  "nome": "Sky",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-22T18:45",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "UEFA Europa League: Ferencvaros-Torreense",
-              "categoria": "Calcio",
-              "sottocartella": "UEFA Europa League",
-              "sport": "Calcio",
-              "competizione": "UEFA Europa League",
-              "evento": "Ferencvaros-Torreense",
-              "inizio": "2026-10-22T18:45:00+02:00",
-              "data": "22/10/2026",
-              "ora": "18:45",
-              "canali": [
-                {
-                  "nome": "Sky",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-22T18:45",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "UEFA Europa League: Juventus-Rennes",
-              "categoria": "Calcio",
-              "sottocartella": "UEFA Europa League",
-              "sport": "Calcio",
-              "competizione": "UEFA Europa League",
-              "evento": "Juventus-Rennes",
-              "inizio": "2026-10-22T18:45:00+02:00",
-              "data": "22/10/2026",
-              "ora": "18:45",
-              "canali": [
-                {
-                  "nome": "Sky",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-22T18:45",
-                  "fonte": "virgilio"
-                },
-                {
-                  "nome": "Sky Sport 1",
-                  "numero": "201",
-                  "tipo": "diretta",
-                  "orario": "2026-10-22T18:45",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "UEFA Europa League: Lech Poznan-Sunderland",
-              "categoria": "Calcio",
-              "sottocartella": "UEFA Europa League",
-              "sport": "Calcio",
-              "competizione": "UEFA Europa League",
-              "evento": "Lech Poznan-Sunderland",
-              "inizio": "2026-10-22T18:45:00+02:00",
-              "data": "22/10/2026",
-              "ora": "18:45",
-              "canali": [
-                {
-                  "nome": "Sky Sport Mix",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-22T18:45",
-                  "fonte": "virgilio"
-                },
-                {
-                  "nome": "Sky",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-22T18:45",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "UEFA Europa League: OFI-Bayer Leverkusen",
-              "categoria": "Calcio",
-              "sottocartella": "UEFA Europa League",
-              "sport": "Calcio",
-              "competizione": "UEFA Europa League",
-              "evento": "OFI-Bayer Leverkusen",
-              "inizio": "2026-10-22T18:45:00+02:00",
-              "data": "22/10/2026",
-              "ora": "18:45",
-              "canali": [
-                {
-                  "nome": "Sky",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-22T18:45",
-                  "fonte": "virgilio"
-                },
-                {
-                  "nome": "Sky Sport Calcio",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-22T18:45",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "UEFA Europa League: Sturm Graz-Marsiglia",
-              "categoria": "Calcio",
-              "sottocartella": "UEFA Europa League",
-              "sport": "Calcio",
-              "competizione": "UEFA Europa League",
-              "evento": "Sturm Graz-Marsiglia",
-              "inizio": "2026-10-22T18:45:00+02:00",
-              "data": "22/10/2026",
-              "ora": "18:45",
-              "canali": [
-                {
-                  "nome": "Sky",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-22T18:45",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "UEFA Europa League: Union Saint Gilloise-Hapoel Beer Sheva",
-              "categoria": "Calcio",
-              "sottocartella": "UEFA Europa League",
-              "sport": "Calcio",
-              "competizione": "UEFA Europa League",
-              "evento": "Union Saint Gilloise-Hapoel Beer Sheva",
-              "inizio": "2026-10-22T18:45:00+02:00",
-              "data": "22/10/2026",
-              "ora": "18:45",
-              "canali": [
-                {
-                  "nome": "Sky",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-22T18:45",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
             {
               "titolo": "UEFA Europa League: Besiktas-Crystal Palace",
               "categoria": "Calcio",
@@ -37184,33 +36764,12 @@
     },
     {
       "nome": "Basket",
-      "totale": 16,
+      "totale": 15,
       "sottocartelle": [
         {
           "nome": "Eurolega",
-          "totale": 5,
+          "totale": 4,
           "eventi": [
-            {
-              "titolo": "Eurolega: Olimpia Milano-Barcellona",
-              "categoria": "Basket",
-              "sottocartella": "Eurolega",
-              "sport": "Basket",
-              "competizione": "Eurolega",
-              "evento": "Olimpia Milano-Barcellona",
-              "inizio": "2026-10-22T20:30:00+02:00",
-              "data": "22/10/2026",
-              "ora": "20:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport Basket",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-22T20:30",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
             {
               "titolo": "Eurolega: Partizan-Stella Rossa",
               "categoria": "Basket",
@@ -37623,56 +37182,8 @@
     },
     {
       "nome": "Altri sport",
-      "totale": 10,
+      "totale": 9,
       "sottocartelle": [
-        {
-          "nome": "Pallamano maschile",
-          "totale": 2,
-          "eventi": [
-            {
-              "titolo": "Qualificazioni Mondiali: Bulgaria-Italia",
-              "categoria": "Altri sport",
-              "sottocartella": "Pallamano maschile",
-              "sport": "Pallamano maschile",
-              "competizione": "Qualificazioni Mondiali 2027",
-              "evento": "Bulgaria-Italia",
-              "inizio": "2026-10-22T18:00:00+02:00",
-              "data": "22/10/2026",
-              "ora": "18:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Max",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-22T18:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "Qualificazioni Mondiali: Italia-Bulgaria",
-              "categoria": "Altri sport",
-              "sottocartella": "Pallamano maschile",
-              "sport": "Pallamano maschile",
-              "competizione": "Qualificazioni Mondiali 2027",
-              "evento": "Italia-Bulgaria",
-              "inizio": "2026-10-25T19:00:00+01:00",
-              "data": "25/10/2026",
-              "ora": "19:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Max",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-25T19:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            }
-          ]
-        },
         {
           "nome": "Rugby",
           "totale": 2,
@@ -37886,6 +37397,33 @@
                   "numero": "",
                   "tipo": "diretta",
                   "orario": "2026-10-25T09:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            }
+          ]
+        },
+        {
+          "nome": "Pallamano maschile",
+          "totale": 1,
+          "eventi": [
+            {
+              "titolo": "Qualificazioni Mondiali: Italia-Bulgaria",
+              "categoria": "Altri sport",
+              "sottocartella": "Pallamano maschile",
+              "sport": "Pallamano maschile",
+              "competizione": "Qualificazioni Mondiali 2027",
+              "evento": "Italia-Bulgaria",
+              "inizio": "2026-10-25T19:00:00+01:00",
+              "data": "25/10/2026",
+              "ora": "19:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport Max",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-25T19:00",
                   "fonte": "virgilio"
                 }
               ],
