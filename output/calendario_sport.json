@@ -1,11 +1,11 @@
 {
-  "aggiornato": "2026-10-23T10:07:41+02:00",
+  "aggiornato": "2026-10-23T13:48:57+02:00",
   "fonti": {
     "motori": "Fuori Traiettoria, Dizzle0987/motorsport-calendar, palinsesto TV8",
     "calcio_italiano": "https://raw.githubusercontent.com/aandroide/Livesoccer/master/livesoccertv/output/eventi.json",
     "altri_sport": "https://sport.virgilio.it/guida-tv/"
   },
-  "totale": 232,
+  "totale": 244,
   "cartelle": [
     {
       "nome": "Oggi",
@@ -5082,7 +5082,7 @@
     },
     {
       "nome": "Calcio",
-      "totale": 82,
+      "totale": 85,
       "sottocartelle": [
         {
           "nome": "Serie A",
@@ -10628,6 +10628,13 @@
                   "fonte": "virgilio"
                 },
                 {
+                  "nome": "Sky Sport 1",
+                  "numero": "201",
+                  "tipo": "diretta",
+                  "orario": "2026-10-28T18:30",
+                  "fonte": "virgilio"
+                },
+                {
                   "nome": "Sky Sport Calcio",
                   "numero": "",
                   "tipo": "diretta",
@@ -11430,7 +11437,7 @@
         },
         {
           "nome": "Serie C",
-          "totale": 15,
+          "totale": 16,
           "eventi": [
             {
               "titolo": "Serie C: Casertana vs Bari 1908",
@@ -11895,6 +11902,27 @@
                 {
                   "nome": "Sky Sport Calcio",
                   "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-26T20:30",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "Serie C: Picerno-Salernitana",
+              "categoria": "Calcio",
+              "sottocartella": "Serie C",
+              "sport": "Calcio",
+              "competizione": "Serie C",
+              "evento": "Picerno-Salernitana",
+              "inizio": "2026-10-26T20:30:00+01:00",
+              "data": "26/10/2026",
+              "ora": "20:30",
+              "canali": [
+                {
+                  "nome": "Sky Sport 1",
+                  "numero": "201",
                   "tipo": "diretta",
                   "orario": "2026-10-26T20:30",
                   "fonte": "virgilio"
@@ -13518,12 +13546,60 @@
               "fonte": "Virgilio Sport"
             }
           ]
+        },
+        {
+          "nome": "Coppa Italia Serie C",
+          "totale": 2,
+          "eventi": [
+            {
+              "titolo": "Coppa Italia Serie C: Potenza-Bari",
+              "categoria": "Calcio",
+              "sottocartella": "Coppa Italia Serie C",
+              "sport": "Calcio",
+              "competizione": "Coppa Italia Serie C",
+              "evento": "Potenza-Bari",
+              "inizio": "2026-10-27T20:30:00+01:00",
+              "data": "27/10/2026",
+              "ora": "20:30",
+              "canali": [
+                {
+                  "nome": "Sky Sport Max",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-27T20:30",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "Coppa Italia Serie C: Union Brescia-Cittadella",
+              "categoria": "Calcio",
+              "sottocartella": "Coppa Italia Serie C",
+              "sport": "Calcio",
+              "competizione": "Coppa Italia Serie C",
+              "evento": "Union Brescia-Cittadella",
+              "inizio": "2026-10-28T20:30:00+01:00",
+              "data": "28/10/2026",
+              "ora": "20:30",
+              "canali": [
+                {
+                  "nome": "Sky Sport 1",
+                  "numero": "201",
+                  "tipo": "diretta",
+                  "orario": "2026-10-28T20:30",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            }
+          ]
         }
       ]
     },
     {
       "nome": "Tennis",
-      "totale": 17,
+      "totale": 21,
       "sottocartelle": [
         {
           "nome": "WTA 250 Osaka",
@@ -13796,7 +13872,7 @@
         },
         {
           "nome": "ATP & WTA",
-          "totale": 5,
+          "totale": 9,
           "eventi": [
             {
               "titolo": "ATP & WTA",
@@ -13847,6 +13923,27 @@
               "sport": "Tennis",
               "competizione": "ATP & WTA",
               "evento": "ATP & WTA",
+              "inizio": "2026-10-26T13:30:00+01:00",
+              "data": "26/10/2026",
+              "ora": "13:30",
+              "canali": [
+                {
+                  "nome": "Sky Sport 1",
+                  "numero": "201",
+                  "tipo": "diretta",
+                  "orario": "2026-10-26T13:30",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "ATP & WTA",
+              "categoria": "Tennis",
+              "sottocartella": "ATP & WTA",
+              "sport": "Tennis",
+              "competizione": "ATP & WTA",
+              "evento": "ATP & WTA",
               "inizio": "2026-10-27T02:30:00+01:00",
               "data": "27/10/2026",
               "ora": "02:30",
@@ -13856,6 +13953,27 @@
                   "numero": "",
                   "tipo": "diretta",
                   "orario": "2026-10-27T02:30",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "ATP & WTA",
+              "categoria": "Tennis",
+              "sottocartella": "ATP & WTA",
+              "sport": "Tennis",
+              "competizione": "ATP & WTA",
+              "evento": "ATP & WTA",
+              "inizio": "2026-10-27T13:30:00+01:00",
+              "data": "27/10/2026",
+              "ora": "13:30",
+              "canali": [
+                {
+                  "nome": "Sky Sport 1",
+                  "numero": "201",
+                  "tipo": "diretta",
+                  "orario": "2026-10-27T13:30",
                   "fonte": "virgilio"
                 }
               ],
@@ -13889,6 +14007,27 @@
               "sport": "Tennis",
               "competizione": "ATP & WTA",
               "evento": "ATP & WTA",
+              "inizio": "2026-10-28T13:30:00+01:00",
+              "data": "28/10/2026",
+              "ora": "13:30",
+              "canali": [
+                {
+                  "nome": "Sky Sport 1",
+                  "numero": "201",
+                  "tipo": "diretta",
+                  "orario": "2026-10-28T13:30",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "ATP & WTA",
+              "categoria": "Tennis",
+              "sottocartella": "ATP & WTA",
+              "sport": "Tennis",
+              "competizione": "ATP & WTA",
+              "evento": "ATP & WTA",
               "inizio": "2026-10-29T02:30:00+01:00",
               "data": "29/10/2026",
               "ora": "02:30",
@@ -13898,6 +14037,27 @@
                   "numero": "",
                   "tipo": "diretta",
                   "orario": "2026-10-29T02:30",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "ATP & WTA",
+              "categoria": "Tennis",
+              "sottocartella": "ATP & WTA",
+              "sport": "Tennis",
+              "competizione": "ATP & WTA",
+              "evento": "ATP & WTA",
+              "inizio": "2026-10-29T13:30:00+01:00",
+              "data": "29/10/2026",
+              "ora": "13:30",
+              "canali": [
+                {
+                  "nome": "Sky Sport 1",
+                  "numero": "201",
+                  "tipo": "diretta",
+                  "orario": "2026-10-29T13:30",
                   "fonte": "virgilio"
                 }
               ],
@@ -13936,11 +14096,11 @@
     },
     {
       "nome": "Basket",
-      "totale": 15,
+      "totale": 20,
       "sottocartelle": [
         {
           "nome": "Eurolega",
-          "totale": 4,
+          "totale": 7,
           "eventi": [
             {
               "titolo": "Eurolega: Olympiacos-Fenerbahce",
@@ -13985,6 +14145,48 @@
               "fonte": "Virgilio Sport"
             },
             {
+              "titolo": "Eurolega: Panathinaikos-Olimpia Milano",
+              "categoria": "Basket",
+              "sottocartella": "Eurolega",
+              "sport": "Basket",
+              "competizione": "Eurolega",
+              "evento": "Panathinaikos-Olimpia Milano",
+              "inizio": "2026-10-27T20:15:00+01:00",
+              "data": "27/10/2026",
+              "ora": "20:15",
+              "canali": [
+                {
+                  "nome": "Sky Sport 1",
+                  "numero": "201",
+                  "tipo": "diretta",
+                  "orario": "2026-10-27T20:15",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "Eurolega: Besiktas-Olympiacos",
+              "categoria": "Basket",
+              "sottocartella": "Eurolega",
+              "sport": "Basket",
+              "competizione": "Eurolega",
+              "evento": "Besiktas-Olympiacos",
+              "inizio": "2026-10-28T19:30:00+01:00",
+              "data": "28/10/2026",
+              "ora": "19:30",
+              "canali": [
+                {
+                  "nome": "Sky Sport Max",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-28T19:30",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
               "titolo": "Eurolega: Virtus Bologna-Zalgiris",
               "categoria": "Basket",
               "sottocartella": "Eurolega",
@@ -14000,6 +14202,27 @@
                   "numero": "",
                   "tipo": "diretta",
                   "orario": "2026-10-28T20:30",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "Eurolega: Stella Rossa-Bayern Monaco",
+              "categoria": "Basket",
+              "sottocartella": "Eurolega",
+              "sport": "Basket",
+              "competizione": "Eurolega",
+              "evento": "Stella Rossa-Bayern Monaco",
+              "inizio": "2026-10-29T20:00:00+01:00",
+              "data": "29/10/2026",
+              "ora": "20:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport Arena",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-29T20:00",
                   "fonte": "virgilio"
                 }
               ],
@@ -14223,7 +14446,7 @@
         },
         {
           "nome": "Eurocup",
-          "totale": 3,
+          "totale": 5,
           "eventi": [
             {
               "titolo": "Eurocup: Roma Basketball-Bosna Royal",
@@ -14268,6 +14491,27 @@
               "fonte": "Virgilio Sport"
             },
             {
+              "titolo": "Eurocup: Neptunas Klaipeda-Napoli Basket",
+              "categoria": "Basket",
+              "sottocartella": "Eurocup",
+              "sport": "Basket",
+              "competizione": "Eurocup",
+              "evento": "Neptunas Klaipeda-Napoli Basket",
+              "inizio": "2026-10-28T18:00:00+01:00",
+              "data": "28/10/2026",
+              "ora": "18:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport Arena",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-28T18:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
               "titolo": "Eurocup: Derthona Tortona-Rostock",
               "categoria": "Basket",
               "sottocartella": "Eurocup",
@@ -14283,6 +14527,27 @@
                   "numero": "",
                   "tipo": "diretta",
                   "orario": "2026-10-28T19:30",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "Eurocup: Tenerife-Reyer Venezia",
+              "categoria": "Basket",
+              "sottocartella": "Eurocup",
+              "sport": "Basket",
+              "competizione": "Eurocup",
+              "evento": "Tenerife-Reyer Venezia",
+              "inizio": "2026-10-28T21:00:00+01:00",
+              "data": "28/10/2026",
+              "ora": "21:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport Arena",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-28T21:00",
                   "fonte": "virgilio"
                 }
               ],
