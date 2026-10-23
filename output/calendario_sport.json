@@ -1,503 +1,16 @@
 {
-  "aggiornato": "2026-10-23T20:48:00+02:00",
+  "aggiornato": "2026-10-23T23:30:15+02:00",
   "fonti": {
     "motori": "Fuori Traiettoria, Dizzle0987/motorsport-calendar, palinsesto TV8",
     "calcio_italiano": "https://raw.githubusercontent.com/aandroide/Livesoccer/master/livesoccertv/output/eventi.json",
     "altri_sport": "https://sport.virgilio.it/guida-tv/"
   },
-  "totale": 246,
+  "totale": 237,
   "cartelle": [
     {
       "nome": "Oggi",
-      "totale": 14,
+      "totale": 5,
       "eventi": [
-        {
-          "titolo": "[Calcio] Bundesliga 2: Bochum-Wolfsburg",
-          "categoria": "Calcio",
-          "sottocartella": "Bundesliga 2",
-          "sport": "Calcio",
-          "competizione": "Bundesliga 2",
-          "evento": "Bochum-Wolfsburg",
-          "inizio": "2026-10-23T18:30:00+02:00",
-          "data": "23/10/2026",
-          "ora": "18:30",
-          "canali": [
-            {
-              "nome": "Sky Sport Max",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-10-23T18:30",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Motori] Formula 1: United States Grand Prix - FP1",
-          "categoria": "Motori",
-          "sottocartella": "Formula 1",
-          "sport": "Motori",
-          "competizione": "Formula 1",
-          "evento": "United States Grand Prix - FP1",
-          "sessione": "prove",
-          "circuito": "Circuit of the Americas, Austin, USA",
-          "inizio": "2026-10-23T19:30:00+02:00",
-          "data": "23/10/2026",
-          "ora": "19:30",
-          "canali": [
-            {
-              "nome": "Sky Sport F1",
-              "numero": "207",
-              "tipo": "diretta",
-              "orario": "2026-10-23T19:30",
-              "fonte": "dizzle+config"
-            },
-            {
-              "nome": "NOW",
-              "numero": "",
-              "tipo": "streaming",
-              "orario": "2026-10-23T19:30",
-              "fonte": "dizzle+config"
-            },
-            {
-              "nome": "Sky Sport 1",
-              "numero": "201",
-              "tipo": "diretta",
-              "orario": "2026-10-23T19:30",
-              "fonte": "config"
-            },
-            {
-              "nome": "Sky Sport 4K",
-              "numero": "213",
-              "tipo": "diretta",
-              "orario": "2026-10-23T19:30",
-              "fonte": "config"
-            }
-          ],
-          "fonte": "Dizzle0987/motorsport-calendar"
-        },
-        {
-          "titolo": "[Basket] Eurolega: Olympiacos-Fenerbahce",
-          "categoria": "Basket",
-          "sottocartella": "Eurolega",
-          "sport": "Basket",
-          "competizione": "Eurolega",
-          "evento": "Olympiacos-Fenerbahce",
-          "inizio": "2026-10-23T20:15:00+02:00",
-          "data": "23/10/2026",
-          "ora": "20:15",
-          "canali": [
-            {
-              "nome": "Sky Sport Basket",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-10-23T20:15",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Calcio] Serie B: Empoli vs Vicenza",
-          "categoria": "Calcio",
-          "sottocartella": "Serie B",
-          "sport": "Calcio",
-          "competizione": "Serie B",
-          "evento": "Empoli vs Vicenza",
-          "inizio": "2026-10-23T20:30:00+02:00",
-          "data": "23/10/2026",
-          "ora": "20:30",
-          "canali": [
-            {
-              "nome": "DAZN Italia",
-              "numero": "",
-              "tipo": "streaming",
-              "orario": "2026-10-23T20:30",
-              "fonte": "livesoccer"
-            },
-            {
-              "nome": "LAB Channel",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-10-23T20:30",
-              "fonte": "livesoccer"
-            },
-            {
-              "nome": "DAZN",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-10-23T20:30",
-              "fonte": "virgilio"
-            }
-          ],
-          "canali_mondo": [
-            {
-              "paese": "Bielorussia",
-              "canali": [
-                "Sporttv"
-              ]
-            },
-            {
-              "paese": "Gran Bretagna",
-              "canali": [
-                "DCTV"
-              ]
-            },
-            {
-              "paese": "Irlanda",
-              "canali": [
-                "DCTV"
-              ]
-            },
-            {
-              "paese": "Italia",
-              "canali": [
-                "DAZN Italia",
-                "LAB Channel"
-              ]
-            },
-            {
-              "paese": "Liechtenstein",
-              "canali": [
-                "Blue Sport 3 Live",
-                "Blue Sport"
-              ]
-            },
-            {
-              "paese": "Macedonia",
-              "canali": [
-                "Arena Cloud"
-              ]
-            },
-            {
-              "paese": "Montenegro",
-              "canali": [
-                "Arena Cloud"
-              ]
-            },
-            {
-              "paese": "Russia",
-              "canali": [
-                "Телеканал Футбол"
-              ]
-            },
-            {
-              "paese": "San Marino",
-              "canali": [
-                "DAZN Italia",
-                "LAB Channel"
-              ]
-            },
-            {
-              "paese": "Serbia",
-              "canali": [
-                "Arena Sport 1x2",
-                "Arena Cloud"
-              ]
-            },
-            {
-              "paese": "Svizzera",
-              "canali": [
-                "Blue Sport 3 Live",
-                "Blue Sport"
-              ]
-            },
-            {
-              "paese": "Turchia",
-              "canali": [
-                "Sifir TV"
-              ]
-            },
-            {
-              "paese": "USA",
-              "canali": [
-                "DCTV"
-              ]
-            }
-          ],
-          "fonte": "LiveSoccerTV"
-        },
-        {
-          "titolo": "[Calcio] Serie C: Casertana vs Bari 1908",
-          "categoria": "Calcio",
-          "sottocartella": "Serie C",
-          "sport": "Calcio",
-          "competizione": "Serie C",
-          "evento": "Casertana vs Bari 1908",
-          "inizio": "2026-10-23T20:30:00+02:00",
-          "data": "23/10/2026",
-          "ora": "20:30",
-          "canali": [
-            {
-              "nome": "Sky Sport 252",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-10-23T20:30",
-              "fonte": "livesoccer"
-            },
-            {
-              "nome": "SKY Go Italia",
-              "numero": "",
-              "tipo": "streaming",
-              "orario": "2026-10-23T20:30",
-              "fonte": "livesoccer"
-            },
-            {
-              "nome": "Sky Sport Uno",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-10-23T20:30",
-              "fonte": "livesoccer"
-            },
-            {
-              "nome": "NOW TV",
-              "numero": "",
-              "tipo": "streaming",
-              "orario": "2026-10-23T20:30",
-              "fonte": "livesoccer"
-            },
-            {
-              "nome": "Sky Sport 1",
-              "numero": "201",
-              "tipo": "diretta",
-              "orario": "2026-10-23T20:30",
-              "fonte": "virgilio"
-            }
-          ],
-          "canali_mondo": [
-            {
-              "paese": "Italia",
-              "canali": [
-                "Sky Sport 252",
-                "SKY Go Italia",
-                "Sky Sport Uno",
-                "NOW TV"
-              ]
-            },
-            {
-              "paese": "San Marino",
-              "canali": [
-                "Sky Sport 252",
-                "SKY Go Italia",
-                "Sky Sport Uno",
-                "NOW TV"
-              ]
-            }
-          ],
-          "fonte": "LiveSoccerTV"
-        },
-        {
-          "titolo": "[Calcio] Serie C: Ostia Mare Lidocalcio vs Vado",
-          "categoria": "Calcio",
-          "sottocartella": "Serie C",
-          "sport": "Calcio",
-          "competizione": "Serie C",
-          "evento": "Ostia Mare Lidocalcio vs Vado",
-          "inizio": "2026-10-23T20:30:00+02:00",
-          "data": "23/10/2026",
-          "ora": "20:30",
-          "canali": [
-            {
-              "nome": "Sky Sport 255",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-10-23T20:30",
-              "fonte": "livesoccer"
-            },
-            {
-              "nome": "SKY Go Italia",
-              "numero": "",
-              "tipo": "streaming",
-              "orario": "2026-10-23T20:30",
-              "fonte": "livesoccer"
-            },
-            {
-              "nome": "NOW TV",
-              "numero": "",
-              "tipo": "streaming",
-              "orario": "2026-10-23T20:30",
-              "fonte": "livesoccer"
-            }
-          ],
-          "canali_mondo": [
-            {
-              "paese": "Italia",
-              "canali": [
-                "Sky Sport 255",
-                "SKY Go Italia",
-                "NOW TV"
-              ]
-            },
-            {
-              "paese": "San Marino",
-              "canali": [
-                "Sky Sport 255",
-                "SKY Go Italia",
-                "NOW TV"
-              ]
-            }
-          ],
-          "fonte": "LiveSoccerTV"
-        },
-        {
-          "titolo": "[Calcio] Serie C: Perugia vs Pescara",
-          "categoria": "Calcio",
-          "sottocartella": "Serie C",
-          "sport": "Calcio",
-          "competizione": "Serie C",
-          "evento": "Perugia vs Pescara",
-          "inizio": "2026-10-23T20:30:00+02:00",
-          "data": "23/10/2026",
-          "ora": "20:30",
-          "canali": [
-            {
-              "nome": "Sky Sport 253",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-10-23T20:30",
-              "fonte": "livesoccer"
-            },
-            {
-              "nome": "SKY Go Italia",
-              "numero": "",
-              "tipo": "streaming",
-              "orario": "2026-10-23T20:30",
-              "fonte": "livesoccer"
-            },
-            {
-              "nome": "NOW TV",
-              "numero": "",
-              "tipo": "streaming",
-              "orario": "2026-10-23T20:30",
-              "fonte": "livesoccer"
-            }
-          ],
-          "canali_mondo": [
-            {
-              "paese": "Italia",
-              "canali": [
-                "Sky Sport 253",
-                "SKY Go Italia",
-                "NOW TV"
-              ]
-            },
-            {
-              "paese": "San Marino",
-              "canali": [
-                "Sky Sport 253",
-                "SKY Go Italia",
-                "NOW TV"
-              ]
-            }
-          ],
-          "fonte": "LiveSoccerTV"
-        },
-        {
-          "titolo": "[Calcio] Serie C: Pineto vs Gubbio",
-          "categoria": "Calcio",
-          "sottocartella": "Serie C",
-          "sport": "Calcio",
-          "competizione": "Serie C",
-          "evento": "Pineto vs Gubbio",
-          "inizio": "2026-10-23T20:30:00+02:00",
-          "data": "23/10/2026",
-          "ora": "20:30",
-          "canali": [
-            {
-              "nome": "Sky Sport 256",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-10-23T20:30",
-              "fonte": "livesoccer"
-            },
-            {
-              "nome": "SKY Go Italia",
-              "numero": "",
-              "tipo": "streaming",
-              "orario": "2026-10-23T20:30",
-              "fonte": "livesoccer"
-            },
-            {
-              "nome": "NOW TV",
-              "numero": "",
-              "tipo": "streaming",
-              "orario": "2026-10-23T20:30",
-              "fonte": "livesoccer"
-            }
-          ],
-          "canali_mondo": [
-            {
-              "paese": "Italia",
-              "canali": [
-                "Sky Sport 256",
-                "SKY Go Italia",
-                "NOW TV"
-              ]
-            },
-            {
-              "paese": "San Marino",
-              "canali": [
-                "Sky Sport 256",
-                "SKY Go Italia",
-                "NOW TV"
-              ]
-            }
-          ],
-          "fonte": "LiveSoccerTV"
-        },
-        {
-          "titolo": "[Calcio] Serie C: Team Altamura vs Potenza Calcio",
-          "categoria": "Calcio",
-          "sottocartella": "Serie C",
-          "sport": "Calcio",
-          "competizione": "Serie C",
-          "evento": "Team Altamura vs Potenza Calcio",
-          "inizio": "2026-10-23T20:30:00+02:00",
-          "data": "23/10/2026",
-          "ora": "20:30",
-          "canali": [
-            {
-              "nome": "Sky Sport 254",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-10-23T20:30",
-              "fonte": "livesoccer"
-            },
-            {
-              "nome": "SKY Go Italia",
-              "numero": "",
-              "tipo": "streaming",
-              "orario": "2026-10-23T20:30",
-              "fonte": "livesoccer"
-            },
-            {
-              "nome": "NOW TV",
-              "numero": "",
-              "tipo": "streaming",
-              "orario": "2026-10-23T20:30",
-              "fonte": "livesoccer"
-            }
-          ],
-          "canali_mondo": [
-            {
-              "paese": "Italia",
-              "canali": [
-                "Sky Sport 254",
-                "SKY Go Italia",
-                "NOW TV"
-              ]
-            },
-            {
-              "paese": "San Marino",
-              "canali": [
-                "Sky Sport 254",
-                "SKY Go Italia",
-                "NOW TV"
-              ]
-            }
-          ],
-          "fonte": "LiveSoccerTV"
-        },
         {
           "titolo": "[Altri sport] United Rugby Championship: Connacht-Zebre",
           "categoria": "Altri sport",
@@ -1674,56 +1187,12 @@
     },
     {
       "nome": "Motori",
-      "totale": 107,
+      "totale": 106,
       "sottocartelle": [
         {
           "nome": "Formula 1",
-          "totale": 30,
+          "totale": 29,
           "eventi": [
-            {
-              "titolo": "Formula 1: United States Grand Prix - FP1",
-              "categoria": "Motori",
-              "sottocartella": "Formula 1",
-              "sport": "Motori",
-              "competizione": "Formula 1",
-              "evento": "United States Grand Prix - FP1",
-              "sessione": "prove",
-              "circuito": "Circuit of the Americas, Austin, USA",
-              "inizio": "2026-10-23T19:30:00+02:00",
-              "data": "23/10/2026",
-              "ora": "19:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport F1",
-                  "numero": "207",
-                  "tipo": "diretta",
-                  "orario": "2026-10-23T19:30",
-                  "fonte": "dizzle+config"
-                },
-                {
-                  "nome": "NOW",
-                  "numero": "",
-                  "tipo": "streaming",
-                  "orario": "2026-10-23T19:30",
-                  "fonte": "dizzle+config"
-                },
-                {
-                  "nome": "Sky Sport 1",
-                  "numero": "201",
-                  "tipo": "diretta",
-                  "orario": "2026-10-23T19:30",
-                  "fonte": "config"
-                },
-                {
-                  "nome": "Sky Sport 4K",
-                  "numero": "213",
-                  "tipo": "diretta",
-                  "orario": "2026-10-23T19:30",
-                  "fonte": "config"
-                }
-              ],
-              "fonte": "Dizzle0987/motorsport-calendar"
-            },
             {
               "titolo": "Formula 1: United States Grand Prix - FP2",
               "categoria": "Motori",
@@ -4705,16 +4174,7 @@
               "inizio": "2026-11-08T15:00:00+01:00",
               "data": "08/11/2026",
               "ora": "15:00",
-              "canali": [
-                {
-                  "nome": "TV8",
-                  "numero": "8",
-                  "tipo": "diretta",
-                  "orario": "2026-11-08T14:00",
-                  "programma": "GP Qatar: Gara",
-                  "fonte": "tv8"
-                }
-              ],
+              "canali": [],
               "fonte": "Fuori Traiettoria"
             },
             {
@@ -4729,16 +4189,7 @@
               "inizio": "2026-11-08T16:15:00+01:00",
               "data": "08/11/2026",
               "ora": "16:15",
-              "canali": [
-                {
-                  "nome": "TV8",
-                  "numero": "8",
-                  "tipo": "diretta",
-                  "orario": "2026-11-08T15:15",
-                  "programma": "GP Qatar: Gara",
-                  "fonte": "tv8"
-                }
-              ],
+              "canali": [],
               "fonte": "Fuori Traiettoria"
             },
             {
@@ -5053,7 +4504,7 @@
     },
     {
       "nome": "Calcio",
-      "totale": 87,
+      "totale": 80,
       "sottocartelle": [
         {
           "nome": "Serie A",
@@ -10727,128 +10178,8 @@
         },
         {
           "nome": "Serie B",
-          "totale": 24,
+          "totale": 23,
           "eventi": [
-            {
-              "titolo": "Serie B: Empoli vs Vicenza",
-              "categoria": "Calcio",
-              "sottocartella": "Serie B",
-              "sport": "Calcio",
-              "competizione": "Serie B",
-              "evento": "Empoli vs Vicenza",
-              "inizio": "2026-10-23T20:30:00+02:00",
-              "data": "23/10/2026",
-              "ora": "20:30",
-              "canali": [
-                {
-                  "nome": "DAZN Italia",
-                  "numero": "",
-                  "tipo": "streaming",
-                  "orario": "2026-10-23T20:30",
-                  "fonte": "livesoccer"
-                },
-                {
-                  "nome": "LAB Channel",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-23T20:30",
-                  "fonte": "livesoccer"
-                },
-                {
-                  "nome": "DAZN",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-23T20:30",
-                  "fonte": "virgilio"
-                }
-              ],
-              "canali_mondo": [
-                {
-                  "paese": "Bielorussia",
-                  "canali": [
-                    "Sporttv"
-                  ]
-                },
-                {
-                  "paese": "Gran Bretagna",
-                  "canali": [
-                    "DCTV"
-                  ]
-                },
-                {
-                  "paese": "Irlanda",
-                  "canali": [
-                    "DCTV"
-                  ]
-                },
-                {
-                  "paese": "Italia",
-                  "canali": [
-                    "DAZN Italia",
-                    "LAB Channel"
-                  ]
-                },
-                {
-                  "paese": "Liechtenstein",
-                  "canali": [
-                    "Blue Sport 3 Live",
-                    "Blue Sport"
-                  ]
-                },
-                {
-                  "paese": "Macedonia",
-                  "canali": [
-                    "Arena Cloud"
-                  ]
-                },
-                {
-                  "paese": "Montenegro",
-                  "canali": [
-                    "Arena Cloud"
-                  ]
-                },
-                {
-                  "paese": "Russia",
-                  "canali": [
-                    "Телеканал Футбол"
-                  ]
-                },
-                {
-                  "paese": "San Marino",
-                  "canali": [
-                    "DAZN Italia",
-                    "LAB Channel"
-                  ]
-                },
-                {
-                  "paese": "Serbia",
-                  "canali": [
-                    "Arena Sport 1x2",
-                    "Arena Cloud"
-                  ]
-                },
-                {
-                  "paese": "Svizzera",
-                  "canali": [
-                    "Blue Sport 3 Live",
-                    "Blue Sport"
-                  ]
-                },
-                {
-                  "paese": "Turchia",
-                  "canali": [
-                    "Sifir TV"
-                  ]
-                },
-                {
-                  "paese": "USA",
-                  "canali": [
-                    "DCTV"
-                  ]
-                }
-              ],
-              "fonte": "LiveSoccerTV"
-            },
             {
               "titolo": "Serie B: Empoli vs Lr Vicenza",
               "categoria": "Calcio",
@@ -11595,289 +10926,8 @@
         },
         {
           "nome": "Serie C",
-          "totale": 20,
+          "totale": 15,
           "eventi": [
-            {
-              "titolo": "Serie C: Casertana vs Bari 1908",
-              "categoria": "Calcio",
-              "sottocartella": "Serie C",
-              "sport": "Calcio",
-              "competizione": "Serie C",
-              "evento": "Casertana vs Bari 1908",
-              "inizio": "2026-10-23T20:30:00+02:00",
-              "data": "23/10/2026",
-              "ora": "20:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport 252",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-23T20:30",
-                  "fonte": "livesoccer"
-                },
-                {
-                  "nome": "SKY Go Italia",
-                  "numero": "",
-                  "tipo": "streaming",
-                  "orario": "2026-10-23T20:30",
-                  "fonte": "livesoccer"
-                },
-                {
-                  "nome": "Sky Sport Uno",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-23T20:30",
-                  "fonte": "livesoccer"
-                },
-                {
-                  "nome": "NOW TV",
-                  "numero": "",
-                  "tipo": "streaming",
-                  "orario": "2026-10-23T20:30",
-                  "fonte": "livesoccer"
-                },
-                {
-                  "nome": "Sky Sport 1",
-                  "numero": "201",
-                  "tipo": "diretta",
-                  "orario": "2026-10-23T20:30",
-                  "fonte": "virgilio"
-                }
-              ],
-              "canali_mondo": [
-                {
-                  "paese": "Italia",
-                  "canali": [
-                    "Sky Sport 252",
-                    "SKY Go Italia",
-                    "Sky Sport Uno",
-                    "NOW TV"
-                  ]
-                },
-                {
-                  "paese": "San Marino",
-                  "canali": [
-                    "Sky Sport 252",
-                    "SKY Go Italia",
-                    "Sky Sport Uno",
-                    "NOW TV"
-                  ]
-                }
-              ],
-              "fonte": "LiveSoccerTV"
-            },
-            {
-              "titolo": "Serie C: Ostia Mare Lidocalcio vs Vado",
-              "categoria": "Calcio",
-              "sottocartella": "Serie C",
-              "sport": "Calcio",
-              "competizione": "Serie C",
-              "evento": "Ostia Mare Lidocalcio vs Vado",
-              "inizio": "2026-10-23T20:30:00+02:00",
-              "data": "23/10/2026",
-              "ora": "20:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport 255",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-23T20:30",
-                  "fonte": "livesoccer"
-                },
-                {
-                  "nome": "SKY Go Italia",
-                  "numero": "",
-                  "tipo": "streaming",
-                  "orario": "2026-10-23T20:30",
-                  "fonte": "livesoccer"
-                },
-                {
-                  "nome": "NOW TV",
-                  "numero": "",
-                  "tipo": "streaming",
-                  "orario": "2026-10-23T20:30",
-                  "fonte": "livesoccer"
-                }
-              ],
-              "canali_mondo": [
-                {
-                  "paese": "Italia",
-                  "canali": [
-                    "Sky Sport 255",
-                    "SKY Go Italia",
-                    "NOW TV"
-                  ]
-                },
-                {
-                  "paese": "San Marino",
-                  "canali": [
-                    "Sky Sport 255",
-                    "SKY Go Italia",
-                    "NOW TV"
-                  ]
-                }
-              ],
-              "fonte": "LiveSoccerTV"
-            },
-            {
-              "titolo": "Serie C: Perugia vs Pescara",
-              "categoria": "Calcio",
-              "sottocartella": "Serie C",
-              "sport": "Calcio",
-              "competizione": "Serie C",
-              "evento": "Perugia vs Pescara",
-              "inizio": "2026-10-23T20:30:00+02:00",
-              "data": "23/10/2026",
-              "ora": "20:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport 253",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-23T20:30",
-                  "fonte": "livesoccer"
-                },
-                {
-                  "nome": "SKY Go Italia",
-                  "numero": "",
-                  "tipo": "streaming",
-                  "orario": "2026-10-23T20:30",
-                  "fonte": "livesoccer"
-                },
-                {
-                  "nome": "NOW TV",
-                  "numero": "",
-                  "tipo": "streaming",
-                  "orario": "2026-10-23T20:30",
-                  "fonte": "livesoccer"
-                }
-              ],
-              "canali_mondo": [
-                {
-                  "paese": "Italia",
-                  "canali": [
-                    "Sky Sport 253",
-                    "SKY Go Italia",
-                    "NOW TV"
-                  ]
-                },
-                {
-                  "paese": "San Marino",
-                  "canali": [
-                    "Sky Sport 253",
-                    "SKY Go Italia",
-                    "NOW TV"
-                  ]
-                }
-              ],
-              "fonte": "LiveSoccerTV"
-            },
-            {
-              "titolo": "Serie C: Pineto vs Gubbio",
-              "categoria": "Calcio",
-              "sottocartella": "Serie C",
-              "sport": "Calcio",
-              "competizione": "Serie C",
-              "evento": "Pineto vs Gubbio",
-              "inizio": "2026-10-23T20:30:00+02:00",
-              "data": "23/10/2026",
-              "ora": "20:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport 256",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-23T20:30",
-                  "fonte": "livesoccer"
-                },
-                {
-                  "nome": "SKY Go Italia",
-                  "numero": "",
-                  "tipo": "streaming",
-                  "orario": "2026-10-23T20:30",
-                  "fonte": "livesoccer"
-                },
-                {
-                  "nome": "NOW TV",
-                  "numero": "",
-                  "tipo": "streaming",
-                  "orario": "2026-10-23T20:30",
-                  "fonte": "livesoccer"
-                }
-              ],
-              "canali_mondo": [
-                {
-                  "paese": "Italia",
-                  "canali": [
-                    "Sky Sport 256",
-                    "SKY Go Italia",
-                    "NOW TV"
-                  ]
-                },
-                {
-                  "paese": "San Marino",
-                  "canali": [
-                    "Sky Sport 256",
-                    "SKY Go Italia",
-                    "NOW TV"
-                  ]
-                }
-              ],
-              "fonte": "LiveSoccerTV"
-            },
-            {
-              "titolo": "Serie C: Team Altamura vs Potenza Calcio",
-              "categoria": "Calcio",
-              "sottocartella": "Serie C",
-              "sport": "Calcio",
-              "competizione": "Serie C",
-              "evento": "Team Altamura vs Potenza Calcio",
-              "inizio": "2026-10-23T20:30:00+02:00",
-              "data": "23/10/2026",
-              "ora": "20:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport 254",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-23T20:30",
-                  "fonte": "livesoccer"
-                },
-                {
-                  "nome": "SKY Go Italia",
-                  "numero": "",
-                  "tipo": "streaming",
-                  "orario": "2026-10-23T20:30",
-                  "fonte": "livesoccer"
-                },
-                {
-                  "nome": "NOW TV",
-                  "numero": "",
-                  "tipo": "streaming",
-                  "orario": "2026-10-23T20:30",
-                  "fonte": "livesoccer"
-                }
-              ],
-              "canali_mondo": [
-                {
-                  "paese": "Italia",
-                  "canali": [
-                    "Sky Sport 254",
-                    "SKY Go Italia",
-                    "NOW TV"
-                  ]
-                },
-                {
-                  "paese": "San Marino",
-                  "canali": [
-                    "Sky Sport 254",
-                    "SKY Go Italia",
-                    "NOW TV"
-                  ]
-                }
-              ],
-              "fonte": "LiveSoccerTV"
-            },
             {
               "titolo": "Serie C: Atalanta II vs Campobasso",
               "categoria": "Calcio",
@@ -13868,54 +12918,6 @@
           ]
         },
         {
-          "nome": "Bundesliga 2",
-          "totale": 2,
-          "eventi": [
-            {
-              "titolo": "Bundesliga 2: Bochum-Wolfsburg",
-              "categoria": "Calcio",
-              "sottocartella": "Bundesliga 2",
-              "sport": "Calcio",
-              "competizione": "Bundesliga 2",
-              "evento": "Bochum-Wolfsburg",
-              "inizio": "2026-10-23T18:30:00+02:00",
-              "data": "23/10/2026",
-              "ora": "18:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport Max",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-23T18:30",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "Bundesliga 2: Norimberga-Kaiserslautern",
-              "categoria": "Calcio",
-              "sottocartella": "Bundesliga 2",
-              "sport": "Calcio",
-              "competizione": "Bundesliga 2",
-              "evento": "Norimberga-Kaiserslautern",
-              "inizio": "2026-10-24T20:30:00+02:00",
-              "data": "24/10/2026",
-              "ora": "20:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport Max",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-24T20:30",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            }
-          ]
-        },
-        {
           "nome": "Premier League",
           "totale": 8,
           "eventi": [
@@ -14268,6 +13270,33 @@
                   "numero": "",
                   "tipo": "diretta",
                   "orario": "2026-10-24T18:30",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            }
+          ]
+        },
+        {
+          "nome": "Bundesliga 2",
+          "totale": 1,
+          "eventi": [
+            {
+              "titolo": "Bundesliga 2: Norimberga-Kaiserslautern",
+              "categoria": "Calcio",
+              "sottocartella": "Bundesliga 2",
+              "sport": "Calcio",
+              "competizione": "Bundesliga 2",
+              "evento": "Norimberga-Kaiserslautern",
+              "inizio": "2026-10-24T20:30:00+02:00",
+              "data": "24/10/2026",
+              "ora": "20:30",
+              "canali": [
+                {
+                  "nome": "Sky Sport Max",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-24T20:30",
                   "fonte": "virgilio"
                 }
               ],
@@ -14872,33 +13901,12 @@
     },
     {
       "nome": "Basket",
-      "totale": 20,
+      "totale": 19,
       "sottocartelle": [
         {
           "nome": "Eurolega",
-          "totale": 7,
+          "totale": 6,
           "eventi": [
-            {
-              "titolo": "Eurolega: Olympiacos-Fenerbahce",
-              "categoria": "Basket",
-              "sottocartella": "Eurolega",
-              "sport": "Basket",
-              "competizione": "Eurolega",
-              "evento": "Olympiacos-Fenerbahce",
-              "inizio": "2026-10-23T20:15:00+02:00",
-              "data": "23/10/2026",
-              "ora": "20:15",
-              "canali": [
-                {
-                  "nome": "Sky Sport Basket",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-23T20:15",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
             {
               "titolo": "Eurolega: Paris-Valencia",
               "categoria": "Basket",
