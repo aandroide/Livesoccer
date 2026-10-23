@@ -1,46 +1,16 @@
 {
-  "aggiornato": "2026-10-23T04:11:20+02:00",
+  "aggiornato": "2026-10-23T07:01:41+02:00",
   "fonti": {
     "motori": "Fuori Traiettoria, Dizzle0987/motorsport-calendar, palinsesto TV8",
     "calcio_italiano": "https://raw.githubusercontent.com/aandroide/Livesoccer/master/livesoccertv/output/eventi.json",
     "altri_sport": "https://sport.virgilio.it/guida-tv/"
   },
-  "totale": 238,
+  "totale": 237,
   "cartelle": [
     {
       "nome": "Oggi",
-      "totale": 20,
+      "totale": 19,
       "eventi": [
-        {
-          "titolo": "[Motori] MotoGP: Australian Motorcycle Grand Prix - Prove libere",
-          "categoria": "Motori",
-          "sottocartella": "MotoGP",
-          "sport": "Motori",
-          "competizione": "MotoGP",
-          "evento": "Australian Motorcycle Grand Prix - Prove libere",
-          "sessione": "prove",
-          "circuito": "Phillip Island Grand Prix Circuit, Phillip Island, Australia",
-          "inizio": "2026-10-23T01:45:00+02:00",
-          "data": "23/10/2026",
-          "ora": "01:45",
-          "canali": [
-            {
-              "nome": "Sky Sport MotoGP",
-              "numero": "208",
-              "tipo": "diretta",
-              "orario": "2026-10-23T01:45",
-              "fonte": "dizzle+config"
-            },
-            {
-              "nome": "NOW",
-              "numero": "",
-              "tipo": "streaming",
-              "orario": "2026-10-23T01:45",
-              "fonte": "dizzle+config"
-            }
-          ],
-          "fonte": "Dizzle0987/motorsport-calendar"
-        },
         {
           "titolo": "[Tennis] WTA 250 Osaka: 1a Semifinale",
           "categoria": "Tennis",
@@ -1757,7 +1727,7 @@
     },
     {
       "nome": "Motori",
-      "totale": 109,
+      "totale": 108,
       "sottocartelle": [
         {
           "nome": "Formula 1",
@@ -3303,38 +3273,8 @@
         },
         {
           "nome": "MotoGP",
-          "totale": 40,
+          "totale": 39,
           "eventi": [
-            {
-              "titolo": "MotoGP: Australian Motorcycle Grand Prix - Prove libere",
-              "categoria": "Motori",
-              "sottocartella": "MotoGP",
-              "sport": "Motori",
-              "competizione": "MotoGP",
-              "evento": "Australian Motorcycle Grand Prix - Prove libere",
-              "sessione": "prove",
-              "circuito": "Phillip Island Grand Prix Circuit, Phillip Island, Australia",
-              "inizio": "2026-10-23T01:45:00+02:00",
-              "data": "23/10/2026",
-              "ora": "01:45",
-              "canali": [
-                {
-                  "nome": "Sky Sport MotoGP",
-                  "numero": "208",
-                  "tipo": "diretta",
-                  "orario": "2026-10-23T01:45",
-                  "fonte": "dizzle+config"
-                },
-                {
-                  "nome": "NOW",
-                  "numero": "",
-                  "tipo": "streaming",
-                  "orario": "2026-10-23T01:45",
-                  "fonte": "dizzle+config"
-                }
-              ],
-              "fonte": "Dizzle0987/motorsport-calendar"
-            },
             {
               "titolo": "MotoGP: Australian Motorcycle Grand Prix - Practice",
               "categoria": "Motori",
