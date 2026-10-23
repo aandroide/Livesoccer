@@ -1,95 +1,16 @@
 {
-  "aggiornato": "2026-10-23T07:01:41+02:00",
+  "aggiornato": "2026-10-23T10:07:41+02:00",
   "fonti": {
     "motori": "Fuori Traiettoria, Dizzle0987/motorsport-calendar, palinsesto TV8",
     "calcio_italiano": "https://raw.githubusercontent.com/aandroide/Livesoccer/master/livesoccertv/output/eventi.json",
     "altri_sport": "https://sport.virgilio.it/guida-tv/"
   },
-  "totale": 237,
+  "totale": 232,
   "cartelle": [
     {
       "nome": "Oggi",
-      "totale": 19,
+      "totale": 16,
       "eventi": [
-        {
-          "titolo": "[Tennis] WTA 250 Osaka: 1a Semifinale",
-          "categoria": "Tennis",
-          "sottocartella": "WTA 250 Osaka",
-          "sport": "Tennis",
-          "competizione": "WTA 250 Osaka",
-          "evento": "1a Semifinale",
-          "inizio": "2026-10-23T05:00:00+02:00",
-          "data": "23/10/2026",
-          "ora": "05:00",
-          "canali": [
-            {
-              "nome": "Sky Sport Tennis",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-10-23T05:00",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Motori] MotoGP: Australian Motorcycle Grand Prix - Practice",
-          "categoria": "Motori",
-          "sottocartella": "MotoGP",
-          "sport": "Motori",
-          "competizione": "MotoGP",
-          "evento": "Australian Motorcycle Grand Prix - Practice",
-          "sessione": "prove",
-          "circuito": "Phillip Island Grand Prix Circuit, Phillip Island, Australia",
-          "inizio": "2026-10-23T06:00:00+02:00",
-          "data": "23/10/2026",
-          "ora": "06:00",
-          "canali": [
-            {
-              "nome": "Sky Sport MotoGP",
-              "numero": "208",
-              "tipo": "diretta",
-              "orario": "2026-10-23T06:00",
-              "fonte": "dizzle+config"
-            },
-            {
-              "nome": "NOW",
-              "numero": "",
-              "tipo": "streaming",
-              "orario": "2026-10-23T06:00",
-              "fonte": "dizzle+config"
-            }
-          ],
-          "fonte": "Dizzle0987/motorsport-calendar"
-        },
-        {
-          "titolo": "[Tennis] ATP & WTA",
-          "categoria": "Tennis",
-          "sottocartella": "ATP & WTA",
-          "sport": "Tennis",
-          "competizione": "ATP & WTA",
-          "evento": "ATP & WTA",
-          "inizio": "2026-10-23T06:00:00+02:00",
-          "data": "23/10/2026",
-          "ora": "06:00",
-          "canali": [
-            {
-              "nome": "Sky Sport Tennis",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-10-23T06:00",
-              "fonte": "virgilio"
-            },
-            {
-              "nome": "Sky Sport 1",
-              "numero": "201",
-              "tipo": "diretta",
-              "orario": "2026-10-23T08:30",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
         {
           "titolo": "[Calcio] Primavera 1: Atalanta-Lazio",
           "categoria": "Calcio",
@@ -338,9 +259,23 @@
           "ora": "20:30",
           "canali": [
             {
+              "nome": "Sky Sport 252",
+              "numero": "",
+              "tipo": "diretta",
+              "orario": "2026-10-23T20:30",
+              "fonte": "livesoccer"
+            },
+            {
               "nome": "SKY Go Italia",
               "numero": "",
               "tipo": "streaming",
+              "orario": "2026-10-23T20:30",
+              "fonte": "livesoccer"
+            },
+            {
+              "nome": "Sky Sport Uno",
+              "numero": "",
+              "tipo": "diretta",
               "orario": "2026-10-23T20:30",
               "fonte": "livesoccer"
             },
@@ -363,14 +298,18 @@
             {
               "paese": "Italia",
               "canali": [
+                "Sky Sport 252",
                 "SKY Go Italia",
+                "Sky Sport Uno",
                 "NOW TV"
               ]
             },
             {
               "paese": "San Marino",
               "canali": [
+                "Sky Sport 252",
                 "SKY Go Italia",
+                "Sky Sport Uno",
                 "NOW TV"
               ]
             }
@@ -388,6 +327,13 @@
           "data": "23/10/2026",
           "ora": "20:30",
           "canali": [
+            {
+              "nome": "Sky Sport 255",
+              "numero": "",
+              "tipo": "diretta",
+              "orario": "2026-10-23T20:30",
+              "fonte": "livesoccer"
+            },
             {
               "nome": "SKY Go Italia",
               "numero": "",
@@ -407,6 +353,7 @@
             {
               "paese": "Italia",
               "canali": [
+                "Sky Sport 255",
                 "SKY Go Italia",
                 "NOW TV"
               ]
@@ -414,6 +361,7 @@
             {
               "paese": "San Marino",
               "canali": [
+                "Sky Sport 255",
                 "SKY Go Italia",
                 "NOW TV"
               ]
@@ -433,6 +381,13 @@
           "ora": "20:30",
           "canali": [
             {
+              "nome": "Sky Sport 253",
+              "numero": "",
+              "tipo": "diretta",
+              "orario": "2026-10-23T20:30",
+              "fonte": "livesoccer"
+            },
+            {
               "nome": "SKY Go Italia",
               "numero": "",
               "tipo": "streaming",
@@ -451,6 +406,7 @@
             {
               "paese": "Italia",
               "canali": [
+                "Sky Sport 253",
                 "SKY Go Italia",
                 "NOW TV"
               ]
@@ -458,6 +414,7 @@
             {
               "paese": "San Marino",
               "canali": [
+                "Sky Sport 253",
                 "SKY Go Italia",
                 "NOW TV"
               ]
@@ -477,6 +434,13 @@
           "ora": "20:30",
           "canali": [
             {
+              "nome": "Sky Sport 256",
+              "numero": "",
+              "tipo": "diretta",
+              "orario": "2026-10-23T20:30",
+              "fonte": "livesoccer"
+            },
+            {
               "nome": "SKY Go Italia",
               "numero": "",
               "tipo": "streaming",
@@ -495,6 +459,7 @@
             {
               "paese": "Italia",
               "canali": [
+                "Sky Sport 256",
                 "SKY Go Italia",
                 "NOW TV"
               ]
@@ -502,6 +467,7 @@
             {
               "paese": "San Marino",
               "canali": [
+                "Sky Sport 256",
                 "SKY Go Italia",
                 "NOW TV"
               ]
@@ -521,6 +487,13 @@
           "ora": "20:30",
           "canali": [
             {
+              "nome": "Sky Sport 254",
+              "numero": "",
+              "tipo": "diretta",
+              "orario": "2026-10-23T20:30",
+              "fonte": "livesoccer"
+            },
+            {
               "nome": "SKY Go Italia",
               "numero": "",
               "tipo": "streaming",
@@ -539,6 +512,7 @@
             {
               "paese": "Italia",
               "canali": [
+                "Sky Sport 254",
                 "SKY Go Italia",
                 "NOW TV"
               ]
@@ -546,6 +520,7 @@
             {
               "paese": "San Marino",
               "canali": [
+                "Sky Sport 254",
                 "SKY Go Italia",
                 "NOW TV"
               ]
@@ -973,6 +948,7 @@
             {
               "paese": "Georgia",
               "canali": [
+                "Silk Universal",
                 "Q League"
               ]
             },
@@ -1727,7 +1703,7 @@
     },
     {
       "nome": "Motori",
-      "totale": 108,
+      "totale": 107,
       "sottocartelle": [
         {
           "nome": "Formula 1",
@@ -3273,38 +3249,8 @@
         },
         {
           "nome": "MotoGP",
-          "totale": 39,
+          "totale": 38,
           "eventi": [
-            {
-              "titolo": "MotoGP: Australian Motorcycle Grand Prix - Practice",
-              "categoria": "Motori",
-              "sottocartella": "MotoGP",
-              "sport": "Motori",
-              "competizione": "MotoGP",
-              "evento": "Australian Motorcycle Grand Prix - Practice",
-              "sessione": "prove",
-              "circuito": "Phillip Island Grand Prix Circuit, Phillip Island, Australia",
-              "inizio": "2026-10-23T06:00:00+02:00",
-              "data": "23/10/2026",
-              "ora": "06:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport MotoGP",
-                  "numero": "208",
-                  "tipo": "diretta",
-                  "orario": "2026-10-23T06:00",
-                  "fonte": "dizzle+config"
-                },
-                {
-                  "nome": "NOW",
-                  "numero": "",
-                  "tipo": "streaming",
-                  "orario": "2026-10-23T06:00",
-                  "fonte": "dizzle+config"
-                }
-              ],
-              "fonte": "Dizzle0987/motorsport-calendar"
-            },
             {
               "titolo": "MotoGP: Australian Motorcycle Grand Prix - FP2",
               "categoria": "Motori",
@@ -5136,7 +5082,7 @@
     },
     {
       "nome": "Calcio",
-      "totale": 84,
+      "totale": 82,
       "sottocartelle": [
         {
           "nome": "Serie A",
@@ -5520,6 +5466,7 @@
                 {
                   "paese": "Georgia",
                   "canali": [
+                    "Silk Universal",
                     "Q League"
                   ]
                 },
@@ -7223,6 +7170,7 @@
                 {
                   "paese": "Belize",
                   "canali": [
+                    "ESPN Norte",
                     "Nexgen"
                   ]
                 },
@@ -7383,6 +7331,7 @@
                 {
                   "paese": "Costa Rica",
                   "canali": [
+                    "ESPN Norte",
                     "Disney+ Premium Norte"
                   ]
                 },
@@ -7439,6 +7388,7 @@
                   "paese": "Repubblica Dominicana",
                   "canali": [
                     "Disney+ Premium Caribbean",
+                    "ESPN Norte",
                     "Disney+ Premium Norte"
                   ]
                 },
@@ -7459,6 +7409,7 @@
                 {
                   "paese": "El Salvador",
                   "canali": [
+                    "ESPN Norte",
                     "Disney+ Premium Norte"
                   ]
                 },
@@ -7555,6 +7506,7 @@
                 {
                   "paese": "Guatemala",
                   "canali": [
+                    "ESPN Norte",
                     "Disney+ Premium Norte"
                   ]
                 },
@@ -7582,6 +7534,7 @@
                 {
                   "paese": "Honduras",
                   "canali": [
+                    "ESPN Norte",
                     "Disney+ Premium Norte"
                   ]
                 },
@@ -7765,7 +7718,8 @@
                   "paese": "Maldive",
                   "canali": [
                     "ZEE5",
-                    "ICE Plus"
+                    "ICE Plus",
+                    "Medianet"
                   ]
                 },
                 {
@@ -7883,6 +7837,7 @@
                 {
                   "paese": "Nicaragua",
                   "canali": [
+                    "ESPN Norte",
                     "Disney+ Premium Norte"
                   ]
                 },
@@ -7931,6 +7886,7 @@
                 {
                   "paese": "Panama",
                   "canali": [
+                    "ESPN Norte",
                     "Disney+ Premium Norte"
                   ]
                 },
@@ -8448,6 +8404,7 @@
                 {
                   "paese": "Belize",
                   "canali": [
+                    "ESPN Norte",
                     "Nexgen"
                   ]
                 },
@@ -8547,6 +8504,7 @@
                 {
                   "paese": "Costa Rica",
                   "canali": [
+                    "ESPN Norte",
                     "Disney+ Premium Norte"
                   ]
                 },
@@ -8601,6 +8559,7 @@
                   "paese": "Repubblica Dominicana",
                   "canali": [
                     "Disney+ Premium Caribbean",
+                    "ESPN Norte",
                     "Disney+ Premium Norte"
                   ]
                 },
@@ -8621,13 +8580,15 @@
                 {
                   "paese": "El Salvador",
                   "canali": [
+                    "ESPN Norte",
                     "Disney+ Premium Norte"
                   ]
                 },
                 {
                   "paese": "Estonia",
                   "canali": [
-                    "Go3 Sport 1"
+                    "Go3 Sport 1",
+                    "Go3 Extra Sports Estonia"
                   ]
                 },
                 {
@@ -8689,6 +8650,7 @@
                 {
                   "paese": "Guatemala",
                   "canali": [
+                    "ESPN Norte",
                     "Disney+ Premium Norte"
                   ]
                 },
@@ -8701,6 +8663,7 @@
                 {
                   "paese": "Honduras",
                   "canali": [
+                    "ESPN Norte",
                     "Disney+ Premium Norte"
                   ]
                 },
@@ -8824,7 +8787,8 @@
                 {
                   "paese": "Lettonia",
                   "canali": [
-                    "Go3 Sport 1"
+                    "Go3 Sport 1",
+                    "Go3 Extra Sports Latvia"
                   ]
                 },
                 {
@@ -8851,7 +8815,8 @@
                 {
                   "paese": "Lituania",
                   "canali": [
-                    "Go3 Sport 1"
+                    "Go3 Sport 1",
+                    "Go3 Extra Sports Lithuania"
                   ]
                 },
                 {
@@ -8886,7 +8851,8 @@
                   "paese": "Maldive",
                   "canali": [
                     "ZEE5",
-                    "ICE Plus"
+                    "ICE Plus",
+                    "Medianet"
                   ]
                 },
                 {
@@ -8983,6 +8949,7 @@
                 {
                   "paese": "Nicaragua",
                   "canali": [
+                    "ESPN Norte",
                     "Disney+ Premium Norte"
                   ]
                 },
@@ -9017,6 +8984,7 @@
                 {
                   "paese": "Panama",
                   "canali": [
+                    "ESPN Norte",
                     "Disney+ Premium Norte"
                   ]
                 },
@@ -9505,6 +9473,7 @@
                 {
                   "paese": "Belize",
                   "canali": [
+                    "ESPN Norte",
                     "Nexgen"
                   ]
                 },
@@ -9609,6 +9578,7 @@
                 {
                   "paese": "Costa Rica",
                   "canali": [
+                    "ESPN Norte",
                     "Disney+ Premium Norte"
                   ]
                 },
@@ -9664,6 +9634,7 @@
                   "paese": "Repubblica Dominicana",
                   "canali": [
                     "Disney+ Premium Caribbean",
+                    "ESPN Norte",
                     "Disney+ Premium Norte"
                   ]
                 },
@@ -9684,6 +9655,7 @@
                 {
                   "paese": "El Salvador",
                   "canali": [
+                    "ESPN Norte",
                     "Disney+ Premium Norte"
                   ]
                 },
@@ -9746,6 +9718,7 @@
                 {
                   "paese": "Guatemala",
                   "canali": [
+                    "ESPN Norte",
                     "Disney+ Premium Norte"
                   ]
                 },
@@ -9764,6 +9737,7 @@
                 {
                   "paese": "Honduras",
                   "canali": [
+                    "ESPN Norte",
                     "Disney+ Premium Norte"
                   ]
                 },
@@ -9929,6 +9903,7 @@
                   "canali": [
                     "ZEE5",
                     "ICE Plus",
+                    "Medianet",
                     "Unite8 Sports 1",
                     "Unite8 Sports 1 HD"
                   ]
@@ -10029,6 +10004,7 @@
                 {
                   "paese": "Nicaragua",
                   "canali": [
+                    "ESPN Norte",
                     "Disney+ Premium Norte"
                   ]
                 },
@@ -10063,6 +10039,7 @@
                 {
                   "paese": "Panama",
                   "canali": [
+                    "ESPN Norte",
                     "Disney+ Premium Norte"
                   ]
                 },
@@ -11163,22 +11140,7 @@
               "inizio": "2026-10-25T05:00:00+01:00",
               "data": "25/10/2026",
               "ora": "05:00",
-              "canali": [
-                {
-                  "nome": "DAZN Italia",
-                  "numero": "",
-                  "tipo": "streaming",
-                  "orario": "2026-10-25T05:00",
-                  "fonte": "livesoccer"
-                },
-                {
-                  "nome": "LAB Channel",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-25T05:00",
-                  "fonte": "livesoccer"
-                }
-              ],
+              "canali": [],
               "canali_mondo": [],
               "fonte": "LiveSoccerTV"
             },
@@ -11214,20 +11176,6 @@
               "data": "25/10/2026",
               "ora": "23:00",
               "canali": [
-                {
-                  "nome": "DAZN Italia",
-                  "numero": "",
-                  "tipo": "streaming",
-                  "orario": "2026-10-25T23:00",
-                  "fonte": "livesoccer"
-                },
-                {
-                  "nome": "LAB Channel",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-25T23:00",
-                  "fonte": "livesoccer"
-                },
                 {
                   "nome": "DAZN",
                   "numero": "",
@@ -11396,22 +11344,7 @@
               "inizio": "2026-10-28T04:00:00+01:00",
               "data": "28/10/2026",
               "ora": "04:00",
-              "canali": [
-                {
-                  "nome": "DAZN Italia",
-                  "numero": "",
-                  "tipo": "streaming",
-                  "orario": "2026-10-28T04:00",
-                  "fonte": "livesoccer"
-                },
-                {
-                  "nome": "LAB Channel",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-28T04:00",
-                  "fonte": "livesoccer"
-                }
-              ],
+              "canali": [],
               "canali_mondo": [],
               "fonte": "LiveSoccerTV"
             },
@@ -11469,20 +11402,6 @@
               "ora": "23:30",
               "canali": [
                 {
-                  "nome": "DAZN Italia",
-                  "numero": "",
-                  "tipo": "streaming",
-                  "orario": "2026-10-28T23:30",
-                  "fonte": "livesoccer"
-                },
-                {
-                  "nome": "LAB Channel",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-28T23:30",
-                  "fonte": "livesoccer"
-                },
-                {
                   "nome": "DAZN",
                   "numero": "",
                   "tipo": "diretta",
@@ -11503,22 +11422,7 @@
               "inizio": "2026-10-29T01:30:00+01:00",
               "data": "29/10/2026",
               "ora": "01:30",
-              "canali": [
-                {
-                  "nome": "DAZN Italia",
-                  "numero": "",
-                  "tipo": "streaming",
-                  "orario": "2026-10-29T01:30",
-                  "fonte": "livesoccer"
-                },
-                {
-                  "nome": "LAB Channel",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-29T01:30",
-                  "fonte": "livesoccer"
-                }
-              ],
+              "canali": [],
               "canali_mondo": [],
               "fonte": "LiveSoccerTV"
             }
@@ -11540,9 +11444,23 @@
               "ora": "20:30",
               "canali": [
                 {
+                  "nome": "Sky Sport 252",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-23T20:30",
+                  "fonte": "livesoccer"
+                },
+                {
                   "nome": "SKY Go Italia",
                   "numero": "",
                   "tipo": "streaming",
+                  "orario": "2026-10-23T20:30",
+                  "fonte": "livesoccer"
+                },
+                {
+                  "nome": "Sky Sport Uno",
+                  "numero": "",
+                  "tipo": "diretta",
                   "orario": "2026-10-23T20:30",
                   "fonte": "livesoccer"
                 },
@@ -11565,14 +11483,18 @@
                 {
                   "paese": "Italia",
                   "canali": [
+                    "Sky Sport 252",
                     "SKY Go Italia",
+                    "Sky Sport Uno",
                     "NOW TV"
                   ]
                 },
                 {
                   "paese": "San Marino",
                   "canali": [
+                    "Sky Sport 252",
                     "SKY Go Italia",
+                    "Sky Sport Uno",
                     "NOW TV"
                   ]
                 }
@@ -11590,6 +11512,13 @@
               "data": "23/10/2026",
               "ora": "20:30",
               "canali": [
+                {
+                  "nome": "Sky Sport 255",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-23T20:30",
+                  "fonte": "livesoccer"
+                },
                 {
                   "nome": "SKY Go Italia",
                   "numero": "",
@@ -11609,6 +11538,7 @@
                 {
                   "paese": "Italia",
                   "canali": [
+                    "Sky Sport 255",
                     "SKY Go Italia",
                     "NOW TV"
                   ]
@@ -11616,6 +11546,7 @@
                 {
                   "paese": "San Marino",
                   "canali": [
+                    "Sky Sport 255",
                     "SKY Go Italia",
                     "NOW TV"
                   ]
@@ -11635,6 +11566,13 @@
               "ora": "20:30",
               "canali": [
                 {
+                  "nome": "Sky Sport 253",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-23T20:30",
+                  "fonte": "livesoccer"
+                },
+                {
                   "nome": "SKY Go Italia",
                   "numero": "",
                   "tipo": "streaming",
@@ -11653,6 +11591,7 @@
                 {
                   "paese": "Italia",
                   "canali": [
+                    "Sky Sport 253",
                     "SKY Go Italia",
                     "NOW TV"
                   ]
@@ -11660,6 +11599,7 @@
                 {
                   "paese": "San Marino",
                   "canali": [
+                    "Sky Sport 253",
                     "SKY Go Italia",
                     "NOW TV"
                   ]
@@ -11679,6 +11619,13 @@
               "ora": "20:30",
               "canali": [
                 {
+                  "nome": "Sky Sport 256",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-23T20:30",
+                  "fonte": "livesoccer"
+                },
+                {
                   "nome": "SKY Go Italia",
                   "numero": "",
                   "tipo": "streaming",
@@ -11697,6 +11644,7 @@
                 {
                   "paese": "Italia",
                   "canali": [
+                    "Sky Sport 256",
                     "SKY Go Italia",
                     "NOW TV"
                   ]
@@ -11704,6 +11652,7 @@
                 {
                   "paese": "San Marino",
                   "canali": [
+                    "Sky Sport 256",
                     "SKY Go Italia",
                     "NOW TV"
                   ]
@@ -11723,6 +11672,13 @@
               "ora": "20:30",
               "canali": [
                 {
+                  "nome": "Sky Sport 254",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-23T20:30",
+                  "fonte": "livesoccer"
+                },
+                {
                   "nome": "SKY Go Italia",
                   "numero": "",
                   "tipo": "streaming",
@@ -11741,6 +11697,7 @@
                 {
                   "paese": "Italia",
                   "canali": [
+                    "Sky Sport 254",
                     "SKY Go Italia",
                     "NOW TV"
                   ]
@@ -11748,6 +11705,7 @@
                 {
                   "paese": "San Marino",
                   "canali": [
+                    "Sky Sport 254",
                     "SKY Go Italia",
                     "NOW TV"
                   ]
@@ -11969,7 +11927,7 @@
         },
         {
           "nome": "UEFA Nations League",
-          "totale": 3,
+          "totale": 1,
           "eventi": [
             {
               "titolo": "UEFA Nations League: Turchia vs Belgio",
@@ -13060,3031 +13018,6 @@
                 }
               ],
               "fonte": "LiveSoccerTV"
-            },
-            {
-              "titolo": "UEFA Nations League: Inghilterra vs Croazia",
-              "categoria": "Calcio",
-              "sottocartella": "UEFA Nations League",
-              "sport": "Calcio",
-              "competizione": "UEFA Nations League",
-              "evento": "Inghilterra vs Croazia",
-              "inizio": "2026-11-12T20:45:00+01:00",
-              "data": "12/11/2026",
-              "ora": "20:45",
-              "canali": [
-                {
-                  "nome": "SKY Go Italia",
-                  "numero": "",
-                  "tipo": "streaming",
-                  "orario": "2026-11-12T20:45",
-                  "fonte": "livesoccer"
-                },
-                {
-                  "nome": "Sky Sport Uno",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-12T20:45",
-                  "fonte": "livesoccer"
-                },
-                {
-                  "nome": "NOW TV",
-                  "numero": "",
-                  "tipo": "streaming",
-                  "orario": "2026-11-12T20:45",
-                  "fonte": "livesoccer"
-                }
-              ],
-              "canali_mondo": [
-                {
-                  "paese": "Afghanistan",
-                  "canali": [
-                    "L'Équipe Live Foot",
-                    "L'Équipe Live Foot",
-                    "Solh Sports 1",
-                    "Meraj Sport"
-                  ]
-                },
-                {
-                  "paese": "Albania",
-                  "canali": [
-                    "SuperSport 1 Digitalb"
-                  ]
-                },
-                {
-                  "paese": "Algeria",
-                  "canali": [
-                    "beIN Sports HD 1",
-                    "beIN Sports English",
-                    "beIN SPORTS CONNECT",
-                    "TOD"
-                  ]
-                },
-                {
-                  "paese": "Andorra",
-                  "canali": [
-                    "DAZN Spain",
-                    "L'Équipe Live Foot"
-                  ]
-                },
-                {
-                  "paese": "Angola",
-                  "canali": [
-                    "SuperSport MaXimo 1",
-                    "SuperSport MaXimo 2",
-                    "DStv Now",
-                    "SuperSport Premier League ROA"
-                  ]
-                },
-                {
-                  "paese": "Anguilla",
-                  "canali": [
-                    "Bluu"
-                  ]
-                },
-                {
-                  "paese": "Antigua e Barbuda",
-                  "canali": [
-                    "Bluu"
-                  ]
-                },
-                {
-                  "paese": "Argentina",
-                  "canali": [
-                    "ESPN Argentina",
-                    "Disney+ Premium Argentina"
-                  ]
-                },
-                {
-                  "paese": "Armenia",
-                  "canali": [
-                    "Fast Sports",
-                    "FAST TV"
-                  ]
-                },
-                {
-                  "paese": "Aruba",
-                  "canali": [
-                    "Bluu"
-                  ]
-                },
-                {
-                  "paese": "Australia",
-                  "canali": [
-                    "beIN SPORTS 3",
-                    "beIN Sports Connect"
-                  ]
-                },
-                {
-                  "paese": "Austria",
-                  "canali": [
-                    "DAZN Austria",
-                    "A Spor"
-                  ]
-                },
-                {
-                  "paese": "Azerbaigian",
-                  "canali": [
-                    "CBC Sport Azerbaijan"
-                  ]
-                },
-                {
-                  "paese": "Bahamas",
-                  "canali": [
-                    "Bluu"
-                  ]
-                },
-                {
-                  "paese": "Bahrain",
-                  "canali": [
-                    "beIN Sports HD 1",
-                    "beIN Sports English",
-                    "beIN SPORTS CONNECT",
-                    "TOD"
-                  ]
-                },
-                {
-                  "paese": "Bangladesh",
-                  "canali": [
-                    "Sony LIV",
-                    "SONY TEN 1",
-                    "tapmad"
-                  ]
-                },
-                {
-                  "paese": "Barbados",
-                  "canali": [
-                    "Bluu"
-                  ]
-                },
-                {
-                  "paese": "Bielorussia",
-                  "canali": [
-                    "Okko Спорт",
-                    "Sporttv"
-                  ]
-                },
-                {
-                  "paese": "Belgio",
-                  "canali": [
-                    "DAZN Belgium"
-                  ]
-                },
-                {
-                  "paese": "Belize",
-                  "canali": [
-                    "ESPN Norte"
-                  ]
-                },
-                {
-                  "paese": "Benin",
-                  "canali": [
-                    "SuperSport MaXimo 1",
-                    "SuperSport MaXimo 2",
-                    "SuperSport Premier League ROA",
-                    "New World Sport1"
-                  ]
-                },
-                {
-                  "paese": "Bermuda",
-                  "canali": [
-                    "Bluu"
-                  ]
-                },
-                {
-                  "paese": "Bhutan",
-                  "canali": [
-                    "Sony LIV"
-                  ]
-                },
-                {
-                  "paese": "Bolivia",
-                  "canali": [
-                    "ESPN Colombia",
-                    "Disney+ Premium Chile"
-                  ]
-                },
-                {
-                  "paese": "Bosnia ed Erzegovina",
-                  "canali": [
-                    "Moja TV",
-                    "Arena Sport 1P",
-                    "Arena Cloud"
-                  ]
-                },
-                {
-                  "paese": "Botswana",
-                  "canali": [
-                    "SuperSport MaXimo 1",
-                    "SuperSport MaXimo 2",
-                    "DStv Now",
-                    "SuperSport Premier League ROA"
-                  ]
-                },
-                {
-                  "paese": "Brasile",
-                  "canali": [
-                    "ESPN Brazil",
-                    "Disney+ Premium Brazil"
-                  ]
-                },
-                {
-                  "paese": "Isole Vergini britanniche",
-                  "canali": [
-                    "Bluu"
-                  ]
-                },
-                {
-                  "paese": "Bulgaria",
-                  "canali": [
-                    "Play Diema Xtra",
-                    "Diema Sport 3"
-                  ]
-                },
-                {
-                  "paese": "Burkina Faso",
-                  "canali": [
-                    "SuperSport MaXimo 1",
-                    "SuperSport MaXimo 2",
-                    "DStv Now",
-                    "SuperSport Premier League ROA",
-                    "New World Sport1"
-                  ]
-                },
-                {
-                  "paese": "Burundi",
-                  "canali": [
-                    "SuperSport MaXimo 1",
-                    "SuperSport MaXimo 2",
-                    "DStv Now",
-                    "SuperSport Premier League ROA",
-                    "New World Sport1"
-                  ]
-                },
-                {
-                  "paese": "Cambogia",
-                  "canali": [
-                    "MONOMAX"
-                  ]
-                },
-                {
-                  "paese": "Camerun",
-                  "canali": [
-                    "SuperSport MaXimo 1",
-                    "SuperSport MaXimo 2",
-                    "DStv Now",
-                    "SuperSport Premier League ROA",
-                    "New World Sport1"
-                  ]
-                },
-                {
-                  "paese": "Canada",
-                  "canali": [
-                    "DAZN Canada",
-                    "fuboTV Canada"
-                  ]
-                },
-                {
-                  "paese": "Capo Verde",
-                  "canali": [
-                    "SuperSport MaXimo 1",
-                    "SuperSport MaXimo 2",
-                    "DStv Now",
-                    "SuperSport Premier League ROA"
-                  ]
-                },
-                {
-                  "paese": "Isole Cayman",
-                  "canali": [
-                    "Bluu"
-                  ]
-                },
-                {
-                  "paese": "Repubblica Centrafricana",
-                  "canali": [
-                    "SuperSport MaXimo 1",
-                    "SuperSport MaXimo 2",
-                    "SuperSport Premier League ROA",
-                    "New World Sport1"
-                  ]
-                },
-                {
-                  "paese": "Ciad",
-                  "canali": [
-                    "SuperSport MaXimo 1",
-                    "SuperSport MaXimo 2",
-                    "beIN Sports HD 1",
-                    "beIN Sports English",
-                    "beIN SPORTS CONNECT",
-                    "DStv Now",
-                    "SuperSport Premier League ROA",
-                    "TOD",
-                    "New World Sport1"
-                  ]
-                },
-                {
-                  "paese": "Cile",
-                  "canali": [
-                    "Disney+ Premium Chile"
-                  ]
-                },
-                {
-                  "paese": "Cina",
-                  "canali": [
-                    "iQiyi"
-                  ]
-                },
-                {
-                  "paese": "Taipei cinese",
-                  "canali": [
-                    "eltaott.tv"
-                  ]
-                },
-                {
-                  "paese": "Colombia",
-                  "canali": [
-                    "ESPN Colombia",
-                    "Disney+ Premium Sur"
-                  ]
-                },
-                {
-                  "paese": "Comore",
-                  "canali": [
-                    "SuperSport MaXimo 1",
-                    "SuperSport MaXimo 2",
-                    "SuperSport Premier League ROA"
-                  ]
-                },
-                {
-                  "paese": "Repubblica Democratica del Congo",
-                  "canali": [
-                    "SuperSport MaXimo 1",
-                    "SuperSport MaXimo 1",
-                    "SuperSport MaXimo 2",
-                    "SuperSport MaXimo 2",
-                    "DStv Now",
-                    "SuperSport Premier League ROA",
-                    "SuperSport Premier League ROA",
-                    "New World Sport1",
-                    "New World Sport1"
-                  ]
-                },
-                {
-                  "paese": "Costa Rica",
-                  "canali": [
-                    "ESPN Norte",
-                    "Disney+ Premium Norte"
-                  ]
-                },
-                {
-                  "paese": "Croazia",
-                  "canali": [
-                    "Nova TV"
-                  ]
-                },
-                {
-                  "paese": "Cipro",
-                  "canali": [
-                    "Cytavision on the Go",
-                    "Cytavision Sports 4",
-                    "Nova Sports Prime"
-                  ]
-                },
-                {
-                  "paese": "Repubblica Ceca",
-                  "canali": [
-                    "Sport 1 CZ",
-                    "OnePlay"
-                  ]
-                },
-                {
-                  "paese": "Costa d'Avorio",
-                  "canali": [
-                    "SuperSport MaXimo 1",
-                    "SuperSport MaXimo 2",
-                    "DStv Now",
-                    "SuperSport Premier League ROA",
-                    "New World Sport1"
-                  ]
-                },
-                {
-                  "paese": "Danimarca",
-                  "canali": [
-                    "TV2 Play Denmark",
-                    "TV2 Sport X"
-                  ]
-                },
-                {
-                  "paese": "Gibuti",
-                  "canali": [
-                    "SuperSport MaXimo 1",
-                    "SuperSport MaXimo 2",
-                    "beIN Sports HD 1",
-                    "beIN Sports English",
-                    "beIN SPORTS CONNECT",
-                    "DStv Now",
-                    "SuperSport Premier League ROA",
-                    "TOD"
-                  ]
-                },
-                {
-                  "paese": "Dominica",
-                  "canali": [
-                    "Bluu"
-                  ]
-                },
-                {
-                  "paese": "Repubblica Dominicana",
-                  "canali": [
-                    "ESPN Norte",
-                    "Disney+ Premium Norte"
-                  ]
-                },
-                {
-                  "paese": "Ecuador",
-                  "canali": [
-                    "ESPN Colombia",
-                    "Disney+ Premium Sur"
-                  ]
-                },
-                {
-                  "paese": "Egitto",
-                  "canali": [
-                    "beIN Sports HD 1",
-                    "beIN Sports English",
-                    "beIN SPORTS CONNECT",
-                    "TOD"
-                  ]
-                },
-                {
-                  "paese": "El Salvador",
-                  "canali": [
-                    "ESPN Norte",
-                    "Disney+ Premium Norte"
-                  ]
-                },
-                {
-                  "paese": "Guinea Equatoriale",
-                  "canali": [
-                    "SuperSport MaXimo 1",
-                    "SuperSport MaXimo 2",
-                    "DStv Now",
-                    "SuperSport Premier League ROA"
-                  ]
-                },
-                {
-                  "paese": "Eritrea",
-                  "canali": [
-                    "SuperSport MaXimo 1",
-                    "SuperSport MaXimo 2",
-                    "DStv Now",
-                    "SuperSport Premier League ROA"
-                  ]
-                },
-                {
-                  "paese": "Estonia",
-                  "canali": [
-                    "Go3 Extra Sports Estonia"
-                  ]
-                },
-                {
-                  "paese": "Etiopia",
-                  "canali": [
-                    "SuperSport MaXimo 1",
-                    "SuperSport MaXimo 2",
-                    "DStv Now",
-                    "SuperSport Premier League ROA"
-                  ]
-                },
-                {
-                  "paese": "Isole Faroe",
-                  "canali": [
-                    "TV2 Play Denmark",
-                    "TV2 Sport X"
-                  ]
-                },
-                {
-                  "paese": "Finlandia",
-                  "canali": [
-                    "MTV Urheilu 2",
-                    "MTV Katsomo"
-                  ]
-                },
-                {
-                  "paese": "Francia",
-                  "canali": [
-                    "L'Équipe Live Foot"
-                  ]
-                },
-                {
-                  "paese": "Guyana francese",
-                  "canali": [
-                    "L'Équipe Live Foot"
-                  ]
-                },
-                {
-                  "paese": "Gabon",
-                  "canali": [
-                    "SuperSport MaXimo 1",
-                    "SuperSport MaXimo 2",
-                    "DStv Now",
-                    "SuperSport Premier League ROA",
-                    "New World Sport1"
-                  ]
-                },
-                {
-                  "paese": "Gambia",
-                  "canali": [
-                    "SuperSport MaXimo 1",
-                    "SuperSport MaXimo 2",
-                    "DStv Now",
-                    "SuperSport Premier League ROA"
-                  ]
-                },
-                {
-                  "paese": "Georgia",
-                  "canali": [
-                    "Silk Universal"
-                  ]
-                },
-                {
-                  "paese": "Germania",
-                  "canali": [
-                    "DAZN Deutschland"
-                  ]
-                },
-                {
-                  "paese": "Ghana",
-                  "canali": [
-                    "SuperSport MaXimo 1",
-                    "SuperSport MaXimo 2",
-                    "DStv Now",
-                    "SuperSport Premier League ROA"
-                  ]
-                },
-                {
-                  "paese": "Gran Bretagna",
-                  "canali": [
-                    "ITV 1 UK",
-                    "ITVX",
-                    "STV Scotland",
-                    "STV Player",
-                    "TalkSport Radio UK",
-                    "BBC Radio 5 Live"
-                  ]
-                },
-                {
-                  "paese": "Grecia",
-                  "canali": [
-                    "Nova Sports Prime",
-                    "Alpha TV"
-                  ]
-                },
-                {
-                  "paese": "Grenada",
-                  "canali": [
-                    "Bluu"
-                  ]
-                },
-                {
-                  "paese": "Guadalupa",
-                  "canali": [
-                    "L'Équipe Live Foot"
-                  ]
-                },
-                {
-                  "paese": "Guatemala",
-                  "canali": [
-                    "ESPN Norte",
-                    "Disney+ Premium Norte"
-                  ]
-                },
-                {
-                  "paese": "Guinea",
-                  "canali": [
-                    "SuperSport MaXimo 1",
-                    "SuperSport MaXimo 2",
-                    "DStv Now",
-                    "SuperSport Premier League ROA",
-                    "New World Sport1"
-                  ]
-                },
-                {
-                  "paese": "Guinea-Bissau",
-                  "canali": [
-                    "SuperSport MaXimo 1",
-                    "SuperSport MaXimo 2",
-                    "DStv Now",
-                    "SuperSport Premier League ROA",
-                    "New World Sport1"
-                  ]
-                },
-                {
-                  "paese": "Guyana",
-                  "canali": [
-                    "L'Équipe Live Foot"
-                  ]
-                },
-                {
-                  "paese": "Honduras",
-                  "canali": [
-                    "ESPN Norte",
-                    "Disney+ Premium Norte"
-                  ]
-                },
-                {
-                  "paese": "Ungheria",
-                  "canali": [
-                    "Spíler1",
-                    "TV2 Play Premium"
-                  ]
-                },
-                {
-                  "paese": "Islanda",
-                  "canali": [
-                    "Viaplay Iceland",
-                    "SÝN Sport Viaplay"
-                  ]
-                },
-                {
-                  "paese": "India",
-                  "canali": [
-                    "Sony LIV",
-                    "SONY TEN 1",
-                    "JioTV"
-                  ]
-                },
-                {
-                  "paese": "Indonesia",
-                  "canali": [
-                    "RCTI",
-                    "K-Vision",
-                    "MNC Soccer Channel",
-                    "MAXstream TV",
-                    "Vision+"
-                  ]
-                },
-                {
-                  "paese": "Internazionale",
-                  "canali": [
-                    "UEFA.tv"
-                  ]
-                },
-                {
-                  "paese": "Iran",
-                  "canali": [
-                    "IRIB Varzesh",
-                    "beIN Sports HD 1",
-                    "beIN Sports English",
-                    "beIN SPORTS CONNECT",
-                    "Persiana Sports"
-                  ]
-                },
-                {
-                  "paese": "Iraq",
-                  "canali": [
-                    "beIN Sports HD 1",
-                    "beIN Sports English",
-                    "beIN SPORTS CONNECT",
-                    "TOD"
-                  ]
-                },
-                {
-                  "paese": "Irlanda",
-                  "canali": [
-                    "ITV 1 UK",
-                    "ITVX",
-                    "STV Scotland",
-                    "Virgin Media Two",
-                    "TalkSport Radio UK",
-                    "BBC Radio 5 Live"
-                  ]
-                },
-                {
-                  "paese": "Israele",
-                  "canali": [
-                    "Sport 2"
-                  ]
-                },
-                {
-                  "paese": "Italia",
-                  "canali": [
-                    "SKY Go Italia",
-                    "Sky Sport Uno",
-                    "NOW TV"
-                  ]
-                },
-                {
-                  "paese": "Giamaica",
-                  "canali": [
-                    "Bluu"
-                  ]
-                },
-                {
-                  "paese": "Giappone",
-                  "canali": [
-                    "DAZN Japan"
-                  ]
-                },
-                {
-                  "paese": "Giordania",
-                  "canali": [
-                    "beIN Sports HD 1",
-                    "beIN Sports English",
-                    "beIN SPORTS CONNECT",
-                    "TOD"
-                  ]
-                },
-                {
-                  "paese": "Kenya",
-                  "canali": [
-                    "SuperSport MaXimo 1",
-                    "SuperSport MaXimo 2",
-                    "DStv Now",
-                    "SuperSport Premier League ROA",
-                    "GOtv"
-                  ]
-                },
-                {
-                  "paese": "Corea del Sud",
-                  "canali": [
-                    "SPOTV NOW",
-                    "SPOTV Prime"
-                  ]
-                },
-                {
-                  "paese": "Kosovo",
-                  "canali": [
-                    "ART Sport 1",
-                    "ArtMotion",
-                    "Arena 2 Premium"
-                  ]
-                },
-                {
-                  "paese": "Kuwait",
-                  "canali": [
-                    "beIN Sports HD 1",
-                    "beIN Sports English",
-                    "beIN SPORTS CONNECT",
-                    "TOD"
-                  ]
-                },
-                {
-                  "paese": "Laos",
-                  "canali": [
-                    "MONOMAX"
-                  ]
-                },
-                {
-                  "paese": "Lettonia",
-                  "canali": [
-                    "Go3 Extra Sports Latvia"
-                  ]
-                },
-                {
-                  "paese": "Libano",
-                  "canali": [
-                    "beIN Sports HD 1",
-                    "beIN Sports English",
-                    "beIN SPORTS CONNECT",
-                    "TOD"
-                  ]
-                },
-                {
-                  "paese": "Lesotho",
-                  "canali": [
-                    "SuperSport MaXimo 1",
-                    "SuperSport MaXimo 2",
-                    "DStv Now",
-                    "SuperSport Premier League ROA"
-                  ]
-                },
-                {
-                  "paese": "Liberia",
-                  "canali": [
-                    "SuperSport MaXimo 1",
-                    "SuperSport MaXimo 2",
-                    "DStv Now",
-                    "SuperSport Premier League ROA"
-                  ]
-                },
-                {
-                  "paese": "Libia",
-                  "canali": [
-                    "beIN Sports HD 1",
-                    "beIN Sports English",
-                    "beIN SPORTS CONNECT",
-                    "TOD"
-                  ]
-                },
-                {
-                  "paese": "Liechtenstein",
-                  "canali": [
-                    "DAZN Deutschland"
-                  ]
-                },
-                {
-                  "paese": "Lituania",
-                  "canali": [
-                    "Go3 Extra Sports Lithuania"
-                  ]
-                },
-                {
-                  "paese": "Macao",
-                  "canali": [
-                    "iQiyi"
-                  ]
-                },
-                {
-                  "paese": "Macedonia",
-                  "canali": [
-                    "Arena 2 Premium",
-                    "Arena Cloud",
-                    "Arena M2 Premium"
-                  ]
-                },
-                {
-                  "paese": "Madagascar",
-                  "canali": [
-                    "SuperSport MaXimo 1",
-                    "SuperSport MaXimo 2",
-                    "DStv Now",
-                    "SuperSport Premier League ROA",
-                    "New World Sport1"
-                  ]
-                },
-                {
-                  "paese": "Malawi",
-                  "canali": [
-                    "SuperSport MaXimo 1",
-                    "SuperSport MaXimo 2",
-                    "DStv Now",
-                    "SuperSport Premier League ROA"
-                  ]
-                },
-                {
-                  "paese": "Maldive",
-                  "canali": [
-                    "Sony LIV",
-                    "SONY TEN 1",
-                    "Medianet"
-                  ]
-                },
-                {
-                  "paese": "Mali",
-                  "canali": [
-                    "SuperSport MaXimo 1",
-                    "SuperSport MaXimo 2",
-                    "DStv Now",
-                    "SuperSport Premier League ROA",
-                    "New World Sport1"
-                  ]
-                },
-                {
-                  "paese": "Mauritania",
-                  "canali": [
-                    "SuperSport MaXimo 1",
-                    "SuperSport MaXimo 2",
-                    "beIN Sports HD 1",
-                    "beIN Sports English",
-                    "beIN SPORTS CONNECT",
-                    "DStv Now",
-                    "SuperSport Premier League ROA",
-                    "TOD",
-                    "New World Sport1"
-                  ]
-                },
-                {
-                  "paese": "Mauritius",
-                  "canali": [
-                    "SuperSport MaXimo 1",
-                    "SuperSport MaXimo 2",
-                    "DStv Now",
-                    "SuperSport Premier League ROA",
-                    "New World Sport1",
-                    "L'Équipe Live Foot"
-                  ]
-                },
-                {
-                  "paese": "Mayotte",
-                  "canali": [
-                    "SuperSport MaXimo 1",
-                    "SuperSport MaXimo 2",
-                    "SuperSport Premier League ROA",
-                    "L'Équipe Live Foot"
-                  ]
-                },
-                {
-                  "paese": "Messico",
-                  "canali": [
-                    "Sky Sports Mexico",
-                    "Sky+",
-                    "izzi"
-                  ]
-                },
-                {
-                  "paese": "Moldavia",
-                  "canali": [
-                    "Okko Спорт"
-                  ]
-                },
-                {
-                  "paese": "Monaco",
-                  "canali": [
-                    "L'Équipe Live Foot"
-                  ]
-                },
-                {
-                  "paese": "Mongolia",
-                  "canali": [
-                    "Premier Sports 2"
-                  ]
-                },
-                {
-                  "paese": "Montenegro",
-                  "canali": [
-                    "Arena 2 Premium",
-                    "Arena Cloud"
-                  ]
-                },
-                {
-                  "paese": "Montserrat",
-                  "canali": [
-                    "Bluu"
-                  ]
-                },
-                {
-                  "paese": "Marocco",
-                  "canali": [
-                    "beIN Sports HD 1",
-                    "beIN Sports English",
-                    "beIN SPORTS CONNECT",
-                    "TOD"
-                  ]
-                },
-                {
-                  "paese": "Mozambico",
-                  "canali": [
-                    "SuperSport MaXimo 1",
-                    "SuperSport MaXimo 2",
-                    "DStv Now",
-                    "SuperSport Premier League ROA"
-                  ]
-                },
-                {
-                  "paese": "Namibia",
-                  "canali": [
-                    "SuperSport MaXimo 1",
-                    "SuperSport MaXimo 2",
-                    "DStv Now",
-                    "SuperSport Premier League ROA"
-                  ]
-                },
-                {
-                  "paese": "Nepal",
-                  "canali": [
-                    "Sony LIV",
-                    "SONY TEN 1"
-                  ]
-                },
-                {
-                  "paese": "Paesi Bassi",
-                  "canali": [
-                    "Ziggo Go",
-                    "Ziggo Sport"
-                  ]
-                },
-                {
-                  "paese": "Nuova Caledonia",
-                  "canali": [
-                    "L'Équipe Live Foot"
-                  ]
-                },
-                {
-                  "paese": "Nuova Zelanda",
-                  "canali": [
-                    "beIN Sports Connect New Zealand"
-                  ]
-                },
-                {
-                  "paese": "Nicaragua",
-                  "canali": [
-                    "ESPN Norte",
-                    "Disney+ Premium Norte"
-                  ]
-                },
-                {
-                  "paese": "Niger",
-                  "canali": [
-                    "SuperSport MaXimo 1",
-                    "SuperSport MaXimo 2",
-                    "DStv Now",
-                    "SuperSport Premier League ROA"
-                  ]
-                },
-                {
-                  "paese": "Nigeria",
-                  "canali": [
-                    "SuperSport MaXimo 1",
-                    "SuperSport MaXimo 2",
-                    "DStv Now",
-                    "SuperSport Premier League Nigeria"
-                  ]
-                },
-                {
-                  "paese": "Norvegia",
-                  "canali": [
-                    "TV 2 Play",
-                    "TV2 Sport Premium"
-                  ]
-                },
-                {
-                  "paese": "Oman",
-                  "canali": [
-                    "beIN Sports HD 1",
-                    "beIN Sports English",
-                    "beIN SPORTS CONNECT",
-                    "TOD"
-                  ]
-                },
-                {
-                  "paese": "Pakistan",
-                  "canali": [
-                    "Sony LIV",
-                    "SONY TEN 1",
-                    "tapmad"
-                  ]
-                },
-                {
-                  "paese": "Palestina",
-                  "canali": [
-                    "beIN Sports HD 1",
-                    "beIN Sports English",
-                    "beIN SPORTS CONNECT",
-                    "TOD"
-                  ]
-                },
-                {
-                  "paese": "Panama",
-                  "canali": [
-                    "ESPN Norte",
-                    "Disney+ Premium Norte"
-                  ]
-                },
-                {
-                  "paese": "Papua Nuova Guinea",
-                  "canali": [
-                    "MNC Soccer Channel",
-                    "Vision+"
-                  ]
-                },
-                {
-                  "paese": "Paraguay",
-                  "canali": [
-                    "ESPN Colombia",
-                    "Disney+ Premium Argentina"
-                  ]
-                },
-                {
-                  "paese": "Perù",
-                  "canali": [
-                    "ESPN Colombia",
-                    "Disney+ Premium Chile"
-                  ]
-                },
-                {
-                  "paese": "Polonia",
-                  "canali": [
-                    "Polsat Sport 1",
-                    "Polsat Box Go"
-                  ]
-                },
-                {
-                  "paese": "Portogallo",
-                  "canali": [
-                    "Sport TV1",
-                    "Sport TV Multiscreen",
-                    "Match Player"
-                  ]
-                },
-                {
-                  "paese": "Porto Rico",
-                  "canali": [
-                    "ViX"
-                  ]
-                },
-                {
-                  "paese": "Qatar",
-                  "canali": [
-                    "beIN Sports HD 1",
-                    "beIN Sports English",
-                    "beIN SPORTS CONNECT",
-                    "TOD"
-                  ]
-                },
-                {
-                  "paese": "Reunion",
-                  "canali": [
-                    "SuperSport MaXimo 1",
-                    "SuperSport MaXimo 2",
-                    "SuperSport Premier League ROA",
-                    "L'Équipe Live Foot"
-                  ]
-                },
-                {
-                  "paese": "Romania",
-                  "canali": [
-                    "Digi Sport 1 Romania",
-                    "Digi Online",
-                    "Prima Sport 1",
-                    "Orange TV Go",
-                    "Prima Play"
-                  ]
-                },
-                {
-                  "paese": "Russia",
-                  "canali": [
-                    "Okko Спорт"
-                  ]
-                },
-                {
-                  "paese": "Ruanda",
-                  "canali": [
-                    "SuperSport MaXimo 1",
-                    "SuperSport MaXimo 2",
-                    "SuperSport Premier League ROA",
-                    "New World Sport1"
-                  ]
-                },
-                {
-                  "paese": "Saint Helena",
-                  "canali": [
-                    "SuperSport MaXimo 1",
-                    "SuperSport MaXimo 2",
-                    "SuperSport Premier League ROA"
-                  ]
-                },
-                {
-                  "paese": "Saint Kitts e Nevis",
-                  "canali": [
-                    "Bluu"
-                  ]
-                },
-                {
-                  "paese": "Santa Lucia",
-                  "canali": [
-                    "Bluu"
-                  ]
-                },
-                {
-                  "paese": "San Marino",
-                  "canali": [
-                    "SKY Go Italia",
-                    "Sky Sport Uno",
-                    "NOW TV"
-                  ]
-                },
-                {
-                  "paese": "Arabia Saudita",
-                  "canali": [
-                    "beIN Sports HD 1",
-                    "beIN SPORTS CONNECT",
-                    "TOD"
-                  ]
-                },
-                {
-                  "paese": "Senegal",
-                  "canali": [
-                    "SuperSport MaXimo 1",
-                    "SuperSport MaXimo 2",
-                    "DStv Now",
-                    "SuperSport Premier League ROA",
-                    "New World Sport1"
-                  ]
-                },
-                {
-                  "paese": "Serbia",
-                  "canali": [
-                    "Arena 2 Premium",
-                    "Arena Cloud"
-                  ]
-                },
-                {
-                  "paese": "Seychelles",
-                  "canali": [
-                    "SuperSport MaXimo 1",
-                    "SuperSport MaXimo 2",
-                    "Bluu",
-                    "DStv Now",
-                    "SuperSport Premier League ROA",
-                    "New World Sport1"
-                  ]
-                },
-                {
-                  "paese": "Sierra Leone",
-                  "canali": [
-                    "SuperSport MaXimo 1",
-                    "SuperSport MaXimo 2",
-                    "DStv Now",
-                    "SuperSport Premier League ROA"
-                  ]
-                },
-                {
-                  "paese": "Slovacchia",
-                  "canali": [
-                    "Sport 1 SK"
-                  ]
-                },
-                {
-                  "paese": "Slovenia",
-                  "canali": [
-                    "Sportklub 2 Slovenia"
-                  ]
-                },
-                {
-                  "paese": "Somalia",
-                  "canali": [
-                    "SuperSport MaXimo 1",
-                    "SuperSport MaXimo 2",
-                    "beIN Sports HD 1",
-                    "beIN Sports English",
-                    "beIN SPORTS CONNECT",
-                    "SuperSport Premier League ROA",
-                    "TOD"
-                  ]
-                },
-                {
-                  "paese": "Sudafrica",
-                  "canali": [
-                    "SuperSport MaXimo 1",
-                    "SuperSport MaXimo 2",
-                    "SuperSport Premier League",
-                    "DStv App"
-                  ]
-                },
-                {
-                  "paese": "Sud Sudan",
-                  "canali": [
-                    "beIN Sports HD 1",
-                    "beIN Sports English",
-                    "beIN SPORTS CONNECT",
-                    "DStv Now",
-                    "TOD"
-                  ]
-                },
-                {
-                  "paese": "Spagna",
-                  "canali": [
-                    "DAZN Spain"
-                  ]
-                },
-                {
-                  "paese": "Sri Lanka",
-                  "canali": [
-                    "Sony LIV",
-                    "SONY TEN 1",
-                    "Dialog TV"
-                  ]
-                },
-                {
-                  "paese": "St. Vincent / Grenadines",
-                  "canali": [
-                    "Bluu"
-                  ]
-                },
-                {
-                  "paese": "Sudan",
-                  "canali": [
-                    "SuperSport MaXimo 1",
-                    "SuperSport MaXimo 2",
-                    "beIN Sports HD 1",
-                    "beIN Sports English",
-                    "beIN SPORTS CONNECT",
-                    "DStv Now",
-                    "SuperSport Premier League ROA",
-                    "TOD"
-                  ]
-                },
-                {
-                  "paese": "Suriname",
-                  "canali": [
-                    "Bluu",
-                    "SCCN",
-                    "TV2 Suriname"
-                  ]
-                },
-                {
-                  "paese": "Swaziland",
-                  "canali": [
-                    "SuperSport MaXimo 1",
-                    "SuperSport MaXimo 2",
-                    "DStv Now",
-                    "SuperSport Premier League ROA"
-                  ]
-                },
-                {
-                  "paese": "Svezia",
-                  "canali": [
-                    "Viaplay Sweden",
-                    "Viaplay Sport"
-                  ]
-                },
-                {
-                  "paese": "Svizzera",
-                  "canali": [
-                    "DAZN Switzerland"
-                  ]
-                },
-                {
-                  "paese": "Siria",
-                  "canali": [
-                    "beIN Sports HD 1",
-                    "beIN Sports English",
-                    "beIN SPORTS CONNECT",
-                    "TOD"
-                  ]
-                },
-                {
-                  "paese": "São Tomé and Príncipe",
-                  "canali": [
-                    "SuperSport MaXimo 1",
-                    "SuperSport MaXimo 2",
-                    "SuperSport Premier League ROA"
-                  ]
-                },
-                {
-                  "paese": "Tahiti",
-                  "canali": [
-                    "L'Équipe Live Foot"
-                  ]
-                },
-                {
-                  "paese": "Tanzania",
-                  "canali": [
-                    "SuperSport MaXimo 1",
-                    "SuperSport MaXimo 2",
-                    "DStv Now",
-                    "SuperSport Premier League ROA"
-                  ]
-                },
-                {
-                  "paese": "Thailandia",
-                  "canali": [
-                    "MONOMAX"
-                  ]
-                },
-                {
-                  "paese": "Timor-leste",
-                  "canali": [
-                    "MNC Soccer Channel",
-                    "Vision+"
-                  ]
-                },
-                {
-                  "paese": "Togo",
-                  "canali": [
-                    "SuperSport MaXimo 1",
-                    "SuperSport MaXimo 2",
-                    "DStv Now",
-                    "SuperSport Premier League ROA",
-                    "New World Sport1"
-                  ]
-                },
-                {
-                  "paese": "Trinidad e Tobago",
-                  "canali": [
-                    "Bluu"
-                  ]
-                },
-                {
-                  "paese": "Tunisia",
-                  "canali": [
-                    "beIN Sports HD 1",
-                    "beIN Sports English",
-                    "beIN SPORTS CONNECT",
-                    "TOD"
-                  ]
-                },
-                {
-                  "paese": "Turchia",
-                  "canali": [
-                    "A Spor"
-                  ]
-                },
-                {
-                  "paese": "Turks e Caicos",
-                  "canali": [
-                    "Bluu"
-                  ]
-                },
-                {
-                  "paese": "Uganda",
-                  "canali": [
-                    "SuperSport MaXimo 1",
-                    "SuperSport MaXimo 2",
-                    "DStv Now",
-                    "SuperSport Premier League ROA"
-                  ]
-                },
-                {
-                  "paese": "Ucraina",
-                  "canali": [
-                    "Megogo",
-                    "MEGOGO Football 1"
-                  ]
-                },
-                {
-                  "paese": "Emirati Arabi Uniti",
-                  "canali": [
-                    "beIN Sports HD 1",
-                    "beIN Sports English",
-                    "beIN SPORTS CONNECT",
-                    "TOD"
-                  ]
-                },
-                {
-                  "paese": "Uruguay",
-                  "canali": [
-                    "ESPN Colombia",
-                    "Disney+ Premium Argentina"
-                  ]
-                },
-                {
-                  "paese": "USA",
-                  "canali": [
-                    "fuboTV",
-                    "ViX"
-                  ]
-                },
-                {
-                  "paese": "Venezuela",
-                  "canali": [
-                    "ESPN Colombia",
-                    "Disney+ Premium Sur",
-                    "inter"
-                  ]
-                },
-                {
-                  "paese": "Vietnam",
-                  "canali": [
-                    "TV 360"
-                  ]
-                },
-                {
-                  "paese": "Yemen",
-                  "canali": [
-                    "beIN Sports HD 1",
-                    "beIN Sports English",
-                    "beIN SPORTS CONNECT",
-                    "TOD"
-                  ]
-                },
-                {
-                  "paese": "Zambia",
-                  "canali": [
-                    "SuperSport MaXimo 1",
-                    "SuperSport MaXimo 2",
-                    "SuperSport Premier League ROA"
-                  ]
-                },
-                {
-                  "paese": "Zimbabwe",
-                  "canali": [
-                    "SuperSport MaXimo 1",
-                    "SuperSport MaXimo 2",
-                    "DStv Now",
-                    "SuperSport Premier League ROA"
-                  ]
-                }
-              ],
-              "fonte": "LiveSoccerTV"
-            },
-            {
-              "titolo": "UEFA Nations League: Repubblica Ceca vs Spagna",
-              "categoria": "Calcio",
-              "sottocartella": "UEFA Nations League",
-              "sport": "Calcio",
-              "competizione": "UEFA Nations League",
-              "evento": "Repubblica Ceca vs Spagna",
-              "inizio": "2026-11-12T20:45:00+01:00",
-              "data": "12/11/2026",
-              "ora": "20:45",
-              "canali": [
-                {
-                  "nome": "SKY Go Italia",
-                  "numero": "",
-                  "tipo": "streaming",
-                  "orario": "2026-11-12T20:45",
-                  "fonte": "livesoccer"
-                },
-                {
-                  "nome": "TV8",
-                  "numero": "8",
-                  "tipo": "diretta",
-                  "orario": "2026-11-12T20:45",
-                  "fonte": "livesoccer"
-                },
-                {
-                  "nome": "Sky Sport Uno",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-12T20:45",
-                  "fonte": "livesoccer"
-                },
-                {
-                  "nome": "NOW TV",
-                  "numero": "",
-                  "tipo": "streaming",
-                  "orario": "2026-11-12T20:45",
-                  "fonte": "livesoccer"
-                }
-              ],
-              "canali_mondo": [
-                {
-                  "paese": "Afghanistan",
-                  "canali": [
-                    "L'Équipe Live Foot",
-                    "L'Équipe Live Foot",
-                    "Solh Sports 1",
-                    "Meraj Sport"
-                  ]
-                },
-                {
-                  "paese": "Albania",
-                  "canali": [
-                    "SuperSport 2 Digitalb"
-                  ]
-                },
-                {
-                  "paese": "Algeria",
-                  "canali": [
-                    "beIN Sports HD 1",
-                    "beIN Sports English",
-                    "beIN SPORTS CONNECT",
-                    "TOD"
-                  ]
-                },
-                {
-                  "paese": "Andorra",
-                  "canali": [
-                    "TVE La 1",
-                    "L'Équipe Live Foot"
-                  ]
-                },
-                {
-                  "paese": "Angola",
-                  "canali": [
-                    "SuperSport MaXimo 1",
-                    "SuperSport MaXimo 2",
-                    "DStv Now",
-                    "SuperSport Premier League ROA"
-                  ]
-                },
-                {
-                  "paese": "Anguilla",
-                  "canali": [
-                    "Bluu"
-                  ]
-                },
-                {
-                  "paese": "Antigua e Barbuda",
-                  "canali": [
-                    "Bluu"
-                  ]
-                },
-                {
-                  "paese": "Argentina",
-                  "canali": [
-                    "ESPN Argentina",
-                    "Disney+ Premium Argentina"
-                  ]
-                },
-                {
-                  "paese": "Armenia",
-                  "canali": [
-                    "Fast Sports",
-                    "FAST TV"
-                  ]
-                },
-                {
-                  "paese": "Aruba",
-                  "canali": [
-                    "Bluu"
-                  ]
-                },
-                {
-                  "paese": "Australia",
-                  "canali": [
-                    "beIN SPORTS 3",
-                    "beIN Sports Connect"
-                  ]
-                },
-                {
-                  "paese": "Austria",
-                  "canali": [
-                    "DAZN Austria",
-                    "DAZN1 Germany"
-                  ]
-                },
-                {
-                  "paese": "Azerbaigian",
-                  "canali": [
-                    "CBC Sport Azerbaijan"
-                  ]
-                },
-                {
-                  "paese": "Bahamas",
-                  "canali": [
-                    "Bluu"
-                  ]
-                },
-                {
-                  "paese": "Bahrain",
-                  "canali": [
-                    "beIN Sports HD 1",
-                    "beIN Sports English",
-                    "beIN SPORTS CONNECT",
-                    "TOD"
-                  ]
-                },
-                {
-                  "paese": "Bangladesh",
-                  "canali": [
-                    "Sony LIV",
-                    "SONY TEN 2",
-                    "SONY TEN 4",
-                    "tapmad"
-                  ]
-                },
-                {
-                  "paese": "Barbados",
-                  "canali": [
-                    "Bluu"
-                  ]
-                },
-                {
-                  "paese": "Bielorussia",
-                  "canali": [
-                    "Okko Спорт",
-                    "Sport TV Belarus"
-                  ]
-                },
-                {
-                  "paese": "Belgio",
-                  "canali": [
-                    "DAZN Belgium"
-                  ]
-                },
-                {
-                  "paese": "Belize",
-                  "canali": [
-                    "ESPN Norte",
-                    "Nexgen"
-                  ]
-                },
-                {
-                  "paese": "Benin",
-                  "canali": [
-                    "SuperSport MaXimo 1",
-                    "SuperSport MaXimo 2",
-                    "SuperSport Premier League ROA",
-                    "New World Sport1"
-                  ]
-                },
-                {
-                  "paese": "Bermuda",
-                  "canali": [
-                    "Bluu"
-                  ]
-                },
-                {
-                  "paese": "Bhutan",
-                  "canali": [
-                    "Sony LIV"
-                  ]
-                },
-                {
-                  "paese": "Bolivia",
-                  "canali": [
-                    "ESPN Colombia",
-                    "Disney+ Premium Chile"
-                  ]
-                },
-                {
-                  "paese": "Bosnia ed Erzegovina",
-                  "canali": [
-                    "Moja TV",
-                    "Arena Sport 1P",
-                    "Arena Cloud"
-                  ]
-                },
-                {
-                  "paese": "Botswana",
-                  "canali": [
-                    "SuperSport MaXimo 1",
-                    "SuperSport MaXimo 2",
-                    "DStv Now",
-                    "SuperSport Premier League ROA"
-                  ]
-                },
-                {
-                  "paese": "Brasile",
-                  "canali": [
-                    "SporTV 2",
-                    "Globoplay"
-                  ]
-                },
-                {
-                  "paese": "Isole Vergini britanniche",
-                  "canali": [
-                    "Bluu"
-                  ]
-                },
-                {
-                  "paese": "Bulgaria",
-                  "canali": [
-                    "Play Diema Xtra",
-                    "Diema Sport 3"
-                  ]
-                },
-                {
-                  "paese": "Burkina Faso",
-                  "canali": [
-                    "SuperSport MaXimo 1",
-                    "SuperSport MaXimo 2",
-                    "DStv Now",
-                    "SuperSport Premier League ROA",
-                    "New World Sport1"
-                  ]
-                },
-                {
-                  "paese": "Burundi",
-                  "canali": [
-                    "SuperSport MaXimo 1",
-                    "SuperSport MaXimo 2",
-                    "DStv Now",
-                    "SuperSport Premier League ROA",
-                    "New World Sport1"
-                  ]
-                },
-                {
-                  "paese": "Cambogia",
-                  "canali": [
-                    "MONOMAX Sports",
-                    "MONOMAX"
-                  ]
-                },
-                {
-                  "paese": "Camerun",
-                  "canali": [
-                    "SuperSport MaXimo 1",
-                    "SuperSport MaXimo 2",
-                    "DStv Now",
-                    "SuperSport Premier League ROA",
-                    "New World Sport1"
-                  ]
-                },
-                {
-                  "paese": "Canada",
-                  "canali": [
-                    "DAZN Canada",
-                    "fuboTV Canada"
-                  ]
-                },
-                {
-                  "paese": "Capo Verde",
-                  "canali": [
-                    "SuperSport MaXimo 1",
-                    "SuperSport MaXimo 2",
-                    "DStv Now",
-                    "SuperSport Premier League ROA"
-                  ]
-                },
-                {
-                  "paese": "Isole Cayman",
-                  "canali": [
-                    "Bluu"
-                  ]
-                },
-                {
-                  "paese": "Repubblica Centrafricana",
-                  "canali": [
-                    "SuperSport MaXimo 1",
-                    "SuperSport MaXimo 2",
-                    "SuperSport Premier League ROA",
-                    "New World Sport1"
-                  ]
-                },
-                {
-                  "paese": "Ciad",
-                  "canali": [
-                    "SuperSport MaXimo 1",
-                    "SuperSport MaXimo 2",
-                    "beIN Sports HD 1",
-                    "beIN Sports English",
-                    "beIN SPORTS CONNECT",
-                    "DStv Now",
-                    "SuperSport Premier League ROA",
-                    "TOD",
-                    "New World Sport1"
-                  ]
-                },
-                {
-                  "paese": "Cile",
-                  "canali": [
-                    "ESPN2 Chile",
-                    "Disney+ Premium Chile"
-                  ]
-                },
-                {
-                  "paese": "Cina",
-                  "canali": [
-                    "iQiyi"
-                  ]
-                },
-                {
-                  "paese": "Taipei cinese",
-                  "canali": [
-                    "ELTA Sports 1"
-                  ]
-                },
-                {
-                  "paese": "Colombia",
-                  "canali": [
-                    "ESPN Colombia",
-                    "Disney+ Premium Sur"
-                  ]
-                },
-                {
-                  "paese": "Comore",
-                  "canali": [
-                    "SuperSport MaXimo 1",
-                    "SuperSport MaXimo 2",
-                    "SuperSport Premier League ROA"
-                  ]
-                },
-                {
-                  "paese": "Repubblica Democratica del Congo",
-                  "canali": [
-                    "SuperSport MaXimo 1",
-                    "SuperSport MaXimo 1",
-                    "SuperSport MaXimo 2",
-                    "SuperSport MaXimo 2",
-                    "DStv Now",
-                    "SuperSport Premier League ROA",
-                    "SuperSport Premier League ROA",
-                    "New World Sport1",
-                    "New World Sport1"
-                  ]
-                },
-                {
-                  "paese": "Costa Rica",
-                  "canali": [
-                    "ESPN Norte",
-                    "Disney+ Premium Norte"
-                  ]
-                },
-                {
-                  "paese": "Croazia",
-                  "canali": [
-                    "Sportklub 1 Croatia",
-                    "MAXtv To Go"
-                  ]
-                },
-                {
-                  "paese": "Cipro",
-                  "canali": [
-                    "Cytavision on the Go",
-                    "Cytavision Sports 3",
-                    "Nova Sports Prime"
-                  ]
-                },
-                {
-                  "paese": "Repubblica Ceca",
-                  "canali": [
-                    "ČT Sport",
-                    "OnePlay"
-                  ]
-                },
-                {
-                  "paese": "Costa d'Avorio",
-                  "canali": [
-                    "SuperSport MaXimo 1",
-                    "SuperSport MaXimo 2",
-                    "DStv Now",
-                    "SuperSport Premier League ROA",
-                    "New World Sport1"
-                  ]
-                },
-                {
-                  "paese": "Danimarca",
-                  "canali": [
-                    "TV2 Play Denmark",
-                    "TV2 Sport X"
-                  ]
-                },
-                {
-                  "paese": "Gibuti",
-                  "canali": [
-                    "SuperSport MaXimo 1",
-                    "SuperSport MaXimo 2",
-                    "beIN Sports HD 1",
-                    "beIN Sports English",
-                    "beIN SPORTS CONNECT",
-                    "DStv Now",
-                    "SuperSport Premier League ROA",
-                    "TOD"
-                  ]
-                },
-                {
-                  "paese": "Dominica",
-                  "canali": [
-                    "Bluu"
-                  ]
-                },
-                {
-                  "paese": "Repubblica Dominicana",
-                  "canali": [
-                    "ESPN Norte",
-                    "Disney+ Premium Norte"
-                  ]
-                },
-                {
-                  "paese": "Ecuador",
-                  "canali": [
-                    "ESPN Colombia",
-                    "Disney+ Premium Sur"
-                  ]
-                },
-                {
-                  "paese": "Egitto",
-                  "canali": [
-                    "beIN Sports HD 1",
-                    "beIN Sports English",
-                    "beIN SPORTS CONNECT",
-                    "TOD"
-                  ]
-                },
-                {
-                  "paese": "El Salvador",
-                  "canali": [
-                    "ESPN Norte",
-                    "Disney+ Premium Norte"
-                  ]
-                },
-                {
-                  "paese": "Guinea Equatoriale",
-                  "canali": [
-                    "SuperSport MaXimo 1",
-                    "SuperSport MaXimo 2",
-                    "DStv Now",
-                    "SuperSport Premier League ROA"
-                  ]
-                },
-                {
-                  "paese": "Eritrea",
-                  "canali": [
-                    "SuperSport MaXimo 1",
-                    "SuperSport MaXimo 2",
-                    "DStv Now",
-                    "SuperSport Premier League ROA"
-                  ]
-                },
-                {
-                  "paese": "Estonia",
-                  "canali": [
-                    "Go3 Extra Sports Estonia"
-                  ]
-                },
-                {
-                  "paese": "Etiopia",
-                  "canali": [
-                    "SuperSport MaXimo 1",
-                    "SuperSport MaXimo 2",
-                    "DStv Now",
-                    "SuperSport Premier League ROA"
-                  ]
-                },
-                {
-                  "paese": "Isole Faroe",
-                  "canali": [
-                    "TV2 Play Denmark",
-                    "TV2 Sport X"
-                  ]
-                },
-                {
-                  "paese": "Finlandia",
-                  "canali": [
-                    "MTV Urheilu 1",
-                    "MTV Katsomo"
-                  ]
-                },
-                {
-                  "paese": "Francia",
-                  "canali": [
-                    "L'Équipe Live Foot"
-                  ]
-                },
-                {
-                  "paese": "Guyana francese",
-                  "canali": [
-                    "L'Équipe Live Foot"
-                  ]
-                },
-                {
-                  "paese": "Gabon",
-                  "canali": [
-                    "SuperSport MaXimo 1",
-                    "SuperSport MaXimo 2",
-                    "DStv Now",
-                    "SuperSport Premier League ROA",
-                    "New World Sport1"
-                  ]
-                },
-                {
-                  "paese": "Gambia",
-                  "canali": [
-                    "SuperSport MaXimo 1",
-                    "SuperSport MaXimo 2",
-                    "DStv Now",
-                    "SuperSport Premier League ROA"
-                  ]
-                },
-                {
-                  "paese": "Georgia",
-                  "canali": [
-                    "Silk Universal"
-                  ]
-                },
-                {
-                  "paese": "Germania",
-                  "canali": [
-                    "DAZN Deutschland",
-                    "DAZN1 Germany"
-                  ]
-                },
-                {
-                  "paese": "Ghana",
-                  "canali": [
-                    "SuperSport MaXimo 1",
-                    "SuperSport MaXimo 2",
-                    "DStv Now",
-                    "SuperSport Premier League ROA"
-                  ]
-                },
-                {
-                  "paese": "Gran Bretagna",
-                  "canali": [
-                    "Amazon Prime Video"
-                  ]
-                },
-                {
-                  "paese": "Grecia",
-                  "canali": [
-                    "Nova Sports 1",
-                    "Nova Sports Prime",
-                    "Alpha TV"
-                  ]
-                },
-                {
-                  "paese": "Grenada",
-                  "canali": [
-                    "Bluu"
-                  ]
-                },
-                {
-                  "paese": "Guadalupa",
-                  "canali": [
-                    "L'Équipe Live Foot"
-                  ]
-                },
-                {
-                  "paese": "Guatemala",
-                  "canali": [
-                    "ESPN Norte",
-                    "Disney+ Premium Norte"
-                  ]
-                },
-                {
-                  "paese": "Guinea",
-                  "canali": [
-                    "SuperSport MaXimo 1",
-                    "SuperSport MaXimo 2",
-                    "DStv Now",
-                    "SuperSport Premier League ROA",
-                    "New World Sport1"
-                  ]
-                },
-                {
-                  "paese": "Guinea-Bissau",
-                  "canali": [
-                    "SuperSport MaXimo 1",
-                    "SuperSport MaXimo 2",
-                    "DStv Now",
-                    "SuperSport Premier League ROA",
-                    "New World Sport1"
-                  ]
-                },
-                {
-                  "paese": "Guyana",
-                  "canali": [
-                    "L'Équipe Live Foot"
-                  ]
-                },
-                {
-                  "paese": "Honduras",
-                  "canali": [
-                    "ESPN Norte",
-                    "Disney+ Premium Norte"
-                  ]
-                },
-                {
-                  "paese": "Ungheria",
-                  "canali": [
-                    "Spíler2",
-                    "TV2 Play Premium"
-                  ]
-                },
-                {
-                  "paese": "Islanda",
-                  "canali": [
-                    "Viaplay Iceland",
-                    "SÝN Sport Viaplay"
-                  ]
-                },
-                {
-                  "paese": "India",
-                  "canali": [
-                    "Sony LIV",
-                    "SONY TEN 2",
-                    "JioTV",
-                    "SONY TEN 4"
-                  ]
-                },
-                {
-                  "paese": "Indonesia",
-                  "canali": [
-                    "RCTI",
-                    "K-Vision",
-                    "MNC Soccer Channel",
-                    "MAXstream TV",
-                    "RCTI+",
-                    "Vision+"
-                  ]
-                },
-                {
-                  "paese": "Internazionale",
-                  "canali": [
-                    "UEFA.tv"
-                  ]
-                },
-                {
-                  "paese": "Iran",
-                  "canali": [
-                    "IRIB Varzesh",
-                    "beIN Sports HD 1",
-                    "beIN Sports English",
-                    "beIN SPORTS CONNECT",
-                    "Persiana Sports"
-                  ]
-                },
-                {
-                  "paese": "Iraq",
-                  "canali": [
-                    "beIN Sports HD 1",
-                    "beIN Sports English",
-                    "beIN SPORTS CONNECT",
-                    "TOD"
-                  ]
-                },
-                {
-                  "paese": "Irlanda",
-                  "canali": [
-                    "Virgin Media Two"
-                  ]
-                },
-                {
-                  "paese": "Israele",
-                  "canali": [
-                    "Sport 2"
-                  ]
-                },
-                {
-                  "paese": "Italia",
-                  "canali": [
-                    "SKY Go Italia",
-                    "TV8",
-                    "Sky Sport Uno",
-                    "NOW TV"
-                  ]
-                },
-                {
-                  "paese": "Giamaica",
-                  "canali": [
-                    "Bluu"
-                  ]
-                },
-                {
-                  "paese": "Giappone",
-                  "canali": [
-                    "DAZN Japan"
-                  ]
-                },
-                {
-                  "paese": "Giordania",
-                  "canali": [
-                    "beIN Sports HD 1",
-                    "beIN Sports English",
-                    "beIN SPORTS CONNECT",
-                    "TOD"
-                  ]
-                },
-                {
-                  "paese": "Kenya",
-                  "canali": [
-                    "SuperSport MaXimo 1",
-                    "SuperSport MaXimo 2",
-                    "DStv Now",
-                    "SuperSport Premier League ROA",
-                    "GOtv"
-                  ]
-                },
-                {
-                  "paese": "Corea del Sud",
-                  "canali": [
-                    "SPOTV NOW",
-                    "SPOTV Prime"
-                  ]
-                },
-                {
-                  "paese": "Kosovo",
-                  "canali": [
-                    "ART Sport 1",
-                    "ArtMotion",
-                    "Arena 1 Premium"
-                  ]
-                },
-                {
-                  "paese": "Kuwait",
-                  "canali": [
-                    "beIN Sports HD 1",
-                    "beIN Sports English",
-                    "beIN SPORTS CONNECT",
-                    "TOD"
-                  ]
-                },
-                {
-                  "paese": "Laos",
-                  "canali": [
-                    "MONOMAX Sports",
-                    "MONOMAX"
-                  ]
-                },
-                {
-                  "paese": "Lettonia",
-                  "canali": [
-                    "Go3 Extra Sports Latvia"
-                  ]
-                },
-                {
-                  "paese": "Libano",
-                  "canali": [
-                    "beIN Sports HD 1",
-                    "beIN Sports English",
-                    "beIN SPORTS CONNECT",
-                    "TOD"
-                  ]
-                },
-                {
-                  "paese": "Lesotho",
-                  "canali": [
-                    "SuperSport MaXimo 1",
-                    "SuperSport MaXimo 2",
-                    "DStv Now",
-                    "SuperSport Premier League ROA"
-                  ]
-                },
-                {
-                  "paese": "Liberia",
-                  "canali": [
-                    "SuperSport MaXimo 1",
-                    "SuperSport MaXimo 2",
-                    "DStv Now",
-                    "SuperSport Premier League ROA"
-                  ]
-                },
-                {
-                  "paese": "Libia",
-                  "canali": [
-                    "beIN Sports HD 1",
-                    "beIN Sports English",
-                    "beIN SPORTS CONNECT",
-                    "TOD"
-                  ]
-                },
-                {
-                  "paese": "Liechtenstein",
-                  "canali": [
-                    "DAZN Deutschland"
-                  ]
-                },
-                {
-                  "paese": "Lituania",
-                  "canali": [
-                    "Go3 Extra Sports Lithuania"
-                  ]
-                },
-                {
-                  "paese": "Macao",
-                  "canali": [
-                    "iQiyi"
-                  ]
-                },
-                {
-                  "paese": "Macedonia",
-                  "canali": [
-                    "Arena 1 Premium",
-                    "Arena Cloud",
-                    "Arena M2 Premium"
-                  ]
-                },
-                {
-                  "paese": "Madagascar",
-                  "canali": [
-                    "SuperSport MaXimo 1",
-                    "SuperSport MaXimo 2",
-                    "DStv Now",
-                    "SuperSport Premier League ROA",
-                    "New World Sport1"
-                  ]
-                },
-                {
-                  "paese": "Malawi",
-                  "canali": [
-                    "SuperSport MaXimo 1",
-                    "SuperSport MaXimo 2",
-                    "DStv Now",
-                    "SuperSport Premier League ROA"
-                  ]
-                },
-                {
-                  "paese": "Maldive",
-                  "canali": [
-                    "Sony LIV",
-                    "SONY TEN 2",
-                    "SONY TEN 4",
-                    "Medianet"
-                  ]
-                },
-                {
-                  "paese": "Mali",
-                  "canali": [
-                    "SuperSport MaXimo 1",
-                    "SuperSport MaXimo 2",
-                    "DStv Now",
-                    "SuperSport Premier League ROA",
-                    "New World Sport1"
-                  ]
-                },
-                {
-                  "paese": "Mauritania",
-                  "canali": [
-                    "SuperSport MaXimo 1",
-                    "SuperSport MaXimo 2",
-                    "beIN Sports HD 1",
-                    "beIN Sports English",
-                    "beIN SPORTS CONNECT",
-                    "DStv Now",
-                    "SuperSport Premier League ROA",
-                    "TOD",
-                    "New World Sport1"
-                  ]
-                },
-                {
-                  "paese": "Mauritius",
-                  "canali": [
-                    "SuperSport MaXimo 1",
-                    "SuperSport MaXimo 2",
-                    "DStv Now",
-                    "SuperSport Premier League ROA",
-                    "New World Sport1",
-                    "L'Équipe Live Foot"
-                  ]
-                },
-                {
-                  "paese": "Mayotte",
-                  "canali": [
-                    "SuperSport MaXimo 1",
-                    "SuperSport MaXimo 2",
-                    "SuperSport Premier League ROA",
-                    "L'Équipe Live Foot"
-                  ]
-                },
-                {
-                  "paese": "Messico",
-                  "canali": [
-                    "Sky Sports Mexico",
-                    "Sky+",
-                    "izzi"
-                  ]
-                },
-                {
-                  "paese": "Moldavia",
-                  "canali": [
-                    "Okko Спорт"
-                  ]
-                },
-                {
-                  "paese": "Monaco",
-                  "canali": [
-                    "L'Équipe Live Foot"
-                  ]
-                },
-                {
-                  "paese": "Mongolia",
-                  "canali": [
-                    "Premier Sports 2"
-                  ]
-                },
-                {
-                  "paese": "Montenegro",
-                  "canali": [
-                    "Arena 1 Premium",
-                    "Arena Cloud"
-                  ]
-                },
-                {
-                  "paese": "Montserrat",
-                  "canali": [
-                    "Bluu"
-                  ]
-                },
-                {
-                  "paese": "Marocco",
-                  "canali": [
-                    "beIN Sports HD 1",
-                    "beIN Sports English",
-                    "beIN SPORTS CONNECT",
-                    "TOD"
-                  ]
-                },
-                {
-                  "paese": "Mozambico",
-                  "canali": [
-                    "SuperSport MaXimo 1",
-                    "SuperSport MaXimo 2",
-                    "DStv Now",
-                    "SuperSport Premier League ROA"
-                  ]
-                },
-                {
-                  "paese": "Namibia",
-                  "canali": [
-                    "SuperSport MaXimo 1",
-                    "SuperSport MaXimo 2",
-                    "DStv Now",
-                    "SuperSport Premier League ROA"
-                  ]
-                },
-                {
-                  "paese": "Nepal",
-                  "canali": [
-                    "Sony LIV",
-                    "SONY TEN 2",
-                    "SONY TEN 4"
-                  ]
-                },
-                {
-                  "paese": "Paesi Bassi",
-                  "canali": [
-                    "Ziggo Go",
-                    "Ziggo Sport 2"
-                  ]
-                },
-                {
-                  "paese": "Nuova Caledonia",
-                  "canali": [
-                    "L'Équipe Live Foot"
-                  ]
-                },
-                {
-                  "paese": "Nuova Zelanda",
-                  "canali": [
-                    "beIN Sports Connect New Zealand"
-                  ]
-                },
-                {
-                  "paese": "Nicaragua",
-                  "canali": [
-                    "ESPN Norte",
-                    "Disney+ Premium Norte"
-                  ]
-                },
-                {
-                  "paese": "Niger",
-                  "canali": [
-                    "SuperSport MaXimo 1",
-                    "SuperSport MaXimo 2",
-                    "DStv Now",
-                    "SuperSport Premier League ROA"
-                  ]
-                },
-                {
-                  "paese": "Nigeria",
-                  "canali": [
-                    "SuperSport MaXimo 1",
-                    "SuperSport MaXimo 2",
-                    "DStv Now",
-                    "SuperSport Premier League Nigeria"
-                  ]
-                },
-                {
-                  "paese": "Norvegia",
-                  "canali": [
-                    "TV2 Sport",
-                    "TV 2 Play"
-                  ]
-                },
-                {
-                  "paese": "Oman",
-                  "canali": [
-                    "beIN Sports HD 1",
-                    "beIN Sports English",
-                    "beIN SPORTS CONNECT",
-                    "TOD"
-                  ]
-                },
-                {
-                  "paese": "Pakistan",
-                  "canali": [
-                    "Sony LIV",
-                    "SONY TEN 2",
-                    "SONY TEN 4",
-                    "tapmad"
-                  ]
-                },
-                {
-                  "paese": "Palestina",
-                  "canali": [
-                    "beIN Sports HD 1",
-                    "beIN Sports English",
-                    "beIN SPORTS CONNECT",
-                    "TOD"
-                  ]
-                },
-                {
-                  "paese": "Panama",
-                  "canali": [
-                    "ESPN Norte",
-                    "Disney+ Premium Norte"
-                  ]
-                },
-                {
-                  "paese": "Papua Nuova Guinea",
-                  "canali": [
-                    "MNC Soccer Channel",
-                    "Vision+"
-                  ]
-                },
-                {
-                  "paese": "Paraguay",
-                  "canali": [
-                    "ESPN Colombia",
-                    "Disney+ Premium Argentina"
-                  ]
-                },
-                {
-                  "paese": "Perù",
-                  "canali": [
-                    "ESPN Colombia",
-                    "Disney+ Premium Chile"
-                  ]
-                },
-                {
-                  "paese": "Filippine",
-                  "canali": [
-                    "RCTI+"
-                  ]
-                },
-                {
-                  "paese": "Polonia",
-                  "canali": [
-                    "TVP Sport",
-                    "Polsat Sport 1",
-                    "Polsat Box Go",
-                    "sport.tvp.pl",
-                    "Canal+",
-                    "TVP Sport App"
-                  ]
-                },
-                {
-                  "paese": "Portogallo",
-                  "canali": [
-                    "Sport TV1",
-                    "Sport TV Multiscreen",
-                    "Match Player"
-                  ]
-                },
-                {
-                  "paese": "Porto Rico",
-                  "canali": [
-                    "Fox Sports 2",
-                    "ViX",
-                    "NAICOM"
-                  ]
-                },
-                {
-                  "paese": "Qatar",
-                  "canali": [
-                    "beIN Sports HD 1",
-                    "beIN Sports English",
-                    "beIN SPORTS CONNECT",
-                    "TOD"
-                  ]
-                },
-                {
-                  "paese": "Reunion",
-                  "canali": [
-                    "SuperSport MaXimo 1",
-                    "SuperSport MaXimo 2",
-                    "SuperSport Premier League ROA",
-                    "L'Équipe Live Foot"
-                  ]
-                },
-                {
-                  "paese": "Romania",
-                  "canali": [
-                    "Digi Sport 1 Romania",
-                    "Digi Online",
-                    "Prima Sport 1",
-                    "Orange TV Go",
-                    "Prima Play"
-                  ]
-                },
-                {
-                  "paese": "Russia",
-                  "canali": [
-                    "Okko Спорт"
-                  ]
-                },
-                {
-                  "paese": "Ruanda",
-                  "canali": [
-                    "SuperSport MaXimo 1",
-                    "SuperSport MaXimo 2",
-                    "SuperSport Premier League ROA",
-                    "New World Sport1"
-                  ]
-                },
-                {
-                  "paese": "Saint Helena",
-                  "canali": [
-                    "SuperSport MaXimo 1",
-                    "SuperSport MaXimo 2",
-                    "SuperSport Premier League ROA"
-                  ]
-                },
-                {
-                  "paese": "Saint Kitts e Nevis",
-                  "canali": [
-                    "Bluu"
-                  ]
-                },
-                {
-                  "paese": "Santa Lucia",
-                  "canali": [
-                    "Bluu"
-                  ]
-                },
-                {
-                  "paese": "San Marino",
-                  "canali": [
-                    "SKY Go Italia",
-                    "TV8",
-                    "Sky Sport Uno",
-                    "NOW TV"
-                  ]
-                },
-                {
-                  "paese": "Arabia Saudita",
-                  "canali": [
-                    "beIN Sports HD 1",
-                    "beIN SPORTS CONNECT",
-                    "TOD"
-                  ]
-                },
-                {
-                  "paese": "Senegal",
-                  "canali": [
-                    "SuperSport MaXimo 1",
-                    "SuperSport MaXimo 2",
-                    "DStv Now",
-                    "SuperSport Premier League ROA",
-                    "New World Sport1"
-                  ]
-                },
-                {
-                  "paese": "Serbia",
-                  "canali": [
-                    "Arena 1 Premium",
-                    "Arena Cloud"
-                  ]
-                },
-                {
-                  "paese": "Seychelles",
-                  "canali": [
-                    "SuperSport MaXimo 1",
-                    "SuperSport MaXimo 2",
-                    "Bluu",
-                    "DStv Now",
-                    "SuperSport Premier League ROA",
-                    "New World Sport1"
-                  ]
-                },
-                {
-                  "paese": "Sierra Leone",
-                  "canali": [
-                    "SuperSport MaXimo 1",
-                    "SuperSport MaXimo 2",
-                    "DStv Now",
-                    "SuperSport Premier League ROA"
-                  ]
-                },
-                {
-                  "paese": "Slovacchia",
-                  "canali": [
-                    "Sport 1 SK"
-                  ]
-                },
-                {
-                  "paese": "Slovenia",
-                  "canali": [
-                    "Sportklub 2 Slovenia"
-                  ]
-                },
-                {
-                  "paese": "Somalia",
-                  "canali": [
-                    "SuperSport MaXimo 1",
-                    "SuperSport MaXimo 2",
-                    "beIN Sports HD 1",
-                    "beIN Sports English",
-                    "beIN SPORTS CONNECT",
-                    "SuperSport Premier League ROA",
-                    "TOD"
-                  ]
-                },
-                {
-                  "paese": "Sudafrica",
-                  "canali": [
-                    "SuperSport MaXimo 1",
-                    "SuperSport MaXimo 2",
-                    "SuperSport Premier League",
-                    "DStv App"
-                  ]
-                },
-                {
-                  "paese": "Sud Sudan",
-                  "canali": [
-                    "beIN Sports HD 1",
-                    "beIN Sports English",
-                    "beIN SPORTS CONNECT",
-                    "DStv Now",
-                    "TOD"
-                  ]
-                },
-                {
-                  "paese": "Spagna",
-                  "canali": [
-                    "TVE La 1",
-                    "RTVE Play",
-                    "Movistar+",
-                    "fuboTV España"
-                  ]
-                },
-                {
-                  "paese": "Sri Lanka",
-                  "canali": [
-                    "Sony LIV",
-                    "SONY TEN 2",
-                    "SONY TEN 4",
-                    "Dialog TV"
-                  ]
-                },
-                {
-                  "paese": "St. Vincent / Grenadines",
-                  "canali": [
-                    "Bluu"
-                  ]
-                },
-                {
-                  "paese": "Sudan",
-                  "canali": [
-                    "SuperSport MaXimo 1",
-                    "SuperSport MaXimo 2",
-                    "beIN Sports HD 1",
-                    "beIN Sports English",
-                    "beIN SPORTS CONNECT",
-                    "DStv Now",
-                    "SuperSport Premier League ROA",
-                    "TOD"
-                  ]
-                },
-                {
-                  "paese": "Suriname",
-                  "canali": [
-                    "Bluu",
-                    "SCCN",
-                    "TV2 Suriname"
-                  ]
-                },
-                {
-                  "paese": "Swaziland",
-                  "canali": [
-                    "SuperSport MaXimo 1",
-                    "SuperSport MaXimo 2",
-                    "DStv Now",
-                    "SuperSport Premier League ROA"
-                  ]
-                },
-                {
-                  "paese": "Svezia",
-                  "canali": [
-                    "Viaplay Sweden",
-                    "Viaplay Sport"
-                  ]
-                },
-                {
-                  "paese": "Svizzera",
-                  "canali": [
-                    "DAZN Switzerland"
-                  ]
-                },
-                {
-                  "paese": "Siria",
-                  "canali": [
-                    "beIN Sports HD 1",
-                    "beIN Sports English",
-                    "beIN SPORTS CONNECT",
-                    "TOD"
-                  ]
-                },
-                {
-                  "paese": "São Tomé and Príncipe",
-                  "canali": [
-                    "SuperSport MaXimo 1",
-                    "SuperSport MaXimo 2",
-                    "SuperSport Premier League ROA"
-                  ]
-                },
-                {
-                  "paese": "Tahiti",
-                  "canali": [
-                    "L'Équipe Live Foot"
-                  ]
-                },
-                {
-                  "paese": "Tanzania",
-                  "canali": [
-                    "SuperSport MaXimo 1",
-                    "SuperSport MaXimo 2",
-                    "DStv Now",
-                    "SuperSport Premier League ROA"
-                  ]
-                },
-                {
-                  "paese": "Thailandia",
-                  "canali": [
-                    "MONOMAX Sports",
-                    "MONOMAX"
-                  ]
-                },
-                {
-                  "paese": "Timor-leste",
-                  "canali": [
-                    "MNC Soccer Channel",
-                    "Vision+"
-                  ]
-                },
-                {
-                  "paese": "Togo",
-                  "canali": [
-                    "SuperSport MaXimo 1",
-                    "SuperSport MaXimo 2",
-                    "DStv Now",
-                    "SuperSport Premier League ROA",
-                    "New World Sport1"
-                  ]
-                },
-                {
-                  "paese": "Trinidad e Tobago",
-                  "canali": [
-                    "Bluu"
-                  ]
-                },
-                {
-                  "paese": "Tunisia",
-                  "canali": [
-                    "beIN Sports HD 1",
-                    "beIN Sports English",
-                    "beIN SPORTS CONNECT",
-                    "TOD"
-                  ]
-                },
-                {
-                  "paese": "Turchia",
-                  "canali": [
-                    "a Haber"
-                  ]
-                },
-                {
-                  "paese": "Turks e Caicos",
-                  "canali": [
-                    "Bluu"
-                  ]
-                },
-                {
-                  "paese": "Uganda",
-                  "canali": [
-                    "SuperSport MaXimo 1",
-                    "SuperSport MaXimo 2",
-                    "DStv Now",
-                    "SuperSport Premier League ROA"
-                  ]
-                },
-                {
-                  "paese": "Ucraina",
-                  "canali": [
-                    "Megogo",
-                    "MEGOGO Football 1"
-                  ]
-                },
-                {
-                  "paese": "Emirati Arabi Uniti",
-                  "canali": [
-                    "beIN Sports HD 1",
-                    "beIN Sports English",
-                    "beIN SPORTS CONNECT",
-                    "TOD"
-                  ]
-                },
-                {
-                  "paese": "Uruguay",
-                  "canali": [
-                    "ESPN Colombia",
-                    "Disney+ Premium Argentina"
-                  ]
-                },
-                {
-                  "paese": "USA",
-                  "canali": [
-                    "Fox Sports 2",
-                    "fuboTV",
-                    "ViX",
-                    "FOX One"
-                  ]
-                },
-                {
-                  "paese": "Venezuela",
-                  "canali": [
-                    "ESPN Colombia",
-                    "Disney+ Premium Sur",
-                    "inter"
-                  ]
-                },
-                {
-                  "paese": "Vietnam",
-                  "canali": [
-                    "TV 360"
-                  ]
-                },
-                {
-                  "paese": "Yemen",
-                  "canali": [
-                    "beIN Sports HD 1",
-                    "beIN Sports English",
-                    "beIN SPORTS CONNECT",
-                    "TOD"
-                  ]
-                },
-                {
-                  "paese": "Zambia",
-                  "canali": [
-                    "SuperSport MaXimo 1",
-                    "SuperSport MaXimo 2",
-                    "SuperSport Premier League ROA"
-                  ]
-                },
-                {
-                  "paese": "Zimbabwe",
-                  "canali": [
-                    "SuperSport MaXimo 1",
-                    "SuperSport MaXimo 2",
-                    "DStv Now",
-                    "SuperSport Premier League ROA"
-                  ]
-                }
-              ],
-              "fonte": "LiveSoccerTV"
             }
           ]
         },
@@ -16590,33 +13523,12 @@
     },
     {
       "nome": "Tennis",
-      "totale": 19,
+      "totale": 17,
       "sottocartelle": [
         {
           "nome": "WTA 250 Osaka",
-          "totale": 3,
+          "totale": 2,
           "eventi": [
-            {
-              "titolo": "WTA 250 Osaka: 1a Semifinale",
-              "categoria": "Tennis",
-              "sottocartella": "WTA 250 Osaka",
-              "sport": "Tennis",
-              "competizione": "WTA 250 Osaka",
-              "evento": "1a Semifinale",
-              "inizio": "2026-10-23T05:00:00+02:00",
-              "data": "23/10/2026",
-              "ora": "05:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Tennis",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-23T05:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
             {
               "titolo": "WTA 250 Osaka: Finale",
               "categoria": "Tennis",
@@ -16654,145 +13566,6 @@
                   "numero": "",
                   "tipo": "diretta",
                   "orario": "2026-10-24T07:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            }
-          ]
-        },
-        {
-          "nome": "ATP & WTA",
-          "totale": 6,
-          "eventi": [
-            {
-              "titolo": "ATP & WTA",
-              "categoria": "Tennis",
-              "sottocartella": "ATP & WTA",
-              "sport": "Tennis",
-              "competizione": "ATP & WTA",
-              "evento": "ATP & WTA",
-              "inizio": "2026-10-23T06:00:00+02:00",
-              "data": "23/10/2026",
-              "ora": "06:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Tennis",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-23T06:00",
-                  "fonte": "virgilio"
-                },
-                {
-                  "nome": "Sky Sport 1",
-                  "numero": "201",
-                  "tipo": "diretta",
-                  "orario": "2026-10-23T08:30",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "ATP & WTA",
-              "categoria": "Tennis",
-              "sottocartella": "ATP & WTA",
-              "sport": "Tennis",
-              "competizione": "ATP & WTA",
-              "evento": "ATP & WTA",
-              "inizio": "2026-10-25T02:30:00+02:00",
-              "data": "25/10/2026",
-              "ora": "02:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport Tennis",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-25T02:30",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "ATP & WTA",
-              "categoria": "Tennis",
-              "sottocartella": "ATP & WTA",
-              "sport": "Tennis",
-              "competizione": "ATP & WTA",
-              "evento": "ATP & WTA",
-              "inizio": "2026-10-26T02:30:00+01:00",
-              "data": "26/10/2026",
-              "ora": "02:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport Tennis",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-26T02:30",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "ATP & WTA",
-              "categoria": "Tennis",
-              "sottocartella": "ATP & WTA",
-              "sport": "Tennis",
-              "competizione": "ATP & WTA",
-              "evento": "ATP & WTA",
-              "inizio": "2026-10-27T02:30:00+01:00",
-              "data": "27/10/2026",
-              "ora": "02:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport Tennis",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-27T02:30",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "ATP & WTA",
-              "categoria": "Tennis",
-              "sottocartella": "ATP & WTA",
-              "sport": "Tennis",
-              "competizione": "ATP & WTA",
-              "evento": "ATP & WTA",
-              "inizio": "2026-10-28T02:30:00+01:00",
-              "data": "28/10/2026",
-              "ora": "02:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport Tennis",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-28T02:30",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "ATP & WTA",
-              "categoria": "Tennis",
-              "sottocartella": "ATP & WTA",
-              "sport": "Tennis",
-              "competizione": "ATP & WTA",
-              "evento": "ATP & WTA",
-              "inizio": "2026-10-29T02:30:00+01:00",
-              "data": "29/10/2026",
-              "ora": "02:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport Tennis",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-29T02:30",
                   "fonte": "virgilio"
                 }
               ],
@@ -17014,6 +13787,117 @@
                   "numero": "",
                   "tipo": "diretta",
                   "orario": "2026-10-25T11:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            }
+          ]
+        },
+        {
+          "nome": "ATP & WTA",
+          "totale": 5,
+          "eventi": [
+            {
+              "titolo": "ATP & WTA",
+              "categoria": "Tennis",
+              "sottocartella": "ATP & WTA",
+              "sport": "Tennis",
+              "competizione": "ATP & WTA",
+              "evento": "ATP & WTA",
+              "inizio": "2026-10-25T02:30:00+02:00",
+              "data": "25/10/2026",
+              "ora": "02:30",
+              "canali": [
+                {
+                  "nome": "Sky Sport Tennis",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-25T02:30",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "ATP & WTA",
+              "categoria": "Tennis",
+              "sottocartella": "ATP & WTA",
+              "sport": "Tennis",
+              "competizione": "ATP & WTA",
+              "evento": "ATP & WTA",
+              "inizio": "2026-10-26T02:30:00+01:00",
+              "data": "26/10/2026",
+              "ora": "02:30",
+              "canali": [
+                {
+                  "nome": "Sky Sport Tennis",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-26T02:30",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "ATP & WTA",
+              "categoria": "Tennis",
+              "sottocartella": "ATP & WTA",
+              "sport": "Tennis",
+              "competizione": "ATP & WTA",
+              "evento": "ATP & WTA",
+              "inizio": "2026-10-27T02:30:00+01:00",
+              "data": "27/10/2026",
+              "ora": "02:30",
+              "canali": [
+                {
+                  "nome": "Sky Sport Tennis",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-27T02:30",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "ATP & WTA",
+              "categoria": "Tennis",
+              "sottocartella": "ATP & WTA",
+              "sport": "Tennis",
+              "competizione": "ATP & WTA",
+              "evento": "ATP & WTA",
+              "inizio": "2026-10-28T02:30:00+01:00",
+              "data": "28/10/2026",
+              "ora": "02:30",
+              "canali": [
+                {
+                  "nome": "Sky Sport Tennis",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-28T02:30",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "ATP & WTA",
+              "categoria": "Tennis",
+              "sottocartella": "ATP & WTA",
+              "sport": "Tennis",
+              "competizione": "ATP & WTA",
+              "evento": "ATP & WTA",
+              "inizio": "2026-10-29T02:30:00+01:00",
+              "data": "29/10/2026",
+              "ora": "02:30",
+              "canali": [
+                {
+                  "nome": "Sky Sport Tennis",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-29T02:30",
                   "fonte": "virgilio"
                 }
               ],
