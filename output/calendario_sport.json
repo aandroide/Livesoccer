@@ -1,37 +1,16 @@
 {
-  "aggiornato": "2026-10-23T15:53:05+02:00",
+  "aggiornato": "2026-10-23T19:16:04+02:00",
   "fonti": {
     "motori": "Fuori Traiettoria, Dizzle0987/motorsport-calendar, palinsesto TV8",
     "calcio_italiano": "https://raw.githubusercontent.com/aandroide/Livesoccer/master/livesoccertv/output/eventi.json",
     "altri_sport": "https://sport.virgilio.it/guida-tv/"
   },
-  "totale": 243,
+  "totale": 242,
   "cartelle": [
     {
       "nome": "Oggi",
-      "totale": 16,
+      "totale": 15,
       "eventi": [
-        {
-          "titolo": "[Calcio] Primavera 1: Atalanta-Lazio",
-          "categoria": "Calcio",
-          "sottocartella": "Primavera 1",
-          "sport": "Calcio",
-          "competizione": "Primavera 1",
-          "evento": "Atalanta-Lazio",
-          "inizio": "2026-10-23T15:00:00+02:00",
-          "data": "23/10/2026",
-          "ora": "15:00",
-          "canali": [
-            {
-              "nome": "Sportitalia",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-10-23T15:00",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
         {
           "titolo": "[Calcio] Primavera 1: Sassuolo-Torino",
           "categoria": "Calcio",
@@ -1949,7 +1928,7 @@
                   "nome": "TV8",
                   "numero": "8",
                   "tipo": "differita",
-                  "orario": "2026-10-25T22:30",
+                  "orario": "2026-10-25T22:25",
                   "fonte": "config+tv8"
                 }
               ],
@@ -3465,7 +3444,7 @@
                   "nome": "TV8",
                   "numero": "8",
                   "tipo": "differita",
-                  "orario": "2026-10-25T14:00",
+                  "orario": "2026-10-25T13:45",
                   "fonte": "config+tv8"
                 }
               ],
@@ -4592,7 +4571,7 @@
                   "nome": "TV8",
                   "numero": "8",
                   "tipo": "differita",
-                  "orario": "2026-10-25T11:00",
+                  "orario": "2026-10-25T10:45",
                   "programma": "GP Australia: Gara",
                   "fonte": "tv8"
                 }
@@ -4616,7 +4595,7 @@
                   "nome": "TV8",
                   "numero": "8",
                   "tipo": "differita",
-                  "orario": "2026-10-25T11:00",
+                  "orario": "2026-10-25T10:45",
                   "programma": "GP Australia: Gara",
                   "fonte": "tv8"
                 }
@@ -5094,7 +5073,7 @@
     },
     {
       "nome": "Calcio",
-      "totale": 84,
+      "totale": 83,
       "sottocartelle": [
         {
           "nome": "Serie A",
@@ -12209,29 +12188,8 @@
         },
         {
           "nome": "Primavera 1",
-          "totale": 5,
+          "totale": 4,
           "eventi": [
-            {
-              "titolo": "Primavera 1: Atalanta-Lazio",
-              "categoria": "Calcio",
-              "sottocartella": "Primavera 1",
-              "sport": "Calcio",
-              "competizione": "Primavera 1",
-              "evento": "Atalanta-Lazio",
-              "inizio": "2026-10-23T15:00:00+02:00",
-              "data": "23/10/2026",
-              "ora": "15:00",
-              "canali": [
-                {
-                  "nome": "Sportitalia",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-23T15:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
             {
               "titolo": "Primavera 1: Sassuolo-Torino",
               "categoria": "Calcio",
