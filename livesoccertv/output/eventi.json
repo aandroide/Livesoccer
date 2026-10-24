@@ -1,14 +1,6 @@
 {
   "eventi": [
     {
-      "competizione": "Serie B",
-      "titolo": "Empoli vs Lr Vicenza",
-      "data": "2026-10-24",
-      "ora": "08:00",
-      "canali": [],
-      "canali_mondo": []
-    },
-    {
       "competizione": "Serie C",
       "titolo": "Atalanta II vs Campobasso",
       "data": "2026-10-24",
@@ -578,6 +570,7 @@
           "canali": [
             "Tring Sport 2",
             "ART Sport 3",
+            "ArtMotion",
             "TV Vala Kosovo Telecom"
           ]
         },
@@ -1588,6 +1581,7 @@
           "canali": [
             "Tring Sport 1",
             "ART Sport 2",
+            "ArtMotion",
             "Arena 3 Premium",
             "TV Vala Kosovo Telecom"
           ]
@@ -2865,6 +2859,7 @@
           "canali": [
             "Tring Sport 1",
             "ART Sport 3",
+            "ArtMotion",
             "Arena 3 Premium",
             "TV Vala Kosovo Telecom"
           ]
@@ -3896,6 +3891,7 @@
           "canali": [
             "Tring Sport 1",
             "ART Sport 1",
+            "ArtMotion",
             "Arena 3 Premium",
             "TV Vala Kosovo Telecom"
           ]
@@ -5033,6 +5029,7 @@
           "canali": [
             "Tring Sport 1",
             "ART Sport 2",
+            "ArtMotion",
             "Arena 2 Premium",
             "TV Vala Kosovo Telecom"
           ]
@@ -5131,6 +5128,7 @@
           "canali": [
             "ZEE5",
             "ICE Plus",
+            "Medianet",
             "Unite8 Sports 1",
             "Unite8 Sports 1 HD"
           ]
@@ -5639,7 +5637,48 @@
         "DAZN Italia",
         "LAB Channel"
       ],
-      "canali_mondo": []
+      "canali_mondo": [
+        {
+          "paese": "Brasile",
+          "canali": [
+            "SportyNet"
+          ]
+        },
+        {
+          "paese": "Italia",
+          "canali": [
+            "DAZN Italia",
+            "LAB Channel"
+          ]
+        },
+        {
+          "paese": "Liechtenstein",
+          "canali": [
+            "Blue Sport",
+            "Blue Sport 1 Live"
+          ]
+        },
+        {
+          "paese": "San Marino",
+          "canali": [
+            "DAZN Italia",
+            "LAB Channel"
+          ]
+        },
+        {
+          "paese": "Svizzera",
+          "canali": [
+            "Blue Sport",
+            "Blue Sport 1 Live"
+          ]
+        },
+        {
+          "paese": "Turchia",
+          "canali": [
+            "Sifir TV"
+          ]
+        }
+      ]
     },
     {
       "competizione": "Serie B",
@@ -5650,7 +5689,56 @@
         "DAZN Italia",
         "LAB Channel"
       ],
-      "canali_mondo": []
+      "canali_mondo": [
+        {
+          "paese": "Brasile",
+          "canali": [
+            "SportyNet"
+          ]
+        },
+        {
+          "paese": "Italia",
+          "canali": [
+            "DAZN Italia",
+            "LAB Channel"
+          ]
+        },
+        {
+          "paese": "Liechtenstein",
+          "canali": [
+            "Blue Sport",
+            "Blue Sport 1 Live"
+          ]
+        },
+        {
+          "paese": "Russia",
+          "canali": [
+            "Телеканал Футбол"
+          ]
+        },
+        {
+          "paese": "San Marino",
+          "canali": [
+            "DAZN Italia",
+            "LAB Channel"
+          ]
+        },
+        {
+          "paese": "Svizzera",
+          "canali": [
+            "Blue Sport",
+            "Blue Sport 1 Live"
+          ]
+        },
+        {
+          "paese": "USA",
+          "canali": [
+            "Fox Soccer Plus",
+            "fuboTV",
+            "FOX One"
+          ]
+        }
+      ]
     },
     {
       "competizione": "Serie B",
@@ -5661,17 +5749,35 @@
         "DAZN Italia",
         "LAB Channel"
       ],
-      "canali_mondo": []
+      "canali_mondo": [
+        {
+          "paese": "Italia",
+          "canali": [
+            "DAZN Italia",
+            "LAB Channel"
+          ]
+        },
+        {
+          "paese": "Russia",
+          "canali": [
+            "Телеканал Футбол"
+          ]
+        },
+        {
+          "paese": "San Marino",
+          "canali": [
+            "DAZN Italia",
+            "LAB Channel"
+          ]
+        }
+      ]
     },
     {
       "competizione": "Serie B",
       "titolo": "Juve Stabia vs Verona",
       "data": "2026-10-29",
       "ora": "01:30",
-      "canali": [
-        "DAZN Italia",
-        "LAB Channel"
-      ],
+      "canali": [],
       "canali_mondo": []
     },
     {
@@ -11324,6 +11430,12 @@
           ]
         },
         {
+          "paese": "Nuova Zelanda",
+          "canali": [
+            "DAZN New Zealand"
+          ]
+        },
+        {
           "paese": "Norvegia",
           "canali": [
             "Viaplay Norway"
@@ -12052,6 +12164,12 @@
           ]
         },
         {
+          "paese": "Nuova Zelanda",
+          "canali": [
+            "DAZN New Zealand"
+          ]
+        },
+        {
           "paese": "Niger",
           "canali": [
             "SuperSport MaXimo 2",
@@ -12681,6 +12799,12 @@
           ]
         },
         {
+          "paese": "Nuova Zelanda",
+          "canali": [
+            "DAZN New Zealand"
+          ]
+        },
+        {
           "paese": "Norvegia",
           "canali": [
             "Viaplay Norway"
@@ -13200,6 +13324,12 @@
           "paese": "Marocco",
           "canali": [
             "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Nuova Zelanda",
+          "canali": [
+            "DAZN New Zealand"
           ]
         },
         {
@@ -13929,6 +14059,12 @@
           "canali": [
             "DStv Now",
             "SuperSport GOtv Football"
+          ]
+        },
+        {
+          "paese": "Nuova Zelanda",
+          "canali": [
+            "DAZN New Zealand"
           ]
         },
         {
