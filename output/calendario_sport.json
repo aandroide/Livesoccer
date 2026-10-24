@@ -1,133 +1,16 @@
 {
-  "aggiornato": "2026-10-24T07:13:39+02:00",
+  "aggiornato": "2026-10-24T11:53:50+02:00",
   "fonti": {
     "motori": "Fuori Traiettoria, Dizzle0987/motorsport-calendar, palinsesto TV8",
     "calcio_italiano": "https://raw.githubusercontent.com/aandroide/Livesoccer/master/livesoccertv/output/eventi.json",
     "altri_sport": "https://sport.virgilio.it/guida-tv/"
   },
-  "totale": 238,
+  "totale": 233,
   "cartelle": [
     {
       "nome": "Oggi",
-      "totale": 47,
+      "totale": 42,
       "eventi": [
-        {
-          "titolo": "[Motori] Moto2 e Moto3: M2 - Australian GP - Quali",
-          "categoria": "Motori",
-          "sottocartella": "Moto2 e Moto3",
-          "sport": "Motori",
-          "competizione": "Moto2 e Moto3",
-          "evento": "M2 - Australian GP - Quali",
-          "sessione": "qualifiche",
-          "circuito": "Circuito di Phillip Island, 381 Back Beach Rd, Ventnor VIC 3922, Australia",
-          "inizio": "2026-10-24T04:45:00+02:00",
-          "data": "24/10/2026",
-          "ora": "04:45",
-          "canali": [
-            {
-              "nome": "TV8",
-              "numero": "8",
-              "tipo": "diretta",
-              "orario": "2026-10-24T04:40",
-              "programma": "GP Australia: Qualifiche",
-              "fonte": "tv8"
-            }
-          ],
-          "fonte": "Fuori Traiettoria"
-        },
-        {
-          "titolo": "[Tennis] WTA 250 Osaka: Finale",
-          "categoria": "Tennis",
-          "sottocartella": "WTA 250 Osaka",
-          "sport": "Tennis",
-          "competizione": "WTA 250 Osaka",
-          "evento": "Finale",
-          "inizio": "2026-10-24T05:30:00+02:00",
-          "data": "24/10/2026",
-          "ora": "05:30",
-          "canali": [
-            {
-              "nome": "Sky Sport Tennis",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-10-24T05:30",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Motori] MotoGP: Australian Motorcycle Grand Prix - Sprint",
-          "categoria": "Motori",
-          "sottocartella": "MotoGP",
-          "sport": "Motori",
-          "competizione": "MotoGP",
-          "evento": "Australian Motorcycle Grand Prix - Sprint",
-          "sessione": "sprint",
-          "circuito": "Phillip Island Grand Prix Circuit, Phillip Island, Australia",
-          "inizio": "2026-10-24T06:00:00+02:00",
-          "data": "24/10/2026",
-          "ora": "06:00",
-          "canali": [
-            {
-              "nome": "TV8",
-              "numero": "8",
-              "tipo": "diretta",
-              "orario": "2026-10-24T06:00",
-              "fonte": "dizzle+tv8"
-            },
-            {
-              "nome": "Sky Sport MotoGP",
-              "numero": "208",
-              "tipo": "diretta",
-              "orario": "2026-10-24T06:00",
-              "fonte": "config"
-            },
-            {
-              "nome": "NOW",
-              "numero": "",
-              "tipo": "streaming",
-              "orario": "2026-10-24T06:00",
-              "fonte": "config"
-            }
-          ],
-          "fonte": "Dizzle0987/motorsport-calendar"
-        },
-        {
-          "titolo": "[Tennis] WTA 250 Osaka: 2a Semifinale",
-          "categoria": "Tennis",
-          "sottocartella": "WTA 250 Osaka",
-          "sport": "Tennis",
-          "competizione": "WTA 250 Osaka",
-          "evento": "2a Semifinale",
-          "inizio": "2026-10-24T07:00:00+02:00",
-          "data": "24/10/2026",
-          "ora": "07:00",
-          "canali": [
-            {
-              "nome": "Sky Sport Tennis",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-10-24T07:00",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Calcio] Serie B: Empoli vs Lr Vicenza",
-          "categoria": "Calcio",
-          "sottocartella": "Serie B",
-          "sport": "Calcio",
-          "competizione": "Serie B",
-          "evento": "Empoli vs Lr Vicenza",
-          "inizio": "2026-10-24T08:00:00+02:00",
-          "data": "24/10/2026",
-          "ora": "08:00",
-          "canali": [],
-          "canali_mondo": [],
-          "fonte": "LiveSoccerTV"
-        },
         {
           "titolo": "[Tennis] ATP 250 Lione: 1a Semifinale",
           "categoria": "Tennis",
@@ -1086,6 +969,7 @@
               "canali": [
                 "Tring Sport 2",
                 "ART Sport 3",
+                "ArtMotion",
                 "TV Vala Kosovo Telecom"
               ]
             },
@@ -2121,6 +2005,7 @@
               "canali": [
                 "Tring Sport 1",
                 "ART Sport 2",
+                "ArtMotion",
                 "Arena 3 Premium",
                 "TV Vala Kosovo Telecom"
               ]
@@ -3716,6 +3601,7 @@
               "canali": [
                 "Tring Sport 1",
                 "ART Sport 3",
+                "ArtMotion",
                 "Arena 3 Premium",
                 "TV Vala Kosovo Telecom"
               ]
@@ -4981,6 +4867,7 @@
               "canali": [
                 "Tring Sport 1",
                 "ART Sport 1",
+                "ArtMotion",
                 "Arena 3 Premium",
                 "TV Vala Kosovo Telecom"
               ]
@@ -5577,7 +5464,7 @@
     },
     {
       "nome": "Motori",
-      "totale": 101,
+      "totale": 99,
       "sottocartelle": [
         {
           "nome": "Formula 1",
@@ -7035,45 +6922,8 @@
         },
         {
           "nome": "MotoGP",
-          "totale": 35,
+          "totale": 34,
           "eventi": [
-            {
-              "titolo": "MotoGP: Australian Motorcycle Grand Prix - Sprint",
-              "categoria": "Motori",
-              "sottocartella": "MotoGP",
-              "sport": "Motori",
-              "competizione": "MotoGP",
-              "evento": "Australian Motorcycle Grand Prix - Sprint",
-              "sessione": "sprint",
-              "circuito": "Phillip Island Grand Prix Circuit, Phillip Island, Australia",
-              "inizio": "2026-10-24T06:00:00+02:00",
-              "data": "24/10/2026",
-              "ora": "06:00",
-              "canali": [
-                {
-                  "nome": "TV8",
-                  "numero": "8",
-                  "tipo": "diretta",
-                  "orario": "2026-10-24T06:00",
-                  "fonte": "dizzle+tv8"
-                },
-                {
-                  "nome": "Sky Sport MotoGP",
-                  "numero": "208",
-                  "tipo": "diretta",
-                  "orario": "2026-10-24T06:00",
-                  "fonte": "config"
-                },
-                {
-                  "nome": "NOW",
-                  "numero": "",
-                  "tipo": "streaming",
-                  "orario": "2026-10-24T06:00",
-                  "fonte": "config"
-                }
-              ],
-              "fonte": "Dizzle0987/motorsport-calendar"
-            },
             {
               "titolo": "MotoGP: Australian Motorcycle Grand Prix - Warm Up",
               "categoria": "Motori",
@@ -8195,32 +8045,8 @@
         },
         {
           "nome": "Moto2 e Moto3",
-          "totale": 18,
+          "totale": 17,
           "eventi": [
-            {
-              "titolo": "Moto2 e Moto3: M2 - Australian GP - Quali",
-              "categoria": "Motori",
-              "sottocartella": "Moto2 e Moto3",
-              "sport": "Motori",
-              "competizione": "Moto2 e Moto3",
-              "evento": "M2 - Australian GP - Quali",
-              "sessione": "qualifiche",
-              "circuito": "Circuito di Phillip Island, 381 Back Beach Rd, Ventnor VIC 3922, Australia",
-              "inizio": "2026-10-24T04:45:00+02:00",
-              "data": "24/10/2026",
-              "ora": "04:45",
-              "canali": [
-                {
-                  "nome": "TV8",
-                  "numero": "8",
-                  "tipo": "diretta",
-                  "orario": "2026-10-24T04:40",
-                  "programma": "GP Australia: Qualifiche",
-                  "fonte": "tv8"
-                }
-              ],
-              "fonte": "Fuori Traiettoria"
-            },
             {
               "titolo": "Moto2 e Moto3: M3 - Australian GP - Race",
               "categoria": "Motori",
@@ -8722,7 +8548,7 @@
     },
     {
       "nome": "Calcio",
-      "totale": 82,
+      "totale": 81,
       "sottocartelle": [
         {
           "nome": "Serie A",
@@ -9174,6 +9000,7 @@
                   "canali": [
                     "Tring Sport 2",
                     "ART Sport 3",
+                    "ArtMotion",
                     "TV Vala Kosovo Telecom"
                   ]
                 },
@@ -10209,6 +10036,7 @@
                   "canali": [
                     "Tring Sport 1",
                     "ART Sport 2",
+                    "ArtMotion",
                     "Arena 3 Premium",
                     "TV Vala Kosovo Telecom"
                   ]
@@ -11351,6 +11179,7 @@
                   "canali": [
                     "Tring Sport 1",
                     "ART Sport 3",
+                    "ArtMotion",
                     "Arena 3 Premium",
                     "TV Vala Kosovo Telecom"
                   ]
@@ -12425,6 +12254,7 @@
                   "canali": [
                     "Tring Sport 1",
                     "ART Sport 1",
+                    "ArtMotion",
                     "Arena 3 Premium",
                     "TV Vala Kosovo Telecom"
                   ]
@@ -13511,6 +13341,7 @@
                   "canali": [
                     "Tring Sport 1",
                     "ART Sport 2",
+                    "ArtMotion",
                     "Arena 2 Premium",
                     "TV Vala Kosovo Telecom"
                   ]
@@ -13609,6 +13440,7 @@
                   "canali": [
                     "ZEE5",
                     "ICE Plus",
+                    "Medianet",
                     "Unite8 Sports 1",
                     "Unite8 Sports 1 HD"
                   ]
@@ -14477,22 +14309,8 @@
         },
         {
           "nome": "Serie B",
-          "totale": 23,
+          "totale": 22,
           "eventi": [
-            {
-              "titolo": "Serie B: Empoli vs Lr Vicenza",
-              "categoria": "Calcio",
-              "sottocartella": "Serie B",
-              "sport": "Calcio",
-              "competizione": "Serie B",
-              "evento": "Empoli vs Lr Vicenza",
-              "inizio": "2026-10-24T08:00:00+02:00",
-              "data": "24/10/2026",
-              "ora": "08:00",
-              "canali": [],
-              "canali_mondo": [],
-              "fonte": "LiveSoccerTV"
-            },
             {
               "titolo": "Serie B: Avellino vs Calcio Padova",
               "categoria": "Calcio",
@@ -14968,7 +14786,48 @@
                   "fonte": "virgilio"
                 }
               ],
-              "canali_mondo": [],
+              "canali_mondo": [
+                {
+                  "paese": "Brasile",
+                  "canali": [
+                    "SportyNet"
+                  ]
+                },
+                {
+                  "paese": "Italia",
+                  "canali": [
+                    "DAZN Italia",
+                    "LAB Channel"
+                  ]
+                },
+                {
+                  "paese": "Liechtenstein",
+                  "canali": [
+                    "Blue Sport",
+                    "Blue Sport 1 Live"
+                  ]
+                },
+                {
+                  "paese": "San Marino",
+                  "canali": [
+                    "DAZN Italia",
+                    "LAB Channel"
+                  ]
+                },
+                {
+                  "paese": "Svizzera",
+                  "canali": [
+                    "Blue Sport",
+                    "Blue Sport 1 Live"
+                  ]
+                },
+                {
+                  "paese": "Turchia",
+                  "canali": [
+                    "Sifir TV"
+                  ]
+                }
+              ],
               "fonte": "LiveSoccerTV"
             },
             {
@@ -15144,7 +15003,56 @@
                   "fonte": "livesoccer"
                 }
               ],
-              "canali_mondo": [],
+              "canali_mondo": [
+                {
+                  "paese": "Brasile",
+                  "canali": [
+                    "SportyNet"
+                  ]
+                },
+                {
+                  "paese": "Italia",
+                  "canali": [
+                    "DAZN Italia",
+                    "LAB Channel"
+                  ]
+                },
+                {
+                  "paese": "Liechtenstein",
+                  "canali": [
+                    "Blue Sport",
+                    "Blue Sport 1 Live"
+                  ]
+                },
+                {
+                  "paese": "Russia",
+                  "canali": [
+                    "Телеканал Футбол"
+                  ]
+                },
+                {
+                  "paese": "San Marino",
+                  "canali": [
+                    "DAZN Italia",
+                    "LAB Channel"
+                  ]
+                },
+                {
+                  "paese": "Svizzera",
+                  "canali": [
+                    "Blue Sport",
+                    "Blue Sport 1 Live"
+                  ]
+                },
+                {
+                  "paese": "USA",
+                  "canali": [
+                    "Fox Soccer Plus",
+                    "fuboTV",
+                    "FOX One"
+                  ]
+                }
+              ],
               "fonte": "LiveSoccerTV"
             },
             {
@@ -15222,7 +15130,28 @@
                   "fonte": "virgilio"
                 }
               ],
-              "canali_mondo": [],
+              "canali_mondo": [
+                {
+                  "paese": "Italia",
+                  "canali": [
+                    "DAZN Italia",
+                    "LAB Channel"
+                  ]
+                },
+                {
+                  "paese": "Russia",
+                  "canali": [
+                    "Телеканал Футбол"
+                  ]
+                },
+                {
+                  "paese": "San Marino",
+                  "canali": [
+                    "DAZN Italia",
+                    "LAB Channel"
+                  ]
+                }
+              ],
               "fonte": "LiveSoccerTV"
             },
             {
@@ -15235,22 +15164,7 @@
               "inizio": "2026-10-29T01:30:00+01:00",
               "data": "29/10/2026",
               "ora": "01:30",
-              "canali": [
-                {
-                  "nome": "DAZN Italia",
-                  "numero": "",
-                  "tipo": "streaming",
-                  "orario": "2026-10-29T01:30",
-                  "fonte": "livesoccer"
-                },
-                {
-                  "nome": "LAB Channel",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-29T01:30",
-                  "fonte": "livesoccer"
-                }
-              ],
+              "canali": [],
               "canali_mondo": [],
               "fonte": "LiveSoccerTV"
             }
@@ -16323,56 +16237,8 @@
     },
     {
       "nome": "Tennis",
-      "totale": 24,
+      "totale": 22,
       "sottocartelle": [
-        {
-          "nome": "WTA 250 Osaka",
-          "totale": 2,
-          "eventi": [
-            {
-              "titolo": "WTA 250 Osaka: Finale",
-              "categoria": "Tennis",
-              "sottocartella": "WTA 250 Osaka",
-              "sport": "Tennis",
-              "competizione": "WTA 250 Osaka",
-              "evento": "Finale",
-              "inizio": "2026-10-24T05:30:00+02:00",
-              "data": "24/10/2026",
-              "ora": "05:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport Tennis",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-24T05:30",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "WTA 250 Osaka: 2a Semifinale",
-              "categoria": "Tennis",
-              "sottocartella": "WTA 250 Osaka",
-              "sport": "Tennis",
-              "competizione": "WTA 250 Osaka",
-              "evento": "2a Semifinale",
-              "inizio": "2026-10-24T07:00:00+02:00",
-              "data": "24/10/2026",
-              "ora": "07:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Tennis",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-24T07:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            }
-          ]
-        },
         {
           "nome": "ATP 250 Lione",
           "totale": 3,
