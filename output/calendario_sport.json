@@ -1,86 +1,16 @@
 {
-  "aggiornato": "2026-10-24T11:53:50+02:00",
+  "aggiornato": "2026-10-24T13:14:27+02:00",
   "fonti": {
     "motori": "Fuori Traiettoria, Dizzle0987/motorsport-calendar, palinsesto TV8",
     "calcio_italiano": "https://raw.githubusercontent.com/aandroide/Livesoccer/master/livesoccertv/output/eventi.json",
     "altri_sport": "https://sport.virgilio.it/guida-tv/"
   },
-  "totale": 233,
+  "totale": 230,
   "cartelle": [
     {
       "nome": "Oggi",
-      "totale": 42,
+      "totale": 39,
       "eventi": [
-        {
-          "titolo": "[Tennis] ATP 250 Lione: 1a Semifinale",
-          "categoria": "Tennis",
-          "sottocartella": "ATP 250 Lione",
-          "sport": "Tennis",
-          "competizione": "ATP 250 Lione",
-          "evento": "1a Semifinale",
-          "inizio": "2026-10-24T09:00:00+02:00",
-          "data": "24/10/2026",
-          "ora": "09:00",
-          "canali": [
-            {
-              "nome": "Sky Sport Tennis",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-10-24T09:00",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Tennis] WTA 500 Ningbo: 1a Semifinale",
-          "categoria": "Tennis",
-          "sottocartella": "WTA 500 Ningbo",
-          "sport": "Tennis",
-          "competizione": "WTA 500 Ningbo",
-          "evento": "1a Semifinale",
-          "inizio": "2026-10-24T09:00:00+02:00",
-          "data": "24/10/2026",
-          "ora": "09:00",
-          "canali": [
-            {
-              "nome": "Sky Sport Max",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-10-24T09:00",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Altri sport] Coppa del Mondo – Soelden: Slalom Gigante F (1a manche): 1a manche",
-          "categoria": "Altri sport",
-          "sottocartella": "Sci alpino",
-          "sport": "Sci alpino",
-          "competizione": "Coppa del Mondo – Soelden",
-          "evento": "Slalom Gigante F (1a manche): 1a manche",
-          "inizio": "2026-10-24T10:00:00+02:00",
-          "data": "24/10/2026",
-          "ora": "10:00",
-          "canali": [
-            {
-              "nome": "Eurosport",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-10-24T10:00",
-              "fonte": "virgilio"
-            },
-            {
-              "nome": "Rai 2",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-10-24T10:00",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
         {
           "titolo": "[Calcio] Primavera 1: Juventus-Lecce",
           "categoria": "Calcio",
@@ -16237,102 +16167,12 @@
     },
     {
       "nome": "Tennis",
-      "totale": 22,
+      "totale": 20,
       "sottocartelle": [
         {
-          "nome": "ATP 250 Lione",
-          "totale": 3,
-          "eventi": [
-            {
-              "titolo": "ATP 250 Lione: 1a Semifinale",
-              "categoria": "Tennis",
-              "sottocartella": "ATP 250 Lione",
-              "sport": "Tennis",
-              "competizione": "ATP 250 Lione",
-              "evento": "1a Semifinale",
-              "inizio": "2026-10-24T09:00:00+02:00",
-              "data": "24/10/2026",
-              "ora": "09:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Tennis",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-24T09:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "ATP 250 Lione: 2a Semifinale",
-              "categoria": "Tennis",
-              "sottocartella": "ATP 250 Lione",
-              "sport": "Tennis",
-              "competizione": "ATP 250 Lione",
-              "evento": "2a Semifinale",
-              "inizio": "2026-10-24T16:00:00+02:00",
-              "data": "24/10/2026",
-              "ora": "16:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Tennis",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-24T16:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "ATP 250 Lione: Finale",
-              "categoria": "Tennis",
-              "sottocartella": "ATP 250 Lione",
-              "sport": "Tennis",
-              "competizione": "ATP 250 Lione",
-              "evento": "Finale",
-              "inizio": "2026-10-25T14:30:00+01:00",
-              "data": "25/10/2026",
-              "ora": "14:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport Tennis",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-25T14:30",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            }
-          ]
-        },
-        {
           "nome": "WTA 500 Ningbo",
-          "totale": 3,
+          "totale": 2,
           "eventi": [
-            {
-              "titolo": "WTA 500 Ningbo: 1a Semifinale",
-              "categoria": "Tennis",
-              "sottocartella": "WTA 500 Ningbo",
-              "sport": "Tennis",
-              "competizione": "WTA 500 Ningbo",
-              "evento": "1a Semifinale",
-              "inizio": "2026-10-24T09:00:00+02:00",
-              "data": "24/10/2026",
-              "ora": "09:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Max",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-24T09:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
             {
               "titolo": "WTA 500 Ningbo: 2a Semifinale",
               "categoria": "Tennis",
@@ -16453,6 +16293,54 @@
                   "numero": "",
                   "tipo": "diretta",
                   "orario": "2026-10-25T11:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            }
+          ]
+        },
+        {
+          "nome": "ATP 250 Lione",
+          "totale": 2,
+          "eventi": [
+            {
+              "titolo": "ATP 250 Lione: 2a Semifinale",
+              "categoria": "Tennis",
+              "sottocartella": "ATP 250 Lione",
+              "sport": "Tennis",
+              "competizione": "ATP 250 Lione",
+              "evento": "2a Semifinale",
+              "inizio": "2026-10-24T16:00:00+02:00",
+              "data": "24/10/2026",
+              "ora": "16:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport Tennis",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-24T16:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "ATP 250 Lione: Finale",
+              "categoria": "Tennis",
+              "sottocartella": "ATP 250 Lione",
+              "sport": "Tennis",
+              "competizione": "ATP 250 Lione",
+              "evento": "Finale",
+              "inizio": "2026-10-25T14:30:00+01:00",
+              "data": "25/10/2026",
+              "ora": "14:30",
+              "canali": [
+                {
+                  "nome": "Sky Sport Tennis",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-25T14:30",
                   "fonte": "virgilio"
                 }
               ],
@@ -17278,40 +17166,12 @@
     },
     {
       "nome": "Altri sport",
-      "totale": 9,
+      "totale": 8,
       "sottocartelle": [
         {
           "nome": "Sci alpino",
-          "totale": 4,
+          "totale": 3,
           "eventi": [
-            {
-              "titolo": "Coppa del Mondo – Soelden: Slalom Gigante F (1a manche): 1a manche",
-              "categoria": "Altri sport",
-              "sottocartella": "Sci alpino",
-              "sport": "Sci alpino",
-              "competizione": "Coppa del Mondo – Soelden",
-              "evento": "Slalom Gigante F (1a manche): 1a manche",
-              "inizio": "2026-10-24T10:00:00+02:00",
-              "data": "24/10/2026",
-              "ora": "10:00",
-              "canali": [
-                {
-                  "nome": "Eurosport",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-24T10:00",
-                  "fonte": "virgilio"
-                },
-                {
-                  "nome": "Rai 2",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-24T10:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
             {
               "titolo": "Coppa del Mondo – Soelden: Slalom Gigante F (2a manche): 2a manche",
               "categoria": "Altri sport",
