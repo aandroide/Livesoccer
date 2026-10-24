@@ -352,6 +352,12 @@
           ]
         },
         {
+          "paese": "Georgia",
+          "canali": [
+            "Silk Sport HD 2"
+          ]
+        },
+        {
           "paese": "Germania",
           "canali": [
             "DAZN Deutschland"
@@ -2565,8 +2571,8 @@
       "kickoff": "2026-10-24T18:00:00+02:00",
       "date": "2026-10-24",
       "time": "18:00",
-      "status": "live",
-      "score": "2:2",
+      "status": "finished",
+      "score": "3:3",
       "match_url": "https://www.livesoccertv.com/it/match/roma-vs-napoli/1wx7p#5653956",
       "channels": [
         {
@@ -3679,8 +3685,8 @@
       "kickoff": "2026-10-24T19:30:00+02:00",
       "date": "2026-10-24",
       "time": "19:30",
-      "status": "live",
-      "score": "0:0",
+      "status": "finished",
+      "score": "0:3",
       "match_url": "https://www.livesoccertv.com/it/match/benevento-vs-arezzo/gcx28#5742536",
       "channels": [
         {
@@ -3770,8 +3776,8 @@
       "kickoff": "2026-10-24T20:45:00+02:00",
       "date": "2026-10-24",
       "time": "20:45",
-      "status": "upcoming",
-      "score": "",
+      "status": "live",
+      "score": "0:0",
       "match_url": "https://www.livesoccertv.com/it/match/lazio-vs-parma/1xkqx#5653954",
       "channels": [
         {
@@ -6094,8 +6100,48 @@
       "status": "upcoming",
       "score": "",
       "match_url": "https://www.livesoccertv.com/it/match/albinoleffe-vs-renate/8te8l#5720382",
-      "channels": [],
-      "canali_mondo": []
+      "channels": [
+        {
+          "name": "Sky Sport 258",
+          "url": "",
+          "stream": false
+        },
+        {
+          "name": "SKY Go Italia",
+          "url": "",
+          "stream": false
+        },
+        {
+          "name": "Sky Sport Max",
+          "url": "",
+          "stream": false
+        },
+        {
+          "name": "NOW TV",
+          "url": "",
+          "stream": false
+        }
+      ],
+      "canali_mondo": [
+        {
+          "paese": "Italia",
+          "canali": [
+            "Sky Sport 258",
+            "SKY Go Italia",
+            "Sky Sport Max",
+            "NOW TV"
+          ]
+        },
+        {
+          "paese": "San Marino",
+          "canali": [
+            "Sky Sport 258",
+            "SKY Go Italia",
+            "Sky Sport Max",
+            "NOW TV"
+          ]
+        }
+      ]
     },
     {
       "id": "5720383",
@@ -6109,8 +6155,48 @@
       "status": "upcoming",
       "score": "",
       "match_url": "https://www.livesoccertv.com/it/match/trento-vs-juventus-ii/48jmbl#5720383",
-      "channels": [],
-      "canali_mondo": []
+      "channels": [
+        {
+          "name": "Sky Sport 252",
+          "url": "",
+          "stream": false
+        },
+        {
+          "name": "SKY Go Italia",
+          "url": "",
+          "stream": false
+        },
+        {
+          "name": "Sky Sport Calcio",
+          "url": "",
+          "stream": false
+        },
+        {
+          "name": "NOW TV",
+          "url": "",
+          "stream": false
+        }
+      ],
+      "canali_mondo": [
+        {
+          "paese": "Italia",
+          "canali": [
+            "Sky Sport 252",
+            "SKY Go Italia",
+            "Sky Sport Calcio",
+            "NOW TV"
+          ]
+        },
+        {
+          "paese": "San Marino",
+          "canali": [
+            "Sky Sport 252",
+            "SKY Go Italia",
+            "Sky Sport Calcio",
+            "NOW TV"
+          ]
+        }
+      ]
     },
     {
       "id": "5720378",
@@ -6139,8 +6225,41 @@
       "status": "upcoming",
       "score": "",
       "match_url": "https://www.livesoccertv.com/it/match/foggia-vs-cavese/w8y01#5721139",
-      "channels": [],
-      "canali_mondo": []
+      "channels": [
+        {
+          "name": "Sky Sport 253",
+          "url": "",
+          "stream": false
+        },
+        {
+          "name": "SKY Go Italia",
+          "url": "",
+          "stream": false
+        },
+        {
+          "name": "NOW TV",
+          "url": "",
+          "stream": false
+        }
+      ],
+      "canali_mondo": [
+        {
+          "paese": "Italia",
+          "canali": [
+            "Sky Sport 253",
+            "SKY Go Italia",
+            "NOW TV"
+          ]
+        },
+        {
+          "paese": "San Marino",
+          "canali": [
+            "Sky Sport 253",
+            "SKY Go Italia",
+            "NOW TV"
+          ]
+        }
+      ]
     },
     {
       "id": "5653949",
@@ -8275,6 +8394,21 @@
       "canali_mondo": []
     },
     {
+      "id": "5653958",
+      "competition": "Serie A",
+      "home": "Udinese",
+      "away": "Milan",
+      "title": "Udinese vs Milan",
+      "kickoff": "2026-10-25T20:45:00+01:00",
+      "date": "2026-10-25",
+      "time": "20:45",
+      "status": "upcoming",
+      "score": "",
+      "match_url": "https://www.livesoccertv.com/it/match/milan-vs-udinese/1x14r#5653958",
+      "channels": [],
+      "canali_mondo": []
+    },
+    {
       "id": "5820370",
       "competition": "Serie B",
       "home": "Empoli",
@@ -8517,34 +8651,7 @@
           "stream": false
         }
       ],
-      "canali_mondo": [
-        {
-          "paese": "Italia",
-          "canali": [
-            "DAZN Italia",
-            "LAB Channel"
-          ]
-        },
-        {
-          "paese": "Liechtenstein",
-          "canali": [
-            "Blue Sport 2 Live"
-          ]
-        },
-        {
-          "paese": "San Marino",
-          "canali": [
-            "DAZN Italia",
-            "LAB Channel"
-          ]
-        },
-        {
-          "paese": "Svizzera",
-          "canali": [
-            "Blue Sport 2 Live"
-          ]
-        }
-      ]
+      "canali_mondo": []
     },
     {
       "id": "5821981",
@@ -13911,6 +14018,2166 @@
       ]
     },
     {
+      "id": "5774897",
+      "competition": "UEFA Conference League",
+      "home": "AGF",
+      "away": "Sporting Braga",
+      "title": "AGF vs Sporting Braga",
+      "kickoff": "2026-11-05T18:45:00+01:00",
+      "date": "2026-11-05",
+      "time": "18:45",
+      "status": "upcoming",
+      "score": "",
+      "match_url": "https://www.livesoccertv.com/it/match/sporting-braga-vs-agf/1rhqs#5774897",
+      "channels": [],
+      "canali_mondo": [
+        {
+          "paese": "Algeria",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Anguilla",
+          "canali": [
+            "Bluu"
+          ]
+        },
+        {
+          "paese": "Antigua e Barbuda",
+          "canali": [
+            "Bluu"
+          ]
+        },
+        {
+          "paese": "Argentina",
+          "canali": [
+            "Disney+ Premium Argentina"
+          ]
+        },
+        {
+          "paese": "Armenia",
+          "canali": [
+            "FAST TV"
+          ]
+        },
+        {
+          "paese": "Aruba",
+          "canali": [
+            "Bluu"
+          ]
+        },
+        {
+          "paese": "Bahamas",
+          "canali": [
+            "Bluu"
+          ]
+        },
+        {
+          "paese": "Bahrain",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Barbados",
+          "canali": [
+            "Bluu"
+          ]
+        },
+        {
+          "paese": "Bermuda",
+          "canali": [
+            "Bluu"
+          ]
+        },
+        {
+          "paese": "Bolivia",
+          "canali": [
+            "Disney+ Premium Chile"
+          ]
+        },
+        {
+          "paese": "Isole Vergini britanniche",
+          "canali": [
+            "Bluu"
+          ]
+        },
+        {
+          "paese": "Isole Cayman",
+          "canali": [
+            "Bluu"
+          ]
+        },
+        {
+          "paese": "Ciad",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Cile",
+          "canali": [
+            "Disney+ Premium Chile"
+          ]
+        },
+        {
+          "paese": "Colombia",
+          "canali": [
+            "Disney+ Premium Sur"
+          ]
+        },
+        {
+          "paese": "Danimarca",
+          "canali": [
+            "Disney+ Nordic"
+          ]
+        },
+        {
+          "paese": "Gibuti",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Dominica",
+          "canali": [
+            "Bluu"
+          ]
+        },
+        {
+          "paese": "Ecuador",
+          "canali": [
+            "Disney+ Premium Sur"
+          ]
+        },
+        {
+          "paese": "Egitto",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Estonia",
+          "canali": [
+            "Go3 Extra Sports Estonia"
+          ]
+        },
+        {
+          "paese": "Finlandia",
+          "canali": [
+            "Elisa Viihde Viaplay"
+          ]
+        },
+        {
+          "paese": "Gran Bretagna",
+          "canali": [
+            "HBO Max"
+          ]
+        },
+        {
+          "paese": "Grenada",
+          "canali": [
+            "Bluu"
+          ]
+        },
+        {
+          "paese": "Islanda",
+          "canali": [
+            "Viaplay Iceland"
+          ]
+        },
+        {
+          "paese": "Indonesia",
+          "canali": [
+            "beIN Sports Connect Indonesia",
+            "Vidio"
+          ]
+        },
+        {
+          "paese": "Iran",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Iraq",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Irlanda",
+          "canali": [
+            "HBO Max"
+          ]
+        },
+        {
+          "paese": "Giamaica",
+          "canali": [
+            "Bluu"
+          ]
+        },
+        {
+          "paese": "Giordania",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Kuwait",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Lettonia",
+          "canali": [
+            "Go3 Extra Sports Latvia"
+          ]
+        },
+        {
+          "paese": "Libano",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Libia",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Liechtenstein",
+          "canali": [
+            "Blue Sport"
+          ]
+        },
+        {
+          "paese": "Lituania",
+          "canali": [
+            "Go3 Extra Sports Lithuania"
+          ]
+        },
+        {
+          "paese": "Malesia",
+          "canali": [
+            "beIN Sports Connect Malaysia"
+          ]
+        },
+        {
+          "paese": "Mauritania",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Montserrat",
+          "canali": [
+            "Bluu"
+          ]
+        },
+        {
+          "paese": "Marocco",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Norvegia",
+          "canali": [
+            "Viaplay Norway"
+          ]
+        },
+        {
+          "paese": "Oman",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Palestina",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Paraguay",
+          "canali": [
+            "Disney+ Premium Argentina"
+          ]
+        },
+        {
+          "paese": "Perù",
+          "canali": [
+            "Disney+ Premium Chile"
+          ]
+        },
+        {
+          "paese": "Porto Rico",
+          "canali": [
+            "ViX"
+          ]
+        },
+        {
+          "paese": "Qatar",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Saint Kitts e Nevis",
+          "canali": [
+            "Bluu"
+          ]
+        },
+        {
+          "paese": "Santa Lucia",
+          "canali": [
+            "Bluu"
+          ]
+        },
+        {
+          "paese": "Arabia Saudita",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Seychelles",
+          "canali": [
+            "Bluu"
+          ]
+        },
+        {
+          "paese": "Somalia",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Sud Sudan",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "St. Vincent / Grenadines",
+          "canali": [
+            "Bluu"
+          ]
+        },
+        {
+          "paese": "Sudan",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Suriname",
+          "canali": [
+            "Bluu"
+          ]
+        },
+        {
+          "paese": "Svezia",
+          "canali": [
+            "Disney+ Nordic"
+          ]
+        },
+        {
+          "paese": "Svizzera",
+          "canali": [
+            "Blue Sport"
+          ]
+        },
+        {
+          "paese": "Siria",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Trinidad e Tobago",
+          "canali": [
+            "Bluu"
+          ]
+        },
+        {
+          "paese": "Tunisia",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Turks e Caicos",
+          "canali": [
+            "Bluu"
+          ]
+        },
+        {
+          "paese": "Emirati Arabi Uniti",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Uruguay",
+          "canali": [
+            "Disney+ Premium Argentina"
+          ]
+        },
+        {
+          "paese": "USA",
+          "canali": [
+            "Paramount+",
+            "ViX"
+          ]
+        },
+        {
+          "paese": "Venezuela",
+          "canali": [
+            "Disney+ Premium Sur"
+          ]
+        },
+        {
+          "paese": "Yemen",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5774898",
+      "competition": "UEFA Conference League",
+      "home": "Atalanta",
+      "away": "Kairat",
+      "title": "Atalanta vs Kairat",
+      "kickoff": "2026-11-05T18:45:00+01:00",
+      "date": "2026-11-05",
+      "time": "18:45",
+      "status": "upcoming",
+      "score": "",
+      "match_url": "https://www.livesoccertv.com/it/match/atalanta-vs-kairat/hy22q#5774898",
+      "channels": [],
+      "canali_mondo": [
+        {
+          "paese": "Algeria",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Anguilla",
+          "canali": [
+            "Bluu"
+          ]
+        },
+        {
+          "paese": "Antigua e Barbuda",
+          "canali": [
+            "Bluu"
+          ]
+        },
+        {
+          "paese": "Argentina",
+          "canali": [
+            "Disney+ Premium Argentina"
+          ]
+        },
+        {
+          "paese": "Armenia",
+          "canali": [
+            "FAST TV"
+          ]
+        },
+        {
+          "paese": "Aruba",
+          "canali": [
+            "Bluu"
+          ]
+        },
+        {
+          "paese": "Bahamas",
+          "canali": [
+            "Bluu"
+          ]
+        },
+        {
+          "paese": "Bahrain",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Barbados",
+          "canali": [
+            "Bluu"
+          ]
+        },
+        {
+          "paese": "Bermuda",
+          "canali": [
+            "Bluu"
+          ]
+        },
+        {
+          "paese": "Bolivia",
+          "canali": [
+            "Disney+ Premium Chile"
+          ]
+        },
+        {
+          "paese": "Isole Vergini britanniche",
+          "canali": [
+            "Bluu"
+          ]
+        },
+        {
+          "paese": "Isole Cayman",
+          "canali": [
+            "Bluu"
+          ]
+        },
+        {
+          "paese": "Ciad",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Cile",
+          "canali": [
+            "Disney+ Premium Chile"
+          ]
+        },
+        {
+          "paese": "Colombia",
+          "canali": [
+            "Disney+ Premium Sur"
+          ]
+        },
+        {
+          "paese": "Danimarca",
+          "canali": [
+            "Disney+ Nordic"
+          ]
+        },
+        {
+          "paese": "Gibuti",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Dominica",
+          "canali": [
+            "Bluu"
+          ]
+        },
+        {
+          "paese": "Ecuador",
+          "canali": [
+            "Disney+ Premium Sur"
+          ]
+        },
+        {
+          "paese": "Egitto",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Estonia",
+          "canali": [
+            "Go3 Extra Sports Estonia"
+          ]
+        },
+        {
+          "paese": "Finlandia",
+          "canali": [
+            "Elisa Viihde Viaplay"
+          ]
+        },
+        {
+          "paese": "Gran Bretagna",
+          "canali": [
+            "HBO Max"
+          ]
+        },
+        {
+          "paese": "Grenada",
+          "canali": [
+            "Bluu"
+          ]
+        },
+        {
+          "paese": "Islanda",
+          "canali": [
+            "Viaplay Iceland"
+          ]
+        },
+        {
+          "paese": "Indonesia",
+          "canali": [
+            "beIN Sports Connect Indonesia",
+            "Vidio"
+          ]
+        },
+        {
+          "paese": "Iran",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Iraq",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Irlanda",
+          "canali": [
+            "HBO Max"
+          ]
+        },
+        {
+          "paese": "Giamaica",
+          "canali": [
+            "Bluu"
+          ]
+        },
+        {
+          "paese": "Giordania",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Kuwait",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Lettonia",
+          "canali": [
+            "Go3 Extra Sports Latvia"
+          ]
+        },
+        {
+          "paese": "Libano",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Libia",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Liechtenstein",
+          "canali": [
+            "Blue Sport"
+          ]
+        },
+        {
+          "paese": "Lituania",
+          "canali": [
+            "Go3 Extra Sports Lithuania"
+          ]
+        },
+        {
+          "paese": "Malesia",
+          "canali": [
+            "beIN Sports Connect Malaysia"
+          ]
+        },
+        {
+          "paese": "Mauritania",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Montserrat",
+          "canali": [
+            "Bluu"
+          ]
+        },
+        {
+          "paese": "Marocco",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Norvegia",
+          "canali": [
+            "Viaplay Norway"
+          ]
+        },
+        {
+          "paese": "Oman",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Palestina",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Paraguay",
+          "canali": [
+            "Disney+ Premium Argentina"
+          ]
+        },
+        {
+          "paese": "Perù",
+          "canali": [
+            "Disney+ Premium Chile"
+          ]
+        },
+        {
+          "paese": "Porto Rico",
+          "canali": [
+            "ViX"
+          ]
+        },
+        {
+          "paese": "Qatar",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Saint Kitts e Nevis",
+          "canali": [
+            "Bluu"
+          ]
+        },
+        {
+          "paese": "Santa Lucia",
+          "canali": [
+            "Bluu"
+          ]
+        },
+        {
+          "paese": "Arabia Saudita",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Seychelles",
+          "canali": [
+            "Bluu"
+          ]
+        },
+        {
+          "paese": "Somalia",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Sud Sudan",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "St. Vincent / Grenadines",
+          "canali": [
+            "Bluu"
+          ]
+        },
+        {
+          "paese": "Sudan",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Suriname",
+          "canali": [
+            "Bluu"
+          ]
+        },
+        {
+          "paese": "Svezia",
+          "canali": [
+            "Disney+ Nordic"
+          ]
+        },
+        {
+          "paese": "Svizzera",
+          "canali": [
+            "Blue Sport"
+          ]
+        },
+        {
+          "paese": "Siria",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Trinidad e Tobago",
+          "canali": [
+            "Bluu"
+          ]
+        },
+        {
+          "paese": "Tunisia",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Turks e Caicos",
+          "canali": [
+            "Bluu"
+          ]
+        },
+        {
+          "paese": "Emirati Arabi Uniti",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Uruguay",
+          "canali": [
+            "Disney+ Premium Argentina"
+          ]
+        },
+        {
+          "paese": "USA",
+          "canali": [
+            "Paramount+",
+            "ViX"
+          ]
+        },
+        {
+          "paese": "Venezuela",
+          "canali": [
+            "Disney+ Premium Sur"
+          ]
+        },
+        {
+          "paese": "Yemen",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5774899",
+      "competition": "UEFA Conference League",
+      "home": "Crvena Zvezda",
+      "away": "Inter Club d'Escaldes",
+      "title": "Crvena Zvezda vs Inter Club d'Escaldes",
+      "kickoff": "2026-11-05T18:45:00+01:00",
+      "date": "2026-11-05",
+      "time": "18:45",
+      "status": "upcoming",
+      "score": "",
+      "match_url": "https://www.livesoccertv.com/it/match/crvena-zvezda-vs-inter-club-descaldes/klixo#5774899",
+      "channels": [],
+      "canali_mondo": [
+        {
+          "paese": "Algeria",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Anguilla",
+          "canali": [
+            "Bluu"
+          ]
+        },
+        {
+          "paese": "Antigua e Barbuda",
+          "canali": [
+            "Bluu"
+          ]
+        },
+        {
+          "paese": "Argentina",
+          "canali": [
+            "Disney+ Premium Argentina"
+          ]
+        },
+        {
+          "paese": "Armenia",
+          "canali": [
+            "FAST TV"
+          ]
+        },
+        {
+          "paese": "Aruba",
+          "canali": [
+            "Bluu"
+          ]
+        },
+        {
+          "paese": "Bahamas",
+          "canali": [
+            "Bluu"
+          ]
+        },
+        {
+          "paese": "Bahrain",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Barbados",
+          "canali": [
+            "Bluu"
+          ]
+        },
+        {
+          "paese": "Bermuda",
+          "canali": [
+            "Bluu"
+          ]
+        },
+        {
+          "paese": "Bolivia",
+          "canali": [
+            "Disney+ Premium Chile"
+          ]
+        },
+        {
+          "paese": "Isole Vergini britanniche",
+          "canali": [
+            "Bluu"
+          ]
+        },
+        {
+          "paese": "Isole Cayman",
+          "canali": [
+            "Bluu"
+          ]
+        },
+        {
+          "paese": "Ciad",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Cile",
+          "canali": [
+            "Disney+ Premium Chile"
+          ]
+        },
+        {
+          "paese": "Colombia",
+          "canali": [
+            "Disney+ Premium Sur"
+          ]
+        },
+        {
+          "paese": "Danimarca",
+          "canali": [
+            "Disney+ Nordic"
+          ]
+        },
+        {
+          "paese": "Gibuti",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Dominica",
+          "canali": [
+            "Bluu"
+          ]
+        },
+        {
+          "paese": "Ecuador",
+          "canali": [
+            "Disney+ Premium Sur"
+          ]
+        },
+        {
+          "paese": "Egitto",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Estonia",
+          "canali": [
+            "Go3 Extra Sports Estonia"
+          ]
+        },
+        {
+          "paese": "Finlandia",
+          "canali": [
+            "Elisa Viihde Viaplay"
+          ]
+        },
+        {
+          "paese": "Gran Bretagna",
+          "canali": [
+            "HBO Max"
+          ]
+        },
+        {
+          "paese": "Grenada",
+          "canali": [
+            "Bluu"
+          ]
+        },
+        {
+          "paese": "Islanda",
+          "canali": [
+            "Viaplay Iceland"
+          ]
+        },
+        {
+          "paese": "Indonesia",
+          "canali": [
+            "beIN Sports Connect Indonesia",
+            "Vidio"
+          ]
+        },
+        {
+          "paese": "Iran",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Iraq",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Irlanda",
+          "canali": [
+            "HBO Max"
+          ]
+        },
+        {
+          "paese": "Giamaica",
+          "canali": [
+            "Bluu"
+          ]
+        },
+        {
+          "paese": "Giordania",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Kuwait",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Lettonia",
+          "canali": [
+            "Go3 Extra Sports Latvia"
+          ]
+        },
+        {
+          "paese": "Libano",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Libia",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Liechtenstein",
+          "canali": [
+            "Blue Sport"
+          ]
+        },
+        {
+          "paese": "Lituania",
+          "canali": [
+            "Go3 Extra Sports Lithuania"
+          ]
+        },
+        {
+          "paese": "Malesia",
+          "canali": [
+            "beIN Sports Connect Malaysia"
+          ]
+        },
+        {
+          "paese": "Mauritania",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Montserrat",
+          "canali": [
+            "Bluu"
+          ]
+        },
+        {
+          "paese": "Marocco",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Norvegia",
+          "canali": [
+            "Viaplay Norway"
+          ]
+        },
+        {
+          "paese": "Oman",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Palestina",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Paraguay",
+          "canali": [
+            "Disney+ Premium Argentina"
+          ]
+        },
+        {
+          "paese": "Perù",
+          "canali": [
+            "Disney+ Premium Chile"
+          ]
+        },
+        {
+          "paese": "Porto Rico",
+          "canali": [
+            "ViX"
+          ]
+        },
+        {
+          "paese": "Qatar",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Saint Kitts e Nevis",
+          "canali": [
+            "Bluu"
+          ]
+        },
+        {
+          "paese": "Santa Lucia",
+          "canali": [
+            "Bluu"
+          ]
+        },
+        {
+          "paese": "Arabia Saudita",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Seychelles",
+          "canali": [
+            "Bluu"
+          ]
+        },
+        {
+          "paese": "Somalia",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Sud Sudan",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "St. Vincent / Grenadines",
+          "canali": [
+            "Bluu"
+          ]
+        },
+        {
+          "paese": "Sudan",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Suriname",
+          "canali": [
+            "Bluu"
+          ]
+        },
+        {
+          "paese": "Svezia",
+          "canali": [
+            "Disney+ Nordic"
+          ]
+        },
+        {
+          "paese": "Svizzera",
+          "canali": [
+            "Blue Sport"
+          ]
+        },
+        {
+          "paese": "Siria",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Trinidad e Tobago",
+          "canali": [
+            "Bluu"
+          ]
+        },
+        {
+          "paese": "Tunisia",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Turks e Caicos",
+          "canali": [
+            "Bluu"
+          ]
+        },
+        {
+          "paese": "Emirati Arabi Uniti",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Uruguay",
+          "canali": [
+            "Disney+ Premium Argentina"
+          ]
+        },
+        {
+          "paese": "USA",
+          "canali": [
+            "Paramount+",
+            "ViX"
+          ]
+        },
+        {
+          "paese": "Venezuela",
+          "canali": [
+            "Disney+ Premium Sur"
+          ]
+        },
+        {
+          "paese": "Yemen",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5774900",
+      "competition": "UEFA Conference League",
+      "home": "KuPS",
+      "away": "Gent",
+      "title": "KuPS vs Gent",
+      "kickoff": "2026-11-05T18:45:00+01:00",
+      "date": "2026-11-05",
+      "time": "18:45",
+      "status": "upcoming",
+      "score": "",
+      "match_url": "https://www.livesoccertv.com/it/match/gent-vs-kups/7runk#5774900",
+      "channels": [],
+      "canali_mondo": [
+        {
+          "paese": "Algeria",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Anguilla",
+          "canali": [
+            "Bluu"
+          ]
+        },
+        {
+          "paese": "Antigua e Barbuda",
+          "canali": [
+            "Bluu"
+          ]
+        },
+        {
+          "paese": "Argentina",
+          "canali": [
+            "Disney+ Premium Argentina"
+          ]
+        },
+        {
+          "paese": "Armenia",
+          "canali": [
+            "FAST TV"
+          ]
+        },
+        {
+          "paese": "Aruba",
+          "canali": [
+            "Bluu"
+          ]
+        },
+        {
+          "paese": "Bahamas",
+          "canali": [
+            "Bluu"
+          ]
+        },
+        {
+          "paese": "Bahrain",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Barbados",
+          "canali": [
+            "Bluu"
+          ]
+        },
+        {
+          "paese": "Bermuda",
+          "canali": [
+            "Bluu"
+          ]
+        },
+        {
+          "paese": "Bolivia",
+          "canali": [
+            "Disney+ Premium Chile"
+          ]
+        },
+        {
+          "paese": "Isole Vergini britanniche",
+          "canali": [
+            "Bluu"
+          ]
+        },
+        {
+          "paese": "Isole Cayman",
+          "canali": [
+            "Bluu"
+          ]
+        },
+        {
+          "paese": "Ciad",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Cile",
+          "canali": [
+            "Disney+ Premium Chile"
+          ]
+        },
+        {
+          "paese": "Colombia",
+          "canali": [
+            "Disney+ Premium Sur"
+          ]
+        },
+        {
+          "paese": "Danimarca",
+          "canali": [
+            "Disney+ Nordic"
+          ]
+        },
+        {
+          "paese": "Gibuti",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Dominica",
+          "canali": [
+            "Bluu"
+          ]
+        },
+        {
+          "paese": "Ecuador",
+          "canali": [
+            "Disney+ Premium Sur"
+          ]
+        },
+        {
+          "paese": "Egitto",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Estonia",
+          "canali": [
+            "Go3 Extra Sports Estonia"
+          ]
+        },
+        {
+          "paese": "Finlandia",
+          "canali": [
+            "Elisa Viihde Viaplay"
+          ]
+        },
+        {
+          "paese": "Gran Bretagna",
+          "canali": [
+            "HBO Max"
+          ]
+        },
+        {
+          "paese": "Grenada",
+          "canali": [
+            "Bluu"
+          ]
+        },
+        {
+          "paese": "Islanda",
+          "canali": [
+            "Viaplay Iceland"
+          ]
+        },
+        {
+          "paese": "Indonesia",
+          "canali": [
+            "beIN Sports Connect Indonesia",
+            "Vidio"
+          ]
+        },
+        {
+          "paese": "Iran",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Iraq",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Irlanda",
+          "canali": [
+            "HBO Max"
+          ]
+        },
+        {
+          "paese": "Giamaica",
+          "canali": [
+            "Bluu"
+          ]
+        },
+        {
+          "paese": "Giordania",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Kuwait",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Lettonia",
+          "canali": [
+            "Go3 Extra Sports Latvia"
+          ]
+        },
+        {
+          "paese": "Libano",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Libia",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Liechtenstein",
+          "canali": [
+            "Blue Sport"
+          ]
+        },
+        {
+          "paese": "Lituania",
+          "canali": [
+            "Go3 Extra Sports Lithuania"
+          ]
+        },
+        {
+          "paese": "Malesia",
+          "canali": [
+            "beIN Sports Connect Malaysia"
+          ]
+        },
+        {
+          "paese": "Mauritania",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Montserrat",
+          "canali": [
+            "Bluu"
+          ]
+        },
+        {
+          "paese": "Marocco",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Norvegia",
+          "canali": [
+            "Viaplay Norway"
+          ]
+        },
+        {
+          "paese": "Oman",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Palestina",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Paraguay",
+          "canali": [
+            "Disney+ Premium Argentina"
+          ]
+        },
+        {
+          "paese": "Perù",
+          "canali": [
+            "Disney+ Premium Chile"
+          ]
+        },
+        {
+          "paese": "Porto Rico",
+          "canali": [
+            "ViX"
+          ]
+        },
+        {
+          "paese": "Qatar",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Saint Kitts e Nevis",
+          "canali": [
+            "Bluu"
+          ]
+        },
+        {
+          "paese": "Santa Lucia",
+          "canali": [
+            "Bluu"
+          ]
+        },
+        {
+          "paese": "Arabia Saudita",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Seychelles",
+          "canali": [
+            "Bluu"
+          ]
+        },
+        {
+          "paese": "Somalia",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Sud Sudan",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "St. Vincent / Grenadines",
+          "canali": [
+            "Bluu"
+          ]
+        },
+        {
+          "paese": "Sudan",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Suriname",
+          "canali": [
+            "Bluu"
+          ]
+        },
+        {
+          "paese": "Svezia",
+          "canali": [
+            "Disney+ Nordic"
+          ]
+        },
+        {
+          "paese": "Svizzera",
+          "canali": [
+            "Blue Sport"
+          ]
+        },
+        {
+          "paese": "Siria",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Trinidad e Tobago",
+          "canali": [
+            "Bluu"
+          ]
+        },
+        {
+          "paese": "Tunisia",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Turks e Caicos",
+          "canali": [
+            "Bluu"
+          ]
+        },
+        {
+          "paese": "Emirati Arabi Uniti",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Uruguay",
+          "canali": [
+            "Disney+ Premium Argentina"
+          ]
+        },
+        {
+          "paese": "USA",
+          "canali": [
+            "Paramount+",
+            "ViX"
+          ]
+        },
+        {
+          "paese": "Venezuela",
+          "canali": [
+            "Disney+ Premium Sur"
+          ]
+        },
+        {
+          "paese": "Yemen",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5774901",
+      "competition": "UEFA Conference League",
+      "home": "Lincoln Red Imps",
+      "away": "Hajduk Split",
+      "title": "Lincoln Red Imps vs Hajduk Split",
+      "kickoff": "2026-11-05T18:45:00+01:00",
+      "date": "2026-11-05",
+      "time": "18:45",
+      "status": "upcoming",
+      "score": "",
+      "match_url": "https://www.livesoccertv.com/it/match/hajduk-split-vs-lincoln-red-imps/17k3a4#5774901",
+      "channels": [],
+      "canali_mondo": [
+        {
+          "paese": "Algeria",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Anguilla",
+          "canali": [
+            "Bluu"
+          ]
+        },
+        {
+          "paese": "Antigua e Barbuda",
+          "canali": [
+            "Bluu"
+          ]
+        },
+        {
+          "paese": "Argentina",
+          "canali": [
+            "Disney+ Premium Argentina"
+          ]
+        },
+        {
+          "paese": "Armenia",
+          "canali": [
+            "FAST TV"
+          ]
+        },
+        {
+          "paese": "Aruba",
+          "canali": [
+            "Bluu"
+          ]
+        },
+        {
+          "paese": "Bahamas",
+          "canali": [
+            "Bluu"
+          ]
+        },
+        {
+          "paese": "Bahrain",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Barbados",
+          "canali": [
+            "Bluu"
+          ]
+        },
+        {
+          "paese": "Bermuda",
+          "canali": [
+            "Bluu"
+          ]
+        },
+        {
+          "paese": "Bolivia",
+          "canali": [
+            "Disney+ Premium Chile"
+          ]
+        },
+        {
+          "paese": "Isole Vergini britanniche",
+          "canali": [
+            "Bluu"
+          ]
+        },
+        {
+          "paese": "Isole Cayman",
+          "canali": [
+            "Bluu"
+          ]
+        },
+        {
+          "paese": "Ciad",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Cile",
+          "canali": [
+            "Disney+ Premium Chile"
+          ]
+        },
+        {
+          "paese": "Colombia",
+          "canali": [
+            "Disney+ Premium Sur"
+          ]
+        },
+        {
+          "paese": "Danimarca",
+          "canali": [
+            "Disney+ Nordic"
+          ]
+        },
+        {
+          "paese": "Gibuti",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Dominica",
+          "canali": [
+            "Bluu"
+          ]
+        },
+        {
+          "paese": "Ecuador",
+          "canali": [
+            "Disney+ Premium Sur"
+          ]
+        },
+        {
+          "paese": "Egitto",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Estonia",
+          "canali": [
+            "Go3 Extra Sports Estonia"
+          ]
+        },
+        {
+          "paese": "Finlandia",
+          "canali": [
+            "Elisa Viihde Viaplay"
+          ]
+        },
+        {
+          "paese": "Gran Bretagna",
+          "canali": [
+            "HBO Max"
+          ]
+        },
+        {
+          "paese": "Grenada",
+          "canali": [
+            "Bluu"
+          ]
+        },
+        {
+          "paese": "Islanda",
+          "canali": [
+            "Viaplay Iceland"
+          ]
+        },
+        {
+          "paese": "Indonesia",
+          "canali": [
+            "beIN Sports Connect Indonesia",
+            "Vidio"
+          ]
+        },
+        {
+          "paese": "Iran",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Iraq",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Irlanda",
+          "canali": [
+            "HBO Max"
+          ]
+        },
+        {
+          "paese": "Giamaica",
+          "canali": [
+            "Bluu"
+          ]
+        },
+        {
+          "paese": "Giordania",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Kuwait",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Lettonia",
+          "canali": [
+            "Go3 Extra Sports Latvia"
+          ]
+        },
+        {
+          "paese": "Libano",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Libia",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Liechtenstein",
+          "canali": [
+            "Blue Sport"
+          ]
+        },
+        {
+          "paese": "Lituania",
+          "canali": [
+            "Go3 Extra Sports Lithuania"
+          ]
+        },
+        {
+          "paese": "Malesia",
+          "canali": [
+            "beIN Sports Connect Malaysia"
+          ]
+        },
+        {
+          "paese": "Mauritania",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Montserrat",
+          "canali": [
+            "Bluu"
+          ]
+        },
+        {
+          "paese": "Marocco",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Norvegia",
+          "canali": [
+            "Viaplay Norway"
+          ]
+        },
+        {
+          "paese": "Oman",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Palestina",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Paraguay",
+          "canali": [
+            "Disney+ Premium Argentina"
+          ]
+        },
+        {
+          "paese": "Perù",
+          "canali": [
+            "Disney+ Premium Chile"
+          ]
+        },
+        {
+          "paese": "Porto Rico",
+          "canali": [
+            "ViX"
+          ]
+        },
+        {
+          "paese": "Qatar",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Saint Kitts e Nevis",
+          "canali": [
+            "Bluu"
+          ]
+        },
+        {
+          "paese": "Santa Lucia",
+          "canali": [
+            "Bluu"
+          ]
+        },
+        {
+          "paese": "Arabia Saudita",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Seychelles",
+          "canali": [
+            "Bluu"
+          ]
+        },
+        {
+          "paese": "Somalia",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Sud Sudan",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "St. Vincent / Grenadines",
+          "canali": [
+            "Bluu"
+          ]
+        },
+        {
+          "paese": "Sudan",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Suriname",
+          "canali": [
+            "Bluu"
+          ]
+        },
+        {
+          "paese": "Svezia",
+          "canali": [
+            "Disney+ Nordic"
+          ]
+        },
+        {
+          "paese": "Svizzera",
+          "canali": [
+            "Blue Sport"
+          ]
+        },
+        {
+          "paese": "Siria",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Trinidad e Tobago",
+          "canali": [
+            "Bluu"
+          ]
+        },
+        {
+          "paese": "Tunisia",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Turks e Caicos",
+          "canali": [
+            "Bluu"
+          ]
+        },
+        {
+          "paese": "Emirati Arabi Uniti",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Uruguay",
+          "canali": [
+            "Disney+ Premium Argentina"
+          ]
+        },
+        {
+          "paese": "USA",
+          "canali": [
+            "Paramount+",
+            "ViX"
+          ]
+        },
+        {
+          "paese": "Venezuela",
+          "canali": [
+            "Disney+ Premium Sur"
+          ]
+        },
+        {
+          "paese": "Yemen",
+          "canali": [
+            "beIN SPORTS CONNECT"
+          ]
+        }
+      ]
+    },
+    {
       "id": "5775547",
       "competition": "UEFA Europa League",
       "home": "Anderlecht",
@@ -17209,2166 +19476,6 @@
           "canali": [
             "DStv Now",
             "SuperSport GOtv Football"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "5774897",
-      "competition": "UEFA Conference League",
-      "home": "AGF",
-      "away": "Sporting Braga",
-      "title": "AGF vs Sporting Braga",
-      "kickoff": "2026-11-05T18:45:00+01:00",
-      "date": "2026-11-05",
-      "time": "18:45",
-      "status": "upcoming",
-      "score": "",
-      "match_url": "https://www.livesoccertv.com/it/match/sporting-braga-vs-agf/1rhqs#5774897",
-      "channels": [],
-      "canali_mondo": [
-        {
-          "paese": "Algeria",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Anguilla",
-          "canali": [
-            "Bluu"
-          ]
-        },
-        {
-          "paese": "Antigua e Barbuda",
-          "canali": [
-            "Bluu"
-          ]
-        },
-        {
-          "paese": "Argentina",
-          "canali": [
-            "Disney+ Premium Argentina"
-          ]
-        },
-        {
-          "paese": "Armenia",
-          "canali": [
-            "FAST TV"
-          ]
-        },
-        {
-          "paese": "Aruba",
-          "canali": [
-            "Bluu"
-          ]
-        },
-        {
-          "paese": "Bahamas",
-          "canali": [
-            "Bluu"
-          ]
-        },
-        {
-          "paese": "Bahrain",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Barbados",
-          "canali": [
-            "Bluu"
-          ]
-        },
-        {
-          "paese": "Bermuda",
-          "canali": [
-            "Bluu"
-          ]
-        },
-        {
-          "paese": "Bolivia",
-          "canali": [
-            "Disney+ Premium Chile"
-          ]
-        },
-        {
-          "paese": "Isole Vergini britanniche",
-          "canali": [
-            "Bluu"
-          ]
-        },
-        {
-          "paese": "Isole Cayman",
-          "canali": [
-            "Bluu"
-          ]
-        },
-        {
-          "paese": "Ciad",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Cile",
-          "canali": [
-            "Disney+ Premium Chile"
-          ]
-        },
-        {
-          "paese": "Colombia",
-          "canali": [
-            "Disney+ Premium Sur"
-          ]
-        },
-        {
-          "paese": "Danimarca",
-          "canali": [
-            "Disney+ Nordic"
-          ]
-        },
-        {
-          "paese": "Gibuti",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Dominica",
-          "canali": [
-            "Bluu"
-          ]
-        },
-        {
-          "paese": "Ecuador",
-          "canali": [
-            "Disney+ Premium Sur"
-          ]
-        },
-        {
-          "paese": "Egitto",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Estonia",
-          "canali": [
-            "Go3 Extra Sports Estonia"
-          ]
-        },
-        {
-          "paese": "Finlandia",
-          "canali": [
-            "Elisa Viihde Viaplay"
-          ]
-        },
-        {
-          "paese": "Gran Bretagna",
-          "canali": [
-            "HBO Max"
-          ]
-        },
-        {
-          "paese": "Grenada",
-          "canali": [
-            "Bluu"
-          ]
-        },
-        {
-          "paese": "Islanda",
-          "canali": [
-            "Viaplay Iceland"
-          ]
-        },
-        {
-          "paese": "Indonesia",
-          "canali": [
-            "beIN Sports Connect Indonesia",
-            "Vidio"
-          ]
-        },
-        {
-          "paese": "Iran",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Iraq",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Irlanda",
-          "canali": [
-            "HBO Max"
-          ]
-        },
-        {
-          "paese": "Giamaica",
-          "canali": [
-            "Bluu"
-          ]
-        },
-        {
-          "paese": "Giordania",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Kuwait",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Lettonia",
-          "canali": [
-            "Go3 Extra Sports Latvia"
-          ]
-        },
-        {
-          "paese": "Libano",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Libia",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Liechtenstein",
-          "canali": [
-            "Blue Sport"
-          ]
-        },
-        {
-          "paese": "Lituania",
-          "canali": [
-            "Go3 Extra Sports Lithuania"
-          ]
-        },
-        {
-          "paese": "Malesia",
-          "canali": [
-            "beIN Sports Connect Malaysia"
-          ]
-        },
-        {
-          "paese": "Mauritania",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Montserrat",
-          "canali": [
-            "Bluu"
-          ]
-        },
-        {
-          "paese": "Marocco",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Norvegia",
-          "canali": [
-            "Viaplay Norway"
-          ]
-        },
-        {
-          "paese": "Oman",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Palestina",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Paraguay",
-          "canali": [
-            "Disney+ Premium Argentina"
-          ]
-        },
-        {
-          "paese": "Perù",
-          "canali": [
-            "Disney+ Premium Chile"
-          ]
-        },
-        {
-          "paese": "Porto Rico",
-          "canali": [
-            "ViX"
-          ]
-        },
-        {
-          "paese": "Qatar",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Saint Kitts e Nevis",
-          "canali": [
-            "Bluu"
-          ]
-        },
-        {
-          "paese": "Santa Lucia",
-          "canali": [
-            "Bluu"
-          ]
-        },
-        {
-          "paese": "Arabia Saudita",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Seychelles",
-          "canali": [
-            "Bluu"
-          ]
-        },
-        {
-          "paese": "Somalia",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Sud Sudan",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "St. Vincent / Grenadines",
-          "canali": [
-            "Bluu"
-          ]
-        },
-        {
-          "paese": "Sudan",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Suriname",
-          "canali": [
-            "Bluu"
-          ]
-        },
-        {
-          "paese": "Svezia",
-          "canali": [
-            "Disney+ Nordic"
-          ]
-        },
-        {
-          "paese": "Svizzera",
-          "canali": [
-            "Blue Sport"
-          ]
-        },
-        {
-          "paese": "Siria",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Trinidad e Tobago",
-          "canali": [
-            "Bluu"
-          ]
-        },
-        {
-          "paese": "Tunisia",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Turks e Caicos",
-          "canali": [
-            "Bluu"
-          ]
-        },
-        {
-          "paese": "Emirati Arabi Uniti",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Uruguay",
-          "canali": [
-            "Disney+ Premium Argentina"
-          ]
-        },
-        {
-          "paese": "USA",
-          "canali": [
-            "Paramount+",
-            "ViX"
-          ]
-        },
-        {
-          "paese": "Venezuela",
-          "canali": [
-            "Disney+ Premium Sur"
-          ]
-        },
-        {
-          "paese": "Yemen",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "5774898",
-      "competition": "UEFA Conference League",
-      "home": "Atalanta",
-      "away": "Kairat",
-      "title": "Atalanta vs Kairat",
-      "kickoff": "2026-11-05T18:45:00+01:00",
-      "date": "2026-11-05",
-      "time": "18:45",
-      "status": "upcoming",
-      "score": "",
-      "match_url": "https://www.livesoccertv.com/it/match/atalanta-vs-kairat/hy22q#5774898",
-      "channels": [],
-      "canali_mondo": [
-        {
-          "paese": "Algeria",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Anguilla",
-          "canali": [
-            "Bluu"
-          ]
-        },
-        {
-          "paese": "Antigua e Barbuda",
-          "canali": [
-            "Bluu"
-          ]
-        },
-        {
-          "paese": "Argentina",
-          "canali": [
-            "Disney+ Premium Argentina"
-          ]
-        },
-        {
-          "paese": "Armenia",
-          "canali": [
-            "FAST TV"
-          ]
-        },
-        {
-          "paese": "Aruba",
-          "canali": [
-            "Bluu"
-          ]
-        },
-        {
-          "paese": "Bahamas",
-          "canali": [
-            "Bluu"
-          ]
-        },
-        {
-          "paese": "Bahrain",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Barbados",
-          "canali": [
-            "Bluu"
-          ]
-        },
-        {
-          "paese": "Bermuda",
-          "canali": [
-            "Bluu"
-          ]
-        },
-        {
-          "paese": "Bolivia",
-          "canali": [
-            "Disney+ Premium Chile"
-          ]
-        },
-        {
-          "paese": "Isole Vergini britanniche",
-          "canali": [
-            "Bluu"
-          ]
-        },
-        {
-          "paese": "Isole Cayman",
-          "canali": [
-            "Bluu"
-          ]
-        },
-        {
-          "paese": "Ciad",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Cile",
-          "canali": [
-            "Disney+ Premium Chile"
-          ]
-        },
-        {
-          "paese": "Colombia",
-          "canali": [
-            "Disney+ Premium Sur"
-          ]
-        },
-        {
-          "paese": "Danimarca",
-          "canali": [
-            "Disney+ Nordic"
-          ]
-        },
-        {
-          "paese": "Gibuti",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Dominica",
-          "canali": [
-            "Bluu"
-          ]
-        },
-        {
-          "paese": "Ecuador",
-          "canali": [
-            "Disney+ Premium Sur"
-          ]
-        },
-        {
-          "paese": "Egitto",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Estonia",
-          "canali": [
-            "Go3 Extra Sports Estonia"
-          ]
-        },
-        {
-          "paese": "Finlandia",
-          "canali": [
-            "Elisa Viihde Viaplay"
-          ]
-        },
-        {
-          "paese": "Gran Bretagna",
-          "canali": [
-            "HBO Max"
-          ]
-        },
-        {
-          "paese": "Grenada",
-          "canali": [
-            "Bluu"
-          ]
-        },
-        {
-          "paese": "Islanda",
-          "canali": [
-            "Viaplay Iceland"
-          ]
-        },
-        {
-          "paese": "Indonesia",
-          "canali": [
-            "beIN Sports Connect Indonesia",
-            "Vidio"
-          ]
-        },
-        {
-          "paese": "Iran",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Iraq",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Irlanda",
-          "canali": [
-            "HBO Max"
-          ]
-        },
-        {
-          "paese": "Giamaica",
-          "canali": [
-            "Bluu"
-          ]
-        },
-        {
-          "paese": "Giordania",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Kuwait",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Lettonia",
-          "canali": [
-            "Go3 Extra Sports Latvia"
-          ]
-        },
-        {
-          "paese": "Libano",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Libia",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Liechtenstein",
-          "canali": [
-            "Blue Sport"
-          ]
-        },
-        {
-          "paese": "Lituania",
-          "canali": [
-            "Go3 Extra Sports Lithuania"
-          ]
-        },
-        {
-          "paese": "Malesia",
-          "canali": [
-            "beIN Sports Connect Malaysia"
-          ]
-        },
-        {
-          "paese": "Mauritania",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Montserrat",
-          "canali": [
-            "Bluu"
-          ]
-        },
-        {
-          "paese": "Marocco",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Norvegia",
-          "canali": [
-            "Viaplay Norway"
-          ]
-        },
-        {
-          "paese": "Oman",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Palestina",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Paraguay",
-          "canali": [
-            "Disney+ Premium Argentina"
-          ]
-        },
-        {
-          "paese": "Perù",
-          "canali": [
-            "Disney+ Premium Chile"
-          ]
-        },
-        {
-          "paese": "Porto Rico",
-          "canali": [
-            "ViX"
-          ]
-        },
-        {
-          "paese": "Qatar",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Saint Kitts e Nevis",
-          "canali": [
-            "Bluu"
-          ]
-        },
-        {
-          "paese": "Santa Lucia",
-          "canali": [
-            "Bluu"
-          ]
-        },
-        {
-          "paese": "Arabia Saudita",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Seychelles",
-          "canali": [
-            "Bluu"
-          ]
-        },
-        {
-          "paese": "Somalia",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Sud Sudan",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "St. Vincent / Grenadines",
-          "canali": [
-            "Bluu"
-          ]
-        },
-        {
-          "paese": "Sudan",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Suriname",
-          "canali": [
-            "Bluu"
-          ]
-        },
-        {
-          "paese": "Svezia",
-          "canali": [
-            "Disney+ Nordic"
-          ]
-        },
-        {
-          "paese": "Svizzera",
-          "canali": [
-            "Blue Sport"
-          ]
-        },
-        {
-          "paese": "Siria",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Trinidad e Tobago",
-          "canali": [
-            "Bluu"
-          ]
-        },
-        {
-          "paese": "Tunisia",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Turks e Caicos",
-          "canali": [
-            "Bluu"
-          ]
-        },
-        {
-          "paese": "Emirati Arabi Uniti",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Uruguay",
-          "canali": [
-            "Disney+ Premium Argentina"
-          ]
-        },
-        {
-          "paese": "USA",
-          "canali": [
-            "Paramount+",
-            "ViX"
-          ]
-        },
-        {
-          "paese": "Venezuela",
-          "canali": [
-            "Disney+ Premium Sur"
-          ]
-        },
-        {
-          "paese": "Yemen",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "5774899",
-      "competition": "UEFA Conference League",
-      "home": "Crvena Zvezda",
-      "away": "Inter Club d'Escaldes",
-      "title": "Crvena Zvezda vs Inter Club d'Escaldes",
-      "kickoff": "2026-11-05T18:45:00+01:00",
-      "date": "2026-11-05",
-      "time": "18:45",
-      "status": "upcoming",
-      "score": "",
-      "match_url": "https://www.livesoccertv.com/it/match/crvena-zvezda-vs-inter-club-descaldes/klixo#5774899",
-      "channels": [],
-      "canali_mondo": [
-        {
-          "paese": "Algeria",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Anguilla",
-          "canali": [
-            "Bluu"
-          ]
-        },
-        {
-          "paese": "Antigua e Barbuda",
-          "canali": [
-            "Bluu"
-          ]
-        },
-        {
-          "paese": "Argentina",
-          "canali": [
-            "Disney+ Premium Argentina"
-          ]
-        },
-        {
-          "paese": "Armenia",
-          "canali": [
-            "FAST TV"
-          ]
-        },
-        {
-          "paese": "Aruba",
-          "canali": [
-            "Bluu"
-          ]
-        },
-        {
-          "paese": "Bahamas",
-          "canali": [
-            "Bluu"
-          ]
-        },
-        {
-          "paese": "Bahrain",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Barbados",
-          "canali": [
-            "Bluu"
-          ]
-        },
-        {
-          "paese": "Bermuda",
-          "canali": [
-            "Bluu"
-          ]
-        },
-        {
-          "paese": "Bolivia",
-          "canali": [
-            "Disney+ Premium Chile"
-          ]
-        },
-        {
-          "paese": "Isole Vergini britanniche",
-          "canali": [
-            "Bluu"
-          ]
-        },
-        {
-          "paese": "Isole Cayman",
-          "canali": [
-            "Bluu"
-          ]
-        },
-        {
-          "paese": "Ciad",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Cile",
-          "canali": [
-            "Disney+ Premium Chile"
-          ]
-        },
-        {
-          "paese": "Colombia",
-          "canali": [
-            "Disney+ Premium Sur"
-          ]
-        },
-        {
-          "paese": "Danimarca",
-          "canali": [
-            "Disney+ Nordic"
-          ]
-        },
-        {
-          "paese": "Gibuti",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Dominica",
-          "canali": [
-            "Bluu"
-          ]
-        },
-        {
-          "paese": "Ecuador",
-          "canali": [
-            "Disney+ Premium Sur"
-          ]
-        },
-        {
-          "paese": "Egitto",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Estonia",
-          "canali": [
-            "Go3 Extra Sports Estonia"
-          ]
-        },
-        {
-          "paese": "Finlandia",
-          "canali": [
-            "Elisa Viihde Viaplay"
-          ]
-        },
-        {
-          "paese": "Gran Bretagna",
-          "canali": [
-            "HBO Max"
-          ]
-        },
-        {
-          "paese": "Grenada",
-          "canali": [
-            "Bluu"
-          ]
-        },
-        {
-          "paese": "Islanda",
-          "canali": [
-            "Viaplay Iceland"
-          ]
-        },
-        {
-          "paese": "Indonesia",
-          "canali": [
-            "beIN Sports Connect Indonesia",
-            "Vidio"
-          ]
-        },
-        {
-          "paese": "Iran",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Iraq",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Irlanda",
-          "canali": [
-            "HBO Max"
-          ]
-        },
-        {
-          "paese": "Giamaica",
-          "canali": [
-            "Bluu"
-          ]
-        },
-        {
-          "paese": "Giordania",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Kuwait",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Lettonia",
-          "canali": [
-            "Go3 Extra Sports Latvia"
-          ]
-        },
-        {
-          "paese": "Libano",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Libia",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Liechtenstein",
-          "canali": [
-            "Blue Sport"
-          ]
-        },
-        {
-          "paese": "Lituania",
-          "canali": [
-            "Go3 Extra Sports Lithuania"
-          ]
-        },
-        {
-          "paese": "Malesia",
-          "canali": [
-            "beIN Sports Connect Malaysia"
-          ]
-        },
-        {
-          "paese": "Mauritania",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Montserrat",
-          "canali": [
-            "Bluu"
-          ]
-        },
-        {
-          "paese": "Marocco",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Norvegia",
-          "canali": [
-            "Viaplay Norway"
-          ]
-        },
-        {
-          "paese": "Oman",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Palestina",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Paraguay",
-          "canali": [
-            "Disney+ Premium Argentina"
-          ]
-        },
-        {
-          "paese": "Perù",
-          "canali": [
-            "Disney+ Premium Chile"
-          ]
-        },
-        {
-          "paese": "Porto Rico",
-          "canali": [
-            "ViX"
-          ]
-        },
-        {
-          "paese": "Qatar",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Saint Kitts e Nevis",
-          "canali": [
-            "Bluu"
-          ]
-        },
-        {
-          "paese": "Santa Lucia",
-          "canali": [
-            "Bluu"
-          ]
-        },
-        {
-          "paese": "Arabia Saudita",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Seychelles",
-          "canali": [
-            "Bluu"
-          ]
-        },
-        {
-          "paese": "Somalia",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Sud Sudan",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "St. Vincent / Grenadines",
-          "canali": [
-            "Bluu"
-          ]
-        },
-        {
-          "paese": "Sudan",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Suriname",
-          "canali": [
-            "Bluu"
-          ]
-        },
-        {
-          "paese": "Svezia",
-          "canali": [
-            "Disney+ Nordic"
-          ]
-        },
-        {
-          "paese": "Svizzera",
-          "canali": [
-            "Blue Sport"
-          ]
-        },
-        {
-          "paese": "Siria",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Trinidad e Tobago",
-          "canali": [
-            "Bluu"
-          ]
-        },
-        {
-          "paese": "Tunisia",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Turks e Caicos",
-          "canali": [
-            "Bluu"
-          ]
-        },
-        {
-          "paese": "Emirati Arabi Uniti",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Uruguay",
-          "canali": [
-            "Disney+ Premium Argentina"
-          ]
-        },
-        {
-          "paese": "USA",
-          "canali": [
-            "Paramount+",
-            "ViX"
-          ]
-        },
-        {
-          "paese": "Venezuela",
-          "canali": [
-            "Disney+ Premium Sur"
-          ]
-        },
-        {
-          "paese": "Yemen",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "5774900",
-      "competition": "UEFA Conference League",
-      "home": "KuPS",
-      "away": "Gent",
-      "title": "KuPS vs Gent",
-      "kickoff": "2026-11-05T18:45:00+01:00",
-      "date": "2026-11-05",
-      "time": "18:45",
-      "status": "upcoming",
-      "score": "",
-      "match_url": "https://www.livesoccertv.com/it/match/gent-vs-kups/7runk#5774900",
-      "channels": [],
-      "canali_mondo": [
-        {
-          "paese": "Algeria",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Anguilla",
-          "canali": [
-            "Bluu"
-          ]
-        },
-        {
-          "paese": "Antigua e Barbuda",
-          "canali": [
-            "Bluu"
-          ]
-        },
-        {
-          "paese": "Argentina",
-          "canali": [
-            "Disney+ Premium Argentina"
-          ]
-        },
-        {
-          "paese": "Armenia",
-          "canali": [
-            "FAST TV"
-          ]
-        },
-        {
-          "paese": "Aruba",
-          "canali": [
-            "Bluu"
-          ]
-        },
-        {
-          "paese": "Bahamas",
-          "canali": [
-            "Bluu"
-          ]
-        },
-        {
-          "paese": "Bahrain",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Barbados",
-          "canali": [
-            "Bluu"
-          ]
-        },
-        {
-          "paese": "Bermuda",
-          "canali": [
-            "Bluu"
-          ]
-        },
-        {
-          "paese": "Bolivia",
-          "canali": [
-            "Disney+ Premium Chile"
-          ]
-        },
-        {
-          "paese": "Isole Vergini britanniche",
-          "canali": [
-            "Bluu"
-          ]
-        },
-        {
-          "paese": "Isole Cayman",
-          "canali": [
-            "Bluu"
-          ]
-        },
-        {
-          "paese": "Ciad",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Cile",
-          "canali": [
-            "Disney+ Premium Chile"
-          ]
-        },
-        {
-          "paese": "Colombia",
-          "canali": [
-            "Disney+ Premium Sur"
-          ]
-        },
-        {
-          "paese": "Danimarca",
-          "canali": [
-            "Disney+ Nordic"
-          ]
-        },
-        {
-          "paese": "Gibuti",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Dominica",
-          "canali": [
-            "Bluu"
-          ]
-        },
-        {
-          "paese": "Ecuador",
-          "canali": [
-            "Disney+ Premium Sur"
-          ]
-        },
-        {
-          "paese": "Egitto",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Estonia",
-          "canali": [
-            "Go3 Extra Sports Estonia"
-          ]
-        },
-        {
-          "paese": "Finlandia",
-          "canali": [
-            "Elisa Viihde Viaplay"
-          ]
-        },
-        {
-          "paese": "Gran Bretagna",
-          "canali": [
-            "HBO Max"
-          ]
-        },
-        {
-          "paese": "Grenada",
-          "canali": [
-            "Bluu"
-          ]
-        },
-        {
-          "paese": "Islanda",
-          "canali": [
-            "Viaplay Iceland"
-          ]
-        },
-        {
-          "paese": "Indonesia",
-          "canali": [
-            "beIN Sports Connect Indonesia",
-            "Vidio"
-          ]
-        },
-        {
-          "paese": "Iran",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Iraq",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Irlanda",
-          "canali": [
-            "HBO Max"
-          ]
-        },
-        {
-          "paese": "Giamaica",
-          "canali": [
-            "Bluu"
-          ]
-        },
-        {
-          "paese": "Giordania",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Kuwait",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Lettonia",
-          "canali": [
-            "Go3 Extra Sports Latvia"
-          ]
-        },
-        {
-          "paese": "Libano",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Libia",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Liechtenstein",
-          "canali": [
-            "Blue Sport"
-          ]
-        },
-        {
-          "paese": "Lituania",
-          "canali": [
-            "Go3 Extra Sports Lithuania"
-          ]
-        },
-        {
-          "paese": "Malesia",
-          "canali": [
-            "beIN Sports Connect Malaysia"
-          ]
-        },
-        {
-          "paese": "Mauritania",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Montserrat",
-          "canali": [
-            "Bluu"
-          ]
-        },
-        {
-          "paese": "Marocco",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Norvegia",
-          "canali": [
-            "Viaplay Norway"
-          ]
-        },
-        {
-          "paese": "Oman",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Palestina",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Paraguay",
-          "canali": [
-            "Disney+ Premium Argentina"
-          ]
-        },
-        {
-          "paese": "Perù",
-          "canali": [
-            "Disney+ Premium Chile"
-          ]
-        },
-        {
-          "paese": "Porto Rico",
-          "canali": [
-            "ViX"
-          ]
-        },
-        {
-          "paese": "Qatar",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Saint Kitts e Nevis",
-          "canali": [
-            "Bluu"
-          ]
-        },
-        {
-          "paese": "Santa Lucia",
-          "canali": [
-            "Bluu"
-          ]
-        },
-        {
-          "paese": "Arabia Saudita",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Seychelles",
-          "canali": [
-            "Bluu"
-          ]
-        },
-        {
-          "paese": "Somalia",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Sud Sudan",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "St. Vincent / Grenadines",
-          "canali": [
-            "Bluu"
-          ]
-        },
-        {
-          "paese": "Sudan",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Suriname",
-          "canali": [
-            "Bluu"
-          ]
-        },
-        {
-          "paese": "Svezia",
-          "canali": [
-            "Disney+ Nordic"
-          ]
-        },
-        {
-          "paese": "Svizzera",
-          "canali": [
-            "Blue Sport"
-          ]
-        },
-        {
-          "paese": "Siria",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Trinidad e Tobago",
-          "canali": [
-            "Bluu"
-          ]
-        },
-        {
-          "paese": "Tunisia",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Turks e Caicos",
-          "canali": [
-            "Bluu"
-          ]
-        },
-        {
-          "paese": "Emirati Arabi Uniti",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Uruguay",
-          "canali": [
-            "Disney+ Premium Argentina"
-          ]
-        },
-        {
-          "paese": "USA",
-          "canali": [
-            "Paramount+",
-            "ViX"
-          ]
-        },
-        {
-          "paese": "Venezuela",
-          "canali": [
-            "Disney+ Premium Sur"
-          ]
-        },
-        {
-          "paese": "Yemen",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "5774901",
-      "competition": "UEFA Conference League",
-      "home": "Lincoln Red Imps",
-      "away": "Hajduk Split",
-      "title": "Lincoln Red Imps vs Hajduk Split",
-      "kickoff": "2026-11-05T18:45:00+01:00",
-      "date": "2026-11-05",
-      "time": "18:45",
-      "status": "upcoming",
-      "score": "",
-      "match_url": "https://www.livesoccertv.com/it/match/hajduk-split-vs-lincoln-red-imps/17k3a4#5774901",
-      "channels": [],
-      "canali_mondo": [
-        {
-          "paese": "Algeria",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Anguilla",
-          "canali": [
-            "Bluu"
-          ]
-        },
-        {
-          "paese": "Antigua e Barbuda",
-          "canali": [
-            "Bluu"
-          ]
-        },
-        {
-          "paese": "Argentina",
-          "canali": [
-            "Disney+ Premium Argentina"
-          ]
-        },
-        {
-          "paese": "Armenia",
-          "canali": [
-            "FAST TV"
-          ]
-        },
-        {
-          "paese": "Aruba",
-          "canali": [
-            "Bluu"
-          ]
-        },
-        {
-          "paese": "Bahamas",
-          "canali": [
-            "Bluu"
-          ]
-        },
-        {
-          "paese": "Bahrain",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Barbados",
-          "canali": [
-            "Bluu"
-          ]
-        },
-        {
-          "paese": "Bermuda",
-          "canali": [
-            "Bluu"
-          ]
-        },
-        {
-          "paese": "Bolivia",
-          "canali": [
-            "Disney+ Premium Chile"
-          ]
-        },
-        {
-          "paese": "Isole Vergini britanniche",
-          "canali": [
-            "Bluu"
-          ]
-        },
-        {
-          "paese": "Isole Cayman",
-          "canali": [
-            "Bluu"
-          ]
-        },
-        {
-          "paese": "Ciad",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Cile",
-          "canali": [
-            "Disney+ Premium Chile"
-          ]
-        },
-        {
-          "paese": "Colombia",
-          "canali": [
-            "Disney+ Premium Sur"
-          ]
-        },
-        {
-          "paese": "Danimarca",
-          "canali": [
-            "Disney+ Nordic"
-          ]
-        },
-        {
-          "paese": "Gibuti",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Dominica",
-          "canali": [
-            "Bluu"
-          ]
-        },
-        {
-          "paese": "Ecuador",
-          "canali": [
-            "Disney+ Premium Sur"
-          ]
-        },
-        {
-          "paese": "Egitto",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Estonia",
-          "canali": [
-            "Go3 Extra Sports Estonia"
-          ]
-        },
-        {
-          "paese": "Finlandia",
-          "canali": [
-            "Elisa Viihde Viaplay"
-          ]
-        },
-        {
-          "paese": "Gran Bretagna",
-          "canali": [
-            "HBO Max"
-          ]
-        },
-        {
-          "paese": "Grenada",
-          "canali": [
-            "Bluu"
-          ]
-        },
-        {
-          "paese": "Islanda",
-          "canali": [
-            "Viaplay Iceland"
-          ]
-        },
-        {
-          "paese": "Indonesia",
-          "canali": [
-            "beIN Sports Connect Indonesia",
-            "Vidio"
-          ]
-        },
-        {
-          "paese": "Iran",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Iraq",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Irlanda",
-          "canali": [
-            "HBO Max"
-          ]
-        },
-        {
-          "paese": "Giamaica",
-          "canali": [
-            "Bluu"
-          ]
-        },
-        {
-          "paese": "Giordania",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Kuwait",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Lettonia",
-          "canali": [
-            "Go3 Extra Sports Latvia"
-          ]
-        },
-        {
-          "paese": "Libano",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Libia",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Liechtenstein",
-          "canali": [
-            "Blue Sport"
-          ]
-        },
-        {
-          "paese": "Lituania",
-          "canali": [
-            "Go3 Extra Sports Lithuania"
-          ]
-        },
-        {
-          "paese": "Malesia",
-          "canali": [
-            "beIN Sports Connect Malaysia"
-          ]
-        },
-        {
-          "paese": "Mauritania",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Montserrat",
-          "canali": [
-            "Bluu"
-          ]
-        },
-        {
-          "paese": "Marocco",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Norvegia",
-          "canali": [
-            "Viaplay Norway"
-          ]
-        },
-        {
-          "paese": "Oman",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Palestina",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Paraguay",
-          "canali": [
-            "Disney+ Premium Argentina"
-          ]
-        },
-        {
-          "paese": "Perù",
-          "canali": [
-            "Disney+ Premium Chile"
-          ]
-        },
-        {
-          "paese": "Porto Rico",
-          "canali": [
-            "ViX"
-          ]
-        },
-        {
-          "paese": "Qatar",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Saint Kitts e Nevis",
-          "canali": [
-            "Bluu"
-          ]
-        },
-        {
-          "paese": "Santa Lucia",
-          "canali": [
-            "Bluu"
-          ]
-        },
-        {
-          "paese": "Arabia Saudita",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Seychelles",
-          "canali": [
-            "Bluu"
-          ]
-        },
-        {
-          "paese": "Somalia",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Sud Sudan",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "St. Vincent / Grenadines",
-          "canali": [
-            "Bluu"
-          ]
-        },
-        {
-          "paese": "Sudan",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Suriname",
-          "canali": [
-            "Bluu"
-          ]
-        },
-        {
-          "paese": "Svezia",
-          "canali": [
-            "Disney+ Nordic"
-          ]
-        },
-        {
-          "paese": "Svizzera",
-          "canali": [
-            "Blue Sport"
-          ]
-        },
-        {
-          "paese": "Siria",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Trinidad e Tobago",
-          "canali": [
-            "Bluu"
-          ]
-        },
-        {
-          "paese": "Tunisia",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Turks e Caicos",
-          "canali": [
-            "Bluu"
-          ]
-        },
-        {
-          "paese": "Emirati Arabi Uniti",
-          "canali": [
-            "beIN SPORTS CONNECT"
-          ]
-        },
-        {
-          "paese": "Uruguay",
-          "canali": [
-            "Disney+ Premium Argentina"
-          ]
-        },
-        {
-          "paese": "USA",
-          "canali": [
-            "Paramount+",
-            "ViX"
-          ]
-        },
-        {
-          "paese": "Venezuela",
-          "canali": [
-            "Disney+ Premium Sur"
-          ]
-        },
-        {
-          "paese": "Yemen",
-          "canali": [
-            "beIN SPORTS CONNECT"
           ]
         }
       ]
