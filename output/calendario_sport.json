@@ -1,120 +1,16 @@
 {
-  "aggiornato": "2026-10-24T02:06:52+02:00",
+  "aggiornato": "2026-10-24T06:46:31+02:00",
   "fonti": {
     "motori": "Fuori Traiettoria, Dizzle0987/motorsport-calendar, palinsesto TV8",
     "calcio_italiano": "https://raw.githubusercontent.com/aandroide/Livesoccer/master/livesoccertv/output/eventi.json",
     "altri_sport": "https://sport.virgilio.it/guida-tv/"
   },
-  "totale": 231,
+  "totale": 239,
   "cartelle": [
     {
       "nome": "Oggi",
-      "totale": 51,
+      "totale": 48,
       "eventi": [
-        {
-          "titolo": "[Motori] MotoGP: Australian Motorcycle Grand Prix - FP2",
-          "categoria": "Motori",
-          "sottocartella": "MotoGP",
-          "sport": "Motori",
-          "competizione": "MotoGP",
-          "evento": "Australian Motorcycle Grand Prix - FP2",
-          "sessione": "prove",
-          "circuito": "Phillip Island Grand Prix Circuit, Phillip Island, Australia",
-          "inizio": "2026-10-24T01:10:00+02:00",
-          "data": "24/10/2026",
-          "ora": "01:10",
-          "canali": [
-            {
-              "nome": "Sky Sport MotoGP",
-              "numero": "208",
-              "tipo": "diretta",
-              "orario": "2026-10-24T01:10",
-              "fonte": "dizzle+config"
-            },
-            {
-              "nome": "NOW",
-              "numero": "",
-              "tipo": "streaming",
-              "orario": "2026-10-24T01:10",
-              "fonte": "dizzle+config"
-            }
-          ],
-          "fonte": "Dizzle0987/motorsport-calendar"
-        },
-        {
-          "titolo": "[Motori] MotoGP: Australian Motorcycle Grand Prix - Q1",
-          "categoria": "Motori",
-          "sottocartella": "MotoGP",
-          "sport": "Motori",
-          "competizione": "MotoGP",
-          "evento": "Australian Motorcycle Grand Prix - Q1",
-          "sessione": "qualifiche",
-          "circuito": "Phillip Island Grand Prix Circuit, Phillip Island, Australia",
-          "inizio": "2026-10-24T01:50:00+02:00",
-          "data": "24/10/2026",
-          "ora": "01:50",
-          "canali": [
-            {
-              "nome": "TV8",
-              "numero": "8",
-              "tipo": "diretta",
-              "orario": "2026-10-24T01:45",
-              "fonte": "dizzle+tv8"
-            },
-            {
-              "nome": "Sky Sport MotoGP",
-              "numero": "208",
-              "tipo": "diretta",
-              "orario": "2026-10-24T01:50",
-              "fonte": "config"
-            },
-            {
-              "nome": "NOW",
-              "numero": "",
-              "tipo": "streaming",
-              "orario": "2026-10-24T01:50",
-              "fonte": "config"
-            }
-          ],
-          "fonte": "Dizzle0987/motorsport-calendar"
-        },
-        {
-          "titolo": "[Motori] MotoGP: Australian Motorcycle Grand Prix - Q2",
-          "categoria": "Motori",
-          "sottocartella": "MotoGP",
-          "sport": "Motori",
-          "competizione": "MotoGP",
-          "evento": "Australian Motorcycle Grand Prix - Q2",
-          "sessione": "qualifiche",
-          "circuito": "Phillip Island Grand Prix Circuit, Phillip Island, Australia",
-          "inizio": "2026-10-24T02:15:00+02:00",
-          "data": "24/10/2026",
-          "ora": "02:15",
-          "canali": [
-            {
-              "nome": "TV8",
-              "numero": "8",
-              "tipo": "diretta",
-              "orario": "2026-10-24T01:45",
-              "fonte": "dizzle+tv8"
-            },
-            {
-              "nome": "Sky Sport MotoGP",
-              "numero": "208",
-              "tipo": "diretta",
-              "orario": "2026-10-24T02:15",
-              "fonte": "config"
-            },
-            {
-              "nome": "NOW",
-              "numero": "",
-              "tipo": "streaming",
-              "orario": "2026-10-24T02:15",
-              "fonte": "config"
-            }
-          ],
-          "fonte": "Dizzle0987/motorsport-calendar"
-        },
         {
           "titolo": "[Motori] Moto2 e Moto3: M3 - Australian GP - Quali",
           "categoria": "Motori",
@@ -5675,7 +5571,7 @@
     },
     {
       "nome": "Motori",
-      "totale": 105,
+      "totale": 102,
       "sottocartelle": [
         {
           "nome": "Formula 1",
@@ -7133,112 +7029,8 @@
         },
         {
           "nome": "MotoGP",
-          "totale": 38,
+          "totale": 35,
           "eventi": [
-            {
-              "titolo": "MotoGP: Australian Motorcycle Grand Prix - FP2",
-              "categoria": "Motori",
-              "sottocartella": "MotoGP",
-              "sport": "Motori",
-              "competizione": "MotoGP",
-              "evento": "Australian Motorcycle Grand Prix - FP2",
-              "sessione": "prove",
-              "circuito": "Phillip Island Grand Prix Circuit, Phillip Island, Australia",
-              "inizio": "2026-10-24T01:10:00+02:00",
-              "data": "24/10/2026",
-              "ora": "01:10",
-              "canali": [
-                {
-                  "nome": "Sky Sport MotoGP",
-                  "numero": "208",
-                  "tipo": "diretta",
-                  "orario": "2026-10-24T01:10",
-                  "fonte": "dizzle+config"
-                },
-                {
-                  "nome": "NOW",
-                  "numero": "",
-                  "tipo": "streaming",
-                  "orario": "2026-10-24T01:10",
-                  "fonte": "dizzle+config"
-                }
-              ],
-              "fonte": "Dizzle0987/motorsport-calendar"
-            },
-            {
-              "titolo": "MotoGP: Australian Motorcycle Grand Prix - Q1",
-              "categoria": "Motori",
-              "sottocartella": "MotoGP",
-              "sport": "Motori",
-              "competizione": "MotoGP",
-              "evento": "Australian Motorcycle Grand Prix - Q1",
-              "sessione": "qualifiche",
-              "circuito": "Phillip Island Grand Prix Circuit, Phillip Island, Australia",
-              "inizio": "2026-10-24T01:50:00+02:00",
-              "data": "24/10/2026",
-              "ora": "01:50",
-              "canali": [
-                {
-                  "nome": "TV8",
-                  "numero": "8",
-                  "tipo": "diretta",
-                  "orario": "2026-10-24T01:45",
-                  "fonte": "dizzle+tv8"
-                },
-                {
-                  "nome": "Sky Sport MotoGP",
-                  "numero": "208",
-                  "tipo": "diretta",
-                  "orario": "2026-10-24T01:50",
-                  "fonte": "config"
-                },
-                {
-                  "nome": "NOW",
-                  "numero": "",
-                  "tipo": "streaming",
-                  "orario": "2026-10-24T01:50",
-                  "fonte": "config"
-                }
-              ],
-              "fonte": "Dizzle0987/motorsport-calendar"
-            },
-            {
-              "titolo": "MotoGP: Australian Motorcycle Grand Prix - Q2",
-              "categoria": "Motori",
-              "sottocartella": "MotoGP",
-              "sport": "Motori",
-              "competizione": "MotoGP",
-              "evento": "Australian Motorcycle Grand Prix - Q2",
-              "sessione": "qualifiche",
-              "circuito": "Phillip Island Grand Prix Circuit, Phillip Island, Australia",
-              "inizio": "2026-10-24T02:15:00+02:00",
-              "data": "24/10/2026",
-              "ora": "02:15",
-              "canali": [
-                {
-                  "nome": "TV8",
-                  "numero": "8",
-                  "tipo": "diretta",
-                  "orario": "2026-10-24T01:45",
-                  "fonte": "dizzle+tv8"
-                },
-                {
-                  "nome": "Sky Sport MotoGP",
-                  "numero": "208",
-                  "tipo": "diretta",
-                  "orario": "2026-10-24T02:15",
-                  "fonte": "config"
-                },
-                {
-                  "nome": "NOW",
-                  "numero": "",
-                  "tipo": "streaming",
-                  "orario": "2026-10-24T02:15",
-                  "fonte": "config"
-                }
-              ],
-              "fonte": "Dizzle0987/motorsport-calendar"
-            },
             {
               "titolo": "MotoGP: Australian Motorcycle Grand Prix - Sprint",
               "categoria": "Motori",
@@ -8948,7 +8740,7 @@
     },
     {
       "nome": "Calcio",
-      "totale": 77,
+      "totale": 82,
       "sottocartelle": [
         {
           "nome": "Serie A",
@@ -15498,7 +15290,7 @@
         },
         {
           "nome": "Serie C",
-          "totale": 15,
+          "totale": 17,
           "eventi": [
             {
               "titolo": "Serie C: Atalanta II vs Campobasso",
@@ -15983,12 +15775,54 @@
                 }
               ],
               "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "Serie C: AlbinoLeffe-Pergolettese",
+              "categoria": "Calcio",
+              "sottocartella": "Serie C",
+              "sport": "Calcio",
+              "competizione": "Serie C",
+              "evento": "AlbinoLeffe-Pergolettese",
+              "inizio": "2026-10-30T20:30:00+01:00",
+              "data": "30/10/2026",
+              "ora": "20:30",
+              "canali": [
+                {
+                  "nome": "Sky Sport Mix",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-30T20:30",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "Serie C: Reggiana-Sambenedettese",
+              "categoria": "Calcio",
+              "sottocartella": "Serie C",
+              "sport": "Calcio",
+              "competizione": "Serie C",
+              "evento": "Reggiana-Sambenedettese",
+              "inizio": "2026-10-30T20:30:00+01:00",
+              "data": "30/10/2026",
+              "ora": "20:30",
+              "canali": [
+                {
+                  "nome": "Sky Sport Arena",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-30T20:30",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
             }
           ]
         },
         {
           "nome": "Primavera 1",
-          "totale": 3,
+          "totale": 4,
           "eventi": [
             {
               "titolo": "Primavera 1: Juventus-Lecce",
@@ -16048,6 +15882,27 @@
                   "numero": "",
                   "tipo": "diretta",
                   "orario": "2026-10-25T15:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "Primavera 1: Inter-Roma",
+              "categoria": "Calcio",
+              "sottocartella": "Primavera 1",
+              "sport": "Calcio",
+              "competizione": "Primavera 1",
+              "evento": "Inter-Roma",
+              "inizio": "2026-10-30T18:00:00+01:00",
+              "data": "30/10/2026",
+              "ora": "18:00",
+              "canali": [
+                {
+                  "nome": "Sportitalia",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-30T18:00",
                   "fonte": "virgilio"
                 }
               ],
@@ -16210,7 +16065,7 @@
         },
         {
           "nome": "Bundesliga",
-          "totale": 4,
+          "totale": 5,
           "eventi": [
             {
               "titolo": "Bundesliga: Lipsia-Elversberg",
@@ -16291,6 +16146,27 @@
                   "numero": "",
                   "tipo": "diretta",
                   "orario": "2026-10-25T17:30",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "Bundesliga: Elversberg-Mainz",
+              "categoria": "Calcio",
+              "sottocartella": "Bundesliga",
+              "sport": "Calcio",
+              "competizione": "Bundesliga",
+              "evento": "Elversberg-Mainz",
+              "inizio": "2026-10-30T20:30:00+01:00",
+              "data": "30/10/2026",
+              "ora": "20:30",
+              "canali": [
+                {
+                  "nome": "Sky Sport Calcio",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-30T20:30",
                   "fonte": "virgilio"
                 }
               ],
@@ -16401,6 +16277,33 @@
           ]
         },
         {
+          "nome": "LaLiga",
+          "totale": 1,
+          "eventi": [
+            {
+              "titolo": "LaLiga: Barcellona-Real Madrid",
+              "categoria": "Calcio",
+              "sottocartella": "LaLiga",
+              "sport": "Calcio",
+              "competizione": "LaLiga",
+              "evento": "Barcellona-Real Madrid",
+              "inizio": "2026-10-25T21:00:00+01:00",
+              "data": "25/10/2026",
+              "ora": "21:00",
+              "canali": [
+                {
+                  "nome": "Italia 1",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-25T21:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            }
+          ]
+        },
+        {
           "nome": "Coppa Italia Serie C",
           "totale": 2,
           "eventi": [
@@ -16452,7 +16355,7 @@
     },
     {
       "nome": "Tennis",
-      "totale": 21,
+      "totale": 24,
       "sottocartelle": [
         {
           "nome": "WTA 250 Osaka",
@@ -16725,7 +16628,7 @@
         },
         {
           "nome": "ATP & WTA",
-          "totale": 9,
+          "totale": 11,
           "eventi": [
             {
               "titolo": "ATP & WTA",
@@ -16915,6 +16818,48 @@
                 }
               ],
               "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "ATP & WTA",
+              "categoria": "Tennis",
+              "sottocartella": "ATP & WTA",
+              "sport": "Tennis",
+              "competizione": "ATP & WTA",
+              "evento": "ATP & WTA",
+              "inizio": "2026-10-30T06:00:00+01:00",
+              "data": "30/10/2026",
+              "ora": "06:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport Tennis",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-30T06:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "ATP & WTA",
+              "categoria": "Tennis",
+              "sottocartella": "ATP & WTA",
+              "sport": "Tennis",
+              "competizione": "ATP & WTA",
+              "evento": "ATP & WTA",
+              "inizio": "2026-10-30T13:30:00+01:00",
+              "data": "30/10/2026",
+              "ora": "13:30",
+              "canali": [
+                {
+                  "nome": "Sky Sport 1",
+                  "numero": "201",
+                  "tipo": "diretta",
+                  "orario": "2026-10-30T13:30",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
             }
           ]
         },
@@ -16944,12 +16889,39 @@
               "fonte": "Virgilio Sport"
             }
           ]
+        },
+        {
+          "nome": "WTA 500 Tokyo",
+          "totale": 1,
+          "eventi": [
+            {
+              "titolo": "WTA 500 Tokyo: 1a Semifinale",
+              "categoria": "Tennis",
+              "sottocartella": "WTA 500 Tokyo",
+              "sport": "Tennis",
+              "competizione": "WTA 500 Tokyo",
+              "evento": "1a Semifinale",
+              "inizio": "2026-10-30T04:00:00+01:00",
+              "data": "30/10/2026",
+              "ora": "04:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport Tennis",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-30T04:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            }
+          ]
         }
       ]
     },
     {
       "nome": "Basket",
-      "totale": 18,
+      "totale": 20,
       "sottocartelle": [
         {
           "nome": "Serie A",
@@ -17257,7 +17229,7 @@
         },
         {
           "nome": "Eurolega",
-          "totale": 5,
+          "totale": 7,
           "eventi": [
             {
               "titolo": "Eurolega: Panathinaikos-Olimpia Milano",
@@ -17363,6 +17335,48 @@
                 }
               ],
               "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "Eurolega: Olympiacos-Olimpia Milano",
+              "categoria": "Basket",
+              "sottocartella": "Eurolega",
+              "sport": "Basket",
+              "competizione": "Eurolega",
+              "evento": "Olympiacos-Olimpia Milano",
+              "inizio": "2026-10-30T20:15:00+01:00",
+              "data": "30/10/2026",
+              "ora": "20:15",
+              "canali": [
+                {
+                  "nome": "Sky Sport 1",
+                  "numero": "201",
+                  "tipo": "diretta",
+                  "orario": "2026-10-30T20:15",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "Eurolega: Virtus Bologna-Besiktas",
+              "categoria": "Basket",
+              "sottocartella": "Eurolega",
+              "sport": "Basket",
+              "competizione": "Eurolega",
+              "evento": "Virtus Bologna-Besiktas",
+              "inizio": "2026-10-30T20:30:00+01:00",
+              "data": "30/10/2026",
+              "ora": "20:30",
+              "canali": [
+                {
+                  "nome": "Sky Sport Basket",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-30T20:30",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
             }
           ]
         }
@@ -17430,7 +17444,7 @@
     },
     {
       "nome": "Altri sport",
-      "totale": 8,
+      "totale": 9,
       "sottocartelle": [
         {
           "nome": "Sci alpino",
@@ -17624,6 +17638,33 @@
                   "numero": "",
                   "tipo": "diretta",
                   "orario": "2026-10-25T09:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            }
+          ]
+        },
+        {
+          "nome": "Football americano",
+          "totale": 1,
+          "eventi": [
+            {
+              "titolo": "NFL: Pittsburgh Steelers-New Orleans Saints",
+              "categoria": "Altri sport",
+              "sottocartella": "Football americano",
+              "sport": "Football americano",
+              "competizione": "NFL",
+              "evento": "Pittsburgh Steelers-New Orleans Saints",
+              "inizio": "2026-10-25T14:30:00+01:00",
+              "data": "25/10/2026",
+              "ora": "14:30",
+              "canali": [
+                {
+                  "nome": "20",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-25T14:30",
                   "fonte": "virgilio"
                 }
               ],
