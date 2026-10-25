@@ -1,147 +1,16 @@
 {
-  "aggiornato": "2026-10-25T06:19:53+01:00",
+  "aggiornato": "2026-10-25T11:11:17+01:00",
   "fonti": {
     "motori": "Fuori Traiettoria, Dizzle0987/motorsport-calendar, palinsesto TV8",
     "calcio_italiano": "https://raw.githubusercontent.com/aandroide/Livesoccer/master/livesoccertv/output/eventi.json",
     "altri_sport": "https://sport.virgilio.it/guida-tv/"
   },
-  "totale": 217,
+  "totale": 216,
   "cartelle": [
     {
       "nome": "Oggi",
-      "totale": 38,
+      "totale": 36,
       "eventi": [
-        {
-          "titolo": "[Calcio] Serie B: Arezzo vs Benevento",
-          "categoria": "Calcio",
-          "sottocartella": "Serie B",
-          "sport": "Calcio",
-          "competizione": "Serie B",
-          "evento": "Arezzo vs Benevento",
-          "inizio": "2026-10-25T05:00:00+01:00",
-          "data": "25/10/2026",
-          "ora": "05:00",
-          "canali": [
-            {
-              "nome": "DAZN Italia",
-              "numero": "",
-              "tipo": "streaming",
-              "orario": "2026-10-25T05:00",
-              "fonte": "livesoccer"
-            },
-            {
-              "nome": "LAB Channel",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-10-25T05:00",
-              "fonte": "livesoccer"
-            }
-          ],
-          "canali_mondo": [
-            {
-              "paese": "Bielorussia",
-              "canali": [
-                "Sporttv"
-              ]
-            },
-            {
-              "paese": "Gran Bretagna",
-              "canali": [
-                "DCTV"
-              ]
-            },
-            {
-              "paese": "Irlanda",
-              "canali": [
-                "DCTV"
-              ]
-            },
-            {
-              "paese": "Italia",
-              "canali": [
-                "DAZN Italia",
-                "LAB Channel"
-              ]
-            },
-            {
-              "paese": "Liechtenstein",
-              "canali": [
-                "Blue Sport 3 Live",
-                "Blue Sport"
-              ]
-            },
-            {
-              "paese": "Russia",
-              "canali": [
-                "Телеканал Футбол"
-              ]
-            },
-            {
-              "paese": "San Marino",
-              "canali": [
-                "DAZN Italia",
-                "LAB Channel"
-              ]
-            },
-            {
-              "paese": "Svizzera",
-              "canali": [
-                "Blue Sport 3 Live",
-                "Blue Sport"
-              ]
-            },
-            {
-              "paese": "Turchia",
-              "canali": [
-                "Sifir TV"
-              ]
-            },
-            {
-              "paese": "USA",
-              "canali": [
-                "DCTV"
-              ]
-            }
-          ],
-          "fonte": "LiveSoccerTV"
-        },
-        {
-          "titolo": "[Motori] MotoGP: Australian Motorcycle Grand Prix - Gara",
-          "categoria": "Motori",
-          "sottocartella": "MotoGP",
-          "sport": "Motori",
-          "competizione": "MotoGP",
-          "evento": "Australian Motorcycle Grand Prix - Gara",
-          "sessione": "gara",
-          "circuito": "Phillip Island Grand Prix Circuit, Phillip Island, Australia",
-          "inizio": "2026-10-25T06:30:00+01:00",
-          "data": "25/10/2026",
-          "ora": "06:30",
-          "canali": [
-            {
-              "nome": "Sky Sport MotoGP",
-              "numero": "208",
-              "tipo": "diretta",
-              "orario": "2026-10-25T06:30",
-              "fonte": "dizzle+config"
-            },
-            {
-              "nome": "NOW",
-              "numero": "",
-              "tipo": "streaming",
-              "orario": "2026-10-25T06:30",
-              "fonte": "dizzle+config"
-            },
-            {
-              "nome": "TV8",
-              "numero": "8",
-              "tipo": "differita",
-              "orario": "2026-10-25T13:45",
-              "fonte": "config+tv8"
-            }
-          ],
-          "fonte": "Dizzle0987/motorsport-calendar"
-        },
         {
           "titolo": "[Altri sport] Venicemarathon: .",
           "categoria": "Altri sport",
@@ -668,6 +537,7 @@
             {
               "paese": "Georgia",
               "canali": [
+                "Silk Sport HD 1",
                 "Q League"
               ]
             },
@@ -771,6 +641,7 @@
             {
               "paese": "Iran",
               "canali": [
+                "Persiana Sports",
                 "Thmanyah"
               ]
             },
@@ -1149,6 +1020,7 @@
             {
               "paese": "Romania",
               "canali": [
+                "Digi Sport 1 Romania",
                 "Prima Sport 1",
                 "Orange TV Go",
                 "Prima Play"
@@ -1247,6 +1119,7 @@
             {
               "paese": "Sudafrica",
               "canali": [
+                "MáXimo 360",
                 "StarTimes App",
                 "DStv App",
                 "SuperSport Football",
@@ -2222,6 +2095,12 @@
               ]
             },
             {
+              "paese": "Georgia",
+              "canali": [
+                "Silk Sport HD 3"
+              ]
+            },
+            {
               "paese": "Germania",
               "canali": [
                 "DAZN Deutschland"
@@ -2571,6 +2450,7 @@
             {
               "paese": "Romania",
               "canali": [
+                "Digi Sport 3 Romania",
                 "Prima Sport 2",
                 "Orange TV Go",
                 "Prima Play"
@@ -4689,7 +4569,8 @@
             {
               "paese": "Iran",
               "canali": [
-                "Thmanyah"
+                "Thmanyah",
+                "Persiana Sports 2"
               ]
             },
             {
@@ -5032,6 +4913,7 @@
             {
               "paese": "Romania",
               "canali": [
+                "Digi Sport 3 Romania",
                 "Orange TV Go",
                 "Prima Sport 4",
                 "Prima Play"
@@ -5117,6 +4999,7 @@
             {
               "paese": "Sudafrica",
               "canali": [
+                "MáXimo 360",
                 "DStv App",
                 "SuperSport Football"
               ]
@@ -5723,6 +5606,7 @@
             {
               "paese": "Georgia",
               "canali": [
+                "Silk Sport HD 1",
                 "Q League"
               ]
             },
@@ -5804,7 +5688,8 @@
               "paese": "Iran",
               "canali": [
                 "IRIB Varzesh",
-                "Thmanyah"
+                "Thmanyah",
+                "Persiana Sports 3"
               ]
             },
             {
@@ -6122,6 +6007,7 @@
             {
               "paese": "Romania",
               "canali": [
+                "Digi Sport 3 Romania",
                 "Prima Sport 2",
                 "Orange TV Go",
                 "Prima Play"
@@ -6204,6 +6090,7 @@
             {
               "paese": "Sudafrica",
               "canali": [
+                "MáXimo 360",
                 "DStv App",
                 "SuperSport Football"
               ]
@@ -6480,7 +6367,7 @@
     },
     {
       "nome": "Motori",
-      "totale": 94,
+      "totale": 93,
       "sottocartelle": [
         {
           "nome": "Formula 1",
@@ -7843,45 +7730,8 @@
         },
         {
           "nome": "MotoGP",
-          "totale": 33,
+          "totale": 32,
           "eventi": [
-            {
-              "titolo": "MotoGP: Australian Motorcycle Grand Prix - Gara",
-              "categoria": "Motori",
-              "sottocartella": "MotoGP",
-              "sport": "Motori",
-              "competizione": "MotoGP",
-              "evento": "Australian Motorcycle Grand Prix - Gara",
-              "sessione": "gara",
-              "circuito": "Phillip Island Grand Prix Circuit, Phillip Island, Australia",
-              "inizio": "2026-10-25T06:30:00+01:00",
-              "data": "25/10/2026",
-              "ora": "06:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport MotoGP",
-                  "numero": "208",
-                  "tipo": "diretta",
-                  "orario": "2026-10-25T06:30",
-                  "fonte": "dizzle+config"
-                },
-                {
-                  "nome": "NOW",
-                  "numero": "",
-                  "tipo": "streaming",
-                  "orario": "2026-10-25T06:30",
-                  "fonte": "dizzle+config"
-                },
-                {
-                  "nome": "TV8",
-                  "numero": "8",
-                  "tipo": "differita",
-                  "orario": "2026-10-25T13:45",
-                  "fonte": "config+tv8"
-                }
-              ],
-              "fonte": "Dizzle0987/motorsport-calendar"
-            },
             {
               "titolo": "MotoGP: Malaysian Grand Prix - Prove libere",
               "categoria": "Motori",
@@ -9786,6 +9636,7 @@
                 {
                   "paese": "Georgia",
                   "canali": [
+                    "Silk Sport HD 1",
                     "Q League"
                   ]
                 },
@@ -9889,6 +9740,7 @@
                 {
                   "paese": "Iran",
                   "canali": [
+                    "Persiana Sports",
                     "Thmanyah"
                   ]
                 },
@@ -10267,6 +10119,7 @@
                 {
                   "paese": "Romania",
                   "canali": [
+                    "Digi Sport 1 Romania",
                     "Prima Sport 1",
                     "Orange TV Go",
                     "Prima Play"
@@ -10365,6 +10218,7 @@
                 {
                   "paese": "Sudafrica",
                   "canali": [
+                    "MáXimo 360",
                     "StarTimes App",
                     "DStv App",
                     "SuperSport Football",
@@ -10894,6 +10748,12 @@
                   ]
                 },
                 {
+                  "paese": "Georgia",
+                  "canali": [
+                    "Silk Sport HD 3"
+                  ]
+                },
+                {
                   "paese": "Germania",
                   "canali": [
                     "DAZN Deutschland"
@@ -11243,6 +11103,7 @@
                 {
                   "paese": "Romania",
                   "canali": [
+                    "Digi Sport 3 Romania",
                     "Prima Sport 2",
                     "Orange TV Go",
                     "Prima Play"
@@ -13097,7 +12958,8 @@
                 {
                   "paese": "Iran",
                   "canali": [
-                    "Thmanyah"
+                    "Thmanyah",
+                    "Persiana Sports 2"
                   ]
                 },
                 {
@@ -13440,6 +13302,7 @@
                 {
                   "paese": "Romania",
                   "canali": [
+                    "Digi Sport 3 Romania",
                     "Orange TV Go",
                     "Prima Sport 4",
                     "Prima Play"
@@ -13525,6 +13388,7 @@
                 {
                   "paese": "Sudafrica",
                   "canali": [
+                    "MáXimo 360",
                     "DStv App",
                     "SuperSport Football"
                   ]
@@ -14068,6 +13932,7 @@
                 {
                   "paese": "Georgia",
                   "canali": [
+                    "Silk Sport HD 1",
                     "Q League"
                   ]
                 },
@@ -14149,7 +14014,8 @@
                   "paese": "Iran",
                   "canali": [
                     "IRIB Varzesh",
-                    "Thmanyah"
+                    "Thmanyah",
+                    "Persiana Sports 3"
                   ]
                 },
                 {
@@ -14467,6 +14333,7 @@
                 {
                   "paese": "Romania",
                   "canali": [
+                    "Digi Sport 3 Romania",
                     "Prima Sport 2",
                     "Orange TV Go",
                     "Prima Play"
@@ -14549,6 +14416,7 @@
                 {
                   "paese": "Sudafrica",
                   "canali": [
+                    "MáXimo 360",
                     "DStv App",
                     "SuperSport Football"
                   ]
@@ -15078,100 +14946,6 @@
           "totale": 20,
           "eventi": [
             {
-              "titolo": "Serie B: Arezzo vs Benevento",
-              "categoria": "Calcio",
-              "sottocartella": "Serie B",
-              "sport": "Calcio",
-              "competizione": "Serie B",
-              "evento": "Arezzo vs Benevento",
-              "inizio": "2026-10-25T05:00:00+01:00",
-              "data": "25/10/2026",
-              "ora": "05:00",
-              "canali": [
-                {
-                  "nome": "DAZN Italia",
-                  "numero": "",
-                  "tipo": "streaming",
-                  "orario": "2026-10-25T05:00",
-                  "fonte": "livesoccer"
-                },
-                {
-                  "nome": "LAB Channel",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-25T05:00",
-                  "fonte": "livesoccer"
-                }
-              ],
-              "canali_mondo": [
-                {
-                  "paese": "Bielorussia",
-                  "canali": [
-                    "Sporttv"
-                  ]
-                },
-                {
-                  "paese": "Gran Bretagna",
-                  "canali": [
-                    "DCTV"
-                  ]
-                },
-                {
-                  "paese": "Irlanda",
-                  "canali": [
-                    "DCTV"
-                  ]
-                },
-                {
-                  "paese": "Italia",
-                  "canali": [
-                    "DAZN Italia",
-                    "LAB Channel"
-                  ]
-                },
-                {
-                  "paese": "Liechtenstein",
-                  "canali": [
-                    "Blue Sport 3 Live",
-                    "Blue Sport"
-                  ]
-                },
-                {
-                  "paese": "Russia",
-                  "canali": [
-                    "Телеканал Футбол"
-                  ]
-                },
-                {
-                  "paese": "San Marino",
-                  "canali": [
-                    "DAZN Italia",
-                    "LAB Channel"
-                  ]
-                },
-                {
-                  "paese": "Svizzera",
-                  "canali": [
-                    "Blue Sport 3 Live",
-                    "Blue Sport"
-                  ]
-                },
-                {
-                  "paese": "Turchia",
-                  "canali": [
-                    "Sifir TV"
-                  ]
-                },
-                {
-                  "paese": "USA",
-                  "canali": [
-                    "DCTV"
-                  ]
-                }
-              ],
-              "fonte": "LiveSoccerTV"
-            },
-            {
               "titolo": "Serie B: Palermo vs Carrarese",
               "categoria": "Calcio",
               "sottocartella": "Serie B",
@@ -15321,6 +15095,35 @@
                   ]
                 }
               ],
+              "fonte": "LiveSoccerTV"
+            },
+            {
+              "titolo": "Serie B: Arezzo vs Benevento",
+              "categoria": "Calcio",
+              "sottocartella": "Serie B",
+              "sport": "Calcio",
+              "competizione": "Serie B",
+              "evento": "Arezzo vs Benevento",
+              "inizio": "2026-10-26T15:00:00+01:00",
+              "data": "26/10/2026",
+              "ora": "15:00",
+              "canali": [
+                {
+                  "nome": "DAZN Italia",
+                  "numero": "",
+                  "tipo": "streaming",
+                  "orario": "2026-10-26T15:00",
+                  "fonte": "livesoccer"
+                },
+                {
+                  "nome": "LAB Channel",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-26T15:00",
+                  "fonte": "livesoccer"
+                }
+              ],
+              "canali_mondo": [],
               "fonte": "LiveSoccerTV"
             },
             {
@@ -15683,28 +15486,7 @@
                   "fonte": "virgilio"
                 }
               ],
-              "canali_mondo": [
-                {
-                  "paese": "Italia",
-                  "canali": [
-                    "DAZN Italia",
-                    "LAB Channel"
-                  ]
-                },
-                {
-                  "paese": "Russia",
-                  "canali": [
-                    "Телеканал Футбол"
-                  ]
-                },
-                {
-                  "paese": "San Marino",
-                  "canali": [
-                    "DAZN Italia",
-                    "LAB Channel"
-                  ]
-                }
-              ],
+              "canali_mondo": [],
               "fonte": "LiveSoccerTV"
             },
             {
@@ -15717,8 +15499,52 @@
               "inizio": "2026-10-29T01:30:00+01:00",
               "data": "29/10/2026",
               "ora": "01:30",
-              "canali": [],
-              "canali_mondo": [],
+              "canali": [
+                {
+                  "nome": "DAZN Italia",
+                  "numero": "",
+                  "tipo": "streaming",
+                  "orario": "2026-10-29T01:30",
+                  "fonte": "livesoccer"
+                },
+                {
+                  "nome": "LAB Channel",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-29T01:30",
+                  "fonte": "livesoccer"
+                }
+              ],
+              "canali_mondo": [
+                {
+                  "paese": "Italia",
+                  "canali": [
+                    "DAZN Italia",
+                    "LAB Channel"
+                  ]
+                },
+                {
+                  "paese": "Liechtenstein",
+                  "canali": [
+                    "Blue Sport",
+                    "Blue Sport 2 Live"
+                  ]
+                },
+                {
+                  "paese": "San Marino",
+                  "canali": [
+                    "DAZN Italia",
+                    "LAB Channel"
+                  ]
+                },
+                {
+                  "paese": "Svizzera",
+                  "canali": [
+                    "Blue Sport",
+                    "Blue Sport 2 Live"
+                  ]
+                }
+              ],
               "fonte": "LiveSoccerTV"
             },
             {
