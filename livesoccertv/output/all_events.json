@@ -3367,8 +3367,8 @@
       "kickoff": "2026-10-25T17:15:00+01:00",
       "date": "2026-10-25",
       "time": "17:15",
-      "status": "live",
-      "score": "1:0",
+      "status": "finished",
+      "score": "1:1",
       "match_url": "https://www.livesoccertv.com/it/match/verona-vs-pisa/amzjq#5742545",
       "channels": [
         {
@@ -3414,8 +3414,8 @@
       "kickoff": "2026-10-25T17:30:00+01:00",
       "date": "2026-10-25",
       "time": "17:30",
-      "status": "live",
-      "score": "1:2",
+      "status": "finished",
+      "score": "2:2",
       "match_url": "https://www.livesoccertv.com/it/match/lecco-vs-folgore-caratese/g7izm#5720379",
       "channels": [
         {
@@ -3462,8 +3462,8 @@
       "kickoff": "2026-10-25T17:30:00+01:00",
       "date": "2026-10-25",
       "time": "17:30",
-      "status": "live",
-      "score": "0:1",
+      "status": "finished",
+      "score": "2:1",
       "match_url": "https://www.livesoccertv.com/it/match/lumezzane-vs-pergolettese/g2bji#5720380",
       "channels": [
         {
@@ -3510,8 +3510,8 @@
       "kickoff": "2026-10-25T17:30:00+01:00",
       "date": "2026-10-25",
       "time": "17:30",
-      "status": "live",
-      "score": "1:1",
+      "status": "finished",
+      "score": "2:1",
       "match_url": "https://www.livesoccertv.com/it/match/pro-vercelli-vs-ospitaletto/7fkgcl#5720381",
       "channels": [
         {
@@ -3558,8 +3558,8 @@
       "kickoff": "2026-10-25T17:30:00+01:00",
       "date": "2026-10-25",
       "time": "17:30",
-      "status": "live",
-      "score": "1:0",
+      "status": "finished",
+      "score": "2:0",
       "match_url": "https://www.livesoccertv.com/it/match/novara-vs-union-arzignanochiampo/1bspez#5720376",
       "channels": [
         {
@@ -3606,7 +3606,7 @@
       "kickoff": "2026-10-25T18:00:00+01:00",
       "date": "2026-10-25",
       "time": "18:00",
-      "status": "live",
+      "status": "finished",
       "score": "0:2",
       "match_url": "https://www.livesoccertv.com/it/match/juventus-vs-lecce/363zc#5653955",
       "channels": [
@@ -4683,8 +4683,8 @@
       "kickoff": "2026-10-25T20:45:00+01:00",
       "date": "2026-10-25",
       "time": "20:45",
-      "status": "upcoming",
-      "score": "",
+      "status": "live",
+      "score": "0:2",
       "match_url": "https://www.livesoccertv.com/it/match/milan-vs-udinese/1x14r#5653958",
       "channels": [
         {
@@ -5702,18 +5702,7 @@
       "status": "upcoming",
       "score": "",
       "match_url": "https://www.livesoccertv.com/it/match/benevento-vs-arezzo/gcx28#5820369",
-      "channels": [
-        {
-          "name": "DAZN Italia",
-          "url": "",
-          "stream": false
-        },
-        {
-          "name": "LAB Channel",
-          "url": "",
-          "stream": false
-        }
-      ],
+      "channels": [],
       "canali_mondo": []
     },
     {
@@ -9779,6 +9768,21 @@
       ]
     },
     {
+      "id": "5653965",
+      "competition": "Serie A",
+      "home": "Parma",
+      "away": "Udinese",
+      "title": "Parma vs Udinese",
+      "kickoff": "2026-10-28T18:30:00+01:00",
+      "date": "2026-10-28",
+      "time": "18:30",
+      "status": "upcoming",
+      "score": "",
+      "match_url": "https://www.livesoccertv.com/it/match/parma-vs-udinese/1xwk3#5653965",
+      "channels": [],
+      "canali_mondo": []
+    },
+    {
       "id": "5821609",
       "competition": "Serie B",
       "home": "Pisa",
@@ -9790,18 +9794,7 @@
       "status": "upcoming",
       "score": "",
       "match_url": "https://www.livesoccertv.com/it/match/palermo-vs-pisa/6j59v#5821609",
-      "channels": [
-        {
-          "name": "DAZN Italia",
-          "url": "",
-          "stream": false
-        },
-        {
-          "name": "LAB Channel",
-          "url": "",
-          "stream": false
-        }
-      ],
+      "channels": [],
       "canali_mondo": []
     },
     {
@@ -9816,18 +9809,7 @@
       "status": "upcoming",
       "score": "",
       "match_url": "https://www.livesoccertv.com/it/match/verona-vs-juve-stabia/7v0s5#5821610",
-      "channels": [
-        {
-          "name": "DAZN Italia",
-          "url": "",
-          "stream": false
-        },
-        {
-          "name": "LAB Channel",
-          "url": "",
-          "stream": false
-        }
-      ],
+      "channels": [],
       "canali_mondo": []
     },
     {
@@ -10294,6 +10276,13 @@
           ]
         },
         {
+          "paese": "Gran Bretagna",
+          "canali": [
+            "TNT Sports 2",
+            "TNT Sports 8"
+          ]
+        },
+        {
           "paese": "Grenada",
           "canali": [
             "Bluu"
@@ -10365,6 +10354,13 @@
           "paese": "Iraq",
           "canali": [
             "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Irlanda",
+          "canali": [
+            "TNT Sports 2",
+            "TNT Sports 8"
           ]
         },
         {
@@ -11352,6 +11348,13 @@
           ]
         },
         {
+          "paese": "Gran Bretagna",
+          "canali": [
+            "TNT Sports 4",
+            "TNT Sports 9"
+          ]
+        },
+        {
           "paese": "Grenada",
           "canali": [
             "Bluu"
@@ -11423,6 +11426,13 @@
           "paese": "Iraq",
           "canali": [
             "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Irlanda",
+          "canali": [
+            "TNT Sports 4",
+            "TNT Sports 9"
           ]
         },
         {
@@ -13523,6 +13533,13 @@
           ]
         },
         {
+          "paese": "Gran Bretagna",
+          "canali": [
+            "TNT Sports 1",
+            "BBC Radio 5 Live"
+          ]
+        },
+        {
           "paese": "Grenada",
           "canali": [
             "Bluu"
@@ -13594,6 +13611,13 @@
           "paese": "Iraq",
           "canali": [
             "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Irlanda",
+          "canali": [
+            "TNT Sports 1",
+            "BBC Radio 5 Live"
           ]
         },
         {
@@ -14583,6 +14607,12 @@
           ]
         },
         {
+          "paese": "Gran Bretagna",
+          "canali": [
+            "TNT Sports 6"
+          ]
+        },
+        {
           "paese": "Grenada",
           "canali": [
             "Bluu"
@@ -14654,6 +14684,12 @@
           "paese": "Iraq",
           "canali": [
             "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Irlanda",
+          "canali": [
+            "TNT Sports 6"
           ]
         },
         {
@@ -18009,6 +18045,7 @@
         {
           "paese": "Gran Bretagna",
           "canali": [
+            "TNT Sports 4",
             "HBO Max"
           ]
         },
@@ -18066,6 +18103,7 @@
         {
           "paese": "Irlanda",
           "canali": [
+            "TNT Sports 4",
             "HBO Max"
           ]
         },
@@ -19127,6 +19165,7 @@
         {
           "paese": "Gran Bretagna",
           "canali": [
+            "TNT Sports 7",
             "HBO Max"
           ]
         },
@@ -19164,6 +19203,7 @@
         {
           "paese": "Irlanda",
           "canali": [
+            "TNT Sports 7",
             "HBO Max"
           ]
         },
