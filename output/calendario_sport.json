@@ -1,136 +1,16 @@
 {
-  "aggiornato": "2026-10-25T02:45:56+02:00",
+  "aggiornato": "2026-10-25T05:53:53+01:00",
   "fonti": {
     "motori": "Fuori Traiettoria, Dizzle0987/motorsport-calendar, palinsesto TV8",
     "calcio_italiano": "https://raw.githubusercontent.com/aandroide/Livesoccer/master/livesoccertv/output/eventi.json",
     "altri_sport": "https://sport.virgilio.it/guida-tv/"
   },
-  "totale": 221,
+  "totale": 216,
   "cartelle": [
     {
       "nome": "Oggi",
-      "totale": 42,
+      "totale": 37,
       "eventi": [
-        {
-          "titolo": "[Motori] MotoGP: Australian Motorcycle Grand Prix - Warm Up",
-          "categoria": "Motori",
-          "sottocartella": "MotoGP",
-          "sport": "Motori",
-          "competizione": "MotoGP",
-          "evento": "Australian Motorcycle Grand Prix - Warm Up",
-          "sessione": "prove",
-          "circuito": "Phillip Island Grand Prix Circuit, Phillip Island, Australia",
-          "inizio": "2026-10-25T00:40:00+02:00",
-          "data": "25/10/2026",
-          "ora": "00:40",
-          "canali": [
-            {
-              "nome": "Sky Sport MotoGP",
-              "numero": "208",
-              "tipo": "diretta",
-              "orario": "2026-10-25T00:40",
-              "fonte": "dizzle+config"
-            },
-            {
-              "nome": "NOW",
-              "numero": "",
-              "tipo": "streaming",
-              "orario": "2026-10-25T00:40",
-              "fonte": "dizzle+config"
-            }
-          ],
-          "fonte": "Dizzle0987/motorsport-calendar"
-        },
-        {
-          "titolo": "[Motori] Moto2 e Moto3: M3 - Australian GP - Race",
-          "categoria": "Motori",
-          "sottocartella": "Moto2 e Moto3",
-          "sport": "Motori",
-          "competizione": "Moto2 e Moto3",
-          "evento": "M3 - Australian GP - Race",
-          "sessione": "gara",
-          "circuito": "Circuito di Phillip Island, 381 Back Beach Rd, Ventnor VIC 3922, Australia",
-          "inizio": "2026-10-25T01:00:00+02:00",
-          "data": "25/10/2026",
-          "ora": "01:00",
-          "canali": [
-            {
-              "nome": "TV8",
-              "numero": "8",
-              "tipo": "differita",
-              "orario": "2026-10-25T10:45",
-              "programma": "GP Australia: Gara",
-              "fonte": "tv8"
-            }
-          ],
-          "fonte": "Fuori Traiettoria"
-        },
-        {
-          "titolo": "[Motori] Moto2 e Moto3: M2 - Australian GP - Race",
-          "categoria": "Motori",
-          "sottocartella": "Moto2 e Moto3",
-          "sport": "Motori",
-          "competizione": "Moto2 e Moto3",
-          "evento": "M2 - Australian GP - Race",
-          "sessione": "gara",
-          "circuito": "Circuito di Phillip Island, 381 Back Beach Rd, Ventnor VIC 3922, Australia",
-          "inizio": "2026-10-25T02:15:00+02:00",
-          "data": "25/10/2026",
-          "ora": "02:15",
-          "canali": [
-            {
-              "nome": "TV8",
-              "numero": "8",
-              "tipo": "differita",
-              "orario": "2026-10-25T10:45",
-              "programma": "GP Australia: Gara",
-              "fonte": "tv8"
-            }
-          ],
-          "fonte": "Fuori Traiettoria"
-        },
-        {
-          "titolo": "[Calcio] Liga Profesional: Rosario Central-Huracan",
-          "categoria": "Calcio",
-          "sottocartella": "Liga Profesional",
-          "sport": "Calcio",
-          "competizione": "Liga Profesional",
-          "evento": "Rosario Central-Huracan",
-          "inizio": "2026-10-25T02:30:00+02:00",
-          "data": "25/10/2026",
-          "ora": "02:30",
-          "canali": [
-            {
-              "nome": "Sportitalia",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-10-25T02:30",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Tennis] ATP & WTA",
-          "categoria": "Tennis",
-          "sottocartella": "ATP & WTA",
-          "sport": "Tennis",
-          "competizione": "ATP & WTA",
-          "evento": "ATP & WTA",
-          "inizio": "2026-10-25T02:30:00+02:00",
-          "data": "25/10/2026",
-          "ora": "02:30",
-          "canali": [
-            {
-              "nome": "Sky Sport Tennis",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-10-25T02:30",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
         {
           "titolo": "[Motori] MotoGP: Australian Motorcycle Grand Prix - Gara",
           "categoria": "Motori",
@@ -140,22 +20,22 @@
           "evento": "Australian Motorcycle Grand Prix - Gara",
           "sessione": "gara",
           "circuito": "Phillip Island Grand Prix Circuit, Phillip Island, Australia",
-          "inizio": "2026-10-25T04:00:00+01:00",
+          "inizio": "2026-10-25T06:30:00+01:00",
           "data": "25/10/2026",
-          "ora": "04:00",
+          "ora": "06:30",
           "canali": [
             {
               "nome": "Sky Sport MotoGP",
               "numero": "208",
               "tipo": "diretta",
-              "orario": "2026-10-25T04:00",
+              "orario": "2026-10-25T06:30",
               "fonte": "dizzle+config"
             },
             {
               "nome": "NOW",
               "numero": "",
               "tipo": "streaming",
-              "orario": "2026-10-25T04:00",
+              "orario": "2026-10-25T06:30",
               "fonte": "dizzle+config"
             },
             {
@@ -6504,7 +6384,7 @@
     },
     {
       "nome": "Motori",
-      "totale": 97,
+      "totale": 94,
       "sottocartelle": [
         {
           "nome": "Formula 1",
@@ -7867,38 +7747,8 @@
         },
         {
           "nome": "MotoGP",
-          "totale": 34,
+          "totale": 33,
           "eventi": [
-            {
-              "titolo": "MotoGP: Australian Motorcycle Grand Prix - Warm Up",
-              "categoria": "Motori",
-              "sottocartella": "MotoGP",
-              "sport": "Motori",
-              "competizione": "MotoGP",
-              "evento": "Australian Motorcycle Grand Prix - Warm Up",
-              "sessione": "prove",
-              "circuito": "Phillip Island Grand Prix Circuit, Phillip Island, Australia",
-              "inizio": "2026-10-25T00:40:00+02:00",
-              "data": "25/10/2026",
-              "ora": "00:40",
-              "canali": [
-                {
-                  "nome": "Sky Sport MotoGP",
-                  "numero": "208",
-                  "tipo": "diretta",
-                  "orario": "2026-10-25T00:40",
-                  "fonte": "dizzle+config"
-                },
-                {
-                  "nome": "NOW",
-                  "numero": "",
-                  "tipo": "streaming",
-                  "orario": "2026-10-25T00:40",
-                  "fonte": "dizzle+config"
-                }
-              ],
-              "fonte": "Dizzle0987/motorsport-calendar"
-            },
             {
               "titolo": "MotoGP: Australian Motorcycle Grand Prix - Gara",
               "categoria": "Motori",
@@ -7908,22 +7758,22 @@
               "evento": "Australian Motorcycle Grand Prix - Gara",
               "sessione": "gara",
               "circuito": "Phillip Island Grand Prix Circuit, Phillip Island, Australia",
-              "inizio": "2026-10-25T04:00:00+01:00",
+              "inizio": "2026-10-25T06:30:00+01:00",
               "data": "25/10/2026",
-              "ora": "04:00",
+              "ora": "06:30",
               "canali": [
                 {
                   "nome": "Sky Sport MotoGP",
                   "numero": "208",
                   "tipo": "diretta",
-                  "orario": "2026-10-25T04:00",
+                  "orario": "2026-10-25T06:30",
                   "fonte": "dizzle+config"
                 },
                 {
                   "nome": "NOW",
                   "numero": "",
                   "tipo": "streaming",
-                  "orario": "2026-10-25T04:00",
+                  "orario": "2026-10-25T06:30",
                   "fonte": "dizzle+config"
                 },
                 {
@@ -8986,56 +8836,8 @@
         },
         {
           "nome": "Moto2 e Moto3",
-          "totale": 17,
+          "totale": 15,
           "eventi": [
-            {
-              "titolo": "Moto2 e Moto3: M3 - Australian GP - Race",
-              "categoria": "Motori",
-              "sottocartella": "Moto2 e Moto3",
-              "sport": "Motori",
-              "competizione": "Moto2 e Moto3",
-              "evento": "M3 - Australian GP - Race",
-              "sessione": "gara",
-              "circuito": "Circuito di Phillip Island, 381 Back Beach Rd, Ventnor VIC 3922, Australia",
-              "inizio": "2026-10-25T01:00:00+02:00",
-              "data": "25/10/2026",
-              "ora": "01:00",
-              "canali": [
-                {
-                  "nome": "TV8",
-                  "numero": "8",
-                  "tipo": "differita",
-                  "orario": "2026-10-25T10:45",
-                  "programma": "GP Australia: Gara",
-                  "fonte": "tv8"
-                }
-              ],
-              "fonte": "Fuori Traiettoria"
-            },
-            {
-              "titolo": "Moto2 e Moto3: M2 - Australian GP - Race",
-              "categoria": "Motori",
-              "sottocartella": "Moto2 e Moto3",
-              "sport": "Motori",
-              "competizione": "Moto2 e Moto3",
-              "evento": "M2 - Australian GP - Race",
-              "sessione": "gara",
-              "circuito": "Circuito di Phillip Island, 381 Back Beach Rd, Ventnor VIC 3922, Australia",
-              "inizio": "2026-10-25T02:15:00+02:00",
-              "data": "25/10/2026",
-              "ora": "02:15",
-              "canali": [
-                {
-                  "nome": "TV8",
-                  "numero": "8",
-                  "tipo": "differita",
-                  "orario": "2026-10-25T10:45",
-                  "programma": "GP Australia: Gara",
-                  "fonte": "tv8"
-                }
-              ],
-              "fonte": "Fuori Traiettoria"
-            },
             {
               "titolo": "Moto2 e Moto3: M3 - Malaysian GP - Quali",
               "categoria": "Motori",
@@ -9489,7 +9291,7 @@
     },
     {
       "nome": "Calcio",
-      "totale": 72,
+      "totale": 71,
       "sottocartelle": [
         {
           "nome": "Serie A",
@@ -16295,75 +16097,6 @@
           ]
         },
         {
-          "nome": "Liga Profesional",
-          "totale": 3,
-          "eventi": [
-            {
-              "titolo": "Liga Profesional: Rosario Central-Huracan",
-              "categoria": "Calcio",
-              "sottocartella": "Liga Profesional",
-              "sport": "Calcio",
-              "competizione": "Liga Profesional",
-              "evento": "Rosario Central-Huracan",
-              "inizio": "2026-10-25T02:30:00+02:00",
-              "data": "25/10/2026",
-              "ora": "02:30",
-              "canali": [
-                {
-                  "nome": "Sportitalia",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-25T02:30",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "Liga Profesional: River Plate-Racing",
-              "categoria": "Calcio",
-              "sottocartella": "Liga Profesional",
-              "sport": "Calcio",
-              "competizione": "Liga Profesional",
-              "evento": "River Plate-Racing",
-              "inizio": "2026-10-25T23:15:00+01:00",
-              "data": "25/10/2026",
-              "ora": "23:15",
-              "canali": [
-                {
-                  "nome": "Sportitalia",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-25T23:15",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "Liga Profesional: Racing-Aldosivi",
-              "categoria": "Calcio",
-              "sottocartella": "Liga Profesional",
-              "sport": "Calcio",
-              "competizione": "Liga Profesional",
-              "evento": "Racing-Aldosivi",
-              "inizio": "2026-10-31T01:15:00+01:00",
-              "data": "31/10/2026",
-              "ora": "01:15",
-              "canali": [
-                {
-                  "nome": "Sportitalia",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-31T01:15",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            }
-          ]
-        },
-        {
           "nome": "Premier League",
           "totale": 7,
           "eventi": [
@@ -16724,6 +16457,54 @@
           ]
         },
         {
+          "nome": "Liga Profesional",
+          "totale": 2,
+          "eventi": [
+            {
+              "titolo": "Liga Profesional: River Plate-Racing",
+              "categoria": "Calcio",
+              "sottocartella": "Liga Profesional",
+              "sport": "Calcio",
+              "competizione": "Liga Profesional",
+              "evento": "River Plate-Racing",
+              "inizio": "2026-10-25T23:15:00+01:00",
+              "data": "25/10/2026",
+              "ora": "23:15",
+              "canali": [
+                {
+                  "nome": "Sportitalia",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-25T23:15",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "Liga Profesional: Racing-Aldosivi",
+              "categoria": "Calcio",
+              "sottocartella": "Liga Profesional",
+              "sport": "Calcio",
+              "competizione": "Liga Profesional",
+              "evento": "Racing-Aldosivi",
+              "inizio": "2026-10-31T01:15:00+01:00",
+              "data": "31/10/2026",
+              "ora": "01:15",
+              "canali": [
+                {
+                  "nome": "Sportitalia",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-31T01:15",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            }
+          ]
+        },
+        {
           "nome": "Coppa Italia Serie C",
           "totale": 2,
           "eventi": [
@@ -16802,33 +16583,120 @@
     },
     {
       "nome": "Tennis",
-      "totale": 24,
+      "totale": 23,
       "sottocartelle": [
         {
-          "nome": "ATP & WTA",
-          "totale": 11,
+          "nome": "WTA 500 Ningbo",
+          "totale": 1,
           "eventi": [
             {
-              "titolo": "ATP & WTA",
+              "titolo": "WTA 500 Ningbo: Finale",
               "categoria": "Tennis",
-              "sottocartella": "ATP & WTA",
+              "sottocartella": "WTA 500 Ningbo",
               "sport": "Tennis",
-              "competizione": "ATP & WTA",
-              "evento": "ATP & WTA",
-              "inizio": "2026-10-25T02:30:00+02:00",
+              "competizione": "WTA 500 Ningbo",
+              "evento": "Finale",
+              "inizio": "2026-10-25T10:00:00+01:00",
               "data": "25/10/2026",
-              "ora": "02:30",
+              "ora": "10:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport Max",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-25T10:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            }
+          ]
+        },
+        {
+          "nome": "ATP 250 Almaty",
+          "totale": 1,
+          "eventi": [
+            {
+              "titolo": "ATP 250 Almaty: Finale",
+              "categoria": "Tennis",
+              "sottocartella": "ATP 250 Almaty",
+              "sport": "Tennis",
+              "competizione": "ATP 250 Almaty",
+              "evento": "Finale",
+              "inizio": "2026-10-25T11:00:00+01:00",
+              "data": "25/10/2026",
+              "ora": "11:00",
               "canali": [
                 {
                   "nome": "Sky Sport Tennis",
                   "numero": "",
                   "tipo": "diretta",
-                  "orario": "2026-10-25T02:30",
+                  "orario": "2026-10-25T11:00",
                   "fonte": "virgilio"
                 }
               ],
               "fonte": "Virgilio Sport"
-            },
+            }
+          ]
+        },
+        {
+          "nome": "ATP 250 Lione",
+          "totale": 1,
+          "eventi": [
+            {
+              "titolo": "ATP 250 Lione: Finale",
+              "categoria": "Tennis",
+              "sottocartella": "ATP 250 Lione",
+              "sport": "Tennis",
+              "competizione": "ATP 250 Lione",
+              "evento": "Finale",
+              "inizio": "2026-10-25T14:30:00+01:00",
+              "data": "25/10/2026",
+              "ora": "14:30",
+              "canali": [
+                {
+                  "nome": "Sky Sport Tennis",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-25T14:30",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            }
+          ]
+        },
+        {
+          "nome": "ATP 250 Bruxelles",
+          "totale": 1,
+          "eventi": [
+            {
+              "titolo": "ATP 250 Bruxelles: Finale",
+              "categoria": "Tennis",
+              "sottocartella": "ATP 250 Bruxelles",
+              "sport": "Tennis",
+              "competizione": "ATP 250 Bruxelles",
+              "evento": "Finale",
+              "inizio": "2026-10-25T16:30:00+01:00",
+              "data": "25/10/2026",
+              "ora": "16:30",
+              "canali": [
+                {
+                  "nome": "Sky Sport Tennis",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-25T16:30",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            }
+          ]
+        },
+        {
+          "nome": "ATP & WTA",
+          "totale": 10,
+          "eventi": [
             {
               "titolo": "ATP & WTA",
               "categoria": "Tennis",
@@ -17034,114 +16902,6 @@
                   "numero": "201",
                   "tipo": "diretta",
                   "orario": "2026-10-30T13:30",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            }
-          ]
-        },
-        {
-          "nome": "WTA 500 Ningbo",
-          "totale": 1,
-          "eventi": [
-            {
-              "titolo": "WTA 500 Ningbo: Finale",
-              "categoria": "Tennis",
-              "sottocartella": "WTA 500 Ningbo",
-              "sport": "Tennis",
-              "competizione": "WTA 500 Ningbo",
-              "evento": "Finale",
-              "inizio": "2026-10-25T10:00:00+01:00",
-              "data": "25/10/2026",
-              "ora": "10:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Max",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-25T10:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            }
-          ]
-        },
-        {
-          "nome": "ATP 250 Almaty",
-          "totale": 1,
-          "eventi": [
-            {
-              "titolo": "ATP 250 Almaty: Finale",
-              "categoria": "Tennis",
-              "sottocartella": "ATP 250 Almaty",
-              "sport": "Tennis",
-              "competizione": "ATP 250 Almaty",
-              "evento": "Finale",
-              "inizio": "2026-10-25T11:00:00+01:00",
-              "data": "25/10/2026",
-              "ora": "11:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Tennis",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-25T11:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            }
-          ]
-        },
-        {
-          "nome": "ATP 250 Lione",
-          "totale": 1,
-          "eventi": [
-            {
-              "titolo": "ATP 250 Lione: Finale",
-              "categoria": "Tennis",
-              "sottocartella": "ATP 250 Lione",
-              "sport": "Tennis",
-              "competizione": "ATP 250 Lione",
-              "evento": "Finale",
-              "inizio": "2026-10-25T14:30:00+01:00",
-              "data": "25/10/2026",
-              "ora": "14:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport Tennis",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-25T14:30",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            }
-          ]
-        },
-        {
-          "nome": "ATP 250 Bruxelles",
-          "totale": 1,
-          "eventi": [
-            {
-              "titolo": "ATP 250 Bruxelles: Finale",
-              "categoria": "Tennis",
-              "sottocartella": "ATP 250 Bruxelles",
-              "sport": "Tennis",
-              "competizione": "ATP 250 Bruxelles",
-              "evento": "Finale",
-              "inizio": "2026-10-25T16:30:00+01:00",
-              "data": "25/10/2026",
-              "ora": "16:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport Tennis",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-25T16:30",
                   "fonte": "virgilio"
                 }
               ],
