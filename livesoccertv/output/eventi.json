@@ -1,97 +1,77 @@
 {
   "eventi": [
     {
-      "competizione": "Serie C",
-      "titolo": "Monopoli vs Audace Cerignola",
+      "competizione": "Serie B",
+      "titolo": "Arezzo vs Benevento",
       "data": "2026-10-25",
-      "ora": "12:30",
+      "ora": "05:00",
       "canali": [
-        "Sky Sport 257",
-        "SKY Go Italia",
-        "NOW TV",
-        "Sky Sport Mix"
+        "DAZN Italia",
+        "LAB Channel"
       ],
       "canali_mondo": [
         {
+          "paese": "Bielorussia",
+          "canali": [
+            "Sporttv"
+          ]
+        },
+        {
+          "paese": "Gran Bretagna",
+          "canali": [
+            "DCTV"
+          ]
+        },
+        {
+          "paese": "Irlanda",
+          "canali": [
+            "DCTV"
+          ]
+        },
+        {
           "paese": "Italia",
           "canali": [
-            "Sky Sport 257",
-            "SKY Go Italia",
-            "NOW TV",
-            "Sky Sport Mix"
+            "DAZN Italia",
+            "LAB Channel"
+          ]
+        },
+        {
+          "paese": "Liechtenstein",
+          "canali": [
+            "Blue Sport 3 Live",
+            "Blue Sport"
+          ]
+        },
+        {
+          "paese": "Russia",
+          "canali": [
+            "Телеканал Футбол"
           ]
         },
         {
           "paese": "San Marino",
           "canali": [
-            "Sky Sport 257",
-            "SKY Go Italia",
-            "NOW TV",
-            "Sky Sport Mix"
-          ]
-        }
-      ]
-    },
-    {
-      "competizione": "Serie C",
-      "titolo": "Renate vs AlbinoLeffe",
-      "data": "2026-10-25",
-      "ora": "12:30",
-      "canali": [
-        "Sky Sport 258",
-        "SKY Go Italia",
-        "Sky Sport Max",
-        "NOW TV"
-      ],
-      "canali_mondo": [
-        {
-          "paese": "Italia",
-          "canali": [
-            "Sky Sport 258",
-            "SKY Go Italia",
-            "Sky Sport Max",
-            "NOW TV"
+            "DAZN Italia",
+            "LAB Channel"
           ]
         },
         {
-          "paese": "San Marino",
+          "paese": "Svizzera",
           "canali": [
-            "Sky Sport 258",
-            "SKY Go Italia",
-            "Sky Sport Max",
-            "NOW TV"
-          ]
-        }
-      ]
-    },
-    {
-      "competizione": "Serie C",
-      "titolo": "Trento vs Juventus II",
-      "data": "2026-10-25",
-      "ora": "12:30",
-      "canali": [
-        "Sky Sport 252",
-        "SKY Go Italia",
-        "Sky Sport Calcio",
-        "NOW TV"
-      ],
-      "canali_mondo": [
-        {
-          "paese": "Italia",
-          "canali": [
-            "Sky Sport 252",
-            "SKY Go Italia",
-            "Sky Sport Calcio",
-            "NOW TV"
+            "Blue Sport 3 Live",
+            "Blue Sport"
           ]
         },
         {
-          "paese": "San Marino",
+          "paese": "Turchia",
           "canali": [
-            "Sky Sport 252",
-            "SKY Go Italia",
-            "Sky Sport Calcio",
-            "NOW TV"
+            "Sifir TV"
+          ]
+        },
+        {
+          "paese": "USA",
+          "canali": [
+            "DCTV"
           ]
         }
       ]
@@ -1225,7 +1205,8 @@
           "paese": "Venezuela",
           "canali": [
             "ESPN Colombia",
-            "Disney+ Premium Sur"
+            "Disney+ Premium Sur",
+            "inter"
           ]
         },
         {
@@ -1246,6 +1227,102 @@
           "paese": "Zambia",
           "canali": [
             "StarTimes App"
+          ]
+        }
+      ]
+    },
+    {
+      "competizione": "Serie C",
+      "titolo": "Monopoli vs Audace Cerignola",
+      "data": "2026-10-25",
+      "ora": "12:30",
+      "canali": [
+        "Sky Sport 257",
+        "SKY Go Italia",
+        "NOW TV",
+        "Sky Sport Mix"
+      ],
+      "canali_mondo": [
+        {
+          "paese": "Italia",
+          "canali": [
+            "Sky Sport 257",
+            "SKY Go Italia",
+            "NOW TV",
+            "Sky Sport Mix"
+          ]
+        },
+        {
+          "paese": "San Marino",
+          "canali": [
+            "Sky Sport 257",
+            "SKY Go Italia",
+            "NOW TV",
+            "Sky Sport Mix"
+          ]
+        }
+      ]
+    },
+    {
+      "competizione": "Serie C",
+      "titolo": "Renate vs AlbinoLeffe",
+      "data": "2026-10-25",
+      "ora": "12:30",
+      "canali": [
+        "Sky Sport 258",
+        "SKY Go Italia",
+        "Sky Sport Max",
+        "NOW TV"
+      ],
+      "canali_mondo": [
+        {
+          "paese": "Italia",
+          "canali": [
+            "Sky Sport 258",
+            "SKY Go Italia",
+            "Sky Sport Max",
+            "NOW TV"
+          ]
+        },
+        {
+          "paese": "San Marino",
+          "canali": [
+            "Sky Sport 258",
+            "SKY Go Italia",
+            "Sky Sport Max",
+            "NOW TV"
+          ]
+        }
+      ]
+    },
+    {
+      "competizione": "Serie C",
+      "titolo": "Trento vs Juventus II",
+      "data": "2026-10-25",
+      "ora": "12:30",
+      "canali": [
+        "Sky Sport 252",
+        "SKY Go Italia",
+        "Sky Sport Calcio",
+        "NOW TV"
+      ],
+      "canali_mondo": [
+        {
+          "paese": "Italia",
+          "canali": [
+            "Sky Sport 252",
+            "SKY Go Italia",
+            "Sky Sport Calcio",
+            "NOW TV"
+          ]
+        },
+        {
+          "paese": "San Marino",
+          "canali": [
+            "Sky Sport 252",
+            "SKY Go Italia",
+            "Sky Sport Calcio",
+            "NOW TV"
           ]
         }
       ]
@@ -1304,76 +1381,6 @@
             "Sky Sport 253",
             "SKY Go Italia",
             "NOW TV"
-          ]
-        }
-      ]
-    },
-    {
-      "competizione": "Serie B",
-      "titolo": "Palermo vs Carrarese",
-      "data": "2026-10-25",
-      "ora": "15:00",
-      "canali": [
-        "DAZN Italia",
-        "LAB Channel"
-      ],
-      "canali_mondo": [
-        {
-          "paese": "Brasile",
-          "canali": [
-            "SportyNet"
-          ]
-        },
-        {
-          "paese": "Gran Bretagna",
-          "canali": [
-            "DCTV"
-          ]
-        },
-        {
-          "paese": "Irlanda",
-          "canali": [
-            "DCTV"
-          ]
-        },
-        {
-          "paese": "Italia",
-          "canali": [
-            "DAZN Italia",
-            "LAB Channel"
-          ]
-        },
-        {
-          "paese": "Liechtenstein",
-          "canali": [
-            "Blue Sport",
-            "Blue Sport 1 Live"
-          ]
-        },
-        {
-          "paese": "San Marino",
-          "canali": [
-            "DAZN Italia",
-            "LAB Channel"
-          ]
-        },
-        {
-          "paese": "Svizzera",
-          "canali": [
-            "Blue Sport",
-            "Blue Sport 1 Live"
-          ]
-        },
-        {
-          "paese": "Turchia",
-          "canali": [
-            "Sifir TV"
-          ]
-        },
-        {
-          "paese": "USA",
-          "canali": [
-            "DCTV"
           ]
         }
       ]
@@ -3360,6 +3367,76 @@
           "canali": [
             "DStv Now",
             "SS OTT 2"
+          ]
+        }
+      ]
+    },
+    {
+      "competizione": "Serie B",
+      "titolo": "Palermo vs Carrarese",
+      "data": "2026-10-25",
+      "ora": "15:00",
+      "canali": [
+        "DAZN Italia",
+        "LAB Channel"
+      ],
+      "canali_mondo": [
+        {
+          "paese": "Brasile",
+          "canali": [
+            "SportyNet"
+          ]
+        },
+        {
+          "paese": "Gran Bretagna",
+          "canali": [
+            "DCTV"
+          ]
+        },
+        {
+          "paese": "Irlanda",
+          "canali": [
+            "DCTV"
+          ]
+        },
+        {
+          "paese": "Italia",
+          "canali": [
+            "DAZN Italia",
+            "LAB Channel"
+          ]
+        },
+        {
+          "paese": "Liechtenstein",
+          "canali": [
+            "Blue Sport",
+            "Blue Sport 1 Live"
+          ]
+        },
+        {
+          "paese": "San Marino",
+          "canali": [
+            "DAZN Italia",
+            "LAB Channel"
+          ]
+        },
+        {
+          "paese": "Svizzera",
+          "canali": [
+            "Blue Sport",
+            "Blue Sport 1 Live"
+          ]
+        },
+        {
+          "paese": "Turchia",
+          "canali": [
+            "Sifir TV"
+          ]
+        },
+        {
+          "paese": "USA",
+          "canali": [
+            "DCTV"
           ]
         }
       ]
@@ -5420,7 +5497,8 @@
           "paese": "Venezuela",
           "canali": [
             "ESPN Colombia",
-            "Disney+ Premium Sur"
+            "Disney+ Premium Sur",
+            "inter"
           ]
         },
         {
@@ -5568,17 +5646,35 @@
         "DAZN Italia",
         "LAB Channel"
       ],
-      "canali_mondo": []
+      "canali_mondo": [
+        {
+          "paese": "Italia",
+          "canali": [
+            "DAZN Italia",
+            "LAB Channel"
+          ]
+        },
+        {
+          "paese": "Russia",
+          "canali": [
+            "Телеканал Футбол"
+          ]
+        },
+        {
+          "paese": "San Marino",
+          "canali": [
+            "DAZN Italia",
+            "LAB Channel"
+          ]
+        }
+      ]
     },
     {
       "competizione": "Serie B",
       "titolo": "Juve Stabia vs Verona",
       "data": "2026-10-29",
       "ora": "01:30",
-      "canali": [
-        "DAZN Italia",
-        "LAB Channel"
-      ],
+      "canali": [],
       "canali_mondo": []
     },
     {
