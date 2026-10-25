@@ -1,37 +1,16 @@
 {
-  "aggiornato": "2026-10-25T21:57:25+01:00",
+  "aggiornato": "2026-10-25T22:30:15+01:00",
   "fonti": {
     "motori": "Fuori Traiettoria, Dizzle0987/motorsport-calendar, palinsesto TV8",
     "calcio_italiano": "https://raw.githubusercontent.com/aandroide/Livesoccer/master/livesoccertv/output/eventi.json",
     "altri_sport": "https://sport.virgilio.it/guida-tv/"
   },
-  "totale": 187,
+  "totale": 186,
   "cartelle": [
     {
       "nome": "Oggi",
-      "totale": 6,
+      "totale": 5,
       "eventi": [
-        {
-          "titolo": "[Altri sport] Qualificazioni Mondiali: Italia-Bulgaria",
-          "categoria": "Altri sport",
-          "sottocartella": "Pallamano maschile",
-          "sport": "Pallamano maschile",
-          "competizione": "Qualificazioni Mondiali 2027",
-          "evento": "Italia-Bulgaria",
-          "inizio": "2026-10-25T19:00:00+01:00",
-          "data": "25/10/2026",
-          "ora": "19:00",
-          "canali": [
-            {
-              "nome": "Sky Sport Max",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-10-25T19:00",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
         {
           "titolo": "[Basket] Serie A2: Brindisi-Avellino",
           "categoria": "Basket",
@@ -8727,12 +8706,12 @@
               "fonte": "LiveSoccerTV"
             },
             {
-              "titolo": "Serie A: Parma-Udinese",
+              "titolo": "Serie A: Parma vs Udinese",
               "categoria": "Calcio",
               "sottocartella": "Serie A",
               "sport": "Calcio",
               "competizione": "Serie A",
-              "evento": "Parma-Udinese",
+              "evento": "Parma vs Udinese",
               "inizio": "2026-10-28T18:30:00+01:00",
               "data": "28/10/2026",
               "ora": "18:30",
@@ -8745,7 +8724,8 @@
                   "fonte": "virgilio"
                 }
               ],
-              "fonte": "Virgilio Sport"
+              "canali_mondo": [],
+              "fonte": "LiveSoccerTV"
             },
             {
               "titolo": "Serie A: Venezia-Inter",
@@ -8987,22 +8967,7 @@
               "inizio": "2026-10-26T15:00:00+01:00",
               "data": "26/10/2026",
               "ora": "15:00",
-              "canali": [
-                {
-                  "nome": "DAZN Italia",
-                  "numero": "",
-                  "tipo": "streaming",
-                  "orario": "2026-10-26T15:00",
-                  "fonte": "livesoccer"
-                },
-                {
-                  "nome": "LAB Channel",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-26T15:00",
-                  "fonte": "livesoccer"
-                }
-              ],
+              "canali": [],
               "canali_mondo": [],
               "fonte": "LiveSoccerTV"
             },
@@ -9405,20 +9370,6 @@
               "ora": "23:30",
               "canali": [
                 {
-                  "nome": "DAZN Italia",
-                  "numero": "",
-                  "tipo": "streaming",
-                  "orario": "2026-10-28T23:30",
-                  "fonte": "livesoccer"
-                },
-                {
-                  "nome": "LAB Channel",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-28T23:30",
-                  "fonte": "livesoccer"
-                },
-                {
                   "nome": "DAZN",
                   "numero": "",
                   "tipo": "diretta",
@@ -9439,22 +9390,7 @@
               "inizio": "2026-10-29T01:30:00+01:00",
               "data": "29/10/2026",
               "ora": "01:30",
-              "canali": [
-                {
-                  "nome": "DAZN Italia",
-                  "numero": "",
-                  "tipo": "streaming",
-                  "orario": "2026-10-29T01:30",
-                  "fonte": "livesoccer"
-                },
-                {
-                  "nome": "LAB Channel",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-29T01:30",
-                  "fonte": "livesoccer"
-                }
-              ],
+              "canali": [],
               "canali_mondo": [],
               "fonte": "LiveSoccerTV"
             },
@@ -11105,35 +11041,8 @@
     },
     {
       "nome": "Altri sport",
-      "totale": 3,
+      "totale": 2,
       "sottocartelle": [
-        {
-          "nome": "Pallamano maschile",
-          "totale": 1,
-          "eventi": [
-            {
-              "titolo": "Qualificazioni Mondiali: Italia-Bulgaria",
-              "categoria": "Altri sport",
-              "sottocartella": "Pallamano maschile",
-              "sport": "Pallamano maschile",
-              "competizione": "Qualificazioni Mondiali 2027",
-              "evento": "Italia-Bulgaria",
-              "inizio": "2026-10-25T19:00:00+01:00",
-              "data": "25/10/2026",
-              "ora": "19:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Max",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-25T19:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            }
-          ]
-        },
         {
           "nome": "Rugby",
           "totale": 2,
