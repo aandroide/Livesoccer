@@ -1,82 +1,6 @@
 {
   "eventi": [
     {
-      "competizione": "Serie B",
-      "titolo": "Arezzo vs Benevento",
-      "data": "2026-10-25",
-      "ora": "05:00",
-      "canali": [
-        "DAZN Italia",
-        "LAB Channel"
-      ],
-      "canali_mondo": [
-        {
-          "paese": "Bielorussia",
-          "canali": [
-            "Sporttv"
-          ]
-        },
-        {
-          "paese": "Gran Bretagna",
-          "canali": [
-            "DCTV"
-          ]
-        },
-        {
-          "paese": "Irlanda",
-          "canali": [
-            "DCTV"
-          ]
-        },
-        {
-          "paese": "Italia",
-          "canali": [
-            "DAZN Italia",
-            "LAB Channel"
-          ]
-        },
-        {
-          "paese": "Liechtenstein",
-          "canali": [
-            "Blue Sport 3 Live",
-            "Blue Sport"
-          ]
-        },
-        {
-          "paese": "Russia",
-          "canali": [
-            "Телеканал Футбол"
-          ]
-        },
-        {
-          "paese": "San Marino",
-          "canali": [
-            "DAZN Italia",
-            "LAB Channel"
-          ]
-        },
-        {
-          "paese": "Svizzera",
-          "canali": [
-            "Blue Sport 3 Live",
-            "Blue Sport"
-          ]
-        },
-        {
-          "paese": "Turchia",
-          "canali": [
-            "Sifir TV"
-          ]
-        },
-        {
-          "paese": "USA",
-          "canali": [
-            "DCTV"
-          ]
-        }
-      ]
-    },
-    {
       "competizione": "Serie A",
       "titolo": "Internazionale vs Fiorentina",
       "data": "2026-10-25",
@@ -445,6 +369,7 @@
         {
           "paese": "Georgia",
           "canali": [
+            "Silk Sport HD 1",
             "Q League"
           ]
         },
@@ -548,6 +473,7 @@
         {
           "paese": "Iran",
           "canali": [
+            "Persiana Sports",
             "Thmanyah"
           ]
         },
@@ -926,6 +852,7 @@
         {
           "paese": "Romania",
           "canali": [
+            "Digi Sport 1 Romania",
             "Prima Sport 1",
             "Orange TV Go",
             "Prima Play"
@@ -1024,6 +951,7 @@
         {
           "paese": "Sudafrica",
           "canali": [
+            "MáXimo 360",
             "StarTimes App",
             "DStv App",
             "SuperSport Football",
@@ -1682,6 +1610,12 @@
           ]
         },
         {
+          "paese": "Georgia",
+          "canali": [
+            "Silk Sport HD 3"
+          ]
+        },
+        {
           "paese": "Germania",
           "canali": [
             "DAZN Deutschland"
@@ -2031,6 +1965,7 @@
         {
           "paese": "Romania",
           "canali": [
+            "Digi Sport 3 Romania",
             "Prima Sport 2",
             "Orange TV Go",
             "Prima Play"
@@ -3912,7 +3847,8 @@
         {
           "paese": "Iran",
           "canali": [
-            "Thmanyah"
+            "Thmanyah",
+            "Persiana Sports 2"
           ]
         },
         {
@@ -4255,6 +4191,7 @@
         {
           "paese": "Romania",
           "canali": [
+            "Digi Sport 3 Romania",
             "Orange TV Go",
             "Prima Sport 4",
             "Prima Play"
@@ -4340,6 +4277,7 @@
         {
           "paese": "Sudafrica",
           "canali": [
+            "MáXimo 360",
             "DStv App",
             "SuperSport Football"
           ]
@@ -4858,6 +4796,7 @@
         {
           "paese": "Georgia",
           "canali": [
+            "Silk Sport HD 1",
             "Q League"
           ]
         },
@@ -4939,7 +4878,8 @@
           "paese": "Iran",
           "canali": [
             "IRIB Varzesh",
-            "Thmanyah"
+            "Thmanyah",
+            "Persiana Sports 3"
           ]
         },
         {
@@ -5257,6 +5197,7 @@
         {
           "paese": "Romania",
           "canali": [
+            "Digi Sport 3 Romania",
             "Prima Sport 2",
             "Orange TV Go",
             "Prima Play"
@@ -5339,6 +5280,7 @@
         {
           "paese": "Sudafrica",
           "canali": [
+            "MáXimo 360",
             "DStv App",
             "SuperSport Football"
           ]
@@ -5519,6 +5461,17 @@
     },
     {
       "competizione": "Serie B",
+      "titolo": "Arezzo vs Benevento",
+      "data": "2026-10-26",
+      "ora": "15:00",
+      "canali": [
+        "DAZN Italia",
+        "LAB Channel"
+      ],
+      "canali_mondo": []
+    },
+    {
+      "competizione": "Serie B",
       "titolo": "Empoli vs Lr Vicenza",
       "data": "2026-10-26",
       "ora": "17:00",
@@ -5646,6 +5599,17 @@
         "DAZN Italia",
         "LAB Channel"
       ],
+      "canali_mondo": []
+    },
+    {
+      "competizione": "Serie B",
+      "titolo": "Juve Stabia vs Verona",
+      "data": "2026-10-29",
+      "ora": "01:30",
+      "canali": [
+        "DAZN Italia",
+        "LAB Channel"
+      ],
       "canali_mondo": [
         {
           "paese": "Italia",
@@ -5655,9 +5619,10 @@
           ]
         },
         {
-          "paese": "Russia",
+          "paese": "Liechtenstein",
           "canali": [
-            "Телеканал Футбол"
+            "Blue Sport",
+            "Blue Sport 2 Live"
           ]
         },
         {
@@ -5666,16 +5631,15 @@
             "DAZN Italia",
             "LAB Channel"
           ]
+        },
+        {
+          "paese": "Svizzera",
+          "canali": [
+            "Blue Sport",
+            "Blue Sport 2 Live"
+          ]
         }
       ]
-    },
-    {
-      "competizione": "Serie B",
-      "titolo": "Juve Stabia vs Verona",
-      "data": "2026-10-29",
-      "ora": "01:30",
-      "canali": [],
-      "canali_mondo": []
     },
     {
       "competizione": "UEFA Champions League",
