@@ -1,16 +1,110 @@
 {
-  "aggiornato": "2026-10-25T05:53:53+01:00",
+  "aggiornato": "2026-10-25T06:19:53+01:00",
   "fonti": {
     "motori": "Fuori Traiettoria, Dizzle0987/motorsport-calendar, palinsesto TV8",
     "calcio_italiano": "https://raw.githubusercontent.com/aandroide/Livesoccer/master/livesoccertv/output/eventi.json",
     "altri_sport": "https://sport.virgilio.it/guida-tv/"
   },
-  "totale": 216,
+  "totale": 217,
   "cartelle": [
     {
       "nome": "Oggi",
-      "totale": 37,
+      "totale": 38,
       "eventi": [
+        {
+          "titolo": "[Calcio] Serie B: Arezzo vs Benevento",
+          "categoria": "Calcio",
+          "sottocartella": "Serie B",
+          "sport": "Calcio",
+          "competizione": "Serie B",
+          "evento": "Arezzo vs Benevento",
+          "inizio": "2026-10-25T05:00:00+01:00",
+          "data": "25/10/2026",
+          "ora": "05:00",
+          "canali": [
+            {
+              "nome": "DAZN Italia",
+              "numero": "",
+              "tipo": "streaming",
+              "orario": "2026-10-25T05:00",
+              "fonte": "livesoccer"
+            },
+            {
+              "nome": "LAB Channel",
+              "numero": "",
+              "tipo": "diretta",
+              "orario": "2026-10-25T05:00",
+              "fonte": "livesoccer"
+            }
+          ],
+          "canali_mondo": [
+            {
+              "paese": "Bielorussia",
+              "canali": [
+                "Sporttv"
+              ]
+            },
+            {
+              "paese": "Gran Bretagna",
+              "canali": [
+                "DCTV"
+              ]
+            },
+            {
+              "paese": "Irlanda",
+              "canali": [
+                "DCTV"
+              ]
+            },
+            {
+              "paese": "Italia",
+              "canali": [
+                "DAZN Italia",
+                "LAB Channel"
+              ]
+            },
+            {
+              "paese": "Liechtenstein",
+              "canali": [
+                "Blue Sport 3 Live",
+                "Blue Sport"
+              ]
+            },
+            {
+              "paese": "Russia",
+              "canali": [
+                "Телеканал Футбол"
+              ]
+            },
+            {
+              "paese": "San Marino",
+              "canali": [
+                "DAZN Italia",
+                "LAB Channel"
+              ]
+            },
+            {
+              "paese": "Svizzera",
+              "canali": [
+                "Blue Sport 3 Live",
+                "Blue Sport"
+              ]
+            },
+            {
+              "paese": "Turchia",
+              "canali": [
+                "Sifir TV"
+              ]
+            },
+            {
+              "paese": "USA",
+              "canali": [
+                "DCTV"
+              ]
+            }
+          ],
+          "fonte": "LiveSoccerTV"
+        },
         {
           "titolo": "[Motori] MotoGP: Australian Motorcycle Grand Prix - Gara",
           "categoria": "Motori",
@@ -1334,7 +1428,8 @@
               "paese": "Venezuela",
               "canali": [
                 "ESPN Colombia",
-                "Disney+ Premium Sur"
+                "Disney+ Premium Sur",
+                "inter"
               ]
             },
             {
@@ -6267,7 +6362,8 @@
               "paese": "Venezuela",
               "canali": [
                 "ESPN Colombia",
-                "Disney+ Premium Sur"
+                "Disney+ Premium Sur",
+                "inter"
               ]
             },
             {
@@ -9291,7 +9387,7 @@
     },
     {
       "nome": "Calcio",
-      "totale": 71,
+      "totale": 72,
       "sottocartelle": [
         {
           "nome": "Serie A",
@@ -10450,7 +10546,8 @@
                   "paese": "Venezuela",
                   "canali": [
                     "ESPN Colombia",
-                    "Disney+ Premium Sur"
+                    "Disney+ Premium Sur",
+                    "inter"
                   ]
                 },
                 {
@@ -14610,7 +14707,8 @@
                   "paese": "Venezuela",
                   "canali": [
                     "ESPN Colombia",
-                    "Disney+ Premium Sur"
+                    "Disney+ Premium Sur",
+                    "inter"
                   ]
                 },
                 {
@@ -14977,8 +15075,102 @@
         },
         {
           "nome": "Serie B",
-          "totale": 19,
+          "totale": 20,
           "eventi": [
+            {
+              "titolo": "Serie B: Arezzo vs Benevento",
+              "categoria": "Calcio",
+              "sottocartella": "Serie B",
+              "sport": "Calcio",
+              "competizione": "Serie B",
+              "evento": "Arezzo vs Benevento",
+              "inizio": "2026-10-25T05:00:00+01:00",
+              "data": "25/10/2026",
+              "ora": "05:00",
+              "canali": [
+                {
+                  "nome": "DAZN Italia",
+                  "numero": "",
+                  "tipo": "streaming",
+                  "orario": "2026-10-25T05:00",
+                  "fonte": "livesoccer"
+                },
+                {
+                  "nome": "LAB Channel",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-25T05:00",
+                  "fonte": "livesoccer"
+                }
+              ],
+              "canali_mondo": [
+                {
+                  "paese": "Bielorussia",
+                  "canali": [
+                    "Sporttv"
+                  ]
+                },
+                {
+                  "paese": "Gran Bretagna",
+                  "canali": [
+                    "DCTV"
+                  ]
+                },
+                {
+                  "paese": "Irlanda",
+                  "canali": [
+                    "DCTV"
+                  ]
+                },
+                {
+                  "paese": "Italia",
+                  "canali": [
+                    "DAZN Italia",
+                    "LAB Channel"
+                  ]
+                },
+                {
+                  "paese": "Liechtenstein",
+                  "canali": [
+                    "Blue Sport 3 Live",
+                    "Blue Sport"
+                  ]
+                },
+                {
+                  "paese": "Russia",
+                  "canali": [
+                    "Телеканал Футбол"
+                  ]
+                },
+                {
+                  "paese": "San Marino",
+                  "canali": [
+                    "DAZN Italia",
+                    "LAB Channel"
+                  ]
+                },
+                {
+                  "paese": "Svizzera",
+                  "canali": [
+                    "Blue Sport 3 Live",
+                    "Blue Sport"
+                  ]
+                },
+                {
+                  "paese": "Turchia",
+                  "canali": [
+                    "Sifir TV"
+                  ]
+                },
+                {
+                  "paese": "USA",
+                  "canali": [
+                    "DCTV"
+                  ]
+                }
+              ],
+              "fonte": "LiveSoccerTV"
+            },
             {
               "titolo": "Serie B: Palermo vs Carrarese",
               "categoria": "Calcio",
@@ -15491,7 +15683,28 @@
                   "fonte": "virgilio"
                 }
               ],
-              "canali_mondo": [],
+              "canali_mondo": [
+                {
+                  "paese": "Italia",
+                  "canali": [
+                    "DAZN Italia",
+                    "LAB Channel"
+                  ]
+                },
+                {
+                  "paese": "Russia",
+                  "canali": [
+                    "Телеканал Футбол"
+                  ]
+                },
+                {
+                  "paese": "San Marino",
+                  "canali": [
+                    "DAZN Italia",
+                    "LAB Channel"
+                  ]
+                }
+              ],
               "fonte": "LiveSoccerTV"
             },
             {
@@ -15504,22 +15717,7 @@
               "inizio": "2026-10-29T01:30:00+01:00",
               "data": "29/10/2026",
               "ora": "01:30",
-              "canali": [
-                {
-                  "nome": "DAZN Italia",
-                  "numero": "",
-                  "tipo": "streaming",
-                  "orario": "2026-10-29T01:30",
-                  "fonte": "livesoccer"
-                },
-                {
-                  "nome": "LAB Channel",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-29T01:30",
-                  "fonte": "livesoccer"
-                }
-              ],
+              "canali": [],
               "canali_mondo": [],
               "fonte": "LiveSoccerTV"
             },
