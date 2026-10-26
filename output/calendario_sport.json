@@ -1,51 +1,16 @@
 {
-  "aggiornato": "2026-10-26T15:50:47+01:00",
+  "aggiornato": "2026-10-26T21:22:54+01:00",
   "fonti": {
     "motori": "Fuori Traiettoria, Dizzle0987/motorsport-calendar, palinsesto TV8",
     "calcio_italiano": "https://raw.githubusercontent.com/aandroide/Livesoccer/master/livesoccertv/output/eventi.json",
     "altri_sport": "https://sport.virgilio.it/guida-tv/"
   },
-  "totale": 206,
+  "totale": 204,
   "cartelle": [
     {
       "nome": "Oggi",
-      "totale": 4,
+      "totale": 2,
       "eventi": [
-        {
-          "titolo": "[Tennis] ATP & WTA",
-          "categoria": "Tennis",
-          "sottocartella": "ATP & WTA",
-          "sport": "Tennis",
-          "competizione": "ATP & WTA",
-          "evento": "ATP & WTA",
-          "inizio": "2026-10-26T13:30:00+01:00",
-          "data": "26/10/2026",
-          "ora": "13:30",
-          "canali": [
-            {
-              "nome": "Sky Sport 1",
-              "numero": "201",
-              "tipo": "diretta",
-              "orario": "2026-10-26T13:30",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Calcio] Serie B: Empoli vs Lr Vicenza",
-          "categoria": "Calcio",
-          "sottocartella": "Serie B",
-          "sport": "Calcio",
-          "competizione": "Serie B",
-          "evento": "Empoli vs Lr Vicenza",
-          "inizio": "2026-10-26T17:00:00+01:00",
-          "data": "26/10/2026",
-          "ora": "17:00",
-          "canali": [],
-          "canali_mondo": [],
-          "fonte": "LiveSoccerTV"
-        },
         {
           "titolo": "[Calcio] Serie C: Crotone vs Virtus Casarano",
           "categoria": "Calcio",
@@ -3000,7 +2965,7 @@
     },
     {
       "nome": "Calcio",
-      "totale": 73,
+      "totale": 72,
       "sottocartelle": [
         {
           "nome": "Serie A",
@@ -3530,6 +3495,7 @@
                   "paese": "Kenya",
                   "canali": [
                     "StarTimes App",
+                    "Azam Sports 3 HD",
                     "Sporty TV",
                     "Sporty TV App"
                   ]
@@ -3601,7 +3567,8 @@
                 {
                   "paese": "Malawi",
                   "canali": [
-                    "StarTimes App"
+                    "StarTimes App",
+                    "Azam Sports 3 HD"
                   ]
                 },
                 {
@@ -3687,6 +3654,12 @@
                     "StarTimes App",
                     "Sporty TV",
                     "Sporty TV App"
+                  ]
+                },
+                {
+                  "paese": "Birmania",
+                  "canali": [
+                    "M Channel Sport"
                   ]
                 },
                 {
@@ -3818,6 +3791,7 @@
                   "paese": "Ruanda",
                   "canali": [
                     "StarTimes App",
+                    "Azam Sports 3 HD",
                     "Sporty TV",
                     "Sporty TV App"
                   ]
@@ -3967,6 +3941,7 @@
                   "paese": "Tanzania",
                   "canali": [
                     "StarTimes App",
+                    "Azam Sports 3 HD",
                     "Sporty TV",
                     "Sporty TV App"
                   ]
@@ -4003,6 +3978,7 @@
                   "paese": "Uganda",
                   "canali": [
                     "StarTimes App",
+                    "Azam Sports 3 HD",
                     "Sporty TV",
                     "Sporty TV App"
                   ]
@@ -4034,7 +4010,9 @@
                     "Paramount+",
                     "fuboTV",
                     "Peacock",
-                    "UNIVERSO"
+                    "Telemundo Deportes En Vivo",
+                    "UNIVERSO",
+                    "UNIVERSO NOW"
                   ]
                 },
                 {
@@ -4062,7 +4040,14 @@
                 {
                   "paese": "Zambia",
                   "canali": [
-                    "StarTimes App"
+                    "StarTimes App",
+                    "Azam Sports 3 HD"
+                  ]
+                },
+                {
+                  "paese": "Zimbabwe",
+                  "canali": [
+                    "Azam Sports 3 HD"
                   ]
                 }
               ],
@@ -8048,22 +8033,8 @@
         },
         {
           "nome": "Serie B",
-          "totale": 22,
+          "totale": 21,
           "eventi": [
-            {
-              "titolo": "Serie B: Empoli vs Lr Vicenza",
-              "categoria": "Calcio",
-              "sottocartella": "Serie B",
-              "sport": "Calcio",
-              "competizione": "Serie B",
-              "evento": "Empoli vs Lr Vicenza",
-              "inizio": "2026-10-26T17:00:00+01:00",
-              "data": "26/10/2026",
-              "ora": "17:00",
-              "canali": [],
-              "canali_mondo": [],
-              "fonte": "LiveSoccerTV"
-            },
             {
               "titolo": "Serie B: Benevento vs Catanzaro",
               "categoria": "Calcio",
@@ -8149,6 +8120,12 @@
                 }
               ],
               "canali_mondo": [
+                {
+                  "paese": "Bielorussia",
+                  "canali": [
+                    "Sporttv"
+                  ]
+                },
                 {
                   "paese": "Brasile",
                   "canali": [
@@ -8533,7 +8510,36 @@
                   "fonte": "livesoccer"
                 }
               ],
-              "canali_mondo": [],
+              "canali_mondo": [
+                {
+                  "paese": "Italia",
+                  "canali": [
+                    "DAZN Italia",
+                    "LAB Channel"
+                  ]
+                },
+                {
+                  "paese": "Liechtenstein",
+                  "canali": [
+                    "Blue Sport",
+                    "Blue Sport 2 Live"
+                  ]
+                },
+                {
+                  "paese": "San Marino",
+                  "canali": [
+                    "DAZN Italia",
+                    "LAB Channel"
+                  ]
+                },
+                {
+                  "paese": "Svizzera",
+                  "canali": [
+                    "Blue Sport",
+                    "Blue Sport 2 Live"
+                  ]
+                }
+              ],
               "fonte": "LiveSoccerTV"
             },
             {
@@ -9041,16 +9047,30 @@
               "fonte": "LiveSoccerTV"
             },
             {
-              "titolo": "Serie C: Reggiana-Sambenedettese",
+              "titolo": "Serie C: Reggiana vs Sambenedettese",
               "categoria": "Calcio",
               "sottocartella": "Serie C",
               "sport": "Calcio",
               "competizione": "Serie C",
-              "evento": "Reggiana-Sambenedettese",
+              "evento": "Reggiana vs Sambenedettese",
               "inizio": "2026-10-30T20:30:00+01:00",
               "data": "30/10/2026",
               "ora": "20:30",
               "canali": [
+                {
+                  "nome": "SKY Go Italia",
+                  "numero": "",
+                  "tipo": "streaming",
+                  "orario": "2026-10-30T20:30",
+                  "fonte": "livesoccer"
+                },
+                {
+                  "nome": "NOW TV",
+                  "numero": "",
+                  "tipo": "streaming",
+                  "orario": "2026-10-30T20:30",
+                  "fonte": "livesoccer"
+                },
                 {
                   "nome": "Sky Sport Arena",
                   "numero": "",
@@ -9059,19 +9079,49 @@
                   "fonte": "virgilio"
                 }
               ],
-              "fonte": "Virgilio Sport"
+              "canali_mondo": [
+                {
+                  "paese": "Italia",
+                  "canali": [
+                    "SKY Go Italia",
+                    "NOW TV"
+                  ]
+                },
+                {
+                  "paese": "San Marino",
+                  "canali": [
+                    "SKY Go Italia",
+                    "NOW TV"
+                  ]
+                }
+              ],
+              "fonte": "LiveSoccerTV"
             },
             {
-              "titolo": "Serie C: Audace Cerignola-Catania",
+              "titolo": "Serie C: Audace Cerignola vs Catania",
               "categoria": "Calcio",
               "sottocartella": "Serie C",
               "sport": "Calcio",
               "competizione": "Serie C",
-              "evento": "Audace Cerignola-Catania",
+              "evento": "Audace Cerignola vs Catania",
               "inizio": "2026-10-31T14:30:00+01:00",
               "data": "31/10/2026",
               "ora": "14:30",
               "canali": [
+                {
+                  "nome": "SKY Go Italia",
+                  "numero": "",
+                  "tipo": "streaming",
+                  "orario": "2026-10-31T14:30",
+                  "fonte": "livesoccer"
+                },
+                {
+                  "nome": "NOW TV",
+                  "numero": "",
+                  "tipo": "streaming",
+                  "orario": "2026-10-31T14:30",
+                  "fonte": "livesoccer"
+                },
                 {
                   "nome": "Sky Sport Calcio",
                   "numero": "",
@@ -9080,7 +9130,23 @@
                   "fonte": "virgilio"
                 }
               ],
-              "fonte": "Virgilio Sport"
+              "canali_mondo": [
+                {
+                  "paese": "Italia",
+                  "canali": [
+                    "SKY Go Italia",
+                    "NOW TV"
+                  ]
+                },
+                {
+                  "paese": "San Marino",
+                  "canali": [
+                    "SKY Go Italia",
+                    "NOW TV"
+                  ]
+                }
+              ],
+              "fonte": "LiveSoccerTV"
             },
             {
               "titolo": "Serie C: Guidonia Montecelio-Perugia",
@@ -9198,6 +9264,13 @@
               "data": "01/11/2026",
               "ora": "15:00",
               "canali": [
+                {
+                  "nome": "Rai 2",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-01T15:00",
+                  "fonte": "virgilio"
+                },
                 {
                   "nome": "Sky Sport Calcio",
                   "numero": "",
@@ -9676,33 +9749,12 @@
     },
     {
       "nome": "Tennis",
-      "totale": 21,
+      "totale": 20,
       "sottocartelle": [
         {
           "nome": "ATP & WTA",
-          "totale": 9,
+          "totale": 8,
           "eventi": [
-            {
-              "titolo": "ATP & WTA",
-              "categoria": "Tennis",
-              "sottocartella": "ATP & WTA",
-              "sport": "Tennis",
-              "competizione": "ATP & WTA",
-              "evento": "ATP & WTA",
-              "inizio": "2026-10-26T13:30:00+01:00",
-              "data": "26/10/2026",
-              "ora": "13:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport 1",
-                  "numero": "201",
-                  "tipo": "diretta",
-                  "orario": "2026-10-26T13:30",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
             {
               "titolo": "ATP & WTA",
               "categoria": "Tennis",
@@ -9899,27 +9951,6 @@
               "fonte": "Virgilio Sport"
             },
             {
-              "titolo": "WTA 500 Tokyo: Finale",
-              "categoria": "Tennis",
-              "sottocartella": "WTA 500 Tokyo",
-              "sport": "Tennis",
-              "competizione": "WTA 500 Tokyo",
-              "evento": "Finale",
-              "inizio": "2026-10-31T04:00:00+01:00",
-              "data": "31/10/2026",
-              "ora": "04:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Tennis",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-31T04:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
               "titolo": "WTA 500 Tokyo: 2a Semifinale",
               "categoria": "Tennis",
               "sottocartella": "WTA 500 Tokyo",
@@ -9935,6 +9966,27 @@
                   "numero": "",
                   "tipo": "diretta",
                   "orario": "2026-10-31T06:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "WTA 500 Tokyo: Finale",
+              "categoria": "Tennis",
+              "sottocartella": "WTA 500 Tokyo",
+              "sport": "Tennis",
+              "competizione": "WTA 500 Tokyo",
+              "evento": "Finale",
+              "inizio": "2026-11-01T04:00:00+01:00",
+              "data": "01/11/2026",
+              "ora": "04:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport Tennis",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-01T04:00",
                   "fonte": "virgilio"
                 }
               ],
