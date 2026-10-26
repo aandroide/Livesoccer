@@ -1,14 +1,6 @@
 {
   "eventi": [
     {
-      "competizione": "Serie B",
-      "titolo": "Empoli vs Lr Vicenza",
-      "data": "2026-10-26",
-      "ora": "17:00",
-      "canali": [],
-      "canali_mondo": []
-    },
-    {
       "competizione": "Serie C",
       "titolo": "Crotone vs Virtus Casarano",
       "data": "2026-10-26",
@@ -601,6 +593,7 @@
           "paese": "Kenya",
           "canali": [
             "StarTimes App",
+            "Azam Sports 3 HD",
             "Sporty TV",
             "Sporty TV App"
           ]
@@ -672,7 +665,8 @@
         {
           "paese": "Malawi",
           "canali": [
-            "StarTimes App"
+            "StarTimes App",
+            "Azam Sports 3 HD"
           ]
         },
         {
@@ -758,6 +752,12 @@
             "StarTimes App",
             "Sporty TV",
             "Sporty TV App"
+          ]
+        },
+        {
+          "paese": "Birmania",
+          "canali": [
+            "M Channel Sport"
           ]
         },
         {
@@ -889,6 +889,7 @@
           "paese": "Ruanda",
           "canali": [
             "StarTimes App",
+            "Azam Sports 3 HD",
             "Sporty TV",
             "Sporty TV App"
           ]
@@ -1038,6 +1039,7 @@
           "paese": "Tanzania",
           "canali": [
             "StarTimes App",
+            "Azam Sports 3 HD",
             "Sporty TV",
             "Sporty TV App"
           ]
@@ -1074,6 +1076,7 @@
           "paese": "Uganda",
           "canali": [
             "StarTimes App",
+            "Azam Sports 3 HD",
             "Sporty TV",
             "Sporty TV App"
           ]
@@ -1105,7 +1108,9 @@
             "Paramount+",
             "fuboTV",
             "Peacock",
-            "UNIVERSO"
+            "Telemundo Deportes En Vivo",
+            "UNIVERSO",
+            "UNIVERSO NOW"
           ]
         },
         {
@@ -1133,7 +1138,14 @@
         {
           "paese": "Zambia",
           "canali": [
-            "StarTimes App"
+            "StarTimes App",
+            "Azam Sports 3 HD"
+          ]
+        },
+        {
+          "paese": "Zimbabwe",
+          "canali": [
+            "Azam Sports 3 HD"
           ]
         }
       ]
@@ -1174,6 +1186,12 @@
         "LAB Channel"
       ],
       "canali_mondo": [
+        {
+          "paese": "Bielorussia",
+          "canali": [
+            "Sporttv"
+          ]
+        },
         {
           "paese": "Brasile",
           "canali": [
@@ -4900,7 +4918,36 @@
         "DAZN Italia",
         "LAB Channel"
       ],
-      "canali_mondo": []
+      "canali_mondo": [
+        {
+          "paese": "Italia",
+          "canali": [
+            "DAZN Italia",
+            "LAB Channel"
+          ]
+        },
+        {
+          "paese": "Liechtenstein",
+          "canali": [
+            "Blue Sport",
+            "Blue Sport 2 Live"
+          ]
+        },
+        {
+          "paese": "San Marino",
+          "canali": [
+            "DAZN Italia",
+            "LAB Channel"
+          ]
+        },
+        {
+          "paese": "Svizzera",
+          "canali": [
+            "Blue Sport",
+            "Blue Sport 2 Live"
+          ]
+        }
+      ]
     },
     {
       "competizione": "UEFA Champions League",
@@ -4915,6 +4962,58 @@
       "titolo": "AlbinoLeffe vs Pergolettese",
       "data": "2026-10-30",
       "ora": "20:30",
+      "canali": [
+        "SKY Go Italia",
+        "NOW TV"
+      ],
+      "canali_mondo": [
+        {
+          "paese": "Italia",
+          "canali": [
+            "SKY Go Italia",
+            "NOW TV"
+          ]
+        },
+        {
+          "paese": "San Marino",
+          "canali": [
+            "SKY Go Italia",
+            "NOW TV"
+          ]
+        }
+      ]
+    },
+    {
+      "competizione": "Serie C",
+      "titolo": "Reggiana vs Sambenedettese",
+      "data": "2026-10-30",
+      "ora": "20:30",
+      "canali": [
+        "SKY Go Italia",
+        "NOW TV"
+      ],
+      "canali_mondo": [
+        {
+          "paese": "Italia",
+          "canali": [
+            "SKY Go Italia",
+            "NOW TV"
+          ]
+        },
+        {
+          "paese": "San Marino",
+          "canali": [
+            "SKY Go Italia",
+            "NOW TV"
+          ]
+        }
+      ]
+    },
+    {
+      "competizione": "Serie C",
+      "titolo": "Audace Cerignola vs Catania",
+      "data": "2026-10-31",
+      "ora": "14:30",
       "canali": [
         "SKY Go Italia",
         "NOW TV"

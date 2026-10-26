@@ -9,7 +9,7 @@
       "kickoff": "2026-10-26T17:00:00+01:00",
       "date": "2026-10-26",
       "time": "17:00",
-      "status": "upcoming",
+      "status": "finished",
       "score": "",
       "match_url": "https://www.livesoccertv.com/it/match/empoli-vs-lr-vicenza/13vwv27tq#5820370",
       "channels": [],
@@ -24,8 +24,8 @@
       "kickoff": "2026-10-26T20:30:00+01:00",
       "date": "2026-10-26",
       "time": "20:30",
-      "status": "upcoming",
-      "score": "",
+      "status": "live",
+      "score": "0:0",
       "match_url": "https://www.livesoccertv.com/it/match/crotone-vs-virtus-casarano/aw5gs#5800732",
       "channels": [
         {
@@ -79,8 +79,8 @@
       "kickoff": "2026-10-26T20:30:00+01:00",
       "date": "2026-10-26",
       "time": "20:30",
-      "status": "upcoming",
-      "score": "",
+      "status": "live",
+      "score": "1:0",
       "match_url": "https://www.livesoccertv.com/it/match/salernitana-vs-picerno/2bqax8#5800733",
       "channels": [
         {
@@ -688,6 +688,7 @@
           "paese": "Kenya",
           "canali": [
             "StarTimes App",
+            "Azam Sports 3 HD",
             "Sporty TV",
             "Sporty TV App"
           ]
@@ -759,7 +760,8 @@
         {
           "paese": "Malawi",
           "canali": [
-            "StarTimes App"
+            "StarTimes App",
+            "Azam Sports 3 HD"
           ]
         },
         {
@@ -845,6 +847,12 @@
             "StarTimes App",
             "Sporty TV",
             "Sporty TV App"
+          ]
+        },
+        {
+          "paese": "Birmania",
+          "canali": [
+            "M Channel Sport"
           ]
         },
         {
@@ -976,6 +984,7 @@
           "paese": "Ruanda",
           "canali": [
             "StarTimes App",
+            "Azam Sports 3 HD",
             "Sporty TV",
             "Sporty TV App"
           ]
@@ -1125,6 +1134,7 @@
           "paese": "Tanzania",
           "canali": [
             "StarTimes App",
+            "Azam Sports 3 HD",
             "Sporty TV",
             "Sporty TV App"
           ]
@@ -1161,6 +1171,7 @@
           "paese": "Uganda",
           "canali": [
             "StarTimes App",
+            "Azam Sports 3 HD",
             "Sporty TV",
             "Sporty TV App"
           ]
@@ -1192,7 +1203,9 @@
             "Paramount+",
             "fuboTV",
             "Peacock",
-            "UNIVERSO"
+            "Telemundo Deportes En Vivo",
+            "UNIVERSO",
+            "UNIVERSO NOW"
           ]
         },
         {
@@ -1220,7 +1233,14 @@
         {
           "paese": "Zambia",
           "canali": [
-            "StarTimes App"
+            "StarTimes App",
+            "Azam Sports 3 HD"
+          ]
+        },
+        {
+          "paese": "Zimbabwe",
+          "canali": [
+            "Azam Sports 3 HD"
           ]
         }
       ]
@@ -1291,6 +1311,12 @@
         }
       ],
       "canali_mondo": [
+        {
+          "paese": "Bielorussia",
+          "canali": [
+            "Sporttv"
+          ]
+        },
         {
           "paese": "Brasile",
           "canali": [
@@ -5183,7 +5209,36 @@
           "stream": false
         }
       ],
-      "canali_mondo": []
+      "canali_mondo": [
+        {
+          "paese": "Italia",
+          "canali": [
+            "DAZN Italia",
+            "LAB Channel"
+          ]
+        },
+        {
+          "paese": "Liechtenstein",
+          "canali": [
+            "Blue Sport",
+            "Blue Sport 2 Live"
+          ]
+        },
+        {
+          "paese": "San Marino",
+          "canali": [
+            "DAZN Italia",
+            "LAB Channel"
+          ]
+        },
+        {
+          "paese": "Svizzera",
+          "canali": [
+            "Blue Sport",
+            "Blue Sport 2 Live"
+          ]
+        }
+      ]
     },
     {
       "id": "5821981",
@@ -5212,6 +5267,88 @@
       "status": "upcoming",
       "score": "",
       "match_url": "https://www.livesoccertv.com/it/match/albinoleffe-vs-pergolettese/ai0o0#5720385",
+      "channels": [
+        {
+          "name": "SKY Go Italia",
+          "url": "",
+          "stream": false
+        },
+        {
+          "name": "NOW TV",
+          "url": "",
+          "stream": false
+        }
+      ],
+      "canali_mondo": [
+        {
+          "paese": "Italia",
+          "canali": [
+            "SKY Go Italia",
+            "NOW TV"
+          ]
+        },
+        {
+          "paese": "San Marino",
+          "canali": [
+            "SKY Go Italia",
+            "NOW TV"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5720772",
+      "competition": "Serie C",
+      "home": "Reggiana",
+      "away": "Sambenedettese",
+      "title": "Reggiana vs Sambenedettese",
+      "kickoff": "2026-10-30T20:30:00+01:00",
+      "date": "2026-10-30",
+      "time": "20:30",
+      "status": "upcoming",
+      "score": "",
+      "match_url": "https://www.livesoccertv.com/it/match/reggiana-vs-sambenedettese/gfs5j#5720772",
+      "channels": [
+        {
+          "name": "SKY Go Italia",
+          "url": "",
+          "stream": false
+        },
+        {
+          "name": "NOW TV",
+          "url": "",
+          "stream": false
+        }
+      ],
+      "canali_mondo": [
+        {
+          "paese": "Italia",
+          "canali": [
+            "SKY Go Italia",
+            "NOW TV"
+          ]
+        },
+        {
+          "paese": "San Marino",
+          "canali": [
+            "SKY Go Italia",
+            "NOW TV"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5721145",
+      "competition": "Serie C",
+      "home": "Audace Cerignola",
+      "away": "Catania",
+      "title": "Audace Cerignola vs Catania",
+      "kickoff": "2026-10-31T14:30:00+01:00",
+      "date": "2026-10-31",
+      "time": "14:30",
+      "status": "upcoming",
+      "score": "",
+      "match_url": "https://www.livesoccertv.com/it/match/catania-vs-audace-cerignola/1fjtdl#5721145",
       "channels": [
         {
           "name": "SKY Go Italia",
