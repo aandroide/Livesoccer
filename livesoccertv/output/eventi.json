@@ -2,82 +2,6 @@
   "eventi": [
     {
       "competizione": "Serie B",
-      "titolo": "Arezzo vs Benevento",
-      "data": "2026-10-26",
-      "ora": "15:00",
-      "canali": [
-        "DAZN Italia",
-        "LAB Channel"
-      ],
-      "canali_mondo": [
-        {
-          "paese": "Bielorussia",
-          "canali": [
-            "Sporttv"
-          ]
-        },
-        {
-          "paese": "Gran Bretagna",
-          "canali": [
-            "DCTV"
-          ]
-        },
-        {
-          "paese": "Irlanda",
-          "canali": [
-            "DCTV"
-          ]
-        },
-        {
-          "paese": "Italia",
-          "canali": [
-            "DAZN Italia",
-            "LAB Channel"
-          ]
-        },
-        {
-          "paese": "Liechtenstein",
-          "canali": [
-            "Blue Sport 3 Live",
-            "Blue Sport"
-          ]
-        },
-        {
-          "paese": "Russia",
-          "canali": [
-            "Телеканал Футбол"
-          ]
-        },
-        {
-          "paese": "San Marino",
-          "canali": [
-            "DAZN Italia",
-            "LAB Channel"
-          ]
-        },
-        {
-          "paese": "Svizzera",
-          "canali": [
-            "Blue Sport 3 Live",
-            "Blue Sport"
-          ]
-        },
-        {
-          "paese": "Turchia",
-          "canali": [
-            "Sifir TV"
-          ]
-        },
-        {
-          "paese": "USA",
-          "canali": [
-            "DCTV"
-          ]
-        }
-      ]
-    },
-    {
-      "competizione": "Serie B",
       "titolo": "Empoli vs Lr Vicenza",
       "data": "2026-10-26",
       "ora": "17:00",
@@ -310,6 +234,12 @@
           "canali": [
             "ESPN2 Colombia",
             "Disney+ Premium Chile"
+          ]
+        },
+        {
+          "paese": "Bosnia ed Erzegovina",
+          "canali": [
+            "Arena Sport 2P"
           ]
         },
         {
@@ -708,7 +638,8 @@
         {
           "paese": "Macedonia",
           "canali": [
-            "Arena 5 Premium"
+            "Arena 5 Premium",
+            "Arena Cloud"
           ]
         },
         {
@@ -774,7 +705,8 @@
         {
           "paese": "Montenegro",
           "canali": [
-            "Arena 5 Premium"
+            "Arena 5 Premium",
+            "Arena Cloud"
           ]
         },
         {
@@ -908,12 +840,16 @@
           "paese": "Romania",
           "canali": [
             "Digi Sport 3 Romania",
-            "Prima Sport 2"
+            "Digi Online",
+            "Prima Sport 2",
+            "Orange TV Go",
+            "Prima Play"
           ]
         },
         {
           "paese": "Russia",
           "canali": [
+            "Sportbox.ru",
             "Матч! Футбол 1",
             "matchtv.ru"
           ]
@@ -969,7 +905,8 @@
         {
           "paese": "Serbia",
           "canali": [
-            "Arena 5 Premium"
+            "Arena 5 Premium",
+            "Arena Cloud"
           ]
         },
         {
@@ -1108,6 +1045,12 @@
           ]
         },
         {
+          "paese": "Ucraina",
+          "canali": [
+            "MEGOGO Football 2"
+          ]
+        },
+        {
           "paese": "Emirati Arabi Uniti",
           "canali": [
             "STARZPLAY",
@@ -1135,7 +1078,8 @@
           "paese": "Venezuela",
           "canali": [
             "ESPN2 Colombia",
-            "Disney+ Premium Sur"
+            "Disney+ Premium Sur",
+            "inter"
           ]
         },
         {
@@ -1471,6 +1415,12 @@
           "canali": [
             "ESPN2 Colombia",
             "Disney+ Premium Chile"
+          ]
+        },
+        {
+          "paese": "Bosnia ed Erzegovina",
+          "canali": [
+            "Arena Sport 2P"
           ]
         },
         {
@@ -1812,7 +1762,9 @@
         {
           "paese": "Macedonia",
           "canali": [
-            "Arena Sport 3 Serbia"
+            "Arena Sport 3 Serbia",
+            "MaxTV Go",
+            "Arena Cloud"
           ]
         },
         {
@@ -1858,7 +1810,8 @@
         {
           "paese": "Montenegro",
           "canali": [
-            "Arena Sport 3 Serbia"
+            "Arena Sport 3 Serbia",
+            "Arena Cloud"
           ]
         },
         {
@@ -1976,12 +1929,16 @@
           "paese": "Romania",
           "canali": [
             "Digi Sport 3 Romania",
-            "Prima Sport 2"
+            "Digi Online",
+            "Prima Sport 2",
+            "Orange TV Go",
+            "Prima Play"
           ]
         },
         {
           "paese": "Russia",
           "canali": [
+            "Sportbox.ru",
             "Матч! Футбол 1",
             "matchtv.ru"
           ]
@@ -2029,7 +1986,8 @@
         {
           "paese": "Serbia",
           "canali": [
-            "Arena Sport 3 Serbia"
+            "Arena Sport 3 Serbia",
+            "Arena Cloud"
           ]
         },
         {
@@ -2149,6 +2107,12 @@
           ]
         },
         {
+          "paese": "Ucraina",
+          "canali": [
+            "MEGOGO Football 2"
+          ]
+        },
+        {
           "paese": "Emirati Arabi Uniti",
           "canali": [
             "STARZPLAY",
@@ -2176,7 +2140,8 @@
           "paese": "Venezuela",
           "canali": [
             "ESPN2 Colombia",
-            "Disney+ Premium Sur"
+            "Disney+ Premium Sur",
+            "inter"
           ]
         },
         {
@@ -2322,6 +2287,12 @@
           "paese": "Bolivia",
           "canali": [
             "Disney+ Premium Chile"
+          ]
+        },
+        {
+          "paese": "Bosnia ed Erzegovina",
+          "canali": [
+            "Arena Sport 3"
           ]
         },
         {
@@ -2657,7 +2628,9 @@
         {
           "paese": "Macedonia",
           "canali": [
-            "Arena Sport 4 Serbia"
+            "Arena Sport 4 Serbia",
+            "MaxTV Go",
+            "Arena Cloud"
           ]
         },
         {
@@ -2702,7 +2675,8 @@
         {
           "paese": "Montenegro",
           "canali": [
-            "Arena Sport 4 Serbia"
+            "Arena Sport 4 Serbia",
+            "Arena Cloud"
           ]
         },
         {
@@ -2818,12 +2792,14 @@
         {
           "paese": "Romania",
           "canali": [
+            "Orange TV Go",
             "Prima Sport 5"
           ]
         },
         {
           "paese": "Russia",
           "canali": [
+            "Sportbox.ru",
             "Матч! Футбол 3",
             "matchtv.ru"
           ]
@@ -2874,7 +2850,8 @@
         {
           "paese": "Serbia",
           "canali": [
-            "Arena Sport 4 Serbia"
+            "Arena Sport 4 Serbia",
+            "Arena Cloud"
           ]
         },
         {
@@ -2976,6 +2953,12 @@
           "paese": "U.S. Virgin Islands",
           "canali": [
             "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "Ucraina",
+          "canali": [
+            "MEGOGO Football 3"
           ]
         },
         {
@@ -3185,6 +3168,12 @@
           "canali": [
             "ESPN2 Colombia",
             "Disney+ Premium Chile"
+          ]
+        },
+        {
+          "paese": "Bosnia ed Erzegovina",
+          "canali": [
+            "Arena Sport 2P"
           ]
         },
         {
@@ -3558,7 +3547,8 @@
         {
           "paese": "Macedonia",
           "canali": [
-            "Arena 3 Premium"
+            "Arena 3 Premium",
+            "Arena Cloud"
           ]
         },
         {
@@ -3601,7 +3591,8 @@
         {
           "paese": "Montenegro",
           "canali": [
-            "Arena 3 Premium"
+            "Arena 3 Premium",
+            "Arena Cloud"
           ]
         },
         {
@@ -3709,12 +3700,15 @@
         {
           "paese": "Romania",
           "canali": [
-            "Prima Sport 3"
+            "Orange TV Go",
+            "Prima Sport 3",
+            "Prima Play"
           ]
         },
         {
           "paese": "Russia",
           "canali": [
+            "Sportbox.ru",
             "Матч! Футбол 2",
             "matchtv.ru"
           ]
@@ -3762,7 +3756,8 @@
         {
           "paese": "Serbia",
           "canali": [
-            "Arena 3 Premium"
+            "Arena 3 Premium",
+            "Arena Cloud"
           ]
         },
         {
@@ -3872,6 +3867,12 @@
           ]
         },
         {
+          "paese": "Ucraina",
+          "canali": [
+            "MEGOGO Football 1"
+          ]
+        },
+        {
           "paese": "Emirati Arabi Uniti",
           "canali": [
             "STARZPLAY",
@@ -3897,7 +3898,8 @@
           "paese": "Venezuela",
           "canali": [
             "ESPN2 Colombia",
-            "Disney+ Premium Sur"
+            "Disney+ Premium Sur",
+            "inter"
           ]
         },
         {
@@ -4039,6 +4041,12 @@
           "paese": "Bolivia",
           "canali": [
             "Disney+ Premium Chile"
+          ]
+        },
+        {
+          "paese": "Bosnia ed Erzegovina",
+          "canali": [
+            "Arena Sport 3"
           ]
         },
         {
@@ -4345,7 +4353,9 @@
         {
           "paese": "Macedonia",
           "canali": [
-            "Arena Sport 2 Serbia"
+            "Arena Sport 2 Serbia",
+            "MaxTV Go",
+            "Arena Cloud"
           ]
         },
         {
@@ -4388,7 +4398,8 @@
         {
           "paese": "Montenegro",
           "canali": [
-            "Arena Sport 2 Serbia"
+            "Arena Sport 2 Serbia",
+            "Arena Cloud"
           ]
         },
         {
@@ -4487,12 +4498,14 @@
         {
           "paese": "Romania",
           "canali": [
+            "Orange TV Go",
             "Prima Sport 5"
           ]
         },
         {
           "paese": "Russia",
           "canali": [
+            "Sportbox.ru",
             "Матч! Футбол 3",
             "matchtv.ru"
           ]
@@ -4540,7 +4553,8 @@
         {
           "paese": "Serbia",
           "canali": [
-            "Arena Sport 2 Serbia"
+            "Arena Sport 2 Serbia",
+            "Arena Cloud"
           ]
         },
         {
@@ -4641,6 +4655,12 @@
           "paese": "U.S. Virgin Islands",
           "canali": [
             "Disney+ Premium Caribbean"
+          ]
+        },
+        {
+          "paese": "Ucraina",
+          "canali": [
+            "MEGOGO Football 4"
           ]
         },
         {
@@ -5196,7 +5216,8 @@
           "paese": "Gran Bretagna",
           "canali": [
             "TNT Sports 2",
-            "TNT Sports 8"
+            "TNT Sports 8",
+            "HBO Max"
           ]
         },
         {
@@ -5277,7 +5298,8 @@
           "paese": "Irlanda",
           "canali": [
             "TNT Sports 2",
-            "TNT Sports 8"
+            "TNT Sports 8",
+            "HBO Max"
           ]
         },
         {
@@ -6261,7 +6283,8 @@
           "paese": "Gran Bretagna",
           "canali": [
             "TNT Sports 4",
-            "TNT Sports 9"
+            "TNT Sports 9",
+            "HBO Max"
           ]
         },
         {
@@ -6342,7 +6365,8 @@
           "paese": "Irlanda",
           "canali": [
             "TNT Sports 4",
-            "TNT Sports 9"
+            "TNT Sports 9",
+            "HBO Max"
           ]
         },
         {
@@ -7348,7 +7372,8 @@
         {
           "paese": "Gran Bretagna",
           "canali": [
-            "TNT Sports 2"
+            "TNT Sports 2",
+            "HBO Max"
           ]
         },
         {
@@ -7430,7 +7455,8 @@
         {
           "paese": "Irlanda",
           "canali": [
-            "TNT Sports 2"
+            "TNT Sports 2",
+            "HBO Max"
           ]
         },
         {
@@ -8444,6 +8470,7 @@
           "paese": "Gran Bretagna",
           "canali": [
             "TNT Sports 1",
+            "HBO Max",
             "BBC Radio 5 Live"
           ]
         },
@@ -8525,6 +8552,7 @@
           "paese": "Irlanda",
           "canali": [
             "TNT Sports 1",
+            "HBO Max",
             "BBC Radio 5 Live"
           ]
         },
@@ -9510,7 +9538,8 @@
         {
           "paese": "Gran Bretagna",
           "canali": [
-            "TNT Sports 6"
+            "TNT Sports 6",
+            "HBO Max"
           ]
         },
         {
@@ -9590,7 +9619,8 @@
         {
           "paese": "Irlanda",
           "canali": [
-            "TNT Sports 6"
+            "TNT Sports 6",
+            "HBO Max"
           ]
         },
         {
