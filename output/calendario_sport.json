@@ -1,37 +1,16 @@
 {
-  "aggiornato": "2026-10-26T05:57:48+01:00",
+  "aggiornato": "2026-10-26T08:01:56+01:00",
   "fonti": {
     "motori": "Fuori Traiettoria, Dizzle0987/motorsport-calendar, palinsesto TV8",
     "calcio_italiano": "https://raw.githubusercontent.com/aandroide/Livesoccer/master/livesoccertv/output/eventi.json",
     "altri_sport": "https://sport.virgilio.it/guida-tv/"
   },
-  "totale": 208,
+  "totale": 206,
   "cartelle": [
     {
       "nome": "Oggi",
-      "totale": 6,
+      "totale": 4,
       "eventi": [
-        {
-          "titolo": "[Basket] NBA: Denver Nuggets-Golden State Warriors",
-          "categoria": "Basket",
-          "sottocartella": "NBA",
-          "sport": "Basket",
-          "competizione": "NBA",
-          "evento": "Denver Nuggets-Golden State Warriors",
-          "inizio": "2026-10-26T03:00:00+01:00",
-          "data": "26/10/2026",
-          "ora": "03:00",
-          "canali": [
-            {
-              "nome": "Sky Sport Basket",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-10-26T03:00",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
         {
           "titolo": "[Tennis] ATP & WTA",
           "categoria": "Tennis",
@@ -52,100 +31,6 @@
             }
           ],
           "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Calcio] Serie B: Arezzo vs Benevento",
-          "categoria": "Calcio",
-          "sottocartella": "Serie B",
-          "sport": "Calcio",
-          "competizione": "Serie B",
-          "evento": "Arezzo vs Benevento",
-          "inizio": "2026-10-26T15:00:00+01:00",
-          "data": "26/10/2026",
-          "ora": "15:00",
-          "canali": [
-            {
-              "nome": "DAZN Italia",
-              "numero": "",
-              "tipo": "streaming",
-              "orario": "2026-10-26T15:00",
-              "fonte": "livesoccer"
-            },
-            {
-              "nome": "LAB Channel",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-10-26T15:00",
-              "fonte": "livesoccer"
-            }
-          ],
-          "canali_mondo": [
-            {
-              "paese": "Bielorussia",
-              "canali": [
-                "Sporttv"
-              ]
-            },
-            {
-              "paese": "Gran Bretagna",
-              "canali": [
-                "DCTV"
-              ]
-            },
-            {
-              "paese": "Irlanda",
-              "canali": [
-                "DCTV"
-              ]
-            },
-            {
-              "paese": "Italia",
-              "canali": [
-                "DAZN Italia",
-                "LAB Channel"
-              ]
-            },
-            {
-              "paese": "Liechtenstein",
-              "canali": [
-                "Blue Sport 3 Live",
-                "Blue Sport"
-              ]
-            },
-            {
-              "paese": "Russia",
-              "canali": [
-                "Телеканал Футбол"
-              ]
-            },
-            {
-              "paese": "San Marino",
-              "canali": [
-                "DAZN Italia",
-                "LAB Channel"
-              ]
-            },
-            {
-              "paese": "Svizzera",
-              "canali": [
-                "Blue Sport 3 Live",
-                "Blue Sport"
-              ]
-            },
-            {
-              "paese": "Turchia",
-              "canali": [
-                "Sifir TV"
-              ]
-            },
-            {
-              "paese": "USA",
-              "canali": [
-                "DCTV"
-              ]
-            }
-          ],
-          "fonte": "LiveSoccerTV"
         },
         {
           "titolo": "[Calcio] Serie B: Empoli vs Lr Vicenza",
@@ -3115,7 +3000,7 @@
     },
     {
       "nome": "Calcio",
-      "totale": 74,
+      "totale": 73,
       "sottocartelle": [
         {
           "nome": "Serie A",
@@ -3278,6 +3163,12 @@
                   "canali": [
                     "ESPN2 Colombia",
                     "Disney+ Premium Chile"
+                  ]
+                },
+                {
+                  "paese": "Bosnia ed Erzegovina",
+                  "canali": [
+                    "Arena Sport 2P"
                   ]
                 },
                 {
@@ -3676,7 +3567,8 @@
                 {
                   "paese": "Macedonia",
                   "canali": [
-                    "Arena 5 Premium"
+                    "Arena 5 Premium",
+                    "Arena Cloud"
                   ]
                 },
                 {
@@ -3742,7 +3634,8 @@
                 {
                   "paese": "Montenegro",
                   "canali": [
-                    "Arena 5 Premium"
+                    "Arena 5 Premium",
+                    "Arena Cloud"
                   ]
                 },
                 {
@@ -3876,12 +3769,16 @@
                   "paese": "Romania",
                   "canali": [
                     "Digi Sport 3 Romania",
-                    "Prima Sport 2"
+                    "Digi Online",
+                    "Prima Sport 2",
+                    "Orange TV Go",
+                    "Prima Play"
                   ]
                 },
                 {
                   "paese": "Russia",
                   "canali": [
+                    "Sportbox.ru",
                     "Матч! Футбол 1",
                     "matchtv.ru"
                   ]
@@ -3937,7 +3834,8 @@
                 {
                   "paese": "Serbia",
                   "canali": [
-                    "Arena 5 Premium"
+                    "Arena 5 Premium",
+                    "Arena Cloud"
                   ]
                 },
                 {
@@ -4076,6 +3974,12 @@
                   ]
                 },
                 {
+                  "paese": "Ucraina",
+                  "canali": [
+                    "MEGOGO Football 2"
+                  ]
+                },
+                {
                   "paese": "Emirati Arabi Uniti",
                   "canali": [
                     "STARZPLAY",
@@ -4103,7 +4007,8 @@
                   "paese": "Venezuela",
                   "canali": [
                     "ESPN2 Colombia",
-                    "Disney+ Premium Sur"
+                    "Disney+ Premium Sur",
+                    "inter"
                   ]
                 },
                 {
@@ -4287,6 +4192,12 @@
                   "canali": [
                     "ESPN2 Colombia",
                     "Disney+ Premium Chile"
+                  ]
+                },
+                {
+                  "paese": "Bosnia ed Erzegovina",
+                  "canali": [
+                    "Arena Sport 2P"
                   ]
                 },
                 {
@@ -4628,7 +4539,9 @@
                 {
                   "paese": "Macedonia",
                   "canali": [
-                    "Arena Sport 3 Serbia"
+                    "Arena Sport 3 Serbia",
+                    "MaxTV Go",
+                    "Arena Cloud"
                   ]
                 },
                 {
@@ -4674,7 +4587,8 @@
                 {
                   "paese": "Montenegro",
                   "canali": [
-                    "Arena Sport 3 Serbia"
+                    "Arena Sport 3 Serbia",
+                    "Arena Cloud"
                   ]
                 },
                 {
@@ -4792,12 +4706,16 @@
                   "paese": "Romania",
                   "canali": [
                     "Digi Sport 3 Romania",
-                    "Prima Sport 2"
+                    "Digi Online",
+                    "Prima Sport 2",
+                    "Orange TV Go",
+                    "Prima Play"
                   ]
                 },
                 {
                   "paese": "Russia",
                   "canali": [
+                    "Sportbox.ru",
                     "Матч! Футбол 1",
                     "matchtv.ru"
                   ]
@@ -4845,7 +4763,8 @@
                 {
                   "paese": "Serbia",
                   "canali": [
-                    "Arena Sport 3 Serbia"
+                    "Arena Sport 3 Serbia",
+                    "Arena Cloud"
                   ]
                 },
                 {
@@ -4965,6 +4884,12 @@
                   ]
                 },
                 {
+                  "paese": "Ucraina",
+                  "canali": [
+                    "MEGOGO Football 2"
+                  ]
+                },
+                {
                   "paese": "Emirati Arabi Uniti",
                   "canali": [
                     "STARZPLAY",
@@ -4992,7 +4917,8 @@
                   "paese": "Venezuela",
                   "canali": [
                     "ESPN2 Colombia",
-                    "Disney+ Premium Sur"
+                    "Disney+ Premium Sur",
+                    "inter"
                   ]
                 },
                 {
@@ -5181,6 +5107,12 @@
                   "paese": "Bolivia",
                   "canali": [
                     "Disney+ Premium Chile"
+                  ]
+                },
+                {
+                  "paese": "Bosnia ed Erzegovina",
+                  "canali": [
+                    "Arena Sport 3"
                   ]
                 },
                 {
@@ -5516,7 +5448,9 @@
                 {
                   "paese": "Macedonia",
                   "canali": [
-                    "Arena Sport 4 Serbia"
+                    "Arena Sport 4 Serbia",
+                    "MaxTV Go",
+                    "Arena Cloud"
                   ]
                 },
                 {
@@ -5561,7 +5495,8 @@
                 {
                   "paese": "Montenegro",
                   "canali": [
-                    "Arena Sport 4 Serbia"
+                    "Arena Sport 4 Serbia",
+                    "Arena Cloud"
                   ]
                 },
                 {
@@ -5677,12 +5612,14 @@
                 {
                   "paese": "Romania",
                   "canali": [
+                    "Orange TV Go",
                     "Prima Sport 5"
                   ]
                 },
                 {
                   "paese": "Russia",
                   "canali": [
+                    "Sportbox.ru",
                     "Матч! Футбол 3",
                     "matchtv.ru"
                   ]
@@ -5733,7 +5670,8 @@
                 {
                   "paese": "Serbia",
                   "canali": [
-                    "Arena Sport 4 Serbia"
+                    "Arena Sport 4 Serbia",
+                    "Arena Cloud"
                   ]
                 },
                 {
@@ -5835,6 +5773,12 @@
                   "paese": "U.S. Virgin Islands",
                   "canali": [
                     "Disney+ Premium Caribbean"
+                  ]
+                },
+                {
+                  "paese": "Ucraina",
+                  "canali": [
+                    "MEGOGO Football 3"
                   ]
                 },
                 {
@@ -6040,6 +5984,12 @@
                   "canali": [
                     "ESPN2 Colombia",
                     "Disney+ Premium Chile"
+                  ]
+                },
+                {
+                  "paese": "Bosnia ed Erzegovina",
+                  "canali": [
+                    "Arena Sport 2P"
                   ]
                 },
                 {
@@ -6413,7 +6363,8 @@
                 {
                   "paese": "Macedonia",
                   "canali": [
-                    "Arena 3 Premium"
+                    "Arena 3 Premium",
+                    "Arena Cloud"
                   ]
                 },
                 {
@@ -6456,7 +6407,8 @@
                 {
                   "paese": "Montenegro",
                   "canali": [
-                    "Arena 3 Premium"
+                    "Arena 3 Premium",
+                    "Arena Cloud"
                   ]
                 },
                 {
@@ -6564,12 +6516,15 @@
                 {
                   "paese": "Romania",
                   "canali": [
-                    "Prima Sport 3"
+                    "Orange TV Go",
+                    "Prima Sport 3",
+                    "Prima Play"
                   ]
                 },
                 {
                   "paese": "Russia",
                   "canali": [
+                    "Sportbox.ru",
                     "Матч! Футбол 2",
                     "matchtv.ru"
                   ]
@@ -6617,7 +6572,8 @@
                 {
                   "paese": "Serbia",
                   "canali": [
-                    "Arena 3 Premium"
+                    "Arena 3 Premium",
+                    "Arena Cloud"
                   ]
                 },
                 {
@@ -6727,6 +6683,12 @@
                   ]
                 },
                 {
+                  "paese": "Ucraina",
+                  "canali": [
+                    "MEGOGO Football 1"
+                  ]
+                },
+                {
                   "paese": "Emirati Arabi Uniti",
                   "canali": [
                     "STARZPLAY",
@@ -6752,7 +6714,8 @@
                   "paese": "Venezuela",
                   "canali": [
                     "ESPN2 Colombia",
-                    "Disney+ Premium Sur"
+                    "Disney+ Premium Sur",
+                    "inter"
                   ]
                 },
                 {
@@ -6919,6 +6882,12 @@
                   "paese": "Bolivia",
                   "canali": [
                     "Disney+ Premium Chile"
+                  ]
+                },
+                {
+                  "paese": "Bosnia ed Erzegovina",
+                  "canali": [
+                    "Arena Sport 3"
                   ]
                 },
                 {
@@ -7225,7 +7194,9 @@
                 {
                   "paese": "Macedonia",
                   "canali": [
-                    "Arena Sport 2 Serbia"
+                    "Arena Sport 2 Serbia",
+                    "MaxTV Go",
+                    "Arena Cloud"
                   ]
                 },
                 {
@@ -7268,7 +7239,8 @@
                 {
                   "paese": "Montenegro",
                   "canali": [
-                    "Arena Sport 2 Serbia"
+                    "Arena Sport 2 Serbia",
+                    "Arena Cloud"
                   ]
                 },
                 {
@@ -7367,12 +7339,14 @@
                 {
                   "paese": "Romania",
                   "canali": [
+                    "Orange TV Go",
                     "Prima Sport 5"
                   ]
                 },
                 {
                   "paese": "Russia",
                   "canali": [
+                    "Sportbox.ru",
                     "Матч! Футбол 3",
                     "matchtv.ru"
                   ]
@@ -7420,7 +7394,8 @@
                 {
                   "paese": "Serbia",
                   "canali": [
-                    "Arena Sport 2 Serbia"
+                    "Arena Sport 2 Serbia",
+                    "Arena Cloud"
                   ]
                 },
                 {
@@ -7521,6 +7496,12 @@
                   "paese": "U.S. Virgin Islands",
                   "canali": [
                     "Disney+ Premium Caribbean"
+                  ]
+                },
+                {
+                  "paese": "Ucraina",
+                  "canali": [
+                    "MEGOGO Football 4"
                   ]
                 },
                 {
@@ -7914,102 +7895,8 @@
         },
         {
           "nome": "Serie B",
-          "totale": 23,
+          "totale": 22,
           "eventi": [
-            {
-              "titolo": "Serie B: Arezzo vs Benevento",
-              "categoria": "Calcio",
-              "sottocartella": "Serie B",
-              "sport": "Calcio",
-              "competizione": "Serie B",
-              "evento": "Arezzo vs Benevento",
-              "inizio": "2026-10-26T15:00:00+01:00",
-              "data": "26/10/2026",
-              "ora": "15:00",
-              "canali": [
-                {
-                  "nome": "DAZN Italia",
-                  "numero": "",
-                  "tipo": "streaming",
-                  "orario": "2026-10-26T15:00",
-                  "fonte": "livesoccer"
-                },
-                {
-                  "nome": "LAB Channel",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-26T15:00",
-                  "fonte": "livesoccer"
-                }
-              ],
-              "canali_mondo": [
-                {
-                  "paese": "Bielorussia",
-                  "canali": [
-                    "Sporttv"
-                  ]
-                },
-                {
-                  "paese": "Gran Bretagna",
-                  "canali": [
-                    "DCTV"
-                  ]
-                },
-                {
-                  "paese": "Irlanda",
-                  "canali": [
-                    "DCTV"
-                  ]
-                },
-                {
-                  "paese": "Italia",
-                  "canali": [
-                    "DAZN Italia",
-                    "LAB Channel"
-                  ]
-                },
-                {
-                  "paese": "Liechtenstein",
-                  "canali": [
-                    "Blue Sport 3 Live",
-                    "Blue Sport"
-                  ]
-                },
-                {
-                  "paese": "Russia",
-                  "canali": [
-                    "Телеканал Футбол"
-                  ]
-                },
-                {
-                  "paese": "San Marino",
-                  "canali": [
-                    "DAZN Italia",
-                    "LAB Channel"
-                  ]
-                },
-                {
-                  "paese": "Svizzera",
-                  "canali": [
-                    "Blue Sport 3 Live",
-                    "Blue Sport"
-                  ]
-                },
-                {
-                  "paese": "Turchia",
-                  "canali": [
-                    "Sifir TV"
-                  ]
-                },
-                {
-                  "paese": "USA",
-                  "canali": [
-                    "DCTV"
-                  ]
-                }
-              ],
-              "fonte": "LiveSoccerTV"
-            },
             {
               "titolo": "Serie B: Empoli vs Lr Vicenza",
               "categoria": "Calcio",
@@ -10149,33 +10036,12 @@
     },
     {
       "nome": "Basket",
-      "totale": 18,
+      "totale": 17,
       "sottocartelle": [
         {
           "nome": "NBA",
-          "totale": 5,
+          "totale": 4,
           "eventi": [
-            {
-              "titolo": "NBA: Denver Nuggets-Golden State Warriors",
-              "categoria": "Basket",
-              "sottocartella": "NBA",
-              "sport": "Basket",
-              "competizione": "NBA",
-              "evento": "Denver Nuggets-Golden State Warriors",
-              "inizio": "2026-10-26T03:00:00+01:00",
-              "data": "26/10/2026",
-              "ora": "03:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Basket",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-26T03:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
             {
               "titolo": "NBA: New York Knicks-Detroit Pistons",
               "categoria": "Basket",
