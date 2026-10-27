@@ -1,184 +1,16 @@
 {
-  "aggiornato": "2026-10-27T22:33:47+01:00",
+  "aggiornato": "2026-10-27T23:23:46+01:00",
   "fonti": {
     "motori": "Fuori Traiettoria, Dizzle0987/motorsport-calendar, palinsesto TV8",
     "calcio_italiano": "https://raw.githubusercontent.com/aandroide/Livesoccer/master/livesoccertv/output/eventi.json",
     "altri_sport": "https://sport.virgilio.it/guida-tv/"
   },
-  "totale": 204,
+  "totale": 196,
   "cartelle": [
     {
       "nome": "Oggi",
-      "totale": 11,
+      "totale": 3,
       "eventi": [
-        {
-          "titolo": "[Basket] Eurocup: Roma Basketball-Bosna Royal",
-          "categoria": "Basket",
-          "sottocartella": "Eurocup",
-          "sport": "Basket",
-          "competizione": "Eurocup",
-          "evento": "Roma Basketball-Bosna Royal",
-          "inizio": "2026-10-27T20:00:00+01:00",
-          "data": "27/10/2026",
-          "ora": "20:00",
-          "canali": [
-            {
-              "nome": "Sky Sport Basket",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-10-27T20:00",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Calcio] Serie B: Ascoli-Sampdoria",
-          "categoria": "Calcio",
-          "sottocartella": "Serie B",
-          "sport": "Calcio",
-          "competizione": "Serie B",
-          "evento": "Ascoli-Sampdoria",
-          "inizio": "2026-10-27T20:00:00+01:00",
-          "data": "27/10/2026",
-          "ora": "20:00",
-          "canali": [
-            {
-              "nome": "DAZN",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-10-27T20:00",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Calcio] Serie B: Cesena-Empoli",
-          "categoria": "Calcio",
-          "sottocartella": "Serie B",
-          "sport": "Calcio",
-          "competizione": "Serie B",
-          "evento": "Cesena-Empoli",
-          "inizio": "2026-10-27T20:00:00+01:00",
-          "data": "27/10/2026",
-          "ora": "20:00",
-          "canali": [
-            {
-              "nome": "DAZN",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-10-27T20:00",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Calcio] Serie B: Mantova-Cremonese",
-          "categoria": "Calcio",
-          "sottocartella": "Serie B",
-          "sport": "Calcio",
-          "competizione": "Serie B",
-          "evento": "Mantova-Cremonese",
-          "inizio": "2026-10-27T20:00:00+01:00",
-          "data": "27/10/2026",
-          "ora": "20:00",
-          "canali": [
-            {
-              "nome": "DAZN",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-10-27T20:00",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Calcio] Serie B: Padova-Sudtirol",
-          "categoria": "Calcio",
-          "sottocartella": "Serie B",
-          "sport": "Calcio",
-          "competizione": "Serie B",
-          "evento": "Padova-Sudtirol",
-          "inizio": "2026-10-27T20:00:00+01:00",
-          "data": "27/10/2026",
-          "ora": "20:00",
-          "canali": [
-            {
-              "nome": "DAZN",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-10-27T20:00",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Calcio] Serie B: Vicenza-Modena",
-          "categoria": "Calcio",
-          "sottocartella": "Serie B",
-          "sport": "Calcio",
-          "competizione": "Serie B",
-          "evento": "Vicenza-Modena",
-          "inizio": "2026-10-27T20:00:00+01:00",
-          "data": "27/10/2026",
-          "ora": "20:00",
-          "canali": [
-            {
-              "nome": "DAZN",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-10-27T20:00",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Calcio] Serie B: Virtus Entella-Avellino",
-          "categoria": "Calcio",
-          "sottocartella": "Serie B",
-          "sport": "Calcio",
-          "competizione": "Serie B",
-          "evento": "Virtus Entella-Avellino",
-          "inizio": "2026-10-27T20:00:00+01:00",
-          "data": "27/10/2026",
-          "ora": "20:00",
-          "canali": [
-            {
-              "nome": "DAZN",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-10-27T20:00",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Basket] Eurolega: Panathinaikos-Olimpia Milano",
-          "categoria": "Basket",
-          "sottocartella": "Eurolega",
-          "sport": "Basket",
-          "competizione": "Eurolega",
-          "evento": "Panathinaikos-Olimpia Milano",
-          "inizio": "2026-10-27T20:15:00+01:00",
-          "data": "27/10/2026",
-          "ora": "20:15",
-          "canali": [
-            {
-              "nome": "Sky Sport 1",
-              "numero": "201",
-              "tipo": "diretta",
-              "orario": "2026-10-27T20:15",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
         {
           "titolo": "[Calcio] Coppa Italia Serie C: Potenza-Bari",
           "categoria": "Calcio",
@@ -5084,7 +4916,7 @@
     },
     {
       "nome": "Calcio",
-      "totale": 73,
+      "totale": 67,
       "sottocartelle": [
         {
           "nome": "Serie A",
@@ -12435,134 +12267,8 @@
         },
         {
           "nome": "Serie B",
-          "totale": 21,
+          "totale": 15,
           "eventi": [
-            {
-              "titolo": "Serie B: Ascoli-Sampdoria",
-              "categoria": "Calcio",
-              "sottocartella": "Serie B",
-              "sport": "Calcio",
-              "competizione": "Serie B",
-              "evento": "Ascoli-Sampdoria",
-              "inizio": "2026-10-27T20:00:00+01:00",
-              "data": "27/10/2026",
-              "ora": "20:00",
-              "canali": [
-                {
-                  "nome": "DAZN",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-27T20:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "Serie B: Cesena-Empoli",
-              "categoria": "Calcio",
-              "sottocartella": "Serie B",
-              "sport": "Calcio",
-              "competizione": "Serie B",
-              "evento": "Cesena-Empoli",
-              "inizio": "2026-10-27T20:00:00+01:00",
-              "data": "27/10/2026",
-              "ora": "20:00",
-              "canali": [
-                {
-                  "nome": "DAZN",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-27T20:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "Serie B: Mantova-Cremonese",
-              "categoria": "Calcio",
-              "sottocartella": "Serie B",
-              "sport": "Calcio",
-              "competizione": "Serie B",
-              "evento": "Mantova-Cremonese",
-              "inizio": "2026-10-27T20:00:00+01:00",
-              "data": "27/10/2026",
-              "ora": "20:00",
-              "canali": [
-                {
-                  "nome": "DAZN",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-27T20:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "Serie B: Padova-Sudtirol",
-              "categoria": "Calcio",
-              "sottocartella": "Serie B",
-              "sport": "Calcio",
-              "competizione": "Serie B",
-              "evento": "Padova-Sudtirol",
-              "inizio": "2026-10-27T20:00:00+01:00",
-              "data": "27/10/2026",
-              "ora": "20:00",
-              "canali": [
-                {
-                  "nome": "DAZN",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-27T20:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "Serie B: Vicenza-Modena",
-              "categoria": "Calcio",
-              "sottocartella": "Serie B",
-              "sport": "Calcio",
-              "competizione": "Serie B",
-              "evento": "Vicenza-Modena",
-              "inizio": "2026-10-27T20:00:00+01:00",
-              "data": "27/10/2026",
-              "ora": "20:00",
-              "canali": [
-                {
-                  "nome": "DAZN",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-27T20:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "Serie B: Virtus Entella-Avellino",
-              "categoria": "Calcio",
-              "sottocartella": "Serie B",
-              "sport": "Calcio",
-              "competizione": "Serie B",
-              "evento": "Virtus Entella-Avellino",
-              "inizio": "2026-10-27T20:00:00+01:00",
-              "data": "27/10/2026",
-              "ora": "20:00",
-              "canali": [
-                {
-                  "nome": "DAZN",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-27T20:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
             {
               "titolo": "Serie B: Ascoli vs Sampdoria",
               "categoria": "Calcio",
@@ -14516,33 +14222,81 @@
     },
     {
       "nome": "Basket",
-      "totale": 17,
+      "totale": 15,
       "sottocartelle": [
         {
-          "nome": "Eurocup",
-          "totale": 5,
+          "nome": "NBA",
+          "totale": 3,
           "eventi": [
             {
-              "titolo": "Eurocup: Roma Basketball-Bosna Royal",
+              "titolo": "NBA: Indiana Pacers-Philadelphia 76ers",
               "categoria": "Basket",
-              "sottocartella": "Eurocup",
+              "sottocartella": "NBA",
               "sport": "Basket",
-              "competizione": "Eurocup",
-              "evento": "Roma Basketball-Bosna Royal",
-              "inizio": "2026-10-27T20:00:00+01:00",
-              "data": "27/10/2026",
-              "ora": "20:00",
+              "competizione": "NBA",
+              "evento": "Indiana Pacers-Philadelphia 76ers",
+              "inizio": "2026-10-28T00:00:00+01:00",
+              "data": "28/10/2026",
+              "ora": "00:00",
               "canali": [
                 {
                   "nome": "Sky Sport Basket",
                   "numero": "",
                   "tipo": "diretta",
-                  "orario": "2026-10-27T20:00",
+                  "orario": "2026-10-28T00:00",
                   "fonte": "virgilio"
                 }
               ],
               "fonte": "Virgilio Sport"
             },
+            {
+              "titolo": "NBA: Los Angelese Lakers-Toronto Raptors",
+              "categoria": "Basket",
+              "sottocartella": "NBA",
+              "sport": "Basket",
+              "competizione": "NBA",
+              "evento": "Los Angelese Lakers-Toronto Raptors",
+              "inizio": "2026-11-01T03:00:00+01:00",
+              "data": "01/11/2026",
+              "ora": "03:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport Basket",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-01T03:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "NBA: Cleveland-Oklahoma City",
+              "categoria": "Basket",
+              "sottocartella": "NBA",
+              "sport": "Basket",
+              "competizione": "NBA",
+              "evento": "Cleveland-Oklahoma City",
+              "inizio": "2026-11-02T01:00:00+01:00",
+              "data": "02/11/2026",
+              "ora": "01:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport Basket",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-02T01:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            }
+          ]
+        },
+        {
+          "nome": "Eurocup",
+          "totale": 4,
+          "eventi": [
             {
               "titolo": "Eurocup: Siauliai Basketball-Maxima Roma",
               "categoria": "Basket",
@@ -14631,29 +14385,8 @@
         },
         {
           "nome": "Eurolega",
-          "totale": 7,
+          "totale": 6,
           "eventi": [
-            {
-              "titolo": "Eurolega: Panathinaikos-Olimpia Milano",
-              "categoria": "Basket",
-              "sottocartella": "Eurolega",
-              "sport": "Basket",
-              "competizione": "Eurolega",
-              "evento": "Panathinaikos-Olimpia Milano",
-              "inizio": "2026-10-27T20:15:00+01:00",
-              "data": "27/10/2026",
-              "ora": "20:15",
-              "canali": [
-                {
-                  "nome": "Sky Sport 1",
-                  "numero": "201",
-                  "tipo": "diretta",
-                  "orario": "2026-10-27T20:15",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
             {
               "titolo": "Eurolega: Besiktas-Olympiacos",
               "categoria": "Basket",
@@ -14775,75 +14508,6 @@
                   "numero": "",
                   "tipo": "diretta",
                   "orario": "2026-10-30T20:30",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            }
-          ]
-        },
-        {
-          "nome": "NBA",
-          "totale": 3,
-          "eventi": [
-            {
-              "titolo": "NBA: Indiana Pacers-Philadelphia 76ers",
-              "categoria": "Basket",
-              "sottocartella": "NBA",
-              "sport": "Basket",
-              "competizione": "NBA",
-              "evento": "Indiana Pacers-Philadelphia 76ers",
-              "inizio": "2026-10-28T00:00:00+01:00",
-              "data": "28/10/2026",
-              "ora": "00:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Basket",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-28T00:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "NBA: Los Angelese Lakers-Toronto Raptors",
-              "categoria": "Basket",
-              "sottocartella": "NBA",
-              "sport": "Basket",
-              "competizione": "NBA",
-              "evento": "Los Angelese Lakers-Toronto Raptors",
-              "inizio": "2026-11-01T03:00:00+01:00",
-              "data": "01/11/2026",
-              "ora": "03:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Basket",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-01T03:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "NBA: Cleveland-Oklahoma City",
-              "categoria": "Basket",
-              "sottocartella": "NBA",
-              "sport": "Basket",
-              "competizione": "NBA",
-              "evento": "Cleveland-Oklahoma City",
-              "inizio": "2026-11-02T01:00:00+01:00",
-              "data": "02/11/2026",
-              "ora": "01:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Basket",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-02T01:00",
                   "fonte": "virgilio"
                 }
               ],
