@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-10-27T10:09:12+01:00",
+  "aggiornato": "2026-10-27T12:08:11+01:00",
   "fonti": {
     "motori": "Fuori Traiettoria, Dizzle0987/motorsport-calendar, palinsesto TV8",
     "calcio_italiano": "https://raw.githubusercontent.com/aandroide/Livesoccer/master/livesoccertv/output/eventi.json",
@@ -5210,7 +5210,7 @@
                   "nome": "TV8",
                   "numero": "8",
                   "tipo": "differita",
-                  "orario": "2026-11-01T11:00",
+                  "orario": "2026-11-01T14:00",
                   "fonte": "config+tv8"
                 }
               ],
@@ -6065,7 +6065,7 @@
                   "nome": "TV8",
                   "numero": "8",
                   "tipo": "differita",
-                  "orario": "2026-11-01T12:15",
+                  "orario": "2026-11-01T11:00",
                   "programma": "GP Malesia: Gara",
                   "fonte": "tv8"
                 }
@@ -6089,7 +6089,7 @@
                   "nome": "TV8",
                   "numero": "8",
                   "tipo": "differita",
-                  "orario": "2026-11-01T12:15",
+                  "orario": "2026-11-01T11:00",
                   "programma": "GP Malesia: Gara",
                   "fonte": "tv8"
                 }
@@ -12377,27 +12377,6 @@
               "fonte": "LiveSoccerTV"
             },
             {
-              "titolo": "Serie B: Cremonese-Benevento",
-              "categoria": "Calcio",
-              "sottocartella": "Serie B",
-              "sport": "Calcio",
-              "competizione": "Serie B",
-              "evento": "Cremonese-Benevento",
-              "inizio": "2026-10-31T15:00:00+01:00",
-              "data": "31/10/2026",
-              "ora": "15:00",
-              "canali": [
-                {
-                  "nome": "DAZN",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-31T15:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
               "titolo": "Serie B: Modena-Mantova",
               "categoria": "Calcio",
               "sottocartella": "Serie B",
@@ -12482,6 +12461,91 @@
               "fonte": "Virgilio Sport"
             },
             {
+              "titolo": "Serie B: Cremonese vs Benevento",
+              "categoria": "Calcio",
+              "sottocartella": "Serie B",
+              "sport": "Calcio",
+              "competizione": "Serie B",
+              "evento": "Cremonese vs Benevento",
+              "inizio": "2026-10-31T21:00:00+01:00",
+              "data": "31/10/2026",
+              "ora": "21:00",
+              "canali": [
+                {
+                  "nome": "DAZN Italia",
+                  "numero": "",
+                  "tipo": "streaming",
+                  "orario": "2026-10-31T21:00",
+                  "fonte": "livesoccer"
+                },
+                {
+                  "nome": "LAB Channel",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-31T21:00",
+                  "fonte": "livesoccer"
+                },
+                {
+                  "nome": "DAZN",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-31T15:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "canali_mondo": [
+                {
+                  "paese": "Israele",
+                  "canali": [
+                    "5Plus"
+                  ]
+                },
+                {
+                  "paese": "Italia",
+                  "canali": [
+                    "DAZN Italia",
+                    "LAB Channel"
+                  ]
+                },
+                {
+                  "paese": "Liechtenstein",
+                  "canali": [
+                    "Blue Sport",
+                    "Blue Sport 1 Live"
+                  ]
+                },
+                {
+                  "paese": "Russia",
+                  "canali": [
+                    "Телеканал Футбол"
+                  ]
+                },
+                {
+                  "paese": "San Marino",
+                  "canali": [
+                    "DAZN Italia",
+                    "LAB Channel"
+                  ]
+                },
+                {
+                  "paese": "Svizzera",
+                  "canali": [
+                    "Blue Sport",
+                    "Blue Sport 1 Live"
+                  ]
+                },
+                {
+                  "paese": "USA",
+                  "canali": [
+                    "Fox Soccer Plus",
+                    "fuboTV",
+                    "FOX One"
+                  ]
+                }
+              ],
+              "fonte": "LiveSoccerTV"
+            },
+            {
               "titolo": "Serie B: Sampdoria vs Virtus Entella",
               "categoria": "Calcio",
               "sottocartella": "Serie B",
@@ -12491,8 +12555,58 @@
               "inizio": "2026-11-01T01:00:00+01:00",
               "data": "01/11/2026",
               "ora": "01:00",
-              "canali": [],
-              "canali_mondo": [],
+              "canali": [
+                {
+                  "nome": "DAZN Italia",
+                  "numero": "",
+                  "tipo": "streaming",
+                  "orario": "2026-11-01T01:00",
+                  "fonte": "livesoccer"
+                },
+                {
+                  "nome": "LAB Channel",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-01T01:00",
+                  "fonte": "livesoccer"
+                }
+              ],
+              "canali_mondo": [
+                {
+                  "paese": "Israele",
+                  "canali": [
+                    "5 Live"
+                  ]
+                },
+                {
+                  "paese": "Italia",
+                  "canali": [
+                    "DAZN Italia",
+                    "LAB Channel"
+                  ]
+                },
+                {
+                  "paese": "Liechtenstein",
+                  "canali": [
+                    "Blue Sport 3 Live",
+                    "Blue Sport"
+                  ]
+                },
+                {
+                  "paese": "San Marino",
+                  "canali": [
+                    "DAZN Italia",
+                    "LAB Channel"
+                  ]
+                },
+                {
+                  "paese": "Svizzera",
+                  "canali": [
+                    "Blue Sport 3 Live",
+                    "Blue Sport"
+                  ]
+                }
+              ],
               "fonte": "LiveSoccerTV"
             },
             {
