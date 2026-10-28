@@ -1,113 +1,16 @@
 {
-  "aggiornato": "2026-10-28T06:54:09+01:00",
+  "aggiornato": "2026-10-28T08:26:46+01:00",
   "fonti": {
     "motori": "Fuori Traiettoria, Dizzle0987/motorsport-calendar, palinsesto TV8",
     "calcio_italiano": "https://raw.githubusercontent.com/aandroide/Livesoccer/master/livesoccertv/output/eventi.json",
     "altri_sport": "https://sport.virgilio.it/guida-tv/"
   },
-  "totale": 207,
+  "totale": 206,
   "cartelle": [
     {
       "nome": "Oggi",
-      "totale": 20,
+      "totale": 19,
       "eventi": [
-        {
-          "titolo": "[Calcio] Serie B: Ascoli vs Sampdoria",
-          "categoria": "Calcio",
-          "sottocartella": "Serie B",
-          "sport": "Calcio",
-          "competizione": "Serie B",
-          "evento": "Ascoli vs Sampdoria",
-          "inizio": "2026-10-28T04:00:00+01:00",
-          "data": "28/10/2026",
-          "ora": "04:00",
-          "canali": [
-            {
-              "nome": "DAZN Italia",
-              "numero": "",
-              "tipo": "streaming",
-              "orario": "2026-10-28T04:00",
-              "fonte": "livesoccer"
-            },
-            {
-              "nome": "LAB Channel",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-10-28T04:00",
-              "fonte": "livesoccer"
-            }
-          ],
-          "canali_mondo": [
-            {
-              "paese": "Bielorussia",
-              "canali": [
-                "Sporttv"
-              ]
-            },
-            {
-              "paese": "Brasile",
-              "canali": [
-                "SportyNet"
-              ]
-            },
-            {
-              "paese": "Gran Bretagna",
-              "canali": [
-                "DCTV"
-              ]
-            },
-            {
-              "paese": "Irlanda",
-              "canali": [
-                "DCTV"
-              ]
-            },
-            {
-              "paese": "Italia",
-              "canali": [
-                "DAZN Italia",
-                "LAB Channel"
-              ]
-            },
-            {
-              "paese": "Liechtenstein",
-              "canali": [
-                "Blue Sport",
-                "Blue Sport 1 Live"
-              ]
-            },
-            {
-              "paese": "Russia",
-              "canali": [
-                "Телеканал Футбол"
-              ]
-            },
-            {
-              "paese": "San Marino",
-              "canali": [
-                "DAZN Italia",
-                "LAB Channel"
-              ]
-            },
-            {
-              "paese": "Svizzera",
-              "canali": [
-                "Blue Sport",
-                "Blue Sport 1 Live"
-              ]
-            },
-            {
-              "paese": "USA",
-              "canali": [
-                "Fox Soccer Plus",
-                "fuboTV",
-                "DCTV",
-                "FOX One"
-              ]
-            }
-          ],
-          "fonte": "LiveSoccerTV"
-        },
         {
           "titolo": "[Tennis] ATP & WTA",
           "categoria": "Tennis",
@@ -391,7 +294,8 @@
               "paese": "Belgio",
               "canali": [
                 "DAZN2 Belgium",
-                "DAZN Belgium"
+                "DAZN Belgium",
+                "Proximus Pickx"
               ]
             },
             {
@@ -701,6 +605,8 @@
             {
               "paese": "Iran",
               "canali": [
+                "IRIB Varzesh",
+                "Persiana Sports",
                 "Thmanyah"
               ]
             },
@@ -777,6 +683,7 @@
               "paese": "Kosovo",
               "canali": [
                 "Tring Sport 2",
+                "ART Sport 1",
                 "Arena 3 Premium",
                 "TV Vala Kosovo Telecom"
               ]
@@ -868,7 +775,8 @@
               "paese": "Maldive",
               "canali": [
                 "Ice Sports",
-                "ZEE5"
+                "ZEE5",
+                "Medianet"
               ]
             },
             {
@@ -952,6 +860,7 @@
             {
               "paese": "Paesi Bassi",
               "canali": [
+                "Ziggo Go",
                 "Ziggo Sport 5"
               ]
             },
@@ -1049,6 +958,7 @@
             {
               "paese": "Romania",
               "canali": [
+                "Digi Online",
                 "Digi Sport 4 Romania",
                 "Orange TV Go",
                 "Prima Sport 3",
@@ -1626,6 +1536,12 @@
               ]
             },
             {
+              "paese": "Georgia",
+              "canali": [
+                "Silk Universal"
+              ]
+            },
+            {
               "paese": "Germania",
               "canali": [
                 "DAZN Deutschland"
@@ -1752,6 +1668,7 @@
               "paese": "Kosovo",
               "canali": [
                 "Tring Sport 3",
+                "ART Sport 4",
                 "TV Vala Kosovo Telecom"
               ]
             },
@@ -1810,7 +1727,8 @@
               "paese": "Maldive",
               "canali": [
                 "ZEE5",
-                "ICE Plus"
+                "ICE Plus",
+                "Medianet"
               ]
             },
             {
@@ -2348,7 +2266,8 @@
               "paese": "Belgio",
               "canali": [
                 "DAZN1 Belgium",
-                "DAZN Belgium"
+                "DAZN Belgium",
+                "Proximus Pickx"
               ]
             },
             {
@@ -2641,7 +2560,8 @@
             {
               "paese": "Iran",
               "canali": [
-                "Thmanyah"
+                "Thmanyah",
+                "Persiana Sports 2"
               ]
             },
             {
@@ -2718,6 +2638,7 @@
               "paese": "Kosovo",
               "canali": [
                 "Tring Sport 1",
+                "ART Sport 2",
                 "Arena 4 Premium",
                 "TV Vala Kosovo Telecom"
               ]
@@ -2875,6 +2796,7 @@
             {
               "paese": "Paesi Bassi",
               "canali": [
+                "Ziggo Go",
                 "Ziggo Sport 2"
               ]
             },
@@ -2973,6 +2895,7 @@
               "paese": "Romania",
               "canali": [
                 "Digi Sport 3 Romania",
+                "Digi Online",
                 "Prima Sport 2",
                 "Orange TV Go",
                 "Prima Play"
@@ -3456,6 +3379,12 @@
               ]
             },
             {
+              "paese": "Israele",
+              "canali": [
+                "5Plus"
+              ]
+            },
+            {
               "paese": "Italia",
               "canali": [
                 "DAZN Italia",
@@ -3695,7 +3624,8 @@
               "paese": "Belgio",
               "canali": [
                 "DAZN1 Belgium",
-                "DAZN Belgium"
+                "DAZN Belgium",
+                "Proximus Pickx"
               ]
             },
             {
@@ -3981,7 +3911,8 @@
             {
               "paese": "Iran",
               "canali": [
-                "Thmanyah"
+                "Thmanyah",
+                "Persiana Sports 3"
               ]
             },
             {
@@ -4055,6 +3986,7 @@
               "paese": "Kosovo",
               "canali": [
                 "Tring Sport 1",
+                "ART Sport 1",
                 "TV Vala Kosovo Telecom"
               ]
             },
@@ -4138,7 +4070,8 @@
               "paese": "Maldive",
               "canali": [
                 "ZEE5",
-                "ICE Plus"
+                "ICE Plus",
+                "Medianet"
               ]
             },
             {
@@ -4216,6 +4149,7 @@
             {
               "paese": "Paesi Bassi",
               "canali": [
+                "Ziggo Go",
                 "Ziggo Sport 5"
               ]
             },
@@ -4745,7 +4679,8 @@
               "paese": "Belgio",
               "canali": [
                 "DAZN2 Belgium",
-                "DAZN Belgium"
+                "DAZN Belgium",
+                "Proximus Pickx"
               ]
             },
             {
@@ -4936,6 +4871,12 @@
               ]
             },
             {
+              "paese": "Georgia",
+              "canali": [
+                "Silk Universal"
+              ]
+            },
+            {
               "paese": "Germania",
               "canali": [
                 "DAZN Deutschland",
@@ -5085,6 +5026,7 @@
               "paese": "Kosovo",
               "canali": [
                 "Tring Sport 2",
+                "ART Sport 2",
                 "Arena 4 Premium",
                 "TV Vala Kosovo Telecom"
               ]
@@ -5142,6 +5084,7 @@
               "canali": [
                 "Ice Sports",
                 "ZEE5",
+                "Medianet",
                 "Unite8 Sports 1",
                 "Unite8 Sports 1 HD"
               ]
@@ -5216,6 +5159,7 @@
             {
               "paese": "Paesi Bassi",
               "canali": [
+                "Ziggo Go",
                 "Ziggo Sport 2"
               ]
             },
@@ -8371,7 +8315,7 @@
     },
     {
       "nome": "Calcio",
-      "totale": 75,
+      "totale": 74,
       "sottocartelle": [
         {
           "nome": "Serie A",
@@ -8523,7 +8467,8 @@
                   "paese": "Belgio",
                   "canali": [
                     "DAZN2 Belgium",
-                    "DAZN Belgium"
+                    "DAZN Belgium",
+                    "Proximus Pickx"
                   ]
                 },
                 {
@@ -8833,6 +8778,8 @@
                 {
                   "paese": "Iran",
                   "canali": [
+                    "IRIB Varzesh",
+                    "Persiana Sports",
                     "Thmanyah"
                   ]
                 },
@@ -8909,6 +8856,7 @@
                   "paese": "Kosovo",
                   "canali": [
                     "Tring Sport 2",
+                    "ART Sport 1",
                     "Arena 3 Premium",
                     "TV Vala Kosovo Telecom"
                   ]
@@ -9000,7 +8948,8 @@
                   "paese": "Maldive",
                   "canali": [
                     "Ice Sports",
-                    "ZEE5"
+                    "ZEE5",
+                    "Medianet"
                   ]
                 },
                 {
@@ -9084,6 +9033,7 @@
                 {
                   "paese": "Paesi Bassi",
                   "canali": [
+                    "Ziggo Go",
                     "Ziggo Sport 5"
                   ]
                 },
@@ -9181,6 +9131,7 @@
                 {
                   "paese": "Romania",
                   "canali": [
+                    "Digi Online",
                     "Digi Sport 4 Romania",
                     "Orange TV Go",
                     "Prima Sport 3",
@@ -9758,6 +9709,12 @@
                   ]
                 },
                 {
+                  "paese": "Georgia",
+                  "canali": [
+                    "Silk Universal"
+                  ]
+                },
+                {
                   "paese": "Germania",
                   "canali": [
                     "DAZN Deutschland"
@@ -9884,6 +9841,7 @@
                   "paese": "Kosovo",
                   "canali": [
                     "Tring Sport 3",
+                    "ART Sport 4",
                     "TV Vala Kosovo Telecom"
                   ]
                 },
@@ -9942,7 +9900,8 @@
                   "paese": "Maldive",
                   "canali": [
                     "ZEE5",
-                    "ICE Plus"
+                    "ICE Plus",
+                    "Medianet"
                   ]
                 },
                 {
@@ -10480,7 +10439,8 @@
                   "paese": "Belgio",
                   "canali": [
                     "DAZN1 Belgium",
-                    "DAZN Belgium"
+                    "DAZN Belgium",
+                    "Proximus Pickx"
                   ]
                 },
                 {
@@ -10773,7 +10733,8 @@
                 {
                   "paese": "Iran",
                   "canali": [
-                    "Thmanyah"
+                    "Thmanyah",
+                    "Persiana Sports 2"
                   ]
                 },
                 {
@@ -10850,6 +10811,7 @@
                   "paese": "Kosovo",
                   "canali": [
                     "Tring Sport 1",
+                    "ART Sport 2",
                     "Arena 4 Premium",
                     "TV Vala Kosovo Telecom"
                   ]
@@ -11007,6 +10969,7 @@
                 {
                   "paese": "Paesi Bassi",
                   "canali": [
+                    "Ziggo Go",
                     "Ziggo Sport 2"
                   ]
                 },
@@ -11105,6 +11068,7 @@
                   "paese": "Romania",
                   "canali": [
                     "Digi Sport 3 Romania",
+                    "Digi Online",
                     "Prima Sport 2",
                     "Orange TV Go",
                     "Prima Play"
@@ -11531,7 +11495,8 @@
                   "paese": "Belgio",
                   "canali": [
                     "DAZN1 Belgium",
-                    "DAZN Belgium"
+                    "DAZN Belgium",
+                    "Proximus Pickx"
                   ]
                 },
                 {
@@ -11817,7 +11782,8 @@
                 {
                   "paese": "Iran",
                   "canali": [
-                    "Thmanyah"
+                    "Thmanyah",
+                    "Persiana Sports 3"
                   ]
                 },
                 {
@@ -11891,6 +11857,7 @@
                   "paese": "Kosovo",
                   "canali": [
                     "Tring Sport 1",
+                    "ART Sport 1",
                     "TV Vala Kosovo Telecom"
                   ]
                 },
@@ -11974,7 +11941,8 @@
                   "paese": "Maldive",
                   "canali": [
                     "ZEE5",
-                    "ICE Plus"
+                    "ICE Plus",
+                    "Medianet"
                   ]
                 },
                 {
@@ -12052,6 +12020,7 @@
                 {
                   "paese": "Paesi Bassi",
                   "canali": [
+                    "Ziggo Go",
                     "Ziggo Sport 5"
                   ]
                 },
@@ -12581,7 +12550,8 @@
                   "paese": "Belgio",
                   "canali": [
                     "DAZN2 Belgium",
-                    "DAZN Belgium"
+                    "DAZN Belgium",
+                    "Proximus Pickx"
                   ]
                 },
                 {
@@ -12772,6 +12742,12 @@
                   ]
                 },
                 {
+                  "paese": "Georgia",
+                  "canali": [
+                    "Silk Universal"
+                  ]
+                },
+                {
                   "paese": "Germania",
                   "canali": [
                     "DAZN Deutschland",
@@ -12921,6 +12897,7 @@
                   "paese": "Kosovo",
                   "canali": [
                     "Tring Sport 2",
+                    "ART Sport 2",
                     "Arena 4 Premium",
                     "TV Vala Kosovo Telecom"
                   ]
@@ -12978,6 +12955,7 @@
                   "canali": [
                     "Ice Sports",
                     "ZEE5",
+                    "Medianet",
                     "Unite8 Sports 1",
                     "Unite8 Sports 1 HD"
                   ]
@@ -13052,6 +13030,7 @@
                 {
                   "paese": "Paesi Bassi",
                   "canali": [
+                    "Ziggo Go",
                     "Ziggo Sport 2"
                   ]
                 },
@@ -13661,105 +13640,8 @@
         },
         {
           "nome": "Serie B",
-          "totale": 15,
+          "totale": 14,
           "eventi": [
-            {
-              "titolo": "Serie B: Ascoli vs Sampdoria",
-              "categoria": "Calcio",
-              "sottocartella": "Serie B",
-              "sport": "Calcio",
-              "competizione": "Serie B",
-              "evento": "Ascoli vs Sampdoria",
-              "inizio": "2026-10-28T04:00:00+01:00",
-              "data": "28/10/2026",
-              "ora": "04:00",
-              "canali": [
-                {
-                  "nome": "DAZN Italia",
-                  "numero": "",
-                  "tipo": "streaming",
-                  "orario": "2026-10-28T04:00",
-                  "fonte": "livesoccer"
-                },
-                {
-                  "nome": "LAB Channel",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-28T04:00",
-                  "fonte": "livesoccer"
-                }
-              ],
-              "canali_mondo": [
-                {
-                  "paese": "Bielorussia",
-                  "canali": [
-                    "Sporttv"
-                  ]
-                },
-                {
-                  "paese": "Brasile",
-                  "canali": [
-                    "SportyNet"
-                  ]
-                },
-                {
-                  "paese": "Gran Bretagna",
-                  "canali": [
-                    "DCTV"
-                  ]
-                },
-                {
-                  "paese": "Irlanda",
-                  "canali": [
-                    "DCTV"
-                  ]
-                },
-                {
-                  "paese": "Italia",
-                  "canali": [
-                    "DAZN Italia",
-                    "LAB Channel"
-                  ]
-                },
-                {
-                  "paese": "Liechtenstein",
-                  "canali": [
-                    "Blue Sport",
-                    "Blue Sport 1 Live"
-                  ]
-                },
-                {
-                  "paese": "Russia",
-                  "canali": [
-                    "Телеканал Футбол"
-                  ]
-                },
-                {
-                  "paese": "San Marino",
-                  "canali": [
-                    "DAZN Italia",
-                    "LAB Channel"
-                  ]
-                },
-                {
-                  "paese": "Svizzera",
-                  "canali": [
-                    "Blue Sport",
-                    "Blue Sport 1 Live"
-                  ]
-                },
-                {
-                  "paese": "USA",
-                  "canali": [
-                    "Fox Soccer Plus",
-                    "fuboTV",
-                    "DCTV",
-                    "FOX One"
-                  ]
-                }
-              ],
-              "fonte": "LiveSoccerTV"
-            },
             {
               "titolo": "Serie B: Pisa vs Palermo",
               "categoria": "Calcio",
@@ -13918,6 +13800,12 @@
                   "paese": "Internazionale",
                   "canali": [
                     "Onefootball"
+                  ]
+                },
+                {
+                  "paese": "Israele",
+                  "canali": [
+                    "5Plus"
                   ]
                 },
                 {
@@ -14160,8 +14048,58 @@
               "inizio": "2026-11-01T01:00:00+01:00",
               "data": "01/11/2026",
               "ora": "01:00",
-              "canali": [],
-              "canali_mondo": [],
+              "canali": [
+                {
+                  "nome": "DAZN Italia",
+                  "numero": "",
+                  "tipo": "streaming",
+                  "orario": "2026-11-01T01:00",
+                  "fonte": "livesoccer"
+                },
+                {
+                  "nome": "LAB Channel",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-01T01:00",
+                  "fonte": "livesoccer"
+                }
+              ],
+              "canali_mondo": [
+                {
+                  "paese": "Israele",
+                  "canali": [
+                    "5 Live"
+                  ]
+                },
+                {
+                  "paese": "Italia",
+                  "canali": [
+                    "DAZN Italia",
+                    "LAB Channel"
+                  ]
+                },
+                {
+                  "paese": "Liechtenstein",
+                  "canali": [
+                    "Blue Sport 3 Live",
+                    "Blue Sport"
+                  ]
+                },
+                {
+                  "paese": "San Marino",
+                  "canali": [
+                    "DAZN Italia",
+                    "LAB Channel"
+                  ]
+                },
+                {
+                  "paese": "Svizzera",
+                  "canali": [
+                    "Blue Sport 3 Live",
+                    "Blue Sport"
+                  ]
+                }
+              ],
               "fonte": "LiveSoccerTV"
             },
             {
