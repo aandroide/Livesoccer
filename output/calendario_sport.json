@@ -1,11 +1,11 @@
 {
-  "aggiornato": "2026-10-28T14:10:45+01:00",
+  "aggiornato": "2026-10-28T15:42:05+01:00",
   "fonti": {
     "motori": "Fuori Traiettoria, Dizzle0987/motorsport-calendar, palinsesto TV8",
     "calcio_italiano": "https://raw.githubusercontent.com/aandroide/Livesoccer/master/livesoccertv/output/eventi.json",
     "altri_sport": "https://sport.virgilio.it/guida-tv/"
   },
-  "totale": 206,
+  "totale": 208,
   "cartelle": [
     {
       "nome": "Oggi",
@@ -1118,6 +1118,12 @@
               ]
             },
             {
+              "paese": "Thailandia",
+              "canali": [
+                "True Premier Football HD 4"
+              ]
+            },
+            {
               "paese": "Trinidad e Tobago",
               "canali": [
                 "Disney+ Premium Caribbean"
@@ -2009,6 +2015,12 @@
                 "STARZPLAY",
                 "Shasha",
                 "Thmanyah"
+              ]
+            },
+            {
+              "paese": "Thailandia",
+              "canali": [
+                "True Premier Football HD 5"
               ]
             },
             {
@@ -3066,6 +3078,12 @@
               "paese": "Tanzania",
               "canali": [
                 "Azam Sports 3 HD"
+              ]
+            },
+            {
+              "paese": "Thailandia",
+              "canali": [
+                "True Premier Football HD 3"
               ]
             },
             {
@@ -4415,6 +4433,12 @@
               ]
             },
             {
+              "paese": "Thailandia",
+              "canali": [
+                "True Premier Football HD 3"
+              ]
+            },
+            {
               "paese": "Trinidad e Tobago",
               "canali": [
                 "Disney+ Premium Caribbean"
@@ -5391,6 +5415,12 @@
                 "STARZPLAY",
                 "Shasha",
                 "Thmanyah"
+              ]
+            },
+            {
+              "paese": "Thailandia",
+              "canali": [
+                "True Premier Football HD 4"
               ]
             },
             {
@@ -8299,7 +8329,7 @@
     },
     {
       "nome": "Calcio",
-      "totale": 74,
+      "totale": 76,
       "sottocartelle": [
         {
           "nome": "Serie A",
@@ -9275,6 +9305,12 @@
                   ]
                 },
                 {
+                  "paese": "Thailandia",
+                  "canali": [
+                    "True Premier Football HD 4"
+                  ]
+                },
+                {
                   "paese": "Trinidad e Tobago",
                   "canali": [
                     "Disney+ Premium Caribbean"
@@ -10166,6 +10202,12 @@
                     "STARZPLAY",
                     "Shasha",
                     "Thmanyah"
+                  ]
+                },
+                {
+                  "paese": "Thailandia",
+                  "canali": [
+                    "True Premier Football HD 5"
                   ]
                 },
                 {
@@ -11226,6 +11268,12 @@
                   ]
                 },
                 {
+                  "paese": "Thailandia",
+                  "canali": [
+                    "True Premier Football HD 3"
+                  ]
+                },
+                {
                   "paese": "Trinidad e Tobago",
                   "canali": [
                     "Disney+ Premium Caribbean"
@@ -12270,6 +12318,12 @@
                   ]
                 },
                 {
+                  "paese": "Thailandia",
+                  "canali": [
+                    "True Premier Football HD 3"
+                  ]
+                },
+                {
                   "paese": "Trinidad e Tobago",
                   "canali": [
                     "Disney+ Premium Caribbean"
@@ -13249,6 +13303,12 @@
                   ]
                 },
                 {
+                  "paese": "Thailandia",
+                  "canali": [
+                    "True Premier Football HD 4"
+                  ]
+                },
+                {
                   "paese": "Trinidad e Tobago",
                   "canali": [
                     "Disney+ Premium Caribbean"
@@ -13624,7 +13684,7 @@
         },
         {
           "nome": "Serie B",
-          "totale": 14,
+          "totale": 16,
           "eventi": [
             {
               "titolo": "Serie B: Pisa vs Palermo",
@@ -13821,6 +13881,20 @@
                   ]
                 }
               ],
+              "fonte": "LiveSoccerTV"
+            },
+            {
+              "titolo": "Serie B: Ascoli vs Sampdoria",
+              "categoria": "Calcio",
+              "sottocartella": "Serie B",
+              "sport": "Calcio",
+              "competizione": "Serie B",
+              "evento": "Ascoli vs Sampdoria",
+              "inizio": "2026-10-29T13:30:00+01:00",
+              "data": "29/10/2026",
+              "ora": "13:30",
+              "canali": [],
+              "canali_mondo": [],
               "fonte": "LiveSoccerTV"
             },
             {
@@ -14190,6 +14264,20 @@
                 }
               ],
               "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "Serie B: Palermo vs Lr Vicenza",
+              "categoria": "Calcio",
+              "sottocartella": "Serie B",
+              "sport": "Calcio",
+              "competizione": "Serie B",
+              "evento": "Palermo vs Lr Vicenza",
+              "inizio": "2026-11-02T04:00:00+01:00",
+              "data": "02/11/2026",
+              "ora": "04:00",
+              "canali": [],
+              "canali_mondo": [],
+              "fonte": "LiveSoccerTV"
             }
           ]
         },
