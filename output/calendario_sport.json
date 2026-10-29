@@ -1,37 +1,16 @@
 {
-  "aggiornato": "2026-10-29T01:53:33+01:00",
+  "aggiornato": "2026-10-29T07:53:03+01:00",
   "fonti": {
     "motori": "Fuori Traiettoria, Dizzle0987/motorsport-calendar, palinsesto TV8",
     "calcio_italiano": "https://raw.githubusercontent.com/aandroide/Livesoccer/master/livesoccertv/output/eventi.json",
     "altri_sport": "https://sport.virgilio.it/guida-tv/"
   },
-  "totale": 207,
+  "totale": 206,
   "cartelle": [
     {
       "nome": "Oggi",
-      "totale": 7,
+      "totale": 6,
       "eventi": [
-        {
-          "titolo": "[Tennis] ATP & WTA",
-          "categoria": "Tennis",
-          "sottocartella": "ATP & WTA",
-          "sport": "Tennis",
-          "competizione": "ATP & WTA",
-          "evento": "ATP & WTA",
-          "inizio": "2026-10-29T02:30:00+01:00",
-          "data": "29/10/2026",
-          "ora": "02:30",
-          "canali": [
-            {
-              "nome": "Sky Sport Tennis",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-10-29T02:30",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
         {
           "titolo": "[Calcio] Serie B: Ascoli vs Sampdoria",
           "categoria": "Calcio",
@@ -42,8 +21,91 @@
           "inizio": "2026-10-29T13:30:00+01:00",
           "data": "29/10/2026",
           "ora": "13:30",
-          "canali": [],
-          "canali_mondo": [],
+          "canali": [
+            {
+              "nome": "DAZN Italia",
+              "numero": "",
+              "tipo": "streaming",
+              "orario": "2026-10-29T13:30",
+              "fonte": "livesoccer"
+            },
+            {
+              "nome": "LAB Channel",
+              "numero": "",
+              "tipo": "diretta",
+              "orario": "2026-10-29T13:30",
+              "fonte": "livesoccer"
+            }
+          ],
+          "canali_mondo": [
+            {
+              "paese": "Bielorussia",
+              "canali": [
+                "Sporttv"
+              ]
+            },
+            {
+              "paese": "Brasile",
+              "canali": [
+                "SportyNet"
+              ]
+            },
+            {
+              "paese": "Gran Bretagna",
+              "canali": [
+                "DCTV"
+              ]
+            },
+            {
+              "paese": "Irlanda",
+              "canali": [
+                "DCTV"
+              ]
+            },
+            {
+              "paese": "Italia",
+              "canali": [
+                "DAZN Italia",
+                "LAB Channel"
+              ]
+            },
+            {
+              "paese": "Liechtenstein",
+              "canali": [
+                "Blue Sport",
+                "Blue Sport 1 Live"
+              ]
+            },
+            {
+              "paese": "Russia",
+              "canali": [
+                "Телеканал Футбол"
+              ]
+            },
+            {
+              "paese": "San Marino",
+              "canali": [
+                "DAZN Italia",
+                "LAB Channel"
+              ]
+            },
+            {
+              "paese": "Svizzera",
+              "canali": [
+                "Blue Sport",
+                "Blue Sport 1 Live"
+              ]
+            },
+            {
+              "paese": "USA",
+              "canali": [
+                "Fox Soccer Plus",
+                "fuboTV",
+                "DCTV",
+                "FOX One"
+              ]
+            }
+          ],
           "fonte": "LiveSoccerTV"
         },
         {
@@ -68,12 +130,12 @@
           "fonte": "Virgilio Sport"
         },
         {
-          "titolo": "[Calcio] Serie A: Frosinone-Lecce",
+          "titolo": "[Calcio] Serie A: Frosinone vs Lecce",
           "categoria": "Calcio",
           "sottocartella": "Serie A",
           "sport": "Calcio",
           "competizione": "Serie A",
-          "evento": "Frosinone-Lecce",
+          "evento": "Frosinone vs Lecce",
           "inizio": "2026-10-29T18:30:00+01:00",
           "data": "29/10/2026",
           "ora": "18:30",
@@ -86,7 +148,8 @@
               "fonte": "virgilio"
             }
           ],
-          "fonte": "Virgilio Sport"
+          "canali_mondo": [],
+          "fonte": "LiveSoccerTV"
         },
         {
           "titolo": "[Basket] Eurolega: Stella Rossa-Bayern Monaco",
@@ -131,12 +194,12 @@
           "fonte": "Virgilio Sport"
         },
         {
-          "titolo": "[Calcio] Serie A: Fiorentina-Atalanta",
+          "titolo": "[Calcio] Serie A: Fiorentina vs Atalanta",
           "categoria": "Calcio",
           "sottocartella": "Serie A",
           "sport": "Calcio",
           "competizione": "Serie A",
-          "evento": "Fiorentina-Atalanta",
+          "evento": "Fiorentina vs Atalanta",
           "inizio": "2026-10-29T20:45:00+01:00",
           "data": "29/10/2026",
           "ora": "20:45",
@@ -149,7 +212,8 @@
               "fonte": "virgilio"
             }
           ],
-          "fonte": "Virgilio Sport"
+          "canali_mondo": [],
+          "fonte": "LiveSoccerTV"
         }
       ]
     },
@@ -2965,12 +3029,12 @@
           "totale": 12,
           "eventi": [
             {
-              "titolo": "Serie A: Frosinone-Lecce",
+              "titolo": "Serie A: Frosinone vs Lecce",
               "categoria": "Calcio",
               "sottocartella": "Serie A",
               "sport": "Calcio",
               "competizione": "Serie A",
-              "evento": "Frosinone-Lecce",
+              "evento": "Frosinone vs Lecce",
               "inizio": "2026-10-29T18:30:00+01:00",
               "data": "29/10/2026",
               "ora": "18:30",
@@ -2983,15 +3047,16 @@
                   "fonte": "virgilio"
                 }
               ],
-              "fonte": "Virgilio Sport"
+              "canali_mondo": [],
+              "fonte": "LiveSoccerTV"
             },
             {
-              "titolo": "Serie A: Fiorentina-Atalanta",
+              "titolo": "Serie A: Fiorentina vs Atalanta",
               "categoria": "Calcio",
               "sottocartella": "Serie A",
               "sport": "Calcio",
               "competizione": "Serie A",
-              "evento": "Fiorentina-Atalanta",
+              "evento": "Fiorentina vs Atalanta",
               "inizio": "2026-10-29T20:45:00+01:00",
               "data": "29/10/2026",
               "ora": "20:45",
@@ -3004,15 +3069,16 @@
                   "fonte": "virgilio"
                 }
               ],
-              "fonte": "Virgilio Sport"
+              "canali_mondo": [],
+              "fonte": "LiveSoccerTV"
             },
             {
-              "titolo": "Serie A: Bologna-Monza",
+              "titolo": "Serie A: Bologna vs Monza",
               "categoria": "Calcio",
               "sottocartella": "Serie A",
               "sport": "Calcio",
               "competizione": "Serie A",
-              "evento": "Bologna-Monza",
+              "evento": "Bologna vs Monza",
               "inizio": "2026-10-31T15:00:00+01:00",
               "data": "31/10/2026",
               "ora": "15:00",
@@ -3025,15 +3091,16 @@
                   "fonte": "virgilio"
                 }
               ],
-              "fonte": "Virgilio Sport"
+              "canali_mondo": [],
+              "fonte": "LiveSoccerTV"
             },
             {
-              "titolo": "Serie A: Udinese-Roma",
+              "titolo": "Serie A: Udinese vs Roma",
               "categoria": "Calcio",
               "sottocartella": "Serie A",
               "sport": "Calcio",
               "competizione": "Serie A",
-              "evento": "Udinese-Roma",
+              "evento": "Udinese vs Roma",
               "inizio": "2026-10-31T18:00:00+01:00",
               "data": "31/10/2026",
               "ora": "18:00",
@@ -3046,26 +3113,20 @@
                   "fonte": "virgilio"
                 }
               ],
-              "fonte": "Virgilio Sport"
+              "canali_mondo": [],
+              "fonte": "LiveSoccerTV"
             },
             {
-              "titolo": "Serie A: Milan-Inter",
+              "titolo": "Serie A: Milan vs Internazionale",
               "categoria": "Calcio",
               "sottocartella": "Serie A",
               "sport": "Calcio",
               "competizione": "Serie A",
-              "evento": "Milan-Inter",
+              "evento": "Milan vs Internazionale",
               "inizio": "2026-10-31T20:45:00+01:00",
               "data": "31/10/2026",
               "ora": "20:45",
               "canali": [
-                {
-                  "nome": "Sky",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-31T20:45",
-                  "fonte": "virgilio"
-                },
                 {
                   "nome": "DAZN",
                   "numero": "",
@@ -3088,7 +3149,8 @@
                   "fonte": "virgilio"
                 }
               ],
-              "fonte": "Virgilio Sport"
+              "canali_mondo": [],
+              "fonte": "LiveSoccerTV"
             },
             {
               "titolo": "Serie A: Como-Venezia",
@@ -3262,7 +3324,7 @@
         },
         {
           "nome": "Serie B",
-          "totale": 13,
+          "totale": 12,
           "eventi": [
             {
               "titolo": "Serie B: Ascoli vs Sampdoria",
@@ -3274,8 +3336,91 @@
               "inizio": "2026-10-29T13:30:00+01:00",
               "data": "29/10/2026",
               "ora": "13:30",
-              "canali": [],
-              "canali_mondo": [],
+              "canali": [
+                {
+                  "nome": "DAZN Italia",
+                  "numero": "",
+                  "tipo": "streaming",
+                  "orario": "2026-10-29T13:30",
+                  "fonte": "livesoccer"
+                },
+                {
+                  "nome": "LAB Channel",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-29T13:30",
+                  "fonte": "livesoccer"
+                }
+              ],
+              "canali_mondo": [
+                {
+                  "paese": "Bielorussia",
+                  "canali": [
+                    "Sporttv"
+                  ]
+                },
+                {
+                  "paese": "Brasile",
+                  "canali": [
+                    "SportyNet"
+                  ]
+                },
+                {
+                  "paese": "Gran Bretagna",
+                  "canali": [
+                    "DCTV"
+                  ]
+                },
+                {
+                  "paese": "Irlanda",
+                  "canali": [
+                    "DCTV"
+                  ]
+                },
+                {
+                  "paese": "Italia",
+                  "canali": [
+                    "DAZN Italia",
+                    "LAB Channel"
+                  ]
+                },
+                {
+                  "paese": "Liechtenstein",
+                  "canali": [
+                    "Blue Sport",
+                    "Blue Sport 1 Live"
+                  ]
+                },
+                {
+                  "paese": "Russia",
+                  "canali": [
+                    "Телеканал Футбол"
+                  ]
+                },
+                {
+                  "paese": "San Marino",
+                  "canali": [
+                    "DAZN Italia",
+                    "LAB Channel"
+                  ]
+                },
+                {
+                  "paese": "Svizzera",
+                  "canali": [
+                    "Blue Sport",
+                    "Blue Sport 1 Live"
+                  ]
+                },
+                {
+                  "paese": "USA",
+                  "canali": [
+                    "Fox Soccer Plus",
+                    "fuboTV",
+                    "DCTV",
+                    "FOX One"
+                  ]
+                }
+              ],
               "fonte": "LiveSoccerTV"
             },
             {
@@ -3415,16 +3560,30 @@
               "fonte": "LiveSoccerTV"
             },
             {
-              "titolo": "Serie B: Sudtirol-Cesena",
+              "titolo": "Serie B: Südtirol vs Cesena",
               "categoria": "Calcio",
               "sottocartella": "Serie B",
               "sport": "Calcio",
               "competizione": "Serie B",
-              "evento": "Sudtirol-Cesena",
+              "evento": "Südtirol vs Cesena",
               "inizio": "2026-10-31T15:00:00+01:00",
               "data": "31/10/2026",
               "ora": "15:00",
               "canali": [
+                {
+                  "nome": "DAZN Italia",
+                  "numero": "",
+                  "tipo": "streaming",
+                  "orario": "2026-10-31T15:00",
+                  "fonte": "livesoccer"
+                },
+                {
+                  "nome": "LAB Channel",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-31T15:00",
+                  "fonte": "livesoccer"
+                },
                 {
                   "nome": "DAZN",
                   "numero": "",
@@ -3433,19 +3592,49 @@
                   "fonte": "virgilio"
                 }
               ],
-              "fonte": "Virgilio Sport"
+              "canali_mondo": [
+                {
+                  "paese": "Italia",
+                  "canali": [
+                    "DAZN Italia",
+                    "LAB Channel"
+                  ]
+                },
+                {
+                  "paese": "San Marino",
+                  "canali": [
+                    "DAZN Italia",
+                    "LAB Channel"
+                  ]
+                }
+              ],
+              "fonte": "LiveSoccerTV"
             },
             {
-              "titolo": "Serie B: Catanzaro-Padova",
+              "titolo": "Serie B: Catanzaro vs Calcio Padova",
               "categoria": "Calcio",
               "sottocartella": "Serie B",
               "sport": "Calcio",
               "competizione": "Serie B",
-              "evento": "Catanzaro-Padova",
+              "evento": "Catanzaro vs Calcio Padova",
               "inizio": "2026-10-31T17:15:00+01:00",
               "data": "31/10/2026",
               "ora": "17:15",
               "canali": [
+                {
+                  "nome": "DAZN Italia",
+                  "numero": "",
+                  "tipo": "streaming",
+                  "orario": "2026-10-31T17:15",
+                  "fonte": "livesoccer"
+                },
+                {
+                  "nome": "LAB Channel",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-31T17:15",
+                  "fonte": "livesoccer"
+                },
                 {
                   "nome": "DAZN",
                   "numero": "",
@@ -3454,28 +3643,23 @@
                   "fonte": "virgilio"
                 }
               ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "Serie B: Sampdoria-Virtus Entella",
-              "categoria": "Calcio",
-              "sottocartella": "Serie B",
-              "sport": "Calcio",
-              "competizione": "Serie B",
-              "evento": "Sampdoria-Virtus Entella",
-              "inizio": "2026-10-31T19:30:00+01:00",
-              "data": "31/10/2026",
-              "ora": "19:30",
-              "canali": [
+              "canali_mondo": [
                 {
-                  "nome": "DAZN",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-31T19:30",
-                  "fonte": "virgilio"
+                  "paese": "Italia",
+                  "canali": [
+                    "DAZN Italia",
+                    "LAB Channel"
+                  ]
+                },
+                {
+                  "paese": "San Marino",
+                  "canali": [
+                    "DAZN Italia",
+                    "LAB Channel"
+                  ]
                 }
               ],
-              "fonte": "Virgilio Sport"
+              "fonte": "LiveSoccerTV"
             },
             {
               "titolo": "Serie B: Sampdoria vs Virtus Entella",
@@ -3484,23 +3668,30 @@
               "sport": "Calcio",
               "competizione": "Serie B",
               "evento": "Sampdoria vs Virtus Entella",
-              "inizio": "2026-11-01T01:00:00+01:00",
-              "data": "01/11/2026",
-              "ora": "01:00",
+              "inizio": "2026-10-31T19:30:00+01:00",
+              "data": "31/10/2026",
+              "ora": "19:30",
               "canali": [
                 {
                   "nome": "DAZN Italia",
                   "numero": "",
                   "tipo": "streaming",
-                  "orario": "2026-11-01T01:00",
+                  "orario": "2026-10-31T19:30",
                   "fonte": "livesoccer"
                 },
                 {
                   "nome": "LAB Channel",
                   "numero": "",
                   "tipo": "diretta",
-                  "orario": "2026-11-01T01:00",
+                  "orario": "2026-10-31T19:30",
                   "fonte": "livesoccer"
+                },
+                {
+                  "nome": "DAZN",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-31T19:30",
+                  "fonte": "virgilio"
                 }
               ],
               "canali_mondo": [
@@ -3664,7 +3855,7 @@
         },
         {
           "nome": "Serie C",
-          "totale": 14,
+          "totale": 15,
           "eventi": [
             {
               "titolo": "Serie C: AlbinoLeffe vs Pergolettese",
@@ -3826,6 +4017,50 @@
               "sport": "Calcio",
               "competizione": "Serie C",
               "evento": "Bari 1908 vs Scafatese",
+              "inizio": "2026-10-31T14:30:00+01:00",
+              "data": "31/10/2026",
+              "ora": "14:30",
+              "canali": [
+                {
+                  "nome": "SKY Go Italia",
+                  "numero": "",
+                  "tipo": "streaming",
+                  "orario": "2026-10-31T14:30",
+                  "fonte": "livesoccer"
+                },
+                {
+                  "nome": "NOW TV",
+                  "numero": "",
+                  "tipo": "streaming",
+                  "orario": "2026-10-31T14:30",
+                  "fonte": "livesoccer"
+                }
+              ],
+              "canali_mondo": [
+                {
+                  "paese": "Italia",
+                  "canali": [
+                    "SKY Go Italia",
+                    "NOW TV"
+                  ]
+                },
+                {
+                  "paese": "San Marino",
+                  "canali": [
+                    "SKY Go Italia",
+                    "NOW TV"
+                  ]
+                }
+              ],
+              "fonte": "LiveSoccerTV"
+            },
+            {
+              "titolo": "Serie C: Giugliano vs Casertana",
+              "categoria": "Calcio",
+              "sottocartella": "Serie C",
+              "sport": "Calcio",
+              "competizione": "Serie C",
+              "evento": "Giugliano vs Casertana",
               "inizio": "2026-10-31T14:30:00+01:00",
               "data": "31/10/2026",
               "ora": "14:30",
@@ -4925,33 +5160,12 @@
     },
     {
       "nome": "Tennis",
-      "totale": 20,
+      "totale": 19,
       "sottocartelle": [
         {
           "nome": "ATP & WTA",
-          "totale": 4,
+          "totale": 3,
           "eventi": [
-            {
-              "titolo": "ATP & WTA",
-              "categoria": "Tennis",
-              "sottocartella": "ATP & WTA",
-              "sport": "Tennis",
-              "competizione": "ATP & WTA",
-              "evento": "ATP & WTA",
-              "inizio": "2026-10-29T02:30:00+01:00",
-              "data": "29/10/2026",
-              "ora": "02:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport Tennis",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-29T02:30",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
             {
               "titolo": "ATP & WTA",
               "categoria": "Tennis",
