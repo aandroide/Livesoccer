@@ -1,66 +1,16 @@
 {
-  "aggiornato": "2026-10-29T14:44:43+01:00",
+  "aggiornato": "2026-10-29T19:32:20+01:00",
   "fonti": {
     "motori": "Fuori Traiettoria, Dizzle0987/motorsport-calendar, palinsesto TV8",
     "calcio_italiano": "https://raw.githubusercontent.com/aandroide/Livesoccer/master/livesoccertv/output/eventi.json",
     "altri_sport": "https://sport.virgilio.it/guida-tv/"
   },
-  "totale": 206,
+  "totale": 216,
   "cartelle": [
     {
       "nome": "Oggi",
-      "totale": 6,
+      "totale": 4,
       "eventi": [
-        {
-          "titolo": "[Calcio] Serie B: Ascoli vs Sampdoria",
-          "categoria": "Calcio",
-          "sottocartella": "Serie B",
-          "sport": "Calcio",
-          "competizione": "Serie B",
-          "evento": "Ascoli vs Sampdoria",
-          "inizio": "2026-10-29T13:30:00+01:00",
-          "data": "29/10/2026",
-          "ora": "13:30",
-          "canali": [
-            {
-              "nome": "DAZN Italia",
-              "numero": "",
-              "tipo": "streaming",
-              "orario": "2026-10-29T13:30",
-              "fonte": "livesoccer"
-            },
-            {
-              "nome": "LAB Channel",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-10-29T13:30",
-              "fonte": "livesoccer"
-            }
-          ],
-          "canali_mondo": [],
-          "fonte": "LiveSoccerTV"
-        },
-        {
-          "titolo": "[Tennis] ATP & WTA",
-          "categoria": "Tennis",
-          "sottocartella": "ATP & WTA",
-          "sport": "Tennis",
-          "competizione": "ATP & WTA",
-          "evento": "ATP & WTA",
-          "inizio": "2026-10-29T13:30:00+01:00",
-          "data": "29/10/2026",
-          "ora": "13:30",
-          "canali": [
-            {
-              "nome": "Sky Sport 1",
-              "numero": "201",
-              "tipo": "diretta",
-              "orario": "2026-10-29T13:30",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
         {
           "titolo": "[Calcio] Serie A: Frosinone vs Lecce",
           "categoria": "Calcio",
@@ -2368,7 +2318,7 @@
                   "nome": "TV8",
                   "numero": "8",
                   "tipo": "differita",
-                  "orario": "2026-10-31T23:30",
+                  "orario": "2026-10-31T23:25",
                   "fonte": "config+tv8"
                 }
               ],
@@ -2419,7 +2369,7 @@
                   "nome": "TV8",
                   "numero": "8",
                   "tipo": "differita",
-                  "orario": "2026-11-01T22:30",
+                  "orario": "2026-11-01T22:00",
                   "fonte": "config+tv8"
                 }
               ],
@@ -3680,7 +3630,7 @@
                   "nome": "TV8",
                   "numero": "8",
                   "tipo": "diretta",
-                  "orario": "2026-10-31T08:00",
+                  "orario": "2026-10-31T07:55",
                   "fonte": "dizzle+tv8"
                 },
                 {
@@ -4567,8 +4517,8 @@
                 {
                   "nome": "TV8",
                   "numero": "8",
-                  "tipo": "differita",
-                  "orario": "2026-10-31T06:00",
+                  "tipo": "diretta",
+                  "orario": "2026-10-31T05:40",
                   "programma": "GP Malesia: Qualifiche",
                   "fonte": "tv8"
                 }
@@ -4592,7 +4542,7 @@
                   "nome": "TV8",
                   "numero": "8",
                   "tipo": "diretta",
-                  "orario": "2026-10-31T06:00",
+                  "orario": "2026-10-31T05:40",
                   "programma": "GP Malesia: Qualifiche",
                   "fonte": "tv8"
                 }
@@ -5004,7 +4954,7 @@
     },
     {
       "nome": "Calcio",
-      "totale": 75,
+      "totale": 82,
       "sottocartelle": [
         {
           "nome": "Serie A",
@@ -10716,6 +10666,13 @@
               "ora": "18:30",
               "canali": [
                 {
+                  "nome": "Sky Sport Calcio",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-02T18:30",
+                  "fonte": "virgilio"
+                },
+                {
                   "nome": "Sky",
                   "numero": "",
                   "tipo": "diretta",
@@ -10757,37 +10714,8 @@
         },
         {
           "nome": "Serie B",
-          "totale": 12,
+          "totale": 11,
           "eventi": [
-            {
-              "titolo": "Serie B: Ascoli vs Sampdoria",
-              "categoria": "Calcio",
-              "sottocartella": "Serie B",
-              "sport": "Calcio",
-              "competizione": "Serie B",
-              "evento": "Ascoli vs Sampdoria",
-              "inizio": "2026-10-29T13:30:00+01:00",
-              "data": "29/10/2026",
-              "ora": "13:30",
-              "canali": [
-                {
-                  "nome": "DAZN Italia",
-                  "numero": "",
-                  "tipo": "streaming",
-                  "orario": "2026-10-29T13:30",
-                  "fonte": "livesoccer"
-                },
-                {
-                  "nome": "LAB Channel",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-29T13:30",
-                  "fonte": "livesoccer"
-                }
-              ],
-              "canali_mondo": [],
-              "fonte": "LiveSoccerTV"
-            },
             {
               "titolo": "Serie B: Cremonese vs Benevento",
               "categoria": "Calcio",
@@ -11220,7 +11148,7 @@
         },
         {
           "nome": "Serie C",
-          "totale": 15,
+          "totale": 16,
           "eventi": [
             {
               "titolo": "Serie C: AlbinoLeffe vs Pergolettese",
@@ -11297,6 +11225,13 @@
                   "tipo": "streaming",
                   "orario": "2026-10-30T20:30",
                   "fonte": "livesoccer"
+                },
+                {
+                  "nome": "Sky Sport Calcio",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-30T20:30",
+                  "fonte": "virgilio"
                 },
                 {
                   "nome": "Sky Sport Arena",
@@ -11679,12 +11614,33 @@
                 }
               ],
               "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "Serie C: Novara-Desenzano",
+              "categoria": "Calcio",
+              "sottocartella": "Serie C",
+              "sport": "Calcio",
+              "competizione": "Serie C",
+              "evento": "Novara-Desenzano",
+              "inizio": "2026-11-02T20:30:00+01:00",
+              "data": "02/11/2026",
+              "ora": "20:30",
+              "canali": [
+                {
+                  "nome": "Sky Sport Mix",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-02T20:30",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
             }
           ]
         },
         {
           "nome": "Primavera 1",
-          "totale": 4,
+          "totale": 8,
           "eventi": [
             {
               "titolo": "Primavera 1: Inter-Roma",
@@ -11769,92 +11725,86 @@
                 }
               ],
               "fonte": "Virgilio Sport"
-            }
-          ]
-        },
-        {
-          "nome": "Bundesliga",
-          "totale": 4,
-          "eventi": [
-            {
-              "titolo": "Bundesliga: Elversberg-Mainz",
-              "categoria": "Calcio",
-              "sottocartella": "Bundesliga",
-              "sport": "Calcio",
-              "competizione": "Bundesliga",
-              "evento": "Elversberg-Mainz",
-              "inizio": "2026-10-30T20:30:00+01:00",
-              "data": "30/10/2026",
-              "ora": "20:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport Calcio",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-30T20:30",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
             },
             {
-              "titolo": "Bundesliga: Bayern Monaco-Borussia Dortmund",
+              "titolo": "Primavera 1: Torino-Juventus",
               "categoria": "Calcio",
-              "sottocartella": "Bundesliga",
+              "sottocartella": "Primavera 1",
               "sport": "Calcio",
-              "competizione": "Bundesliga",
-              "evento": "Bayern Monaco-Borussia Dortmund",
-              "inizio": "2026-10-31T18:30:00+01:00",
-              "data": "31/10/2026",
-              "ora": "18:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport 1",
-                  "numero": "201",
-                  "tipo": "diretta",
-                  "orario": "2026-10-31T18:30",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "Bundesliga: Union Berlino-Colonia",
-              "categoria": "Calcio",
-              "sottocartella": "Bundesliga",
-              "sport": "Calcio",
-              "competizione": "Bundesliga",
-              "evento": "Union Berlino-Colonia",
-              "inizio": "2026-11-01T15:30:00+01:00",
+              "competizione": "Primavera 1",
+              "evento": "Torino-Juventus",
+              "inizio": "2026-11-01T11:00:00+01:00",
               "data": "01/11/2026",
-              "ora": "15:30",
+              "ora": "11:00",
               "canali": [
                 {
-                  "nome": "Sky Sport Arena",
+                  "nome": "Sportitalia",
                   "numero": "",
                   "tipo": "diretta",
-                  "orario": "2026-11-01T15:30",
+                  "orario": "2026-11-01T11:00",
                   "fonte": "virgilio"
                 }
               ],
               "fonte": "Virgilio Sport"
             },
             {
-              "titolo": "Bundesliga: Eintracht Francoforte-Amburgo",
+              "titolo": "Primavera 1: Genoa-Verona",
               "categoria": "Calcio",
-              "sottocartella": "Bundesliga",
+              "sottocartella": "Primavera 1",
               "sport": "Calcio",
-              "competizione": "Bundesliga",
-              "evento": "Eintracht Francoforte-Amburgo",
-              "inizio": "2026-11-01T17:30:00+01:00",
+              "competizione": "Primavera 1",
+              "evento": "Genoa-Verona",
+              "inizio": "2026-11-01T13:00:00+01:00",
               "data": "01/11/2026",
-              "ora": "17:30",
+              "ora": "13:00",
               "canali": [
                 {
-                  "nome": "Sky Sport Mix",
+                  "nome": "Sportitalia",
                   "numero": "",
                   "tipo": "diretta",
-                  "orario": "2026-11-01T17:30",
+                  "orario": "2026-11-01T13:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "Primavera 1: Genoa-Verona",
+              "categoria": "Calcio",
+              "sottocartella": "Primavera 1",
+              "sport": "Calcio",
+              "competizione": "Primavera 1",
+              "evento": "Genoa-Verona",
+              "inizio": "2026-11-02T04:00:00+01:00",
+              "data": "02/11/2026",
+              "ora": "04:00",
+              "canali": [
+                {
+                  "nome": "Sportitalia",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-02T04:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "Primavera 1: Empoli-Cagliari",
+              "categoria": "Calcio",
+              "sottocartella": "Primavera 1",
+              "sport": "Calcio",
+              "competizione": "Primavera 1",
+              "evento": "Empoli-Cagliari",
+              "inizio": "2026-11-02T11:00:00+01:00",
+              "data": "02/11/2026",
+              "ora": "11:00",
+              "canali": [
+                {
+                  "nome": "Sportitalia",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-02T11:00",
                   "fonte": "virgilio"
                 }
               ],
@@ -11864,7 +11814,7 @@
         },
         {
           "nome": "Liga Profesional",
-          "totale": 1,
+          "totale": 3,
           "eventi": [
             {
               "titolo": "Liga Profesional: Racing-Aldosivi",
@@ -11882,6 +11832,48 @@
                   "numero": "",
                   "tipo": "diretta",
                   "orario": "2026-10-31T01:15",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "Liga Profesional: Boca Juniors-River Plate",
+              "categoria": "Calcio",
+              "sottocartella": "Liga Profesional",
+              "sport": "Calcio",
+              "competizione": "Liga Profesional",
+              "evento": "Boca Juniors-River Plate",
+              "inizio": "2026-11-01T19:00:00+01:00",
+              "data": "01/11/2026",
+              "ora": "19:00",
+              "canali": [
+                {
+                  "nome": "Sportitalia",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-01T19:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "Liga Profesional: Argentinos Juniors-Independiente Rivadavia",
+              "categoria": "Calcio",
+              "sottocartella": "Liga Profesional",
+              "sport": "Calcio",
+              "competizione": "Liga Profesional",
+              "evento": "Argentinos Juniors-Independiente Rivadavia",
+              "inizio": "2026-11-03T04:00:00+01:00",
+              "data": "03/11/2026",
+              "ora": "04:00",
+              "canali": [
+                {
+                  "nome": "Sportitalia",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-03T04:00",
                   "fonte": "virgilio"
                 }
               ],
@@ -11939,7 +11931,7 @@
         },
         {
           "nome": "Premier League",
-          "totale": 4,
+          "totale": 5,
           "eventi": [
             {
               "titolo": "Premier League: Chelsea-Manchester United",
@@ -12024,6 +12016,27 @@
                 }
               ],
               "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "Premier League: Newcastle-Everton",
+              "categoria": "Calcio",
+              "sottocartella": "Premier League",
+              "sport": "Calcio",
+              "competizione": "Premier League",
+              "evento": "Newcastle-Everton",
+              "inizio": "2026-11-02T21:00:00+01:00",
+              "data": "02/11/2026",
+              "ora": "21:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport Calcio",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-02T21:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
             }
           ]
         },
@@ -12047,6 +12060,75 @@
                   "numero": "",
                   "tipo": "diretta",
                   "orario": "2026-10-31T16:45",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            }
+          ]
+        },
+        {
+          "nome": "Bundesliga",
+          "totale": 3,
+          "eventi": [
+            {
+              "titolo": "Bundesliga: Bayern Monaco-Borussia Dortmund",
+              "categoria": "Calcio",
+              "sottocartella": "Bundesliga",
+              "sport": "Calcio",
+              "competizione": "Bundesliga",
+              "evento": "Bayern Monaco-Borussia Dortmund",
+              "inizio": "2026-10-31T18:30:00+01:00",
+              "data": "31/10/2026",
+              "ora": "18:30",
+              "canali": [
+                {
+                  "nome": "Sky Sport 1",
+                  "numero": "201",
+                  "tipo": "diretta",
+                  "orario": "2026-10-31T18:30",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "Bundesliga: Union Berlino-Colonia",
+              "categoria": "Calcio",
+              "sottocartella": "Bundesliga",
+              "sport": "Calcio",
+              "competizione": "Bundesliga",
+              "evento": "Union Berlino-Colonia",
+              "inizio": "2026-11-01T15:30:00+01:00",
+              "data": "01/11/2026",
+              "ora": "15:30",
+              "canali": [
+                {
+                  "nome": "Sky Sport Arena",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-01T15:30",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "Bundesliga: Eintracht Francoforte-Amburgo",
+              "categoria": "Calcio",
+              "sottocartella": "Bundesliga",
+              "sport": "Calcio",
+              "competizione": "Bundesliga",
+              "evento": "Eintracht Francoforte-Amburgo",
+              "inizio": "2026-11-01T17:30:00+01:00",
+              "data": "01/11/2026",
+              "ora": "17:30",
+              "canali": [
+                {
+                  "nome": "Sky Sport Mix",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-01T17:30",
                   "fonte": "virgilio"
                 }
               ],
@@ -12082,8 +12164,35 @@
           ]
         },
         {
+          "nome": "UEFA Youth League",
+          "totale": 1,
+          "eventi": [
+            {
+              "titolo": "UEFA Youth League: Manchester United U19-Roma",
+              "categoria": "Calcio",
+              "sottocartella": "UEFA Youth League",
+              "sport": "Calcio",
+              "competizione": "UEFA Youth League",
+              "evento": "Manchester United U19-Roma",
+              "inizio": "2026-11-03T14:00:00+01:00",
+              "data": "03/11/2026",
+              "ora": "14:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport Calcio",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-03T14:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            }
+          ]
+        },
+        {
           "nome": "UEFA Champions League",
-          "totale": 19,
+          "totale": 18,
           "eventi": [
             {
               "titolo": "UEFA Champions League: Galatasaray-Stoccarda",
@@ -12096,6 +12205,13 @@
               "data": "03/11/2026",
               "ora": "18:45",
               "canali": [
+                {
+                  "nome": "Sky Sport Calcio",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-03T18:45",
+                  "fonte": "virgilio"
+                },
                 {
                   "nome": "Sky",
                   "numero": "",
@@ -12166,6 +12282,13 @@
               "data": "03/11/2026",
               "ora": "21:00",
               "canali": [
+                {
+                  "nome": "Sky Sport Calcio",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-03T21:00",
+                  "fonte": "virgilio"
+                },
                 {
                   "nome": "Sky",
                   "numero": "",
@@ -12307,6 +12430,13 @@
               "ora": "18:45",
               "canali": [
                 {
+                  "nome": "Sky Sport Calcio",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-04T18:45",
+                  "fonte": "virgilio"
+                },
+                {
                   "nome": "Sky",
                   "numero": "",
                   "tipo": "diretta",
@@ -12394,27 +12524,6 @@
               "fonte": "Virgilio Sport"
             },
             {
-              "titolo": "UEFA Champions League: Lipsia-Manchester City",
-              "categoria": "Calcio",
-              "sottocartella": "UEFA Champions League",
-              "sport": "Calcio",
-              "competizione": "UEFA Champions League",
-              "evento": "Lipsia-Manchester City",
-              "inizio": "2026-11-04T21:00:00+01:00",
-              "data": "04/11/2026",
-              "ora": "21:00",
-              "canali": [
-                {
-                  "nome": "Sky",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-04T21:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
               "titolo": "UEFA Champions League: Porto-Napoli",
               "categoria": "Calcio",
               "sottocartella": "UEFA Champions League",
@@ -12468,6 +12577,20 @@
               "ora": "21:00",
               "canali": [
                 {
+                  "nome": "Sky Sport Calcio",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-04T21:00",
+                  "fonte": "virgilio"
+                },
+                {
+                  "nome": "Sky",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-04T21:00",
+                  "fonte": "virgilio"
+                },
+                {
                   "nome": "TV8",
                   "numero": "8",
                   "tipo": "diretta",
@@ -12520,82 +12643,40 @@
               "fonte": "Virgilio Sport"
             }
           ]
-        }
-      ]
-    },
-    {
-      "nome": "Tennis",
-      "totale": 19,
-      "sottocartelle": [
+        },
         {
-          "nome": "ATP & WTA",
-          "totale": 3,
+          "nome": "UEFA Europa League",
+          "totale": 1,
           "eventi": [
             {
-              "titolo": "ATP & WTA",
-              "categoria": "Tennis",
-              "sottocartella": "ATP & WTA",
-              "sport": "Tennis",
-              "competizione": "ATP & WTA",
-              "evento": "ATP & WTA",
-              "inizio": "2026-10-29T13:30:00+01:00",
-              "data": "29/10/2026",
-              "ora": "13:30",
+              "titolo": "UEFA Europa League: Rennes-Olympiacos",
+              "categoria": "Calcio",
+              "sottocartella": "UEFA Europa League",
+              "sport": "Calcio",
+              "competizione": "UEFA Europa League",
+              "evento": "Rennes-Olympiacos",
+              "inizio": "2026-11-04T16:30:00+01:00",
+              "data": "04/11/2026",
+              "ora": "16:30",
               "canali": [
                 {
-                  "nome": "Sky Sport 1",
-                  "numero": "201",
-                  "tipo": "diretta",
-                  "orario": "2026-10-29T13:30",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "ATP & WTA",
-              "categoria": "Tennis",
-              "sottocartella": "ATP & WTA",
-              "sport": "Tennis",
-              "competizione": "ATP & WTA",
-              "evento": "ATP & WTA",
-              "inizio": "2026-10-30T06:00:00+01:00",
-              "data": "30/10/2026",
-              "ora": "06:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Tennis",
+                  "nome": "Sky Sport Calcio",
                   "numero": "",
                   "tipo": "diretta",
-                  "orario": "2026-10-30T06:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "ATP & WTA",
-              "categoria": "Tennis",
-              "sottocartella": "ATP & WTA",
-              "sport": "Tennis",
-              "competizione": "ATP & WTA",
-              "evento": "ATP & WTA",
-              "inizio": "2026-10-30T13:30:00+01:00",
-              "data": "30/10/2026",
-              "ora": "13:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport 1",
-                  "numero": "201",
-                  "tipo": "diretta",
-                  "orario": "2026-10-30T13:30",
+                  "orario": "2026-11-04T16:30",
                   "fonte": "virgilio"
                 }
               ],
               "fonte": "Virgilio Sport"
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "nome": "Tennis",
+      "totale": 20,
+      "sottocartelle": [
         {
           "nome": "WTA 500 Tokyo",
           "totale": 3,
@@ -12658,6 +12739,54 @@
                   "numero": "",
                   "tipo": "diretta",
                   "orario": "2026-11-01T04:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            }
+          ]
+        },
+        {
+          "nome": "ATP & WTA",
+          "totale": 2,
+          "eventi": [
+            {
+              "titolo": "ATP & WTA",
+              "categoria": "Tennis",
+              "sottocartella": "ATP & WTA",
+              "sport": "Tennis",
+              "competizione": "ATP & WTA",
+              "evento": "ATP & WTA",
+              "inizio": "2026-10-30T06:00:00+01:00",
+              "data": "30/10/2026",
+              "ora": "06:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport Tennis",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-30T06:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "ATP & WTA",
+              "categoria": "Tennis",
+              "sottocartella": "ATP & WTA",
+              "sport": "Tennis",
+              "competizione": "ATP & WTA",
+              "evento": "ATP & WTA",
+              "inizio": "2026-10-30T13:30:00+01:00",
+              "data": "30/10/2026",
+              "ora": "13:30",
+              "canali": [
+                {
+                  "nome": "Sky Sport 1",
+                  "numero": "201",
+                  "tipo": "diretta",
+                  "orario": "2026-10-30T13:30",
                   "fonte": "virgilio"
                 }
               ],
@@ -12881,7 +13010,7 @@
         },
         {
           "nome": "ATP Masters 1000 Parigi-Bercy",
-          "totale": 4,
+          "totale": 6,
           "eventi": [
             {
               "titolo": "ATP Masters 1000 Parigi-Bercy: 1a giornata",
@@ -12895,10 +13024,38 @@
               "ora": "11:00",
               "canali": [
                 {
+                  "nome": "Sky Sport Tennis",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-02T11:00",
+                  "fonte": "virgilio"
+                },
+                {
                   "nome": "Sky Sport 1",
                   "numero": "201",
                   "tipo": "diretta",
                   "orario": "2026-11-02T11:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "ATP Masters 1000 Parigi-Bercy: 1a giornata",
+              "categoria": "Tennis",
+              "sottocartella": "ATP Masters 1000 Parigi-Bercy",
+              "sport": "Tennis",
+              "competizione": "ATP Masters 1000 Parigi-Bercy",
+              "evento": "1a giornata",
+              "inizio": "2026-11-02T19:00:00+01:00",
+              "data": "02/11/2026",
+              "ora": "19:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport Tennis",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-02T19:00",
                   "fonte": "virgilio"
                 }
               ],
@@ -12915,6 +13072,13 @@
               "data": "03/11/2026",
               "ora": "11:00",
               "canali": [
+                {
+                  "nome": "Sky Sport Tennis",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-03T11:00",
+                  "fonte": "virgilio"
+                },
                 {
                   "nome": "Sky Sport 1",
                   "numero": "201",
@@ -12933,6 +13097,27 @@
               "fonte": "Virgilio Sport"
             },
             {
+              "titolo": "ATP Masters 1000 Parigi-Bercy: 2a giornata",
+              "categoria": "Tennis",
+              "sottocartella": "ATP Masters 1000 Parigi-Bercy",
+              "sport": "Tennis",
+              "competizione": "ATP Masters 1000 Parigi-Bercy",
+              "evento": "2a giornata",
+              "inizio": "2026-11-03T19:00:00+01:00",
+              "data": "03/11/2026",
+              "ora": "19:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport Tennis",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-03T19:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
               "titolo": "ATP Masters 1000 Parigi-Bercy: 3a giornata",
               "categoria": "Tennis",
               "sottocartella": "ATP Masters 1000 Parigi-Bercy",
@@ -12943,6 +13128,13 @@
               "data": "04/11/2026",
               "ora": "11:00",
               "canali": [
+                {
+                  "nome": "Sky Sport Tennis",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-04T11:00",
+                  "fonte": "virgilio"
+                },
                 {
                   "nome": "Sky Sport 1",
                   "numero": "201",
@@ -12970,6 +13162,13 @@
                   "tipo": "diretta",
                   "orario": "2026-11-04T17:30",
                   "fonte": "virgilio"
+                },
+                {
+                  "nome": "Sky Sport Tennis",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-04T19:00",
+                  "fonte": "virgilio"
                 }
               ],
               "fonte": "Virgilio Sport"
@@ -12980,7 +13179,7 @@
     },
     {
       "nome": "Basket",
-      "totale": 13,
+      "totale": 15,
       "sottocartelle": [
         {
           "nome": "Eurolega",
@@ -13225,8 +13424,29 @@
         },
         {
           "nome": "Eurocup",
-          "totale": 3,
+          "totale": 5,
           "eventi": [
+            {
+              "titolo": "Eurocup: PAOK Thessaloniki-BC Roma",
+              "categoria": "Basket",
+              "sottocartella": "Eurocup",
+              "sport": "Basket",
+              "competizione": "Eurocup",
+              "evento": "PAOK Thessaloniki-BC Roma",
+              "inizio": "2026-11-03T19:00:00+01:00",
+              "data": "03/11/2026",
+              "ora": "19:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport Mix",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-03T19:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
             {
               "titolo": "Eurocup: Napoli Basket-Aquila Trento",
               "categoria": "Basket",
@@ -13264,6 +13484,27 @@
                   "numero": "",
                   "tipo": "diretta",
                   "orario": "2026-11-04T18:30",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "Eurocup: Reyer Venezia-BC Siauliai",
+              "categoria": "Basket",
+              "sottocartella": "Eurocup",
+              "sport": "Basket",
+              "competizione": "Eurocup",
+              "evento": "Reyer Venezia-BC Siauliai",
+              "inizio": "2026-11-04T19:00:00+01:00",
+              "data": "04/11/2026",
+              "ora": "19:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport Mix",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-04T19:00",
                   "fonte": "virgilio"
                 }
               ],
