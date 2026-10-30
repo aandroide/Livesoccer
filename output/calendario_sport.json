@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-10-30T19:04:28+01:00",
+  "aggiornato": "2026-10-30T22:55:50+01:00",
   "fonti": {
     "motori": "Fuori Traiettoria, Dizzle0987/motorsport-calendar, palinsesto TV8",
     "calcio_italiano": "https://raw.githubusercontent.com/aandroide/Livesoccer/master/livesoccertv/output/eventi.json",
@@ -9,73 +9,8 @@
   "cartelle": [
     {
       "nome": "Oggi",
-      "totale": 8,
+      "totale": 6,
       "eventi": [
-        {
-          "titolo": "[Calcio] Primavera 1: Inter-Roma",
-          "categoria": "Calcio",
-          "sottocartella": "Primavera 1",
-          "sport": "Calcio",
-          "competizione": "Primavera 1",
-          "evento": "Inter-Roma",
-          "inizio": "2026-10-30T18:00:00+01:00",
-          "data": "30/10/2026",
-          "ora": "18:00",
-          "canali": [
-            {
-              "nome": "Sportitalia",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-10-30T18:00",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Motori] Formula 1: Mexico City Grand Prix - FP1",
-          "categoria": "Motori",
-          "sottocartella": "Formula 1",
-          "sport": "Motori",
-          "competizione": "Formula 1",
-          "evento": "Mexico City Grand Prix - FP1",
-          "sessione": "prove",
-          "circuito": "Autódromo Hermanos Rodríguez, Mexico City, Mexico",
-          "inizio": "2026-10-30T19:30:00+01:00",
-          "data": "30/10/2026",
-          "ora": "19:30",
-          "canali": [
-            {
-              "nome": "Sky Sport F1",
-              "numero": "207",
-              "tipo": "diretta",
-              "orario": "2026-10-30T19:30",
-              "fonte": "dizzle+config"
-            },
-            {
-              "nome": "NOW",
-              "numero": "",
-              "tipo": "streaming",
-              "orario": "2026-10-30T19:30",
-              "fonte": "dizzle+config"
-            },
-            {
-              "nome": "Sky Sport 1",
-              "numero": "201",
-              "tipo": "diretta",
-              "orario": "2026-10-30T19:30",
-              "fonte": "config"
-            },
-            {
-              "nome": "Sky Sport 4K",
-              "numero": "213",
-              "tipo": "diretta",
-              "orario": "2026-10-30T19:30",
-              "fonte": "config"
-            }
-          ],
-          "fonte": "Dizzle0987/motorsport-calendar"
-        },
         {
           "titolo": "[Basket] Eurolega: Olympiacos-Olimpia Milano",
           "categoria": "Basket",
@@ -119,105 +54,43 @@
           "fonte": "Virgilio Sport"
         },
         {
-          "titolo": "[Calcio] Serie C: AlbinoLeffe vs Pergolettese",
+          "titolo": "[Calcio] Serie C: AlbinoLeffe-Pergolettese",
           "categoria": "Calcio",
           "sottocartella": "Serie C",
           "sport": "Calcio",
           "competizione": "Serie C",
-          "evento": "AlbinoLeffe vs Pergolettese",
+          "evento": "AlbinoLeffe-Pergolettese",
           "inizio": "2026-10-30T20:30:00+01:00",
           "data": "30/10/2026",
           "ora": "20:30",
           "canali": [
-            {
-              "nome": "Sky Sport 252",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-10-30T20:30",
-              "fonte": "livesoccer"
-            },
-            {
-              "nome": "SKY Go Italia",
-              "numero": "",
-              "tipo": "streaming",
-              "orario": "2026-10-30T20:30",
-              "fonte": "livesoccer"
-            },
-            {
-              "nome": "NOW TV",
-              "numero": "",
-              "tipo": "streaming",
-              "orario": "2026-10-30T20:30",
-              "fonte": "livesoccer"
-            },
             {
               "nome": "Sky Sport Mix",
               "numero": "",
               "tipo": "diretta",
               "orario": "2026-10-30T20:30",
-              "fonte": "livesoccer"
+              "fonte": "virgilio"
             }
           ],
-          "canali_mondo": [
-            {
-              "paese": "Italia",
-              "canali": [
-                "Sky Sport 252",
-                "SKY Go Italia",
-                "NOW TV",
-                "Sky Sport Mix"
-              ]
-            },
-            {
-              "paese": "San Marino",
-              "canali": [
-                "Sky Sport 252",
-                "SKY Go Italia",
-                "NOW TV",
-                "Sky Sport Mix"
-              ]
-            }
-          ],
-          "fonte": "LiveSoccerTV"
+          "fonte": "Virgilio Sport"
         },
         {
-          "titolo": "[Calcio] Serie C: Reggiana vs Sambenedettese",
+          "titolo": "[Calcio] Serie C: Reggiana-Sambenedettese",
           "categoria": "Calcio",
           "sottocartella": "Serie C",
           "sport": "Calcio",
           "competizione": "Serie C",
-          "evento": "Reggiana vs Sambenedettese",
+          "evento": "Reggiana-Sambenedettese",
           "inizio": "2026-10-30T20:30:00+01:00",
           "data": "30/10/2026",
           "ora": "20:30",
           "canali": [
             {
-              "nome": "Sky Sport 251",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-10-30T20:30",
-              "fonte": "livesoccer"
-            },
-            {
-              "nome": "SKY Go Italia",
-              "numero": "",
-              "tipo": "streaming",
-              "orario": "2026-10-30T20:30",
-              "fonte": "livesoccer"
-            },
-            {
               "nome": "Sky Sport Calcio",
               "numero": "",
               "tipo": "diretta",
               "orario": "2026-10-30T20:30",
-              "fonte": "livesoccer"
-            },
-            {
-              "nome": "NOW TV",
-              "numero": "",
-              "tipo": "streaming",
-              "orario": "2026-10-30T20:30",
-              "fonte": "livesoccer"
+              "fonte": "virgilio"
             },
             {
               "nome": "Sky Sport Arena",
@@ -227,27 +100,7 @@
               "fonte": "virgilio"
             }
           ],
-          "canali_mondo": [
-            {
-              "paese": "Italia",
-              "canali": [
-                "Sky Sport 251",
-                "SKY Go Italia",
-                "Sky Sport Calcio",
-                "NOW TV"
-              ]
-            },
-            {
-              "paese": "San Marino",
-              "canali": [
-                "Sky Sport 251",
-                "SKY Go Italia",
-                "Sky Sport Calcio",
-                "NOW TV"
-              ]
-            }
-          ],
-          "fonte": "LiveSoccerTV"
+          "fonte": "Virgilio Sport"
         },
         {
           "titolo": "[Basket] Serie A2: Cento-Cividale",
@@ -318,56 +171,12 @@
     },
     {
       "nome": "Motori",
-      "totale": 90,
+      "totale": 89,
       "sottocartelle": [
         {
           "nome": "Formula 1",
-          "totale": 25,
+          "totale": 24,
           "eventi": [
-            {
-              "titolo": "Formula 1: Mexico City Grand Prix - FP1",
-              "categoria": "Motori",
-              "sottocartella": "Formula 1",
-              "sport": "Motori",
-              "competizione": "Formula 1",
-              "evento": "Mexico City Grand Prix - FP1",
-              "sessione": "prove",
-              "circuito": "Autódromo Hermanos Rodríguez, Mexico City, Mexico",
-              "inizio": "2026-10-30T19:30:00+01:00",
-              "data": "30/10/2026",
-              "ora": "19:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport F1",
-                  "numero": "207",
-                  "tipo": "diretta",
-                  "orario": "2026-10-30T19:30",
-                  "fonte": "dizzle+config"
-                },
-                {
-                  "nome": "NOW",
-                  "numero": "",
-                  "tipo": "streaming",
-                  "orario": "2026-10-30T19:30",
-                  "fonte": "dizzle+config"
-                },
-                {
-                  "nome": "Sky Sport 1",
-                  "numero": "201",
-                  "tipo": "diretta",
-                  "orario": "2026-10-30T19:30",
-                  "fonte": "config"
-                },
-                {
-                  "nome": "Sky Sport 4K",
-                  "numero": "213",
-                  "tipo": "diretta",
-                  "orario": "2026-10-30T19:30",
-                  "fonte": "config"
-                }
-              ],
-              "fonte": "Dizzle0987/motorsport-calendar"
-            },
             {
               "titolo": "Formula 1: Mexico City Grand Prix - FP2",
               "categoria": "Motori",
@@ -3077,7 +2886,7 @@
     },
     {
       "nome": "Calcio",
-      "totale": 100,
+      "totale": 101,
       "sottocartelle": [
         {
           "nome": "Serie A",
@@ -10156,108 +9965,46 @@
         },
         {
           "nome": "Serie C",
-          "totale": 16,
+          "totale": 18,
           "eventi": [
             {
-              "titolo": "Serie C: AlbinoLeffe vs Pergolettese",
+              "titolo": "Serie C: AlbinoLeffe-Pergolettese",
               "categoria": "Calcio",
               "sottocartella": "Serie C",
               "sport": "Calcio",
               "competizione": "Serie C",
-              "evento": "AlbinoLeffe vs Pergolettese",
+              "evento": "AlbinoLeffe-Pergolettese",
               "inizio": "2026-10-30T20:30:00+01:00",
               "data": "30/10/2026",
               "ora": "20:30",
               "canali": [
-                {
-                  "nome": "Sky Sport 252",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-30T20:30",
-                  "fonte": "livesoccer"
-                },
-                {
-                  "nome": "SKY Go Italia",
-                  "numero": "",
-                  "tipo": "streaming",
-                  "orario": "2026-10-30T20:30",
-                  "fonte": "livesoccer"
-                },
-                {
-                  "nome": "NOW TV",
-                  "numero": "",
-                  "tipo": "streaming",
-                  "orario": "2026-10-30T20:30",
-                  "fonte": "livesoccer"
-                },
                 {
                   "nome": "Sky Sport Mix",
                   "numero": "",
                   "tipo": "diretta",
                   "orario": "2026-10-30T20:30",
-                  "fonte": "livesoccer"
+                  "fonte": "virgilio"
                 }
               ],
-              "canali_mondo": [
-                {
-                  "paese": "Italia",
-                  "canali": [
-                    "Sky Sport 252",
-                    "SKY Go Italia",
-                    "NOW TV",
-                    "Sky Sport Mix"
-                  ]
-                },
-                {
-                  "paese": "San Marino",
-                  "canali": [
-                    "Sky Sport 252",
-                    "SKY Go Italia",
-                    "NOW TV",
-                    "Sky Sport Mix"
-                  ]
-                }
-              ],
-              "fonte": "LiveSoccerTV"
+              "fonte": "Virgilio Sport"
             },
             {
-              "titolo": "Serie C: Reggiana vs Sambenedettese",
+              "titolo": "Serie C: Reggiana-Sambenedettese",
               "categoria": "Calcio",
               "sottocartella": "Serie C",
               "sport": "Calcio",
               "competizione": "Serie C",
-              "evento": "Reggiana vs Sambenedettese",
+              "evento": "Reggiana-Sambenedettese",
               "inizio": "2026-10-30T20:30:00+01:00",
               "data": "30/10/2026",
               "ora": "20:30",
               "canali": [
                 {
-                  "nome": "Sky Sport 251",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-30T20:30",
-                  "fonte": "livesoccer"
-                },
-                {
-                  "nome": "SKY Go Italia",
-                  "numero": "",
-                  "tipo": "streaming",
-                  "orario": "2026-10-30T20:30",
-                  "fonte": "livesoccer"
-                },
-                {
                   "nome": "Sky Sport Calcio",
                   "numero": "",
                   "tipo": "diretta",
                   "orario": "2026-10-30T20:30",
-                  "fonte": "livesoccer"
-                },
-                {
-                  "nome": "NOW TV",
-                  "numero": "",
-                  "tipo": "streaming",
-                  "orario": "2026-10-30T20:30",
-                  "fonte": "livesoccer"
+                  "fonte": "virgilio"
                 },
                 {
                   "nome": "Sky Sport Arena",
@@ -10267,27 +10014,7 @@
                   "fonte": "virgilio"
                 }
               ],
-              "canali_mondo": [
-                {
-                  "paese": "Italia",
-                  "canali": [
-                    "Sky Sport 251",
-                    "SKY Go Italia",
-                    "Sky Sport Calcio",
-                    "NOW TV"
-                  ]
-                },
-                {
-                  "paese": "San Marino",
-                  "canali": [
-                    "Sky Sport 251",
-                    "SKY Go Italia",
-                    "Sky Sport Calcio",
-                    "NOW TV"
-                  ]
-                }
-              ],
-              "fonte": "LiveSoccerTV"
+              "fonte": "Virgilio Sport"
             },
             {
               "titolo": "Serie C: Audace Cerignola vs Catania",
@@ -10450,6 +10177,112 @@
                   "paese": "San Marino",
                   "canali": [
                     "Sky Sport 255",
+                    "SKY Go Italia",
+                    "NOW TV"
+                  ]
+                }
+              ],
+              "fonte": "LiveSoccerTV"
+            },
+            {
+              "titolo": "Serie C: Ospitaletto vs Trento",
+              "categoria": "Calcio",
+              "sottocartella": "Serie C",
+              "sport": "Calcio",
+              "competizione": "Serie C",
+              "evento": "Ospitaletto vs Trento",
+              "inizio": "2026-10-31T14:30:00+01:00",
+              "data": "31/10/2026",
+              "ora": "14:30",
+              "canali": [
+                {
+                  "nome": "Sky Sport 256",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-31T14:30",
+                  "fonte": "livesoccer"
+                },
+                {
+                  "nome": "SKY Go Italia",
+                  "numero": "",
+                  "tipo": "streaming",
+                  "orario": "2026-10-31T14:30",
+                  "fonte": "livesoccer"
+                },
+                {
+                  "nome": "NOW TV",
+                  "numero": "",
+                  "tipo": "streaming",
+                  "orario": "2026-10-31T14:30",
+                  "fonte": "livesoccer"
+                }
+              ],
+              "canali_mondo": [
+                {
+                  "paese": "Italia",
+                  "canali": [
+                    "Sky Sport 256",
+                    "SKY Go Italia",
+                    "NOW TV"
+                  ]
+                },
+                {
+                  "paese": "San Marino",
+                  "canali": [
+                    "Sky Sport 256",
+                    "SKY Go Italia",
+                    "NOW TV"
+                  ]
+                }
+              ],
+              "fonte": "LiveSoccerTV"
+            },
+            {
+              "titolo": "Serie C: Pescara vs Sassari Torres",
+              "categoria": "Calcio",
+              "sottocartella": "Serie C",
+              "sport": "Calcio",
+              "competizione": "Serie C",
+              "evento": "Pescara vs Sassari Torres",
+              "inizio": "2026-10-31T14:30:00+01:00",
+              "data": "31/10/2026",
+              "ora": "14:30",
+              "canali": [
+                {
+                  "nome": "Sky Sport 253",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-31T14:30",
+                  "fonte": "livesoccer"
+                },
+                {
+                  "nome": "SKY Go Italia",
+                  "numero": "",
+                  "tipo": "streaming",
+                  "orario": "2026-10-31T14:30",
+                  "fonte": "livesoccer"
+                },
+                {
+                  "nome": "NOW TV",
+                  "numero": "",
+                  "tipo": "streaming",
+                  "orario": "2026-10-31T14:30",
+                  "fonte": "livesoccer"
+                }
+              ],
+              "canali_mondo": [
+                {
+                  "paese": "Italia",
+                  "canali": [
+                    "Sky Sport 253",
+                    "SKY Go Italia",
+                    "NOW TV"
+                  ]
+                },
+                {
+                  "paese": "San Marino",
+                  "canali": [
+                    "Sky Sport 253",
                     "SKY Go Italia",
                     "NOW TV"
                   ]
@@ -10698,30 +10531,78 @@
           ]
         },
         {
-          "nome": "Primavera 1",
-          "totale": 8,
+          "nome": "Liga Profesional",
+          "totale": 3,
           "eventi": [
             {
-              "titolo": "Primavera 1: Inter-Roma",
+              "titolo": "Liga Profesional: Racing-Aldosivi",
               "categoria": "Calcio",
-              "sottocartella": "Primavera 1",
+              "sottocartella": "Liga Profesional",
               "sport": "Calcio",
-              "competizione": "Primavera 1",
-              "evento": "Inter-Roma",
-              "inizio": "2026-10-30T18:00:00+01:00",
-              "data": "30/10/2026",
-              "ora": "18:00",
+              "competizione": "Liga Profesional",
+              "evento": "Racing-Aldosivi",
+              "inizio": "2026-10-31T01:15:00+01:00",
+              "data": "31/10/2026",
+              "ora": "01:15",
               "canali": [
                 {
                   "nome": "Sportitalia",
                   "numero": "",
                   "tipo": "diretta",
-                  "orario": "2026-10-30T18:00",
+                  "orario": "2026-10-31T01:15",
                   "fonte": "virgilio"
                 }
               ],
               "fonte": "Virgilio Sport"
             },
+            {
+              "titolo": "Liga Profesional: Boca Juniors-River Plate",
+              "categoria": "Calcio",
+              "sottocartella": "Liga Profesional",
+              "sport": "Calcio",
+              "competizione": "Liga Profesional",
+              "evento": "Boca Juniors-River Plate",
+              "inizio": "2026-11-01T19:00:00+01:00",
+              "data": "01/11/2026",
+              "ora": "19:00",
+              "canali": [
+                {
+                  "nome": "Sportitalia",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-01T19:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "Liga Profesional: Argentinos Juniors-Independiente Rivadavia",
+              "categoria": "Calcio",
+              "sottocartella": "Liga Profesional",
+              "sport": "Calcio",
+              "competizione": "Liga Profesional",
+              "evento": "Argentinos Juniors-Independiente Rivadavia",
+              "inizio": "2026-11-03T04:00:00+01:00",
+              "data": "03/11/2026",
+              "ora": "04:00",
+              "canali": [
+                {
+                  "nome": "Sportitalia",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-03T04:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            }
+          ]
+        },
+        {
+          "nome": "Primavera 1",
+          "totale": 7,
+          "eventi": [
             {
               "titolo": "Primavera 1: Lazio-Sassuolo",
               "categoria": "Calcio",
@@ -10864,75 +10745,6 @@
                   "numero": "",
                   "tipo": "diretta",
                   "orario": "2026-11-02T11:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            }
-          ]
-        },
-        {
-          "nome": "Liga Profesional",
-          "totale": 3,
-          "eventi": [
-            {
-              "titolo": "Liga Profesional: Racing-Aldosivi",
-              "categoria": "Calcio",
-              "sottocartella": "Liga Profesional",
-              "sport": "Calcio",
-              "competizione": "Liga Profesional",
-              "evento": "Racing-Aldosivi",
-              "inizio": "2026-10-31T01:15:00+01:00",
-              "data": "31/10/2026",
-              "ora": "01:15",
-              "canali": [
-                {
-                  "nome": "Sportitalia",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-31T01:15",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "Liga Profesional: Boca Juniors-River Plate",
-              "categoria": "Calcio",
-              "sottocartella": "Liga Profesional",
-              "sport": "Calcio",
-              "competizione": "Liga Profesional",
-              "evento": "Boca Juniors-River Plate",
-              "inizio": "2026-11-01T19:00:00+01:00",
-              "data": "01/11/2026",
-              "ora": "19:00",
-              "canali": [
-                {
-                  "nome": "Sportitalia",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-01T19:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "Liga Profesional: Argentinos Juniors-Independiente Rivadavia",
-              "categoria": "Calcio",
-              "sottocartella": "Liga Profesional",
-              "sport": "Calcio",
-              "competizione": "Liga Profesional",
-              "evento": "Argentinos Juniors-Independiente Rivadavia",
-              "inizio": "2026-11-03T04:00:00+01:00",
-              "data": "03/11/2026",
-              "ora": "04:00",
-              "canali": [
-                {
-                  "nome": "Sportitalia",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-03T04:00",
                   "fonte": "virgilio"
                 }
               ],
