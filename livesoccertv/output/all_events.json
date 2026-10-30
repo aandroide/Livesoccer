@@ -9,8 +9,8 @@
       "kickoff": "2026-10-30T20:30:00+01:00",
       "date": "2026-10-30",
       "time": "20:30",
-      "status": "upcoming",
-      "score": "",
+      "status": "finished",
+      "score": "3:2",
       "match_url": "https://www.livesoccertv.com/it/match/albinoleffe-vs-pergolettese/ai0o0#5720385",
       "channels": [
         {
@@ -64,8 +64,8 @@
       "kickoff": "2026-10-30T20:30:00+01:00",
       "date": "2026-10-30",
       "time": "20:30",
-      "status": "upcoming",
-      "score": "",
+      "status": "finished",
+      "score": "2:0",
       "match_url": "https://www.livesoccertv.com/it/match/reggiana-vs-sambenedettese/gfs5j#5720772",
       "channels": [
         {
@@ -255,6 +255,102 @@
           "paese": "San Marino",
           "canali": [
             "Sky Sport 255",
+            "SKY Go Italia",
+            "NOW TV"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5720394",
+      "competition": "Serie C",
+      "home": "Ospitaletto",
+      "away": "Trento",
+      "title": "Ospitaletto vs Trento",
+      "kickoff": "2026-10-31T14:30:00+01:00",
+      "date": "2026-10-31",
+      "time": "14:30",
+      "status": "upcoming",
+      "score": "",
+      "match_url": "https://www.livesoccertv.com/it/match/trento-vs-ospitaletto/bs7dfx#5720394",
+      "channels": [
+        {
+          "name": "Sky Sport 256",
+          "url": "",
+          "stream": false
+        },
+        {
+          "name": "SKY Go Italia",
+          "url": "",
+          "stream": false
+        },
+        {
+          "name": "NOW TV",
+          "url": "",
+          "stream": false
+        }
+      ],
+      "canali_mondo": [
+        {
+          "paese": "Italia",
+          "canali": [
+            "Sky Sport 256",
+            "SKY Go Italia",
+            "NOW TV"
+          ]
+        },
+        {
+          "paese": "San Marino",
+          "canali": [
+            "Sky Sport 256",
+            "SKY Go Italia",
+            "NOW TV"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5720770",
+      "competition": "Serie C",
+      "home": "Pescara",
+      "away": "Sassari Torres",
+      "title": "Pescara vs Sassari Torres",
+      "kickoff": "2026-10-31T14:30:00+01:00",
+      "date": "2026-10-31",
+      "time": "14:30",
+      "status": "upcoming",
+      "score": "",
+      "match_url": "https://www.livesoccertv.com/it/match/pescara-vs-sassari-torres/10ohb4#5720770",
+      "channels": [
+        {
+          "name": "Sky Sport 253",
+          "url": "",
+          "stream": false
+        },
+        {
+          "name": "SKY Go Italia",
+          "url": "",
+          "stream": false
+        },
+        {
+          "name": "NOW TV",
+          "url": "",
+          "stream": false
+        }
+      ],
+      "canali_mondo": [
+        {
+          "paese": "Italia",
+          "canali": [
+            "Sky Sport 253",
+            "SKY Go Italia",
+            "NOW TV"
+          ]
+        },
+        {
+          "paese": "San Marino",
+          "canali": [
+            "Sky Sport 253",
             "SKY Go Italia",
             "NOW TV"
           ]
@@ -10708,6 +10804,8 @@
           "paese": "Spagna",
           "canali": [
             "Movistar+",
+            "Movistar Liga de Campeones 4",
+            "Movistar Liga de Campeones",
             "Movistar Plus+"
           ]
         },
@@ -12015,7 +12113,8 @@
           "paese": "Spagna",
           "canali": [
             "Movistar+",
-            "Movistar Liga de Campeones 2"
+            "Movistar Liga de Campeones 2",
+            "Movistar Liga de Campeones 4"
           ]
         },
         {
@@ -13224,7 +13323,9 @@
         {
           "paese": "Spagna",
           "canali": [
-            "Movistar+"
+            "Movistar+",
+            "Movistar Liga de Campeones 4",
+            "Movistar Liga de Campeones 6"
           ]
         },
         {
@@ -13894,7 +13995,8 @@
           "paese": "Spagna",
           "canali": [
             "Movistar+",
-            "Movistar Liga de Campeones 2"
+            "Movistar Liga de Campeones 2",
+            "Movistar Liga de Campeones 3"
           ]
         },
         {
@@ -14443,6 +14545,12 @@
           ]
         },
         {
+          "paese": "Polonia",
+          "canali": [
+            "Polsat Sport Extra 2"
+          ]
+        },
+        {
           "paese": "Portogallo",
           "canali": [
             "DAZN Portugal"
@@ -14510,6 +14618,13 @@
           "canali": [
             "beIN SPORTS CONNECT",
             "beIN Sports Xtra"
+          ]
+        },
+        {
+          "paese": "Spagna",
+          "canali": [
+            "Movistar Liga de Campeones 3",
+            "Movistar Liga de Campeones 9"
           ]
         },
         {
@@ -14853,6 +14968,12 @@
             "SuperSport MaXimo 2",
             "SuperSport MaXimo 2",
             "DStv Now"
+          ]
+        },
+        {
+          "paese": "Croazia",
+          "canali": [
+            "Arena Sport 4 Croatia"
           ]
         },
         {
@@ -15397,6 +15518,13 @@
             "beIN Sports English",
             "beIN SPORTS CONNECT",
             "DStv Now"
+          ]
+        },
+        {
+          "paese": "Spagna",
+          "canali": [
+            "Movistar Liga de Campeones 3",
+            "Movistar Liga de Campeones 5"
           ]
         },
         {
@@ -15970,6 +16098,13 @@
           ]
         },
         {
+          "paese": "Polonia",
+          "canali": [
+            "Polsat Sport 1",
+            "Polsat Sport Premium 1"
+          ]
+        },
+        {
           "paese": "Portogallo",
           "canali": [
             "DAZN Portugal"
@@ -16037,6 +16172,13 @@
           "canali": [
             "beIN SPORTS CONNECT",
             "beIN Sports Xtra 3"
+          ]
+        },
+        {
+          "paese": "Spagna",
+          "canali": [
+            "Movistar Liga de Campeones 3",
+            "Movistar Liga de Campeones 8"
           ]
         },
         {
@@ -16620,6 +16762,13 @@
           ]
         },
         {
+          "paese": "Spagna",
+          "canali": [
+            "Movistar Liga de Campeones 3",
+            "Movistar Liga de Campeones 6"
+          ]
+        },
+        {
           "paese": "St. Vincent / Grenadines",
           "canali": [
             "Bluu"
@@ -17112,6 +17261,12 @@
           "paese": "Sud Sudan",
           "canali": [
             "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Spagna",
+          "canali": [
+            "Movistar Liga de Campeones 3"
           ]
         },
         {
@@ -17859,6 +18014,12 @@
           ]
         },
         {
+          "paese": "Croazia",
+          "canali": [
+            "Arena Sport 10 Croatia"
+          ]
+        },
+        {
           "paese": "Danimarca",
           "canali": [
             "Disney+ Nordic"
@@ -18143,6 +18304,13 @@
           "canali": [
             "beIN SPORTS CONNECT",
             "beIN Sports Xtra 2"
+          ]
+        },
+        {
+          "paese": "Spagna",
+          "canali": [
+            "Movistar Liga de Campeones 3",
+            "Movistar Liga de Campeones 11"
           ]
         },
         {
@@ -18645,6 +18813,12 @@
           ]
         },
         {
+          "paese": "Spagna",
+          "canali": [
+            "Movistar Liga de Campeones 3"
+          ]
+        },
+        {
           "paese": "St. Vincent / Grenadines",
           "canali": [
             "Bluu"
@@ -18863,6 +19037,12 @@
           "paese": "Colombia",
           "canali": [
             "Disney+ Premium Sur"
+          ]
+        },
+        {
+          "paese": "Croazia",
+          "canali": [
+            "Arena Sport 1 Croatia"
           ]
         },
         {
@@ -19136,6 +19316,12 @@
           "paese": "Sud Sudan",
           "canali": [
             "beIN SPORTS CONNECT"
+          ]
+        },
+        {
+          "paese": "Spagna",
+          "canali": [
+            "Movistar Liga de Campeones 3"
           ]
         },
         {
