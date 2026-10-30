@@ -1,37 +1,16 @@
 {
-  "aggiornato": "2026-10-30T22:55:50+01:00",
+  "aggiornato": "2026-10-30T23:27:49+01:00",
   "fonti": {
     "motori": "Fuori Traiettoria, Dizzle0987/motorsport-calendar, palinsesto TV8",
     "calcio_italiano": "https://raw.githubusercontent.com/aandroide/Livesoccer/master/livesoccertv/output/eventi.json",
     "altri_sport": "https://sport.virgilio.it/guida-tv/"
   },
-  "totale": 231,
+  "totale": 230,
   "cartelle": [
     {
       "nome": "Oggi",
-      "totale": 6,
+      "totale": 5,
       "eventi": [
-        {
-          "titolo": "[Basket] Eurolega: Olympiacos-Olimpia Milano",
-          "categoria": "Basket",
-          "sottocartella": "Eurolega",
-          "sport": "Basket",
-          "competizione": "Eurolega",
-          "evento": "Olympiacos-Olimpia Milano",
-          "inizio": "2026-10-30T20:15:00+01:00",
-          "data": "30/10/2026",
-          "ora": "20:15",
-          "canali": [
-            {
-              "nome": "Sky Sport 1",
-              "numero": "201",
-              "tipo": "diretta",
-              "orario": "2026-10-30T20:15",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
         {
           "titolo": "[Basket] Eurolega: Virtus Bologna-Besiktas",
           "categoria": "Basket",
@@ -12491,33 +12470,12 @@
     },
     {
       "nome": "Basket",
-      "totale": 14,
+      "totale": 13,
       "sottocartelle": [
         {
           "nome": "Eurolega",
-          "totale": 3,
+          "totale": 2,
           "eventi": [
-            {
-              "titolo": "Eurolega: Olympiacos-Olimpia Milano",
-              "categoria": "Basket",
-              "sottocartella": "Eurolega",
-              "sport": "Basket",
-              "competizione": "Eurolega",
-              "evento": "Olympiacos-Olimpia Milano",
-              "inizio": "2026-10-30T20:15:00+01:00",
-              "data": "30/10/2026",
-              "ora": "20:15",
-              "canali": [
-                {
-                  "nome": "Sky Sport 1",
-                  "numero": "201",
-                  "tipo": "diretta",
-                  "orario": "2026-10-30T20:15",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
             {
               "titolo": "Eurolega: Virtus Bologna-Besiktas",
               "categoria": "Basket",
