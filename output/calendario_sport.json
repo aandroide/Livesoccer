@@ -1,118 +1,16 @@
 {
-  "aggiornato": "2026-10-30T03:59:43+01:00",
+  "aggiornato": "2026-10-30T11:12:13+01:00",
   "fonti": {
     "motori": "Fuori Traiettoria, Dizzle0987/motorsport-calendar, palinsesto TV8",
     "calcio_italiano": "https://raw.githubusercontent.com/aandroide/Livesoccer/master/livesoccertv/output/eventi.json",
     "altri_sport": "https://sport.virgilio.it/guida-tv/"
   },
-  "totale": 236,
+  "totale": 232,
   "cartelle": [
     {
       "nome": "Oggi",
-      "totale": 13,
+      "totale": 9,
       "eventi": [
-        {
-          "titolo": "[Motori] MotoGP: Malaysian Grand Prix - Prove libere",
-          "categoria": "Motori",
-          "sottocartella": "MotoGP",
-          "sport": "Motori",
-          "competizione": "MotoGP",
-          "evento": "Malaysian Grand Prix - Prove libere",
-          "sessione": "prove",
-          "circuito": "Sepang International Circuit, Sepang, Malaysia",
-          "inizio": "2026-10-30T03:45:00+01:00",
-          "data": "30/10/2026",
-          "ora": "03:45",
-          "canali": [
-            {
-              "nome": "Sky Sport MotoGP",
-              "numero": "208",
-              "tipo": "diretta",
-              "orario": "2026-10-30T03:45",
-              "fonte": "dizzle+config"
-            },
-            {
-              "nome": "NOW",
-              "numero": "",
-              "tipo": "streaming",
-              "orario": "2026-10-30T03:45",
-              "fonte": "dizzle+config"
-            }
-          ],
-          "fonte": "Dizzle0987/motorsport-calendar"
-        },
-        {
-          "titolo": "[Tennis] WTA 500 Tokyo: 1a Semifinale",
-          "categoria": "Tennis",
-          "sottocartella": "WTA 500 Tokyo",
-          "sport": "Tennis",
-          "competizione": "WTA 500 Tokyo",
-          "evento": "1a Semifinale",
-          "inizio": "2026-10-30T04:00:00+01:00",
-          "data": "30/10/2026",
-          "ora": "04:00",
-          "canali": [
-            {
-              "nome": "Sky Sport Tennis",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-10-30T04:00",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Tennis] ATP & WTA",
-          "categoria": "Tennis",
-          "sottocartella": "ATP & WTA",
-          "sport": "Tennis",
-          "competizione": "ATP & WTA",
-          "evento": "ATP & WTA",
-          "inizio": "2026-10-30T06:00:00+01:00",
-          "data": "30/10/2026",
-          "ora": "06:00",
-          "canali": [
-            {
-              "nome": "Sky Sport Tennis",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-10-30T06:00",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Motori] MotoGP: Malaysian Grand Prix - Practice",
-          "categoria": "Motori",
-          "sottocartella": "MotoGP",
-          "sport": "Motori",
-          "competizione": "MotoGP",
-          "evento": "Malaysian Grand Prix - Practice",
-          "sessione": "prove",
-          "circuito": "Sepang International Circuit, Sepang, Malaysia",
-          "inizio": "2026-10-30T08:00:00+01:00",
-          "data": "30/10/2026",
-          "ora": "08:00",
-          "canali": [
-            {
-              "nome": "Sky Sport MotoGP",
-              "numero": "208",
-              "tipo": "diretta",
-              "orario": "2026-10-30T08:00",
-              "fonte": "dizzle+config"
-            },
-            {
-              "nome": "NOW",
-              "numero": "",
-              "tipo": "streaming",
-              "orario": "2026-10-30T08:00",
-              "fonte": "dizzle+config"
-            }
-          ],
-          "fonte": "Dizzle0987/motorsport-calendar"
-        },
         {
           "titolo": "[Tennis] ATP & WTA",
           "categoria": "Tennis",
@@ -419,7 +317,7 @@
     },
     {
       "nome": "Motori",
-      "totale": 92,
+      "totale": 90,
       "sottocartelle": [
         {
           "nome": "Formula 1",
@@ -1731,68 +1629,8 @@
         },
         {
           "nome": "MotoGP",
-          "totale": 32,
+          "totale": 30,
           "eventi": [
-            {
-              "titolo": "MotoGP: Malaysian Grand Prix - Prove libere",
-              "categoria": "Motori",
-              "sottocartella": "MotoGP",
-              "sport": "Motori",
-              "competizione": "MotoGP",
-              "evento": "Malaysian Grand Prix - Prove libere",
-              "sessione": "prove",
-              "circuito": "Sepang International Circuit, Sepang, Malaysia",
-              "inizio": "2026-10-30T03:45:00+01:00",
-              "data": "30/10/2026",
-              "ora": "03:45",
-              "canali": [
-                {
-                  "nome": "Sky Sport MotoGP",
-                  "numero": "208",
-                  "tipo": "diretta",
-                  "orario": "2026-10-30T03:45",
-                  "fonte": "dizzle+config"
-                },
-                {
-                  "nome": "NOW",
-                  "numero": "",
-                  "tipo": "streaming",
-                  "orario": "2026-10-30T03:45",
-                  "fonte": "dizzle+config"
-                }
-              ],
-              "fonte": "Dizzle0987/motorsport-calendar"
-            },
-            {
-              "titolo": "MotoGP: Malaysian Grand Prix - Practice",
-              "categoria": "Motori",
-              "sottocartella": "MotoGP",
-              "sport": "Motori",
-              "competizione": "MotoGP",
-              "evento": "Malaysian Grand Prix - Practice",
-              "sessione": "prove",
-              "circuito": "Sepang International Circuit, Sepang, Malaysia",
-              "inizio": "2026-10-30T08:00:00+01:00",
-              "data": "30/10/2026",
-              "ora": "08:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport MotoGP",
-                  "numero": "208",
-                  "tipo": "diretta",
-                  "orario": "2026-10-30T08:00",
-                  "fonte": "dizzle+config"
-                },
-                {
-                  "nome": "NOW",
-                  "numero": "",
-                  "tipo": "streaming",
-                  "orario": "2026-10-30T08:00",
-                  "fonte": "dizzle+config"
-                }
-              ],
-              "fonte": "Dizzle0987/motorsport-calendar"
-            },
             {
               "titolo": "MotoGP: Malaysian Grand Prix - FP2",
               "categoria": "Motori",
@@ -11313,33 +11151,39 @@
     },
     {
       "nome": "Tennis",
-      "totale": 22,
+      "totale": 20,
       "sottocartelle": [
         {
-          "nome": "WTA 500 Tokyo",
-          "totale": 3,
+          "nome": "ATP & WTA",
+          "totale": 1,
           "eventi": [
             {
-              "titolo": "WTA 500 Tokyo: 1a Semifinale",
+              "titolo": "ATP & WTA",
               "categoria": "Tennis",
-              "sottocartella": "WTA 500 Tokyo",
+              "sottocartella": "ATP & WTA",
               "sport": "Tennis",
-              "competizione": "WTA 500 Tokyo",
-              "evento": "1a Semifinale",
-              "inizio": "2026-10-30T04:00:00+01:00",
+              "competizione": "ATP & WTA",
+              "evento": "ATP & WTA",
+              "inizio": "2026-10-30T13:30:00+01:00",
               "data": "30/10/2026",
-              "ora": "04:00",
+              "ora": "13:30",
               "canali": [
                 {
-                  "nome": "Sky Sport Tennis",
-                  "numero": "",
+                  "nome": "Sky Sport 1",
+                  "numero": "201",
                   "tipo": "diretta",
-                  "orario": "2026-10-30T04:00",
+                  "orario": "2026-10-30T13:30",
                   "fonte": "virgilio"
                 }
               ],
               "fonte": "Virgilio Sport"
-            },
+            }
+          ]
+        },
+        {
+          "nome": "WTA 500 Tokyo",
+          "totale": 2,
+          "eventi": [
             {
               "titolo": "WTA 500 Tokyo: 2a Semifinale",
               "categoria": "Tennis",
@@ -11377,54 +11221,6 @@
                   "numero": "",
                   "tipo": "diretta",
                   "orario": "2026-11-01T04:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            }
-          ]
-        },
-        {
-          "nome": "ATP & WTA",
-          "totale": 2,
-          "eventi": [
-            {
-              "titolo": "ATP & WTA",
-              "categoria": "Tennis",
-              "sottocartella": "ATP & WTA",
-              "sport": "Tennis",
-              "competizione": "ATP & WTA",
-              "evento": "ATP & WTA",
-              "inizio": "2026-10-30T06:00:00+01:00",
-              "data": "30/10/2026",
-              "ora": "06:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Tennis",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-30T06:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "ATP & WTA",
-              "categoria": "Tennis",
-              "sottocartella": "ATP & WTA",
-              "sport": "Tennis",
-              "competizione": "ATP & WTA",
-              "evento": "ATP & WTA",
-              "inizio": "2026-10-30T13:30:00+01:00",
-              "data": "30/10/2026",
-              "ora": "13:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport 1",
-                  "numero": "201",
-                  "tipo": "diretta",
-                  "orario": "2026-10-30T13:30",
                   "fonte": "virgilio"
                 }
               ],
