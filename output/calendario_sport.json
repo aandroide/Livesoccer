@@ -1,143 +1,16 @@
 {
-  "aggiornato": "2026-10-31T08:32:53+01:00",
+  "aggiornato": "2026-10-31T13:46:05+01:00",
   "fonti": {
     "motori": "Fuori Traiettoria, Dizzle0987/motorsport-calendar, palinsesto TV8",
     "calcio_italiano": "https://raw.githubusercontent.com/aandroide/Livesoccer/master/livesoccertv/output/eventi.json",
     "altri_sport": "https://sport.virgilio.it/guida-tv/"
   },
-  "totale": 236,
+  "totale": 231,
   "cartelle": [
     {
       "nome": "Oggi",
-      "totale": 38,
+      "totale": 33,
       "eventi": [
-        {
-          "titolo": "[Motori] Moto2 e Moto3: M3 - Malaysian GP - Quali",
-          "categoria": "Motori",
-          "sottocartella": "Moto2 e Moto3",
-          "sport": "Motori",
-          "competizione": "Moto2 e Moto3",
-          "evento": "M3 - Malaysian GP - Quali",
-          "sessione": "qualifiche",
-          "circuito": "Circuito di Sepang, Jalan Pekeliling, 64000 Sepang, Selangor, Malesia",
-          "inizio": "2026-10-31T05:45:00+01:00",
-          "data": "31/10/2026",
-          "ora": "05:45",
-          "canali": [
-            {
-              "nome": "TV8",
-              "numero": "8",
-              "tipo": "diretta",
-              "orario": "2026-10-31T05:40",
-              "programma": "GP Malesia: Qualifiche",
-              "fonte": "tv8"
-            }
-          ],
-          "fonte": "Fuori Traiettoria"
-        },
-        {
-          "titolo": "[Tennis] WTA 500 Tokyo: 2a Semifinale",
-          "categoria": "Tennis",
-          "sottocartella": "WTA 500 Tokyo",
-          "sport": "Tennis",
-          "competizione": "WTA 500 Tokyo",
-          "evento": "2a Semifinale",
-          "inizio": "2026-10-31T06:00:00+01:00",
-          "data": "31/10/2026",
-          "ora": "06:00",
-          "canali": [
-            {
-              "nome": "Sky Sport Tennis",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-10-31T06:00",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Motori] Moto2 e Moto3: M2 - Malaysian GP - Quali",
-          "categoria": "Motori",
-          "sottocartella": "Moto2 e Moto3",
-          "sport": "Motori",
-          "competizione": "Moto2 e Moto3",
-          "evento": "M2 - Malaysian GP - Quali",
-          "sessione": "qualifiche",
-          "circuito": "Circuito di Sepang, Jalan Pekeliling, 64000 Sepang, Selangor, Malesia",
-          "inizio": "2026-10-31T06:40:00+01:00",
-          "data": "31/10/2026",
-          "ora": "06:40",
-          "canali": [
-            {
-              "nome": "TV8",
-              "numero": "8",
-              "tipo": "diretta",
-              "orario": "2026-10-31T05:40",
-              "programma": "GP Malesia: Qualifiche",
-              "fonte": "tv8"
-            }
-          ],
-          "fonte": "Fuori Traiettoria"
-        },
-        {
-          "titolo": "[Motori] MotoGP: Malaysian Grand Prix - Sprint",
-          "categoria": "Motori",
-          "sottocartella": "MotoGP",
-          "sport": "Motori",
-          "competizione": "MotoGP",
-          "evento": "Malaysian Grand Prix - Sprint",
-          "sessione": "sprint",
-          "circuito": "Sepang International Circuit, Sepang, Malaysia",
-          "inizio": "2026-10-31T08:00:00+01:00",
-          "data": "31/10/2026",
-          "ora": "08:00",
-          "canali": [
-            {
-              "nome": "TV8",
-              "numero": "8",
-              "tipo": "diretta",
-              "orario": "2026-10-31T07:55",
-              "fonte": "dizzle+tv8"
-            },
-            {
-              "nome": "Sky Sport MotoGP",
-              "numero": "208",
-              "tipo": "diretta",
-              "orario": "2026-10-31T08:00",
-              "fonte": "config"
-            },
-            {
-              "nome": "NOW",
-              "numero": "",
-              "tipo": "streaming",
-              "orario": "2026-10-31T08:00",
-              "fonte": "config"
-            }
-          ],
-          "fonte": "Dizzle0987/motorsport-calendar"
-        },
-        {
-          "titolo": "[Tennis] WTA 250 Guangzhou: 1a Semifinale",
-          "categoria": "Tennis",
-          "sottocartella": "WTA 250 Guangzhou",
-          "sport": "Tennis",
-          "competizione": "WTA 250 Guangzhou",
-          "evento": "1a Semifinale",
-          "inizio": "2026-10-31T09:30:00+01:00",
-          "data": "31/10/2026",
-          "ora": "09:30",
-          "canali": [
-            {
-              "nome": "Sky Sport Tennis",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-10-31T09:30",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
         {
           "titolo": "[Calcio] Primavera 1: Lazio-Sassuolo",
           "categoria": "Calcio",
@@ -4818,7 +4691,7 @@
     },
     {
       "nome": "Motori",
-      "totale": 85,
+      "totale": 82,
       "sottocartelle": [
         {
           "nome": "Formula 1",
@@ -6042,45 +5915,8 @@
         },
         {
           "nome": "MotoGP",
-          "totale": 27,
+          "totale": 26,
           "eventi": [
-            {
-              "titolo": "MotoGP: Malaysian Grand Prix - Sprint",
-              "categoria": "Motori",
-              "sottocartella": "MotoGP",
-              "sport": "Motori",
-              "competizione": "MotoGP",
-              "evento": "Malaysian Grand Prix - Sprint",
-              "sessione": "sprint",
-              "circuito": "Sepang International Circuit, Sepang, Malaysia",
-              "inizio": "2026-10-31T08:00:00+01:00",
-              "data": "31/10/2026",
-              "ora": "08:00",
-              "canali": [
-                {
-                  "nome": "TV8",
-                  "numero": "8",
-                  "tipo": "diretta",
-                  "orario": "2026-10-31T07:55",
-                  "fonte": "dizzle+tv8"
-                },
-                {
-                  "nome": "Sky Sport MotoGP",
-                  "numero": "208",
-                  "tipo": "diretta",
-                  "orario": "2026-10-31T08:00",
-                  "fonte": "config"
-                },
-                {
-                  "nome": "NOW",
-                  "numero": "",
-                  "tipo": "streaming",
-                  "orario": "2026-10-31T08:00",
-                  "fonte": "config"
-                }
-              ],
-              "fonte": "Dizzle0987/motorsport-calendar"
-            },
             {
               "titolo": "MotoGP: Malaysian Grand Prix - Warm Up",
               "categoria": "Motori",
@@ -6930,56 +6766,8 @@
         },
         {
           "nome": "Moto2 e Moto3",
-          "totale": 15,
+          "totale": 13,
           "eventi": [
-            {
-              "titolo": "Moto2 e Moto3: M3 - Malaysian GP - Quali",
-              "categoria": "Motori",
-              "sottocartella": "Moto2 e Moto3",
-              "sport": "Motori",
-              "competizione": "Moto2 e Moto3",
-              "evento": "M3 - Malaysian GP - Quali",
-              "sessione": "qualifiche",
-              "circuito": "Circuito di Sepang, Jalan Pekeliling, 64000 Sepang, Selangor, Malesia",
-              "inizio": "2026-10-31T05:45:00+01:00",
-              "data": "31/10/2026",
-              "ora": "05:45",
-              "canali": [
-                {
-                  "nome": "TV8",
-                  "numero": "8",
-                  "tipo": "diretta",
-                  "orario": "2026-10-31T05:40",
-                  "programma": "GP Malesia: Qualifiche",
-                  "fonte": "tv8"
-                }
-              ],
-              "fonte": "Fuori Traiettoria"
-            },
-            {
-              "titolo": "Moto2 e Moto3: M2 - Malaysian GP - Quali",
-              "categoria": "Motori",
-              "sottocartella": "Moto2 e Moto3",
-              "sport": "Motori",
-              "competizione": "Moto2 e Moto3",
-              "evento": "M2 - Malaysian GP - Quali",
-              "sessione": "qualifiche",
-              "circuito": "Circuito di Sepang, Jalan Pekeliling, 64000 Sepang, Selangor, Malesia",
-              "inizio": "2026-10-31T06:40:00+01:00",
-              "data": "31/10/2026",
-              "ora": "06:40",
-              "canali": [
-                {
-                  "nome": "TV8",
-                  "numero": "8",
-                  "tipo": "diretta",
-                  "orario": "2026-10-31T05:40",
-                  "programma": "GP Malesia: Qualifiche",
-                  "fonte": "tv8"
-                }
-              ],
-              "fonte": "Fuori Traiettoria"
-            },
             {
               "titolo": "Moto2 e Moto3: M3 - Malaysian GP - Race",
               "categoria": "Motori",
@@ -15676,81 +15464,12 @@
     },
     {
       "nome": "Tennis",
-      "totale": 23,
+      "totale": 21,
       "sottocartelle": [
         {
-          "nome": "WTA 500 Tokyo",
+          "nome": "WTA 250 Guangzhou",
           "totale": 2,
           "eventi": [
-            {
-              "titolo": "WTA 500 Tokyo: 2a Semifinale",
-              "categoria": "Tennis",
-              "sottocartella": "WTA 500 Tokyo",
-              "sport": "Tennis",
-              "competizione": "WTA 500 Tokyo",
-              "evento": "2a Semifinale",
-              "inizio": "2026-10-31T06:00:00+01:00",
-              "data": "31/10/2026",
-              "ora": "06:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Tennis",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-31T06:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "WTA 500 Tokyo: Finale",
-              "categoria": "Tennis",
-              "sottocartella": "WTA 500 Tokyo",
-              "sport": "Tennis",
-              "competizione": "WTA 500 Tokyo",
-              "evento": "Finale",
-              "inizio": "2026-11-01T04:00:00+01:00",
-              "data": "01/11/2026",
-              "ora": "04:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Tennis",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-01T04:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            }
-          ]
-        },
-        {
-          "nome": "WTA 250 Guangzhou",
-          "totale": 3,
-          "eventi": [
-            {
-              "titolo": "WTA 250 Guangzhou: 1a Semifinale",
-              "categoria": "Tennis",
-              "sottocartella": "WTA 250 Guangzhou",
-              "sport": "Tennis",
-              "competizione": "WTA 250 Guangzhou",
-              "evento": "1a Semifinale",
-              "inizio": "2026-10-31T09:30:00+01:00",
-              "data": "31/10/2026",
-              "ora": "09:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport Tennis",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-31T09:30",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
             {
               "titolo": "WTA 250 Guangzhou: 2a Semifinale",
               "categoria": "Tennis",
@@ -15933,6 +15652,33 @@
                   "numero": "",
                   "tipo": "diretta",
                   "orario": "2026-11-01T14:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            }
+          ]
+        },
+        {
+          "nome": "WTA 500 Tokyo",
+          "totale": 1,
+          "eventi": [
+            {
+              "titolo": "WTA 500 Tokyo: Finale",
+              "categoria": "Tennis",
+              "sottocartella": "WTA 500 Tokyo",
+              "sport": "Tennis",
+              "competizione": "WTA 500 Tokyo",
+              "evento": "Finale",
+              "inizio": "2026-11-01T04:00:00+01:00",
+              "data": "01/11/2026",
+              "ora": "04:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport Tennis",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-01T04:00",
                   "fonte": "virgilio"
                 }
               ],
