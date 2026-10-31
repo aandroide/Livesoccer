@@ -1,58 +1,16 @@
 {
-  "aggiornato": "2026-10-31T13:46:05+01:00",
+  "aggiornato": "2026-10-31T14:58:35+01:00",
   "fonti": {
     "motori": "Fuori Traiettoria, Dizzle0987/motorsport-calendar, palinsesto TV8",
     "calcio_italiano": "https://raw.githubusercontent.com/aandroide/Livesoccer/master/livesoccertv/output/eventi.json",
     "altri_sport": "https://sport.virgilio.it/guida-tv/"
   },
-  "totale": 231,
+  "totale": 235,
   "cartelle": [
     {
       "nome": "Oggi",
-      "totale": 33,
+      "totale": 37,
       "eventi": [
-        {
-          "titolo": "[Calcio] Primavera 1: Lazio-Sassuolo",
-          "categoria": "Calcio",
-          "sottocartella": "Primavera 1",
-          "sport": "Calcio",
-          "competizione": "Primavera 1",
-          "evento": "Lazio-Sassuolo",
-          "inizio": "2026-10-31T11:00:00+01:00",
-          "data": "31/10/2026",
-          "ora": "11:00",
-          "canali": [
-            {
-              "nome": "Sportitalia",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-10-31T11:00",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Tennis] WTA 250 Guangzhou: 2a Semifinale",
-          "categoria": "Tennis",
-          "sottocartella": "WTA 250 Guangzhou",
-          "sport": "Tennis",
-          "competizione": "WTA 250 Guangzhou",
-          "evento": "2a Semifinale",
-          "inizio": "2026-10-31T11:30:00+01:00",
-          "data": "31/10/2026",
-          "ora": "11:30",
-          "canali": [
-            {
-              "nome": "Sky Sport Tennis",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-10-31T11:30",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
         {
           "titolo": "[Calcio] Bundesliga 2: Kaiserslautern-Hertha Berlino",
           "categoria": "Calcio",
@@ -117,66 +75,25 @@
           "fonte": "Virgilio Sport"
         },
         {
-          "titolo": "[Calcio] Serie C: Audace Cerignola vs Catania",
+          "titolo": "[Calcio] Serie C: Audace Cerignola-Catania",
           "categoria": "Calcio",
           "sottocartella": "Serie C",
           "sport": "Calcio",
           "competizione": "Serie C",
-          "evento": "Audace Cerignola vs Catania",
+          "evento": "Audace Cerignola-Catania",
           "inizio": "2026-10-31T14:30:00+01:00",
           "data": "31/10/2026",
           "ora": "14:30",
           "canali": [
             {
-              "nome": "Sky Sport 251",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-10-31T14:30",
-              "fonte": "livesoccer"
-            },
-            {
-              "nome": "SKY Go Italia",
-              "numero": "",
-              "tipo": "streaming",
-              "orario": "2026-10-31T14:30",
-              "fonte": "livesoccer"
-            },
-            {
               "nome": "Sky Sport Calcio",
               "numero": "",
               "tipo": "diretta",
               "orario": "2026-10-31T14:30",
-              "fonte": "livesoccer"
-            },
-            {
-              "nome": "NOW TV",
-              "numero": "",
-              "tipo": "streaming",
-              "orario": "2026-10-31T14:30",
-              "fonte": "livesoccer"
+              "fonte": "virgilio"
             }
           ],
-          "canali_mondo": [
-            {
-              "paese": "Italia",
-              "canali": [
-                "Sky Sport 251",
-                "SKY Go Italia",
-                "Sky Sport Calcio",
-                "NOW TV"
-              ]
-            },
-            {
-              "paese": "San Marino",
-              "canali": [
-                "Sky Sport 251",
-                "SKY Go Italia",
-                "Sky Sport Calcio",
-                "NOW TV"
-              ]
-            }
-          ],
-          "fonte": "LiveSoccerTV"
+          "fonte": "Virgilio Sport"
         },
         {
           "titolo": "[Calcio] Serie C: Bari 1908 vs Scafatese",
@@ -383,6 +300,59 @@
               "paese": "San Marino",
               "canali": [
                 "Sky Sport 253",
+                "SKY Go Italia",
+                "NOW TV"
+              ]
+            }
+          ],
+          "fonte": "LiveSoccerTV"
+        },
+        {
+          "titolo": "[Calcio] Serie C: Sorrento vs Team Altamura",
+          "categoria": "Calcio",
+          "sottocartella": "Serie C",
+          "sport": "Calcio",
+          "competizione": "Serie C",
+          "evento": "Sorrento vs Team Altamura",
+          "inizio": "2026-10-31T14:30:00+01:00",
+          "data": "31/10/2026",
+          "ora": "14:30",
+          "canali": [
+            {
+              "nome": "Sky Sport 254",
+              "numero": "",
+              "tipo": "diretta",
+              "orario": "2026-10-31T14:30",
+              "fonte": "livesoccer"
+            },
+            {
+              "nome": "SKY Go Italia",
+              "numero": "",
+              "tipo": "streaming",
+              "orario": "2026-10-31T14:30",
+              "fonte": "livesoccer"
+            },
+            {
+              "nome": "NOW TV",
+              "numero": "",
+              "tipo": "streaming",
+              "orario": "2026-10-31T14:30",
+              "fonte": "livesoccer"
+            }
+          ],
+          "canali_mondo": [
+            {
+              "paese": "Italia",
+              "canali": [
+                "Sky Sport 254",
+                "SKY Go Italia",
+                "NOW TV"
+              ]
+            },
+            {
+              "paese": "San Marino",
+              "canali": [
+                "Sky Sport 254",
                 "SKY Go Italia",
                 "NOW TV"
               ]
@@ -1105,7 +1075,8 @@
               "paese": "Macedonia",
               "canali": [
                 "Arena Sport 9 Serbia",
-                "Arena Cloud"
+                "Arena Cloud",
+                "Arena M2 Premium"
               ]
             },
             {
@@ -2120,6 +2091,126 @@
           "fonte": "LiveSoccerTV"
         },
         {
+          "titolo": "[Calcio] Serie C: Barletta vs Monopoli",
+          "categoria": "Calcio",
+          "sottocartella": "Serie C",
+          "sport": "Calcio",
+          "competizione": "Serie C",
+          "evento": "Barletta vs Monopoli",
+          "inizio": "2026-10-31T17:30:00+01:00",
+          "data": "31/10/2026",
+          "ora": "17:30",
+          "canali": [],
+          "canali_mondo": [],
+          "fonte": "LiveSoccerTV"
+        },
+        {
+          "titolo": "[Calcio] Serie C: Cavese vs Picerno",
+          "categoria": "Calcio",
+          "sottocartella": "Serie C",
+          "sport": "Calcio",
+          "competizione": "Serie C",
+          "evento": "Cavese vs Picerno",
+          "inizio": "2026-10-31T17:30:00+01:00",
+          "data": "31/10/2026",
+          "ora": "17:30",
+          "canali": [
+            {
+              "nome": "Sky Sport 254",
+              "numero": "",
+              "tipo": "diretta",
+              "orario": "2026-10-31T17:30",
+              "fonte": "livesoccer"
+            },
+            {
+              "nome": "SKY Go Italia",
+              "numero": "",
+              "tipo": "streaming",
+              "orario": "2026-10-31T17:30",
+              "fonte": "livesoccer"
+            },
+            {
+              "nome": "NOW TV",
+              "numero": "",
+              "tipo": "streaming",
+              "orario": "2026-10-31T17:30",
+              "fonte": "livesoccer"
+            }
+          ],
+          "canali_mondo": [
+            {
+              "paese": "Italia",
+              "canali": [
+                "Sky Sport 254",
+                "SKY Go Italia",
+                "NOW TV"
+              ]
+            },
+            {
+              "paese": "San Marino",
+              "canali": [
+                "Sky Sport 254",
+                "SKY Go Italia",
+                "NOW TV"
+              ]
+            }
+          ],
+          "fonte": "LiveSoccerTV"
+        },
+        {
+          "titolo": "[Calcio] Serie C: Giana Erminio vs Alcione",
+          "categoria": "Calcio",
+          "sottocartella": "Serie C",
+          "sport": "Calcio",
+          "competizione": "Serie C",
+          "evento": "Giana Erminio vs Alcione",
+          "inizio": "2026-10-31T17:30:00+01:00",
+          "data": "31/10/2026",
+          "ora": "17:30",
+          "canali": [
+            {
+              "nome": "Sky Sport 255",
+              "numero": "",
+              "tipo": "diretta",
+              "orario": "2026-10-31T17:30",
+              "fonte": "livesoccer"
+            },
+            {
+              "nome": "SKY Go Italia",
+              "numero": "",
+              "tipo": "streaming",
+              "orario": "2026-10-31T17:30",
+              "fonte": "livesoccer"
+            },
+            {
+              "nome": "NOW TV",
+              "numero": "",
+              "tipo": "streaming",
+              "orario": "2026-10-31T17:30",
+              "fonte": "livesoccer"
+            }
+          ],
+          "canali_mondo": [
+            {
+              "paese": "Italia",
+              "canali": [
+                "Sky Sport 255",
+                "SKY Go Italia",
+                "NOW TV"
+              ]
+            },
+            {
+              "paese": "San Marino",
+              "canali": [
+                "Sky Sport 255",
+                "SKY Go Italia",
+                "NOW TV"
+              ]
+            }
+          ],
+          "fonte": "LiveSoccerTV"
+        },
+        {
           "titolo": "[Calcio] Serie C: Guidonia Montecelio-Perugia",
           "categoria": "Calcio",
           "sottocartella": "Serie C",
@@ -2139,6 +2230,121 @@
             }
           ],
           "fonte": "Virgilio Sport"
+        },
+        {
+          "titolo": "[Calcio] Serie C: Nuova Monterosi vs Perugia",
+          "categoria": "Calcio",
+          "sottocartella": "Serie C",
+          "sport": "Calcio",
+          "competizione": "Serie C",
+          "evento": "Nuova Monterosi vs Perugia",
+          "inizio": "2026-10-31T17:30:00+01:00",
+          "data": "31/10/2026",
+          "ora": "17:30",
+          "canali": [
+            {
+              "nome": "Sky Sport 251",
+              "numero": "",
+              "tipo": "diretta",
+              "orario": "2026-10-31T17:30",
+              "fonte": "livesoccer"
+            },
+            {
+              "nome": "SKY Go Italia",
+              "numero": "",
+              "tipo": "streaming",
+              "orario": "2026-10-31T17:30",
+              "fonte": "livesoccer"
+            },
+            {
+              "nome": "Sky Sport Calcio",
+              "numero": "",
+              "tipo": "diretta",
+              "orario": "2026-10-31T17:30",
+              "fonte": "livesoccer"
+            },
+            {
+              "nome": "NOW TV",
+              "numero": "",
+              "tipo": "streaming",
+              "orario": "2026-10-31T17:30",
+              "fonte": "livesoccer"
+            }
+          ],
+          "canali_mondo": [
+            {
+              "paese": "Italia",
+              "canali": [
+                "Sky Sport 251",
+                "SKY Go Italia",
+                "Sky Sport Calcio",
+                "NOW TV"
+              ]
+            },
+            {
+              "paese": "San Marino",
+              "canali": [
+                "Sky Sport 251",
+                "SKY Go Italia",
+                "Sky Sport Calcio",
+                "NOW TV"
+              ]
+            }
+          ],
+          "fonte": "LiveSoccerTV"
+        },
+        {
+          "titolo": "[Calcio] Serie C: Vado vs Grosseto",
+          "categoria": "Calcio",
+          "sottocartella": "Serie C",
+          "sport": "Calcio",
+          "competizione": "Serie C",
+          "evento": "Vado vs Grosseto",
+          "inizio": "2026-10-31T17:30:00+01:00",
+          "data": "31/10/2026",
+          "ora": "17:30",
+          "canali": [
+            {
+              "nome": "Sky Sport 253",
+              "numero": "",
+              "tipo": "diretta",
+              "orario": "2026-10-31T17:30",
+              "fonte": "livesoccer"
+            },
+            {
+              "nome": "SKY Go Italia",
+              "numero": "",
+              "tipo": "streaming",
+              "orario": "2026-10-31T17:30",
+              "fonte": "livesoccer"
+            },
+            {
+              "nome": "NOW TV",
+              "numero": "",
+              "tipo": "streaming",
+              "orario": "2026-10-31T17:30",
+              "fonte": "livesoccer"
+            }
+          ],
+          "canali_mondo": [
+            {
+              "paese": "Italia",
+              "canali": [
+                "Sky Sport 253",
+                "SKY Go Italia",
+                "NOW TV"
+              ]
+            },
+            {
+              "paese": "San Marino",
+              "canali": [
+                "Sky Sport 253",
+                "SKY Go Italia",
+                "NOW TV"
+              ]
+            }
+          ],
+          "fonte": "LiveSoccerTV"
         },
         {
           "titolo": "[Calcio] Serie A: Udinese vs Roma",
@@ -3045,6 +3251,7 @@
             {
               "paese": "Sudafrica",
               "canali": [
+                "MáXimo 360",
                 "DStv App",
                 "SuperSport Football"
               ]
@@ -3957,7 +4164,8 @@
             {
               "paese": "Iran",
               "canali": [
-                "Thmanyah"
+                "Thmanyah",
+                "Persiana Sports 2"
               ]
             },
             {
@@ -4109,7 +4317,8 @@
               "paese": "Macedonia",
               "canali": [
                 "Arena 1 Premium",
-                "Arena Cloud"
+                "Arena Cloud",
+                "Arena M1 Premium"
               ]
             },
             {
@@ -4408,6 +4617,7 @@
             {
               "paese": "Sudafrica",
               "canali": [
+                "MáXimo 360",
                 "DStv App",
                 "SuperSport Football",
                 "Supersport Grandstand"
@@ -7173,7 +7383,7 @@
     },
     {
       "nome": "Calcio",
-      "totale": 104,
+      "totale": 109,
       "sottocartelle": [
         {
           "nome": "Serie A",
@@ -7873,7 +8083,8 @@
                   "paese": "Macedonia",
                   "canali": [
                     "Arena Sport 9 Serbia",
-                    "Arena Cloud"
+                    "Arena Cloud",
+                    "Arena M2 Premium"
                   ]
                 },
                 {
@@ -9376,6 +9587,7 @@
                 {
                   "paese": "Sudafrica",
                   "canali": [
+                    "MáXimo 360",
                     "DStv App",
                     "SuperSport Football"
                   ]
@@ -10092,7 +10304,8 @@
                 {
                   "paese": "Iran",
                   "canali": [
-                    "Thmanyah"
+                    "Thmanyah",
+                    "Persiana Sports 2"
                   ]
                 },
                 {
@@ -10244,7 +10457,8 @@
                   "paese": "Macedonia",
                   "canali": [
                     "Arena 1 Premium",
-                    "Arena Cloud"
+                    "Arena Cloud",
+                    "Arena M1 Premium"
                   ]
                 },
                 {
@@ -10543,6 +10757,7 @@
                 {
                   "paese": "Sudafrica",
                   "canali": [
+                    "MáXimo 360",
                     "DStv App",
                     "SuperSport Football",
                     "Supersport Grandstand"
@@ -11327,7 +11542,8 @@
                   "paese": "Macedonia",
                   "canali": [
                     "Arena 2 Premium",
-                    "Arena Cloud"
+                    "Arena Cloud",
+                    "Arena M2 Premium"
                   ]
                 },
                 {
@@ -13409,69 +13625,28 @@
         },
         {
           "nome": "Serie C",
-          "totale": 17,
+          "totale": 23,
           "eventi": [
             {
-              "titolo": "Serie C: Audace Cerignola vs Catania",
+              "titolo": "Serie C: Audace Cerignola-Catania",
               "categoria": "Calcio",
               "sottocartella": "Serie C",
               "sport": "Calcio",
               "competizione": "Serie C",
-              "evento": "Audace Cerignola vs Catania",
+              "evento": "Audace Cerignola-Catania",
               "inizio": "2026-10-31T14:30:00+01:00",
               "data": "31/10/2026",
               "ora": "14:30",
               "canali": [
                 {
-                  "nome": "Sky Sport 251",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-31T14:30",
-                  "fonte": "livesoccer"
-                },
-                {
-                  "nome": "SKY Go Italia",
-                  "numero": "",
-                  "tipo": "streaming",
-                  "orario": "2026-10-31T14:30",
-                  "fonte": "livesoccer"
-                },
-                {
                   "nome": "Sky Sport Calcio",
                   "numero": "",
                   "tipo": "diretta",
                   "orario": "2026-10-31T14:30",
-                  "fonte": "livesoccer"
-                },
-                {
-                  "nome": "NOW TV",
-                  "numero": "",
-                  "tipo": "streaming",
-                  "orario": "2026-10-31T14:30",
-                  "fonte": "livesoccer"
+                  "fonte": "virgilio"
                 }
               ],
-              "canali_mondo": [
-                {
-                  "paese": "Italia",
-                  "canali": [
-                    "Sky Sport 251",
-                    "SKY Go Italia",
-                    "Sky Sport Calcio",
-                    "NOW TV"
-                  ]
-                },
-                {
-                  "paese": "San Marino",
-                  "canali": [
-                    "Sky Sport 251",
-                    "SKY Go Italia",
-                    "Sky Sport Calcio",
-                    "NOW TV"
-                  ]
-                }
-              ],
-              "fonte": "LiveSoccerTV"
+              "fonte": "Virgilio Sport"
             },
             {
               "titolo": "Serie C: Bari 1908 vs Scafatese",
@@ -13686,6 +13861,179 @@
               "fonte": "LiveSoccerTV"
             },
             {
+              "titolo": "Serie C: Sorrento vs Team Altamura",
+              "categoria": "Calcio",
+              "sottocartella": "Serie C",
+              "sport": "Calcio",
+              "competizione": "Serie C",
+              "evento": "Sorrento vs Team Altamura",
+              "inizio": "2026-10-31T14:30:00+01:00",
+              "data": "31/10/2026",
+              "ora": "14:30",
+              "canali": [
+                {
+                  "nome": "Sky Sport 254",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-31T14:30",
+                  "fonte": "livesoccer"
+                },
+                {
+                  "nome": "SKY Go Italia",
+                  "numero": "",
+                  "tipo": "streaming",
+                  "orario": "2026-10-31T14:30",
+                  "fonte": "livesoccer"
+                },
+                {
+                  "nome": "NOW TV",
+                  "numero": "",
+                  "tipo": "streaming",
+                  "orario": "2026-10-31T14:30",
+                  "fonte": "livesoccer"
+                }
+              ],
+              "canali_mondo": [
+                {
+                  "paese": "Italia",
+                  "canali": [
+                    "Sky Sport 254",
+                    "SKY Go Italia",
+                    "NOW TV"
+                  ]
+                },
+                {
+                  "paese": "San Marino",
+                  "canali": [
+                    "Sky Sport 254",
+                    "SKY Go Italia",
+                    "NOW TV"
+                  ]
+                }
+              ],
+              "fonte": "LiveSoccerTV"
+            },
+            {
+              "titolo": "Serie C: Barletta vs Monopoli",
+              "categoria": "Calcio",
+              "sottocartella": "Serie C",
+              "sport": "Calcio",
+              "competizione": "Serie C",
+              "evento": "Barletta vs Monopoli",
+              "inizio": "2026-10-31T17:30:00+01:00",
+              "data": "31/10/2026",
+              "ora": "17:30",
+              "canali": [],
+              "canali_mondo": [],
+              "fonte": "LiveSoccerTV"
+            },
+            {
+              "titolo": "Serie C: Cavese vs Picerno",
+              "categoria": "Calcio",
+              "sottocartella": "Serie C",
+              "sport": "Calcio",
+              "competizione": "Serie C",
+              "evento": "Cavese vs Picerno",
+              "inizio": "2026-10-31T17:30:00+01:00",
+              "data": "31/10/2026",
+              "ora": "17:30",
+              "canali": [
+                {
+                  "nome": "Sky Sport 254",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-31T17:30",
+                  "fonte": "livesoccer"
+                },
+                {
+                  "nome": "SKY Go Italia",
+                  "numero": "",
+                  "tipo": "streaming",
+                  "orario": "2026-10-31T17:30",
+                  "fonte": "livesoccer"
+                },
+                {
+                  "nome": "NOW TV",
+                  "numero": "",
+                  "tipo": "streaming",
+                  "orario": "2026-10-31T17:30",
+                  "fonte": "livesoccer"
+                }
+              ],
+              "canali_mondo": [
+                {
+                  "paese": "Italia",
+                  "canali": [
+                    "Sky Sport 254",
+                    "SKY Go Italia",
+                    "NOW TV"
+                  ]
+                },
+                {
+                  "paese": "San Marino",
+                  "canali": [
+                    "Sky Sport 254",
+                    "SKY Go Italia",
+                    "NOW TV"
+                  ]
+                }
+              ],
+              "fonte": "LiveSoccerTV"
+            },
+            {
+              "titolo": "Serie C: Giana Erminio vs Alcione",
+              "categoria": "Calcio",
+              "sottocartella": "Serie C",
+              "sport": "Calcio",
+              "competizione": "Serie C",
+              "evento": "Giana Erminio vs Alcione",
+              "inizio": "2026-10-31T17:30:00+01:00",
+              "data": "31/10/2026",
+              "ora": "17:30",
+              "canali": [
+                {
+                  "nome": "Sky Sport 255",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-31T17:30",
+                  "fonte": "livesoccer"
+                },
+                {
+                  "nome": "SKY Go Italia",
+                  "numero": "",
+                  "tipo": "streaming",
+                  "orario": "2026-10-31T17:30",
+                  "fonte": "livesoccer"
+                },
+                {
+                  "nome": "NOW TV",
+                  "numero": "",
+                  "tipo": "streaming",
+                  "orario": "2026-10-31T17:30",
+                  "fonte": "livesoccer"
+                }
+              ],
+              "canali_mondo": [
+                {
+                  "paese": "Italia",
+                  "canali": [
+                    "Sky Sport 255",
+                    "SKY Go Italia",
+                    "NOW TV"
+                  ]
+                },
+                {
+                  "paese": "San Marino",
+                  "canali": [
+                    "Sky Sport 255",
+                    "SKY Go Italia",
+                    "NOW TV"
+                  ]
+                }
+              ],
+              "fonte": "LiveSoccerTV"
+            },
+            {
               "titolo": "Serie C: Guidonia Montecelio-Perugia",
               "categoria": "Calcio",
               "sottocartella": "Serie C",
@@ -13705,6 +14053,121 @@
                 }
               ],
               "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "Serie C: Nuova Monterosi vs Perugia",
+              "categoria": "Calcio",
+              "sottocartella": "Serie C",
+              "sport": "Calcio",
+              "competizione": "Serie C",
+              "evento": "Nuova Monterosi vs Perugia",
+              "inizio": "2026-10-31T17:30:00+01:00",
+              "data": "31/10/2026",
+              "ora": "17:30",
+              "canali": [
+                {
+                  "nome": "Sky Sport 251",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-31T17:30",
+                  "fonte": "livesoccer"
+                },
+                {
+                  "nome": "SKY Go Italia",
+                  "numero": "",
+                  "tipo": "streaming",
+                  "orario": "2026-10-31T17:30",
+                  "fonte": "livesoccer"
+                },
+                {
+                  "nome": "Sky Sport Calcio",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-31T17:30",
+                  "fonte": "livesoccer"
+                },
+                {
+                  "nome": "NOW TV",
+                  "numero": "",
+                  "tipo": "streaming",
+                  "orario": "2026-10-31T17:30",
+                  "fonte": "livesoccer"
+                }
+              ],
+              "canali_mondo": [
+                {
+                  "paese": "Italia",
+                  "canali": [
+                    "Sky Sport 251",
+                    "SKY Go Italia",
+                    "Sky Sport Calcio",
+                    "NOW TV"
+                  ]
+                },
+                {
+                  "paese": "San Marino",
+                  "canali": [
+                    "Sky Sport 251",
+                    "SKY Go Italia",
+                    "Sky Sport Calcio",
+                    "NOW TV"
+                  ]
+                }
+              ],
+              "fonte": "LiveSoccerTV"
+            },
+            {
+              "titolo": "Serie C: Vado vs Grosseto",
+              "categoria": "Calcio",
+              "sottocartella": "Serie C",
+              "sport": "Calcio",
+              "competizione": "Serie C",
+              "evento": "Vado vs Grosseto",
+              "inizio": "2026-10-31T17:30:00+01:00",
+              "data": "31/10/2026",
+              "ora": "17:30",
+              "canali": [
+                {
+                  "nome": "Sky Sport 253",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-10-31T17:30",
+                  "fonte": "livesoccer"
+                },
+                {
+                  "nome": "SKY Go Italia",
+                  "numero": "",
+                  "tipo": "streaming",
+                  "orario": "2026-10-31T17:30",
+                  "fonte": "livesoccer"
+                },
+                {
+                  "nome": "NOW TV",
+                  "numero": "",
+                  "tipo": "streaming",
+                  "orario": "2026-10-31T17:30",
+                  "fonte": "livesoccer"
+                }
+              ],
+              "canali_mondo": [
+                {
+                  "paese": "Italia",
+                  "canali": [
+                    "Sky Sport 253",
+                    "SKY Go Italia",
+                    "NOW TV"
+                  ]
+                },
+                {
+                  "paese": "San Marino",
+                  "canali": [
+                    "Sky Sport 253",
+                    "SKY Go Italia",
+                    "NOW TV"
+                  ]
+                }
+              ],
+              "fonte": "LiveSoccerTV"
             },
             {
               "titolo": "Serie C: Cosenza-Inter U23",
@@ -13947,30 +14410,57 @@
           ]
         },
         {
-          "nome": "Primavera 1",
-          "totale": 8,
+          "nome": "Bundesliga 2",
+          "totale": 2,
           "eventi": [
             {
-              "titolo": "Primavera 1: Lazio-Sassuolo",
+              "titolo": "Bundesliga 2: Kaiserslautern-Hertha Berlino",
               "categoria": "Calcio",
-              "sottocartella": "Primavera 1",
+              "sottocartella": "Bundesliga 2",
               "sport": "Calcio",
-              "competizione": "Primavera 1",
-              "evento": "Lazio-Sassuolo",
-              "inizio": "2026-10-31T11:00:00+01:00",
+              "competizione": "Bundesliga 2",
+              "evento": "Kaiserslautern-Hertha Berlino",
+              "inizio": "2026-10-31T13:00:00+01:00",
               "data": "31/10/2026",
-              "ora": "11:00",
+              "ora": "13:00",
               "canali": [
                 {
-                  "nome": "Sportitalia",
+                  "nome": "Sky Sport Arena",
                   "numero": "",
                   "tipo": "diretta",
-                  "orario": "2026-10-31T11:00",
+                  "orario": "2026-10-31T13:00",
                   "fonte": "virgilio"
                 }
               ],
               "fonte": "Virgilio Sport"
             },
+            {
+              "titolo": "Bundesliga 2: St. Pauli-Norimberga",
+              "categoria": "Calcio",
+              "sottocartella": "Bundesliga 2",
+              "sport": "Calcio",
+              "competizione": "Bundesliga 2",
+              "evento": "St. Pauli-Norimberga",
+              "inizio": "2026-11-01T13:30:00+01:00",
+              "data": "01/11/2026",
+              "ora": "13:30",
+              "canali": [
+                {
+                  "nome": "Sky Sport Max",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-01T13:30",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            }
+          ]
+        },
+        {
+          "nome": "Primavera 1",
+          "totale": 7,
+          "eventi": [
             {
               "titolo": "Primavera 1: Monza-Milan",
               "categoria": "Calcio",
@@ -14113,54 +14603,6 @@
                   "numero": "",
                   "tipo": "diretta",
                   "orario": "2026-11-06T18:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            }
-          ]
-        },
-        {
-          "nome": "Bundesliga 2",
-          "totale": 2,
-          "eventi": [
-            {
-              "titolo": "Bundesliga 2: Kaiserslautern-Hertha Berlino",
-              "categoria": "Calcio",
-              "sottocartella": "Bundesliga 2",
-              "sport": "Calcio",
-              "competizione": "Bundesliga 2",
-              "evento": "Kaiserslautern-Hertha Berlino",
-              "inizio": "2026-10-31T13:00:00+01:00",
-              "data": "31/10/2026",
-              "ora": "13:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Arena",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-31T13:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "Bundesliga 2: St. Pauli-Norimberga",
-              "categoria": "Calcio",
-              "sottocartella": "Bundesliga 2",
-              "sport": "Calcio",
-              "competizione": "Bundesliga 2",
-              "evento": "St. Pauli-Norimberga",
-              "inizio": "2026-11-01T13:30:00+01:00",
-              "data": "01/11/2026",
-              "ora": "13:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport Max",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-01T13:30",
                   "fonte": "virgilio"
                 }
               ],
@@ -15464,56 +15906,8 @@
     },
     {
       "nome": "Tennis",
-      "totale": 21,
+      "totale": 20,
       "sottocartelle": [
-        {
-          "nome": "WTA 250 Guangzhou",
-          "totale": 2,
-          "eventi": [
-            {
-              "titolo": "WTA 250 Guangzhou: 2a Semifinale",
-              "categoria": "Tennis",
-              "sottocartella": "WTA 250 Guangzhou",
-              "sport": "Tennis",
-              "competizione": "WTA 250 Guangzhou",
-              "evento": "2a Semifinale",
-              "inizio": "2026-10-31T11:30:00+01:00",
-              "data": "31/10/2026",
-              "ora": "11:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport Tennis",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-31T11:30",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "WTA 250 Guangzhou: Finale",
-              "categoria": "Tennis",
-              "sottocartella": "WTA 250 Guangzhou",
-              "sport": "Tennis",
-              "competizione": "WTA 250 Guangzhou",
-              "evento": "Finale",
-              "inizio": "2026-11-01T09:30:00+01:00",
-              "data": "01/11/2026",
-              "ora": "09:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport Tennis",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-01T09:30",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            }
-          ]
-        },
         {
           "nome": "ATP 500 Basilea",
           "totale": 3,
@@ -15679,6 +16073,33 @@
                   "numero": "",
                   "tipo": "diretta",
                   "orario": "2026-11-01T04:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            }
+          ]
+        },
+        {
+          "nome": "WTA 250 Guangzhou",
+          "totale": 1,
+          "eventi": [
+            {
+              "titolo": "WTA 250 Guangzhou: Finale",
+              "categoria": "Tennis",
+              "sottocartella": "WTA 250 Guangzhou",
+              "sport": "Tennis",
+              "competizione": "WTA 250 Guangzhou",
+              "evento": "Finale",
+              "inizio": "2026-11-01T09:30:00+01:00",
+              "data": "01/11/2026",
+              "ora": "09:30",
+              "canali": [
+                {
+                  "nome": "Sky Sport Tennis",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-01T09:30",
                   "fonte": "virgilio"
                 }
               ],
