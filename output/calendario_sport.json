@@ -1,58 +1,16 @@
 {
-  "aggiornato": "2026-10-31T19:54:40+01:00",
+  "aggiornato": "2026-10-31T20:21:39+01:00",
   "fonti": {
     "motori": "Fuori Traiettoria, Dizzle0987/motorsport-calendar, palinsesto TV8",
     "calcio_italiano": "https://raw.githubusercontent.com/aandroide/Livesoccer/master/livesoccertv/output/eventi.json",
     "altri_sport": "https://sport.virgilio.it/guida-tv/"
   },
-  "totale": 212,
+  "totale": 210,
   "cartelle": [
     {
       "nome": "Oggi",
-      "totale": 12,
+      "totale": 10,
       "eventi": [
-        {
-          "titolo": "[Tennis] ATP 500 Basilea: 2a Semifinale",
-          "categoria": "Tennis",
-          "sottocartella": "ATP 500 Basilea",
-          "sport": "Tennis",
-          "competizione": "ATP 500 Basilea",
-          "evento": "2a Semifinale",
-          "inizio": "2026-10-31T17:00:00+01:00",
-          "data": "31/10/2026",
-          "ora": "17:00",
-          "canali": [
-            {
-              "nome": "Sky Sport Max",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-10-31T17:00",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Calcio] Serie B: Catanzaro-Padova",
-          "categoria": "Calcio",
-          "sottocartella": "Serie B",
-          "sport": "Calcio",
-          "competizione": "Serie B",
-          "evento": "Catanzaro-Padova",
-          "inizio": "2026-10-31T17:15:00+01:00",
-          "data": "31/10/2026",
-          "ora": "17:15",
-          "canali": [
-            {
-              "nome": "DAZN",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-10-31T17:15",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
         {
           "titolo": "[Calcio] Serie C: Guidonia Montecelio-Perugia",
           "categoria": "Calcio",
@@ -5111,7 +5069,7 @@
     },
     {
       "nome": "Calcio",
-      "totale": 90,
+      "totale": 89,
       "sottocartelle": [
         {
           "nome": "Serie A",
@@ -11627,29 +11585,8 @@
         },
         {
           "nome": "Serie B",
-          "totale": 9,
+          "totale": 8,
           "eventi": [
-            {
-              "titolo": "Serie B: Catanzaro-Padova",
-              "categoria": "Calcio",
-              "sottocartella": "Serie B",
-              "sport": "Calcio",
-              "competizione": "Serie B",
-              "evento": "Catanzaro-Padova",
-              "inizio": "2026-10-31T17:15:00+01:00",
-              "data": "31/10/2026",
-              "ora": "17:15",
-              "canali": [
-                {
-                  "nome": "DAZN",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-31T17:15",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
             {
               "titolo": "Serie B: Sampdoria vs Virtus Entella",
               "categoria": "Calcio",
@@ -13822,63 +13759,8 @@
     },
     {
       "nome": "Tennis",
-      "totale": 17,
+      "totale": 16,
       "sottocartelle": [
-        {
-          "nome": "ATP 500 Basilea",
-          "totale": 2,
-          "eventi": [
-            {
-              "titolo": "ATP 500 Basilea: 2a Semifinale",
-              "categoria": "Tennis",
-              "sottocartella": "ATP 500 Basilea",
-              "sport": "Tennis",
-              "competizione": "ATP 500 Basilea",
-              "evento": "2a Semifinale",
-              "inizio": "2026-10-31T17:00:00+01:00",
-              "data": "31/10/2026",
-              "ora": "17:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Max",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-10-31T17:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "ATP 500 Basilea: Finale",
-              "categoria": "Tennis",
-              "sottocartella": "ATP 500 Basilea",
-              "sport": "Tennis",
-              "competizione": "ATP 500 Basilea",
-              "evento": "Finale",
-              "inizio": "2026-11-01T15:30:00+01:00",
-              "data": "01/11/2026",
-              "ora": "15:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport Tennis",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-01T15:30",
-                  "fonte": "virgilio"
-                },
-                {
-                  "nome": "Sky Sport Max",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-01T15:30",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            }
-          ]
-        },
         {
           "nome": "WTA 500 Tokyo",
           "totale": 1,
@@ -13953,6 +13835,40 @@
                   "numero": "",
                   "tipo": "diretta",
                   "orario": "2026-11-01T14:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            }
+          ]
+        },
+        {
+          "nome": "ATP 500 Basilea",
+          "totale": 1,
+          "eventi": [
+            {
+              "titolo": "ATP 500 Basilea: Finale",
+              "categoria": "Tennis",
+              "sottocartella": "ATP 500 Basilea",
+              "sport": "Tennis",
+              "competizione": "ATP 500 Basilea",
+              "evento": "Finale",
+              "inizio": "2026-11-01T15:30:00+01:00",
+              "data": "01/11/2026",
+              "ora": "15:30",
+              "canali": [
+                {
+                  "nome": "Sky Sport Tennis",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-01T15:30",
+                  "fonte": "virgilio"
+                },
+                {
+                  "nome": "Sky Sport Max",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-01T15:30",
                   "fonte": "virgilio"
                 }
               ],
