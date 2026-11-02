@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-02T19:56:23+01:00",
+  "aggiornato": "2026-11-02T20:35:03+01:00",
   "fonti": {
     "motori": "Fuori Traiettoria, Dizzle0987/motorsport-calendar, palinsesto TV8",
     "calcio_italiano": "https://raw.githubusercontent.com/aandroide/Livesoccer/master/livesoccertv/output/eventi.json",
@@ -3992,7 +3992,7 @@
                   "numero": "8",
                   "tipo": "diretta",
                   "orario": "2026-11-22T14:00",
-                  "fonte": "dizzle"
+                  "fonte": "dizzle+tv8"
                 },
                 {
                   "nome": "Sky Sport MotoGP",
@@ -4376,7 +4376,16 @@
               "inizio": "2026-11-22T12:00:00+01:00",
               "data": "22/11/2026",
               "ora": "12:00",
-              "canali": [],
+              "canali": [
+                {
+                  "nome": "TV8",
+                  "numero": "8",
+                  "tipo": "differita",
+                  "orario": "2026-11-22T12:15",
+                  "programma": "GP Portogallo: Gara",
+                  "fonte": "tv8"
+                }
+              ],
               "fonte": "Fuori Traiettoria"
             },
             {
@@ -4391,7 +4400,16 @@
               "inizio": "2026-11-22T13:15:00+01:00",
               "data": "22/11/2026",
               "ora": "13:15",
-              "canali": [],
+              "canali": [
+                {
+                  "nome": "TV8",
+                  "numero": "8",
+                  "tipo": "diretta",
+                  "orario": "2026-11-22T12:15",
+                  "programma": "GP Portogallo: Gara",
+                  "fonte": "tv8"
+                }
+              ],
               "fonte": "Fuori Traiettoria"
             },
             {
