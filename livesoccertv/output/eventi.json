@@ -2,14 +2,6 @@
   "eventi": [
     {
       "competizione": "Serie B",
-      "titolo": "Palermo vs Lr Vicenza",
-      "data": "2026-11-02",
-      "ora": "04:00",
-      "canali": [],
-      "canali_mondo": []
-    },
-    {
-      "competizione": "Serie B",
       "titolo": "Cremonese vs Benevento",
       "data": "2026-11-02",
       "ora": "14:00",
@@ -17,7 +9,69 @@
         "DAZN Italia",
         "LAB Channel"
       ],
-      "canali_mondo": []
+      "canali_mondo": [
+        {
+          "paese": "Gran Bretagna",
+          "canali": [
+            "DCTV"
+          ]
+        },
+        {
+          "paese": "Irlanda",
+          "canali": [
+            "DCTV"
+          ]
+        },
+        {
+          "paese": "Israele",
+          "canali": [
+            "5Plus"
+          ]
+        },
+        {
+          "paese": "Italia",
+          "canali": [
+            "DAZN Italia",
+            "LAB Channel"
+          ]
+        },
+        {
+          "paese": "Liechtenstein",
+          "canali": [
+            "Blue Sport",
+            "Blue Sport 1 Live"
+          ]
+        },
+        {
+          "paese": "Russia",
+          "canali": [
+            "Телеканал Футбол"
+          ]
+        },
+        {
+          "paese": "San Marino",
+          "canali": [
+            "DAZN Italia",
+            "LAB Channel"
+          ]
+        },
+        {
+          "paese": "Svizzera",
+          "canali": [
+            "Blue Sport",
+            "Blue Sport 1 Live"
+          ]
+        },
+        {
+          "paese": "USA",
+          "canali": [
+            "Fox Soccer Plus",
+            "fuboTV",
+            "DCTV",
+            "FOX One"
+          ]
+        }
+      ]
     },
     {
       "competizione": "Serie B",
@@ -1040,8 +1094,32 @@
       "titolo": "Novara vs Desenzano Calvina",
       "data": "2026-11-02",
       "ora": "20:30",
-      "canali": [],
-      "canali_mondo": []
+      "canali": [
+        "Sky Sport 254",
+        "SKY Go Italia",
+        "NOW TV",
+        "Sky Sport Mix"
+      ],
+      "canali_mondo": [
+        {
+          "paese": "Italia",
+          "canali": [
+            "Sky Sport 254",
+            "SKY Go Italia",
+            "NOW TV",
+            "Sky Sport Mix"
+          ]
+        },
+        {
+          "paese": "San Marino",
+          "canali": [
+            "Sky Sport 254",
+            "SKY Go Italia",
+            "NOW TV",
+            "Sky Sport Mix"
+          ]
+        }
+      ]
     },
     {
       "competizione": "Serie C",
@@ -4375,7 +4453,9 @@
           "canali": [
             "Digi Sport 2 Romania",
             "Digi Online",
-            "Prima Sport 2"
+            "Prima Sport 2",
+            "Orange TV Go",
+            "Prima Play"
           ]
         },
         {
@@ -5724,7 +5804,9 @@
           "canali": [
             "Digi Sport 2 Romania",
             "Digi Online",
-            "Prima Sport 2"
+            "Prima Sport 2",
+            "Orange TV Go",
+            "Prima Play"
           ]
         },
         {
@@ -7072,7 +7154,9 @@
           "canali": [
             "Digi Sport 1 Romania",
             "Digi Online",
-            "Prima Sport 1"
+            "Prima Sport 1",
+            "Orange TV Go",
+            "Prima Play"
           ]
         },
         {
@@ -9061,7 +9145,8 @@
         {
           "paese": "Macedonia",
           "canali": [
-            "Arena 2 Premium"
+            "Arena 2 Premium",
+            "Arena Cloud"
           ]
         },
         {
@@ -9108,7 +9193,8 @@
         {
           "paese": "Montenegro",
           "canali": [
-            "Arena 2 Premium"
+            "Arena 2 Premium",
+            "Arena Cloud"
           ]
         },
         {
@@ -9221,7 +9307,8 @@
         {
           "paese": "Serbia",
           "canali": [
-            "Arena 2 Premium"
+            "Arena 2 Premium",
+            "Arena Cloud"
           ]
         },
         {
@@ -9483,7 +9570,9 @@
         {
           "paese": "Bosnia ed Erzegovina",
           "canali": [
-            "Arena Sport 6"
+            "Moja TV",
+            "Arena Sport 6",
+            "Arena Cloud"
           ]
         },
         {
@@ -10616,7 +10705,9 @@
         {
           "paese": "Macedonia",
           "canali": [
-            "Arena Sport 3 Serbia"
+            "Arena Sport 3 Serbia",
+            "MaxTV Go",
+            "Arena Cloud"
           ]
         },
         {
@@ -10685,7 +10776,8 @@
         {
           "paese": "Montenegro",
           "canali": [
-            "Arena Sport 3 Serbia"
+            "Arena Sport 3 Serbia",
+            "Arena Cloud"
           ]
         },
         {
@@ -10873,7 +10965,8 @@
         {
           "paese": "Serbia",
           "canali": [
-            "Arena Sport 3 Serbia"
+            "Arena Sport 3 Serbia",
+            "Arena Cloud"
           ]
         },
         {
@@ -13753,7 +13846,8 @@
         {
           "paese": "Macedonia",
           "canali": [
-            "Arena 1 Premium"
+            "Arena 1 Premium",
+            "Arena Cloud"
           ]
         },
         {
@@ -13774,7 +13868,8 @@
         {
           "paese": "Montenegro",
           "canali": [
-            "Arena 1 Premium"
+            "Arena 1 Premium",
+            "Arena Cloud"
           ]
         },
         {
@@ -13873,7 +13968,8 @@
         {
           "paese": "Serbia",
           "canali": [
-            "Arena 1 Premium"
+            "Arena 1 Premium",
+            "Arena Cloud"
           ]
         },
         {
@@ -15053,6 +15149,18 @@
           ]
         },
         {
+          "paese": "Macedonia",
+          "canali": [
+            "Arena Cloud"
+          ]
+        },
+        {
+          "paese": "Montenegro",
+          "canali": [
+            "Arena Cloud"
+          ]
+        },
+        {
           "paese": "San Marino",
           "canali": [
             "DAZN Italia",
@@ -15062,7 +15170,8 @@
         {
           "paese": "Serbia",
           "canali": [
-            "Arena Sport 7 Serbia"
+            "Arena Sport 7 Serbia",
+            "Arena Cloud"
           ]
         },
         {
@@ -15575,7 +15684,9 @@
         {
           "paese": "Macedonia",
           "canali": [
-            "Arena Sport 1 Serbia"
+            "Arena Sport 1 Serbia",
+            "MaxTV Go",
+            "Arena Cloud"
           ]
         },
         {
@@ -15618,7 +15729,8 @@
         {
           "paese": "Montenegro",
           "canali": [
-            "Arena Sport 1 Serbia"
+            "Arena Sport 1 Serbia",
+            "Arena Cloud"
           ]
         },
         {
@@ -15712,7 +15824,8 @@
         {
           "paese": "Portogallo",
           "canali": [
-            "Sport TV2"
+            "Sport TV2",
+            "Sport TV Multiscreen"
           ]
         },
         {
@@ -15735,6 +15848,7 @@
         {
           "paese": "Russia",
           "canali": [
+            "Sportbox.ru",
             "Матч! Футбол 1",
             "matchtv.ru"
           ]
@@ -15785,7 +15899,8 @@
         {
           "paese": "Serbia",
           "canali": [
-            "Arena Sport 1 Serbia"
+            "Arena Sport 1 Serbia",
+            "Arena Cloud"
           ]
         },
         {
@@ -16076,7 +16191,9 @@
         {
           "paese": "Bosnia ed Erzegovina",
           "canali": [
-            "Arena Sport 4"
+            "Moja TV",
+            "Arena Sport 4",
+            "Arena Cloud"
           ]
         },
         {
@@ -16152,6 +16269,7 @@
         {
           "paese": "Croazia",
           "canali": [
+            "MAXtv To Go",
             "Arena Sport 5 Croatia"
           ]
         },
@@ -16494,6 +16612,7 @@
         {
           "paese": "Polonia",
           "canali": [
+            "Canal+",
             "Eleven Sports 4 Poland"
           ]
         },
@@ -16515,6 +16634,7 @@
         {
           "paese": "Russia",
           "canali": [
+            "Sportbox.ru",
             "Матч! Футбол 3",
             "matchtv.ru"
           ]
@@ -16962,7 +17082,8 @@
         {
           "paese": "Croazia",
           "canali": [
-            "Arena Sport 3 Croatia"
+            "Arena Sport 3 Croatia",
+            "MAXtv To Go"
           ]
         },
         {
@@ -17470,6 +17591,7 @@
         {
           "paese": "Russia",
           "canali": [
+            "Sportbox.ru",
             "Матч! Футбол 1",
             "matchtv.ru"
           ]
@@ -18729,7 +18851,8 @@
           "canali": [
             "Fox Soccer Plus",
             "fuboTV",
-            "ViX"
+            "ViX",
+            "FOX One"
           ]
         },
         {
@@ -21741,7 +21864,8 @@
           "canali": [
             "Fox Soccer Plus",
             "fuboTV",
-            "ViX"
+            "ViX",
+            "FOX One"
           ]
         },
         {
