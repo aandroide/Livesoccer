@@ -1,98 +1,6 @@
 {
   "eventi": [
     {
-      "competizione": "Serie B",
-      "titolo": "Cremonese vs Benevento",
-      "data": "2026-11-04",
-      "ora": "06:30",
-      "canali": [
-        "DAZN Italia",
-        "LAB Channel"
-      ],
-      "canali_mondo": [
-        {
-          "paese": "Gran Bretagna",
-          "canali": [
-            "DCTV"
-          ]
-        },
-        {
-          "paese": "Irlanda",
-          "canali": [
-            "DCTV"
-          ]
-        },
-        {
-          "paese": "Israele",
-          "canali": [
-            "5Plus"
-          ]
-        },
-        {
-          "paese": "Italia",
-          "canali": [
-            "DAZN Italia",
-            "LAB Channel"
-          ]
-        },
-        {
-          "paese": "Liechtenstein",
-          "canali": [
-            "Blue Sport",
-            "Blue Sport 1 Live"
-          ]
-        },
-        {
-          "paese": "Russia",
-          "canali": [
-            "Телеканал Футбол"
-          ]
-        },
-        {
-          "paese": "San Marino",
-          "canali": [
-            "DAZN Italia",
-            "LAB Channel"
-          ]
-        },
-        {
-          "paese": "Svizzera",
-          "canali": [
-            "Blue Sport",
-            "Blue Sport 1 Live"
-          ]
-        },
-        {
-          "paese": "USA",
-          "canali": [
-            "Fox Soccer Plus",
-            "fuboTV",
-            "DCTV",
-            "FOX One"
-          ]
-        }
-      ]
-    },
-    {
-      "competizione": "Serie B",
-      "titolo": "Sampdoria vs Virtus Entella",
-      "data": "2026-11-04",
-      "ora": "08:30",
-      "canali": [
-        "DAZN Italia",
-        "LAB Channel"
-      ],
-      "canali_mondo": []
-    },
-    {
-      "competizione": "Serie B",
-      "titolo": "Palermo vs Lr Vicenza",
-      "data": "2026-11-04",
-      "ora": "10:30",
-      "canali": [],
-      "canali_mondo": []
-    },
-    {
       "competizione": "UEFA Europa League",
       "titolo": "Rennes vs Olympiakos Piraeus",
       "data": "2026-11-04",
@@ -211,7 +119,9 @@
         {
           "paese": "Bosnia ed Erzegovina",
           "canali": [
-            "Arena Sport 5"
+            "Moja TV",
+            "Arena Sport 5",
+            "Arena Cloud"
           ]
         },
         {
@@ -319,7 +229,8 @@
         {
           "paese": "Croazia",
           "canali": [
-            "Arena Sport 8 Croatia"
+            "Arena Sport 1 Croatia",
+            "MAXtv To Go"
           ]
         },
         {
@@ -722,6 +633,13 @@
           ]
         },
         {
+          "paese": "Polonia",
+          "canali": [
+            "Polsat Box Go",
+            "Polsat Sport Premium 1"
+          ]
+        },
+        {
           "paese": "Portogallo",
           "canali": [
             "DAZN Portugal"
@@ -936,7 +854,8 @@
         {
           "paese": "Venezuela",
           "canali": [
-            "Disney+ Premium Sur"
+            "Disney+ Premium Sur",
+            "inter"
           ]
         },
         {
@@ -8217,7 +8136,9 @@
         {
           "paese": "Macedonia",
           "canali": [
-            "Arena Sport 3 Serbia"
+            "Arena Sport 3 Serbia",
+            "MaxTV Go",
+            "Arena Cloud"
           ]
         },
         {
@@ -8244,7 +8165,8 @@
         {
           "paese": "Montenegro",
           "canali": [
-            "Arena Sport 3 Serbia"
+            "Arena Sport 3 Serbia",
+            "Arena Cloud"
           ]
         },
         {
@@ -8322,7 +8244,7 @@
           "paese": "Polonia",
           "canali": [
             "Polsat Box Go",
-            "Polsat Sport Extra 2"
+            "Polsat Sport Extra"
           ]
         },
         {
@@ -8373,7 +8295,8 @@
         {
           "paese": "Serbia",
           "canali": [
-            "Arena Sport 3 Serbia"
+            "Arena Sport 3 Serbia",
+            "Arena Cloud"
           ]
         },
         {
@@ -8491,6 +8414,7 @@
         {
           "paese": "Ucraina",
           "canali": [
+            "Megogo",
             "MEGOGO Football 6"
           ]
         },
@@ -9192,7 +9116,6 @@
         {
           "paese": "Macedonia",
           "canali": [
-            "MaxTV Go",
             "Arena 5 Premium",
             "Arena Cloud"
           ]
@@ -10200,7 +10123,8 @@
           "canali": [
             "Polsat Sport 1",
             "Polsat Box Go",
-            "Polsat Sport Premium 1"
+            "Polsat Sport Premium 1",
+            "Super Polsat"
           ]
         },
         {
@@ -11569,7 +11493,8 @@
         {
           "paese": "Venezuela",
           "canali": [
-            "Disney+ Premium Sur"
+            "Disney+ Premium Sur",
+            "inter"
           ]
         },
         {
@@ -11660,6 +11585,7 @@
         {
           "paese": "Bangladesh",
           "canali": [
+            "Sony LIV",
             "SONY TEN 5"
           ]
         },
@@ -11679,6 +11605,12 @@
           "paese": "Bermuda",
           "canali": [
             "Bluu"
+          ]
+        },
+        {
+          "paese": "Bhutan",
+          "canali": [
+            "Sony LIV"
           ]
         },
         {
@@ -11871,6 +11803,8 @@
         {
           "paese": "India",
           "canali": [
+            "Sony LIV",
+            "JioTV",
             "SONY TEN 5"
           ]
         },
@@ -11993,7 +11927,9 @@
         {
           "paese": "Maldive",
           "canali": [
-            "SONY TEN 5"
+            "Sony LIV",
+            "SONY TEN 5",
+            "Medianet"
           ]
         },
         {
@@ -12039,6 +11975,7 @@
         {
           "paese": "Nepal",
           "canali": [
+            "Sony LIV",
             "SONY TEN 5"
           ]
         },
@@ -12058,6 +11995,7 @@
         {
           "paese": "Pakistan",
           "canali": [
+            "Sony LIV",
             "SONY TEN 5"
           ]
         },
@@ -12182,7 +12120,9 @@
         {
           "paese": "Sri Lanka",
           "canali": [
-            "SONY TEN 5"
+            "Sony LIV",
+            "SONY TEN 5",
+            "Dialog TV"
           ]
         },
         {
@@ -12933,7 +12873,8 @@
         {
           "paese": "Venezuela",
           "canali": [
-            "Disney+ Premium Sur"
+            "Disney+ Premium Sur",
+            "inter"
           ]
         },
         {
@@ -14838,7 +14779,9 @@
         {
           "paese": "Romania",
           "canali": [
-            "Prima Sport 3"
+            "Orange TV Go",
+            "Prima Sport 3",
+            "Prima Play"
           ]
         },
         {
@@ -15055,6 +14998,7 @@
         {
           "paese": "Ucraina",
           "canali": [
+            "Megogo",
             "MEGOGO Football 4"
           ]
         },
@@ -15695,10 +15639,17 @@
           ]
         },
         {
+          "paese": "Macedonia",
+          "canali": [
+            "Arena Cloud"
+          ]
+        },
+        {
           "paese": "Malesia",
           "canali": [
             "Astro Go",
-            "Astro Football"
+            "Astro Football",
+            "sooka"
           ]
         },
         {
@@ -15751,6 +15702,12 @@
           "paese": "Monaco",
           "canali": [
             "DAZN France"
+          ]
+        },
+        {
+          "paese": "Montenegro",
+          "canali": [
+            "Arena Cloud"
           ]
         },
         {
@@ -15858,6 +15815,7 @@
         {
           "paese": "Romania",
           "canali": [
+            "Orange TV Go",
             "Prima Sport 5"
           ]
         },
@@ -15912,7 +15870,8 @@
         {
           "paese": "Serbia",
           "canali": [
-            "Arena Sport 7 Serbia"
+            "Arena Sport 7 Serbia",
+            "Arena Cloud"
           ]
         },
         {
@@ -15996,6 +15955,12 @@
           "paese": "Tajikistan",
           "canali": [
             "Q Sport 1 League"
+          ]
+        },
+        {
+          "paese": "Thailandia",
+          "canali": [
+            "True Premier Football HD 3"
           ]
         },
         {
@@ -16445,7 +16410,8 @@
         {
           "paese": "Estonia",
           "canali": [
-            "Go3 Sport 1"
+            "Go3 Sport 1",
+            "Go3 Extra Sports Estonia"
           ]
         },
         {
@@ -16664,7 +16630,8 @@
         {
           "paese": "Lettonia",
           "canali": [
-            "Go3 Sport 1"
+            "Go3 Sport 1",
+            "Go3 Extra Sports Latvia"
           ]
         },
         {
@@ -16705,7 +16672,8 @@
         {
           "paese": "Lituania",
           "canali": [
-            "Go3 Sport 1"
+            "Go3 Sport 1",
+            "Go3 Extra Sports Lithuania"
           ]
         },
         {
@@ -16717,7 +16685,8 @@
         {
           "paese": "Macedonia",
           "canali": [
-            "Arena 4 Premium"
+            "Arena 4 Premium",
+            "Arena Cloud"
           ]
         },
         {
@@ -16739,7 +16708,8 @@
           "paese": "Malesia",
           "canali": [
             "Astro Go",
-            "Astro Stadium"
+            "Astro Stadium",
+            "sooka"
           ]
         },
         {
@@ -16806,7 +16776,8 @@
         {
           "paese": "Montenegro",
           "canali": [
-            "Arena 4 Premium"
+            "Arena 4 Premium",
+            "Arena Cloud"
           ]
         },
         {
@@ -16925,7 +16896,8 @@
         {
           "paese": "Portogallo",
           "canali": [
-            "Sport TV3"
+            "Sport TV3",
+            "Sport TV Multiscreen"
           ]
         },
         {
@@ -16952,6 +16924,7 @@
         {
           "paese": "Romania",
           "canali": [
+            "Orange TV Go",
             "Prima Sport 4",
             "Prima Play"
           ]
@@ -17026,7 +16999,8 @@
         {
           "paese": "Serbia",
           "canali": [
-            "Arena 4 Premium"
+            "Arena 4 Premium",
+            "Arena Cloud"
           ]
         },
         {
@@ -17146,6 +17120,12 @@
             "DStv Now",
             "SS OTT 2",
             "ZBC 2 Tanzania"
+          ]
+        },
+        {
+          "paese": "Thailandia",
+          "canali": [
+            "True Premier Football HD 4"
           ]
         },
         {
@@ -17848,7 +17828,8 @@
         {
           "paese": "Macedonia",
           "canali": [
-            "Arena 2 Premium"
+            "Arena 2 Premium",
+            "Arena Cloud"
           ]
         },
         {
@@ -17861,7 +17842,8 @@
           "paese": "Malesia",
           "canali": [
             "Astro Go",
-            "Astro Football"
+            "Astro Football",
+            "sooka"
           ]
         },
         {
@@ -17913,7 +17895,8 @@
         {
           "paese": "Montenegro",
           "canali": [
-            "Arena 2 Premium"
+            "Arena 2 Premium",
+            "Arena Cloud"
           ]
         },
         {
@@ -18028,6 +18011,7 @@
         {
           "paese": "Romania",
           "canali": [
+            "Orange TV Go",
             "Prima Sport 5"
           ]
         },
@@ -18088,7 +18072,8 @@
         {
           "paese": "Serbia",
           "canali": [
-            "Arena 2 Premium"
+            "Arena 2 Premium",
+            "Arena Cloud"
           ]
         },
         {
@@ -18184,6 +18169,12 @@
           "paese": "Tanzania",
           "canali": [
             "Azam Sports 3 HD"
+          ]
+        },
+        {
+          "paese": "Thailandia",
+          "canali": [
+            "True Premier Football HD 3"
           ]
         },
         {
@@ -18583,7 +18574,8 @@
         {
           "paese": "Estonia",
           "canali": [
-            "Go3 Sport Open"
+            "Go3 Sport Open",
+            "Go3 Extra Sports Estonia"
           ]
         },
         {
@@ -18788,7 +18780,8 @@
         {
           "paese": "Lettonia",
           "canali": [
-            "Go3 Sport Open"
+            "Go3 Sport Open",
+            "Go3 Extra Sports Latvia"
           ]
         },
         {
@@ -18815,7 +18808,8 @@
         {
           "paese": "Lituania",
           "canali": [
-            "Go3 Sport Open"
+            "Go3 Sport Open",
+            "Go3 Extra Sports Lithuania"
           ]
         },
         {
@@ -18827,7 +18821,8 @@
         {
           "paese": "Macedonia",
           "canali": [
-            "Arena 2 Premium"
+            "Arena 2 Premium",
+            "Arena Cloud"
           ]
         },
         {
@@ -18889,7 +18884,8 @@
         {
           "paese": "Montenegro",
           "canali": [
-            "Arena 2 Premium"
+            "Arena 2 Premium",
+            "Arena Cloud"
           ]
         },
         {
@@ -18980,8 +18976,10 @@
         {
           "paese": "Polonia",
           "canali": [
+            "Polsat Box Go",
             "Eleven Sports 2 Poland",
-            "Canal+"
+            "Canal+",
+            "Polsat Sport Extra"
           ]
         },
         {
@@ -19006,7 +19004,9 @@
           "canali": [
             "Digi Sport 3 Romania",
             "Digi Online",
-            "Prima Sport 3"
+            "Orange TV Go",
+            "Prima Sport 3",
+            "Prima Play"
           ]
         },
         {
@@ -19069,7 +19069,8 @@
         {
           "paese": "Serbia",
           "canali": [
-            "Arena 2 Premium"
+            "Arena 2 Premium",
+            "Arena Cloud"
           ]
         },
         {
@@ -19172,6 +19173,12 @@
           ]
         },
         {
+          "paese": "Thailandia",
+          "canali": [
+            "True Premier Football HD 3"
+          ]
+        },
+        {
           "paese": "Trinidad e Tobago",
           "canali": [
             "Disney+ Premium Caribbean"
@@ -19215,6 +19222,7 @@
         {
           "paese": "Ucraina",
           "canali": [
+            "Megogo",
             "MEGOGO Football 4"
           ]
         },
@@ -19285,173 +19293,19 @@
     },
     {
       "competizione": "Serie B",
-      "titolo": "Carrarese vs Sampdoria",
-      "data": "2026-11-09",
-      "ora": "03:00",
-      "canali": [
-        "DAZN Italia",
-        "LAB Channel"
-      ],
-      "canali_mondo": [
-        {
-          "paese": "Italia",
-          "canali": [
-            "DAZN Italia",
-            "LAB Channel"
-          ]
-        },
-        {
-          "paese": "Liechtenstein",
-          "canali": [
-            "Blue Sport 4 Live"
-          ]
-        },
-        {
-          "paese": "San Marino",
-          "canali": [
-            "DAZN Italia",
-            "LAB Channel"
-          ]
-        },
-        {
-          "paese": "Svizzera",
-          "canali": [
-            "Blue Sport 4 Live"
-          ]
-        },
-        {
-          "paese": "USA",
-          "canali": [
-            "Fox Soccer Plus",
-            "fuboTV",
-            "FOX One"
-          ]
-        }
-      ]
+      "titolo": "Mantova vs Verona",
+      "data": "2026-11-08",
+      "ora": "02:00",
+      "canali": [],
+      "canali_mondo": []
     },
     {
       "competizione": "Serie B",
-      "titolo": "Mantova vs Verona",
+      "titolo": "Carrarese vs Sampdoria",
       "data": "2026-11-09",
-      "ora": "05:00",
-      "canali": [
-        "DAZN Italia",
-        "LAB Channel"
-      ],
-      "canali_mondo": [
-        {
-          "paese": "Burundi",
-          "canali": [
-            "Sporty TV App"
-          ]
-        },
-        {
-          "paese": "Repubblica Democratica del Congo",
-          "canali": [
-            "Sporty TV App"
-          ]
-        },
-        {
-          "paese": "Ghana",
-          "canali": [
-            "Sporty TV App"
-          ]
-        },
-        {
-          "paese": "Guinea",
-          "canali": [
-            "Sporty TV App"
-          ]
-        },
-        {
-          "paese": "Israele",
-          "canali": [
-            "5Gold"
-          ]
-        },
-        {
-          "paese": "Italia",
-          "canali": [
-            "DAZN Italia",
-            "LAB Channel"
-          ]
-        },
-        {
-          "paese": "Kenya",
-          "canali": [
-            "Sporty TV App"
-          ]
-        },
-        {
-          "paese": "Liechtenstein",
-          "canali": [
-            "Blue Sport 1 Live"
-          ]
-        },
-        {
-          "paese": "Mozambico",
-          "canali": [
-            "Sporty TV App"
-          ]
-        },
-        {
-          "paese": "Nigeria",
-          "canali": [
-            "Sporty TV App"
-          ]
-        },
-        {
-          "paese": "Ruanda",
-          "canali": [
-            "Sporty TV App"
-          ]
-        },
-        {
-          "paese": "San Marino",
-          "canali": [
-            "DAZN Italia",
-            "LAB Channel"
-          ]
-        },
-        {
-          "paese": "Sierra Leone",
-          "canali": [
-            "Sporty TV App"
-          ]
-        },
-        {
-          "paese": "Sudafrica",
-          "canali": [
-            "Sporty TV App"
-          ]
-        },
-        {
-          "paese": "Svizzera",
-          "canali": [
-            "Blue Sport 1 Live"
-          ]
-        },
-        {
-          "paese": "Tanzania",
-          "canali": [
-            "Sporty TV App"
-          ]
-        },
-        {
-          "paese": "Uganda",
-          "canali": [
-            "Sporty TV App"
-          ]
-        },
-        {
-          "paese": "USA",
-          "canali": [
-            "Fox Soccer Plus",
-            "fuboTV",
-            "FOX One"
-          ]
-        }
-      ]
+      "ora": "01:00",
+      "canali": [],
+      "canali_mondo": []
     },
     {
       "competizione": "UEFA Nations League",
