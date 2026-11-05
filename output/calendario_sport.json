@@ -1,44 +1,16 @@
 {
-  "aggiornato": "2026-11-05T17:08:22+01:00",
+  "aggiornato": "2026-11-05T21:04:35+01:00",
   "fonti": {
     "motori": "Fuori Traiettoria, Dizzle0987/motorsport-calendar, palinsesto TV8",
     "calcio_italiano": "https://raw.githubusercontent.com/aandroide/Livesoccer/master/livesoccertv/output/eventi.json",
     "altri_sport": "https://sport.virgilio.it/guida-tv/"
   },
-  "totale": 190,
+  "totale": 189,
   "cartelle": [
     {
       "nome": "Oggi",
-      "totale": 28,
+      "totale": 27,
       "eventi": [
-        {
-          "titolo": "[Tennis] ATP Masters 1000 Parigi-Bercy: 4a giornata",
-          "categoria": "Tennis",
-          "sottocartella": "ATP Masters 1000 Parigi-Bercy",
-          "sport": "Tennis",
-          "competizione": "ATP Masters 1000 Parigi-Bercy",
-          "evento": "4a giornata",
-          "inizio": "2026-11-05T17:30:00+01:00",
-          "data": "05/11/2026",
-          "ora": "17:30",
-          "canali": [
-            {
-              "nome": "Sky Sport Max",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-11-05T17:30",
-              "fonte": "virgilio"
-            },
-            {
-              "nome": "Sky Sport Tennis",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-11-05T19:00",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
         {
           "titolo": "[Calcio] UEFA Conference League: AGF vs Sporting Braga",
           "categoria": "Calcio",
@@ -9623,7 +9595,7 @@
                   "nome": "TV8",
                   "numero": "8",
                   "tipo": "differita",
-                  "orario": "2026-11-07T14:50",
+                  "orario": "2026-11-07T14:45",
                   "programma": "GP Qatar: Qualifiche",
                   "fonte": "tv8"
                 }
@@ -9661,7 +9633,7 @@
                   "nome": "TV8",
                   "numero": "8",
                   "tipo": "differita",
-                  "orario": "2026-11-07T14:50",
+                  "orario": "2026-11-07T14:45",
                   "programma": "GP Qatar: Qualifiche",
                   "fonte": "tv8"
                 }
@@ -9685,7 +9657,7 @@
                   "nome": "TV8",
                   "numero": "8",
                   "tipo": "diretta",
-                  "orario": "2026-11-07T17:00",
+                  "orario": "2026-11-07T16:55",
                   "fonte": "dizzle+tv8"
                 },
                 {
@@ -25788,40 +25760,12 @@
     },
     {
       "nome": "Tennis",
-      "totale": 24,
+      "totale": 23,
       "sottocartelle": [
         {
           "nome": "ATP Masters 1000 Parigi-Bercy",
-          "totale": 8,
+          "totale": 7,
           "eventi": [
-            {
-              "titolo": "ATP Masters 1000 Parigi-Bercy: 4a giornata",
-              "categoria": "Tennis",
-              "sottocartella": "ATP Masters 1000 Parigi-Bercy",
-              "sport": "Tennis",
-              "competizione": "ATP Masters 1000 Parigi-Bercy",
-              "evento": "4a giornata",
-              "inizio": "2026-11-05T17:30:00+01:00",
-              "data": "05/11/2026",
-              "ora": "17:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport Max",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-05T17:30",
-                  "fonte": "virgilio"
-                },
-                {
-                  "nome": "Sky Sport Tennis",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-05T19:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
             {
               "titolo": "ATP Masters 1000 Parigi-Bercy: 1^ Quarto di Finale",
               "categoria": "Tennis",
