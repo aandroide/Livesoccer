@@ -1,15 +1,15 @@
 {
-  "aggiornato": "2026-11-05T08:30:16+01:00",
+  "aggiornato": "2026-11-05T12:09:39+01:00",
   "fonti": {
     "motori": "Fuori Traiettoria, Dizzle0987/motorsport-calendar, palinsesto TV8",
     "calcio_italiano": "https://raw.githubusercontent.com/aandroide/Livesoccer/master/livesoccertv/output/eventi.json",
     "altri_sport": "https://sport.virgilio.it/guida-tv/"
   },
-  "totale": 192,
+  "totale": 191,
   "cartelle": [
     {
       "nome": "Oggi",
-      "totale": 30,
+      "totale": 29,
       "eventi": [
         {
           "titolo": "[Tennis] ATP Masters 1000 Parigi-Bercy: 4a giornata",
@@ -6702,27 +6702,6 @@
           "fonte": "LiveSoccerTV"
         },
         {
-          "titolo": "[Calcio] UEFA Europa League: Milan-Ferencaros",
-          "categoria": "Calcio",
-          "sottocartella": "UEFA Europa League",
-          "sport": "Calcio",
-          "competizione": "UEFA Europa League",
-          "evento": "Milan-Ferencaros",
-          "inizio": "2026-11-05T18:45:00+01:00",
-          "data": "05/11/2026",
-          "ora": "18:45",
-          "canali": [
-            {
-              "nome": "Sky",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-11-05T18:45",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
           "titolo": "[Calcio] UEFA Europa League: Milan-Ferencvaros",
           "categoria": "Calcio",
           "sottocartella": "UEFA Europa League",
@@ -6733,6 +6712,13 @@
           "data": "05/11/2026",
           "ora": "18:45",
           "canali": [
+            {
+              "nome": "Sky",
+              "numero": "",
+              "tipo": "diretta",
+              "orario": "2026-11-05T18:45",
+              "fonte": "virgilio"
+            },
             {
               "nome": "Sky Sport 1",
               "numero": "201",
@@ -10616,7 +10602,7 @@
     },
     {
       "nome": "Calcio",
-      "totale": 76,
+      "totale": 75,
       "sottocartelle": [
         {
           "nome": "Serie A",
@@ -20202,7 +20188,7 @@
         },
         {
           "nome": "UEFA Europa League",
-          "totale": 21,
+          "totale": 20,
           "eventi": [
             {
               "titolo": "UEFA Europa League: Anderlecht vs Salzburg",
@@ -23601,27 +23587,6 @@
               "fonte": "LiveSoccerTV"
             },
             {
-              "titolo": "UEFA Europa League: Milan-Ferencaros",
-              "categoria": "Calcio",
-              "sottocartella": "UEFA Europa League",
-              "sport": "Calcio",
-              "competizione": "UEFA Europa League",
-              "evento": "Milan-Ferencaros",
-              "inizio": "2026-11-05T18:45:00+01:00",
-              "data": "05/11/2026",
-              "ora": "18:45",
-              "canali": [
-                {
-                  "nome": "Sky",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-05T18:45",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
               "titolo": "UEFA Europa League: Milan-Ferencvaros",
               "categoria": "Calcio",
               "sottocartella": "UEFA Europa League",
@@ -23632,6 +23597,13 @@
               "data": "05/11/2026",
               "ora": "18:45",
               "canali": [
+                {
+                  "nome": "Sky",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-05T18:45",
+                  "fonte": "virgilio"
+                },
                 {
                   "nome": "Sky Sport 1",
                   "numero": "201",
