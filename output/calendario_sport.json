@@ -1,160 +1,16 @@
 {
-  "aggiornato": "2026-11-06T12:32:25+01:00",
+  "aggiornato": "2026-11-06T19:30:25+01:00",
   "fonti": {
     "motori": "Fuori Traiettoria, Dizzle0987/motorsport-calendar, palinsesto TV8",
     "calcio_italiano": "https://raw.githubusercontent.com/aandroide/Livesoccer/master/livesoccertv/output/eventi.json",
     "altri_sport": "https://sport.virgilio.it/guida-tv/"
   },
-  "totale": 196,
+  "totale": 191,
   "cartelle": [
     {
       "nome": "Oggi",
-      "totale": 20,
+      "totale": 15,
       "eventi": [
-        {
-          "titolo": "[Motori] MotoGP: Qatar Grand Prix - Prove libere",
-          "categoria": "Motori",
-          "sottocartella": "MotoGP",
-          "sport": "Motori",
-          "competizione": "MotoGP",
-          "evento": "Qatar Grand Prix - Prove libere",
-          "sessione": "prove",
-          "circuito": "Lusail International Circuit, Lusail, Qatar",
-          "inizio": "2026-11-06T12:45:00+01:00",
-          "data": "06/11/2026",
-          "ora": "12:45",
-          "canali": [
-            {
-              "nome": "Sky Sport MotoGP",
-              "numero": "208",
-              "tipo": "diretta",
-              "orario": "2026-11-06T12:45",
-              "fonte": "dizzle+config"
-            },
-            {
-              "nome": "NOW",
-              "numero": "",
-              "tipo": "streaming",
-              "orario": "2026-11-06T12:45",
-              "fonte": "dizzle+config"
-            }
-          ],
-          "fonte": "Dizzle0987/motorsport-calendar"
-        },
-        {
-          "titolo": "[Tennis] ATP Masters 1000 Parigi-Bercy: 1^ Quarto di Finale",
-          "categoria": "Tennis",
-          "sottocartella": "ATP Masters 1000 Parigi-Bercy",
-          "sport": "Tennis",
-          "competizione": "ATP Masters 1000 Parigi-Bercy",
-          "evento": "1^ Quarto di Finale",
-          "inizio": "2026-11-06T14:00:00+01:00",
-          "data": "06/11/2026",
-          "ora": "14:00",
-          "canali": [
-            {
-              "nome": "Sky Sport Tennis",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-11-06T14:00",
-              "fonte": "virgilio"
-            },
-            {
-              "nome": "Sky Sport 1",
-              "numero": "201",
-              "tipo": "diretta",
-              "orario": "2026-11-06T14:00",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Calcio] Primavera 1: Parma-Torino",
-          "categoria": "Calcio",
-          "sottocartella": "Primavera 1",
-          "sport": "Calcio",
-          "competizione": "Primavera 1",
-          "evento": "Parma-Torino",
-          "inizio": "2026-11-06T15:00:00+01:00",
-          "data": "06/11/2026",
-          "ora": "15:00",
-          "canali": [
-            {
-              "nome": "Sportitalia",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-11-06T15:00",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Tennis] ATP Masters 1000 Parigi-Bercy: 2^ Quarto di Finale",
-          "categoria": "Tennis",
-          "sottocartella": "ATP Masters 1000 Parigi-Bercy",
-          "sport": "Tennis",
-          "competizione": "ATP Masters 1000 Parigi-Bercy",
-          "evento": "2^ Quarto di Finale",
-          "inizio": "2026-11-06T16:00:00+01:00",
-          "data": "06/11/2026",
-          "ora": "16:00",
-          "canali": [
-            {
-              "nome": "Sky Sport Tennis",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-11-06T16:00",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Motori] Formula 1: Brazilian Grand Prix - FP1",
-          "categoria": "Motori",
-          "sottocartella": "Formula 1",
-          "sport": "Motori",
-          "competizione": "Formula 1",
-          "evento": "Brazilian Grand Prix - FP1",
-          "sessione": "prove",
-          "circuito": "Autódromo José Carlos Pace, São Paulo, Brazil",
-          "inizio": "2026-11-06T16:30:00+01:00",
-          "data": "06/11/2026",
-          "ora": "16:30",
-          "canali": [
-            {
-              "nome": "Sky Sport F1",
-              "numero": "207",
-              "tipo": "diretta",
-              "orario": "2026-11-06T16:30",
-              "fonte": "dizzle+config"
-            },
-            {
-              "nome": "NOW",
-              "numero": "",
-              "tipo": "streaming",
-              "orario": "2026-11-06T16:30",
-              "fonte": "dizzle+config"
-            },
-            {
-              "nome": "Sky Sport 1",
-              "numero": "201",
-              "tipo": "diretta",
-              "orario": "2026-11-06T16:30",
-              "fonte": "config"
-            },
-            {
-              "nome": "Sky Sport 4K",
-              "numero": "213",
-              "tipo": "diretta",
-              "orario": "2026-11-06T16:30",
-              "fonte": "config"
-            }
-          ],
-          "fonte": "Dizzle0987/motorsport-calendar"
-        },
         {
           "titolo": "[Altri sport] Serie A1: Trieste-Roma",
           "categoria": "Altri sport",
@@ -804,8 +660,8 @@
             {
               "paese": "Bolivia",
               "canali": [
-                "ESPN 4 Sur",
-                "Disney+ Premium Chile"
+                "Disney+ Premium Chile",
+                "ESPN6 Sur"
               ]
             },
             {
@@ -860,8 +716,8 @@
             {
               "paese": "Cile",
               "canali": [
-                "ESPN4 Chile",
-                "Disney+ Premium Chile"
+                "Disney+ Premium Chile",
+                "ESPN6 Sur"
               ]
             },
             {
@@ -879,8 +735,8 @@
             {
               "paese": "Colombia",
               "canali": [
-                "ESPN 4 Sur",
-                "Disney+ Premium Sur"
+                "Disney+ Premium Sur",
+                "ESPN6 Sur"
               ]
             },
             {
@@ -947,8 +803,8 @@
             {
               "paese": "Ecuador",
               "canali": [
-                "ESPN 4 Sur",
-                "Disney+ Premium Sur"
+                "Disney+ Premium Sur",
+                "ESPN6 Sur"
               ]
             },
             {
@@ -1131,6 +987,12 @@
               "canali": [
                 "SPOTV NOW",
                 "SPOTV Prime"
+              ]
+            },
+            {
+              "paese": "Kosovo",
+              "canali": [
+                "ART Sport 2"
               ]
             },
             {
@@ -1320,14 +1182,14 @@
               "paese": "Paraguay",
               "canali": [
                 "Disney+ Premium Argentina",
-                "ESPN 4 Sur"
+                "ESPN6 Sur"
               ]
             },
             {
               "paese": "Perù",
               "canali": [
-                "ESPN 4 Sur",
-                "Disney+ Premium Chile"
+                "Disney+ Premium Chile",
+                "ESPN6 Sur"
               ]
             },
             {
@@ -1599,7 +1461,7 @@
               "paese": "Uruguay",
               "canali": [
                 "Disney+ Premium Argentina",
-                "ESPN 4 Sur"
+                "ESPN6 Sur"
               ]
             },
             {
@@ -1620,8 +1482,8 @@
             {
               "paese": "Venezuela",
               "canali": [
-                "ESPN 4 Sur",
                 "Disney+ Premium Sur",
+                "ESPN6 Sur",
                 "inter"
               ]
             },
@@ -1679,56 +1541,12 @@
     },
     {
       "nome": "Motori",
-      "totale": 74,
+      "totale": 72,
       "sottocartelle": [
         {
           "nome": "Formula 1",
-          "totale": 20,
+          "totale": 19,
           "eventi": [
-            {
-              "titolo": "Formula 1: Brazilian Grand Prix - FP1",
-              "categoria": "Motori",
-              "sottocartella": "Formula 1",
-              "sport": "Motori",
-              "competizione": "Formula 1",
-              "evento": "Brazilian Grand Prix - FP1",
-              "sessione": "prove",
-              "circuito": "Autódromo José Carlos Pace, São Paulo, Brazil",
-              "inizio": "2026-11-06T16:30:00+01:00",
-              "data": "06/11/2026",
-              "ora": "16:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport F1",
-                  "numero": "207",
-                  "tipo": "diretta",
-                  "orario": "2026-11-06T16:30",
-                  "fonte": "dizzle+config"
-                },
-                {
-                  "nome": "NOW",
-                  "numero": "",
-                  "tipo": "streaming",
-                  "orario": "2026-11-06T16:30",
-                  "fonte": "dizzle+config"
-                },
-                {
-                  "nome": "Sky Sport 1",
-                  "numero": "201",
-                  "tipo": "diretta",
-                  "orario": "2026-11-06T16:30",
-                  "fonte": "config"
-                },
-                {
-                  "nome": "Sky Sport 4K",
-                  "numero": "213",
-                  "tipo": "diretta",
-                  "orario": "2026-11-06T16:30",
-                  "fonte": "config"
-                }
-              ],
-              "fonte": "Dizzle0987/motorsport-calendar"
-            },
             {
               "titolo": "Formula 1: Brazilian Grand Prix - FP2",
               "categoria": "Motori",
@@ -2742,38 +2560,8 @@
         },
         {
           "nome": "MotoGP",
-          "totale": 24,
+          "totale": 23,
           "eventi": [
-            {
-              "titolo": "MotoGP: Qatar Grand Prix - Prove libere",
-              "categoria": "Motori",
-              "sottocartella": "MotoGP",
-              "sport": "Motori",
-              "competizione": "MotoGP",
-              "evento": "Qatar Grand Prix - Prove libere",
-              "sessione": "prove",
-              "circuito": "Lusail International Circuit, Lusail, Qatar",
-              "inizio": "2026-11-06T12:45:00+01:00",
-              "data": "06/11/2026",
-              "ora": "12:45",
-              "canali": [
-                {
-                  "nome": "Sky Sport MotoGP",
-                  "numero": "208",
-                  "tipo": "diretta",
-                  "orario": "2026-11-06T12:45",
-                  "fonte": "dizzle+config"
-                },
-                {
-                  "nome": "NOW",
-                  "numero": "",
-                  "tipo": "streaming",
-                  "orario": "2026-11-06T12:45",
-                  "fonte": "dizzle+config"
-                }
-              ],
-              "fonte": "Dizzle0987/motorsport-calendar"
-            },
             {
               "titolo": "MotoGP: Qatar Grand Prix - Practice",
               "categoria": "Motori",
@@ -2978,7 +2766,7 @@
                   "nome": "TV8",
                   "numero": "8",
                   "tipo": "diretta",
-                  "orario": "2026-11-08T17:00",
+                  "orario": "2026-11-08T16:55",
                   "fonte": "dizzle+tv8"
                 },
                 {
@@ -3558,7 +3346,7 @@
                   "nome": "TV8",
                   "numero": "8",
                   "tipo": "diretta",
-                  "orario": "2026-11-08T14:00",
+                  "orario": "2026-11-08T13:55",
                   "programma": "GP Qatar: Gara",
                   "fonte": "tv8"
                 }
@@ -3582,7 +3370,7 @@
                   "nome": "TV8",
                   "numero": "8",
                   "tipo": "diretta",
-                  "orario": "2026-11-08T15:15",
+                  "orario": "2026-11-08T15:10",
                   "programma": "GP Qatar: Gara",
                   "fonte": "tv8"
                 }
@@ -3937,7 +3725,7 @@
     },
     {
       "nome": "Calcio",
-      "totale": 57,
+      "totale": 56,
       "sottocartelle": [
         {
           "nome": "Serie A",
@@ -4130,8 +3918,8 @@
                 {
                   "paese": "Bolivia",
                   "canali": [
-                    "ESPN 4 Sur",
-                    "Disney+ Premium Chile"
+                    "Disney+ Premium Chile",
+                    "ESPN6 Sur"
                   ]
                 },
                 {
@@ -4186,8 +3974,8 @@
                 {
                   "paese": "Cile",
                   "canali": [
-                    "ESPN4 Chile",
-                    "Disney+ Premium Chile"
+                    "Disney+ Premium Chile",
+                    "ESPN6 Sur"
                   ]
                 },
                 {
@@ -4205,8 +3993,8 @@
                 {
                   "paese": "Colombia",
                   "canali": [
-                    "ESPN 4 Sur",
-                    "Disney+ Premium Sur"
+                    "Disney+ Premium Sur",
+                    "ESPN6 Sur"
                   ]
                 },
                 {
@@ -4273,8 +4061,8 @@
                 {
                   "paese": "Ecuador",
                   "canali": [
-                    "ESPN 4 Sur",
-                    "Disney+ Premium Sur"
+                    "Disney+ Premium Sur",
+                    "ESPN6 Sur"
                   ]
                 },
                 {
@@ -4457,6 +4245,12 @@
                   "canali": [
                     "SPOTV NOW",
                     "SPOTV Prime"
+                  ]
+                },
+                {
+                  "paese": "Kosovo",
+                  "canali": [
+                    "ART Sport 2"
                   ]
                 },
                 {
@@ -4646,14 +4440,14 @@
                   "paese": "Paraguay",
                   "canali": [
                     "Disney+ Premium Argentina",
-                    "ESPN 4 Sur"
+                    "ESPN6 Sur"
                   ]
                 },
                 {
                   "paese": "Perù",
                   "canali": [
-                    "ESPN 4 Sur",
-                    "Disney+ Premium Chile"
+                    "Disney+ Premium Chile",
+                    "ESPN6 Sur"
                   ]
                 },
                 {
@@ -4925,7 +4719,7 @@
                   "paese": "Uruguay",
                   "canali": [
                     "Disney+ Premium Argentina",
-                    "ESPN 4 Sur"
+                    "ESPN6 Sur"
                   ]
                 },
                 {
@@ -4946,8 +4740,8 @@
                 {
                   "paese": "Venezuela",
                   "canali": [
-                    "ESPN 4 Sur",
                     "Disney+ Premium Sur",
+                    "ESPN6 Sur",
                     "inter"
                   ]
                 },
@@ -5458,6 +5252,12 @@
                   "canali": [
                     "SPOTV NOW",
                     "SPOTV Prime"
+                  ]
+                },
+                {
+                  "paese": "Kosovo",
+                  "canali": [
+                    "ART Sport 2"
                   ]
                 },
                 {
@@ -6057,6 +5857,7 @@
                 {
                   "paese": "Belize",
                   "canali": [
+                    "ESPN Norte",
                     "Nexgen"
                   ]
                 },
@@ -6210,6 +6011,7 @@
                 {
                   "paese": "Costa Rica",
                   "canali": [
+                    "ESPN Norte",
                     "Disney+ Premium Norte"
                   ]
                 },
@@ -6259,6 +6061,7 @@
                   "paese": "Repubblica Dominicana",
                   "canali": [
                     "Disney+ Premium Caribbean",
+                    "ESPN Norte",
                     "Disney+ Premium Norte"
                   ]
                 },
@@ -6279,6 +6082,7 @@
                 {
                   "paese": "El Salvador",
                   "canali": [
+                    "ESPN Norte",
                     "Disney+ Premium Norte"
                   ]
                 },
@@ -6383,6 +6187,7 @@
                 {
                   "paese": "Guatemala",
                   "canali": [
+                    "ESPN Norte",
                     "Disney+ Premium Norte"
                   ]
                 },
@@ -6409,6 +6214,7 @@
                 {
                   "paese": "Honduras",
                   "canali": [
+                    "ESPN Norte",
                     "Disney+ Premium Norte"
                   ]
                 },
@@ -6505,6 +6311,7 @@
                 {
                   "paese": "Kosovo",
                   "canali": [
+                    "ART Sport 1",
                     "Arena 4 Premium"
                   ]
                 },
@@ -6654,6 +6461,7 @@
                 {
                   "paese": "Messico",
                   "canali": [
+                    "ESPN Mexico",
                     "Disney+ Premium Mexico"
                   ]
                 },
@@ -6720,6 +6528,7 @@
                 {
                   "paese": "Nicaragua",
                   "canali": [
+                    "ESPN Norte",
                     "Disney+ Premium Norte"
                   ]
                 },
@@ -6768,6 +6577,7 @@
                 {
                   "paese": "Panama",
                   "canali": [
+                    "ESPN Norte",
                     "Disney+ Premium Norte"
                   ]
                 },
@@ -7264,6 +7074,7 @@
                 {
                   "paese": "Belize",
                   "canali": [
+                    "ESPN Norte",
                     "Nexgen"
                   ]
                 },
@@ -7362,6 +7173,7 @@
                 {
                   "paese": "Costa Rica",
                   "canali": [
+                    "ESPN Norte",
                     "Disney+ Premium Norte"
                   ]
                 },
@@ -7416,6 +7228,7 @@
                   "paese": "Repubblica Dominicana",
                   "canali": [
                     "Disney+ Premium Caribbean",
+                    "ESPN Norte",
                     "Disney+ Premium Norte"
                   ]
                 },
@@ -7436,6 +7249,7 @@
                 {
                   "paese": "El Salvador",
                   "canali": [
+                    "ESPN Norte",
                     "Disney+ Premium Norte"
                   ]
                 },
@@ -7491,6 +7305,7 @@
                 {
                   "paese": "Guatemala",
                   "canali": [
+                    "ESPN Norte",
                     "Disney+ Premium Norte"
                   ]
                 },
@@ -7503,6 +7318,7 @@
                 {
                   "paese": "Honduras",
                   "canali": [
+                    "ESPN Norte",
                     "Disney+ Premium Norte"
                   ]
                 },
@@ -7599,6 +7415,7 @@
                 {
                   "paese": "Kosovo",
                   "canali": [
+                    "ART Sport 1",
                     "Arena 2 Premium"
                   ]
                 },
@@ -7696,6 +7513,7 @@
                 {
                   "paese": "Messico",
                   "canali": [
+                    "ESPN Mexico",
                     "Disney+ Premium Mexico"
                   ]
                 },
@@ -7750,6 +7568,7 @@
                 {
                   "paese": "Nicaragua",
                   "canali": [
+                    "ESPN Norte",
                     "Disney+ Premium Norte"
                   ]
                 },
@@ -7784,6 +7603,7 @@
                 {
                   "paese": "Panama",
                   "canali": [
+                    "ESPN Norte",
                     "Disney+ Premium Norte"
                   ]
                 },
@@ -8178,7 +7998,15 @@
                   "paese": "Andorra",
                   "canali": [
                     "DAZN Spain",
-                    "DAZN France"
+                    "DAZN France",
+                    "ZAP"
+                  ]
+                },
+                {
+                  "paese": "Angola",
+                  "canali": [
+                    "ZAP",
+                    "ZSPORTS 2"
                   ]
                 },
                 {
@@ -8269,6 +8097,7 @@
                 {
                   "paese": "Belize",
                   "canali": [
+                    "ESPN 5 Norte",
                     "Nexgen"
                   ]
                 },
@@ -8324,6 +8153,12 @@
                   ]
                 },
                 {
+                  "paese": "Capo Verde",
+                  "canali": [
+                    "ZAP"
+                  ]
+                },
+                {
                   "paese": "Isole Cayman",
                   "canali": [
                     "Disney+ Premium Caribbean"
@@ -8365,7 +8200,8 @@
                 {
                   "paese": "Costa Rica",
                   "canali": [
-                    "Disney+ Premium Norte"
+                    "Disney+ Premium Norte",
+                    "ESPN 5 Norte"
                   ]
                 },
                 {
@@ -8420,7 +8256,8 @@
                   "paese": "Repubblica Dominicana",
                   "canali": [
                     "Disney+ Premium Caribbean",
-                    "Disney+ Premium Norte"
+                    "Disney+ Premium Norte",
+                    "ESPN 5 Norte"
                   ]
                 },
                 {
@@ -8440,7 +8277,8 @@
                 {
                   "paese": "El Salvador",
                   "canali": [
-                    "Disney+ Premium Norte"
+                    "Disney+ Premium Norte",
+                    "ESPN 5 Norte"
                   ]
                 },
                 {
@@ -8486,7 +8324,9 @@
                   "paese": "Gran Bretagna",
                   "canali": [
                     "DAZN UK",
-                    "BBC Alba"
+                    "BBC Sport Web",
+                    "BBC Alba",
+                    "BBC iPlayer"
                   ]
                 },
                 {
@@ -8510,7 +8350,14 @@
                 {
                   "paese": "Guatemala",
                   "canali": [
-                    "Disney+ Premium Norte"
+                    "Disney+ Premium Norte",
+                    "ESPN 5 Norte"
+                  ]
+                },
+                {
+                  "paese": "Guinea-Bissau",
+                  "canali": [
+                    "ZAP"
                   ]
                 },
                 {
@@ -8522,7 +8369,8 @@
                 {
                   "paese": "Honduras",
                   "canali": [
-                    "Disney+ Premium Norte"
+                    "Disney+ Premium Norte",
+                    "ESPN 5 Norte"
                   ]
                 },
                 {
@@ -8574,7 +8422,9 @@
                   "paese": "Irlanda",
                   "canali": [
                     "DAZN UK",
-                    "BBC Alba"
+                    "BBC Sport Web",
+                    "BBC Alba",
+                    "BBC iPlayer"
                   ]
                 },
                 {
@@ -8635,6 +8485,7 @@
                 {
                   "paese": "Kosovo",
                   "canali": [
+                    "ART Sport 1",
                     "Arena 2 Premium"
                   ]
                 },
@@ -8781,6 +8632,12 @@
                   ]
                 },
                 {
+                  "paese": "Mozambico",
+                  "canali": [
+                    "ZAP"
+                  ]
+                },
+                {
                   "paese": "Nepal",
                   "canali": [
                     "ZEE5",
@@ -8804,7 +8661,8 @@
                 {
                   "paese": "Nicaragua",
                   "canali": [
-                    "Disney+ Premium Norte"
+                    "Disney+ Premium Norte",
+                    "ESPN 5 Norte"
                   ]
                 },
                 {
@@ -8838,7 +8696,8 @@
                 {
                   "paese": "Panama",
                   "canali": [
-                    "Disney+ Premium Norte"
+                    "Disney+ Premium Norte",
+                    "ESPN 5 Norte"
                   ]
                 },
                 {
@@ -9040,6 +8899,12 @@
                     "STARZPLAY",
                     "Shasha",
                     "Thmanyah"
+                  ]
+                },
+                {
+                  "paese": "São Tomé and Príncipe",
+                  "canali": [
+                    "ZAP"
                   ]
                 },
                 {
@@ -10176,29 +10041,8 @@
         },
         {
           "nome": "Primavera 1",
-          "totale": 5,
+          "totale": 4,
           "eventi": [
-            {
-              "titolo": "Primavera 1: Parma-Torino",
-              "categoria": "Calcio",
-              "sottocartella": "Primavera 1",
-              "sport": "Calcio",
-              "competizione": "Primavera 1",
-              "evento": "Parma-Torino",
-              "inizio": "2026-11-06T15:00:00+01:00",
-              "data": "06/11/2026",
-              "ora": "15:00",
-              "canali": [
-                {
-                  "nome": "Sportitalia",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-06T15:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
             {
               "titolo": "Primavera 1: Sassuolo-Cesena",
               "categoria": "Calcio",
@@ -10716,61 +10560,12 @@
     },
     {
       "nome": "Tennis",
-      "totale": 39,
+      "totale": 37,
       "sottocartelle": [
         {
           "nome": "ATP Masters 1000 Parigi-Bercy",
-          "totale": 7,
+          "totale": 5,
           "eventi": [
-            {
-              "titolo": "ATP Masters 1000 Parigi-Bercy: 1^ Quarto di Finale",
-              "categoria": "Tennis",
-              "sottocartella": "ATP Masters 1000 Parigi-Bercy",
-              "sport": "Tennis",
-              "competizione": "ATP Masters 1000 Parigi-Bercy",
-              "evento": "1^ Quarto di Finale",
-              "inizio": "2026-11-06T14:00:00+01:00",
-              "data": "06/11/2026",
-              "ora": "14:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Tennis",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-06T14:00",
-                  "fonte": "virgilio"
-                },
-                {
-                  "nome": "Sky Sport 1",
-                  "numero": "201",
-                  "tipo": "diretta",
-                  "orario": "2026-11-06T14:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "ATP Masters 1000 Parigi-Bercy: 2^ Quarto di Finale",
-              "categoria": "Tennis",
-              "sottocartella": "ATP Masters 1000 Parigi-Bercy",
-              "sport": "Tennis",
-              "competizione": "ATP Masters 1000 Parigi-Bercy",
-              "evento": "2^ Quarto di Finale",
-              "inizio": "2026-11-06T16:00:00+01:00",
-              "data": "06/11/2026",
-              "ora": "16:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Tennis",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-06T16:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
             {
               "titolo": "ATP Masters 1000 Parigi-Bercy: 3^ Quarto di Finale",
               "categoria": "Tennis",
