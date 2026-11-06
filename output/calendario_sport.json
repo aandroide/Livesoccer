@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-06T12:06:34+01:00",
+  "aggiornato": "2026-11-06T12:32:25+01:00",
   "fonti": {
     "motori": "Fuori Traiettoria, Dizzle0987/motorsport-calendar, palinsesto TV8",
     "calcio_italiano": "https://raw.githubusercontent.com/aandroide/Livesoccer/master/livesoccertv/output/eventi.json",
@@ -456,6 +456,7 @@
             {
               "paese": "Serbia",
               "canali": [
+                "Arena Sport 8 Serbia",
                 "Arena Sport 7 Serbia",
                 "Arena Cloud"
               ]
@@ -715,8 +716,8 @@
             {
               "paese": "Argentina",
               "canali": [
-                "Disney+ Premium Argentina",
-                "ESPN4 Argentina"
+                "ESPN2 Argentina",
+                "Disney+ Premium Argentina"
               ]
             },
             {
@@ -735,8 +736,7 @@
             {
               "paese": "Australia",
               "canali": [
-                "beIN SPORTS 2",
-                "beIN Sports Connect"
+                "beIN SPORTS 2"
               ]
             },
             {
@@ -1191,6 +1191,7 @@
             {
               "paese": "Maldive",
               "canali": [
+                "Ice Sports",
                 "ZEE5",
                 "Unite8 Sports 1",
                 "Unite8 Sports 1 HD"
@@ -1319,8 +1320,7 @@
               "paese": "Paraguay",
               "canali": [
                 "Disney+ Premium Argentina",
-                "ESPN 4 Sur",
-                "ESPN4 Argentina"
+                "ESPN 4 Sur"
               ]
             },
             {
@@ -1599,8 +1599,7 @@
               "paese": "Uruguay",
               "canali": [
                 "Disney+ Premium Argentina",
-                "ESPN 4 Sur",
-                "ESPN4 Argentina"
+                "ESPN 4 Sur"
               ]
             },
             {
@@ -3554,7 +3553,16 @@
               "inizio": "2026-11-08T15:00:00+01:00",
               "data": "08/11/2026",
               "ora": "15:00",
-              "canali": [],
+              "canali": [
+                {
+                  "nome": "TV8",
+                  "numero": "8",
+                  "tipo": "diretta",
+                  "orario": "2026-11-08T14:00",
+                  "programma": "GP Qatar: Gara",
+                  "fonte": "tv8"
+                }
+              ],
               "fonte": "Fuori Traiettoria"
             },
             {
@@ -3569,7 +3577,16 @@
               "inizio": "2026-11-08T16:15:00+01:00",
               "data": "08/11/2026",
               "ora": "16:15",
-              "canali": [],
+              "canali": [
+                {
+                  "nome": "TV8",
+                  "numero": "8",
+                  "tipo": "diretta",
+                  "orario": "2026-11-08T15:15",
+                  "programma": "GP Qatar: Gara",
+                  "fonte": "tv8"
+                }
+              ],
               "fonte": "Fuori Traiettoria"
             },
             {
@@ -4025,8 +4042,8 @@
                 {
                   "paese": "Argentina",
                   "canali": [
-                    "Disney+ Premium Argentina",
-                    "ESPN4 Argentina"
+                    "ESPN2 Argentina",
+                    "Disney+ Premium Argentina"
                   ]
                 },
                 {
@@ -4045,8 +4062,7 @@
                 {
                   "paese": "Australia",
                   "canali": [
-                    "beIN SPORTS 2",
-                    "beIN Sports Connect"
+                    "beIN SPORTS 2"
                   ]
                 },
                 {
@@ -4501,6 +4517,7 @@
                 {
                   "paese": "Maldive",
                   "canali": [
+                    "Ice Sports",
                     "ZEE5",
                     "Unite8 Sports 1",
                     "Unite8 Sports 1 HD"
@@ -4629,8 +4646,7 @@
                   "paese": "Paraguay",
                   "canali": [
                     "Disney+ Premium Argentina",
-                    "ESPN 4 Sur",
-                    "ESPN4 Argentina"
+                    "ESPN 4 Sur"
                   ]
                 },
                 {
@@ -4909,8 +4925,7 @@
                   "paese": "Uruguay",
                   "canali": [
                     "Disney+ Premium Argentina",
-                    "ESPN 4 Sur",
-                    "ESPN4 Argentina"
+                    "ESPN 4 Sur"
                   ]
                 },
                 {
@@ -6589,7 +6604,8 @@
                 {
                   "paese": "Maldive",
                   "canali": [
-                    "ZEE5"
+                    "ZEE5",
+                    "ICE Plus"
                   ]
                 },
                 {
@@ -7646,6 +7662,7 @@
                   "paese": "Maldive",
                   "canali": [
                     "ZEE5",
+                    "ICE Plus",
                     "Unite8 Sports 1",
                     "Unite8 Sports 1 HD"
                   ]
@@ -8381,7 +8398,8 @@
                 {
                   "paese": "Danimarca",
                   "canali": [
-                    "TV2 Play Denmark"
+                    "TV2 Play Denmark",
+                    "TV2 Sport X"
                   ]
                 },
                 {
@@ -8435,7 +8453,8 @@
                 {
                   "paese": "Isole Faroe",
                   "canali": [
-                    "TV2 Play Denmark"
+                    "TV2 Play Denmark",
+                    "TV2 Sport X"
                   ]
                 },
                 {
@@ -8690,6 +8709,7 @@
                 {
                   "paese": "Maldive",
                   "canali": [
+                    "Ice Sports",
                     "ZEE5",
                     "Unite8 Sports 1",
                     "Unite8 Sports 1 HD"
@@ -9381,6 +9401,7 @@
                 {
                   "paese": "Serbia",
                   "canali": [
+                    "Arena Sport 8 Serbia",
                     "Arena Sport 7 Serbia",
                     "Arena Cloud"
                   ]
