@@ -1,249 +1,16 @@
 {
-  "aggiornato": "2026-11-07T17:41:49+01:00",
+  "aggiornato": "2026-11-07T18:46:20+01:00",
   "fonti": {
     "motori": "Fuori Traiettoria, Dizzle0987/motorsport-calendar, palinsesto TV8",
     "calcio_italiano": "https://raw.githubusercontent.com/aandroide/Livesoccer/master/livesoccertv/output/eventi.json",
     "altri_sport": "https://sport.virgilio.it/guida-tv/"
   },
-  "totale": 196,
+  "totale": 186,
   "cartelle": [
     {
       "nome": "Oggi",
-      "totale": 31,
+      "totale": 21,
       "eventi": [
-        {
-          "titolo": "[Calcio] Serie A: Cagliari-Frosinone",
-          "categoria": "Calcio",
-          "sottocartella": "Serie A",
-          "sport": "Calcio",
-          "competizione": "Serie A",
-          "evento": "Cagliari-Frosinone",
-          "inizio": "2026-11-07T15:00:00+01:00",
-          "data": "07/11/2026",
-          "ora": "15:00",
-          "canali": [
-            {
-              "nome": "DAZN",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-11-07T15:00",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Calcio] Serie A: Milan-Inter",
-          "categoria": "Calcio",
-          "sottocartella": "Serie A femminile",
-          "sport": "Calcio femminile",
-          "competizione": "Serie A",
-          "evento": "Milan-Inter",
-          "inizio": "2026-11-07T15:00:00+01:00",
-          "data": "07/11/2026",
-          "ora": "15:00",
-          "canali": [
-            {
-              "nome": "Rai Sport",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-11-07T15:00",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Calcio] Serie A: Torino-Lecce",
-          "categoria": "Calcio",
-          "sottocartella": "Serie A",
-          "sport": "Calcio",
-          "competizione": "Serie A",
-          "evento": "Torino-Lecce",
-          "inizio": "2026-11-07T15:00:00+01:00",
-          "data": "07/11/2026",
-          "ora": "15:00",
-          "canali": [
-            {
-              "nome": "DAZN",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-11-07T15:00",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Calcio] Serie B: Cesena-Catanzaro",
-          "categoria": "Calcio",
-          "sottocartella": "Serie B",
-          "sport": "Calcio",
-          "competizione": "Serie B",
-          "evento": "Cesena-Catanzaro",
-          "inizio": "2026-11-07T15:00:00+01:00",
-          "data": "07/11/2026",
-          "ora": "15:00",
-          "canali": [
-            {
-              "nome": "DAZN",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-11-07T15:00",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Calcio] Serie B: Juve Stabia-Arezzo",
-          "categoria": "Calcio",
-          "sottocartella": "Serie B",
-          "sport": "Calcio",
-          "competizione": "Serie B",
-          "evento": "Juve Stabia-Arezzo",
-          "inizio": "2026-11-07T15:00:00+01:00",
-          "data": "07/11/2026",
-          "ora": "15:00",
-          "canali": [
-            {
-              "nome": "DAZN",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-11-07T15:00",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Calcio] Serie B: Padova-Empoli",
-          "categoria": "Calcio",
-          "sottocartella": "Serie B",
-          "sport": "Calcio",
-          "competizione": "Serie B",
-          "evento": "Padova-Empoli",
-          "inizio": "2026-11-07T15:00:00+01:00",
-          "data": "07/11/2026",
-          "ora": "15:00",
-          "canali": [
-            {
-              "nome": "DAZN",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-11-07T15:00",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Calcio] Serie B: Pisa-Sudtirol",
-          "categoria": "Calcio",
-          "sottocartella": "Serie B",
-          "sport": "Calcio",
-          "competizione": "Serie B",
-          "evento": "Pisa-Sudtirol",
-          "inizio": "2026-11-07T15:00:00+01:00",
-          "data": "07/11/2026",
-          "ora": "15:00",
-          "canali": [
-            {
-              "nome": "DAZN",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-11-07T15:00",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Altri sport] Nations Championship: Scozia-Nuova Zelanda",
-          "categoria": "Altri sport",
-          "sottocartella": "Rugby",
-          "sport": "Rugby",
-          "competizione": "Nations Championship",
-          "evento": "Scozia-Nuova Zelanda",
-          "inizio": "2026-11-07T15:10:00+01:00",
-          "data": "07/11/2026",
-          "ora": "15:10",
-          "canali": [
-            {
-              "nome": "Sky Sport Arena",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-11-07T15:10",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Calcio] Bundesliga: Mainz-Bayern Monaco",
-          "categoria": "Calcio",
-          "sottocartella": "Bundesliga",
-          "sport": "Calcio",
-          "competizione": "Bundesliga",
-          "evento": "Mainz-Bayern Monaco",
-          "inizio": "2026-11-07T15:30:00+01:00",
-          "data": "07/11/2026",
-          "ora": "15:30",
-          "canali": [
-            {
-              "nome": "Sky Sport Mix",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-11-07T15:30",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Motori] Formula 1: Brazilian Grand Prix - FP3",
-          "categoria": "Motori",
-          "sottocartella": "Formula 1",
-          "sport": "Motori",
-          "competizione": "Formula 1",
-          "evento": "Brazilian Grand Prix - FP3",
-          "sessione": "prove",
-          "circuito": "Autódromo José Carlos Pace, São Paulo, Brazil",
-          "inizio": "2026-11-07T15:30:00+01:00",
-          "data": "07/11/2026",
-          "ora": "15:30",
-          "canali": [
-            {
-              "nome": "Sky Sport F1",
-              "numero": "207",
-              "tipo": "diretta",
-              "orario": "2026-11-07T15:30",
-              "fonte": "dizzle+config"
-            },
-            {
-              "nome": "NOW",
-              "numero": "",
-              "tipo": "streaming",
-              "orario": "2026-11-07T15:30",
-              "fonte": "dizzle+config"
-            },
-            {
-              "nome": "Sky Sport 1",
-              "numero": "201",
-              "tipo": "diretta",
-              "orario": "2026-11-07T15:30",
-              "fonte": "config"
-            },
-            {
-              "nome": "Sky Sport 4K",
-              "numero": "213",
-              "tipo": "diretta",
-              "orario": "2026-11-07T15:30",
-              "fonte": "config"
-            }
-          ],
-          "fonte": "Dizzle0987/motorsport-calendar"
-        },
         {
           "titolo": "[Calcio] Premier League: Arsenal-Hull City",
           "categoria": "Calcio",
@@ -3172,56 +2939,12 @@
     },
     {
       "nome": "Motori",
-      "totale": 67,
+      "totale": 66,
       "sottocartelle": [
         {
           "nome": "Formula 1",
-          "totale": 18,
+          "totale": 17,
           "eventi": [
-            {
-              "titolo": "Formula 1: Brazilian Grand Prix - FP3",
-              "categoria": "Motori",
-              "sottocartella": "Formula 1",
-              "sport": "Motori",
-              "competizione": "Formula 1",
-              "evento": "Brazilian Grand Prix - FP3",
-              "sessione": "prove",
-              "circuito": "Autódromo José Carlos Pace, São Paulo, Brazil",
-              "inizio": "2026-11-07T15:30:00+01:00",
-              "data": "07/11/2026",
-              "ora": "15:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport F1",
-                  "numero": "207",
-                  "tipo": "diretta",
-                  "orario": "2026-11-07T15:30",
-                  "fonte": "dizzle+config"
-                },
-                {
-                  "nome": "NOW",
-                  "numero": "",
-                  "tipo": "streaming",
-                  "orario": "2026-11-07T15:30",
-                  "fonte": "dizzle+config"
-                },
-                {
-                  "nome": "Sky Sport 1",
-                  "numero": "201",
-                  "tipo": "diretta",
-                  "orario": "2026-11-07T15:30",
-                  "fonte": "config"
-                },
-                {
-                  "nome": "Sky Sport 4K",
-                  "numero": "213",
-                  "tipo": "diretta",
-                  "orario": "2026-11-07T15:30",
-                  "fonte": "config"
-                }
-              ],
-              "fonte": "Dizzle0987/motorsport-calendar"
-            },
             {
               "titolo": "Formula 1: Brazilian Grand Prix - Qualifiche",
               "categoria": "Motori",
@@ -5192,54 +4915,12 @@
     },
     {
       "nome": "Calcio",
-      "totale": 61,
+      "totale": 53,
       "sottocartelle": [
         {
           "nome": "Serie A",
-          "totale": 9,
+          "totale": 7,
           "eventi": [
-            {
-              "titolo": "Serie A: Cagliari-Frosinone",
-              "categoria": "Calcio",
-              "sottocartella": "Serie A",
-              "sport": "Calcio",
-              "competizione": "Serie A",
-              "evento": "Cagliari-Frosinone",
-              "inizio": "2026-11-07T15:00:00+01:00",
-              "data": "07/11/2026",
-              "ora": "15:00",
-              "canali": [
-                {
-                  "nome": "DAZN",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-07T15:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "Serie A: Torino-Lecce",
-              "categoria": "Calcio",
-              "sottocartella": "Serie A",
-              "sport": "Calcio",
-              "competizione": "Serie A",
-              "evento": "Torino-Lecce",
-              "inizio": "2026-11-07T15:00:00+01:00",
-              "data": "07/11/2026",
-              "ora": "15:00",
-              "canali": [
-                {
-                  "nome": "DAZN",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-07T15:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
             {
               "titolo": "Serie A: Parma vs Bologna",
               "categoria": "Calcio",
@@ -10433,92 +10114,8 @@
         },
         {
           "nome": "Serie B",
-          "totale": 11,
+          "totale": 7,
           "eventi": [
-            {
-              "titolo": "Serie B: Cesena-Catanzaro",
-              "categoria": "Calcio",
-              "sottocartella": "Serie B",
-              "sport": "Calcio",
-              "competizione": "Serie B",
-              "evento": "Cesena-Catanzaro",
-              "inizio": "2026-11-07T15:00:00+01:00",
-              "data": "07/11/2026",
-              "ora": "15:00",
-              "canali": [
-                {
-                  "nome": "DAZN",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-07T15:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "Serie B: Juve Stabia-Arezzo",
-              "categoria": "Calcio",
-              "sottocartella": "Serie B",
-              "sport": "Calcio",
-              "competizione": "Serie B",
-              "evento": "Juve Stabia-Arezzo",
-              "inizio": "2026-11-07T15:00:00+01:00",
-              "data": "07/11/2026",
-              "ora": "15:00",
-              "canali": [
-                {
-                  "nome": "DAZN",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-07T15:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "Serie B: Padova-Empoli",
-              "categoria": "Calcio",
-              "sottocartella": "Serie B",
-              "sport": "Calcio",
-              "competizione": "Serie B",
-              "evento": "Padova-Empoli",
-              "inizio": "2026-11-07T15:00:00+01:00",
-              "data": "07/11/2026",
-              "ora": "15:00",
-              "canali": [
-                {
-                  "nome": "DAZN",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-07T15:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "Serie B: Pisa-Sudtirol",
-              "categoria": "Calcio",
-              "sottocartella": "Serie B",
-              "sport": "Calcio",
-              "competizione": "Serie B",
-              "evento": "Pisa-Sudtirol",
-              "inizio": "2026-11-07T15:00:00+01:00",
-              "data": "07/11/2026",
-              "ora": "15:00",
-              "canali": [
-                {
-                  "nome": "DAZN",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-07T15:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
             {
               "titolo": "Serie B: Mantova vs Verona",
               "categoria": "Calcio",
@@ -11682,123 +11279,6 @@
           ]
         },
         {
-          "nome": "Serie A femminile",
-          "totale": 1,
-          "eventi": [
-            {
-              "titolo": "Serie A: Milan-Inter",
-              "categoria": "Calcio",
-              "sottocartella": "Serie A femminile",
-              "sport": "Calcio femminile",
-              "competizione": "Serie A",
-              "evento": "Milan-Inter",
-              "inizio": "2026-11-07T15:00:00+01:00",
-              "data": "07/11/2026",
-              "ora": "15:00",
-              "canali": [
-                {
-                  "nome": "Rai Sport",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-07T15:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            }
-          ]
-        },
-        {
-          "nome": "Bundesliga",
-          "totale": 4,
-          "eventi": [
-            {
-              "titolo": "Bundesliga: Mainz-Bayern Monaco",
-              "categoria": "Calcio",
-              "sottocartella": "Bundesliga",
-              "sport": "Calcio",
-              "competizione": "Bundesliga",
-              "evento": "Mainz-Bayern Monaco",
-              "inizio": "2026-11-07T15:30:00+01:00",
-              "data": "07/11/2026",
-              "ora": "15:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport Mix",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-07T15:30",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "Bundesliga: Stoccarda-Werder Brema",
-              "categoria": "Calcio",
-              "sottocartella": "Bundesliga",
-              "sport": "Calcio",
-              "competizione": "Bundesliga",
-              "evento": "Stoccarda-Werder Brema",
-              "inizio": "2026-11-07T18:30:00+01:00",
-              "data": "07/11/2026",
-              "ora": "18:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport Mix",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-07T18:30",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "Bundesliga: Colonia-Bayer Leverkusen",
-              "categoria": "Calcio",
-              "sottocartella": "Bundesliga",
-              "sport": "Calcio",
-              "competizione": "Bundesliga",
-              "evento": "Colonia-Bayer Leverkusen",
-              "inizio": "2026-11-08T15:30:00+01:00",
-              "data": "08/11/2026",
-              "ora": "15:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport Mix",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-08T15:30",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "Bundesliga: Hoffenheim-Schalke 04",
-              "categoria": "Calcio",
-              "sottocartella": "Bundesliga",
-              "sport": "Calcio",
-              "competizione": "Bundesliga",
-              "evento": "Hoffenheim-Schalke 04",
-              "inizio": "2026-11-08T19:30:00+01:00",
-              "data": "08/11/2026",
-              "ora": "19:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport Arena",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-08T19:30",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            }
-          ]
-        },
-        {
           "nome": "Premier League",
           "totale": 4,
           "eventi": [
@@ -11881,6 +11361,75 @@
                   "numero": "",
                   "tipo": "diretta",
                   "orario": "2026-11-08T17:30",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            }
+          ]
+        },
+        {
+          "nome": "Bundesliga",
+          "totale": 3,
+          "eventi": [
+            {
+              "titolo": "Bundesliga: Stoccarda-Werder Brema",
+              "categoria": "Calcio",
+              "sottocartella": "Bundesliga",
+              "sport": "Calcio",
+              "competizione": "Bundesliga",
+              "evento": "Stoccarda-Werder Brema",
+              "inizio": "2026-11-07T18:30:00+01:00",
+              "data": "07/11/2026",
+              "ora": "18:30",
+              "canali": [
+                {
+                  "nome": "Sky Sport Mix",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-07T18:30",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "Bundesliga: Colonia-Bayer Leverkusen",
+              "categoria": "Calcio",
+              "sottocartella": "Bundesliga",
+              "sport": "Calcio",
+              "competizione": "Bundesliga",
+              "evento": "Colonia-Bayer Leverkusen",
+              "inizio": "2026-11-08T15:30:00+01:00",
+              "data": "08/11/2026",
+              "ora": "15:30",
+              "canali": [
+                {
+                  "nome": "Sky Sport Mix",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-08T15:30",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "Bundesliga: Hoffenheim-Schalke 04",
+              "categoria": "Calcio",
+              "sottocartella": "Bundesliga",
+              "sport": "Calcio",
+              "competizione": "Bundesliga",
+              "evento": "Hoffenheim-Schalke 04",
+              "inizio": "2026-11-08T19:30:00+01:00",
+              "data": "08/11/2026",
+              "ora": "19:30",
+              "canali": [
+                {
+                  "nome": "Sky Sport Arena",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-08T19:30",
                   "fonte": "virgilio"
                 }
               ],
@@ -13780,33 +13329,12 @@
     },
     {
       "nome": "Altri sport",
-      "totale": 6,
+      "totale": 5,
       "sottocartelle": [
         {
           "nome": "Rugby",
-          "totale": 5,
+          "totale": 4,
           "eventi": [
-            {
-              "titolo": "Nations Championship: Scozia-Nuova Zelanda",
-              "categoria": "Altri sport",
-              "sottocartella": "Rugby",
-              "sport": "Rugby",
-              "competizione": "Nations Championship",
-              "evento": "Scozia-Nuova Zelanda",
-              "inizio": "2026-11-07T15:10:00+01:00",
-              "data": "07/11/2026",
-              "ora": "15:10",
-              "canali": [
-                {
-                  "nome": "Sky Sport Arena",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-07T15:10",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
             {
               "titolo": "Nations Championship: Galles-Giappone",
               "categoria": "Altri sport",
