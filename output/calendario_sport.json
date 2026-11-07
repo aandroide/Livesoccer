@@ -1,88 +1,16 @@
 {
-  "aggiornato": "2026-11-07T21:34:26+01:00",
+  "aggiornato": "2026-11-07T22:58:58+01:00",
   "fonti": {
     "motori": "Fuori Traiettoria, Dizzle0987/motorsport-calendar, palinsesto TV8",
     "calcio_italiano": "https://raw.githubusercontent.com/aandroide/Livesoccer/master/livesoccertv/output/eventi.json",
     "altri_sport": "https://sport.virgilio.it/guida-tv/"
   },
-  "totale": 173,
+  "totale": 171,
   "cartelle": [
     {
       "nome": "Oggi",
-      "totale": 7,
+      "totale": 5,
       "eventi": [
-        {
-          "titolo": "[Motori] Formula 1: Brazilian Grand Prix - Qualifiche",
-          "categoria": "Motori",
-          "sottocartella": "Formula 1",
-          "sport": "Motori",
-          "competizione": "Formula 1",
-          "evento": "Brazilian Grand Prix - Qualifiche",
-          "sessione": "qualifiche",
-          "circuito": "Autódromo José Carlos Pace, São Paulo, Brazil",
-          "inizio": "2026-11-07T19:00:00+01:00",
-          "data": "07/11/2026",
-          "ora": "19:00",
-          "canali": [
-            {
-              "nome": "Sky Sport F1",
-              "numero": "207",
-              "tipo": "diretta",
-              "orario": "2026-11-07T19:00",
-              "fonte": "dizzle+config"
-            },
-            {
-              "nome": "NOW",
-              "numero": "",
-              "tipo": "streaming",
-              "orario": "2026-11-07T19:00",
-              "fonte": "dizzle+config"
-            },
-            {
-              "nome": "Sky Sport 1",
-              "numero": "201",
-              "tipo": "diretta",
-              "orario": "2026-11-07T19:00",
-              "fonte": "config"
-            },
-            {
-              "nome": "Sky Sport 4K",
-              "numero": "213",
-              "tipo": "diretta",
-              "orario": "2026-11-07T19:00",
-              "fonte": "config"
-            },
-            {
-              "nome": "TV8",
-              "numero": "8",
-              "tipo": "differita",
-              "orario": "",
-              "fonte": "config"
-            }
-          ],
-          "fonte": "Dizzle0987/motorsport-calendar"
-        },
-        {
-          "titolo": "[Calcio] Serie B: Benevento-Avellino",
-          "categoria": "Calcio",
-          "sottocartella": "Serie B",
-          "sport": "Calcio",
-          "competizione": "Serie B",
-          "evento": "Benevento-Avellino",
-          "inizio": "2026-11-07T19:30:00+01:00",
-          "data": "07/11/2026",
-          "ora": "19:30",
-          "canali": [
-            {
-              "nome": "DAZN",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-11-07T19:30",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
         {
           "titolo": "[Altri sport] Qualificazioni Europei: Belgio-Italia",
           "categoria": "Altri sport",
@@ -1317,63 +1245,12 @@
     },
     {
       "nome": "Motori",
-      "totale": 64,
+      "totale": 63,
       "sottocartelle": [
         {
           "nome": "Formula 1",
-          "totale": 17,
+          "totale": 16,
           "eventi": [
-            {
-              "titolo": "Formula 1: Brazilian Grand Prix - Qualifiche",
-              "categoria": "Motori",
-              "sottocartella": "Formula 1",
-              "sport": "Motori",
-              "competizione": "Formula 1",
-              "evento": "Brazilian Grand Prix - Qualifiche",
-              "sessione": "qualifiche",
-              "circuito": "Autódromo José Carlos Pace, São Paulo, Brazil",
-              "inizio": "2026-11-07T19:00:00+01:00",
-              "data": "07/11/2026",
-              "ora": "19:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport F1",
-                  "numero": "207",
-                  "tipo": "diretta",
-                  "orario": "2026-11-07T19:00",
-                  "fonte": "dizzle+config"
-                },
-                {
-                  "nome": "NOW",
-                  "numero": "",
-                  "tipo": "streaming",
-                  "orario": "2026-11-07T19:00",
-                  "fonte": "dizzle+config"
-                },
-                {
-                  "nome": "Sky Sport 1",
-                  "numero": "201",
-                  "tipo": "diretta",
-                  "orario": "2026-11-07T19:00",
-                  "fonte": "config"
-                },
-                {
-                  "nome": "Sky Sport 4K",
-                  "numero": "213",
-                  "tipo": "diretta",
-                  "orario": "2026-11-07T19:00",
-                  "fonte": "config"
-                },
-                {
-                  "nome": "TV8",
-                  "numero": "8",
-                  "tipo": "differita",
-                  "orario": "",
-                  "fonte": "config"
-                }
-              ],
-              "fonte": "Dizzle0987/motorsport-calendar"
-            },
             {
               "titolo": "Formula 1: Brazilian Grand Prix - Gara",
               "categoria": "Motori",
@@ -3241,7 +3118,7 @@
     },
     {
       "nome": "Calcio",
-      "totale": 44,
+      "totale": 43,
       "sottocartelle": [
         {
           "nome": "Serie A",
@@ -9711,29 +9588,8 @@
         },
         {
           "nome": "Serie B",
-          "totale": 7,
+          "totale": 6,
           "eventi": [
-            {
-              "titolo": "Serie B: Benevento-Avellino",
-              "categoria": "Calcio",
-              "sottocartella": "Serie B",
-              "sport": "Calcio",
-              "competizione": "Serie B",
-              "evento": "Benevento-Avellino",
-              "inizio": "2026-11-07T19:30:00+01:00",
-              "data": "07/11/2026",
-              "ora": "19:30",
-              "canali": [
-                {
-                  "nome": "DAZN",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-07T19:30",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
             {
               "titolo": "Serie B: Virtus Entella vs Modena",
               "categoria": "Calcio",
