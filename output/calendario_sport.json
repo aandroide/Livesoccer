@@ -1,80 +1,16 @@
 {
-  "aggiornato": "2026-11-08T07:45:03+01:00",
+  "aggiornato": "2026-11-08T14:38:12+01:00",
   "fonti": {
     "motori": "Fuori Traiettoria, Dizzle0987/motorsport-calendar, palinsesto TV8",
     "calcio_italiano": "https://raw.githubusercontent.com/aandroide/Livesoccer/master/livesoccertv/output/eventi.json",
     "altri_sport": "https://sport.virgilio.it/guida-tv/"
   },
-  "totale": 188,
+  "totale": 185,
   "cartelle": [
     {
       "nome": "Oggi",
-      "totale": 32,
+      "totale": 29,
       "eventi": [
-        {
-          "titolo": "[Tennis] WTA 250 Hong Kong: Finale",
-          "categoria": "Tennis",
-          "sottocartella": "WTA 250 Hong Kong",
-          "sport": "Tennis",
-          "competizione": "WTA 250 Hong Kong",
-          "evento": "Finale",
-          "inizio": "2026-11-08T09:00:00+01:00",
-          "data": "08/11/2026",
-          "ora": "09:00",
-          "canali": [
-            {
-              "nome": "Sky Sport Tennis",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-11-08T09:00",
-              "fonte": "virgilio"
-            },
-            {
-              "nome": "Sky Sport 1",
-              "numero": "201",
-              "tipo": "diretta",
-              "orario": "2026-11-08T09:00",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Calcio] Primavera 1: Milan-Albinoleffe",
-          "categoria": "Calcio",
-          "sottocartella": "Primavera 1",
-          "sport": "Calcio",
-          "competizione": "Primavera 1",
-          "evento": "Milan-Albinoleffe",
-          "inizio": "2026-11-08T11:00:00+01:00",
-          "data": "08/11/2026",
-          "ora": "11:00",
-          "canali": [
-            {
-              "nome": "Sportitalia",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-11-08T11:00",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Motori] WEC: 6 Hours of Monza - Race",
-          "categoria": "Motori",
-          "sottocartella": "WEC",
-          "sport": "Motori",
-          "competizione": "WEC",
-          "evento": "6 Hours of Monza - Race",
-          "sessione": "gara",
-          "circuito": "Autodromo Nazionale Monza, Viale di Vedano, 5, 20900 Monza MB, Italia",
-          "inizio": "2026-11-08T11:00:00+01:00",
-          "data": "08/11/2026",
-          "ora": "11:00",
-          "canali": [],
-          "fonte": "Fuori Traiettoria"
-        },
         {
           "titolo": "[Basket] Serie A: Trieste-Roma Basketball",
           "categoria": "Basket",
@@ -6287,7 +6223,7 @@
     },
     {
       "nome": "Motori",
-      "totale": 63,
+      "totale": 62,
       "sottocartelle": [
         {
           "nome": "Formula 1",
@@ -7139,27 +7075,6 @@
               "inizio": "2026-12-06T10:25:00+01:00",
               "data": "06/12/2026",
               "ora": "10:25",
-              "canali": [],
-              "fonte": "Fuori Traiettoria"
-            }
-          ]
-        },
-        {
-          "nome": "WEC",
-          "totale": 1,
-          "eventi": [
-            {
-              "titolo": "WEC: 6 Hours of Monza - Race",
-              "categoria": "Motori",
-              "sottocartella": "WEC",
-              "sport": "Motori",
-              "competizione": "WEC",
-              "evento": "6 Hours of Monza - Race",
-              "sessione": "gara",
-              "circuito": "Autodromo Nazionale Monza, Viale di Vedano, 5, 20900 Monza MB, Italia",
-              "inizio": "2026-11-08T11:00:00+01:00",
-              "data": "08/11/2026",
-              "ora": "11:00",
               "canali": [],
               "fonte": "Fuori Traiettoria"
             }
@@ -8160,7 +8075,7 @@
     },
     {
       "nome": "Calcio",
-      "totale": 48,
+      "totale": 47,
       "sottocartelle": [
         {
           "nome": "Serie A",
@@ -14359,33 +14274,6 @@
           ]
         },
         {
-          "nome": "Primavera 1",
-          "totale": 1,
-          "eventi": [
-            {
-              "titolo": "Primavera 1: Milan-Albinoleffe",
-              "categoria": "Calcio",
-              "sottocartella": "Primavera 1",
-              "sport": "Calcio",
-              "competizione": "Primavera 1",
-              "evento": "Milan-Albinoleffe",
-              "inizio": "2026-11-08T11:00:00+01:00",
-              "data": "08/11/2026",
-              "ora": "11:00",
-              "canali": [
-                {
-                  "nome": "Sportitalia",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-08T11:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            }
-          ]
-        },
-        {
           "nome": "Bundesliga 2",
           "totale": 1,
           "eventi": [
@@ -14933,42 +14821,8 @@
     },
     {
       "nome": "Tennis",
-      "totale": 44,
+      "totale": 43,
       "sottocartelle": [
-        {
-          "nome": "WTA 250 Hong Kong",
-          "totale": 1,
-          "eventi": [
-            {
-              "titolo": "WTA 250 Hong Kong: Finale",
-              "categoria": "Tennis",
-              "sottocartella": "WTA 250 Hong Kong",
-              "sport": "Tennis",
-              "competizione": "WTA 250 Hong Kong",
-              "evento": "Finale",
-              "inizio": "2026-11-08T09:00:00+01:00",
-              "data": "08/11/2026",
-              "ora": "09:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Tennis",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-08T09:00",
-                  "fonte": "virgilio"
-                },
-                {
-                  "nome": "Sky Sport 1",
-                  "numero": "201",
-                  "tipo": "diretta",
-                  "orario": "2026-11-08T09:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            }
-          ]
-        },
         {
           "nome": "ATP Masters 1000 Parigi-Bercy",
           "totale": 1,
