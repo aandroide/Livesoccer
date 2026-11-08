@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-08T01:26:49+01:00",
+  "aggiornato": "2026-11-08T07:45:03+01:00",
   "fonti": {
     "motori": "Fuori Traiettoria, Dizzle0987/motorsport-calendar, palinsesto TV8",
     "calcio_italiano": "https://raw.githubusercontent.com/aandroide/Livesoccer/master/livesoccertv/output/eventi.json",
@@ -3108,7 +3108,8 @@
             {
               "paese": "Malta",
               "canali": [
-                "TSN8 Malta"
+                "TSN8 Malta",
+                "GO TV Anywhere"
               ]
             },
             {
@@ -5104,6 +5105,20 @@
           "ora": "19:30",
           "canali": [
             {
+              "nome": "DAZN Italia",
+              "numero": "",
+              "tipo": "streaming",
+              "orario": "2026-11-08T19:30",
+              "fonte": "livesoccer"
+            },
+            {
+              "nome": "LAB Channel",
+              "numero": "",
+              "tipo": "diretta",
+              "orario": "2026-11-08T19:30",
+              "fonte": "livesoccer"
+            },
+            {
               "nome": "DAZN",
               "numero": "",
               "tipo": "diretta",
@@ -5111,7 +5126,28 @@
               "fonte": "virgilio"
             }
           ],
-          "canali_mondo": [],
+          "canali_mondo": [
+            {
+              "paese": "Internazionale",
+              "canali": [
+                "Onefootball"
+              ]
+            },
+            {
+              "paese": "Italia",
+              "canali": [
+                "DAZN Italia",
+                "LAB Channel"
+              ]
+            },
+            {
+              "paese": "San Marino",
+              "canali": [
+                "DAZN Italia",
+                "LAB Channel"
+              ]
+            }
+          ],
           "fonte": "LiveSoccerTV"
         },
         {
@@ -10780,7 +10816,8 @@
                 {
                   "paese": "Malta",
                   "canali": [
-                    "TSN8 Malta"
+                    "TSN8 Malta",
+                    "GO TV Anywhere"
                   ]
                 },
                 {
@@ -13611,6 +13648,20 @@
               "ora": "19:30",
               "canali": [
                 {
+                  "nome": "DAZN Italia",
+                  "numero": "",
+                  "tipo": "streaming",
+                  "orario": "2026-11-08T19:30",
+                  "fonte": "livesoccer"
+                },
+                {
+                  "nome": "LAB Channel",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-08T19:30",
+                  "fonte": "livesoccer"
+                },
+                {
                   "nome": "DAZN",
                   "numero": "",
                   "tipo": "diretta",
@@ -13618,7 +13669,28 @@
                   "fonte": "virgilio"
                 }
               ],
-              "canali_mondo": [],
+              "canali_mondo": [
+                {
+                  "paese": "Internazionale",
+                  "canali": [
+                    "Onefootball"
+                  ]
+                },
+                {
+                  "paese": "Italia",
+                  "canali": [
+                    "DAZN Italia",
+                    "LAB Channel"
+                  ]
+                },
+                {
+                  "paese": "San Marino",
+                  "canali": [
+                    "DAZN Italia",
+                    "LAB Channel"
+                  ]
+                }
+              ],
               "fonte": "LiveSoccerTV"
             },
             {
