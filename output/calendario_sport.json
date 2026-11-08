@@ -1,79 +1,16 @@
 {
-  "aggiornato": "2026-11-08T20:11:35+01:00",
+  "aggiornato": "2026-11-08T20:45:06+01:00",
   "fonti": {
     "motori": "Fuori Traiettoria, Dizzle0987/motorsport-calendar, palinsesto TV8",
     "calcio_italiano": "https://raw.githubusercontent.com/aandroide/Livesoccer/master/livesoccertv/output/eventi.json",
     "altri_sport": "https://sport.virgilio.it/guida-tv/"
   },
-  "totale": 173,
+  "totale": 170,
   "cartelle": [
     {
       "nome": "Oggi",
-      "totale": 10,
+      "totale": 7,
       "eventi": [
-        {
-          "titolo": "[Calcio] Serie B: Carrarese-Sampdoria",
-          "categoria": "Calcio",
-          "sottocartella": "Serie B",
-          "sport": "Calcio",
-          "competizione": "Serie B",
-          "evento": "Carrarese-Sampdoria",
-          "inizio": "2026-11-08T17:15:00+01:00",
-          "data": "08/11/2026",
-          "ora": "17:15",
-          "canali": [
-            {
-              "nome": "DAZN",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-11-08T17:15",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Calcio] Premier League: Manchester United-Aston Villa",
-          "categoria": "Calcio",
-          "sottocartella": "Premier League",
-          "sport": "Calcio",
-          "competizione": "Premier League",
-          "evento": "Manchester United-Aston Villa",
-          "inizio": "2026-11-08T17:30:00+01:00",
-          "data": "08/11/2026",
-          "ora": "17:30",
-          "canali": [
-            {
-              "nome": "Sky Sport Max",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-11-08T17:30",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Calcio] Serie C: Treviso-Novara",
-          "categoria": "Calcio",
-          "sottocartella": "Serie C",
-          "sport": "Calcio",
-          "competizione": "Serie C",
-          "evento": "Treviso-Novara",
-          "inizio": "2026-11-08T17:30:00+01:00",
-          "data": "08/11/2026",
-          "ora": "17:30",
-          "canali": [
-            {
-              "nome": "Sky Sport Mix",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-11-08T17:30",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
         {
           "titolo": "[Calcio] Serie A: Inter-Como",
           "categoria": "Calcio",
@@ -3134,7 +3071,7 @@
     },
     {
       "nome": "Calcio",
-      "totale": 42,
+      "totale": 39,
       "sottocartelle": [
         {
           "nome": "Serie A",
@@ -7146,29 +7083,8 @@
         },
         {
           "nome": "Serie B",
-          "totale": 8,
+          "totale": 7,
           "eventi": [
-            {
-              "titolo": "Serie B: Carrarese-Sampdoria",
-              "categoria": "Calcio",
-              "sottocartella": "Serie B",
-              "sport": "Calcio",
-              "competizione": "Serie B",
-              "evento": "Carrarese-Sampdoria",
-              "inizio": "2026-11-08T17:15:00+01:00",
-              "data": "08/11/2026",
-              "ora": "17:15",
-              "canali": [
-                {
-                  "nome": "DAZN",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-08T17:15",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
             {
               "titolo": "Serie B: Vicenza vs Cremonese",
               "categoria": "Calcio",
@@ -7538,29 +7454,8 @@
         },
         {
           "nome": "Serie C",
-          "totale": 8,
+          "totale": 7,
           "eventi": [
-            {
-              "titolo": "Serie C: Treviso-Novara",
-              "categoria": "Calcio",
-              "sottocartella": "Serie C",
-              "sport": "Calcio",
-              "competizione": "Serie C",
-              "evento": "Treviso-Novara",
-              "inizio": "2026-11-08T17:30:00+01:00",
-              "data": "08/11/2026",
-              "ora": "17:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport Mix",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-08T17:30",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
             {
               "titolo": "Serie C: Foggia vs Barletta",
               "categoria": "Calcio",
@@ -7895,33 +7790,6 @@
                   "numero": "",
                   "tipo": "diretta",
                   "orario": "2026-11-14T17:30",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            }
-          ]
-        },
-        {
-          "nome": "Premier League",
-          "totale": 1,
-          "eventi": [
-            {
-              "titolo": "Premier League: Manchester United-Aston Villa",
-              "categoria": "Calcio",
-              "sottocartella": "Premier League",
-              "sport": "Calcio",
-              "competizione": "Premier League",
-              "evento": "Manchester United-Aston Villa",
-              "inizio": "2026-11-08T17:30:00+01:00",
-              "data": "08/11/2026",
-              "ora": "17:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport Max",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-08T17:30",
                   "fonte": "virgilio"
                 }
               ],
