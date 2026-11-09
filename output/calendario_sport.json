@@ -1,11 +1,11 @@
 {
-  "aggiornato": "2026-11-09T12:47:32+01:00",
+  "aggiornato": "2026-11-09T13:10:29+01:00",
   "fonti": {
     "motori": "Fuori Traiettoria, Dizzle0987/motorsport-calendar, palinsesto TV8",
     "calcio_italiano": "https://raw.githubusercontent.com/aandroide/Livesoccer/master/livesoccertv/output/eventi.json",
     "altri_sport": "https://sport.virgilio.it/guida-tv/"
   },
-  "totale": 180,
+  "totale": 181,
   "cartelle": [
     {
       "nome": "Oggi",
@@ -1847,16 +1847,7 @@
               "inizio": "2026-11-28T12:55:00+01:00",
               "data": "28/11/2026",
               "ora": "12:55",
-              "canali": [
-                {
-                  "nome": "TV8",
-                  "numero": "8",
-                  "tipo": "diretta",
-                  "orario": "2026-11-28T12:50",
-                  "programma": "GP Valencia: Qualifiche",
-                  "fonte": "tv8"
-                }
-              ],
+              "canali": [],
               "fonte": "Fuori Traiettoria"
             },
             {
@@ -1871,16 +1862,7 @@
               "inizio": "2026-11-28T13:50:00+01:00",
               "data": "28/11/2026",
               "ora": "13:50",
-              "canali": [
-                {
-                  "nome": "TV8",
-                  "numero": "8",
-                  "tipo": "diretta",
-                  "orario": "2026-11-28T13:40",
-                  "programma": "GP Valencia: Qualifiche",
-                  "fonte": "tv8"
-                }
-              ],
+              "canali": [],
               "fonte": "Fuori Traiettoria"
             },
             {
@@ -1895,16 +1877,7 @@
               "inizio": "2026-11-29T11:00:00+01:00",
               "data": "29/11/2026",
               "ora": "11:00",
-              "canali": [
-                {
-                  "nome": "TV8",
-                  "numero": "8",
-                  "tipo": "differita",
-                  "orario": "2026-11-29T14:00",
-                  "programma": "GP Valencia: Gara",
-                  "fonte": "tv8"
-                }
-              ],
+              "canali": [],
               "fonte": "Fuori Traiettoria"
             },
             {
@@ -1919,16 +1892,7 @@
               "inizio": "2026-11-29T12:15:00+01:00",
               "data": "29/11/2026",
               "ora": "12:15",
-              "canali": [
-                {
-                  "nome": "TV8",
-                  "numero": "8",
-                  "tipo": "differita",
-                  "orario": "2026-11-29T14:00",
-                  "programma": "GP Valencia: Gara",
-                  "fonte": "tv8"
-                }
-              ],
+              "canali": [],
               "fonte": "Fuori Traiettoria"
             }
           ]
@@ -2123,7 +2087,7 @@
     },
     {
       "nome": "Calcio",
-      "totale": 42,
+      "totale": 43,
       "sottocartelle": [
         {
           "nome": "Serie A",
@@ -5054,7 +5018,8 @@
                 {
                   "paese": "Andorra",
                   "canali": [
-                    "DAZN Spain"
+                    "DAZN Spain",
+                    "DAZN France"
                   ]
                 },
                 {
@@ -5082,6 +5047,12 @@
                   ]
                 },
                 {
+                  "paese": "Austria",
+                  "canali": [
+                    "DAZN Austria"
+                  ]
+                },
+                {
                   "paese": "Bahrain",
                   "canali": [
                     "STARZPLAY",
@@ -5100,6 +5071,12 @@
                   "paese": "Barbados",
                   "canali": [
                     "Disney+ Premium Caribbean"
+                  ]
+                },
+                {
+                  "paese": "Belgio",
+                  "canali": [
+                    "DAZN Belgium"
                   ]
                 },
                 {
@@ -5135,6 +5112,7 @@
                 {
                   "paese": "Canada",
                   "canali": [
+                    "DAZN Canada",
                     "fuboTV Canada"
                   ]
                 },
@@ -5245,6 +5223,18 @@
                   "paese": "Finlandia",
                   "canali": [
                     "MTV Katsomo"
+                  ]
+                },
+                {
+                  "paese": "Francia",
+                  "canali": [
+                    "DAZN France"
+                  ]
+                },
+                {
+                  "paese": "Germania",
+                  "canali": [
+                    "DAZN Deutschland"
                   ]
                 },
                 {
@@ -5381,6 +5371,12 @@
                   ]
                 },
                 {
+                  "paese": "Liechtenstein",
+                  "canali": [
+                    "DAZN Deutschland"
+                  ]
+                },
+                {
                   "paese": "Macao",
                   "canali": [
                     "M Plus Live"
@@ -5418,6 +5414,12 @@
                   ]
                 },
                 {
+                  "paese": "Monaco",
+                  "canali": [
+                    "DAZN France"
+                  ]
+                },
+                {
                   "paese": "Montserrat",
                   "canali": [
                     "Disney+ Premium Caribbean"
@@ -5435,6 +5437,12 @@
                   "paese": "Nepal",
                   "canali": [
                     "ZEE5"
+                  ]
+                },
+                {
+                  "paese": "Nuova Zelanda",
+                  "canali": [
+                    "beIN Sports Connect New Zealand"
                   ]
                 },
                 {
@@ -5600,6 +5608,12 @@
                   ]
                 },
                 {
+                  "paese": "Svizzera",
+                  "canali": [
+                    "DAZN Switzerland"
+                  ]
+                },
+                {
                   "paese": "Siria",
                   "canali": [
                     "STARZPLAY",
@@ -5681,8 +5695,126 @@
         },
         {
           "nome": "Serie B",
-          "totale": 5,
+          "totale": 6,
           "eventi": [
+            {
+              "titolo": "Serie B: Ascoli vs Palermo",
+              "categoria": "Calcio",
+              "sottocartella": "Serie B",
+              "sport": "Calcio",
+              "competizione": "Serie B",
+              "evento": "Ascoli vs Palermo",
+              "inizio": "2026-11-10T00:00:00+01:00",
+              "data": "10/11/2026",
+              "ora": "00:00",
+              "canali": [
+                {
+                  "nome": "DAZN Italia",
+                  "numero": "",
+                  "tipo": "streaming",
+                  "orario": "2026-11-10T00:00",
+                  "fonte": "livesoccer"
+                },
+                {
+                  "nome": "LAB Channel",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-10T00:00",
+                  "fonte": "livesoccer"
+                }
+              ],
+              "canali_mondo": [
+                {
+                  "paese": "Bosnia ed Erzegovina",
+                  "canali": [
+                    "Arena Sport 7",
+                    "Arena Cloud"
+                  ]
+                },
+                {
+                  "paese": "Gran Bretagna",
+                  "canali": [
+                    "DCTV"
+                  ]
+                },
+                {
+                  "paese": "Irlanda",
+                  "canali": [
+                    "DCTV"
+                  ]
+                },
+                {
+                  "paese": "Israele",
+                  "canali": [
+                    "Sport 5max"
+                  ]
+                },
+                {
+                  "paese": "Italia",
+                  "canali": [
+                    "DAZN Italia",
+                    "LAB Channel"
+                  ]
+                },
+                {
+                  "paese": "Liechtenstein",
+                  "canali": [
+                    "Blue Sport 3 Live",
+                    "Blue Sport"
+                  ]
+                },
+                {
+                  "paese": "Macedonia",
+                  "canali": [
+                    "Arena Cloud"
+                  ]
+                },
+                {
+                  "paese": "Montenegro",
+                  "canali": [
+                    "Arena Cloud"
+                  ]
+                },
+                {
+                  "paese": "Russia",
+                  "canali": [
+                    "Телеканал Футбол"
+                  ]
+                },
+                {
+                  "paese": "San Marino",
+                  "canali": [
+                    "DAZN Italia",
+                    "LAB Channel"
+                  ]
+                },
+                {
+                  "paese": "Serbia",
+                  "canali": [
+                    "Arena Sport 8 Serbia",
+                    "Arena Sport 7 Serbia",
+                    "Arena Cloud"
+                  ]
+                },
+                {
+                  "paese": "Svizzera",
+                  "canali": [
+                    "Blue Sport 3 Live",
+                    "Blue Sport"
+                  ]
+                },
+                {
+                  "paese": "USA",
+                  "canali": [
+                    "Fox Soccer Plus",
+                    "fuboTV",
+                    "DCTV",
+                    "FOX One"
+                  ]
+                }
+              ],
+              "fonte": "LiveSoccerTV"
+            },
             {
               "titolo": "Serie B: Verona vs Cesena",
               "categoria": "Calcio",
