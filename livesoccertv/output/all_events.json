@@ -9,8 +9,8 @@
       "kickoff": "2026-11-09T20:30:00+01:00",
       "date": "2026-11-09",
       "time": "20:30",
-      "status": "upcoming",
-      "score": "",
+      "status": "finished",
+      "score": "0:1",
       "match_url": "https://www.livesoccertv.com/it/match/foggia-vs-barletta/dwico#5812631",
       "channels": [
         {
@@ -64,8 +64,8 @@
       "kickoff": "2026-11-09T20:30:00+01:00",
       "date": "2026-11-09",
       "time": "20:30",
-      "status": "upcoming",
-      "score": "",
+      "status": "finished",
+      "score": "1:0",
       "match_url": "https://www.livesoccertv.com/it/match/vis-pesaro-vs-pineto/1skd5x#5812629",
       "channels": [
         {
@@ -119,8 +119,8 @@
       "kickoff": "2026-11-09T20:30:00+01:00",
       "date": "2026-11-09",
       "time": "20:30",
-      "status": "upcoming",
-      "score": "",
+      "status": "finished",
+      "score": "2:2",
       "match_url": "https://www.livesoccertv.com/it/match/cavese-vs-team-altamura/2y9qwj#5812630",
       "channels": [
         {
@@ -167,8 +167,8 @@
       "kickoff": "2026-11-09T20:45:00+01:00",
       "date": "2026-11-09",
       "time": "20:45",
-      "status": "upcoming",
-      "score": "",
+      "status": "finished",
+      "score": "1:1",
       "match_url": "https://www.livesoccertv.com/it/match/bari-1908-vs-picerno/157pkw#5812632",
       "channels": [
         {
@@ -7353,6 +7353,47 @@
       ]
     },
     {
+      "id": "5720412",
+      "competition": "Serie C",
+      "home": "Ospitaletto",
+      "away": "Dolomiti Bellunesi",
+      "title": "Ospitaletto vs Dolomiti Bellunesi",
+      "kickoff": "2026-11-13T20:30:00+01:00",
+      "date": "2026-11-13",
+      "time": "20:30",
+      "status": "upcoming",
+      "score": "",
+      "match_url": "https://www.livesoccertv.com/it/match/dolomiti-bellunesi-vs-ospitaletto/gt7efv#5720412",
+      "channels": [
+        {
+          "name": "SKY Go Italia",
+          "url": "",
+          "stream": false
+        },
+        {
+          "name": "NOW TV",
+          "url": "",
+          "stream": false
+        }
+      ],
+      "canali_mondo": [
+        {
+          "paese": "Italia",
+          "canali": [
+            "SKY Go Italia",
+            "NOW TV"
+          ]
+        },
+        {
+          "paese": "San Marino",
+          "canali": [
+            "SKY Go Italia",
+            "NOW TV"
+          ]
+        }
+      ]
+    },
+    {
       "id": "5831979",
       "competition": "UEFA Nations League",
       "home": "Paesi Bassi",
@@ -8544,6 +8585,103 @@
             "SuperSport MaXimo 2",
             "DStv Now",
             "SuperSport Premier League ROA"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5720405",
+      "competition": "Serie C",
+      "home": "AlbinoLeffe",
+      "away": "Union Brescia",
+      "title": "AlbinoLeffe vs Union Brescia",
+      "kickoff": "2026-11-14T14:30:00+01:00",
+      "date": "2026-11-14",
+      "time": "14:30",
+      "status": "upcoming",
+      "score": "",
+      "match_url": "https://www.livesoccertv.com/it/match/albinoleffe-vs-union-brescia/83rea1#5720405",
+      "channels": [],
+      "canali_mondo": []
+    },
+    {
+      "id": "5720792",
+      "competition": "Serie C",
+      "home": "Reggiana",
+      "away": "Livorno",
+      "title": "Reggiana vs Livorno",
+      "kickoff": "2026-11-14T14:30:00+01:00",
+      "date": "2026-11-14",
+      "time": "14:30",
+      "status": "upcoming",
+      "score": "",
+      "match_url": "https://www.livesoccertv.com/it/match/livorno-vs-reggiana/6i56d#5720792",
+      "channels": [
+        {
+          "name": "SKY Go Italia",
+          "url": "",
+          "stream": false
+        },
+        {
+          "name": "NOW TV",
+          "url": "",
+          "stream": false
+        }
+      ],
+      "canali_mondo": [
+        {
+          "paese": "Italia",
+          "canali": [
+            "SKY Go Italia",
+            "NOW TV"
+          ]
+        },
+        {
+          "paese": "San Marino",
+          "canali": [
+            "SKY Go Italia",
+            "NOW TV"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5720414",
+      "competition": "Serie C",
+      "home": "Renate",
+      "away": "Desenzano Calvina",
+      "title": "Renate vs Desenzano Calvina",
+      "kickoff": "2026-11-14T14:30:00+01:00",
+      "date": "2026-11-14",
+      "time": "14:30",
+      "status": "upcoming",
+      "score": "",
+      "match_url": "https://www.livesoccertv.com/it/match/renate-vs-desenzano-calvina/29bzz8#5720414",
+      "channels": [
+        {
+          "name": "SKY Go Italia",
+          "url": "",
+          "stream": false
+        },
+        {
+          "name": "NOW TV",
+          "url": "",
+          "stream": false
+        }
+      ],
+      "canali_mondo": [
+        {
+          "paese": "Italia",
+          "canali": [
+            "SKY Go Italia",
+            "NOW TV"
+          ]
+        },
+        {
+          "paese": "San Marino",
+          "canali": [
+            "SKY Go Italia",
+            "NOW TV"
           ]
         }
       ]
