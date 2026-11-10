@@ -1,44 +1,16 @@
 {
-  "aggiornato": "2026-11-10T14:04:55+01:00",
+  "aggiornato": "2026-11-10T18:08:00+01:00",
   "fonti": {
     "motori": "Fuori Traiettoria, Dizzle0987/motorsport-calendar, palinsesto TV8",
     "calcio_italiano": "https://raw.githubusercontent.com/aandroide/Livesoccer/master/livesoccertv/output/eventi.json",
     "altri_sport": "https://sport.virgilio.it/guida-tv/"
   },
-  "totale": 180,
+  "totale": 178,
   "cartelle": [
     {
       "nome": "Oggi",
-      "totale": 11,
+      "totale": 9,
       "eventi": [
-        {
-          "titolo": "[Tennis] ATP 250 Stoccolma: 2a giornata Sess. Diurna",
-          "categoria": "Tennis",
-          "sottocartella": "ATP 250 Stoccolma",
-          "sport": "Tennis",
-          "competizione": "ATP 250 Stoccolma",
-          "evento": "2a giornata Sess. Diurna",
-          "inizio": "2026-11-10T13:00:00+01:00",
-          "data": "10/11/2026",
-          "ora": "13:00",
-          "canali": [
-            {
-              "nome": "Sky Sport 1",
-              "numero": "201",
-              "tipo": "diretta",
-              "orario": "2026-11-10T13:00",
-              "fonte": "virgilio"
-            },
-            {
-              "nome": "Sky Sport Tennis",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-11-10T13:00",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
         {
           "titolo": "[Tennis] ATP 250 Stoccolma: 2a giornata Sess. Serale",
           "categoria": "Tennis",
@@ -51,29 +23,15 @@
           "ora": "18:00",
           "canali": [
             {
-              "nome": "Sky Sport Tennis",
-              "numero": "",
+              "nome": "Sky Sport 1",
+              "numero": "201",
               "tipo": "diretta",
               "orario": "2026-11-10T18:00",
               "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Tennis] ATP 250 Stoccolma: 2a giornata Sessione Serale",
-          "categoria": "Tennis",
-          "sottocartella": "ATP 250 Stoccolma",
-          "sport": "Tennis",
-          "competizione": "ATP 250 Stoccolma",
-          "evento": "2a giornata Sessione Serale",
-          "inizio": "2026-11-10T18:00:00+01:00",
-          "data": "10/11/2026",
-          "ora": "18:00",
-          "canali": [
+            },
             {
-              "nome": "Sky Sport 1",
-              "numero": "201",
+              "nome": "Sky Sport Tennis",
+              "numero": "",
               "tipo": "diretta",
               "orario": "2026-11-10T18:00",
               "fonte": "virgilio"
@@ -1755,16 +1713,7 @@
               "inizio": "2026-11-22T12:00:00+01:00",
               "data": "22/11/2026",
               "ora": "12:00",
-              "canali": [
-                {
-                  "nome": "TV8",
-                  "numero": "8",
-                  "tipo": "differita",
-                  "orario": "2026-11-22T12:15",
-                  "programma": "GP Portogallo: Gara",
-                  "fonte": "tv8"
-                }
-              ],
+              "canali": [],
               "fonte": "Fuori Traiettoria"
             },
             {
@@ -1779,16 +1728,7 @@
               "inizio": "2026-11-22T13:15:00+01:00",
               "data": "22/11/2026",
               "ora": "13:15",
-              "canali": [
-                {
-                  "nome": "TV8",
-                  "numero": "8",
-                  "tipo": "diretta",
-                  "orario": "2026-11-22T12:15",
-                  "programma": "GP Portogallo: Gara",
-                  "fonte": "tv8"
-                }
-              ],
+              "canali": [],
               "fonte": "Fuori Traiettoria"
             },
             {
@@ -6952,40 +6892,12 @@
     },
     {
       "nome": "Tennis",
-      "totale": 44,
+      "totale": 42,
       "sottocartelle": [
         {
           "nome": "ATP 250 Stoccolma",
-          "totale": 12,
+          "totale": 10,
           "eventi": [
-            {
-              "titolo": "ATP 250 Stoccolma: 2a giornata Sess. Diurna",
-              "categoria": "Tennis",
-              "sottocartella": "ATP 250 Stoccolma",
-              "sport": "Tennis",
-              "competizione": "ATP 250 Stoccolma",
-              "evento": "2a giornata Sess. Diurna",
-              "inizio": "2026-11-10T13:00:00+01:00",
-              "data": "10/11/2026",
-              "ora": "13:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport 1",
-                  "numero": "201",
-                  "tipo": "diretta",
-                  "orario": "2026-11-10T13:00",
-                  "fonte": "virgilio"
-                },
-                {
-                  "nome": "Sky Sport Tennis",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-10T13:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
             {
               "titolo": "ATP 250 Stoccolma: 2a giornata Sess. Serale",
               "categoria": "Tennis",
@@ -6998,29 +6910,15 @@
               "ora": "18:00",
               "canali": [
                 {
-                  "nome": "Sky Sport Tennis",
-                  "numero": "",
+                  "nome": "Sky Sport 1",
+                  "numero": "201",
                   "tipo": "diretta",
                   "orario": "2026-11-10T18:00",
                   "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "ATP 250 Stoccolma: 2a giornata Sessione Serale",
-              "categoria": "Tennis",
-              "sottocartella": "ATP 250 Stoccolma",
-              "sport": "Tennis",
-              "competizione": "ATP 250 Stoccolma",
-              "evento": "2a giornata Sessione Serale",
-              "inizio": "2026-11-10T18:00:00+01:00",
-              "data": "10/11/2026",
-              "ora": "18:00",
-              "canali": [
+                },
                 {
-                  "nome": "Sky Sport 1",
-                  "numero": "201",
+                  "nome": "Sky Sport Tennis",
+                  "numero": "",
                   "tipo": "diretta",
                   "orario": "2026-11-10T18:00",
                   "fonte": "virgilio"
