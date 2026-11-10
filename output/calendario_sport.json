@@ -1,37 +1,16 @@
 {
-  "aggiornato": "2026-11-10T05:28:10+01:00",
+  "aggiornato": "2026-11-10T08:28:31+01:00",
   "fonti": {
     "motori": "Fuori Traiettoria, Dizzle0987/motorsport-calendar, palinsesto TV8",
     "calcio_italiano": "https://raw.githubusercontent.com/aandroide/Livesoccer/master/livesoccertv/output/eventi.json",
     "altri_sport": "https://sport.virgilio.it/guida-tv/"
   },
-  "totale": 180,
+  "totale": 179,
   "cartelle": [
     {
       "nome": "Oggi",
-      "totale": 11,
+      "totale": 10,
       "eventi": [
-        {
-          "titolo": "[Tennis] WTA Finals Indian Wells: Doubles R.R. P2",
-          "categoria": "Tennis",
-          "sottocartella": "WTA Finals Indian Wells",
-          "sport": "Tennis",
-          "competizione": "WTA Finals Indian Wells 2026",
-          "evento": "Doubles R.R. P2",
-          "inizio": "2026-11-10T02:30:00+01:00",
-          "data": "10/11/2026",
-          "ora": "02:30",
-          "canali": [
-            {
-              "nome": "Sky Sport Tennis",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-11-10T02:30",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
         {
           "titolo": "[Tennis] ATP 250 Stoccolma: 2a giornata Sess. Diurna",
           "categoria": "Tennis",
@@ -6737,33 +6716,326 @@
     },
     {
       "nome": "Tennis",
-      "totale": 45,
+      "totale": 44,
       "sottocartelle": [
         {
-          "nome": "WTA Finals Indian Wells",
-          "totale": 27,
+          "nome": "ATP 250 Stoccolma",
+          "totale": 12,
           "eventi": [
             {
-              "titolo": "WTA Finals Indian Wells: Doubles R.R. P2",
+              "titolo": "ATP 250 Stoccolma: 2a giornata Sess. Diurna",
               "categoria": "Tennis",
-              "sottocartella": "WTA Finals Indian Wells",
+              "sottocartella": "ATP 250 Stoccolma",
               "sport": "Tennis",
-              "competizione": "WTA Finals Indian Wells 2026",
-              "evento": "Doubles R.R. P2",
-              "inizio": "2026-11-10T02:30:00+01:00",
+              "competizione": "ATP 250 Stoccolma",
+              "evento": "2a giornata Sess. Diurna",
+              "inizio": "2026-11-10T13:00:00+01:00",
               "data": "10/11/2026",
-              "ora": "02:30",
+              "ora": "13:00",
               "canali": [
+                {
+                  "nome": "Sky Sport 1",
+                  "numero": "201",
+                  "tipo": "diretta",
+                  "orario": "2026-11-10T13:00",
+                  "fonte": "virgilio"
+                },
                 {
                   "nome": "Sky Sport Tennis",
                   "numero": "",
                   "tipo": "diretta",
-                  "orario": "2026-11-10T02:30",
+                  "orario": "2026-11-10T13:00",
                   "fonte": "virgilio"
                 }
               ],
               "fonte": "Virgilio Sport"
             },
+            {
+              "titolo": "ATP 250 Stoccolma: 2a giornata Sess. Serale",
+              "categoria": "Tennis",
+              "sottocartella": "ATP 250 Stoccolma",
+              "sport": "Tennis",
+              "competizione": "ATP 250 Stoccolma",
+              "evento": "2a giornata Sess. Serale",
+              "inizio": "2026-11-10T18:00:00+01:00",
+              "data": "10/11/2026",
+              "ora": "18:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport Tennis",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-10T18:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "ATP 250 Stoccolma: 2a giornata Sessione Serale",
+              "categoria": "Tennis",
+              "sottocartella": "ATP 250 Stoccolma",
+              "sport": "Tennis",
+              "competizione": "ATP 250 Stoccolma",
+              "evento": "2a giornata Sessione Serale",
+              "inizio": "2026-11-10T18:00:00+01:00",
+              "data": "10/11/2026",
+              "ora": "18:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport 1",
+                  "numero": "201",
+                  "tipo": "diretta",
+                  "orario": "2026-11-10T18:00",
+                  "fonte": "virgilio"
+                },
+                {
+                  "nome": "Sky Sport Max",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-10T18:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "ATP 250 Stoccolma: 3a giornata Sess. Diurna",
+              "categoria": "Tennis",
+              "sottocartella": "ATP 250 Stoccolma",
+              "sport": "Tennis",
+              "competizione": "ATP 250 Stoccolma",
+              "evento": "3a giornata Sess. Diurna",
+              "inizio": "2026-11-11T13:00:00+01:00",
+              "data": "11/11/2026",
+              "ora": "13:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport Tennis",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-11T13:00",
+                  "fonte": "virgilio"
+                },
+                {
+                  "nome": "Sky Sport 1",
+                  "numero": "201",
+                  "tipo": "diretta",
+                  "orario": "2026-11-11T13:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "ATP 250 Stoccolma: 3a giornata Sess. Serale",
+              "categoria": "Tennis",
+              "sottocartella": "ATP 250 Stoccolma",
+              "sport": "Tennis",
+              "competizione": "ATP 250 Stoccolma",
+              "evento": "3a giornata Sess. Serale",
+              "inizio": "2026-11-11T18:00:00+01:00",
+              "data": "11/11/2026",
+              "ora": "18:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport Tennis",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-11T18:00",
+                  "fonte": "virgilio"
+                },
+                {
+                  "nome": "Sky Sport Max",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-11T18:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "ATP 250 Stoccolma: 1^ Quarto di Finale",
+              "categoria": "Tennis",
+              "sottocartella": "ATP 250 Stoccolma",
+              "sport": "Tennis",
+              "competizione": "ATP 250 Stoccolma",
+              "evento": "1^ Quarto di Finale",
+              "inizio": "2026-11-12T13:00:00+01:00",
+              "data": "12/11/2026",
+              "ora": "13:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport Tennis",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-12T13:00",
+                  "fonte": "virgilio"
+                },
+                {
+                  "nome": "Sky Sport 1",
+                  "numero": "201",
+                  "tipo": "diretta",
+                  "orario": "2026-11-12T13:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "ATP 250 Stoccolma: 2^ Quarto di Finale",
+              "categoria": "Tennis",
+              "sottocartella": "ATP 250 Stoccolma",
+              "sport": "Tennis",
+              "competizione": "ATP 250 Stoccolma",
+              "evento": "2^ Quarto di Finale",
+              "inizio": "2026-11-12T15:00:00+01:00",
+              "data": "12/11/2026",
+              "ora": "15:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport Tennis",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-12T15:00",
+                  "fonte": "virgilio"
+                },
+                {
+                  "nome": "Sky Sport 1",
+                  "numero": "201",
+                  "tipo": "diretta",
+                  "orario": "2026-11-12T15:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "ATP 250 Stoccolma: 3^ Quarto di Finale",
+              "categoria": "Tennis",
+              "sottocartella": "ATP 250 Stoccolma",
+              "sport": "Tennis",
+              "competizione": "ATP 250 Stoccolma",
+              "evento": "3^ Quarto di Finale",
+              "inizio": "2026-11-12T18:30:00+01:00",
+              "data": "12/11/2026",
+              "ora": "18:30",
+              "canali": [
+                {
+                  "nome": "Sky Sport Tennis",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-12T18:30",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "ATP 250 Stoccolma: 4^ Quarto di Finale",
+              "categoria": "Tennis",
+              "sottocartella": "ATP 250 Stoccolma",
+              "sport": "Tennis",
+              "competizione": "ATP 250 Stoccolma",
+              "evento": "4^ Quarto di Finale",
+              "inizio": "2026-11-12T20:30:00+01:00",
+              "data": "12/11/2026",
+              "ora": "20:30",
+              "canali": [
+                {
+                  "nome": "Sky Sport Max",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-12T20:30",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "ATP 250 Stoccolma: 1a Semifinale",
+              "categoria": "Tennis",
+              "sottocartella": "ATP 250 Stoccolma",
+              "sport": "Tennis",
+              "competizione": "ATP 250 Stoccolma",
+              "evento": "1a Semifinale",
+              "inizio": "2026-11-13T14:00:00+01:00",
+              "data": "13/11/2026",
+              "ora": "14:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport Tennis",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-13T14:00",
+                  "fonte": "virgilio"
+                },
+                {
+                  "nome": "Sky Sport 1",
+                  "numero": "201",
+                  "tipo": "diretta",
+                  "orario": "2026-11-13T14:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "ATP 250 Stoccolma: 2a Semifinale",
+              "categoria": "Tennis",
+              "sottocartella": "ATP 250 Stoccolma",
+              "sport": "Tennis",
+              "competizione": "ATP 250 Stoccolma",
+              "evento": "2a Semifinale",
+              "inizio": "2026-11-13T17:00:00+01:00",
+              "data": "13/11/2026",
+              "ora": "17:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport Tennis",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-13T17:00",
+                  "fonte": "virgilio"
+                },
+                {
+                  "nome": "Sky Sport 1",
+                  "numero": "201",
+                  "tipo": "diretta",
+                  "orario": "2026-11-13T17:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "ATP 250 Stoccolma: Finale",
+              "categoria": "Tennis",
+              "sottocartella": "ATP 250 Stoccolma",
+              "sport": "Tennis",
+              "competizione": "ATP 250 Stoccolma",
+              "evento": "Finale",
+              "inizio": "2026-11-14T13:00:00+01:00",
+              "data": "14/11/2026",
+              "ora": "13:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport Tennis",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-14T13:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            }
+          ]
+        },
+        {
+          "nome": "WTA Finals Indian Wells",
+          "totale": 26,
+          "eventi": [
             {
               "titolo": "WTA Finals Indian Wells: Doubles R.R. P1",
               "categoria": "Tennis",
@@ -7340,320 +7612,6 @@
                   "numero": "",
                   "tipo": "diretta",
                   "orario": "2026-11-15T23:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            }
-          ]
-        },
-        {
-          "nome": "ATP 250 Stoccolma",
-          "totale": 12,
-          "eventi": [
-            {
-              "titolo": "ATP 250 Stoccolma: 2a giornata Sess. Diurna",
-              "categoria": "Tennis",
-              "sottocartella": "ATP 250 Stoccolma",
-              "sport": "Tennis",
-              "competizione": "ATP 250 Stoccolma",
-              "evento": "2a giornata Sess. Diurna",
-              "inizio": "2026-11-10T13:00:00+01:00",
-              "data": "10/11/2026",
-              "ora": "13:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport 1",
-                  "numero": "201",
-                  "tipo": "diretta",
-                  "orario": "2026-11-10T13:00",
-                  "fonte": "virgilio"
-                },
-                {
-                  "nome": "Sky Sport Tennis",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-10T13:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "ATP 250 Stoccolma: 2a giornata Sess. Serale",
-              "categoria": "Tennis",
-              "sottocartella": "ATP 250 Stoccolma",
-              "sport": "Tennis",
-              "competizione": "ATP 250 Stoccolma",
-              "evento": "2a giornata Sess. Serale",
-              "inizio": "2026-11-10T18:00:00+01:00",
-              "data": "10/11/2026",
-              "ora": "18:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Tennis",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-10T18:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "ATP 250 Stoccolma: 2a giornata Sessione Serale",
-              "categoria": "Tennis",
-              "sottocartella": "ATP 250 Stoccolma",
-              "sport": "Tennis",
-              "competizione": "ATP 250 Stoccolma",
-              "evento": "2a giornata Sessione Serale",
-              "inizio": "2026-11-10T18:00:00+01:00",
-              "data": "10/11/2026",
-              "ora": "18:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport 1",
-                  "numero": "201",
-                  "tipo": "diretta",
-                  "orario": "2026-11-10T18:00",
-                  "fonte": "virgilio"
-                },
-                {
-                  "nome": "Sky Sport Max",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-10T18:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "ATP 250 Stoccolma: 3a giornata Sess. Diurna",
-              "categoria": "Tennis",
-              "sottocartella": "ATP 250 Stoccolma",
-              "sport": "Tennis",
-              "competizione": "ATP 250 Stoccolma",
-              "evento": "3a giornata Sess. Diurna",
-              "inizio": "2026-11-11T13:00:00+01:00",
-              "data": "11/11/2026",
-              "ora": "13:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Tennis",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-11T13:00",
-                  "fonte": "virgilio"
-                },
-                {
-                  "nome": "Sky Sport 1",
-                  "numero": "201",
-                  "tipo": "diretta",
-                  "orario": "2026-11-11T13:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "ATP 250 Stoccolma: 3a giornata Sess. Serale",
-              "categoria": "Tennis",
-              "sottocartella": "ATP 250 Stoccolma",
-              "sport": "Tennis",
-              "competizione": "ATP 250 Stoccolma",
-              "evento": "3a giornata Sess. Serale",
-              "inizio": "2026-11-11T18:00:00+01:00",
-              "data": "11/11/2026",
-              "ora": "18:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Tennis",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-11T18:00",
-                  "fonte": "virgilio"
-                },
-                {
-                  "nome": "Sky Sport Max",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-11T18:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "ATP 250 Stoccolma: 1^ Quarto di Finale",
-              "categoria": "Tennis",
-              "sottocartella": "ATP 250 Stoccolma",
-              "sport": "Tennis",
-              "competizione": "ATP 250 Stoccolma",
-              "evento": "1^ Quarto di Finale",
-              "inizio": "2026-11-12T13:00:00+01:00",
-              "data": "12/11/2026",
-              "ora": "13:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Tennis",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-12T13:00",
-                  "fonte": "virgilio"
-                },
-                {
-                  "nome": "Sky Sport 1",
-                  "numero": "201",
-                  "tipo": "diretta",
-                  "orario": "2026-11-12T13:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "ATP 250 Stoccolma: 2^ Quarto di Finale",
-              "categoria": "Tennis",
-              "sottocartella": "ATP 250 Stoccolma",
-              "sport": "Tennis",
-              "competizione": "ATP 250 Stoccolma",
-              "evento": "2^ Quarto di Finale",
-              "inizio": "2026-11-12T15:00:00+01:00",
-              "data": "12/11/2026",
-              "ora": "15:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Tennis",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-12T15:00",
-                  "fonte": "virgilio"
-                },
-                {
-                  "nome": "Sky Sport 1",
-                  "numero": "201",
-                  "tipo": "diretta",
-                  "orario": "2026-11-12T15:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "ATP 250 Stoccolma: 3^ Quarto di Finale",
-              "categoria": "Tennis",
-              "sottocartella": "ATP 250 Stoccolma",
-              "sport": "Tennis",
-              "competizione": "ATP 250 Stoccolma",
-              "evento": "3^ Quarto di Finale",
-              "inizio": "2026-11-12T18:30:00+01:00",
-              "data": "12/11/2026",
-              "ora": "18:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport Tennis",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-12T18:30",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "ATP 250 Stoccolma: 4^ Quarto di Finale",
-              "categoria": "Tennis",
-              "sottocartella": "ATP 250 Stoccolma",
-              "sport": "Tennis",
-              "competizione": "ATP 250 Stoccolma",
-              "evento": "4^ Quarto di Finale",
-              "inizio": "2026-11-12T20:30:00+01:00",
-              "data": "12/11/2026",
-              "ora": "20:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport Max",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-12T20:30",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "ATP 250 Stoccolma: 1a Semifinale",
-              "categoria": "Tennis",
-              "sottocartella": "ATP 250 Stoccolma",
-              "sport": "Tennis",
-              "competizione": "ATP 250 Stoccolma",
-              "evento": "1a Semifinale",
-              "inizio": "2026-11-13T14:00:00+01:00",
-              "data": "13/11/2026",
-              "ora": "14:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Tennis",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-13T14:00",
-                  "fonte": "virgilio"
-                },
-                {
-                  "nome": "Sky Sport 1",
-                  "numero": "201",
-                  "tipo": "diretta",
-                  "orario": "2026-11-13T14:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "ATP 250 Stoccolma: 2a Semifinale",
-              "categoria": "Tennis",
-              "sottocartella": "ATP 250 Stoccolma",
-              "sport": "Tennis",
-              "competizione": "ATP 250 Stoccolma",
-              "evento": "2a Semifinale",
-              "inizio": "2026-11-13T17:00:00+01:00",
-              "data": "13/11/2026",
-              "ora": "17:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Tennis",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-13T17:00",
-                  "fonte": "virgilio"
-                },
-                {
-                  "nome": "Sky Sport 1",
-                  "numero": "201",
-                  "tipo": "diretta",
-                  "orario": "2026-11-13T17:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "ATP 250 Stoccolma: Finale",
-              "categoria": "Tennis",
-              "sottocartella": "ATP 250 Stoccolma",
-              "sport": "Tennis",
-              "competizione": "ATP 250 Stoccolma",
-              "evento": "Finale",
-              "inizio": "2026-11-14T13:00:00+01:00",
-              "data": "14/11/2026",
-              "ora": "13:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Tennis",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-14T13:00",
                   "fonte": "virgilio"
                 }
               ],
