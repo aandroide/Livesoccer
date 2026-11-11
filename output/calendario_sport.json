@@ -1,37 +1,16 @@
 {
-  "aggiornato": "2026-11-11T07:42:40+01:00",
+  "aggiornato": "2026-11-11T09:26:21+01:00",
   "fonti": {
     "motori": "Fuori Traiettoria, Dizzle0987/motorsport-calendar, palinsesto TV8",
     "calcio_italiano": "https://raw.githubusercontent.com/aandroide/Livesoccer/master/livesoccertv/output/eventi.json",
     "altri_sport": "https://sport.virgilio.it/guida-tv/"
   },
-  "totale": 174,
+  "totale": 173,
   "cartelle": [
     {
       "nome": "Oggi",
-      "totale": 10,
+      "totale": 9,
       "eventi": [
-        {
-          "titolo": "[Basket] NBA: Portland Trail Blazers-Oklahoma City Thunder",
-          "categoria": "Basket",
-          "sottocartella": "NBA",
-          "sport": "Basket",
-          "competizione": "NBA",
-          "evento": "Portland Trail Blazers-Oklahoma City Thunder",
-          "inizio": "2026-11-11T05:00:00+01:00",
-          "data": "11/11/2026",
-          "ora": "05:00",
-          "canali": [
-            {
-              "nome": "Sky Sport Basket",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-11-11T05:00",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
         {
           "titolo": "[Tennis] ATP 250 Stoccolma: 3a giornata Sess. Diurna",
           "categoria": "Tennis",
@@ -7587,119 +7566,8 @@
     },
     {
       "nome": "Basket",
-      "totale": 18,
+      "totale": 17,
       "sottocartelle": [
-        {
-          "nome": "NBA",
-          "totale": 5,
-          "eventi": [
-            {
-              "titolo": "NBA: Portland Trail Blazers-Oklahoma City Thunder",
-              "categoria": "Basket",
-              "sottocartella": "NBA",
-              "sport": "Basket",
-              "competizione": "NBA",
-              "evento": "Portland Trail Blazers-Oklahoma City Thunder",
-              "inizio": "2026-11-11T05:00:00+01:00",
-              "data": "11/11/2026",
-              "ora": "05:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Basket",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-11T05:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "NBA: Houston Rockets-Golden State Warriors",
-              "categoria": "Basket",
-              "sottocartella": "NBA",
-              "sport": "Basket",
-              "competizione": "NBA",
-              "evento": "Houston Rockets-Golden State Warriors",
-              "inizio": "2026-11-12T03:30:00+01:00",
-              "data": "12/11/2026",
-              "ora": "03:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport Basket",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-12T03:30",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "NBA: Philadelphia 76ers-Toronto Raptors",
-              "categoria": "Basket",
-              "sottocartella": "NBA",
-              "sport": "Basket",
-              "competizione": "NBA",
-              "evento": "Philadelphia 76ers-Toronto Raptors",
-              "inizio": "2026-11-13T01:00:00+01:00",
-              "data": "13/11/2026",
-              "ora": "01:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Basket",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-13T01:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "NBA: Phoenix Suns-Los Angeles Lakers",
-              "categoria": "Basket",
-              "sottocartella": "NBA",
-              "sport": "Basket",
-              "competizione": "NBA",
-              "evento": "Phoenix Suns-Los Angeles Lakers",
-              "inizio": "2026-11-15T22:00:00+01:00",
-              "data": "15/11/2026",
-              "ora": "22:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Basket",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-15T22:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "NBA: Boston Celtics-Orlando Magic",
-              "categoria": "Basket",
-              "sottocartella": "NBA",
-              "sport": "Basket",
-              "competizione": "NBA",
-              "evento": "Boston Celtics-Orlando Magic",
-              "inizio": "2026-11-17T01:00:00+01:00",
-              "data": "17/11/2026",
-              "ora": "01:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Basket",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-17T01:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            }
-          ]
-        },
         {
           "nome": "Eurocup",
           "totale": 3,
@@ -7838,6 +7706,96 @@
                   "numero": "",
                   "tipo": "diretta",
                   "orario": "2026-11-17T18:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            }
+          ]
+        },
+        {
+          "nome": "NBA",
+          "totale": 4,
+          "eventi": [
+            {
+              "titolo": "NBA: Houston Rockets-Golden State Warriors",
+              "categoria": "Basket",
+              "sottocartella": "NBA",
+              "sport": "Basket",
+              "competizione": "NBA",
+              "evento": "Houston Rockets-Golden State Warriors",
+              "inizio": "2026-11-12T03:30:00+01:00",
+              "data": "12/11/2026",
+              "ora": "03:30",
+              "canali": [
+                {
+                  "nome": "Sky Sport Basket",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-12T03:30",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "NBA: Philadelphia 76ers-Toronto Raptors",
+              "categoria": "Basket",
+              "sottocartella": "NBA",
+              "sport": "Basket",
+              "competizione": "NBA",
+              "evento": "Philadelphia 76ers-Toronto Raptors",
+              "inizio": "2026-11-13T01:00:00+01:00",
+              "data": "13/11/2026",
+              "ora": "01:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport Basket",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-13T01:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "NBA: Phoenix Suns-Los Angeles Lakers",
+              "categoria": "Basket",
+              "sottocartella": "NBA",
+              "sport": "Basket",
+              "competizione": "NBA",
+              "evento": "Phoenix Suns-Los Angeles Lakers",
+              "inizio": "2026-11-15T22:00:00+01:00",
+              "data": "15/11/2026",
+              "ora": "22:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport Basket",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-15T22:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "NBA: Boston Celtics-Orlando Magic",
+              "categoria": "Basket",
+              "sottocartella": "NBA",
+              "sport": "Basket",
+              "competizione": "NBA",
+              "evento": "Boston Celtics-Orlando Magic",
+              "inizio": "2026-11-17T01:00:00+01:00",
+              "data": "17/11/2026",
+              "ora": "01:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport Basket",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-17T01:00",
                   "fonte": "virgilio"
                 }
               ],
