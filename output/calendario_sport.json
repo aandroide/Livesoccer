@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-11T09:26:21+01:00",
+  "aggiornato": "2026-11-11T17:46:22+01:00",
   "fonti": {
     "motori": "Fuori Traiettoria, Dizzle0987/motorsport-calendar, palinsesto TV8",
     "calcio_italiano": "https://raw.githubusercontent.com/aandroide/Livesoccer/master/livesoccertv/output/eventi.json",
@@ -11,34 +11,6 @@
       "nome": "Oggi",
       "totale": 9,
       "eventi": [
-        {
-          "titolo": "[Tennis] ATP 250 Stoccolma: 3a giornata Sess. Diurna",
-          "categoria": "Tennis",
-          "sottocartella": "ATP 250 Stoccolma",
-          "sport": "Tennis",
-          "competizione": "ATP 250 Stoccolma",
-          "evento": "3a giornata Sess. Diurna",
-          "inizio": "2026-11-11T13:00:00+01:00",
-          "data": "11/11/2026",
-          "ora": "13:00",
-          "canali": [
-            {
-              "nome": "Sky Sport Tennis",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-11-11T13:00",
-              "fonte": "virgilio"
-            },
-            {
-              "nome": "Sky Sport 1",
-              "numero": "201",
-              "tipo": "diretta",
-              "orario": "2026-11-11T13:00",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
         {
           "titolo": "[Calcio] Qualificazioni Europei U19 Cechia: Italia-Romania",
           "categoria": "Calcio",
@@ -104,6 +76,27 @@
               "numero": "",
               "tipo": "diretta",
               "orario": "2026-11-11T19:00",
+              "fonte": "virgilio"
+            }
+          ],
+          "fonte": "Virgilio Sport"
+        },
+        {
+          "titolo": "[Basket] Eurocup: Derthona Tortona-Hapoel Jerusalem",
+          "categoria": "Basket",
+          "sottocartella": "Eurocup",
+          "sport": "Basket",
+          "competizione": "Eurocup",
+          "evento": "Derthona Tortona-Hapoel Jerusalem",
+          "inizio": "2026-11-11T19:30:00+01:00",
+          "data": "11/11/2026",
+          "ora": "19:30",
+          "canali": [
+            {
+              "nome": "Sky Sport Mix",
+              "numero": "",
+              "tipo": "diretta",
+              "orario": "2026-11-11T19:30",
               "fonte": "virgilio"
             }
           ],
@@ -6646,40 +6639,12 @@
     },
     {
       "nome": "Tennis",
-      "totale": 39,
+      "totale": 38,
       "sottocartelle": [
         {
           "nome": "ATP 250 Stoccolma",
-          "totale": 9,
+          "totale": 8,
           "eventi": [
-            {
-              "titolo": "ATP 250 Stoccolma: 3a giornata Sess. Diurna",
-              "categoria": "Tennis",
-              "sottocartella": "ATP 250 Stoccolma",
-              "sport": "Tennis",
-              "competizione": "ATP 250 Stoccolma",
-              "evento": "3a giornata Sess. Diurna",
-              "inizio": "2026-11-11T13:00:00+01:00",
-              "data": "11/11/2026",
-              "ora": "13:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Tennis",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-11T13:00",
-                  "fonte": "virgilio"
-                },
-                {
-                  "nome": "Sky Sport 1",
-                  "numero": "201",
-                  "tipo": "diretta",
-                  "orario": "2026-11-11T13:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
             {
               "titolo": "ATP 250 Stoccolma: 3a giornata Sess. Serale",
               "categoria": "Tennis",
@@ -7566,11 +7531,11 @@
     },
     {
       "nome": "Basket",
-      "totale": 17,
+      "totale": 18,
       "sottocartelle": [
         {
           "nome": "Eurocup",
-          "totale": 3,
+          "totale": 4,
           "eventi": [
             {
               "titolo": "Eurocup: Niners Chemnitz-Napoli",
@@ -7588,6 +7553,27 @@
                   "numero": "",
                   "tipo": "diretta",
                   "orario": "2026-11-11T19:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "Eurocup: Derthona Tortona-Hapoel Jerusalem",
+              "categoria": "Basket",
+              "sottocartella": "Eurocup",
+              "sport": "Basket",
+              "competizione": "Eurocup",
+              "evento": "Derthona Tortona-Hapoel Jerusalem",
+              "inizio": "2026-11-11T19:30:00+01:00",
+              "data": "11/11/2026",
+              "ora": "19:30",
+              "canali": [
+                {
+                  "nome": "Sky Sport Mix",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-11T19:30",
                   "fonte": "virgilio"
                 }
               ],
