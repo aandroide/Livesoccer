@@ -1,65 +1,16 @@
 {
-  "aggiornato": "2026-11-13T19:13:45+01:00",
+  "aggiornato": "2026-11-13T20:51:05+01:00",
   "fonti": {
     "motori": "Fuori Traiettoria, Dizzle0987/motorsport-calendar, palinsesto TV8",
     "calcio_italiano": "https://raw.githubusercontent.com/aandroide/Livesoccer/master/livesoccertv/output/eventi.json",
     "altri_sport": "https://sport.virgilio.it/guida-tv/"
   },
-  "totale": 169,
+  "totale": 167,
   "cartelle": [
     {
       "nome": "Oggi",
-      "totale": 17,
+      "totale": 15,
       "eventi": [
-        {
-          "titolo": "[Calcio] Qualificazioni Coppa d’Africa: Nigeria-Tanzania",
-          "categoria": "Calcio",
-          "sottocartella": "Qualificazioni Coppa d’Africa",
-          "sport": "Calcio",
-          "competizione": "Qualificazioni Coppa d’Africa",
-          "evento": "Nigeria-Tanzania",
-          "inizio": "2026-11-13T17:00:00+01:00",
-          "data": "13/11/2026",
-          "ora": "17:00",
-          "canali": [
-            {
-              "nome": "Sportitalia",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-11-13T17:00",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Tennis] ATP 250 Stoccolma: 2a Semifinale",
-          "categoria": "Tennis",
-          "sottocartella": "ATP 250 Stoccolma",
-          "sport": "Tennis",
-          "competizione": "ATP 250 Stoccolma",
-          "evento": "2a Semifinale",
-          "inizio": "2026-11-13T17:00:00+01:00",
-          "data": "13/11/2026",
-          "ora": "17:00",
-          "canali": [
-            {
-              "nome": "Sky Sport Tennis",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-11-13T17:00",
-              "fonte": "virgilio"
-            },
-            {
-              "nome": "Sky Sport 1",
-              "numero": "201",
-              "tipo": "diretta",
-              "orario": "2026-11-13T17:00",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
         {
           "titolo": "[Calcio] UEFA Nations League: Moldavia-Kazakistan",
           "categoria": "Calcio",
@@ -7573,7 +7524,7 @@
     },
     {
       "nome": "Calcio",
-      "totale": 46,
+      "totale": 45,
       "sottocartelle": [
         {
           "nome": "Serie A",
@@ -11764,96 +11715,6 @@
                   "numero": "",
                   "tipo": "diretta",
                   "orario": "2026-11-16T20:30",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            }
-          ]
-        },
-        {
-          "nome": "Qualificazioni Coppa d’Africa",
-          "totale": 4,
-          "eventi": [
-            {
-              "titolo": "Qualificazioni Coppa d’Africa: Nigeria-Tanzania",
-              "categoria": "Calcio",
-              "sottocartella": "Qualificazioni Coppa d’Africa",
-              "sport": "Calcio",
-              "competizione": "Qualificazioni Coppa d’Africa",
-              "evento": "Nigeria-Tanzania",
-              "inizio": "2026-11-13T17:00:00+01:00",
-              "data": "13/11/2026",
-              "ora": "17:00",
-              "canali": [
-                {
-                  "nome": "Sportitalia",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-13T17:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "Qualificazioni Coppa d’Africa: Marocco-Niger",
-              "categoria": "Calcio",
-              "sottocartella": "Qualificazioni Coppa d’Africa",
-              "sport": "Calcio",
-              "competizione": "Qualificazioni Coppa d’Africa",
-              "evento": "Marocco-Niger",
-              "inizio": "2026-11-13T21:00:00+01:00",
-              "data": "13/11/2026",
-              "ora": "21:00",
-              "canali": [
-                {
-                  "nome": "Sportitalia",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-13T21:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "Qualificazioni Coppa d’Africa: Uganda-Botswana",
-              "categoria": "Calcio",
-              "sottocartella": "Qualificazioni Coppa d’Africa",
-              "sport": "Calcio",
-              "competizione": "Qualificazioni Coppa d’Africa",
-              "evento": "Uganda-Botswana",
-              "inizio": "2026-11-14T17:00:00+01:00",
-              "data": "14/11/2026",
-              "ora": "17:00",
-              "canali": [
-                {
-                  "nome": "Sportitalia",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-14T17:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "Qualificazioni Coppa d’Africa: Algeria-Togo",
-              "categoria": "Calcio",
-              "sottocartella": "Qualificazioni Coppa d’Africa",
-              "sport": "Calcio",
-              "competizione": "Qualificazioni Coppa d’Africa",
-              "evento": "Algeria-Togo",
-              "inizio": "2026-11-14T20:00:00+01:00",
-              "data": "14/11/2026",
-              "ora": "20:00",
-              "canali": [
-                {
-                  "nome": "Sportitalia",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-14T20:00",
                   "fonte": "virgilio"
                 }
               ],
@@ -20180,6 +20041,75 @@
           ]
         },
         {
+          "nome": "Qualificazioni Coppa d’Africa",
+          "totale": 3,
+          "eventi": [
+            {
+              "titolo": "Qualificazioni Coppa d’Africa: Marocco-Niger",
+              "categoria": "Calcio",
+              "sottocartella": "Qualificazioni Coppa d’Africa",
+              "sport": "Calcio",
+              "competizione": "Qualificazioni Coppa d’Africa",
+              "evento": "Marocco-Niger",
+              "inizio": "2026-11-13T21:00:00+01:00",
+              "data": "13/11/2026",
+              "ora": "21:00",
+              "canali": [
+                {
+                  "nome": "Sportitalia",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-13T21:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "Qualificazioni Coppa d’Africa: Uganda-Botswana",
+              "categoria": "Calcio",
+              "sottocartella": "Qualificazioni Coppa d’Africa",
+              "sport": "Calcio",
+              "competizione": "Qualificazioni Coppa d’Africa",
+              "evento": "Uganda-Botswana",
+              "inizio": "2026-11-14T17:00:00+01:00",
+              "data": "14/11/2026",
+              "ora": "17:00",
+              "canali": [
+                {
+                  "nome": "Sportitalia",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-14T17:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "Qualificazioni Coppa d’Africa: Algeria-Togo",
+              "categoria": "Calcio",
+              "sottocartella": "Qualificazioni Coppa d’Africa",
+              "sport": "Calcio",
+              "competizione": "Qualificazioni Coppa d’Africa",
+              "evento": "Algeria-Togo",
+              "inizio": "2026-11-14T20:00:00+01:00",
+              "data": "14/11/2026",
+              "ora": "20:00",
+              "canali": [
+                {
+                  "nome": "Sportitalia",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-14T20:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            }
+          ]
+        },
+        {
           "nome": "Amichevole",
           "totale": 1,
           "eventi": [
@@ -20237,63 +20167,8 @@
     },
     {
       "nome": "Tennis",
-      "totale": 32,
+      "totale": 31,
       "sottocartelle": [
-        {
-          "nome": "ATP 250 Stoccolma",
-          "totale": 2,
-          "eventi": [
-            {
-              "titolo": "ATP 250 Stoccolma: 2a Semifinale",
-              "categoria": "Tennis",
-              "sottocartella": "ATP 250 Stoccolma",
-              "sport": "Tennis",
-              "competizione": "ATP 250 Stoccolma",
-              "evento": "2a Semifinale",
-              "inizio": "2026-11-13T17:00:00+01:00",
-              "data": "13/11/2026",
-              "ora": "17:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Tennis",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-13T17:00",
-                  "fonte": "virgilio"
-                },
-                {
-                  "nome": "Sky Sport 1",
-                  "numero": "201",
-                  "tipo": "diretta",
-                  "orario": "2026-11-13T17:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "ATP 250 Stoccolma: Finale",
-              "categoria": "Tennis",
-              "sottocartella": "ATP 250 Stoccolma",
-              "sport": "Tennis",
-              "competizione": "ATP 250 Stoccolma",
-              "evento": "Finale",
-              "inizio": "2026-11-14T13:00:00+01:00",
-              "data": "14/11/2026",
-              "ora": "13:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Tennis",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-14T13:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            }
-          ]
-        },
         {
           "nome": "WTA Finals Indian Wells",
           "totale": 12,
@@ -20559,6 +20434,33 @@
                   "numero": "",
                   "tipo": "diretta",
                   "orario": "2026-11-15T23:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            }
+          ]
+        },
+        {
+          "nome": "ATP 250 Stoccolma",
+          "totale": 1,
+          "eventi": [
+            {
+              "titolo": "ATP 250 Stoccolma: Finale",
+              "categoria": "Tennis",
+              "sottocartella": "ATP 250 Stoccolma",
+              "sport": "Tennis",
+              "competizione": "ATP 250 Stoccolma",
+              "evento": "Finale",
+              "inizio": "2026-11-14T13:00:00+01:00",
+              "data": "14/11/2026",
+              "ora": "13:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport Tennis",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-14T13:00",
                   "fonte": "virgilio"
                 }
               ],
