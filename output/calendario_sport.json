@@ -1,58 +1,16 @@
 {
-  "aggiornato": "2026-11-14T02:29:31+01:00",
+  "aggiornato": "2026-11-14T08:16:44+01:00",
   "fonti": {
     "motori": "Fuori Traiettoria, Dizzle0987/motorsport-calendar, palinsesto TV8",
     "calcio_italiano": "https://raw.githubusercontent.com/aandroide/Livesoccer/master/livesoccertv/output/eventi.json",
     "altri_sport": "https://sport.virgilio.it/guida-tv/"
   },
-  "totale": 201,
+  "totale": 199,
   "cartelle": [
     {
       "nome": "Oggi",
-      "totale": 30,
+      "totale": 28,
       "eventi": [
-        {
-          "titolo": "[Tennis] WTA Finals Indian Wells: Doubles R.R. P1",
-          "categoria": "Tennis",
-          "sottocartella": "WTA Finals Indian Wells",
-          "sport": "Tennis",
-          "competizione": "WTA Finals Indian Wells 2026",
-          "evento": "Doubles R.R. P1",
-          "inizio": "2026-11-14T01:00:00+01:00",
-          "data": "14/11/2026",
-          "ora": "01:00",
-          "canali": [
-            {
-              "nome": "Sky Sport Tennis",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-11-14T01:00",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Tennis] WTA Finals Indian Wells: Doubles R.R. P2",
-          "categoria": "Tennis",
-          "sottocartella": "WTA Finals Indian Wells",
-          "sport": "Tennis",
-          "competizione": "WTA Finals Indian Wells 2026",
-          "evento": "Doubles R.R. P2",
-          "inizio": "2026-11-14T02:30:00+01:00",
-          "data": "14/11/2026",
-          "ora": "02:30",
-          "canali": [
-            {
-              "nome": "Sky Sport Tennis",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-11-14T02:30",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
         {
           "titolo": "[Altri sport] Coppa del Mondo – Levi: Slalom F (1a manche): 1a manche",
           "categoria": "Altri sport",
@@ -20400,54 +20358,39 @@
     },
     {
       "nome": "Tennis",
-      "totale": 54,
+      "totale": 52,
       "sottocartelle": [
         {
-          "nome": "WTA Finals Indian Wells",
-          "totale": 10,
+          "nome": "ATP 250 Stoccolma",
+          "totale": 1,
           "eventi": [
             {
-              "titolo": "WTA Finals Indian Wells: Doubles R.R. P1",
+              "titolo": "ATP 250 Stoccolma: Finale",
               "categoria": "Tennis",
-              "sottocartella": "WTA Finals Indian Wells",
+              "sottocartella": "ATP 250 Stoccolma",
               "sport": "Tennis",
-              "competizione": "WTA Finals Indian Wells 2026",
-              "evento": "Doubles R.R. P1",
-              "inizio": "2026-11-14T01:00:00+01:00",
+              "competizione": "ATP 250 Stoccolma",
+              "evento": "Finale",
+              "inizio": "2026-11-14T13:00:00+01:00",
               "data": "14/11/2026",
-              "ora": "01:00",
+              "ora": "13:00",
               "canali": [
                 {
                   "nome": "Sky Sport Tennis",
                   "numero": "",
                   "tipo": "diretta",
-                  "orario": "2026-11-14T01:00",
+                  "orario": "2026-11-14T13:00",
                   "fonte": "virgilio"
                 }
               ],
               "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "WTA Finals Indian Wells: Doubles R.R. P2",
-              "categoria": "Tennis",
-              "sottocartella": "WTA Finals Indian Wells",
-              "sport": "Tennis",
-              "competizione": "WTA Finals Indian Wells 2026",
-              "evento": "Doubles R.R. P2",
-              "inizio": "2026-11-14T02:30:00+01:00",
-              "data": "14/11/2026",
-              "ora": "02:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport Tennis",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-14T02:30",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
+            }
+          ]
+        },
+        {
+          "nome": "WTA Finals Indian Wells",
+          "totale": 8,
+          "eventi": [
             {
               "titolo": "WTA Finals Indian Wells: Singles 1a Semifinale",
               "categoria": "Tennis",
@@ -20618,33 +20561,6 @@
                   "numero": "",
                   "tipo": "diretta",
                   "orario": "2026-11-15T23:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            }
-          ]
-        },
-        {
-          "nome": "ATP 250 Stoccolma",
-          "totale": 1,
-          "eventi": [
-            {
-              "titolo": "ATP 250 Stoccolma: Finale",
-              "categoria": "Tennis",
-              "sottocartella": "ATP 250 Stoccolma",
-              "sport": "Tennis",
-              "competizione": "ATP 250 Stoccolma",
-              "evento": "Finale",
-              "inizio": "2026-11-14T13:00:00+01:00",
-              "data": "14/11/2026",
-              "ora": "13:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Tennis",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-14T13:00",
                   "fonte": "virgilio"
                 }
               ],
