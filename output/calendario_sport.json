@@ -1,315 +1,16 @@
 {
-  "aggiornato": "2026-11-15T12:32:45+01:00",
+  "aggiornato": "2026-11-15T17:26:13+01:00",
   "fonti": {
     "motori": "Fuori Traiettoria, Dizzle0987/motorsport-calendar, palinsesto TV8",
     "calcio_italiano": "https://raw.githubusercontent.com/aandroide/Livesoccer/master/livesoccertv/output/eventi.json",
     "altri_sport": "https://sport.virgilio.it/guida-tv/"
   },
-  "totale": 198,
+  "totale": 188,
   "cartelle": [
     {
       "nome": "Oggi",
-      "totale": 33,
+      "totale": 23,
       "eventi": [
-        {
-          "titolo": "[Altri sport] Coppa del Mondo – Levi: Slalom M (1a manche): 1a manche",
-          "categoria": "Altri sport",
-          "sottocartella": "Sci alpino",
-          "sport": "Sci alpino",
-          "competizione": "Coppa del Mondo – Levi",
-          "evento": "Slalom M (1a manche): 1a manche",
-          "inizio": "2026-11-15T10:00:00+01:00",
-          "data": "15/11/2026",
-          "ora": "10:00",
-          "canali": [
-            {
-              "nome": "Eurosport",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-11-15T10:00",
-              "fonte": "virgilio"
-            },
-            {
-              "nome": "Rai 2",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-11-15T10:00",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Basket] Supercoppa Italiana: Cantù-Giulianova",
-          "categoria": "Basket",
-          "sottocartella": "Supercoppa Italiana",
-          "sport": "Basket in carrozzina",
-          "competizione": "Supercoppa Italiana",
-          "evento": "Cantù-Giulianova",
-          "inizio": "2026-11-15T10:30:00+01:00",
-          "data": "15/11/2026",
-          "ora": "10:30",
-          "canali": [
-            {
-              "nome": "Rai Sport",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-11-15T10:30",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Tennis] WTA Finals Indian Wells: Doubles Finale",
-          "categoria": "Tennis",
-          "sottocartella": "WTA Finals Indian Wells",
-          "sport": "Tennis",
-          "competizione": "WTA Finals Indian Wells 2026",
-          "evento": "Doubles Finale",
-          "inizio": "2026-11-15T11:30:00+01:00",
-          "data": "15/11/2026",
-          "ora": "11:30",
-          "canali": [
-            {
-              "nome": "Sky Sport Tennis",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-11-15T11:30",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Calcio] Serie C: Giugliano vs Savoia",
-          "categoria": "Calcio",
-          "sottocartella": "Serie C",
-          "sport": "Calcio",
-          "competizione": "Serie C",
-          "evento": "Giugliano vs Savoia",
-          "inizio": "2026-11-15T12:30:00+01:00",
-          "data": "15/11/2026",
-          "ora": "12:30",
-          "canali": [
-            {
-              "nome": "Sky Sport 258",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-11-15T12:30",
-              "fonte": "livesoccer"
-            },
-            {
-              "nome": "SKY Go Italia",
-              "numero": "",
-              "tipo": "streaming",
-              "orario": "2026-11-15T12:30",
-              "fonte": "livesoccer"
-            },
-            {
-              "nome": "Sky Sport Arena",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-11-15T12:30",
-              "fonte": "livesoccer"
-            },
-            {
-              "nome": "NOW TV",
-              "numero": "",
-              "tipo": "streaming",
-              "orario": "2026-11-15T12:30",
-              "fonte": "livesoccer"
-            }
-          ],
-          "canali_mondo": [
-            {
-              "paese": "Italia",
-              "canali": [
-                "Sky Sport 258",
-                "SKY Go Italia",
-                "Sky Sport Arena",
-                "NOW TV"
-              ]
-            },
-            {
-              "paese": "San Marino",
-              "canali": [
-                "Sky Sport 258",
-                "SKY Go Italia",
-                "Sky Sport Arena",
-                "NOW TV"
-              ]
-            }
-          ],
-          "fonte": "LiveSoccerTV"
-        },
-        {
-          "titolo": "[Calcio] Serie C: Novara vs Lecco",
-          "categoria": "Calcio",
-          "sottocartella": "Serie C",
-          "sport": "Calcio",
-          "competizione": "Serie C",
-          "evento": "Novara vs Lecco",
-          "inizio": "2026-11-15T12:30:00+01:00",
-          "data": "15/11/2026",
-          "ora": "12:30",
-          "canali": [
-            {
-              "nome": "Sky Sport 257",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-11-15T12:30",
-              "fonte": "livesoccer"
-            },
-            {
-              "nome": "SKY Go Italia",
-              "numero": "",
-              "tipo": "streaming",
-              "orario": "2026-11-15T12:30",
-              "fonte": "livesoccer"
-            },
-            {
-              "nome": "Sky Sport Calcio",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-11-15T12:30",
-              "fonte": "livesoccer"
-            },
-            {
-              "nome": "NOW TV",
-              "numero": "",
-              "tipo": "streaming",
-              "orario": "2026-11-15T12:30",
-              "fonte": "livesoccer"
-            }
-          ],
-          "canali_mondo": [
-            {
-              "paese": "Italia",
-              "canali": [
-                "Sky Sport 257",
-                "SKY Go Italia",
-                "Sky Sport Calcio",
-                "NOW TV"
-              ]
-            },
-            {
-              "paese": "San Marino",
-              "canali": [
-                "Sky Sport 257",
-                "SKY Go Italia",
-                "Sky Sport Calcio",
-                "NOW TV"
-              ]
-            }
-          ],
-          "fonte": "LiveSoccerTV"
-        },
-        {
-          "titolo": "[Altri sport] Coppa del Mondo – Levi: Slalom F (2a manche): 2a manche",
-          "categoria": "Altri sport",
-          "sottocartella": "Sci alpino",
-          "sport": "Sci alpino",
-          "competizione": "Coppa del Mondo – Levi",
-          "evento": "Slalom F (2a manche): 2a manche",
-          "inizio": "2026-11-15T13:00:00+01:00",
-          "data": "15/11/2026",
-          "ora": "13:00",
-          "canali": [
-            {
-              "nome": "Rai Sport",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-11-15T13:00",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Altri sport] Coppa del Mondo – Levi: Slalom M (2a manche): 2a manche",
-          "categoria": "Altri sport",
-          "sottocartella": "Sci alpino",
-          "sport": "Sci alpino",
-          "competizione": "Coppa del Mondo – Levi",
-          "evento": "Slalom M (2a manche): 2a manche",
-          "inizio": "2026-11-15T13:00:00+01:00",
-          "data": "15/11/2026",
-          "ora": "13:00",
-          "canali": [
-            {
-              "nome": "Eurosport",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-11-15T13:00",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Tennis] ATP Finals Torino – 1a giornata (Gruppo McEnroe): Zverev-Jodar: Zverev-Jodar",
-          "categoria": "Tennis",
-          "sottocartella": "ATP Finals Torino – 1a giornata (Gruppo McEnroe)",
-          "sport": "Tennis",
-          "competizione": "ATP Finals Torino 2026 – 1a giornata (Gruppo McEnroe)",
-          "evento": "Zverev-Jodar: Zverev-Jodar",
-          "inizio": "2026-11-15T14:00:00+01:00",
-          "data": "15/11/2026",
-          "ora": "14:00",
-          "canali": [
-            {
-              "nome": "Canale 5",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-11-15T14:00",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Tennis] WTA Finals Indian Wells: Singles Finale",
-          "categoria": "Tennis",
-          "sottocartella": "WTA Finals Indian Wells",
-          "sport": "Tennis",
-          "competizione": "WTA Finals Indian Wells 2026",
-          "evento": "Singles Finale",
-          "inizio": "2026-11-15T14:00:00+01:00",
-          "data": "15/11/2026",
-          "ora": "14:00",
-          "canali": [
-            {
-              "nome": "Sky Sport Tennis",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-11-15T14:00",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Altri sport] Serie A Elite: Padova-Rovigo",
-          "categoria": "Altri sport",
-          "sottocartella": "Rugby",
-          "sport": "Rugby",
-          "competizione": "Serie A Elite",
-          "evento": "Padova-Rovigo",
-          "inizio": "2026-11-15T14:15:00+01:00",
-          "data": "15/11/2026",
-          "ora": "14:15",
-          "canali": [
-            {
-              "nome": "Rai Sport",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-11-15T14:15",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
         {
           "titolo": "[Calcio] Serie C: Cavese vs Crotone",
           "categoria": "Calcio",
@@ -8865,7 +8566,7 @@
     },
     {
       "nome": "Calcio",
-      "totale": 53,
+      "totale": 51,
       "sottocartelle": [
         {
           "nome": "Serie A",
@@ -12991,132 +12692,8 @@
         },
         {
           "nome": "Serie C",
-          "totale": 11,
+          "totale": 9,
           "eventi": [
-            {
-              "titolo": "Serie C: Giugliano vs Savoia",
-              "categoria": "Calcio",
-              "sottocartella": "Serie C",
-              "sport": "Calcio",
-              "competizione": "Serie C",
-              "evento": "Giugliano vs Savoia",
-              "inizio": "2026-11-15T12:30:00+01:00",
-              "data": "15/11/2026",
-              "ora": "12:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport 258",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-15T12:30",
-                  "fonte": "livesoccer"
-                },
-                {
-                  "nome": "SKY Go Italia",
-                  "numero": "",
-                  "tipo": "streaming",
-                  "orario": "2026-11-15T12:30",
-                  "fonte": "livesoccer"
-                },
-                {
-                  "nome": "Sky Sport Arena",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-15T12:30",
-                  "fonte": "livesoccer"
-                },
-                {
-                  "nome": "NOW TV",
-                  "numero": "",
-                  "tipo": "streaming",
-                  "orario": "2026-11-15T12:30",
-                  "fonte": "livesoccer"
-                }
-              ],
-              "canali_mondo": [
-                {
-                  "paese": "Italia",
-                  "canali": [
-                    "Sky Sport 258",
-                    "SKY Go Italia",
-                    "Sky Sport Arena",
-                    "NOW TV"
-                  ]
-                },
-                {
-                  "paese": "San Marino",
-                  "canali": [
-                    "Sky Sport 258",
-                    "SKY Go Italia",
-                    "Sky Sport Arena",
-                    "NOW TV"
-                  ]
-                }
-              ],
-              "fonte": "LiveSoccerTV"
-            },
-            {
-              "titolo": "Serie C: Novara vs Lecco",
-              "categoria": "Calcio",
-              "sottocartella": "Serie C",
-              "sport": "Calcio",
-              "competizione": "Serie C",
-              "evento": "Novara vs Lecco",
-              "inizio": "2026-11-15T12:30:00+01:00",
-              "data": "15/11/2026",
-              "ora": "12:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport 257",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-15T12:30",
-                  "fonte": "livesoccer"
-                },
-                {
-                  "nome": "SKY Go Italia",
-                  "numero": "",
-                  "tipo": "streaming",
-                  "orario": "2026-11-15T12:30",
-                  "fonte": "livesoccer"
-                },
-                {
-                  "nome": "Sky Sport Calcio",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-15T12:30",
-                  "fonte": "livesoccer"
-                },
-                {
-                  "nome": "NOW TV",
-                  "numero": "",
-                  "tipo": "streaming",
-                  "orario": "2026-11-15T12:30",
-                  "fonte": "livesoccer"
-                }
-              ],
-              "canali_mondo": [
-                {
-                  "paese": "Italia",
-                  "canali": [
-                    "Sky Sport 257",
-                    "SKY Go Italia",
-                    "Sky Sport Calcio",
-                    "NOW TV"
-                  ]
-                },
-                {
-                  "paese": "San Marino",
-                  "canali": [
-                    "Sky Sport 257",
-                    "SKY Go Italia",
-                    "Sky Sport Calcio",
-                    "NOW TV"
-                  ]
-                }
-              ],
-              "fonte": "LiveSoccerTV"
-            },
             {
               "titolo": "Serie C: Cavese vs Crotone",
               "categoria": "Calcio",
@@ -23807,125 +23384,8 @@
     },
     {
       "nome": "Tennis",
-      "totale": 51,
+      "totale": 48,
       "sottocartelle": [
-        {
-          "nome": "WTA Finals Indian Wells",
-          "totale": 4,
-          "eventi": [
-            {
-              "titolo": "WTA Finals Indian Wells: Doubles Finale",
-              "categoria": "Tennis",
-              "sottocartella": "WTA Finals Indian Wells",
-              "sport": "Tennis",
-              "competizione": "WTA Finals Indian Wells 2026",
-              "evento": "Doubles Finale",
-              "inizio": "2026-11-15T11:30:00+01:00",
-              "data": "15/11/2026",
-              "ora": "11:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport Tennis",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-15T11:30",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "WTA Finals Indian Wells: Singles Finale",
-              "categoria": "Tennis",
-              "sottocartella": "WTA Finals Indian Wells",
-              "sport": "Tennis",
-              "competizione": "WTA Finals Indian Wells 2026",
-              "evento": "Singles Finale",
-              "inizio": "2026-11-15T14:00:00+01:00",
-              "data": "15/11/2026",
-              "ora": "14:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Tennis",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-15T14:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "WTA Finals Indian Wells: Singles Finale",
-              "categoria": "Tennis",
-              "sottocartella": "WTA Finals Indian Wells",
-              "sport": "Tennis",
-              "competizione": "WTA Finals Indian Wells 2026",
-              "evento": "Singles Finale",
-              "inizio": "2026-11-15T21:00:00+01:00",
-              "data": "15/11/2026",
-              "ora": "21:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Arena",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-15T21:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "WTA Finals Indian Wells: Doubles Finale",
-              "categoria": "Tennis",
-              "sottocartella": "WTA Finals Indian Wells",
-              "sport": "Tennis",
-              "competizione": "WTA Finals Indian Wells 2026",
-              "evento": "Doubles Finale",
-              "inizio": "2026-11-15T23:00:00+01:00",
-              "data": "15/11/2026",
-              "ora": "23:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Arena",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-15T23:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            }
-          ]
-        },
-        {
-          "nome": "ATP Finals Torino – 1a giornata (Gruppo McEnroe)",
-          "totale": 1,
-          "eventi": [
-            {
-              "titolo": "ATP Finals Torino – 1a giornata (Gruppo McEnroe): Zverev-Jodar: Zverev-Jodar",
-              "categoria": "Tennis",
-              "sottocartella": "ATP Finals Torino – 1a giornata (Gruppo McEnroe)",
-              "sport": "Tennis",
-              "competizione": "ATP Finals Torino 2026 – 1a giornata (Gruppo McEnroe)",
-              "evento": "Zverev-Jodar: Zverev-Jodar",
-              "inizio": "2026-11-15T14:00:00+01:00",
-              "data": "15/11/2026",
-              "ora": "14:00",
-              "canali": [
-                {
-                  "nome": "Canale 5",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-15T14:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            }
-          ]
-        },
         {
           "nome": "ATP Finals Torino",
           "totale": 45,
@@ -24878,6 +24338,54 @@
           ]
         },
         {
+          "nome": "WTA Finals Indian Wells",
+          "totale": 2,
+          "eventi": [
+            {
+              "titolo": "WTA Finals Indian Wells: Singles Finale",
+              "categoria": "Tennis",
+              "sottocartella": "WTA Finals Indian Wells",
+              "sport": "Tennis",
+              "competizione": "WTA Finals Indian Wells 2026",
+              "evento": "Singles Finale",
+              "inizio": "2026-11-15T21:00:00+01:00",
+              "data": "15/11/2026",
+              "ora": "21:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport Arena",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-15T21:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "WTA Finals Indian Wells: Doubles Finale",
+              "categoria": "Tennis",
+              "sottocartella": "WTA Finals Indian Wells",
+              "sport": "Tennis",
+              "competizione": "WTA Finals Indian Wells 2026",
+              "evento": "Doubles Finale",
+              "inizio": "2026-11-15T23:00:00+01:00",
+              "data": "15/11/2026",
+              "ora": "23:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport Arena",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-15T23:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            }
+          ]
+        },
+        {
           "nome": "ATP Finals Torino – 1a giornata (Gruppo Lendl)",
           "totale": 1,
           "eventi": [
@@ -24908,35 +24416,8 @@
     },
     {
       "nome": "Basket",
-      "totale": 21,
+      "totale": 20,
       "sottocartelle": [
-        {
-          "nome": "Supercoppa Italiana",
-          "totale": 1,
-          "eventi": [
-            {
-              "titolo": "Supercoppa Italiana: Cantù-Giulianova",
-              "categoria": "Basket",
-              "sottocartella": "Supercoppa Italiana",
-              "sport": "Basket in carrozzina",
-              "competizione": "Supercoppa Italiana",
-              "evento": "Cantù-Giulianova",
-              "inizio": "2026-11-15T10:30:00+01:00",
-              "data": "15/11/2026",
-              "ora": "10:30",
-              "canali": [
-                {
-                  "nome": "Rai Sport",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-15T10:30",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            }
-          ]
-        },
         {
           "nome": "Serie A",
           "totale": 2,
@@ -25472,151 +24953,12 @@
     },
     {
       "nome": "Altri sport",
-      "totale": 14,
+      "totale": 10,
       "sottocartelle": [
         {
-          "nome": "Sci alpino",
-          "totale": 5,
-          "eventi": [
-            {
-              "titolo": "Coppa del Mondo – Levi: Slalom M (1a manche): 1a manche",
-              "categoria": "Altri sport",
-              "sottocartella": "Sci alpino",
-              "sport": "Sci alpino",
-              "competizione": "Coppa del Mondo – Levi",
-              "evento": "Slalom M (1a manche): 1a manche",
-              "inizio": "2026-11-15T10:00:00+01:00",
-              "data": "15/11/2026",
-              "ora": "10:00",
-              "canali": [
-                {
-                  "nome": "Eurosport",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-15T10:00",
-                  "fonte": "virgilio"
-                },
-                {
-                  "nome": "Rai 2",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-15T10:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "Coppa del Mondo – Levi: Slalom F (2a manche): 2a manche",
-              "categoria": "Altri sport",
-              "sottocartella": "Sci alpino",
-              "sport": "Sci alpino",
-              "competizione": "Coppa del Mondo – Levi",
-              "evento": "Slalom F (2a manche): 2a manche",
-              "inizio": "2026-11-15T13:00:00+01:00",
-              "data": "15/11/2026",
-              "ora": "13:00",
-              "canali": [
-                {
-                  "nome": "Rai Sport",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-15T13:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "Coppa del Mondo – Levi: Slalom M (2a manche): 2a manche",
-              "categoria": "Altri sport",
-              "sottocartella": "Sci alpino",
-              "sport": "Sci alpino",
-              "competizione": "Coppa del Mondo – Levi",
-              "evento": "Slalom M (2a manche): 2a manche",
-              "inizio": "2026-11-15T13:00:00+01:00",
-              "data": "15/11/2026",
-              "ora": "13:00",
-              "canali": [
-                {
-                  "nome": "Eurosport",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-15T13:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "Coppa del Mondo – Gurgl: Slalom F (1a manche): 1a manche",
-              "categoria": "Altri sport",
-              "sottocartella": "Sci alpino",
-              "sport": "Sci alpino",
-              "competizione": "Coppa del Mondo – Gurgl",
-              "evento": "Slalom F (1a manche): 1a manche",
-              "inizio": "2026-11-21T10:30:00+01:00",
-              "data": "21/11/2026",
-              "ora": "10:30",
-              "canali": [
-                {
-                  "nome": "Eurosport",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-21T10:30",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "Coppa del Mondo – Gurgl: Slalom F (2a manche): 2a manche",
-              "categoria": "Altri sport",
-              "sottocartella": "Sci alpino",
-              "sport": "Sci alpino",
-              "competizione": "Coppa del Mondo – Gurgl",
-              "evento": "Slalom F (2a manche): 2a manche",
-              "inizio": "2026-11-21T13:30:00+01:00",
-              "data": "21/11/2026",
-              "ora": "13:30",
-              "canali": [
-                {
-                  "nome": "Eurosport",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-21T13:30",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            }
-          ]
-        },
-        {
           "nome": "Rugby",
-          "totale": 9,
+          "totale": 8,
           "eventi": [
-            {
-              "titolo": "Serie A Elite: Padova-Rovigo",
-              "categoria": "Altri sport",
-              "sottocartella": "Rugby",
-              "sport": "Rugby",
-              "competizione": "Serie A Elite",
-              "evento": "Padova-Rovigo",
-              "inizio": "2026-11-15T14:15:00+01:00",
-              "data": "15/11/2026",
-              "ora": "14:15",
-              "canali": [
-                {
-                  "nome": "Rai Sport",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-15T14:15",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
             {
               "titolo": "Nations Championship: Scozia-Australia",
               "categoria": "Altri sport",
@@ -25787,6 +25129,54 @@
                   "numero": "",
                   "tipo": "diretta",
                   "orario": "2026-11-21T21:10",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            }
+          ]
+        },
+        {
+          "nome": "Sci alpino",
+          "totale": 2,
+          "eventi": [
+            {
+              "titolo": "Coppa del Mondo – Gurgl: Slalom F (1a manche): 1a manche",
+              "categoria": "Altri sport",
+              "sottocartella": "Sci alpino",
+              "sport": "Sci alpino",
+              "competizione": "Coppa del Mondo – Gurgl",
+              "evento": "Slalom F (1a manche): 1a manche",
+              "inizio": "2026-11-21T10:30:00+01:00",
+              "data": "21/11/2026",
+              "ora": "10:30",
+              "canali": [
+                {
+                  "nome": "Eurosport",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-21T10:30",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "Coppa del Mondo – Gurgl: Slalom F (2a manche): 2a manche",
+              "categoria": "Altri sport",
+              "sottocartella": "Sci alpino",
+              "sport": "Sci alpino",
+              "competizione": "Coppa del Mondo – Gurgl",
+              "evento": "Slalom F (2a manche): 2a manche",
+              "inizio": "2026-11-21T13:30:00+01:00",
+              "data": "21/11/2026",
+              "ora": "13:30",
+              "canali": [
+                {
+                  "nome": "Eurosport",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-21T13:30",
                   "fonte": "virgilio"
                 }
               ],
