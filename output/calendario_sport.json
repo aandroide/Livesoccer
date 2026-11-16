@@ -1,11 +1,11 @@
 {
-  "aggiornato": "2026-11-16T00:14:51+01:00",
+  "aggiornato": "2026-11-16T04:10:22+01:00",
   "fonti": {
     "motori": "Fuori Traiettoria, Dizzle0987/motorsport-calendar, palinsesto TV8",
     "calcio_italiano": "https://raw.githubusercontent.com/aandroide/Livesoccer/master/livesoccertv/output/eventi.json",
     "altri_sport": "https://sport.virgilio.it/guida-tv/"
   },
-  "totale": 190,
+  "totale": 191,
   "cartelle": [
     {
       "nome": "Oggi",
@@ -8225,7 +8225,7 @@
     },
     {
       "nome": "Calcio",
-      "totale": 56,
+      "totale": 57,
       "sottocartelle": [
         {
           "nome": "Serie A",
@@ -12781,6 +12781,20 @@
               "ora": "20:30",
               "canali": [
                 {
+                  "nome": "SKY Go Italia",
+                  "numero": "",
+                  "tipo": "streaming",
+                  "orario": "2026-11-20T20:30",
+                  "fonte": "livesoccer"
+                },
+                {
+                  "nome": "NOW TV",
+                  "numero": "",
+                  "tipo": "streaming",
+                  "orario": "2026-11-20T20:30",
+                  "fonte": "livesoccer"
+                },
+                {
                   "nome": "Sky Sport Mix",
                   "numero": "",
                   "tipo": "diretta",
@@ -12788,7 +12802,22 @@
                   "fonte": "virgilio"
                 }
               ],
-              "canali_mondo": [],
+              "canali_mondo": [
+                {
+                  "paese": "Italia",
+                  "canali": [
+                    "SKY Go Italia",
+                    "NOW TV"
+                  ]
+                },
+                {
+                  "paese": "San Marino",
+                  "canali": [
+                    "SKY Go Italia",
+                    "NOW TV"
+                  ]
+                }
+              ],
               "fonte": "LiveSoccerTV"
             },
             {
@@ -12923,7 +12952,7 @@
         },
         {
           "nome": "UEFA Nations League",
-          "totale": 9,
+          "totale": 10,
           "eventi": [
             {
               "titolo": "UEFA Nations League: Isole Faroe vs Moldavia",
@@ -21303,6 +21332,1137 @@
                 }
               ],
               "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "UEFA Nations League: Ungheria vs Irlanda del Nord",
+              "categoria": "Calcio",
+              "sottocartella": "UEFA Nations League",
+              "sport": "Calcio",
+              "competizione": "UEFA Nations League",
+              "evento": "Ungheria vs Irlanda del Nord",
+              "inizio": "2026-11-18T04:00:00+01:00",
+              "data": "18/11/2026",
+              "ora": "04:00",
+              "canali": [
+                {
+                  "nome": "SKY Go Italia",
+                  "numero": "",
+                  "tipo": "streaming",
+                  "orario": "2026-11-18T04:00",
+                  "fonte": "livesoccer"
+                },
+                {
+                  "nome": "Sky Sport Calcio",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-18T04:00",
+                  "fonte": "livesoccer"
+                },
+                {
+                  "nome": "NOW TV",
+                  "numero": "",
+                  "tipo": "streaming",
+                  "orario": "2026-11-18T04:00",
+                  "fonte": "livesoccer"
+                }
+              ],
+              "canali_mondo": [
+                {
+                  "paese": "Algeria",
+                  "canali": [
+                    "L'Équipe Live Foot",
+                    "L'Équipe Live Foot",
+                    "beIN SPORTS CONNECT"
+                  ]
+                },
+                {
+                  "paese": "Andorra",
+                  "canali": [
+                    "DAZN Spain",
+                    "L'Équipe Live Foot"
+                  ]
+                },
+                {
+                  "paese": "Angola",
+                  "canali": [
+                    "DStv Now",
+                    "SuperSport Action Africa"
+                  ]
+                },
+                {
+                  "paese": "Anguilla",
+                  "canali": [
+                    "Bluu"
+                  ]
+                },
+                {
+                  "paese": "Antigua e Barbuda",
+                  "canali": [
+                    "Bluu"
+                  ]
+                },
+                {
+                  "paese": "Argentina",
+                  "canali": [
+                    "Disney+ Premium Argentina"
+                  ]
+                },
+                {
+                  "paese": "Armenia",
+                  "canali": [
+                    "FAST TV"
+                  ]
+                },
+                {
+                  "paese": "Aruba",
+                  "canali": [
+                    "Bluu"
+                  ]
+                },
+                {
+                  "paese": "Australia",
+                  "canali": [
+                    "beIN Sports Connect"
+                  ]
+                },
+                {
+                  "paese": "Austria",
+                  "canali": [
+                    "DAZN Austria"
+                  ]
+                },
+                {
+                  "paese": "Bahamas",
+                  "canali": [
+                    "Bluu"
+                  ]
+                },
+                {
+                  "paese": "Bahrain",
+                  "canali": [
+                    "beIN SPORTS CONNECT"
+                  ]
+                },
+                {
+                  "paese": "Bangladesh",
+                  "canali": [
+                    "Sony LIV",
+                    "tapmad"
+                  ]
+                },
+                {
+                  "paese": "Barbados",
+                  "canali": [
+                    "Bluu"
+                  ]
+                },
+                {
+                  "paese": "Bielorussia",
+                  "canali": [
+                    "Okko Спорт"
+                  ]
+                },
+                {
+                  "paese": "Belgio",
+                  "canali": [
+                    "DAZN Belgium"
+                  ]
+                },
+                {
+                  "paese": "Benin",
+                  "canali": [
+                    "SuperSport Action Africa"
+                  ]
+                },
+                {
+                  "paese": "Bermuda",
+                  "canali": [
+                    "Bluu"
+                  ]
+                },
+                {
+                  "paese": "Bhutan",
+                  "canali": [
+                    "Sony LIV"
+                  ]
+                },
+                {
+                  "paese": "Bolivia",
+                  "canali": [
+                    "Disney+ Premium Chile"
+                  ]
+                },
+                {
+                  "paese": "Botswana",
+                  "canali": [
+                    "DStv Now",
+                    "SuperSport Action Africa"
+                  ]
+                },
+                {
+                  "paese": "Brasile",
+                  "canali": [
+                    "Disney+ Premium Brazil"
+                  ]
+                },
+                {
+                  "paese": "Isole Vergini britanniche",
+                  "canali": [
+                    "Bluu"
+                  ]
+                },
+                {
+                  "paese": "Bulgaria",
+                  "canali": [
+                    "Diema Sport",
+                    "Play Diema Xtra"
+                  ]
+                },
+                {
+                  "paese": "Burkina Faso",
+                  "canali": [
+                    "DStv Now",
+                    "SuperSport Action Africa"
+                  ]
+                },
+                {
+                  "paese": "Burundi",
+                  "canali": [
+                    "DStv Now",
+                    "SuperSport Action Africa"
+                  ]
+                },
+                {
+                  "paese": "Cambogia",
+                  "canali": [
+                    "MONOMAX"
+                  ]
+                },
+                {
+                  "paese": "Camerun",
+                  "canali": [
+                    "DStv Now",
+                    "SuperSport Action Africa"
+                  ]
+                },
+                {
+                  "paese": "Canada",
+                  "canali": [
+                    "DAZN Canada",
+                    "fuboTV Canada"
+                  ]
+                },
+                {
+                  "paese": "Capo Verde",
+                  "canali": [
+                    "DStv Now",
+                    "SuperSport Action Africa"
+                  ]
+                },
+                {
+                  "paese": "Isole Cayman",
+                  "canali": [
+                    "Bluu"
+                  ]
+                },
+                {
+                  "paese": "Repubblica Centrafricana",
+                  "canali": [
+                    "SuperSport Action Africa"
+                  ]
+                },
+                {
+                  "paese": "Ciad",
+                  "canali": [
+                    "beIN SPORTS CONNECT",
+                    "DStv Now",
+                    "SuperSport Action Africa"
+                  ]
+                },
+                {
+                  "paese": "Cile",
+                  "canali": [
+                    "Disney+ Premium Chile"
+                  ]
+                },
+                {
+                  "paese": "Cina",
+                  "canali": [
+                    "iQiyi"
+                  ]
+                },
+                {
+                  "paese": "Taipei cinese",
+                  "canali": [
+                    "eltaott.tv"
+                  ]
+                },
+                {
+                  "paese": "Colombia",
+                  "canali": [
+                    "Disney+ Premium Sur"
+                  ]
+                },
+                {
+                  "paese": "Comore",
+                  "canali": [
+                    "SuperSport Action Africa"
+                  ]
+                },
+                {
+                  "paese": "Repubblica Democratica del Congo",
+                  "canali": [
+                    "DStv Now",
+                    "SuperSport Action Africa",
+                    "SuperSport Action Africa"
+                  ]
+                },
+                {
+                  "paese": "Costa Rica",
+                  "canali": [
+                    "Disney+ Premium Norte"
+                  ]
+                },
+                {
+                  "paese": "Cipro",
+                  "canali": [
+                    "Novasports Extra 2"
+                  ]
+                },
+                {
+                  "paese": "Costa d'Avorio",
+                  "canali": [
+                    "DStv Now",
+                    "SuperSport Action Africa"
+                  ]
+                },
+                {
+                  "paese": "Danimarca",
+                  "canali": [
+                    "TV2 Play Denmark"
+                  ]
+                },
+                {
+                  "paese": "Gibuti",
+                  "canali": [
+                    "beIN SPORTS CONNECT",
+                    "DStv Now",
+                    "SuperSport Action Africa"
+                  ]
+                },
+                {
+                  "paese": "Dominica",
+                  "canali": [
+                    "Bluu"
+                  ]
+                },
+                {
+                  "paese": "Repubblica Dominicana",
+                  "canali": [
+                    "Disney+ Premium Norte"
+                  ]
+                },
+                {
+                  "paese": "Ecuador",
+                  "canali": [
+                    "Disney+ Premium Sur"
+                  ]
+                },
+                {
+                  "paese": "Egitto",
+                  "canali": [
+                    "beIN SPORTS CONNECT"
+                  ]
+                },
+                {
+                  "paese": "El Salvador",
+                  "canali": [
+                    "Disney+ Premium Norte"
+                  ]
+                },
+                {
+                  "paese": "Guinea Equatoriale",
+                  "canali": [
+                    "DStv Now",
+                    "SuperSport Action Africa"
+                  ]
+                },
+                {
+                  "paese": "Eritrea",
+                  "canali": [
+                    "DStv Now",
+                    "SuperSport Action Africa"
+                  ]
+                },
+                {
+                  "paese": "Estonia",
+                  "canali": [
+                    "Go3 Extra Sports Estonia"
+                  ]
+                },
+                {
+                  "paese": "Etiopia",
+                  "canali": [
+                    "DStv Now",
+                    "SuperSport Action Africa"
+                  ]
+                },
+                {
+                  "paese": "Isole Faroe",
+                  "canali": [
+                    "TV2 Play Denmark"
+                  ]
+                },
+                {
+                  "paese": "Finlandia",
+                  "canali": [
+                    "MTV Katsomo"
+                  ]
+                },
+                {
+                  "paese": "Francia",
+                  "canali": [
+                    "L'Équipe Live Foot"
+                  ]
+                },
+                {
+                  "paese": "Guyana francese",
+                  "canali": [
+                    "L'Équipe Live Foot"
+                  ]
+                },
+                {
+                  "paese": "Gabon",
+                  "canali": [
+                    "DStv Now",
+                    "SuperSport Action Africa"
+                  ]
+                },
+                {
+                  "paese": "Gambia",
+                  "canali": [
+                    "DStv Now",
+                    "SuperSport Action Africa"
+                  ]
+                },
+                {
+                  "paese": "Germania",
+                  "canali": [
+                    "DAZN Deutschland"
+                  ]
+                },
+                {
+                  "paese": "Ghana",
+                  "canali": [
+                    "DStv Now",
+                    "SuperSport Action Africa"
+                  ]
+                },
+                {
+                  "paese": "Gran Bretagna",
+                  "canali": [
+                    "BBC3",
+                    "BBC Sport Web",
+                    "BBC Northern Ireland",
+                    "BBC iPlayer"
+                  ]
+                },
+                {
+                  "paese": "Grecia",
+                  "canali": [
+                    "Novasports Extra 2"
+                  ]
+                },
+                {
+                  "paese": "Grenada",
+                  "canali": [
+                    "Bluu"
+                  ]
+                },
+                {
+                  "paese": "Guadalupa",
+                  "canali": [
+                    "L'Équipe Live Foot"
+                  ]
+                },
+                {
+                  "paese": "Guatemala",
+                  "canali": [
+                    "Disney+ Premium Norte"
+                  ]
+                },
+                {
+                  "paese": "Guinea",
+                  "canali": [
+                    "DStv Now",
+                    "SuperSport Action Africa"
+                  ]
+                },
+                {
+                  "paese": "Guinea-Bissau",
+                  "canali": [
+                    "DStv Now",
+                    "SuperSport Action Africa"
+                  ]
+                },
+                {
+                  "paese": "Guyana",
+                  "canali": [
+                    "L'Équipe Live Foot"
+                  ]
+                },
+                {
+                  "paese": "Honduras",
+                  "canali": [
+                    "Disney+ Premium Norte"
+                  ]
+                },
+                {
+                  "paese": "Ungheria",
+                  "canali": [
+                    "M4 Sports"
+                  ]
+                },
+                {
+                  "paese": "Islanda",
+                  "canali": [
+                    "Viaplay Iceland"
+                  ]
+                },
+                {
+                  "paese": "India",
+                  "canali": [
+                    "Sony LIV",
+                    "JioTV"
+                  ]
+                },
+                {
+                  "paese": "Internazionale",
+                  "canali": [
+                    "UEFA.tv"
+                  ]
+                },
+                {
+                  "paese": "Iran",
+                  "canali": [
+                    "beIN SPORTS CONNECT"
+                  ]
+                },
+                {
+                  "paese": "Iraq",
+                  "canali": [
+                    "beIN SPORTS CONNECT"
+                  ]
+                },
+                {
+                  "paese": "Irlanda",
+                  "canali": [
+                    "BBC3",
+                    "BBC Sport Web",
+                    "BBC Northern Ireland",
+                    "BBC iPlayer",
+                    "Virgin Media Three"
+                  ]
+                },
+                {
+                  "paese": "Italia",
+                  "canali": [
+                    "SKY Go Italia",
+                    "Sky Sport Calcio",
+                    "NOW TV"
+                  ]
+                },
+                {
+                  "paese": "Giamaica",
+                  "canali": [
+                    "Bluu"
+                  ]
+                },
+                {
+                  "paese": "Giappone",
+                  "canali": [
+                    "DAZN Japan"
+                  ]
+                },
+                {
+                  "paese": "Giordania",
+                  "canali": [
+                    "beIN SPORTS CONNECT"
+                  ]
+                },
+                {
+                  "paese": "Kenya",
+                  "canali": [
+                    "DStv Now",
+                    "SuperSport Action Africa",
+                    "GOtv"
+                  ]
+                },
+                {
+                  "paese": "Corea del Sud",
+                  "canali": [
+                    "SPOTV NOW"
+                  ]
+                },
+                {
+                  "paese": "Kuwait",
+                  "canali": [
+                    "beIN SPORTS CONNECT"
+                  ]
+                },
+                {
+                  "paese": "Laos",
+                  "canali": [
+                    "MONOMAX"
+                  ]
+                },
+                {
+                  "paese": "Lettonia",
+                  "canali": [
+                    "Go3 Extra Sports Latvia"
+                  ]
+                },
+                {
+                  "paese": "Libano",
+                  "canali": [
+                    "beIN SPORTS CONNECT"
+                  ]
+                },
+                {
+                  "paese": "Lesotho",
+                  "canali": [
+                    "DStv Now",
+                    "SuperSport Action Africa"
+                  ]
+                },
+                {
+                  "paese": "Liberia",
+                  "canali": [
+                    "DStv Now",
+                    "SuperSport Action Africa"
+                  ]
+                },
+                {
+                  "paese": "Libia",
+                  "canali": [
+                    "beIN SPORTS CONNECT"
+                  ]
+                },
+                {
+                  "paese": "Liechtenstein",
+                  "canali": [
+                    "DAZN Deutschland"
+                  ]
+                },
+                {
+                  "paese": "Lituania",
+                  "canali": [
+                    "Go3 Extra Sports Lithuania"
+                  ]
+                },
+                {
+                  "paese": "Macao",
+                  "canali": [
+                    "iQiyi"
+                  ]
+                },
+                {
+                  "paese": "Macedonia",
+                  "canali": [
+                    "Arena Cloud"
+                  ]
+                },
+                {
+                  "paese": "Madagascar",
+                  "canali": [
+                    "DStv Now",
+                    "SuperSport Action Africa"
+                  ]
+                },
+                {
+                  "paese": "Malawi",
+                  "canali": [
+                    "DStv Now",
+                    "SuperSport Action Africa"
+                  ]
+                },
+                {
+                  "paese": "Maldive",
+                  "canali": [
+                    "Sony LIV"
+                  ]
+                },
+                {
+                  "paese": "Mali",
+                  "canali": [
+                    "DStv Now",
+                    "SuperSport Action Africa"
+                  ]
+                },
+                {
+                  "paese": "Mauritania",
+                  "canali": [
+                    "beIN SPORTS CONNECT",
+                    "DStv Now",
+                    "SuperSport Action Africa"
+                  ]
+                },
+                {
+                  "paese": "Mauritius",
+                  "canali": [
+                    "DStv Now",
+                    "SuperSport Action Africa",
+                    "L'Équipe Live Foot"
+                  ]
+                },
+                {
+                  "paese": "Mayotte",
+                  "canali": [
+                    "SuperSport Action Africa",
+                    "L'Équipe Live Foot"
+                  ]
+                },
+                {
+                  "paese": "Messico",
+                  "canali": [
+                    "Sky Sports Mexico",
+                    "Sky+",
+                    "izzi"
+                  ]
+                },
+                {
+                  "paese": "Moldavia",
+                  "canali": [
+                    "Okko Спорт"
+                  ]
+                },
+                {
+                  "paese": "Monaco",
+                  "canali": [
+                    "L'Équipe Live Foot"
+                  ]
+                },
+                {
+                  "paese": "Montenegro",
+                  "canali": [
+                    "Arena Cloud"
+                  ]
+                },
+                {
+                  "paese": "Montserrat",
+                  "canali": [
+                    "Bluu"
+                  ]
+                },
+                {
+                  "paese": "Marocco",
+                  "canali": [
+                    "beIN SPORTS CONNECT"
+                  ]
+                },
+                {
+                  "paese": "Mozambico",
+                  "canali": [
+                    "DStv Now",
+                    "SuperSport Action Africa"
+                  ]
+                },
+                {
+                  "paese": "Namibia",
+                  "canali": [
+                    "DStv Now",
+                    "SuperSport Action Africa"
+                  ]
+                },
+                {
+                  "paese": "Nepal",
+                  "canali": [
+                    "Sony LIV"
+                  ]
+                },
+                {
+                  "paese": "Nuova Caledonia",
+                  "canali": [
+                    "L'Équipe Live Foot"
+                  ]
+                },
+                {
+                  "paese": "Nuova Zelanda",
+                  "canali": [
+                    "beIN Sports Connect New Zealand"
+                  ]
+                },
+                {
+                  "paese": "Nicaragua",
+                  "canali": [
+                    "Disney+ Premium Norte"
+                  ]
+                },
+                {
+                  "paese": "Niger",
+                  "canali": [
+                    "DStv Now",
+                    "SuperSport Action Africa"
+                  ]
+                },
+                {
+                  "paese": "Nigeria",
+                  "canali": [
+                    "DStv Now",
+                    "SuperSport Action Africa"
+                  ]
+                },
+                {
+                  "paese": "Norvegia",
+                  "canali": [
+                    "Viaplay Norway",
+                    "TV 2 Play"
+                  ]
+                },
+                {
+                  "paese": "Oman",
+                  "canali": [
+                    "beIN SPORTS CONNECT"
+                  ]
+                },
+                {
+                  "paese": "Pakistan",
+                  "canali": [
+                    "Sony LIV",
+                    "tapmad"
+                  ]
+                },
+                {
+                  "paese": "Palestina",
+                  "canali": [
+                    "beIN SPORTS CONNECT"
+                  ]
+                },
+                {
+                  "paese": "Panama",
+                  "canali": [
+                    "Disney+ Premium Norte"
+                  ]
+                },
+                {
+                  "paese": "Paraguay",
+                  "canali": [
+                    "Disney+ Premium Argentina"
+                  ]
+                },
+                {
+                  "paese": "Perù",
+                  "canali": [
+                    "Disney+ Premium Chile"
+                  ]
+                },
+                {
+                  "paese": "Polonia",
+                  "canali": [
+                    "Polsat Box Go",
+                    "Polsat Sport Extra"
+                  ]
+                },
+                {
+                  "paese": "Portogallo",
+                  "canali": [
+                    "Sport TV Multiscreen",
+                    "Match Player",
+                    "Sport TV7"
+                  ]
+                },
+                {
+                  "paese": "Porto Rico",
+                  "canali": [
+                    "Fox Sports 2",
+                    "ViX",
+                    "NAICOM"
+                  ]
+                },
+                {
+                  "paese": "Qatar",
+                  "canali": [
+                    "beIN SPORTS CONNECT"
+                  ]
+                },
+                {
+                  "paese": "Reunion",
+                  "canali": [
+                    "SuperSport Action Africa",
+                    "L'Équipe Live Foot"
+                  ]
+                },
+                {
+                  "paese": "Romania",
+                  "canali": [
+                    "Orange TV Go",
+                    "Prima Sport 3",
+                    "Prima Play"
+                  ]
+                },
+                {
+                  "paese": "Russia",
+                  "canali": [
+                    "Okko Спорт"
+                  ]
+                },
+                {
+                  "paese": "Ruanda",
+                  "canali": [
+                    "SuperSport Action Africa"
+                  ]
+                },
+                {
+                  "paese": "Saint Helena",
+                  "canali": [
+                    "SuperSport Action Africa"
+                  ]
+                },
+                {
+                  "paese": "Saint Kitts e Nevis",
+                  "canali": [
+                    "Bluu"
+                  ]
+                },
+                {
+                  "paese": "Santa Lucia",
+                  "canali": [
+                    "Bluu"
+                  ]
+                },
+                {
+                  "paese": "San Marino",
+                  "canali": [
+                    "SKY Go Italia",
+                    "Sky Sport Calcio",
+                    "NOW TV"
+                  ]
+                },
+                {
+                  "paese": "Arabia Saudita",
+                  "canali": [
+                    "beIN SPORTS CONNECT"
+                  ]
+                },
+                {
+                  "paese": "Senegal",
+                  "canali": [
+                    "DStv Now",
+                    "SuperSport Action Africa"
+                  ]
+                },
+                {
+                  "paese": "Serbia",
+                  "canali": [
+                    "Arena Sport 7 Serbia",
+                    "Arena Cloud"
+                  ]
+                },
+                {
+                  "paese": "Seychelles",
+                  "canali": [
+                    "Bluu",
+                    "DStv Now",
+                    "SuperSport Action Africa"
+                  ]
+                },
+                {
+                  "paese": "Sierra Leone",
+                  "canali": [
+                    "DStv Now",
+                    "SuperSport Action Africa"
+                  ]
+                },
+                {
+                  "paese": "Somalia",
+                  "canali": [
+                    "beIN SPORTS CONNECT",
+                    "SuperSport Action Africa"
+                  ]
+                },
+                {
+                  "paese": "Sudafrica",
+                  "canali": [
+                    "SuperSport Action",
+                    "DStv App",
+                    "SuperSport Action Africa"
+                  ]
+                },
+                {
+                  "paese": "Sud Sudan",
+                  "canali": [
+                    "beIN SPORTS CONNECT",
+                    "DStv Now"
+                  ]
+                },
+                {
+                  "paese": "Spagna",
+                  "canali": [
+                    "DAZN Spain"
+                  ]
+                },
+                {
+                  "paese": "Sri Lanka",
+                  "canali": [
+                    "Sony LIV"
+                  ]
+                },
+                {
+                  "paese": "St. Vincent / Grenadines",
+                  "canali": [
+                    "Bluu"
+                  ]
+                },
+                {
+                  "paese": "Sudan",
+                  "canali": [
+                    "beIN SPORTS CONNECT",
+                    "DStv Now",
+                    "SuperSport Action Africa"
+                  ]
+                },
+                {
+                  "paese": "Suriname",
+                  "canali": [
+                    "Bluu"
+                  ]
+                },
+                {
+                  "paese": "Swaziland",
+                  "canali": [
+                    "DStv Now",
+                    "SuperSport Action Africa"
+                  ]
+                },
+                {
+                  "paese": "Svezia",
+                  "canali": [
+                    "Viaplay Sweden"
+                  ]
+                },
+                {
+                  "paese": "Svizzera",
+                  "canali": [
+                    "DAZN Switzerland"
+                  ]
+                },
+                {
+                  "paese": "Siria",
+                  "canali": [
+                    "beIN SPORTS CONNECT"
+                  ]
+                },
+                {
+                  "paese": "São Tomé and Príncipe",
+                  "canali": [
+                    "SuperSport Action Africa"
+                  ]
+                },
+                {
+                  "paese": "Tahiti",
+                  "canali": [
+                    "L'Équipe Live Foot"
+                  ]
+                },
+                {
+                  "paese": "Tanzania",
+                  "canali": [
+                    "DStv Now",
+                    "SuperSport Action Africa"
+                  ]
+                },
+                {
+                  "paese": "Thailandia",
+                  "canali": [
+                    "MONOMAX"
+                  ]
+                },
+                {
+                  "paese": "Togo",
+                  "canali": [
+                    "DStv Now",
+                    "SuperSport Action Africa"
+                  ]
+                },
+                {
+                  "paese": "Trinidad e Tobago",
+                  "canali": [
+                    "Bluu"
+                  ]
+                },
+                {
+                  "paese": "Tunisia",
+                  "canali": [
+                    "beIN SPORTS CONNECT"
+                  ]
+                },
+                {
+                  "paese": "Turks e Caicos",
+                  "canali": [
+                    "Bluu"
+                  ]
+                },
+                {
+                  "paese": "Uganda",
+                  "canali": [
+                    "DStv Now",
+                    "SuperSport Action Africa"
+                  ]
+                },
+                {
+                  "paese": "Emirati Arabi Uniti",
+                  "canali": [
+                    "beIN SPORTS CONNECT"
+                  ]
+                },
+                {
+                  "paese": "Uruguay",
+                  "canali": [
+                    "Disney+ Premium Argentina"
+                  ]
+                },
+                {
+                  "paese": "USA",
+                  "canali": [
+                    "Fox Sports 2",
+                    "fuboTV",
+                    "ViX",
+                    "FOX One"
+                  ]
+                },
+                {
+                  "paese": "Venezuela",
+                  "canali": [
+                    "Disney+ Premium Sur"
+                  ]
+                },
+                {
+                  "paese": "Vietnam",
+                  "canali": [
+                    "TV 360"
+                  ]
+                },
+                {
+                  "paese": "Yemen",
+                  "canali": [
+                    "beIN SPORTS CONNECT"
+                  ]
+                },
+                {
+                  "paese": "Zambia",
+                  "canali": [
+                    "SuperSport Action Africa"
+                  ]
+                },
+                {
+                  "paese": "Zimbabwe",
+                  "canali": [
+                    "DStv Now",
+                    "SuperSport Action Africa"
+                  ]
+                }
+              ],
+              "fonte": "LiveSoccerTV"
             }
           ]
         },
