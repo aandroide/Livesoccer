@@ -1,37 +1,16 @@
 {
-  "aggiornato": "2026-11-18T06:01:31+01:00",
+  "aggiornato": "2026-11-18T12:55:43+01:00",
   "fonti": {
     "motori": "Fuori Traiettoria, Dizzle0987/motorsport-calendar, palinsesto TV8",
     "calcio_italiano": "https://raw.githubusercontent.com/aandroide/Livesoccer/master/livesoccertv/output/eventi.json",
     "altri_sport": "https://sport.virgilio.it/guida-tv/"
   },
-  "totale": 183,
+  "totale": 173,
   "cartelle": [
     {
       "nome": "Oggi",
-      "totale": 15,
+      "totale": 10,
       "eventi": [
-        {
-          "titolo": "[Basket] NBA: LA Clippers-Utah Jazz",
-          "categoria": "Basket",
-          "sottocartella": "NBA",
-          "sport": "Basket",
-          "competizione": "NBA",
-          "evento": "LA Clippers-Utah Jazz",
-          "inizio": "2026-11-18T05:00:00+01:00",
-          "data": "18/11/2026",
-          "ora": "05:00",
-          "canali": [
-            {
-              "nome": "Sky Sport Basket",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-11-18T05:00",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
         {
           "titolo": "[Tennis] ATP Finals Torino: Doppio: Sessione Diurna",
           "categoria": "Tennis",
@@ -49,47 +28,12 @@
               "tipo": "diretta",
               "orario": "2026-11-18T11:30",
               "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Tennis] ATP Finals Torino: Doubles R.R Sess. Diurna",
-          "categoria": "Tennis",
-          "sottocartella": "ATP Finals Torino",
-          "sport": "Tennis",
-          "competizione": "ATP Finals Torino 2026",
-          "evento": "Doubles R.R Sess. Diurna",
-          "inizio": "2026-11-18T11:30:00+01:00",
-          "data": "18/11/2026",
-          "ora": "11:30",
-          "canali": [
+            },
             {
               "nome": "Sky Sport 1",
               "numero": "201",
               "tipo": "diretta",
               "orario": "2026-11-18T11:30",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Tennis] ATP Finals Torino: Singles R.R Sess. Diurna",
-          "categoria": "Tennis",
-          "sottocartella": "ATP Finals Torino",
-          "sport": "Tennis",
-          "competizione": "ATP Finals Torino 2026",
-          "evento": "Singles R.R Sess. Diurna",
-          "inizio": "2026-11-18T14:00:00+01:00",
-          "data": "18/11/2026",
-          "ora": "14:00",
-          "canali": [
-            {
-              "nome": "Sky Sport 1",
-              "numero": "201",
-              "tipo": "diretta",
-              "orario": "2026-11-18T14:00",
               "fonte": "virgilio"
             }
           ],
@@ -109,6 +53,13 @@
             {
               "nome": "Sky Sport Tennis",
               "numero": "",
+              "tipo": "diretta",
+              "orario": "2026-11-18T14:00",
+              "fonte": "virgilio"
+            },
+            {
+              "nome": "Sky Sport 1",
+              "numero": "201",
               "tipo": "diretta",
               "orario": "2026-11-18T14:00",
               "fonte": "virgilio"
@@ -175,21 +126,7 @@
               "tipo": "diretta",
               "orario": "2026-11-18T18:00",
               "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Tennis] ATP Finals Torino: Doubles R.R Sess. Serale",
-          "categoria": "Tennis",
-          "sottocartella": "ATP Finals Torino",
-          "sport": "Tennis",
-          "competizione": "ATP Finals Torino 2026",
-          "evento": "Doubles R.R Sess. Serale",
-          "inizio": "2026-11-18T18:00:00+01:00",
-          "data": "18/11/2026",
-          "ora": "18:00",
-          "canali": [
+            },
             {
               "nome": "Sky Sport 1",
               "numero": "201",
@@ -285,33 +222,12 @@
           "fonte": "Virgilio Sport"
         },
         {
-          "titolo": "[Tennis] ATP Finals Torino: Singles R.R Sess. Serale",
+          "titolo": "[Tennis] ATP Finals Torino: Cobolli-Tiafoe",
           "categoria": "Tennis",
           "sottocartella": "ATP Finals Torino",
           "sport": "Tennis",
           "competizione": "ATP Finals Torino 2026",
-          "evento": "Singles R.R Sess. Serale",
-          "inizio": "2026-11-18T20:30:00+01:00",
-          "data": "18/11/2026",
-          "ora": "20:30",
-          "canali": [
-            {
-              "nome": "Sky Sport 1",
-              "numero": "201",
-              "tipo": "diretta",
-              "orario": "2026-11-18T20:30",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Tennis] ATP Finals Torino: Singolare: Sessione Serale",
-          "categoria": "Tennis",
-          "sottocartella": "ATP Finals Torino",
-          "sport": "Tennis",
-          "competizione": "ATP Finals Torino 2026",
-          "evento": "Singolare: Sessione Serale",
+          "evento": "Cobolli-Tiafoe",
           "inizio": "2026-11-18T20:30:00+01:00",
           "data": "18/11/2026",
           "ora": "20:30",
@@ -319,6 +235,13 @@
             {
               "nome": "Sky Sport Tennis",
               "numero": "",
+              "tipo": "diretta",
+              "orario": "2026-11-18T20:30",
+              "fonte": "virgilio"
+            },
+            {
+              "nome": "Sky Sport 1",
+              "numero": "201",
               "tipo": "diretta",
               "orario": "2026-11-18T20:30",
               "fonte": "virgilio"
@@ -2017,7 +1940,7 @@
       "sottocartelle": [
         {
           "nome": "Serie A",
-          "totale": 11,
+          "totale": 10,
           "eventi": [
             {
               "titolo": "Serie A: Como vs Cagliari",
@@ -5646,6 +5569,13 @@
                   "tipo": "streaming",
                   "orario": "2026-11-22T12:30",
                   "fonte": "livesoccer"
+                },
+                {
+                  "nome": "DAZN",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-22T12:30",
+                  "fonte": "virgilio"
                 }
               ],
               "canali_mondo": [
@@ -6531,21 +6461,42 @@
               "fonte": "LiveSoccerTV"
             },
             {
+              "titolo": "Serie A: Bologna-Udinese",
+              "categoria": "Calcio",
+              "sottocartella": "Serie A",
+              "sport": "Calcio",
+              "competizione": "Serie A",
+              "evento": "Bologna-Udinese",
+              "inizio": "2026-11-22T15:00:00+01:00",
+              "data": "22/11/2026",
+              "ora": "15:00",
+              "canali": [
+                {
+                  "nome": "DAZN",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-22T15:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
               "titolo": "Serie A: Sassuolo-Genoa",
               "categoria": "Calcio",
               "sottocartella": "Serie A",
               "sport": "Calcio",
               "competizione": "Serie A",
               "evento": "Sassuolo-Genoa",
-              "inizio": "2026-11-22T12:30:00+01:00",
+              "inizio": "2026-11-22T15:00:00+01:00",
               "data": "22/11/2026",
-              "ora": "12:30",
+              "ora": "15:00",
               "canali": [
                 {
                   "nome": "DAZN",
                   "numero": "",
                   "tipo": "diretta",
-                  "orario": "2026-11-22T12:30",
+                  "orario": "2026-11-22T15:00",
                   "fonte": "virgilio"
                 }
               ],
@@ -6558,34 +6509,6 @@
               "sport": "Calcio",
               "competizione": "Serie A",
               "evento": "Milan-Frosinone",
-              "inizio": "2026-11-22T15:00:00+01:00",
-              "data": "22/11/2026",
-              "ora": "15:00",
-              "canali": [
-                {
-                  "nome": "DAZN",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-22T15:00",
-                  "fonte": "virgilio"
-                },
-                {
-                  "nome": "Sky Sport Calcio",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-22T18:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "Serie A: Bologna-Udinese",
-              "categoria": "Calcio",
-              "sottocartella": "Serie A",
-              "sport": "Calcio",
-              "competizione": "Serie A",
-              "evento": "Bologna-Udinese",
               "inizio": "2026-11-22T18:00:00+01:00",
               "data": "22/11/2026",
               "ora": "18:00",
@@ -6599,6 +6522,13 @@
                 },
                 {
                   "nome": "DAZN",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-22T18:00",
+                  "fonte": "virgilio"
+                },
+                {
+                  "nome": "Sky Sport Calcio",
                   "numero": "",
                   "tipo": "diretta",
                   "orario": "2026-11-22T18:00",
@@ -6635,34 +6565,6 @@
               "sport": "Calcio",
               "competizione": "Serie A",
               "evento": "Monza-Fiorentina",
-              "inizio": "2026-11-23T18:30:00+01:00",
-              "data": "23/11/2026",
-              "ora": "18:30",
-              "canali": [
-                {
-                  "nome": "DAZN",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-23T18:30",
-                  "fonte": "virgilio"
-                },
-                {
-                  "nome": "Sky Sport Calcio",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-23T20:45",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "Serie A: Juventus-Venezia",
-              "categoria": "Calcio",
-              "sottocartella": "Serie A",
-              "sport": "Calcio",
-              "competizione": "Serie A",
-              "evento": "Juventus-Venezia",
               "inizio": "2026-11-23T20:45:00+01:00",
               "data": "23/11/2026",
               "ora": "20:45",
@@ -6676,6 +6578,13 @@
                 },
                 {
                   "nome": "DAZN",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-23T20:45",
+                  "fonte": "virgilio"
+                },
+                {
+                  "nome": "Sky Sport Calcio",
                   "numero": "",
                   "tipo": "diretta",
                   "orario": "2026-11-23T20:45",
@@ -9152,7 +9061,7 @@
         },
         {
           "nome": "Mondiali U17 Qatar",
-          "totale": 1,
+          "totale": 2,
           "eventi": [
             {
               "titolo": "Mondiali U17 Qatar: Italia-Giamaica",
@@ -9170,6 +9079,27 @@
                   "numero": "",
                   "tipo": "diretta",
                   "orario": "2026-11-20T16:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "Mondiali U17 Qatar: Italia-Costa d’Avorio",
+              "categoria": "Calcio",
+              "sottocartella": "Mondiali U17 Qatar",
+              "sport": "Calcio",
+              "competizione": "Mondiali U17 Qatar 2026",
+              "evento": "Italia-Costa d’Avorio",
+              "inizio": "2026-11-23T15:30:00+01:00",
+              "data": "23/11/2026",
+              "ora": "15:30",
+              "canali": [
+                {
+                  "nome": "Rai Sport",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-23T15:30",
                   "fonte": "virgilio"
                 }
               ],
@@ -9789,11 +9719,11 @@
     },
     {
       "nome": "Tennis",
-      "totale": 30,
+      "totale": 19,
       "sottocartelle": [
         {
           "nome": "ATP Finals Torino",
-          "totale": 29,
+          "totale": 18,
           "eventi": [
             {
               "titolo": "ATP Finals Torino: Doppio: Sessione Diurna",
@@ -9812,47 +9742,12 @@
                   "tipo": "diretta",
                   "orario": "2026-11-18T11:30",
                   "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "ATP Finals Torino: Doubles R.R Sess. Diurna",
-              "categoria": "Tennis",
-              "sottocartella": "ATP Finals Torino",
-              "sport": "Tennis",
-              "competizione": "ATP Finals Torino 2026",
-              "evento": "Doubles R.R Sess. Diurna",
-              "inizio": "2026-11-18T11:30:00+01:00",
-              "data": "18/11/2026",
-              "ora": "11:30",
-              "canali": [
+                },
                 {
                   "nome": "Sky Sport 1",
                   "numero": "201",
                   "tipo": "diretta",
                   "orario": "2026-11-18T11:30",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "ATP Finals Torino: Singles R.R Sess. Diurna",
-              "categoria": "Tennis",
-              "sottocartella": "ATP Finals Torino",
-              "sport": "Tennis",
-              "competizione": "ATP Finals Torino 2026",
-              "evento": "Singles R.R Sess. Diurna",
-              "inizio": "2026-11-18T14:00:00+01:00",
-              "data": "18/11/2026",
-              "ora": "14:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport 1",
-                  "numero": "201",
-                  "tipo": "diretta",
-                  "orario": "2026-11-18T14:00",
                   "fonte": "virgilio"
                 }
               ],
@@ -9872,6 +9767,13 @@
                 {
                   "nome": "Sky Sport Tennis",
                   "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-18T14:00",
+                  "fonte": "virgilio"
+                },
+                {
+                  "nome": "Sky Sport 1",
+                  "numero": "201",
                   "tipo": "diretta",
                   "orario": "2026-11-18T14:00",
                   "fonte": "virgilio"
@@ -9896,21 +9798,7 @@
                   "tipo": "diretta",
                   "orario": "2026-11-18T18:00",
                   "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "ATP Finals Torino: Doubles R.R Sess. Serale",
-              "categoria": "Tennis",
-              "sottocartella": "ATP Finals Torino",
-              "sport": "Tennis",
-              "competizione": "ATP Finals Torino 2026",
-              "evento": "Doubles R.R Sess. Serale",
-              "inizio": "2026-11-18T18:00:00+01:00",
-              "data": "18/11/2026",
-              "ora": "18:00",
-              "canali": [
+                },
                 {
                   "nome": "Sky Sport 1",
                   "numero": "201",
@@ -9922,33 +9810,12 @@
               "fonte": "Virgilio Sport"
             },
             {
-              "titolo": "ATP Finals Torino: Singles R.R Sess. Serale",
+              "titolo": "ATP Finals Torino: Cobolli-Tiafoe",
               "categoria": "Tennis",
               "sottocartella": "ATP Finals Torino",
               "sport": "Tennis",
               "competizione": "ATP Finals Torino 2026",
-              "evento": "Singles R.R Sess. Serale",
-              "inizio": "2026-11-18T20:30:00+01:00",
-              "data": "18/11/2026",
-              "ora": "20:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport 1",
-                  "numero": "201",
-                  "tipo": "diretta",
-                  "orario": "2026-11-18T20:30",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "ATP Finals Torino: Singolare: Sessione Serale",
-              "categoria": "Tennis",
-              "sottocartella": "ATP Finals Torino",
-              "sport": "Tennis",
-              "competizione": "ATP Finals Torino 2026",
-              "evento": "Singolare: Sessione Serale",
+              "evento": "Cobolli-Tiafoe",
               "inizio": "2026-11-18T20:30:00+01:00",
               "data": "18/11/2026",
               "ora": "20:30",
@@ -9956,6 +9823,13 @@
                 {
                   "nome": "Sky Sport Tennis",
                   "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-18T20:30",
+                  "fonte": "virgilio"
+                },
+                {
+                  "nome": "Sky Sport 1",
+                  "numero": "201",
                   "tipo": "diretta",
                   "orario": "2026-11-18T20:30",
                   "fonte": "virgilio"
@@ -9980,47 +9854,12 @@
                   "tipo": "diretta",
                   "orario": "2026-11-19T11:30",
                   "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "ATP Finals Torino: Doubles R.R Sess. Diurna",
-              "categoria": "Tennis",
-              "sottocartella": "ATP Finals Torino",
-              "sport": "Tennis",
-              "competizione": "ATP Finals Torino 2026",
-              "evento": "Doubles R.R Sess. Diurna",
-              "inizio": "2026-11-19T11:30:00+01:00",
-              "data": "19/11/2026",
-              "ora": "11:30",
-              "canali": [
+                },
                 {
                   "nome": "Sky Sport 1",
                   "numero": "201",
                   "tipo": "diretta",
                   "orario": "2026-11-19T11:30",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "ATP Finals Torino: Singles R.R Sess. Diurna",
-              "categoria": "Tennis",
-              "sottocartella": "ATP Finals Torino",
-              "sport": "Tennis",
-              "competizione": "ATP Finals Torino 2026",
-              "evento": "Singles R.R Sess. Diurna",
-              "inizio": "2026-11-19T14:00:00+01:00",
-              "data": "19/11/2026",
-              "ora": "14:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport 1",
-                  "numero": "201",
-                  "tipo": "diretta",
-                  "orario": "2026-11-19T14:00",
                   "fonte": "virgilio"
                 }
               ],
@@ -10040,6 +9879,13 @@
                 {
                   "nome": "Sky Sport Tennis",
                   "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-19T14:00",
+                  "fonte": "virgilio"
+                },
+                {
+                  "nome": "Sky Sport 1",
+                  "numero": "201",
                   "tipo": "diretta",
                   "orario": "2026-11-19T14:00",
                   "fonte": "virgilio"
@@ -10064,47 +9910,12 @@
                   "tipo": "diretta",
                   "orario": "2026-11-19T18:00",
                   "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "ATP Finals Torino: Doubles R.R Sess. Serale",
-              "categoria": "Tennis",
-              "sottocartella": "ATP Finals Torino",
-              "sport": "Tennis",
-              "competizione": "ATP Finals Torino 2026",
-              "evento": "Doubles R.R Sess. Serale",
-              "inizio": "2026-11-19T18:00:00+01:00",
-              "data": "19/11/2026",
-              "ora": "18:00",
-              "canali": [
+                },
                 {
                   "nome": "Sky Sport 1",
                   "numero": "201",
                   "tipo": "diretta",
                   "orario": "2026-11-19T18:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "ATP Finals Torino: Singles R.R Sess. Serale",
-              "categoria": "Tennis",
-              "sottocartella": "ATP Finals Torino",
-              "sport": "Tennis",
-              "competizione": "ATP Finals Torino 2026",
-              "evento": "Singles R.R Sess. Serale",
-              "inizio": "2026-11-19T20:30:00+01:00",
-              "data": "19/11/2026",
-              "ora": "20:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport 1",
-                  "numero": "201",
-                  "tipo": "diretta",
-                  "orario": "2026-11-19T20:30",
                   "fonte": "virgilio"
                 }
               ],
@@ -10124,6 +9935,13 @@
                 {
                   "nome": "Sky Sport Tennis",
                   "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-19T20:30",
+                  "fonte": "virgilio"
+                },
+                {
+                  "nome": "Sky Sport 1",
+                  "numero": "201",
                   "tipo": "diretta",
                   "orario": "2026-11-19T20:30",
                   "fonte": "virgilio"
@@ -10153,27 +9971,6 @@
               "fonte": "Virgilio Sport"
             },
             {
-              "titolo": "ATP Finals Torino: Singles R.R Sess. Serale",
-              "categoria": "Tennis",
-              "sottocartella": "ATP Finals Torino",
-              "sport": "Tennis",
-              "competizione": "ATP Finals Torino 2026",
-              "evento": "Singles R.R Sess. Serale",
-              "inizio": "2026-11-20T14:00:00+01:00",
-              "data": "20/11/2026",
-              "ora": "14:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport 1",
-                  "numero": "201",
-                  "tipo": "diretta",
-                  "orario": "2026-11-20T14:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
               "titolo": "ATP Finals Torino: Singolare: Sessione Diurna",
               "categoria": "Tennis",
               "sottocartella": "ATP Finals Torino",
@@ -10187,6 +9984,13 @@
                 {
                   "nome": "Sky Sport Tennis",
                   "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-20T14:00",
+                  "fonte": "virgilio"
+                },
+                {
+                  "nome": "Sky Sport 1",
+                  "numero": "201",
                   "tipo": "diretta",
                   "orario": "2026-11-20T14:00",
                   "fonte": "virgilio"
@@ -10211,47 +10015,12 @@
                   "tipo": "diretta",
                   "orario": "2026-11-20T18:00",
                   "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "ATP Finals Torino: Doubles R.R Sess. Serale",
-              "categoria": "Tennis",
-              "sottocartella": "ATP Finals Torino",
-              "sport": "Tennis",
-              "competizione": "ATP Finals Torino 2026",
-              "evento": "Doubles R.R Sess. Serale",
-              "inizio": "2026-11-20T18:00:00+01:00",
-              "data": "20/11/2026",
-              "ora": "18:00",
-              "canali": [
+                },
                 {
                   "nome": "Sky Sport 1",
                   "numero": "201",
                   "tipo": "diretta",
                   "orario": "2026-11-20T18:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "ATP Finals Torino: Singles R.R Sess. Serale",
-              "categoria": "Tennis",
-              "sottocartella": "ATP Finals Torino",
-              "sport": "Tennis",
-              "competizione": "ATP Finals Torino 2026",
-              "evento": "Singles R.R Sess. Serale",
-              "inizio": "2026-11-20T20:30:00+01:00",
-              "data": "20/11/2026",
-              "ora": "20:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport 1",
-                  "numero": "201",
-                  "tipo": "diretta",
-                  "orario": "2026-11-20T20:30",
                   "fonte": "virgilio"
                 }
               ],
@@ -10271,6 +10040,13 @@
                 {
                   "nome": "Sky Sport Tennis",
                   "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-20T20:30",
+                  "fonte": "virgilio"
+                },
+                {
+                  "nome": "Sky Sport 1",
+                  "numero": "201",
                   "tipo": "diretta",
                   "orario": "2026-11-20T20:30",
                   "fonte": "virgilio"
@@ -10446,117 +10222,6 @@
       "nome": "Basket",
       "totale": 16,
       "sottocartelle": [
-        {
-          "nome": "NBA",
-          "totale": 5,
-          "eventi": [
-            {
-              "titolo": "NBA: LA Clippers-Utah Jazz",
-              "categoria": "Basket",
-              "sottocartella": "NBA",
-              "sport": "Basket",
-              "competizione": "NBA",
-              "evento": "LA Clippers-Utah Jazz",
-              "inizio": "2026-11-18T05:00:00+01:00",
-              "data": "18/11/2026",
-              "ora": "05:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Basket",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-18T05:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "NBA: Miami Heat-Milwaukee Bucks",
-              "categoria": "Basket",
-              "sottocartella": "NBA",
-              "sport": "Basket",
-              "competizione": "NBA",
-              "evento": "Miami Heat-Milwaukee Bucks",
-              "inizio": "2026-11-19T01:00:00+01:00",
-              "data": "19/11/2026",
-              "ora": "01:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Basket",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-19T01:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "NBA: Philadelphia 76ers-Milwaukee Bucks",
-              "categoria": "Basket",
-              "sottocartella": "NBA",
-              "sport": "Basket",
-              "competizione": "NBA",
-              "evento": "Philadelphia 76ers-Milwaukee Bucks",
-              "inizio": "2026-11-21T19:00:00+01:00",
-              "data": "21/11/2026",
-              "ora": "19:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Basket",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-21T19:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "NBA: Miami Heat-Oklahoma City Thunder",
-              "categoria": "Basket",
-              "sottocartella": "NBA",
-              "sport": "Basket",
-              "competizione": "NBA",
-              "evento": "Miami Heat-Oklahoma City Thunder",
-              "inizio": "2026-11-22T00:00:00+01:00",
-              "data": "22/11/2026",
-              "ora": "00:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport 1",
-                  "numero": "201",
-                  "tipo": "diretta",
-                  "orario": "2026-11-22T00:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "NBA: Miami Heat-Oklahoma City Thunder",
-              "categoria": "Basket",
-              "sottocartella": "NBA",
-              "sport": "Basket",
-              "competizione": "NBA",
-              "evento": "Miami Heat-Oklahoma City Thunder",
-              "inizio": "2026-11-23T00:00:00+01:00",
-              "data": "23/11/2026",
-              "ora": "00:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Basket",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-23T00:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            }
-          ]
-        },
         {
           "nome": "Eurocup",
           "totale": 4,
@@ -10759,6 +10424,96 @@
           ]
         },
         {
+          "nome": "NBA",
+          "totale": 4,
+          "eventi": [
+            {
+              "titolo": "NBA: Miami Heat-Milwaukee Bucks",
+              "categoria": "Basket",
+              "sottocartella": "NBA",
+              "sport": "Basket",
+              "competizione": "NBA",
+              "evento": "Miami Heat-Milwaukee Bucks",
+              "inizio": "2026-11-19T01:00:00+01:00",
+              "data": "19/11/2026",
+              "ora": "01:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport Basket",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-19T01:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "NBA: Philadelphia 76ers-Milwaukee Bucks",
+              "categoria": "Basket",
+              "sottocartella": "NBA",
+              "sport": "Basket",
+              "competizione": "NBA",
+              "evento": "Philadelphia 76ers-Milwaukee Bucks",
+              "inizio": "2026-11-21T19:00:00+01:00",
+              "data": "21/11/2026",
+              "ora": "19:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport Basket",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-21T19:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "NBA: Miami Heat-Oklahoma City Thunder",
+              "categoria": "Basket",
+              "sottocartella": "NBA",
+              "sport": "Basket",
+              "competizione": "NBA",
+              "evento": "Miami Heat-Oklahoma City Thunder",
+              "inizio": "2026-11-22T00:00:00+01:00",
+              "data": "22/11/2026",
+              "ora": "00:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport 1",
+                  "numero": "201",
+                  "tipo": "diretta",
+                  "orario": "2026-11-22T00:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "NBA: Miami Heat-Oklahoma City Thunder",
+              "categoria": "Basket",
+              "sottocartella": "NBA",
+              "sport": "Basket",
+              "competizione": "NBA",
+              "evento": "Miami Heat-Oklahoma City Thunder",
+              "inizio": "2026-11-23T00:00:00+01:00",
+              "data": "23/11/2026",
+              "ora": "00:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport Basket",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-23T00:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            }
+          ]
+        },
+        {
           "nome": "Serie A",
           "totale": 2,
           "eventi": [
@@ -10805,16 +10560,43 @@
               "fonte": "Virgilio Sport"
             }
           ]
+        },
+        {
+          "nome": "Serie A2",
+          "totale": 1,
+          "eventi": [
+            {
+              "titolo": "Serie A2: Livorno-Sassari",
+              "categoria": "Basket",
+              "sottocartella": "Serie A2",
+              "sport": "Basket",
+              "competizione": "Serie A2",
+              "evento": "Livorno-Sassari",
+              "inizio": "2026-11-22T20:45:00+01:00",
+              "data": "22/11/2026",
+              "ora": "20:45",
+              "canali": [
+                {
+                  "nome": "Rai Sport",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-22T20:45",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            }
+          ]
         }
       ]
     },
     {
       "nome": "Volley",
-      "totale": 2,
+      "totale": 3,
       "sottocartelle": [
         {
           "nome": "SuperLega",
-          "totale": 1,
+          "totale": 2,
           "eventi": [
             {
               "titolo": "SuperLega: Cuneo-Verona",
@@ -10832,6 +10614,27 @@
                   "numero": "",
                   "tipo": "diretta",
                   "orario": "2026-11-20T20:45",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "SuperLega: Piacenza-Perugia",
+              "categoria": "Volley",
+              "sottocartella": "SuperLega",
+              "sport": "Pallavolo maschile",
+              "competizione": "SuperLega",
+              "evento": "Piacenza-Perugia",
+              "inizio": "2026-11-22T18:00:00+01:00",
+              "data": "22/11/2026",
+              "ora": "18:00",
+              "canali": [
+                {
+                  "nome": "Rai Sport",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-22T18:00",
                   "fonte": "virgilio"
                 }
               ],
@@ -10947,7 +10750,7 @@
                   "nome": "Rai 2",
                   "numero": "",
                   "tipo": "diretta",
-                  "orario": "2026-11-22T11:00",
+                  "orario": "2026-11-22T10:30",
                   "fonte": "virgilio"
                 }
               ],
@@ -10966,6 +10769,13 @@
               "canali": [
                 {
                   "nome": "Eurosport",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-22T13:30",
+                  "fonte": "virgilio"
+                },
+                {
+                  "nome": "Rai Sport",
                   "numero": "",
                   "tipo": "diretta",
                   "orario": "2026-11-22T13:30",
