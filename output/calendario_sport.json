@@ -1,114 +1,16 @@
 {
-  "aggiornato": "2026-11-18T14:35:17+01:00",
+  "aggiornato": "2026-11-18T21:40:22+01:00",
   "fonti": {
     "motori": "Fuori Traiettoria, Dizzle0987/motorsport-calendar, palinsesto TV8",
     "calcio_italiano": "https://raw.githubusercontent.com/aandroide/Livesoccer/master/livesoccertv/output/eventi.json",
     "altri_sport": "https://sport.virgilio.it/guida-tv/"
   },
-  "totale": 173,
+  "totale": 169,
   "cartelle": [
     {
       "nome": "Oggi",
-      "totale": 9,
+      "totale": 4,
       "eventi": [
-        {
-          "titolo": "[Tennis] ATP Finals Torino: Singolare: Sessione Diurna",
-          "categoria": "Tennis",
-          "sottocartella": "ATP Finals Torino",
-          "sport": "Tennis",
-          "competizione": "ATP Finals Torino 2026",
-          "evento": "Singolare: Sessione Diurna",
-          "inizio": "2026-11-18T14:00:00+01:00",
-          "data": "18/11/2026",
-          "ora": "14:00",
-          "canali": [
-            {
-              "nome": "Sky Sport Tennis",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-11-18T14:00",
-              "fonte": "virgilio"
-            },
-            {
-              "nome": "Sky Sport 1",
-              "numero": "201",
-              "tipo": "diretta",
-              "orario": "2026-11-18T14:00",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Basket] Eurocup: Cluj Napoca-Maxima Roma",
-          "categoria": "Basket",
-          "sottocartella": "Eurocup",
-          "sport": "Basket",
-          "competizione": "Eurocup",
-          "evento": "Cluj Napoca-Maxima Roma",
-          "inizio": "2026-11-18T18:00:00+01:00",
-          "data": "18/11/2026",
-          "ora": "18:00",
-          "canali": [
-            {
-              "nome": "Sky Sport Basket",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-11-18T18:00",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Basket] Eurolega: Besiktas-Real Madrid",
-          "categoria": "Basket",
-          "sottocartella": "Eurolega",
-          "sport": "Basket",
-          "competizione": "Eurolega",
-          "evento": "Besiktas-Real Madrid",
-          "inizio": "2026-11-18T18:00:00+01:00",
-          "data": "18/11/2026",
-          "ora": "18:00",
-          "canali": [
-            {
-              "nome": "Sky Sport Arena",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-11-18T18:00",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Tennis] ATP Finals Torino: Doppio: Sessione Serale",
-          "categoria": "Tennis",
-          "sottocartella": "ATP Finals Torino",
-          "sport": "Tennis",
-          "competizione": "ATP Finals Torino 2026",
-          "evento": "Doppio: Sessione Serale",
-          "inizio": "2026-11-18T18:00:00+01:00",
-          "data": "18/11/2026",
-          "ora": "18:00",
-          "canali": [
-            {
-              "nome": "Sky Sport Tennis",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-11-18T18:00",
-              "fonte": "virgilio"
-            },
-            {
-              "nome": "Sky Sport 1",
-              "numero": "201",
-              "tipo": "diretta",
-              "orario": "2026-11-18T18:00",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
         {
           "titolo": "[Basket] Eurocup: Bourg en Bresse-Napoli",
           "categoria": "Basket",
@@ -167,27 +69,6 @@
               "numero": "",
               "tipo": "diretta",
               "orario": "2026-11-18T20:00",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Tennis] ATP Finals Torino – 2a giornata (Gruppo Lendl): Cobolli-Tiafoe: Cobolli-Tiafoe",
-          "categoria": "Tennis",
-          "sottocartella": "ATP Finals Torino – 2a giornata (Gruppo Lendl)",
-          "sport": "Tennis",
-          "competizione": "ATP Finals Torino 2026 – 2a giornata (Gruppo Lendl)",
-          "evento": "Cobolli-Tiafoe: Cobolli-Tiafoe",
-          "inizio": "2026-11-18T20:30:00+01:00",
-          "data": "18/11/2026",
-          "ora": "20:30",
-          "canali": [
-            {
-              "nome": "Italia 1",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-11-18T20:30",
               "fonte": "virgilio"
             }
           ],
@@ -7627,6 +7508,13 @@
               "ora": "20:45",
               "canali": [
                 {
+                  "nome": "Rai Sport",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-23T20:45",
+                  "fonte": "virgilio"
+                },
+                {
                   "nome": "Sky Sport Max",
                   "numero": "",
                   "tipo": "diretta",
@@ -9817,68 +9705,12 @@
     },
     {
       "nome": "Tennis",
-      "totale": 18,
+      "totale": 15,
       "sottocartelle": [
         {
           "nome": "ATP Finals Torino",
-          "totale": 17,
+          "totale": 15,
           "eventi": [
-            {
-              "titolo": "ATP Finals Torino: Singolare: Sessione Diurna",
-              "categoria": "Tennis",
-              "sottocartella": "ATP Finals Torino",
-              "sport": "Tennis",
-              "competizione": "ATP Finals Torino 2026",
-              "evento": "Singolare: Sessione Diurna",
-              "inizio": "2026-11-18T14:00:00+01:00",
-              "data": "18/11/2026",
-              "ora": "14:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Tennis",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-18T14:00",
-                  "fonte": "virgilio"
-                },
-                {
-                  "nome": "Sky Sport 1",
-                  "numero": "201",
-                  "tipo": "diretta",
-                  "orario": "2026-11-18T14:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "ATP Finals Torino: Doppio: Sessione Serale",
-              "categoria": "Tennis",
-              "sottocartella": "ATP Finals Torino",
-              "sport": "Tennis",
-              "competizione": "ATP Finals Torino 2026",
-              "evento": "Doppio: Sessione Serale",
-              "inizio": "2026-11-18T18:00:00+01:00",
-              "data": "18/11/2026",
-              "ora": "18:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Tennis",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-18T18:00",
-                  "fonte": "virgilio"
-                },
-                {
-                  "nome": "Sky Sport 1",
-                  "numero": "201",
-                  "tipo": "diretta",
-                  "orario": "2026-11-18T18:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
             {
               "titolo": "ATP Finals Torino: Cobolli-Tiafoe",
               "categoria": "Tennis",
@@ -10258,65 +10090,17 @@
               "fonte": "Virgilio Sport"
             }
           ]
-        },
-        {
-          "nome": "ATP Finals Torino – 2a giornata (Gruppo Lendl)",
-          "totale": 1,
-          "eventi": [
-            {
-              "titolo": "ATP Finals Torino – 2a giornata (Gruppo Lendl): Cobolli-Tiafoe: Cobolli-Tiafoe",
-              "categoria": "Tennis",
-              "sottocartella": "ATP Finals Torino – 2a giornata (Gruppo Lendl)",
-              "sport": "Tennis",
-              "competizione": "ATP Finals Torino 2026 – 2a giornata (Gruppo Lendl)",
-              "evento": "Cobolli-Tiafoe: Cobolli-Tiafoe",
-              "inizio": "2026-11-18T20:30:00+01:00",
-              "data": "18/11/2026",
-              "ora": "20:30",
-              "canali": [
-                {
-                  "nome": "Italia 1",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-18T20:30",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            }
-          ]
         }
       ]
     },
     {
       "nome": "Basket",
-      "totale": 16,
+      "totale": 15,
       "sottocartelle": [
         {
           "nome": "Eurocup",
-          "totale": 4,
+          "totale": 3,
           "eventi": [
-            {
-              "titolo": "Eurocup: Cluj Napoca-Maxima Roma",
-              "categoria": "Basket",
-              "sottocartella": "Eurocup",
-              "sport": "Basket",
-              "competizione": "Eurocup",
-              "evento": "Cluj Napoca-Maxima Roma",
-              "inizio": "2026-11-18T18:00:00+01:00",
-              "data": "18/11/2026",
-              "ora": "18:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Basket",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-18T18:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
             {
               "titolo": "Eurocup: Bourg en Bresse-Napoli",
               "categoria": "Basket",
@@ -10375,117 +10159,6 @@
                   "numero": "",
                   "tipo": "diretta",
                   "orario": "2026-11-18T20:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            }
-          ]
-        },
-        {
-          "nome": "Eurolega",
-          "totale": 5,
-          "eventi": [
-            {
-              "titolo": "Eurolega: Besiktas-Real Madrid",
-              "categoria": "Basket",
-              "sottocartella": "Eurolega",
-              "sport": "Basket",
-              "competizione": "Eurolega",
-              "evento": "Besiktas-Real Madrid",
-              "inizio": "2026-11-18T18:00:00+01:00",
-              "data": "18/11/2026",
-              "ora": "18:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Arena",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-18T18:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "Eurolega: Olimpia Milano-Fenerbahce",
-              "categoria": "Basket",
-              "sottocartella": "Eurolega",
-              "sport": "Basket",
-              "competizione": "Eurolega",
-              "evento": "Olimpia Milano-Fenerbahce",
-              "inizio": "2026-11-19T20:30:00+01:00",
-              "data": "19/11/2026",
-              "ora": "20:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport Basket",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-19T20:30",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "Eurolega: Valencia-Virtus Bologna",
-              "categoria": "Basket",
-              "sottocartella": "Eurolega",
-              "sport": "Basket",
-              "competizione": "Eurolega",
-              "evento": "Valencia-Virtus Bologna",
-              "inizio": "2026-11-19T21:00:00+01:00",
-              "data": "19/11/2026",
-              "ora": "21:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Arena",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-19T21:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "Eurolega: Olympiacos-Real Madrid",
-              "categoria": "Basket",
-              "sottocartella": "Eurolega",
-              "sport": "Basket",
-              "competizione": "Eurolega",
-              "evento": "Olympiacos-Real Madrid",
-              "inizio": "2026-11-20T20:15:00+01:00",
-              "data": "20/11/2026",
-              "ora": "20:15",
-              "canali": [
-                {
-                  "nome": "Sky Sport Basket",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-20T20:15",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "Eurolega: Stella Rossa-Virtus Bologna",
-              "categoria": "Basket",
-              "sottocartella": "Eurolega",
-              "sport": "Basket",
-              "competizione": "Eurolega",
-              "evento": "Stella Rossa-Virtus Bologna",
-              "inizio": "2026-11-24T19:00:00+01:00",
-              "data": "24/11/2026",
-              "ora": "19:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Max",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-24T19:00",
                   "fonte": "virgilio"
                 }
               ],
@@ -10584,6 +10257,96 @@
           ]
         },
         {
+          "nome": "Eurolega",
+          "totale": 4,
+          "eventi": [
+            {
+              "titolo": "Eurolega: Olimpia Milano-Fenerbahce",
+              "categoria": "Basket",
+              "sottocartella": "Eurolega",
+              "sport": "Basket",
+              "competizione": "Eurolega",
+              "evento": "Olimpia Milano-Fenerbahce",
+              "inizio": "2026-11-19T20:30:00+01:00",
+              "data": "19/11/2026",
+              "ora": "20:30",
+              "canali": [
+                {
+                  "nome": "Sky Sport Basket",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-19T20:30",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "Eurolega: Valencia-Virtus Bologna",
+              "categoria": "Basket",
+              "sottocartella": "Eurolega",
+              "sport": "Basket",
+              "competizione": "Eurolega",
+              "evento": "Valencia-Virtus Bologna",
+              "inizio": "2026-11-19T21:00:00+01:00",
+              "data": "19/11/2026",
+              "ora": "21:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport Arena",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-19T21:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "Eurolega: Olympiacos-Real Madrid",
+              "categoria": "Basket",
+              "sottocartella": "Eurolega",
+              "sport": "Basket",
+              "competizione": "Eurolega",
+              "evento": "Olympiacos-Real Madrid",
+              "inizio": "2026-11-20T20:15:00+01:00",
+              "data": "20/11/2026",
+              "ora": "20:15",
+              "canali": [
+                {
+                  "nome": "Sky Sport Basket",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-20T20:15",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "Eurolega: Stella Rossa-Virtus Bologna",
+              "categoria": "Basket",
+              "sottocartella": "Eurolega",
+              "sport": "Basket",
+              "competizione": "Eurolega",
+              "evento": "Stella Rossa-Virtus Bologna",
+              "inizio": "2026-11-24T19:00:00+01:00",
+              "data": "24/11/2026",
+              "ora": "19:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport Max",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-24T19:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            }
+          ]
+        },
+        {
           "nome": "Serie A",
           "totale": 2,
           "eventi": [
@@ -10633,7 +10396,7 @@
         },
         {
           "nome": "Serie A2",
-          "totale": 1,
+          "totale": 2,
           "eventi": [
             {
               "titolo": "Serie A2: Livorno-Sassari",
@@ -10651,6 +10414,27 @@
                   "numero": "",
                   "tipo": "diretta",
                   "orario": "2026-11-22T20:45",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "Serie A2: Torino-Caserta",
+              "categoria": "Basket",
+              "sottocartella": "Serie A2",
+              "sport": "Basket",
+              "competizione": "Serie A2",
+              "evento": "Torino-Caserta",
+              "inizio": "2026-11-24T20:30:00+01:00",
+              "data": "24/11/2026",
+              "ora": "20:30",
+              "canali": [
+                {
+                  "nome": "Rai Sport",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-24T20:30",
                   "fonte": "virgilio"
                 }
               ],
