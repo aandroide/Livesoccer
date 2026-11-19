@@ -1,100 +1,16 @@
 {
-  "aggiornato": "2026-11-19T13:20:57+01:00",
+  "aggiornato": "2026-11-19T21:46:32+01:00",
   "fonti": {
     "motori": "Fuori Traiettoria, Dizzle0987/motorsport-calendar, palinsesto TV8",
     "calcio_italiano": "https://raw.githubusercontent.com/aandroide/Livesoccer/master/livesoccertv/output/eventi.json",
     "altri_sport": "https://sport.virgilio.it/guida-tv/"
   },
-  "totale": 181,
+  "totale": 192,
   "cartelle": [
     {
       "nome": "Oggi",
-      "totale": 7,
+      "totale": 3,
       "eventi": [
-        {
-          "titolo": "[Tennis] ATP Finals Torino: Doppio: Sessione Diurna",
-          "categoria": "Tennis",
-          "sottocartella": "ATP Finals Torino",
-          "sport": "Tennis",
-          "competizione": "ATP Finals Torino 2026",
-          "evento": "Doppio: Sessione Diurna",
-          "inizio": "2026-11-19T11:30:00+01:00",
-          "data": "19/11/2026",
-          "ora": "11:30",
-          "canali": [
-            {
-              "nome": "Sky Sport Tennis",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-11-19T11:30",
-              "fonte": "virgilio"
-            },
-            {
-              "nome": "Sky Sport 1",
-              "numero": "201",
-              "tipo": "diretta",
-              "orario": "2026-11-19T11:30",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Tennis] ATP Finals Torino: Singolare: Sessione Diurna",
-          "categoria": "Tennis",
-          "sottocartella": "ATP Finals Torino",
-          "sport": "Tennis",
-          "competizione": "ATP Finals Torino 2026",
-          "evento": "Singolare: Sessione Diurna",
-          "inizio": "2026-11-19T14:00:00+01:00",
-          "data": "19/11/2026",
-          "ora": "14:00",
-          "canali": [
-            {
-              "nome": "Sky Sport Tennis",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-11-19T14:00",
-              "fonte": "virgilio"
-            },
-            {
-              "nome": "Sky Sport 1",
-              "numero": "201",
-              "tipo": "diretta",
-              "orario": "2026-11-19T14:00",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Tennis] ATP Finals Torino: Doppio: Sessione Serale",
-          "categoria": "Tennis",
-          "sottocartella": "ATP Finals Torino",
-          "sport": "Tennis",
-          "competizione": "ATP Finals Torino 2026",
-          "evento": "Doppio: Sessione Serale",
-          "inizio": "2026-11-19T18:00:00+01:00",
-          "data": "19/11/2026",
-          "ora": "18:00",
-          "canali": [
-            {
-              "nome": "Sky Sport Tennis",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-11-19T18:00",
-              "fonte": "virgilio"
-            },
-            {
-              "nome": "Sky Sport 1",
-              "numero": "201",
-              "tipo": "diretta",
-              "orario": "2026-11-19T18:00",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
         {
           "titolo": "[Basket] Eurolega: Olimpia Milano-Fenerbahce",
           "categoria": "Basket",
@@ -108,27 +24,6 @@
           "canali": [
             {
               "nome": "Sky Sport Basket",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-11-19T20:30",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Tennis] ATP Finals Torino – 3a giornata (Gruppo McEnroe): Zverev-Fils: Zverev-Fils",
-          "categoria": "Tennis",
-          "sottocartella": "ATP Finals Torino – 3a giornata (Gruppo McEnroe)",
-          "sport": "Tennis",
-          "competizione": "ATP Finals Torino 2026 – 3a giornata (Gruppo McEnroe)",
-          "evento": "Zverev-Fils: Zverev-Fils",
-          "inizio": "2026-11-19T20:30:00+01:00",
-          "data": "19/11/2026",
-          "ora": "20:30",
-          "canali": [
-            {
-              "nome": "Italia 1",
               "numero": "",
               "tipo": "diretta",
               "orario": "2026-11-19T20:30",
@@ -373,7 +268,7 @@
                   "nome": "TV8",
                   "numero": "8",
                   "tipo": "differita",
-                  "orario": "2026-11-21T20:15",
+                  "orario": "2026-11-21T20:10",
                   "fonte": "config+tv8"
                 }
               ],
@@ -1182,7 +1077,7 @@
                   "nome": "TV8",
                   "numero": "8",
                   "tipo": "diretta",
-                  "orario": "2026-11-21T16:00",
+                  "orario": "2026-11-21T15:55",
                   "fonte": "dizzle+tv8"
                 },
                 {
@@ -1560,7 +1455,7 @@
                   "nome": "TV8",
                   "numero": "8",
                   "tipo": "diretta",
-                  "orario": "2026-11-21T13:50",
+                  "orario": "2026-11-21T13:45",
                   "programma": "GP Portogallo: Qualifiche",
                   "fonte": "tv8"
                 }
@@ -1584,7 +1479,7 @@
                   "nome": "TV8",
                   "numero": "8",
                   "tipo": "diretta",
-                  "orario": "2026-11-21T14:45",
+                  "orario": "2026-11-21T14:40",
                   "programma": "GP Portogallo: Qualifiche",
                   "fonte": "tv8"
                 }
@@ -1876,7 +1771,7 @@
     },
     {
       "nome": "Calcio",
-      "totale": 83,
+      "totale": 90,
       "sottocartelle": [
         {
           "nome": "Serie A",
@@ -8329,7 +8224,7 @@
         },
         {
           "nome": "Serie C",
-          "totale": 11,
+          "totale": 13,
           "eventi": [
             {
               "titolo": "Serie C: Casertana vs Salernitana",
@@ -8650,6 +8545,27 @@
               "fonte": "Virgilio Sport"
             },
             {
+              "titolo": "Serie C: Grosseto-Guidonia Montecelio",
+              "categoria": "Calcio",
+              "sottocartella": "Serie C",
+              "sport": "Calcio",
+              "competizione": "Serie C",
+              "evento": "Grosseto-Guidonia Montecelio",
+              "inizio": "2026-11-23T20:30:00+01:00",
+              "data": "23/11/2026",
+              "ora": "20:30",
+              "canali": [
+                {
+                  "nome": "Sky Sport 1",
+                  "numero": "201",
+                  "tipo": "diretta",
+                  "orario": "2026-11-23T20:30",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
               "titolo": "Serie C: Lecco-Lumezzane",
               "categoria": "Calcio",
               "sottocartella": "Serie C",
@@ -8672,6 +8588,27 @@
                   "numero": "",
                   "tipo": "diretta",
                   "orario": "2026-11-23T20:45",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "Serie C: Audace Cerignola-Inter U23",
+              "categoria": "Calcio",
+              "sottocartella": "Serie C",
+              "sport": "Calcio",
+              "competizione": "Serie C",
+              "evento": "Audace Cerignola-Inter U23",
+              "inizio": "2026-11-25T14:30:00+01:00",
+              "data": "25/11/2026",
+              "ora": "14:30",
+              "canali": [
+                {
+                  "nome": "Sky Sport 1",
+                  "numero": "201",
+                  "tipo": "diretta",
+                  "orario": "2026-11-25T14:30",
                   "fonte": "virgilio"
                 }
               ],
@@ -8963,7 +8900,7 @@
         },
         {
           "nome": "Primavera 1",
-          "totale": 2,
+          "totale": 5,
           "eventi": [
             {
               "titolo": "Primavera 1: Lecce-Atalanta",
@@ -9002,6 +8939,69 @@
                   "numero": "",
                   "tipo": "diretta",
                   "orario": "2026-11-21T13:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "Primavera 1: Lazio-Milan",
+              "categoria": "Calcio",
+              "sottocartella": "Primavera 1",
+              "sport": "Calcio",
+              "competizione": "Primavera 1",
+              "evento": "Lazio-Milan",
+              "inizio": "2026-11-22T11:00:00+01:00",
+              "data": "22/11/2026",
+              "ora": "11:00",
+              "canali": [
+                {
+                  "nome": "Sportitalia",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-22T11:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "Primavera 1: Albinoleffe-Genoa",
+              "categoria": "Calcio",
+              "sottocartella": "Primavera 1",
+              "sport": "Calcio",
+              "competizione": "Primavera 1",
+              "evento": "Albinoleffe-Genoa",
+              "inizio": "2026-11-23T15:00:00+01:00",
+              "data": "23/11/2026",
+              "ora": "15:00",
+              "canali": [
+                {
+                  "nome": "Sportitalia",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-23T15:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "Primavera 1: Torino-Bologna",
+              "categoria": "Calcio",
+              "sottocartella": "Primavera 1",
+              "sport": "Calcio",
+              "competizione": "Primavera 1",
+              "evento": "Torino-Bologna",
+              "inizio": "2026-11-23T17:00:00+01:00",
+              "data": "23/11/2026",
+              "ora": "17:00",
+              "canali": [
+                {
+                  "nome": "Sportitalia",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-23T17:00",
                   "fonte": "virgilio"
                 }
               ],
@@ -9148,8 +9148,35 @@
           ]
         },
         {
+          "nome": "Liga Profesional",
+          "totale": 1,
+          "eventi": [
+            {
+              "titolo": "Liga Profesional: River Plate-Lanus",
+              "categoria": "Calcio",
+              "sottocartella": "Liga Profesional",
+              "sport": "Calcio",
+              "competizione": "Liga Profesional",
+              "evento": "River Plate-Lanus",
+              "inizio": "2026-11-22T23:00:00+01:00",
+              "data": "22/11/2026",
+              "ora": "23:00",
+              "canali": [
+                {
+                  "nome": "Sportitalia",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-22T23:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            }
+          ]
+        },
+        {
           "nome": "UEFA Champions League",
-          "totale": 18,
+          "totale": 19,
           "eventi": [
             {
               "titolo": "UEFA Champions League: Bodo Glimt-LASK",
@@ -9303,7 +9330,35 @@
               "ora": "21:00",
               "canali": [
                 {
+                  "nome": "Sky Sport 1",
+                  "numero": "201",
+                  "tipo": "diretta",
+                  "orario": "2026-11-24T21:00",
+                  "fonte": "virgilio"
+                },
+                {
                   "nome": "Sky",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-24T21:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "UEFA Champions League: Real Madrid-PSV Eindhoven",
+              "categoria": "Calcio",
+              "sottocartella": "UEFA Champions League",
+              "sport": "Calcio",
+              "competizione": "UEFA Champions League",
+              "evento": "Real Madrid-PSV Eindhoven",
+              "inizio": "2026-11-24T21:00:00+01:00",
+              "data": "24/11/2026",
+              "ora": "21:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport Mix",
                   "numero": "",
                   "tipo": "diretta",
                   "orario": "2026-11-24T21:00",
@@ -9462,6 +9517,13 @@
                   "tipo": "diretta",
                   "orario": "2026-11-25T21:00",
                   "fonte": "virgilio"
+                },
+                {
+                  "nome": "Sky Sport 1",
+                  "numero": "201",
+                  "tipo": "diretta",
+                  "orario": "2026-11-25T21:00",
+                  "fonte": "virgilio"
                 }
               ],
               "fonte": "Virgilio Sport"
@@ -9597,96 +9659,12 @@
     },
     {
       "nome": "Tennis",
-      "totale": 15,
+      "totale": 13,
       "sottocartelle": [
         {
           "nome": "ATP Finals Torino",
-          "totale": 14,
+          "totale": 12,
           "eventi": [
-            {
-              "titolo": "ATP Finals Torino: Doppio: Sessione Diurna",
-              "categoria": "Tennis",
-              "sottocartella": "ATP Finals Torino",
-              "sport": "Tennis",
-              "competizione": "ATP Finals Torino 2026",
-              "evento": "Doppio: Sessione Diurna",
-              "inizio": "2026-11-19T11:30:00+01:00",
-              "data": "19/11/2026",
-              "ora": "11:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport Tennis",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-19T11:30",
-                  "fonte": "virgilio"
-                },
-                {
-                  "nome": "Sky Sport 1",
-                  "numero": "201",
-                  "tipo": "diretta",
-                  "orario": "2026-11-19T11:30",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "ATP Finals Torino: Singolare: Sessione Diurna",
-              "categoria": "Tennis",
-              "sottocartella": "ATP Finals Torino",
-              "sport": "Tennis",
-              "competizione": "ATP Finals Torino 2026",
-              "evento": "Singolare: Sessione Diurna",
-              "inizio": "2026-11-19T14:00:00+01:00",
-              "data": "19/11/2026",
-              "ora": "14:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Tennis",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-19T14:00",
-                  "fonte": "virgilio"
-                },
-                {
-                  "nome": "Sky Sport 1",
-                  "numero": "201",
-                  "tipo": "diretta",
-                  "orario": "2026-11-19T14:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "ATP Finals Torino: Doppio: Sessione Serale",
-              "categoria": "Tennis",
-              "sottocartella": "ATP Finals Torino",
-              "sport": "Tennis",
-              "competizione": "ATP Finals Torino 2026",
-              "evento": "Doppio: Sessione Serale",
-              "inizio": "2026-11-19T18:00:00+01:00",
-              "data": "19/11/2026",
-              "ora": "18:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Tennis",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-19T18:00",
-                  "fonte": "virgilio"
-                },
-                {
-                  "nome": "Sky Sport 1",
-                  "numero": "201",
-                  "tipo": "diretta",
-                  "orario": "2026-11-19T18:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
             {
               "titolo": "ATP Finals Torino: Zverev-Fils",
               "categoria": "Tennis",
@@ -9942,7 +9920,21 @@
                   "tipo": "diretta",
                   "orario": "2026-11-22T18:00",
                   "fonte": "virgilio"
-                },
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "ATP Finals Torino: Singolare: Finale",
+              "categoria": "Tennis",
+              "sottocartella": "ATP Finals Torino",
+              "sport": "Tennis",
+              "competizione": "ATP Finals Torino 2026",
+              "evento": "Singolare: Finale",
+              "inizio": "2026-11-22T18:00:00+01:00",
+              "data": "22/11/2026",
+              "ora": "18:00",
+              "canali": [
                 {
                   "nome": "Sky Sport 1",
                   "numero": "201",
@@ -9956,25 +9948,25 @@
           ]
         },
         {
-          "nome": "ATP Finals Torino – 3a giornata (Gruppo McEnroe)",
+          "nome": "ATP Finals Torino – 3a giornata (Gruppo Lendl)",
           "totale": 1,
           "eventi": [
             {
-              "titolo": "ATP Finals Torino – 3a giornata (Gruppo McEnroe): Zverev-Fils: Zverev-Fils",
+              "titolo": "ATP Finals Torino – 3a giornata (Gruppo Lendl): Medvedev-Tiafoe: Medvedev-Tiafoe",
               "categoria": "Tennis",
-              "sottocartella": "ATP Finals Torino – 3a giornata (Gruppo McEnroe)",
+              "sottocartella": "ATP Finals Torino – 3a giornata (Gruppo Lendl)",
               "sport": "Tennis",
-              "competizione": "ATP Finals Torino 2026 – 3a giornata (Gruppo McEnroe)",
-              "evento": "Zverev-Fils: Zverev-Fils",
-              "inizio": "2026-11-19T20:30:00+01:00",
-              "data": "19/11/2026",
+              "competizione": "ATP Finals Torino 2026 – 3a giornata (Gruppo Lendl)",
+              "evento": "Medvedev-Tiafoe: Medvedev-Tiafoe",
+              "inizio": "2026-11-20T20:30:00+01:00",
+              "data": "20/11/2026",
               "ora": "20:30",
               "canali": [
                 {
                   "nome": "Italia 1",
                   "numero": "",
                   "tipo": "diretta",
-                  "orario": "2026-11-19T20:30",
+                  "orario": "2026-11-20T20:30",
                   "fonte": "virgilio"
                 }
               ],
@@ -9986,11 +9978,11 @@
     },
     {
       "nome": "Basket",
-      "totale": 11,
+      "totale": 17,
       "sottocartelle": [
         {
           "nome": "Eurolega",
-          "totale": 4,
+          "totale": 7,
           "eventi": [
             {
               "titolo": "Eurolega: Olimpia Milano-Fenerbahce",
@@ -10075,12 +10067,75 @@
                 }
               ],
               "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "Eurolega: Lyon Villeurbanne-Olimpia Milano",
+              "categoria": "Basket",
+              "sottocartella": "Eurolega",
+              "sport": "Basket",
+              "competizione": "Eurolega",
+              "evento": "Lyon Villeurbanne-Olimpia Milano",
+              "inizio": "2026-11-24T20:45:00+01:00",
+              "data": "24/11/2026",
+              "ora": "20:45",
+              "canali": [
+                {
+                  "nome": "Sky Sport Basket",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-24T20:45",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "Eurolega: Dubai Basketball-Partizan Belgrado",
+              "categoria": "Basket",
+              "sottocartella": "Eurolega",
+              "sport": "Basket",
+              "competizione": "Eurolega",
+              "evento": "Dubai Basketball-Partizan Belgrado",
+              "inizio": "2026-11-25T17:00:00+01:00",
+              "data": "25/11/2026",
+              "ora": "17:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport Basket",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-25T17:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "Eurolega: Olympiacos-Hapoel Tel Aviv",
+              "categoria": "Basket",
+              "sottocartella": "Eurolega",
+              "sport": "Basket",
+              "competizione": "Eurolega",
+              "evento": "Olympiacos-Hapoel Tel Aviv",
+              "inizio": "2026-11-25T20:15:00+01:00",
+              "data": "25/11/2026",
+              "ora": "20:15",
+              "canali": [
+                {
+                  "nome": "Sky Sport Mix",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-25T20:15",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
             }
           ]
         },
         {
           "nome": "NBA",
-          "totale": 3,
+          "totale": 6,
           "eventi": [
             {
               "titolo": "NBA: Philadelphia 76ers-Milwaukee Bucks",
@@ -10110,27 +10165,6 @@
               "sport": "Basket",
               "competizione": "NBA",
               "evento": "Miami Heat-Oklahoma City Thunder",
-              "inizio": "2026-11-22T00:00:00+01:00",
-              "data": "22/11/2026",
-              "ora": "00:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport 1",
-                  "numero": "201",
-                  "tipo": "diretta",
-                  "orario": "2026-11-22T00:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "NBA: Miami Heat-Oklahoma City Thunder",
-              "categoria": "Basket",
-              "sottocartella": "NBA",
-              "sport": "Basket",
-              "competizione": "NBA",
-              "evento": "Miami Heat-Oklahoma City Thunder",
               "inizio": "2026-11-23T00:00:00+01:00",
               "data": "23/11/2026",
               "ora": "00:00",
@@ -10140,6 +10174,97 @@
                   "numero": "",
                   "tipo": "diretta",
                   "orario": "2026-11-23T00:00",
+                  "fonte": "virgilio"
+                },
+                {
+                  "nome": "Sky Sport 1",
+                  "numero": "201",
+                  "tipo": "diretta",
+                  "orario": "2026-11-23T00:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "NBA: Minnesota Timberwolves-Brooklyn Nets",
+              "categoria": "Basket",
+              "sottocartella": "NBA",
+              "sport": "Basket",
+              "competizione": "NBA",
+              "evento": "Minnesota Timberwolves-Brooklyn Nets",
+              "inizio": "2026-11-24T01:30:00+01:00",
+              "data": "24/11/2026",
+              "ora": "01:30",
+              "canali": [
+                {
+                  "nome": "Sky Sport Basket",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-24T01:30",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "NBA: Washington Wizards-Boston Celtics",
+              "categoria": "Basket",
+              "sottocartella": "NBA",
+              "sport": "Basket",
+              "competizione": "NBA",
+              "evento": "Washington Wizards-Boston Celtics",
+              "inizio": "2026-11-25T02:00:00+01:00",
+              "data": "25/11/2026",
+              "ora": "02:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport 1",
+                  "numero": "201",
+                  "tipo": "diretta",
+                  "orario": "2026-11-25T02:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "NBA: Denver Nuggets-Dallas Mavericks",
+              "categoria": "Basket",
+              "sottocartella": "NBA",
+              "sport": "Basket",
+              "competizione": "NBA",
+              "evento": "Denver Nuggets-Dallas Mavericks",
+              "inizio": "2026-11-25T04:00:00+01:00",
+              "data": "25/11/2026",
+              "ora": "04:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport Basket",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-25T04:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "NBA: Philadelphia 76ers-Miami Heat",
+              "categoria": "Basket",
+              "sottocartella": "NBA",
+              "sport": "Basket",
+              "competizione": "NBA",
+              "evento": "Philadelphia 76ers-Miami Heat",
+              "inizio": "2026-11-25T22:00:00+01:00",
+              "data": "25/11/2026",
+              "ora": "22:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport Basket",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-25T22:00",
                   "fonte": "virgilio"
                 }
               ],
@@ -10162,6 +10287,13 @@
               "data": "22/11/2026",
               "ora": "16:00",
               "canali": [
+                {
+                  "nome": "Sky Sport 1",
+                  "numero": "201",
+                  "tipo": "diretta",
+                  "orario": "2026-11-22T16:00",
+                  "fonte": "virgilio"
+                },
                 {
                   "nome": "Sky Sport Basket",
                   "numero": "",
