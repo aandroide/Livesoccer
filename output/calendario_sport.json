@@ -1,11 +1,11 @@
 {
-  "aggiornato": "2026-11-19T12:52:11+01:00",
+  "aggiornato": "2026-11-19T13:20:57+01:00",
   "fonti": {
     "motori": "Fuori Traiettoria, Dizzle0987/motorsport-calendar, palinsesto TV8",
     "calcio_italiano": "https://raw.githubusercontent.com/aandroide/Livesoccer/master/livesoccertv/output/eventi.json",
     "altri_sport": "https://sport.virgilio.it/guida-tv/"
   },
-  "totale": 180,
+  "totale": 181,
   "cartelle": [
     {
       "nome": "Oggi",
@@ -1876,7 +1876,7 @@
     },
     {
       "nome": "Calcio",
-      "totale": 82,
+      "totale": 83,
       "sottocartelle": [
         {
           "nome": "Serie A",
@@ -4802,6 +4802,12 @@
                   ]
                 },
                 {
+                  "paese": "Brunei",
+                  "canali": [
+                    "Astro Go"
+                  ]
+                },
+                {
                   "paese": "Bulgaria",
                   "canali": [
                     "MAX Sport 3"
@@ -5175,7 +5181,9 @@
                 {
                   "paese": "Malesia",
                   "canali": [
-                    "Astro Football"
+                    "Astro Go",
+                    "Astro Football",
+                    "sooka"
                   ]
                 },
                 {
@@ -7140,6 +7148,7 @@
                   "paese": "Kosovo",
                   "canali": [
                     "Tring Sport 2",
+                    "Arena 3 Premium",
                     "TV Vala Kosovo Telecom"
                   ]
                 },
@@ -7176,6 +7185,12 @@
                   "paese": "Macao",
                   "canali": [
                     "M Plus Live"
+                  ]
+                },
+                {
+                  "paese": "Macedonia",
+                  "canali": [
+                    "Arena 3 Premium"
                   ]
                 },
                 {
@@ -7221,6 +7236,12 @@
                   "paese": "Monaco",
                   "canali": [
                     "DAZN France"
+                  ]
+                },
+                {
+                  "paese": "Montenegro",
+                  "canali": [
+                    "Arena 3 Premium"
                   ]
                 },
                 {
@@ -7380,6 +7401,12 @@
                   ]
                 },
                 {
+                  "paese": "Serbia",
+                  "canali": [
+                    "Arena 3 Premium"
+                  ]
+                },
+                {
                   "paese": "Slovacchia",
                   "canali": [
                     "Sport 1 SK"
@@ -7476,7 +7503,8 @@
                 {
                   "paese": "Turchia",
                   "canali": [
-                    "S Sport+"
+                    "S Sport+",
+                    "S Sport 2"
                   ]
                 },
                 {
@@ -7535,7 +7563,7 @@
         },
         {
           "nome": "Serie B",
-          "totale": 23,
+          "totale": 24,
           "eventi": [
             {
               "titolo": "Serie B: Verona vs Cesena",
@@ -8282,6 +8310,20 @@
                 }
               ],
               "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "Serie B: Pisa vs Modena",
+              "categoria": "Calcio",
+              "sottocartella": "Serie B",
+              "sport": "Calcio",
+              "competizione": "Serie B",
+              "evento": "Pisa vs Modena",
+              "inizio": "2026-11-26T05:00:00+01:00",
+              "data": "26/11/2026",
+              "ora": "05:00",
+              "canali": [],
+              "canali_mondo": [],
+              "fonte": "LiveSoccerTV"
             }
           ]
         },
