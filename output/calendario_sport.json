@@ -1,86 +1,16 @@
 {
-  "aggiornato": "2026-11-20T19:52:45+01:00",
+  "aggiornato": "2026-11-20T21:30:29+01:00",
   "fonti": {
     "motori": "Fuori Traiettoria, Dizzle0987/motorsport-calendar, palinsesto TV8",
     "calcio_italiano": "https://raw.githubusercontent.com/aandroide/Livesoccer/master/livesoccertv/output/eventi.json",
     "altri_sport": "https://sport.virgilio.it/guida-tv/"
   },
-  "totale": 205,
+  "totale": 202,
   "cartelle": [
     {
       "nome": "Oggi",
-      "totale": 12,
+      "totale": 9,
       "eventi": [
-        {
-          "titolo": "[Tennis] ATP Finals Torino: Doppio: Sessione Serale",
-          "categoria": "Tennis",
-          "sottocartella": "ATP Finals Torino",
-          "sport": "Tennis",
-          "competizione": "ATP Finals Torino 2026",
-          "evento": "Doppio: Sessione Serale",
-          "inizio": "2026-11-20T18:00:00+01:00",
-          "data": "20/11/2026",
-          "ora": "18:00",
-          "canali": [
-            {
-              "nome": "Sky Sport Tennis",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-11-20T18:00",
-              "fonte": "virgilio"
-            },
-            {
-              "nome": "Sky Sport 1",
-              "numero": "201",
-              "tipo": "diretta",
-              "orario": "2026-11-20T18:00",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Calcio] Bundesliga 2: Arminia Bielefeld-FC Magdeburg",
-          "categoria": "Calcio",
-          "sottocartella": "Bundesliga 2",
-          "sport": "Calcio",
-          "competizione": "Bundesliga 2",
-          "evento": "Arminia Bielefeld-FC Magdeburg",
-          "inizio": "2026-11-20T18:30:00+01:00",
-          "data": "20/11/2026",
-          "ora": "18:30",
-          "canali": [
-            {
-              "nome": "Sky Sport Calcio",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-11-20T18:30",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Calcio] Saudi League: Al Ahli-Al Nassr",
-          "categoria": "Calcio",
-          "sottocartella": "Saudi League",
-          "sport": "Calcio",
-          "competizione": "Saudi League",
-          "evento": "Al Ahli-Al Nassr",
-          "inizio": "2026-11-20T18:30:00+01:00",
-          "data": "20/11/2026",
-          "ora": "18:30",
-          "canali": [
-            {
-              "nome": "Sportitalia",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-11-20T18:30",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
         {
           "titolo": "[Basket] Eurolega: Olympiacos-Real Madrid",
           "categoria": "Basket",
@@ -564,7 +494,7 @@
                   "nome": "TV8",
                   "numero": "8",
                   "tipo": "differita",
-                  "orario": "2026-11-22T17:15",
+                  "orario": "2026-11-22T17:10",
                   "fonte": "config+tv8"
                 }
               ],
@@ -1329,7 +1259,7 @@
                   "nome": "TV8",
                   "numero": "8",
                   "tipo": "diretta",
-                  "orario": "2026-11-22T14:00",
+                  "orario": "2026-11-22T13:55",
                   "fonte": "dizzle+tv8"
                 },
                 {
@@ -1688,7 +1618,7 @@
                   "nome": "TV8",
                   "numero": "8",
                   "tipo": "diretta",
-                  "orario": "2026-11-22T11:00",
+                  "orario": "2026-11-22T10:55",
                   "programma": "GP Portogallo: Gara",
                   "fonte": "tv8"
                 }
@@ -1712,7 +1642,7 @@
                   "nome": "TV8",
                   "numero": "8",
                   "tipo": "diretta",
-                  "orario": "2026-11-22T12:15",
+                  "orario": "2026-11-22T12:10",
                   "programma": "GP Portogallo: Gara",
                   "fonte": "tv8"
                 }
@@ -1896,7 +1826,7 @@
     },
     {
       "nome": "Calcio",
-      "totale": 112,
+      "totale": 110,
       "sottocartelle": [
         {
           "nome": "Serie A",
@@ -8057,81 +7987,6 @@
           ]
         },
         {
-          "nome": "Bundesliga 2",
-          "totale": 2,
-          "eventi": [
-            {
-              "titolo": "Bundesliga 2: Arminia Bielefeld-FC Magdeburg",
-              "categoria": "Calcio",
-              "sottocartella": "Bundesliga 2",
-              "sport": "Calcio",
-              "competizione": "Bundesliga 2",
-              "evento": "Arminia Bielefeld-FC Magdeburg",
-              "inizio": "2026-11-20T18:30:00+01:00",
-              "data": "20/11/2026",
-              "ora": "18:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport Calcio",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-20T18:30",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "Bundesliga 2: 1. FC Kaiserslautern-Dynamo Dresden",
-              "categoria": "Calcio",
-              "sottocartella": "Bundesliga 2",
-              "sport": "Calcio",
-              "competizione": "Bundesliga 2",
-              "evento": "1. FC Kaiserslautern-Dynamo Dresden",
-              "inizio": "2026-11-22T13:30:00+01:00",
-              "data": "22/11/2026",
-              "ora": "13:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport Mix",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-22T13:30",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            }
-          ]
-        },
-        {
-          "nome": "Saudi League",
-          "totale": 1,
-          "eventi": [
-            {
-              "titolo": "Saudi League: Al Ahli-Al Nassr",
-              "categoria": "Calcio",
-              "sottocartella": "Saudi League",
-              "sport": "Calcio",
-              "competizione": "Saudi League",
-              "evento": "Al Ahli-Al Nassr",
-              "inizio": "2026-11-20T18:30:00+01:00",
-              "data": "20/11/2026",
-              "ora": "18:30",
-              "canali": [
-                {
-                  "nome": "Sportitalia",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-20T18:30",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            }
-          ]
-        },
-        {
           "nome": "Bundesliga",
           "totale": 5,
           "eventi": [
@@ -8484,6 +8339,33 @@
                   "numero": "",
                   "tipo": "diretta",
                   "orario": "2026-11-22T17:30",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            }
+          ]
+        },
+        {
+          "nome": "Bundesliga 2",
+          "totale": 1,
+          "eventi": [
+            {
+              "titolo": "Bundesliga 2: 1. FC Kaiserslautern-Dynamo Dresden",
+              "categoria": "Calcio",
+              "sottocartella": "Bundesliga 2",
+              "sport": "Calcio",
+              "competizione": "Bundesliga 2",
+              "evento": "1. FC Kaiserslautern-Dynamo Dresden",
+              "inizio": "2026-11-22T13:30:00+01:00",
+              "data": "22/11/2026",
+              "ora": "13:30",
+              "canali": [
+                {
+                  "nome": "Sky Sport Mix",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-22T13:30",
                   "fonte": "virgilio"
                 }
               ],
@@ -9580,40 +9462,39 @@
     },
     {
       "nome": "Tennis",
-      "totale": 10,
+      "totale": 9,
       "sottocartelle": [
         {
-          "nome": "ATP Finals Torino",
-          "totale": 9,
+          "nome": "ATP Finals Torino – 3a giornata (Gruppo Lendl)",
+          "totale": 1,
           "eventi": [
             {
-              "titolo": "ATP Finals Torino: Doppio: Sessione Serale",
+              "titolo": "ATP Finals Torino – 3a giornata (Gruppo Lendl): Medvedev-Tiafoe: Medvedev-Tiafoe",
               "categoria": "Tennis",
-              "sottocartella": "ATP Finals Torino",
+              "sottocartella": "ATP Finals Torino – 3a giornata (Gruppo Lendl)",
               "sport": "Tennis",
-              "competizione": "ATP Finals Torino 2026",
-              "evento": "Doppio: Sessione Serale",
-              "inizio": "2026-11-20T18:00:00+01:00",
+              "competizione": "ATP Finals Torino 2026 – 3a giornata (Gruppo Lendl)",
+              "evento": "Medvedev-Tiafoe: Medvedev-Tiafoe",
+              "inizio": "2026-11-20T20:30:00+01:00",
               "data": "20/11/2026",
-              "ora": "18:00",
+              "ora": "20:30",
               "canali": [
                 {
-                  "nome": "Sky Sport Tennis",
+                  "nome": "Italia 1",
                   "numero": "",
                   "tipo": "diretta",
-                  "orario": "2026-11-20T18:00",
-                  "fonte": "virgilio"
-                },
-                {
-                  "nome": "Sky Sport 1",
-                  "numero": "201",
-                  "tipo": "diretta",
-                  "orario": "2026-11-20T18:00",
+                  "orario": "2026-11-20T20:30",
                   "fonte": "virgilio"
                 }
               ],
               "fonte": "Virgilio Sport"
-            },
+            }
+          ]
+        },
+        {
+          "nome": "ATP Finals Torino",
+          "totale": 8,
+          "eventi": [
             {
               "titolo": "ATP Finals Torino: Singolare: Sessione Serale",
               "categoria": "Tennis",
@@ -9784,33 +9665,6 @@
                   "numero": "201",
                   "tipo": "diretta",
                   "orario": "2026-11-22T18:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            }
-          ]
-        },
-        {
-          "nome": "ATP Finals Torino – 3a giornata (Gruppo Lendl)",
-          "totale": 1,
-          "eventi": [
-            {
-              "titolo": "ATP Finals Torino – 3a giornata (Gruppo Lendl): Medvedev-Tiafoe: Medvedev-Tiafoe",
-              "categoria": "Tennis",
-              "sottocartella": "ATP Finals Torino – 3a giornata (Gruppo Lendl)",
-              "sport": "Tennis",
-              "competizione": "ATP Finals Torino 2026 – 3a giornata (Gruppo Lendl)",
-              "evento": "Medvedev-Tiafoe: Medvedev-Tiafoe",
-              "inizio": "2026-11-20T20:30:00+01:00",
-              "data": "20/11/2026",
-              "ora": "20:30",
-              "canali": [
-                {
-                  "nome": "Italia 1",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-20T20:30",
                   "fonte": "virgilio"
                 }
               ],
