@@ -1,149 +1,16 @@
 {
-  "aggiornato": "2026-11-20T03:41:38+01:00",
+  "aggiornato": "2026-11-20T11:32:00+01:00",
   "fonti": {
     "motori": "Fuori Traiettoria, Dizzle0987/motorsport-calendar, palinsesto TV8",
     "calcio_italiano": "https://raw.githubusercontent.com/aandroide/Livesoccer/master/livesoccertv/output/eventi.json",
     "altri_sport": "https://sport.virgilio.it/guida-tv/"
   },
-  "totale": 215,
+  "totale": 211,
   "cartelle": [
     {
       "nome": "Oggi",
-      "totale": 23,
+      "totale": 18,
       "eventi": [
-        {
-          "titolo": "[Motori] Special Events: Macau GP - Motorcycle GP - Quali",
-          "categoria": "Motori",
-          "sottocartella": "Special Events",
-          "sport": "Motori",
-          "competizione": "Special Events",
-          "evento": "Macau GP - Motorcycle GP - Quali",
-          "sessione": "qualifiche",
-          "circuito": "Guia Circuit, 207 Avenida da Amizade, Macao",
-          "inizio": "2026-11-20T00:45:00+01:00",
-          "data": "20/11/2026",
-          "ora": "00:45",
-          "canali": [],
-          "fonte": "Fuori Traiettoria"
-        },
-        {
-          "titolo": "[Motori] Formula 1: Las Vegas Grand Prix - FP1",
-          "categoria": "Motori",
-          "sottocartella": "Formula 1",
-          "sport": "Motori",
-          "competizione": "Formula 1",
-          "evento": "Las Vegas Grand Prix - FP1",
-          "sessione": "prove",
-          "circuito": "Las Vegas Strip Street Circuit, Las Vegas, USA",
-          "inizio": "2026-11-20T01:30:00+01:00",
-          "data": "20/11/2026",
-          "ora": "01:30",
-          "canali": [
-            {
-              "nome": "Sky Sport F1",
-              "numero": "207",
-              "tipo": "diretta",
-              "orario": "2026-11-20T01:30",
-              "fonte": "dizzle+config"
-            },
-            {
-              "nome": "NOW",
-              "numero": "",
-              "tipo": "streaming",
-              "orario": "2026-11-20T01:30",
-              "fonte": "dizzle+config"
-            },
-            {
-              "nome": "Sky Sport 1",
-              "numero": "201",
-              "tipo": "diretta",
-              "orario": "2026-11-20T01:30",
-              "fonte": "config"
-            },
-            {
-              "nome": "Sky Sport 4K",
-              "numero": "213",
-              "tipo": "diretta",
-              "orario": "2026-11-20T01:30",
-              "fonte": "config"
-            }
-          ],
-          "fonte": "Dizzle0987/motorsport-calendar"
-        },
-        {
-          "titolo": "[Motori] Formula 1: Las Vegas Grand Prix - FP2",
-          "categoria": "Motori",
-          "sottocartella": "Formula 1",
-          "sport": "Motori",
-          "competizione": "Formula 1",
-          "evento": "Las Vegas Grand Prix - FP2",
-          "sessione": "prove",
-          "circuito": "Las Vegas Strip Street Circuit, Las Vegas, USA",
-          "inizio": "2026-11-20T05:00:00+01:00",
-          "data": "20/11/2026",
-          "ora": "05:00",
-          "canali": [
-            {
-              "nome": "Sky Sport F1",
-              "numero": "207",
-              "tipo": "diretta",
-              "orario": "2026-11-20T05:00",
-              "fonte": "dizzle+config"
-            },
-            {
-              "nome": "NOW",
-              "numero": "",
-              "tipo": "streaming",
-              "orario": "2026-11-20T05:00",
-              "fonte": "dizzle+config"
-            },
-            {
-              "nome": "Sky Sport 1",
-              "numero": "201",
-              "tipo": "diretta",
-              "orario": "2026-11-20T05:00",
-              "fonte": "config"
-            },
-            {
-              "nome": "Sky Sport 4K",
-              "numero": "213",
-              "tipo": "diretta",
-              "orario": "2026-11-20T05:00",
-              "fonte": "config"
-            }
-          ],
-          "fonte": "Dizzle0987/motorsport-calendar"
-        },
-        {
-          "titolo": "[Motori] Special Events: Macau GP - FIA Formula 4 World Cup - Quali",
-          "categoria": "Motori",
-          "sottocartella": "Special Events",
-          "sport": "Motori",
-          "competizione": "Special Events",
-          "evento": "Macau GP - FIA Formula 4 World Cup - Quali",
-          "sessione": "qualifiche",
-          "circuito": "Guia Circuit, 207 Avenida da Amizade, Macao",
-          "inizio": "2026-11-20T06:30:00+01:00",
-          "data": "20/11/2026",
-          "ora": "06:30",
-          "canali": [],
-          "fonte": "Fuori Traiettoria"
-        },
-        {
-          "titolo": "[Motori] Special Events: Macau GP - FIA Formula Regional World Cup - Quali 2",
-          "categoria": "Motori",
-          "sottocartella": "Special Events",
-          "sport": "Motori",
-          "competizione": "Special Events",
-          "evento": "Macau GP - FIA Formula Regional World Cup - Quali 2",
-          "sessione": "qualifiche",
-          "circuito": "Guia Circuit, 207 Avenida da Amizade, Macao",
-          "inizio": "2026-11-20T07:30:00+01:00",
-          "data": "20/11/2026",
-          "ora": "07:30",
-          "canali": [],
-          "fonte": "Fuori Traiettoria"
-        },
         {
           "titolo": "[Motori] Special Events: Macau GP - FIA GT World Cup - Quali",
           "categoria": "Motori",
@@ -457,6 +324,18 @@
           ],
           "canali_mondo": [
             {
+              "paese": "Gran Bretagna",
+              "canali": [
+                "DCTV"
+              ]
+            },
+            {
+              "paese": "Irlanda",
+              "canali": [
+                "DCTV"
+              ]
+            },
+            {
               "paese": "Israele",
               "canali": [
                 "5Gold"
@@ -501,6 +380,7 @@
               "canali": [
                 "Fox Soccer Plus",
                 "fuboTV",
+                "DCTV",
                 "FOX One"
               ]
             }
@@ -683,100 +563,12 @@
     },
     {
       "nome": "Motori",
-      "totale": 56,
+      "totale": 51,
       "sottocartelle": [
         {
           "nome": "Formula 1",
-          "totale": 15,
+          "totale": 13,
           "eventi": [
-            {
-              "titolo": "Formula 1: Las Vegas Grand Prix - FP1",
-              "categoria": "Motori",
-              "sottocartella": "Formula 1",
-              "sport": "Motori",
-              "competizione": "Formula 1",
-              "evento": "Las Vegas Grand Prix - FP1",
-              "sessione": "prove",
-              "circuito": "Las Vegas Strip Street Circuit, Las Vegas, USA",
-              "inizio": "2026-11-20T01:30:00+01:00",
-              "data": "20/11/2026",
-              "ora": "01:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport F1",
-                  "numero": "207",
-                  "tipo": "diretta",
-                  "orario": "2026-11-20T01:30",
-                  "fonte": "dizzle+config"
-                },
-                {
-                  "nome": "NOW",
-                  "numero": "",
-                  "tipo": "streaming",
-                  "orario": "2026-11-20T01:30",
-                  "fonte": "dizzle+config"
-                },
-                {
-                  "nome": "Sky Sport 1",
-                  "numero": "201",
-                  "tipo": "diretta",
-                  "orario": "2026-11-20T01:30",
-                  "fonte": "config"
-                },
-                {
-                  "nome": "Sky Sport 4K",
-                  "numero": "213",
-                  "tipo": "diretta",
-                  "orario": "2026-11-20T01:30",
-                  "fonte": "config"
-                }
-              ],
-              "fonte": "Dizzle0987/motorsport-calendar"
-            },
-            {
-              "titolo": "Formula 1: Las Vegas Grand Prix - FP2",
-              "categoria": "Motori",
-              "sottocartella": "Formula 1",
-              "sport": "Motori",
-              "competizione": "Formula 1",
-              "evento": "Las Vegas Grand Prix - FP2",
-              "sessione": "prove",
-              "circuito": "Las Vegas Strip Street Circuit, Las Vegas, USA",
-              "inizio": "2026-11-20T05:00:00+01:00",
-              "data": "20/11/2026",
-              "ora": "05:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport F1",
-                  "numero": "207",
-                  "tipo": "diretta",
-                  "orario": "2026-11-20T05:00",
-                  "fonte": "dizzle+config"
-                },
-                {
-                  "nome": "NOW",
-                  "numero": "",
-                  "tipo": "streaming",
-                  "orario": "2026-11-20T05:00",
-                  "fonte": "dizzle+config"
-                },
-                {
-                  "nome": "Sky Sport 1",
-                  "numero": "201",
-                  "tipo": "diretta",
-                  "orario": "2026-11-20T05:00",
-                  "fonte": "config"
-                },
-                {
-                  "nome": "Sky Sport 4K",
-                  "numero": "213",
-                  "tipo": "diretta",
-                  "orario": "2026-11-20T05:00",
-                  "fonte": "config"
-                }
-              ],
-              "fonte": "Dizzle0987/motorsport-calendar"
-            },
             {
               "titolo": "Formula 1: Las Vegas Grand Prix - FP3",
               "categoria": "Motori",
@@ -2196,53 +1988,8 @@
         },
         {
           "nome": "Special Events",
-          "totale": 11,
+          "totale": 8,
           "eventi": [
-            {
-              "titolo": "Special Events: Macau GP - Motorcycle GP - Quali",
-              "categoria": "Motori",
-              "sottocartella": "Special Events",
-              "sport": "Motori",
-              "competizione": "Special Events",
-              "evento": "Macau GP - Motorcycle GP - Quali",
-              "sessione": "qualifiche",
-              "circuito": "Guia Circuit, 207 Avenida da Amizade, Macao",
-              "inizio": "2026-11-20T00:45:00+01:00",
-              "data": "20/11/2026",
-              "ora": "00:45",
-              "canali": [],
-              "fonte": "Fuori Traiettoria"
-            },
-            {
-              "titolo": "Special Events: Macau GP - FIA Formula 4 World Cup - Quali",
-              "categoria": "Motori",
-              "sottocartella": "Special Events",
-              "sport": "Motori",
-              "competizione": "Special Events",
-              "evento": "Macau GP - FIA Formula 4 World Cup - Quali",
-              "sessione": "qualifiche",
-              "circuito": "Guia Circuit, 207 Avenida da Amizade, Macao",
-              "inizio": "2026-11-20T06:30:00+01:00",
-              "data": "20/11/2026",
-              "ora": "06:30",
-              "canali": [],
-              "fonte": "Fuori Traiettoria"
-            },
-            {
-              "titolo": "Special Events: Macau GP - FIA Formula Regional World Cup - Quali 2",
-              "categoria": "Motori",
-              "sottocartella": "Special Events",
-              "sport": "Motori",
-              "competizione": "Special Events",
-              "evento": "Macau GP - FIA Formula Regional World Cup - Quali 2",
-              "sessione": "qualifiche",
-              "circuito": "Guia Circuit, 207 Avenida da Amizade, Macao",
-              "inizio": "2026-11-20T07:30:00+01:00",
-              "data": "20/11/2026",
-              "ora": "07:30",
-              "canali": [],
-              "fonte": "Fuori Traiettoria"
-            },
             {
               "titolo": "Special Events: Macau GP - FIA GT World Cup - Quali",
               "categoria": "Motori",
@@ -2369,7 +2116,7 @@
     },
     {
       "nome": "Calcio",
-      "totale": 112,
+      "totale": 113,
       "sottocartelle": [
         {
           "nome": "Serie A",
@@ -3925,6 +3672,7 @@
                   "paese": "Romania",
                   "canali": [
                     "Digi Sport 2 Romania",
+                    "Digi Online",
                     "Orange TV Go",
                     "Prima Sport 5"
                   ]
@@ -7695,7 +7443,8 @@
                 {
                   "paese": "Macedonia",
                   "canali": [
-                    "Arena 3 Premium"
+                    "Arena 3 Premium",
+                    "Arena Cloud"
                   ]
                 },
                 {
@@ -7746,7 +7495,8 @@
                 {
                   "paese": "Montenegro",
                   "canali": [
-                    "Arena 3 Premium"
+                    "Arena 3 Premium",
+                    "Arena Cloud"
                   ]
                 },
                 {
@@ -7832,13 +7582,15 @@
                 {
                   "paese": "Polonia",
                   "canali": [
-                    "Eleven Sports 1 Poland"
+                    "Eleven Sports 1 Poland",
+                    "Canal+"
                   ]
                 },
                 {
                   "paese": "Portogallo",
                   "canali": [
-                    "Sport TV1"
+                    "Sport TV1",
+                    "Sport TV Multiscreen"
                   ]
                 },
                 {
@@ -7862,6 +7614,7 @@
                   "paese": "Romania",
                   "canali": [
                     "Digi Sport 2 Romania",
+                    "Digi Online",
                     "Prima Sport 2",
                     "Orange TV Go",
                     "Prima Play"
@@ -7921,7 +7674,8 @@
                 {
                   "paese": "Serbia",
                   "canali": [
-                    "Arena 3 Premium"
+                    "Arena 3 Premium",
+                    "Arena Cloud"
                   ]
                 },
                 {
@@ -8023,7 +7777,8 @@
                   "paese": "Turchia",
                   "canali": [
                     "S Sport+",
-                    "S Sport 2"
+                    "S Sport 2",
+                    "Disney+ Premium Turkey"
                   ]
                 },
                 {
@@ -8082,7 +7837,7 @@
         },
         {
           "nome": "Serie B",
-          "totale": 24,
+          "totale": 25,
           "eventi": [
             {
               "titolo": "Serie B: Verona vs Cesena",
@@ -8118,6 +7873,18 @@
                 }
               ],
               "canali_mondo": [
+                {
+                  "paese": "Gran Bretagna",
+                  "canali": [
+                    "DCTV"
+                  ]
+                },
+                {
+                  "paese": "Irlanda",
+                  "canali": [
+                    "DCTV"
+                  ]
+                },
                 {
                   "paese": "Israele",
                   "canali": [
@@ -8163,6 +7930,7 @@
                   "canali": [
                     "Fox Soccer Plus",
                     "fuboTV",
+                    "DCTV",
                     "FOX One"
                   ]
                 }
@@ -8597,7 +8365,14 @@
                 {
                   "paese": "Liechtenstein",
                   "canali": [
+                    "Blue Sport",
                     "Blue Sport 4 Live"
+                  ]
+                },
+                {
+                  "paese": "Russia",
+                  "canali": [
+                    "Телеканал Футбол"
                   ]
                 },
                 {
@@ -8610,6 +8385,7 @@
                 {
                   "paese": "Svizzera",
                   "canali": [
+                    "Blue Sport",
                     "Blue Sport 4 Live"
                   ]
                 }
@@ -8768,7 +8544,44 @@
                   "fonte": "livesoccer"
                 }
               ],
-              "canali_mondo": [],
+              "canali_mondo": [
+                {
+                  "paese": "Italia",
+                  "canali": [
+                    "DAZN Italia",
+                    "LAB Channel"
+                  ]
+                },
+                {
+                  "paese": "Liechtenstein",
+                  "canali": [
+                    "Blue Sport",
+                    "Blue Sport 11 Live"
+                  ]
+                },
+                {
+                  "paese": "San Marino",
+                  "canali": [
+                    "DAZN Italia",
+                    "LAB Channel"
+                  ]
+                },
+                {
+                  "paese": "Svizzera",
+                  "canali": [
+                    "Blue Sport",
+                    "Blue Sport 11 Live"
+                  ]
+                },
+                {
+                  "paese": "USA",
+                  "canali": [
+                    "Fox Soccer Plus",
+                    "fuboTV",
+                    "FOX One"
+                  ]
+                }
+              ],
               "fonte": "LiveSoccerTV"
             },
             {
@@ -8892,6 +8705,7 @@
                 {
                   "paese": "Liechtenstein",
                   "canali": [
+                    "Blue Sport",
                     "Blue Sport 11 Live"
                   ]
                 },
@@ -8905,7 +8719,80 @@
                 {
                   "paese": "Svizzera",
                   "canali": [
+                    "Blue Sport",
                     "Blue Sport 11 Live"
+                  ]
+                }
+              ],
+              "fonte": "LiveSoccerTV"
+            },
+            {
+              "titolo": "Serie B: Cremonese vs Avellino",
+              "categoria": "Calcio",
+              "sottocartella": "Serie B",
+              "sport": "Calcio",
+              "competizione": "Serie B",
+              "evento": "Cremonese vs Avellino",
+              "inizio": "2026-11-26T11:30:00+01:00",
+              "data": "26/11/2026",
+              "ora": "11:30",
+              "canali": [
+                {
+                  "nome": "DAZN Italia",
+                  "numero": "",
+                  "tipo": "streaming",
+                  "orario": "2026-11-26T11:30",
+                  "fonte": "livesoccer"
+                },
+                {
+                  "nome": "LAB Channel",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-26T11:30",
+                  "fonte": "livesoccer"
+                }
+              ],
+              "canali_mondo": [
+                {
+                  "paese": "Israele",
+                  "canali": [
+                    "5Stars"
+                  ]
+                },
+                {
+                  "paese": "Italia",
+                  "canali": [
+                    "DAZN Italia",
+                    "LAB Channel"
+                  ]
+                },
+                {
+                  "paese": "Liechtenstein",
+                  "canali": [
+                    "Blue Sport",
+                    "Blue Sport 10 Live"
+                  ]
+                },
+                {
+                  "paese": "San Marino",
+                  "canali": [
+                    "DAZN Italia",
+                    "LAB Channel"
+                  ]
+                },
+                {
+                  "paese": "Svizzera",
+                  "canali": [
+                    "Blue Sport",
+                    "Blue Sport 10 Live"
+                  ]
+                },
+                {
+                  "paese": "USA",
+                  "canali": [
+                    "Fox Soccer Plus",
+                    "fuboTV",
+                    "FOX One"
                   ]
                 }
               ],
