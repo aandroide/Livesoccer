@@ -1,117 +1,16 @@
 {
-  "aggiornato": "2026-11-21T18:21:37+01:00",
+  "aggiornato": "2026-11-21T20:27:08+01:00",
   "fonti": {
     "motori": "Fuori Traiettoria, Dizzle0987/motorsport-calendar, palinsesto TV8",
     "calcio_italiano": "https://raw.githubusercontent.com/aandroide/Livesoccer/master/livesoccertv/output/eventi.json",
     "altri_sport": "https://sport.virgilio.it/guida-tv/"
   },
-  "totale": 180,
+  "totale": 176,
   "cartelle": [
     {
       "nome": "Oggi",
-      "totale": 24,
+      "totale": 20,
       "eventi": [
-        {
-          "titolo": "[Calcio] Bundesliga: Borussia Moenchengladbach-Borussia Dortmund",
-          "categoria": "Calcio",
-          "sottocartella": "Bundesliga",
-          "sport": "Calcio",
-          "competizione": "Bundesliga",
-          "evento": "Borussia Moenchengladbach-Borussia Dortmund",
-          "inizio": "2026-11-21T15:30:00+01:00",
-          "data": "21/11/2026",
-          "ora": "15:30",
-          "canali": [
-            {
-              "nome": "Sky Sport Mix",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-11-21T15:30",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Calcio] Premier League: Chelsea-Leeds United",
-          "categoria": "Calcio",
-          "sottocartella": "Premier League",
-          "sport": "Calcio",
-          "competizione": "Premier League",
-          "evento": "Chelsea-Leeds United",
-          "inizio": "2026-11-21T16:00:00+01:00",
-          "data": "21/11/2026",
-          "ora": "16:00",
-          "canali": [
-            {
-              "nome": "Sky Sport Calcio",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-11-21T16:00",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Motori] MotoGP: Portuguese Grand Prix - Sprint",
-          "categoria": "Motori",
-          "sottocartella": "MotoGP",
-          "sport": "Motori",
-          "competizione": "MotoGP",
-          "evento": "Portuguese Grand Prix - Sprint",
-          "sessione": "sprint",
-          "circuito": "Autódromo Internacional do Algarve, Portimão, Portugal",
-          "inizio": "2026-11-21T16:00:00+01:00",
-          "data": "21/11/2026",
-          "ora": "16:00",
-          "canali": [
-            {
-              "nome": "TV8",
-              "numero": "8",
-              "tipo": "diretta",
-              "orario": "2026-11-21T15:25",
-              "fonte": "dizzle+tv8"
-            },
-            {
-              "nome": "Sky Sport MotoGP",
-              "numero": "208",
-              "tipo": "diretta",
-              "orario": "2026-11-21T16:00",
-              "fonte": "config"
-            },
-            {
-              "nome": "NOW",
-              "numero": "",
-              "tipo": "streaming",
-              "orario": "2026-11-21T16:00",
-              "fonte": "config"
-            }
-          ],
-          "fonte": "Dizzle0987/motorsport-calendar"
-        },
-        {
-          "titolo": "[Calcio] Serie B: Catanzaro vs Palermo",
-          "categoria": "Calcio",
-          "sottocartella": "Serie B",
-          "sport": "Calcio",
-          "competizione": "Serie B",
-          "evento": "Catanzaro vs Palermo",
-          "inizio": "2026-11-21T17:15:00+01:00",
-          "data": "21/11/2026",
-          "ora": "17:15",
-          "canali": [
-            {
-              "nome": "DAZN",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-11-21T17:15",
-              "fonte": "virgilio"
-            }
-          ],
-          "canali_mondo": [],
-          "fonte": "LiveSoccerTV"
-        },
         {
           "titolo": "[Calcio] Serie C: Crotone vs Cosenza",
           "categoria": "Calcio",
@@ -2595,7 +2494,7 @@
     },
     {
       "nome": "Motori",
-      "totale": 37,
+      "totale": 36,
       "sottocartelle": [
         {
           "nome": "Formula 1",
@@ -3221,45 +3120,8 @@
         },
         {
           "nome": "MotoGP",
-          "totale": 11,
+          "totale": 10,
           "eventi": [
-            {
-              "titolo": "MotoGP: Portuguese Grand Prix - Sprint",
-              "categoria": "Motori",
-              "sottocartella": "MotoGP",
-              "sport": "Motori",
-              "competizione": "MotoGP",
-              "evento": "Portuguese Grand Prix - Sprint",
-              "sessione": "sprint",
-              "circuito": "Autódromo Internacional do Algarve, Portimão, Portugal",
-              "inizio": "2026-11-21T16:00:00+01:00",
-              "data": "21/11/2026",
-              "ora": "16:00",
-              "canali": [
-                {
-                  "nome": "TV8",
-                  "numero": "8",
-                  "tipo": "diretta",
-                  "orario": "2026-11-21T15:25",
-                  "fonte": "dizzle+tv8"
-                },
-                {
-                  "nome": "Sky Sport MotoGP",
-                  "numero": "208",
-                  "tipo": "diretta",
-                  "orario": "2026-11-21T16:00",
-                  "fonte": "config"
-                },
-                {
-                  "nome": "NOW",
-                  "numero": "",
-                  "tipo": "streaming",
-                  "orario": "2026-11-21T16:00",
-                  "fonte": "config"
-                }
-              ],
-              "fonte": "Dizzle0987/motorsport-calendar"
-            },
             {
               "titolo": "MotoGP: Portuguese Grand Prix - Warm Up",
               "categoria": "Motori",
@@ -3766,7 +3628,7 @@
     },
     {
       "nome": "Calcio",
-      "totale": 106,
+      "totale": 103,
       "sottocartelle": [
         {
           "nome": "Serie A",
@@ -8849,30 +8711,8 @@
         },
         {
           "nome": "Serie B",
-          "totale": 18,
+          "totale": 17,
           "eventi": [
-            {
-              "titolo": "Serie B: Catanzaro vs Palermo",
-              "categoria": "Calcio",
-              "sottocartella": "Serie B",
-              "sport": "Calcio",
-              "competizione": "Serie B",
-              "evento": "Catanzaro vs Palermo",
-              "inizio": "2026-11-21T17:15:00+01:00",
-              "data": "21/11/2026",
-              "ora": "17:15",
-              "canali": [
-                {
-                  "nome": "DAZN",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-21T17:15",
-                  "fonte": "virgilio"
-                }
-              ],
-              "canali_mondo": [],
-              "fonte": "LiveSoccerTV"
-            },
             {
               "titolo": "Serie B: Verona vs Cesena",
               "categoria": "Calcio",
@@ -9527,29 +9367,8 @@
         },
         {
           "nome": "Bundesliga",
-          "totale": 4,
+          "totale": 3,
           "eventi": [
-            {
-              "titolo": "Bundesliga: Borussia Moenchengladbach-Borussia Dortmund",
-              "categoria": "Calcio",
-              "sottocartella": "Bundesliga",
-              "sport": "Calcio",
-              "competizione": "Bundesliga",
-              "evento": "Borussia Moenchengladbach-Borussia Dortmund",
-              "inizio": "2026-11-21T15:30:00+01:00",
-              "data": "21/11/2026",
-              "ora": "15:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport Mix",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-21T15:30",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
             {
               "titolo": "Bundesliga: Schalke 04-VfB Stoccarda",
               "categoria": "Calcio",
@@ -9617,29 +9436,8 @@
         },
         {
           "nome": "Premier League",
-          "totale": 5,
+          "totale": 4,
           "eventi": [
-            {
-              "titolo": "Premier League: Chelsea-Leeds United",
-              "categoria": "Calcio",
-              "sottocartella": "Premier League",
-              "sport": "Calcio",
-              "competizione": "Premier League",
-              "evento": "Chelsea-Leeds United",
-              "inizio": "2026-11-21T16:00:00+01:00",
-              "data": "21/11/2026",
-              "ora": "16:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Calcio",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-21T16:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
             {
               "titolo": "Premier League: Newcastle-Arsenal",
               "categoria": "Calcio",
