@@ -1,97 +1,16 @@
 {
-  "aggiornato": "2026-11-22T03:59:32+01:00",
+  "aggiornato": "2026-11-22T11:19:19+01:00",
   "fonti": {
     "motori": "Fuori Traiettoria, Dizzle0987/motorsport-calendar, palinsesto TV8",
     "calcio_italiano": "https://raw.githubusercontent.com/aandroide/Livesoccer/master/livesoccertv/output/eventi.json",
     "altri_sport": "https://sport.virgilio.it/guida-tv/"
   },
-  "totale": 177,
+  "totale": 175,
   "cartelle": [
     {
       "nome": "Oggi",
-      "totale": 39,
+      "totale": 36,
       "eventi": [
-        {
-          "titolo": "[Motori] Special Events: Macau GP - FIA Formula 4 World Cup - Main Race",
-          "categoria": "Motori",
-          "sottocartella": "Special Events",
-          "sport": "Motori",
-          "competizione": "Special Events",
-          "evento": "Macau GP - FIA Formula 4 World Cup - Main Race",
-          "sessione": "gara",
-          "circuito": "Guia Circuit, 207 Avenida da Amizade, Macao",
-          "inizio": "2026-11-22T02:15:00+01:00",
-          "data": "22/11/2026",
-          "ora": "02:15",
-          "canali": [],
-          "fonte": "Fuori Traiettoria"
-        },
-        {
-          "titolo": "[Motori] Formula 1: Las Vegas Grand Prix - Gara",
-          "categoria": "Motori",
-          "sottocartella": "Formula 1",
-          "sport": "Motori",
-          "competizione": "Formula 1",
-          "evento": "Las Vegas Grand Prix - Gara",
-          "sessione": "gara",
-          "circuito": "Las Vegas Strip Street Circuit, Las Vegas, USA",
-          "inizio": "2026-11-22T05:00:00+01:00",
-          "data": "22/11/2026",
-          "ora": "05:00",
-          "canali": [
-            {
-              "nome": "Sky Sport F1",
-              "numero": "207",
-              "tipo": "diretta",
-              "orario": "2026-11-22T05:00",
-              "fonte": "dizzle+config"
-            },
-            {
-              "nome": "NOW",
-              "numero": "",
-              "tipo": "streaming",
-              "orario": "2026-11-22T05:00",
-              "fonte": "dizzle+config"
-            },
-            {
-              "nome": "Sky Sport 1",
-              "numero": "201",
-              "tipo": "diretta",
-              "orario": "2026-11-22T05:00",
-              "fonte": "config"
-            },
-            {
-              "nome": "Sky Sport 4K",
-              "numero": "213",
-              "tipo": "diretta",
-              "orario": "2026-11-22T05:00",
-              "fonte": "config"
-            },
-            {
-              "nome": "TV8",
-              "numero": "8",
-              "tipo": "differita",
-              "orario": "2026-11-22T17:10",
-              "fonte": "config+tv8"
-            }
-          ],
-          "fonte": "Dizzle0987/motorsport-calendar"
-        },
-        {
-          "titolo": "[Motori] Special Events: Macau GP - FIA GT World Cup - Main Race",
-          "categoria": "Motori",
-          "sottocartella": "Special Events",
-          "sport": "Motori",
-          "competizione": "Special Events",
-          "evento": "Macau GP - FIA GT World Cup - Main Race",
-          "sessione": "gara",
-          "circuito": "Guia Circuit, 207 Avenida da Amizade, Macao",
-          "inizio": "2026-11-22T05:35:00+01:00",
-          "data": "22/11/2026",
-          "ora": "05:35",
-          "canali": [],
-          "fonte": "Fuori Traiettoria"
-        },
         {
           "titolo": "[Motori] Special Events: Macau GP - FIA Formula Regional World Cup - Main Race",
           "categoria": "Motori",
@@ -722,6 +641,7 @@
               "paese": "Kosovo",
               "canali": [
                 "ART Sport 1",
+                "ArtMotion",
                 "Arena 2 Premium"
               ]
             },
@@ -1221,7 +1141,8 @@
               "paese": "Venezuela",
               "canali": [
                 "ESPN Colombia",
-                "Disney+ Premium Sur"
+                "Disney+ Premium Sur",
+                "inter"
               ]
             },
             {
@@ -2140,7 +2061,8 @@
             {
               "paese": "Kosovo",
               "canali": [
-                "ART Sport 4"
+                "ART Sport 4",
+                "ArtMotion"
               ]
             },
             {
@@ -3094,7 +3016,8 @@
             {
               "paese": "Kosovo",
               "canali": [
-                "ART Sport 1"
+                "ART Sport 1",
+                "ArtMotion"
               ]
             },
             {
@@ -3511,7 +3434,8 @@
               "paese": "Venezuela",
               "canali": [
                 "ESPN 4 Sur",
-                "Disney+ Premium Sur"
+                "Disney+ Premium Sur",
+                "inter"
               ]
             },
             {
@@ -3902,6 +3826,7 @@
             {
               "paese": "Armenia",
               "canali": [
+                "Fast Sports 1",
                 "FAST TV",
                 "Q Sport 2 Arena"
               ]
@@ -4326,6 +4251,7 @@
               "paese": "Kosovo",
               "canali": [
                 "ART Sport 1",
+                "ArtMotion",
                 "Arena 2 Premium"
               ]
             },
@@ -5524,6 +5450,7 @@
               "paese": "Kosovo",
               "canali": [
                 "ART Sport 1",
+                "ArtMotion",
                 "Arena 2 Premium"
               ]
             },
@@ -6067,7 +5994,8 @@
               "paese": "Venezuela",
               "canali": [
                 "ESPN2 Colombia",
-                "Disney+ Premium Sur"
+                "Disney+ Premium Sur",
+                "inter"
               ]
             },
             {
@@ -6118,63 +6046,12 @@
     },
     {
       "nome": "Motori",
-      "totale": 36,
+      "totale": 33,
       "sottocartelle": [
         {
           "nome": "Formula 1",
-          "totale": 11,
+          "totale": 10,
           "eventi": [
-            {
-              "titolo": "Formula 1: Las Vegas Grand Prix - Gara",
-              "categoria": "Motori",
-              "sottocartella": "Formula 1",
-              "sport": "Motori",
-              "competizione": "Formula 1",
-              "evento": "Las Vegas Grand Prix - Gara",
-              "sessione": "gara",
-              "circuito": "Las Vegas Strip Street Circuit, Las Vegas, USA",
-              "inizio": "2026-11-22T05:00:00+01:00",
-              "data": "22/11/2026",
-              "ora": "05:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport F1",
-                  "numero": "207",
-                  "tipo": "diretta",
-                  "orario": "2026-11-22T05:00",
-                  "fonte": "dizzle+config"
-                },
-                {
-                  "nome": "NOW",
-                  "numero": "",
-                  "tipo": "streaming",
-                  "orario": "2026-11-22T05:00",
-                  "fonte": "dizzle+config"
-                },
-                {
-                  "nome": "Sky Sport 1",
-                  "numero": "201",
-                  "tipo": "diretta",
-                  "orario": "2026-11-22T05:00",
-                  "fonte": "config"
-                },
-                {
-                  "nome": "Sky Sport 4K",
-                  "numero": "213",
-                  "tipo": "diretta",
-                  "orario": "2026-11-22T05:00",
-                  "fonte": "config"
-                },
-                {
-                  "nome": "TV8",
-                  "numero": "8",
-                  "tipo": "differita",
-                  "orario": "2026-11-22T17:10",
-                  "fonte": "config+tv8"
-                }
-              ],
-              "fonte": "Dizzle0987/motorsport-calendar"
-            },
             {
               "titolo": "Formula 1: Qatar Grand Prix - FP1",
               "categoria": "Motori",
@@ -7199,38 +7076,8 @@
         },
         {
           "nome": "Special Events",
-          "totale": 3,
+          "totale": 1,
           "eventi": [
-            {
-              "titolo": "Special Events: Macau GP - FIA Formula 4 World Cup - Main Race",
-              "categoria": "Motori",
-              "sottocartella": "Special Events",
-              "sport": "Motori",
-              "competizione": "Special Events",
-              "evento": "Macau GP - FIA Formula 4 World Cup - Main Race",
-              "sessione": "gara",
-              "circuito": "Guia Circuit, 207 Avenida da Amizade, Macao",
-              "inizio": "2026-11-22T02:15:00+01:00",
-              "data": "22/11/2026",
-              "ora": "02:15",
-              "canali": [],
-              "fonte": "Fuori Traiettoria"
-            },
-            {
-              "titolo": "Special Events: Macau GP - FIA GT World Cup - Main Race",
-              "categoria": "Motori",
-              "sottocartella": "Special Events",
-              "sport": "Motori",
-              "competizione": "Special Events",
-              "evento": "Macau GP - FIA GT World Cup - Main Race",
-              "sessione": "gara",
-              "circuito": "Guia Circuit, 207 Avenida da Amizade, Macao",
-              "inizio": "2026-11-22T05:35:00+01:00",
-              "data": "22/11/2026",
-              "ora": "05:35",
-              "canali": [],
-              "fonte": "Fuori Traiettoria"
-            },
             {
               "titolo": "Special Events: Macau GP - FIA Formula Regional World Cup - Main Race",
               "categoria": "Motori",
@@ -7252,7 +7099,7 @@
     },
     {
       "nome": "Calcio",
-      "totale": 108,
+      "totale": 109,
       "sottocartelle": [
         {
           "nome": "Serie A",
@@ -7770,6 +7617,7 @@
                   "paese": "Kosovo",
                   "canali": [
                     "ART Sport 1",
+                    "ArtMotion",
                     "Arena 2 Premium"
                   ]
                 },
@@ -8269,7 +8117,8 @@
                   "paese": "Venezuela",
                   "canali": [
                     "ESPN Colombia",
-                    "Disney+ Premium Sur"
+                    "Disney+ Premium Sur",
+                    "inter"
                   ]
                 },
                 {
@@ -8774,7 +8623,8 @@
                 {
                   "paese": "Kosovo",
                   "canali": [
-                    "ART Sport 4"
+                    "ART Sport 4",
+                    "ArtMotion"
                   ]
                 },
                 {
@@ -9707,7 +9557,8 @@
                 {
                   "paese": "Kosovo",
                   "canali": [
-                    "ART Sport 1"
+                    "ART Sport 1",
+                    "ArtMotion"
                   ]
                 },
                 {
@@ -10124,7 +9975,8 @@
                   "paese": "Venezuela",
                   "canali": [
                     "ESPN 4 Sur",
-                    "Disney+ Premium Sur"
+                    "Disney+ Premium Sur",
+                    "inter"
                   ]
                 },
                 {
@@ -10247,6 +10099,7 @@
                 {
                   "paese": "Armenia",
                   "canali": [
+                    "Fast Sports 1",
                     "FAST TV",
                     "Q Sport 2 Arena"
                   ]
@@ -10671,6 +10524,7 @@
                   "paese": "Kosovo",
                   "canali": [
                     "ART Sport 1",
+                    "ArtMotion",
                     "Arena 2 Premium"
                   ]
                 },
@@ -11757,6 +11611,7 @@
                   "paese": "Kosovo",
                   "canali": [
                     "ART Sport 1",
+                    "ArtMotion",
                     "Arena 2 Premium"
                   ]
                 },
@@ -12300,7 +12155,8 @@
                   "paese": "Venezuela",
                   "canali": [
                     "ESPN2 Colombia",
-                    "Disney+ Premium Sur"
+                    "Disney+ Premium Sur",
+                    "inter"
                   ]
                 },
                 {
@@ -12851,6 +12707,7 @@
                   "canali": [
                     "Tring Sport 2",
                     "ART Sport 2",
+                    "ArtMotion",
                     "Arena 3 Premium",
                     "TV Vala Kosovo Telecom"
                   ]
@@ -13092,6 +12949,7 @@
                   "paese": "Russia",
                   "canali": [
                     "Sportbox.ru",
+                    "Матч!",
                     "Матч! Футбол 1",
                     "matchtv.ru"
                   ]
@@ -13310,7 +13168,8 @@
                   "paese": "Venezuela",
                   "canali": [
                     "ESPN 4 Sur",
-                    "Disney+ Premium Sur"
+                    "Disney+ Premium Sur",
+                    "inter"
                   ]
                 },
                 {
@@ -13453,7 +13312,7 @@
         },
         {
           "nome": "Serie B",
-          "totale": 19,
+          "totale": 20,
           "eventi": [
             {
               "titolo": "Serie B: Avellino vs Mantova",
@@ -13901,7 +13760,22 @@
               "inizio": "2026-11-26T05:00:00+01:00",
               "data": "26/11/2026",
               "ora": "05:00",
-              "canali": [],
+              "canali": [
+                {
+                  "nome": "DAZN Italia",
+                  "numero": "",
+                  "tipo": "streaming",
+                  "orario": "2026-11-26T05:00",
+                  "fonte": "livesoccer"
+                },
+                {
+                  "nome": "LAB Channel",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-26T05:00",
+                  "fonte": "livesoccer"
+                }
+              ],
               "canali_mondo": [],
               "fonte": "LiveSoccerTV"
             },
@@ -13915,8 +13789,66 @@
               "inizio": "2026-11-26T11:30:00+01:00",
               "data": "26/11/2026",
               "ora": "11:30",
-              "canali": [],
-              "canali_mondo": [],
+              "canali": [
+                {
+                  "nome": "DAZN Italia",
+                  "numero": "",
+                  "tipo": "streaming",
+                  "orario": "2026-11-26T11:30",
+                  "fonte": "livesoccer"
+                },
+                {
+                  "nome": "LAB Channel",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-26T11:30",
+                  "fonte": "livesoccer"
+                }
+              ],
+              "canali_mondo": [
+                {
+                  "paese": "Israele",
+                  "canali": [
+                    "5Stars"
+                  ]
+                },
+                {
+                  "paese": "Italia",
+                  "canali": [
+                    "DAZN Italia",
+                    "LAB Channel"
+                  ]
+                },
+                {
+                  "paese": "Liechtenstein",
+                  "canali": [
+                    "Blue Sport",
+                    "Blue Sport 10 Live"
+                  ]
+                },
+                {
+                  "paese": "San Marino",
+                  "canali": [
+                    "DAZN Italia",
+                    "LAB Channel"
+                  ]
+                },
+                {
+                  "paese": "Svizzera",
+                  "canali": [
+                    "Blue Sport",
+                    "Blue Sport 10 Live"
+                  ]
+                },
+                {
+                  "paese": "USA",
+                  "canali": [
+                    "Fox Soccer Plus",
+                    "fuboTV",
+                    "FOX One"
+                  ]
+                }
+              ],
               "fonte": "LiveSoccerTV"
             },
             {
@@ -14023,6 +13955,20 @@
                 }
               ],
               "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "Serie B: Empoli vs Verona",
+              "categoria": "Calcio",
+              "sottocartella": "Serie B",
+              "sport": "Calcio",
+              "competizione": "Serie B",
+              "evento": "Empoli vs Verona",
+              "inizio": "2026-11-29T02:30:00+01:00",
+              "data": "29/11/2026",
+              "ora": "02:30",
+              "canali": [],
+              "canali_mondo": [],
+              "fonte": "LiveSoccerTV"
             }
           ]
         },
@@ -16359,7 +16305,8 @@
                   "paese": "Venezuela",
                   "canali": [
                     "ESPN2 Colombia",
-                    "Disney+ Premium Sur"
+                    "Disney+ Premium Sur",
+                    "inter"
                   ]
                 },
                 {
@@ -17761,7 +17708,8 @@
                   "paese": "Venezuela",
                   "canali": [
                     "ESPN Colombia",
-                    "Disney+ Premium Sur"
+                    "Disney+ Premium Sur",
+                    "inter"
                   ]
                 },
                 {
@@ -19102,7 +19050,8 @@
                   "paese": "Venezuela",
                   "canali": [
                     "ESPN3 Colombia",
-                    "Disney+ Premium Sur"
+                    "Disney+ Premium Sur",
+                    "inter"
                   ]
                 },
                 {
@@ -20398,7 +20347,8 @@
                   "paese": "Venezuela",
                   "canali": [
                     "Disney+ Premium Sur",
-                    "ESPN 5 Sur"
+                    "ESPN 5 Sur",
+                    "inter"
                   ]
                 },
                 {
@@ -21421,7 +21371,8 @@
                   "paese": "Venezuela",
                   "canali": [
                     "Disney+ Premium Sur",
-                    "ESPN7 Sur"
+                    "ESPN7 Sur",
+                    "inter"
                   ]
                 },
                 {
@@ -21965,7 +21916,8 @@
                 {
                   "paese": "Croazia",
                   "canali": [
-                    "Arena Sport 3 Croatia"
+                    "Arena Sport 3 Croatia",
+                    "MAXtv To Go"
                   ]
                 },
                 {
@@ -22275,7 +22227,10 @@
                   "paese": "Romania",
                   "canali": [
                     "Digi Sport 2 Romania",
-                    "Prima Sport 2"
+                    "Digi Online",
+                    "Prima Sport 2",
+                    "Orange TV Go",
+                    "Prima Play"
                   ]
                 },
                 {
@@ -22788,6 +22743,7 @@
                 {
                   "paese": "Croazia",
                   "canali": [
+                    "MAXtv To Go",
                     "Arena Sport 7 Croatia"
                   ]
                 },
@@ -23264,7 +23220,10 @@
                   "paese": "Romania",
                   "canali": [
                     "Digi Sport 3 Romania",
-                    "Prima Sport 2"
+                    "Digi Online",
+                    "Prima Sport 2",
+                    "Orange TV Go",
+                    "Prima Play"
                   ]
                 },
                 {
@@ -23512,7 +23471,8 @@
                   "paese": "Venezuela",
                   "canali": [
                     "ESPN 4 Sur",
-                    "Disney+ Premium Sur"
+                    "Disney+ Premium Sur",
+                    "inter"
                   ]
                 },
                 {
@@ -23746,7 +23706,8 @@
                 {
                   "paese": "Croazia",
                   "canali": [
-                    "Arena Sport 3 Croatia"
+                    "Arena Sport 3 Croatia",
+                    "MAXtv To Go"
                   ]
                 },
                 {
@@ -24223,7 +24184,8 @@
                   "paese": "Venezuela",
                   "canali": [
                     "ESPN3 Colombia",
-                    "Disney+ Premium Sur"
+                    "Disney+ Premium Sur",
+                    "inter"
                   ]
                 },
                 {
@@ -24363,6 +24325,7 @@
                 {
                   "paese": "Armenia",
                   "canali": [
+                    "Fast Sports 1",
                     "FAST TV"
                   ]
                 },
@@ -24455,6 +24418,13 @@
                   "canali": [
                     "beIN Sports 3 Thailand",
                     "beIN Sports Connect"
+                  ]
+                },
+                {
+                  "paese": "Bulgaria",
+                  "canali": [
+                    "Ring.bg",
+                    "Voyo Sport"
                   ]
                 },
                 {
@@ -24571,9 +24541,18 @@
                   ]
                 },
                 {
+                  "paese": "Croazia",
+                  "canali": [
+                    "Arena Sport 3 Croatia",
+                    "MAXtv To Go"
+                  ]
+                },
+                {
                   "paese": "Cipro",
                   "canali": [
-                    "ANT1"
+                    "ANT1",
+                    "Cytavision on the Go",
+                    "Cytavision Sports 4"
                   ]
                 },
                 {
@@ -25076,7 +25055,10 @@
                   "paese": "Romania",
                   "canali": [
                     "Digi Sport 2 Romania",
-                    "Prima Sport 3"
+                    "Digi Online",
+                    "Orange TV Go",
+                    "Prima Sport 3",
+                    "Prima Play"
                   ]
                 },
                 {
@@ -25339,7 +25321,8 @@
                   "paese": "Venezuela",
                   "canali": [
                     "ESPN2 Colombia",
-                    "Disney+ Premium Sur"
+                    "Disney+ Premium Sur",
+                    "inter"
                   ]
                 },
                 {
