@@ -1,193 +1,16 @@
 {
-  "aggiornato": "2026-11-22T19:21:29+01:00",
+  "aggiornato": "2026-11-22T20:49:15+01:00",
   "fonti": {
     "motori": "Fuori Traiettoria, Dizzle0987/motorsport-calendar, palinsesto TV8",
     "calcio_italiano": "https://raw.githubusercontent.com/aandroide/Livesoccer/master/livesoccertv/output/eventi.json",
     "altri_sport": "https://sport.virgilio.it/guida-tv/"
   },
-  "totale": 157,
+  "totale": 149,
   "cartelle": [
     {
       "nome": "Oggi",
-      "totale": 16,
+      "totale": 8,
       "eventi": [
-        {
-          "titolo": "[Calcio] Serie B: Arezzo vs Calcio Padova",
-          "categoria": "Calcio",
-          "sottocartella": "Serie B",
-          "sport": "Calcio",
-          "competizione": "Serie B",
-          "evento": "Arezzo vs Calcio Padova",
-          "inizio": "2026-11-22T17:15:00+01:00",
-          "data": "22/11/2026",
-          "ora": "17:15",
-          "canali": [
-            {
-              "nome": "DAZN Italia",
-              "numero": "",
-              "tipo": "streaming",
-              "orario": "2026-11-22T17:15",
-              "fonte": "livesoccer"
-            },
-            {
-              "nome": "LAB Channel",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-11-22T17:15",
-              "fonte": "livesoccer"
-            },
-            {
-              "nome": "DAZN",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-11-22T17:15",
-              "fonte": "virgilio"
-            }
-          ],
-          "canali_mondo": [
-            {
-              "paese": "Internazionale",
-              "canali": [
-                "Onefootball"
-              ]
-            },
-            {
-              "paese": "Italia",
-              "canali": [
-                "DAZN Italia",
-                "LAB Channel"
-              ]
-            },
-            {
-              "paese": "San Marino",
-              "canali": [
-                "DAZN Italia",
-                "LAB Channel"
-              ]
-            }
-          ],
-          "fonte": "LiveSoccerTV"
-        },
-        {
-          "titolo": "[Calcio] Bundesliga: Werder Brema-Amburgo SV",
-          "categoria": "Calcio",
-          "sottocartella": "Bundesliga",
-          "sport": "Calcio",
-          "competizione": "Bundesliga",
-          "evento": "Werder Brema-Amburgo SV",
-          "inizio": "2026-11-22T17:30:00+01:00",
-          "data": "22/11/2026",
-          "ora": "17:30",
-          "canali": [
-            {
-              "nome": "Sky Sport Mix",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-11-22T17:30",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Calcio] Premier League: Liverpool-Manchester Utd",
-          "categoria": "Calcio",
-          "sottocartella": "Premier League",
-          "sport": "Calcio",
-          "competizione": "Premier League",
-          "evento": "Liverpool-Manchester Utd",
-          "inizio": "2026-11-22T17:30:00+01:00",
-          "data": "22/11/2026",
-          "ora": "17:30",
-          "canali": [
-            {
-              "nome": "Sky Sport Arena",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-11-22T17:30",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
-        {
-          "titolo": "[Calcio] Serie C: Desenzano Calvina vs AlbinoLeffe",
-          "categoria": "Calcio",
-          "sottocartella": "Serie C",
-          "sport": "Calcio",
-          "competizione": "Serie C",
-          "evento": "Desenzano Calvina vs AlbinoLeffe",
-          "inizio": "2026-11-22T17:30:00+01:00",
-          "data": "22/11/2026",
-          "ora": "17:30",
-          "canali": [],
-          "canali_mondo": [],
-          "fonte": "LiveSoccerTV"
-        },
-        {
-          "titolo": "[Calcio] Serie C: Dolomiti Bellunesi vs Athletic Carpi",
-          "categoria": "Calcio",
-          "sottocartella": "Serie C",
-          "sport": "Calcio",
-          "competizione": "Serie C",
-          "evento": "Dolomiti Bellunesi vs Athletic Carpi",
-          "inizio": "2026-11-22T17:30:00+01:00",
-          "data": "22/11/2026",
-          "ora": "17:30",
-          "canali": [],
-          "canali_mondo": [],
-          "fonte": "LiveSoccerTV"
-        },
-        {
-          "titolo": "[Calcio] Serie C: Forlì vs Reggiana",
-          "categoria": "Calcio",
-          "sottocartella": "Serie C",
-          "sport": "Calcio",
-          "competizione": "Serie C",
-          "evento": "Forlì vs Reggiana",
-          "inizio": "2026-11-22T17:30:00+01:00",
-          "data": "22/11/2026",
-          "ora": "17:30",
-          "canali": [],
-          "canali_mondo": [],
-          "fonte": "LiveSoccerTV"
-        },
-        {
-          "titolo": "[Calcio] Serie C: Picerno vs Giugliano",
-          "categoria": "Calcio",
-          "sottocartella": "Serie C",
-          "sport": "Calcio",
-          "competizione": "Serie C",
-          "evento": "Picerno vs Giugliano",
-          "inizio": "2026-11-22T17:30:00+01:00",
-          "data": "22/11/2026",
-          "ora": "17:30",
-          "canali": [],
-          "canali_mondo": [],
-          "fonte": "LiveSoccerTV"
-        },
-        {
-          "titolo": "[Calcio] Serie C: Sambenedettese vs Perugia",
-          "categoria": "Calcio",
-          "sottocartella": "Serie C",
-          "sport": "Calcio",
-          "competizione": "Serie C",
-          "evento": "Sambenedettese vs Perugia",
-          "inizio": "2026-11-22T17:30:00+01:00",
-          "data": "22/11/2026",
-          "ora": "17:30",
-          "canali": [
-            {
-              "nome": "Sky Sport Max",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-11-22T17:30",
-              "fonte": "virgilio"
-            }
-          ],
-          "canali_mondo": [],
-          "fonte": "LiveSoccerTV"
-        },
         {
           "titolo": "[Calcio] Serie A: Milan vs Frosinone",
           "categoria": "Calcio",
@@ -3428,7 +3251,7 @@
     },
     {
       "nome": "Calcio",
-      "totale": 100,
+      "totale": 92,
       "sottocartelle": [
         {
           "nome": "Serie A",
@@ -9047,65 +8870,8 @@
         },
         {
           "nome": "Serie B",
-          "totale": 19,
+          "totale": 18,
           "eventi": [
-            {
-              "titolo": "Serie B: Arezzo vs Calcio Padova",
-              "categoria": "Calcio",
-              "sottocartella": "Serie B",
-              "sport": "Calcio",
-              "competizione": "Serie B",
-              "evento": "Arezzo vs Calcio Padova",
-              "inizio": "2026-11-22T17:15:00+01:00",
-              "data": "22/11/2026",
-              "ora": "17:15",
-              "canali": [
-                {
-                  "nome": "DAZN Italia",
-                  "numero": "",
-                  "tipo": "streaming",
-                  "orario": "2026-11-22T17:15",
-                  "fonte": "livesoccer"
-                },
-                {
-                  "nome": "LAB Channel",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-22T17:15",
-                  "fonte": "livesoccer"
-                },
-                {
-                  "nome": "DAZN",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-22T17:15",
-                  "fonte": "virgilio"
-                }
-              ],
-              "canali_mondo": [
-                {
-                  "paese": "Internazionale",
-                  "canali": [
-                    "Onefootball"
-                  ]
-                },
-                {
-                  "paese": "Italia",
-                  "canali": [
-                    "DAZN Italia",
-                    "LAB Channel"
-                  ]
-                },
-                {
-                  "paese": "San Marino",
-                  "canali": [
-                    "DAZN Italia",
-                    "LAB Channel"
-                  ]
-                }
-              ],
-              "fonte": "LiveSoccerTV"
-            },
             {
               "titolo": "Serie B: Juve Stabia vs Catanzaro",
               "categoria": "Calcio",
@@ -9684,86 +9450,8 @@
         },
         {
           "nome": "Serie C",
-          "totale": 12,
+          "totale": 7,
           "eventi": [
-            {
-              "titolo": "Serie C: Desenzano Calvina vs AlbinoLeffe",
-              "categoria": "Calcio",
-              "sottocartella": "Serie C",
-              "sport": "Calcio",
-              "competizione": "Serie C",
-              "evento": "Desenzano Calvina vs AlbinoLeffe",
-              "inizio": "2026-11-22T17:30:00+01:00",
-              "data": "22/11/2026",
-              "ora": "17:30",
-              "canali": [],
-              "canali_mondo": [],
-              "fonte": "LiveSoccerTV"
-            },
-            {
-              "titolo": "Serie C: Dolomiti Bellunesi vs Athletic Carpi",
-              "categoria": "Calcio",
-              "sottocartella": "Serie C",
-              "sport": "Calcio",
-              "competizione": "Serie C",
-              "evento": "Dolomiti Bellunesi vs Athletic Carpi",
-              "inizio": "2026-11-22T17:30:00+01:00",
-              "data": "22/11/2026",
-              "ora": "17:30",
-              "canali": [],
-              "canali_mondo": [],
-              "fonte": "LiveSoccerTV"
-            },
-            {
-              "titolo": "Serie C: Forlì vs Reggiana",
-              "categoria": "Calcio",
-              "sottocartella": "Serie C",
-              "sport": "Calcio",
-              "competizione": "Serie C",
-              "evento": "Forlì vs Reggiana",
-              "inizio": "2026-11-22T17:30:00+01:00",
-              "data": "22/11/2026",
-              "ora": "17:30",
-              "canali": [],
-              "canali_mondo": [],
-              "fonte": "LiveSoccerTV"
-            },
-            {
-              "titolo": "Serie C: Picerno vs Giugliano",
-              "categoria": "Calcio",
-              "sottocartella": "Serie C",
-              "sport": "Calcio",
-              "competizione": "Serie C",
-              "evento": "Picerno vs Giugliano",
-              "inizio": "2026-11-22T17:30:00+01:00",
-              "data": "22/11/2026",
-              "ora": "17:30",
-              "canali": [],
-              "canali_mondo": [],
-              "fonte": "LiveSoccerTV"
-            },
-            {
-              "titolo": "Serie C: Sambenedettese vs Perugia",
-              "categoria": "Calcio",
-              "sottocartella": "Serie C",
-              "sport": "Calcio",
-              "competizione": "Serie C",
-              "evento": "Sambenedettese vs Perugia",
-              "inizio": "2026-11-22T17:30:00+01:00",
-              "data": "22/11/2026",
-              "ora": "17:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport Max",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-22T17:30",
-                  "fonte": "virgilio"
-                }
-              ],
-              "canali_mondo": [],
-              "fonte": "LiveSoccerTV"
-            },
             {
               "titolo": "Serie C: Grosseto vs Nuova Monterosi",
               "categoria": "Calcio",
@@ -9902,186 +9590,6 @@
                   "numero": "201",
                   "tipo": "diretta",
                   "orario": "2026-11-27T20:30",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            }
-          ]
-        },
-        {
-          "nome": "Bundesliga",
-          "totale": 3,
-          "eventi": [
-            {
-              "titolo": "Bundesliga: Werder Brema-Amburgo SV",
-              "categoria": "Calcio",
-              "sottocartella": "Bundesliga",
-              "sport": "Calcio",
-              "competizione": "Bundesliga",
-              "evento": "Werder Brema-Amburgo SV",
-              "inizio": "2026-11-22T17:30:00+01:00",
-              "data": "22/11/2026",
-              "ora": "17:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport Mix",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-22T17:30",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "Bundesliga: Amburgo-Bayern Monaco",
-              "categoria": "Calcio",
-              "sottocartella": "Bundesliga",
-              "sport": "Calcio",
-              "competizione": "Bundesliga",
-              "evento": "Amburgo-Bayern Monaco",
-              "inizio": "2026-11-28T15:30:00+01:00",
-              "data": "28/11/2026",
-              "ora": "15:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport Max",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-28T15:30",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "Bundesliga: Stoccarda-Eintracht Francoforte",
-              "categoria": "Calcio",
-              "sottocartella": "Bundesliga",
-              "sport": "Calcio",
-              "competizione": "Bundesliga",
-              "evento": "Stoccarda-Eintracht Francoforte",
-              "inizio": "2026-11-28T18:30:00+01:00",
-              "data": "28/11/2026",
-              "ora": "18:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport Mix",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-28T18:30",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            }
-          ]
-        },
-        {
-          "nome": "Premier League",
-          "totale": 5,
-          "eventi": [
-            {
-              "titolo": "Premier League: Liverpool-Manchester Utd",
-              "categoria": "Calcio",
-              "sottocartella": "Premier League",
-              "sport": "Calcio",
-              "competizione": "Premier League",
-              "evento": "Liverpool-Manchester Utd",
-              "inizio": "2026-11-22T17:30:00+01:00",
-              "data": "22/11/2026",
-              "ora": "17:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport Arena",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-22T17:30",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "Premier League: Nottingham Forest-Chelsea",
-              "categoria": "Calcio",
-              "sottocartella": "Premier League",
-              "sport": "Calcio",
-              "competizione": "Premier League",
-              "evento": "Nottingham Forest-Chelsea",
-              "inizio": "2026-11-27T21:00:00+01:00",
-              "data": "27/11/2026",
-              "ora": "21:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Max",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-27T21:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "Premier League: Leeds United-Coventry City",
-              "categoria": "Calcio",
-              "sottocartella": "Premier League",
-              "sport": "Calcio",
-              "competizione": "Premier League",
-              "evento": "Leeds United-Coventry City",
-              "inizio": "2026-11-28T16:00:00+01:00",
-              "data": "28/11/2026",
-              "ora": "16:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport Mix",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-28T16:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "Premier League: Manchester United-Brentford",
-              "categoria": "Calcio",
-              "sottocartella": "Premier League",
-              "sport": "Calcio",
-              "competizione": "Premier League",
-              "evento": "Manchester United-Brentford",
-              "inizio": "2026-11-28T16:00:00+01:00",
-              "data": "28/11/2026",
-              "ora": "16:00",
-              "canali": [
-                {
-                  "nome": "Sky Sport 1",
-                  "numero": "201",
-                  "tipo": "diretta",
-                  "orario": "2026-11-28T16:00",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "Premier League: Ipswich-Aston Villa",
-              "categoria": "Calcio",
-              "sottocartella": "Premier League",
-              "sport": "Calcio",
-              "competizione": "Premier League",
-              "evento": "Ipswich-Aston Villa",
-              "inizio": "2026-11-28T18:30:00+01:00",
-              "data": "28/11/2026",
-              "ora": "18:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport Max",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-28T18:30",
                   "fonte": "virgilio"
                 }
               ],
@@ -21031,6 +20539,96 @@
           ]
         },
         {
+          "nome": "Premier League",
+          "totale": 4,
+          "eventi": [
+            {
+              "titolo": "Premier League: Nottingham Forest-Chelsea",
+              "categoria": "Calcio",
+              "sottocartella": "Premier League",
+              "sport": "Calcio",
+              "competizione": "Premier League",
+              "evento": "Nottingham Forest-Chelsea",
+              "inizio": "2026-11-27T21:00:00+01:00",
+              "data": "27/11/2026",
+              "ora": "21:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport Max",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-27T21:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "Premier League: Leeds United-Coventry City",
+              "categoria": "Calcio",
+              "sottocartella": "Premier League",
+              "sport": "Calcio",
+              "competizione": "Premier League",
+              "evento": "Leeds United-Coventry City",
+              "inizio": "2026-11-28T16:00:00+01:00",
+              "data": "28/11/2026",
+              "ora": "16:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport Mix",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-28T16:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "Premier League: Manchester United-Brentford",
+              "categoria": "Calcio",
+              "sottocartella": "Premier League",
+              "sport": "Calcio",
+              "competizione": "Premier League",
+              "evento": "Manchester United-Brentford",
+              "inizio": "2026-11-28T16:00:00+01:00",
+              "data": "28/11/2026",
+              "ora": "16:00",
+              "canali": [
+                {
+                  "nome": "Sky Sport 1",
+                  "numero": "201",
+                  "tipo": "diretta",
+                  "orario": "2026-11-28T16:00",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "Premier League: Ipswich-Aston Villa",
+              "categoria": "Calcio",
+              "sottocartella": "Premier League",
+              "sport": "Calcio",
+              "competizione": "Premier League",
+              "evento": "Ipswich-Aston Villa",
+              "inizio": "2026-11-28T18:30:00+01:00",
+              "data": "28/11/2026",
+              "ora": "18:30",
+              "canali": [
+                {
+                  "nome": "Sky Sport Max",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-28T18:30",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            }
+          ]
+        },
+        {
           "nome": "Saudi League",
           "totale": 1,
           "eventi": [
@@ -21050,6 +20648,54 @@
                   "numero": "",
                   "tipo": "diretta",
                   "orario": "2026-11-28T15:20",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            }
+          ]
+        },
+        {
+          "nome": "Bundesliga",
+          "totale": 2,
+          "eventi": [
+            {
+              "titolo": "Bundesliga: Amburgo-Bayern Monaco",
+              "categoria": "Calcio",
+              "sottocartella": "Bundesliga",
+              "sport": "Calcio",
+              "competizione": "Bundesliga",
+              "evento": "Amburgo-Bayern Monaco",
+              "inizio": "2026-11-28T15:30:00+01:00",
+              "data": "28/11/2026",
+              "ora": "15:30",
+              "canali": [
+                {
+                  "nome": "Sky Sport Max",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-28T15:30",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "Bundesliga: Stoccarda-Eintracht Francoforte",
+              "categoria": "Calcio",
+              "sottocartella": "Bundesliga",
+              "sport": "Calcio",
+              "competizione": "Bundesliga",
+              "evento": "Stoccarda-Eintracht Francoforte",
+              "inizio": "2026-11-28T18:30:00+01:00",
+              "data": "28/11/2026",
+              "ora": "18:30",
+              "canali": [
+                {
+                  "nome": "Sky Sport Mix",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-28T18:30",
                   "fonte": "virgilio"
                 }
               ],
