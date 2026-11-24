@@ -1,11 +1,11 @@
 {
-  "aggiornato": "2026-11-24T06:01:59+01:00",
+  "aggiornato": "2026-11-24T14:56:13+01:00",
   "fonti": {
     "motori": "Fuori Traiettoria, Dizzle0987/motorsport-calendar, palinsesto TV8",
     "calcio_italiano": "https://raw.githubusercontent.com/aandroide/Livesoccer/master/livesoccertv/output/eventi.json",
     "altri_sport": "https://sport.virgilio.it/guida-tv/"
   },
-  "totale": 155,
+  "totale": 156,
   "cartelle": [
     {
       "nome": "Oggi",
@@ -22021,13 +22021,6 @@
                   "tipo": "diretta",
                   "orario": "2026-11-25T21:00",
                   "fonte": "virgilio"
-                },
-                {
-                  "nome": "TV8",
-                  "numero": "8",
-                  "tipo": "diretta",
-                  "orario": "2026-11-25T21:00",
-                  "fonte": "virgilio"
                 }
               ],
               "fonte": "Virgilio Sport"
@@ -27720,6 +27713,39 @@
                   "numero": "",
                   "tipo": "diretta",
                   "orario": "2026-11-29T15:30",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nome": "Tennis",
+      "totale": 1,
+      "sottocartelle": [
+        {
+          "nome": "Coppa Davis",
+          "totale": 1,
+          "eventi": [
+            {
+              "titolo": "Coppa Davis: Italia-Corea del Sud",
+              "categoria": "Tennis",
+              "sottocartella": "Coppa Davis",
+              "sport": "Tennis",
+              "competizione": "Coppa Davis 2026",
+              "evento": "Italia-Corea del Sud",
+              "inizio": "2026-11-25T16:00:00+01:00",
+              "data": "25/11/2026",
+              "ora": "16:00",
+              "canali": [
+                {
+                  "nome": "SuperTennis",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-25T16:00",
                   "fonte": "virgilio"
                 }
               ],
