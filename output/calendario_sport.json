@@ -1,37 +1,16 @@
 {
-  "aggiornato": "2026-11-26T04:19:39+01:00",
+  "aggiornato": "2026-11-26T04:38:04+01:00",
   "fonti": {
     "motori": "Fuori Traiettoria, Dizzle0987/motorsport-calendar, palinsesto TV8",
     "calcio_italiano": "https://raw.githubusercontent.com/aandroide/Livesoccer/master/livesoccertv/output/eventi.json",
     "altri_sport": "https://sport.virgilio.it/guida-tv/"
   },
-  "totale": 121,
+  "totale": 120,
   "cartelle": [
     {
       "nome": "Oggi",
-      "totale": 31,
+      "totale": 30,
       "eventi": [
-        {
-          "titolo": "[Basket] NBA: Oklahoma City Thunder-Minnesota Timberwolves",
-          "categoria": "Basket",
-          "sottocartella": "NBA",
-          "sport": "Basket",
-          "competizione": "NBA",
-          "evento": "Oklahoma City Thunder-Minnesota Timberwolves",
-          "inizio": "2026-11-26T01:30:00+01:00",
-          "data": "26/11/2026",
-          "ora": "01:30",
-          "canali": [
-            {
-              "nome": "Sky Sport Basket",
-              "numero": "",
-              "tipo": "diretta",
-              "orario": "2026-11-26T01:30",
-              "fonte": "virgilio"
-            }
-          ],
-          "fonte": "Virgilio Sport"
-        },
         {
           "titolo": "[Calcio] Mondiali U17 Qatar: Uzbekistan-Italia",
           "categoria": "Calcio",
@@ -27838,56 +27817,8 @@
     },
     {
       "nome": "Basket",
-      "totale": 11,
+      "totale": 10,
       "sottocartelle": [
-        {
-          "nome": "NBA",
-          "totale": 2,
-          "eventi": [
-            {
-              "titolo": "NBA: Oklahoma City Thunder-Minnesota Timberwolves",
-              "categoria": "Basket",
-              "sottocartella": "NBA",
-              "sport": "Basket",
-              "competizione": "NBA",
-              "evento": "Oklahoma City Thunder-Minnesota Timberwolves",
-              "inizio": "2026-11-26T01:30:00+01:00",
-              "data": "26/11/2026",
-              "ora": "01:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport Basket",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-11-26T01:30",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            },
-            {
-              "titolo": "NBA: Houston-L.A. Lakers",
-              "categoria": "Basket",
-              "sottocartella": "NBA",
-              "sport": "Basket",
-              "competizione": "NBA",
-              "evento": "Houston-L.A. Lakers",
-              "inizio": "2026-12-01T01:30:00+01:00",
-              "data": "01/12/2026",
-              "ora": "01:30",
-              "canali": [
-                {
-                  "nome": "Sky Sport Basket",
-                  "numero": "",
-                  "tipo": "diretta",
-                  "orario": "2026-12-01T01:30",
-                  "fonte": "virgilio"
-                }
-              ],
-              "fonte": "Virgilio Sport"
-            }
-          ]
-        },
         {
           "nome": "Qualificazioni FIBA Mondiali",
           "totale": 8,
@@ -28089,6 +28020,33 @@
                   "numero": "",
                   "tipo": "diretta",
                   "orario": "2026-11-27T20:45",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            }
+          ]
+        },
+        {
+          "nome": "NBA",
+          "totale": 1,
+          "eventi": [
+            {
+              "titolo": "NBA: Houston-L.A. Lakers",
+              "categoria": "Basket",
+              "sottocartella": "NBA",
+              "sport": "Basket",
+              "competizione": "NBA",
+              "evento": "Houston-L.A. Lakers",
+              "inizio": "2026-12-01T01:30:00+01:00",
+              "data": "01/12/2026",
+              "ora": "01:30",
+              "canali": [
+                {
+                  "nome": "Sky Sport Basket",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-12-01T01:30",
                   "fonte": "virgilio"
                 }
               ],
