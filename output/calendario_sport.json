@@ -1,46 +1,16 @@
 {
-  "aggiornato": "2026-11-27T05:42:39+01:00",
+  "aggiornato": "2026-11-27T15:35:05+01:00",
   "fonti": {
     "motori": "Fuori Traiettoria, Dizzle0987/motorsport-calendar, palinsesto TV8",
     "calcio_italiano": "https://raw.githubusercontent.com/aandroide/Livesoccer/master/livesoccertv/output/eventi.json",
     "altri_sport": "https://sport.virgilio.it/guida-tv/"
   },
-  "totale": 103,
+  "totale": 106,
   "cartelle": [
     {
       "nome": "Oggi",
       "totale": 17,
       "eventi": [
-        {
-          "titolo": "[Motori] MotoGP: Valencian Community Grand Prix - Prove libere",
-          "categoria": "Motori",
-          "sottocartella": "MotoGP",
-          "sport": "Motori",
-          "competizione": "MotoGP",
-          "evento": "Valencian Community Grand Prix - Prove libere",
-          "sessione": "prove",
-          "circuito": "Circuit Ricardo Tormo, Cheste, Spain",
-          "inizio": "2026-11-27T10:45:00+01:00",
-          "data": "27/11/2026",
-          "ora": "10:45",
-          "canali": [
-            {
-              "nome": "Sky Sport MotoGP",
-              "numero": "208",
-              "tipo": "diretta",
-              "orario": "2026-11-27T10:45",
-              "fonte": "dizzle+config"
-            },
-            {
-              "nome": "NOW",
-              "numero": "",
-              "tipo": "streaming",
-              "orario": "2026-11-27T10:45",
-              "fonte": "dizzle+config"
-            }
-          ],
-          "fonte": "Dizzle0987/motorsport-calendar"
-        },
         {
           "titolo": "[Motori] Formula 1: Qatar Grand Prix - FP1",
           "categoria": "Motori",
@@ -1568,12 +1538,33 @@
             }
           ],
           "fonte": "Virgilio Sport"
+        },
+        {
+          "titolo": "[Altri sport] Nations Championship: Irlanda-Australia",
+          "categoria": "Altri sport",
+          "sottocartella": "Rugby",
+          "sport": "Rugby",
+          "competizione": "Nations Championship",
+          "evento": "Irlanda-Australia",
+          "inizio": "2026-11-27T21:10:00+01:00",
+          "data": "27/11/2026",
+          "ora": "21:10",
+          "canali": [
+            {
+              "nome": "Sky Sport Arena",
+              "numero": "",
+              "tipo": "diretta",
+              "orario": "2026-11-27T21:10",
+              "fonte": "virgilio"
+            }
+          ],
+          "fonte": "Virgilio Sport"
         }
       ]
     },
     {
       "nome": "Motori",
-      "totale": 28,
+      "totale": 27,
       "sottocartelle": [
         {
           "nome": "Formula 1",
@@ -2148,38 +2139,8 @@
         },
         {
           "nome": "MotoGP",
-          "totale": 8,
+          "totale": 7,
           "eventi": [
-            {
-              "titolo": "MotoGP: Valencian Community Grand Prix - Prove libere",
-              "categoria": "Motori",
-              "sottocartella": "MotoGP",
-              "sport": "Motori",
-              "competizione": "MotoGP",
-              "evento": "Valencian Community Grand Prix - Prove libere",
-              "sessione": "prove",
-              "circuito": "Circuit Ricardo Tormo, Cheste, Spain",
-              "inizio": "2026-11-27T10:45:00+01:00",
-              "data": "27/11/2026",
-              "ora": "10:45",
-              "canali": [
-                {
-                  "nome": "Sky Sport MotoGP",
-                  "numero": "208",
-                  "tipo": "diretta",
-                  "orario": "2026-11-27T10:45",
-                  "fonte": "dizzle+config"
-                },
-                {
-                  "nome": "NOW",
-                  "numero": "",
-                  "tipo": "streaming",
-                  "orario": "2026-11-27T10:45",
-                  "fonte": "dizzle+config"
-                }
-              ],
-              "fonte": "Dizzle0987/motorsport-calendar"
-            },
             {
               "titolo": "MotoGP: Valencian Community Grand Prix - Practice",
               "categoria": "Motori",
@@ -2490,7 +2451,7 @@
     },
     {
       "nome": "Calcio",
-      "totale": 52,
+      "totale": 53,
       "sottocartelle": [
         {
           "nome": "Serie A",
@@ -4055,7 +4016,8 @@
                 {
                   "paese": "Kosovo",
                   "canali": [
-                    "Tring Sport 1"
+                    "Tring Sport 1",
+                    "TV Vala Kosovo Telecom"
                   ]
                 },
                 {
@@ -4851,7 +4813,8 @@
                 {
                   "paese": "Estonia",
                   "canali": [
-                    "Go3 Sport 2"
+                    "Go3 Sport 2",
+                    "Go3 Extra Sports Estonia"
                   ]
                 },
                 {
@@ -5054,7 +5017,8 @@
                 {
                   "paese": "Lettonia",
                   "canali": [
-                    "Go3 Sport 2"
+                    "Go3 Sport 2",
+                    "Go3 Extra Sports Latvia"
                   ]
                 },
                 {
@@ -5081,7 +5045,8 @@
                 {
                   "paese": "Lituania",
                   "canali": [
-                    "Go3 Sport 2"
+                    "Go3 Sport 2",
+                    "Go3 Extra Sports Lithuania"
                   ]
                 },
                 {
@@ -5572,6 +5537,20 @@
                   "fonte": "livesoccer"
                 },
                 {
+                  "nome": "Sky Sport Uno",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-28T20:45",
+                  "fonte": "livesoccer"
+                },
+                {
+                  "nome": "Sky Sport Calcio",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-28T20:45",
+                  "fonte": "livesoccer"
+                },
+                {
                   "nome": "NOW TV",
                   "numero": "",
                   "tipo": "streaming",
@@ -5588,13 +5567,6 @@
                 {
                   "nome": "Sky Sport 1",
                   "numero": "201",
-                  "tipo": "diretta",
-                  "orario": "2026-11-28T20:45",
-                  "fonte": "virgilio"
-                },
-                {
-                  "nome": "Sky Sport Calcio",
-                  "numero": "",
                   "tipo": "diretta",
                   "orario": "2026-11-28T20:45",
                   "fonte": "virgilio"
@@ -6026,6 +5998,8 @@
                     "DAZN Italia",
                     "Sky Sport 251",
                     "SKY Go Italia",
+                    "Sky Sport Uno",
+                    "Sky Sport Calcio",
                     "NOW TV"
                   ]
                 },
@@ -6354,6 +6328,8 @@
                     "DAZN Italia",
                     "Sky Sport 251",
                     "SKY Go Italia",
+                    "Sky Sport Uno",
+                    "Sky Sport Calcio",
                     "NOW TV"
                   ]
                 },
@@ -7969,7 +7945,8 @@
                 {
                   "paese": "Estonia",
                   "canali": [
-                    "Go3 Sport 3"
+                    "Go3 Sport 3",
+                    "Go3 Extra Sports Estonia"
                   ]
                 },
                 {
@@ -8153,7 +8130,8 @@
                 {
                   "paese": "Lettonia",
                   "canali": [
-                    "Go3 Sport 3"
+                    "Go3 Sport 3",
+                    "Go3 Extra Sports Latvia"
                   ]
                 },
                 {
@@ -8180,7 +8158,8 @@
                 {
                   "paese": "Lituania",
                   "canali": [
-                    "Go3 Sport 3"
+                    "Go3 Sport 3",
+                    "Go3 Extra Sports Lithuania"
                   ]
                 },
                 {
@@ -9169,7 +9148,51 @@
                   "fonte": "livesoccer"
                 }
               ],
-              "canali_mondo": [],
+              "canali_mondo": [
+                {
+                  "paese": "Bosnia ed Erzegovina",
+                  "canali": [
+                    "Moja TV",
+                    "Arena Sport 4",
+                    "Arena Cloud"
+                  ]
+                },
+                {
+                  "paese": "Gran Bretagna",
+                  "canali": [
+                    "DCTV"
+                  ]
+                },
+                {
+                  "paese": "Irlanda",
+                  "canali": [
+                    "DCTV"
+                  ]
+                },
+                {
+                  "paese": "Italia",
+                  "canali": [
+                    "DAZN Italia",
+                    "LAB Channel"
+                  ]
+                },
+                {
+                  "paese": "San Marino",
+                  "canali": [
+                    "DAZN Italia",
+                    "LAB Channel"
+                  ]
+                },
+                {
+                  "paese": "USA",
+                  "canali": [
+                    "Fox Soccer Plus",
+                    "fuboTV",
+                    "DCTV",
+                    "FOX One"
+                  ]
+                }
+              ],
               "fonte": "LiveSoccerTV"
             },
             {
@@ -9197,7 +9220,7 @@
         },
         {
           "nome": "Serie C",
-          "totale": 6,
+          "totale": 7,
           "eventi": [
             {
               "titolo": "Serie C: Cavese vs Scafatese",
@@ -9496,6 +9519,27 @@
                   "numero": "",
                   "tipo": "diretta",
                   "orario": "2026-11-29T12:30",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "Serie C: Reggiana-Ostiamare",
+              "categoria": "Calcio",
+              "sottocartella": "Serie C",
+              "sport": "Calcio",
+              "competizione": "Serie C",
+              "evento": "Reggiana-Ostiamare",
+              "inizio": "2026-11-30T20:45:00+01:00",
+              "data": "30/11/2026",
+              "ora": "20:45",
+              "canali": [
+                {
+                  "nome": "Rai Sport",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-30T20:45",
                   "fonte": "virgilio"
                 }
               ],
@@ -10448,11 +10492,11 @@
     },
     {
       "nome": "Altri sport",
-      "totale": 9,
+      "totale": 12,
       "sottocartelle": [
         {
           "nome": "Rugby",
-          "totale": 1,
+          "totale": 3,
           "eventi": [
             {
               "titolo": "Nations Championship: Italia-Fiji",
@@ -10481,12 +10525,54 @@
                 }
               ],
               "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "Nations Championship: Irlanda-Australia",
+              "categoria": "Altri sport",
+              "sottocartella": "Rugby",
+              "sport": "Rugby",
+              "competizione": "Nations Championship",
+              "evento": "Irlanda-Australia",
+              "inizio": "2026-11-27T21:10:00+01:00",
+              "data": "27/11/2026",
+              "ora": "21:10",
+              "canali": [
+                {
+                  "nome": "Sky Sport Arena",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-27T21:10",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
+              "titolo": "Serie A Elite: Vicenza-Roma",
+              "categoria": "Altri sport",
+              "sottocartella": "Rugby",
+              "sport": "Rugby",
+              "competizione": "Serie A Elite",
+              "evento": "Vicenza-Roma",
+              "inizio": "2026-11-29T14:15:00+01:00",
+              "data": "29/11/2026",
+              "ora": "14:15",
+              "canali": [
+                {
+                  "nome": "Rai Sport",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-29T14:15",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
             }
           ]
         },
         {
           "nome": "Sci alpino",
-          "totale": 7,
+          "totale": 8,
           "eventi": [
             {
               "titolo": "Coppa del Mondo – Killington: Slalom Gigante F (1a manche): 1a manche",
@@ -10566,6 +10652,27 @@
               "fonte": "Virgilio Sport"
             },
             {
+              "titolo": "Coppa del Mondo – Killington: Slalom F (1a manche): 1a manche",
+              "categoria": "Altri sport",
+              "sottocartella": "Sci alpino",
+              "sport": "Sci alpino",
+              "competizione": "Coppa del Mondo – Killington",
+              "evento": "Slalom F (1a manche): 1a manche",
+              "inizio": "2026-11-29T16:30:00+01:00",
+              "data": "29/11/2026",
+              "ora": "16:30",
+              "canali": [
+                {
+                  "nome": "Rai Sport",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-29T16:30",
+                  "fonte": "virgilio"
+                }
+              ],
+              "fonte": "Virgilio Sport"
+            },
+            {
               "titolo": "Coppa del Mondo – Copper Mountain: Slalom Gigante M (1a manche): 1a manche",
               "categoria": "Altri sport",
               "sottocartella": "Sci alpino",
@@ -10578,6 +10685,13 @@
               "canali": [
                 {
                   "nome": "Eurosport",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-29T18:00",
+                  "fonte": "virgilio"
+                },
+                {
+                  "nome": "Rai Sport",
                   "numero": "",
                   "tipo": "diretta",
                   "orario": "2026-11-29T18:00",
@@ -10603,6 +10717,13 @@
                   "tipo": "diretta",
                   "orario": "2026-11-29T19:30",
                   "fonte": "virgilio"
+                },
+                {
+                  "nome": "Rai Sport",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-29T19:30",
+                  "fonte": "virgilio"
                 }
               ],
               "fonte": "Virgilio Sport"
@@ -10620,6 +10741,13 @@
               "canali": [
                 {
                   "nome": "Eurosport",
+                  "numero": "",
+                  "tipo": "diretta",
+                  "orario": "2026-11-29T21:00",
+                  "fonte": "virgilio"
+                },
+                {
+                  "nome": "Rai Sport",
                   "numero": "",
                   "tipo": "diretta",
                   "orario": "2026-11-29T21:00",
